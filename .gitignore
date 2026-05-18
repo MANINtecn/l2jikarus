@@ -1,0 +1,21 @@
+# Classes Java compiladas
+build/classes/
+**/*.class
+
+# JARs de build (manter libs de dependência)
+game/L2JDev_Master.jar
+login/L2JDev_Login.jar
+
+# Logs de runtime
+game/log/
+login/log/
+*.log
+
+# Credenciais de banco de dados — nunca commitar
+game/config/Database.ini
+login/config/Database.ini
+
+# Arquivos de sistema
+*.vbs.bak
+Thumbs.db
+.DS_Store

@@ -1,0 +1,69 @@
+package net.sf.l2jdev.gameserver.taskmanagers;
+
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.concurrent.ConcurrentHashMap;
+
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+
+public class ItemAppearanceTaskManager implements Runnable
+{
+	private static final Map<Item, Long> ITEMS = new ConcurrentHashMap<>();
+	private static boolean _working = false;
+
+	protected ItemAppearanceTaskManager()
+	{
+		ThreadPool.scheduleAtFixedRate(this, 1000L, 1000L);
+	}
+
+	@Override
+	public void run()
+	{
+		if (!_working)
+		{
+			_working = true;
+			if (!ITEMS.isEmpty())
+			{
+				long currentTime = System.currentTimeMillis();
+				Iterator<Entry<Item, Long>> iterator = ITEMS.entrySet().iterator();
+
+				while (iterator.hasNext())
+				{
+					Entry<Item, Long> entry = iterator.next();
+					if (currentTime > entry.getValue())
+					{
+						entry.getKey().onVisualLifeTimeEnd();
+						iterator.remove();
+					}
+				}
+			}
+
+			_working = false;
+		}
+	}
+
+	public void add(Item item, long endTime)
+	{
+		if (!ITEMS.containsKey(item))
+		{
+			ITEMS.put(item, endTime);
+		}
+	}
+
+	public void remove(Item item)
+	{
+		ITEMS.remove(item);
+	}
+
+	public static ItemAppearanceTaskManager getInstance()
+	{
+		return ItemAppearanceTaskManager.SingletonHolder.INSTANCE;
+	}
+
+	private static class SingletonHolder
+	{
+		protected static final ItemAppearanceTaskManager INSTANCE = new ItemAppearanceTaskManager();
+	}
+}

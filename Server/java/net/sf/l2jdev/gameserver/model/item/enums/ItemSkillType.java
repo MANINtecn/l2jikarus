@@ -1,0 +1,12 @@
+package net.sf.l2jdev.gameserver.model.item.enums;
+
+public enum ItemSkillType
+{
+	NORMAL,
+	ON_ENCHANT,
+	ON_BLESSING,
+	ON_EQUIP,
+	ON_UNEQUIP,
+	ON_CRITICAL_SKILL,
+	ON_MAGIC_SKILL;
+}

@@ -1,0 +1,29 @@
+package net.sf.l2jdev.gameserver.model.skill.targets;
+
+public enum TargetType
+{
+	ADVANCE_BASE,
+	ARTILLERY,
+	DOOR_TREASURE,
+	ENEMY,
+	ENEMY_NOT,
+	ENEMY_ONLY,
+	FORTRESS_FLAGPOLE,
+	GROUND,
+	HOLYTHING,
+	ITEM,
+	NONE,
+	NPC_BODY,
+	OTHERS,
+	PC_BODY,
+	SELF,
+	SUMMON,
+	TARGET,
+	TARGET_OR_SELF,
+	WYVERN_TARGET,
+	MY_MENTOR,
+	MY_PARTY,
+	OWNER_PET,
+	PET,
+	RECALL_CREATURE;
+}

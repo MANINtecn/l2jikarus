@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+
+	<spawn>
+		<npc id="34588" count="1" x="178465" y="20322" z="-3268" heading="32049" respawnTime="60sec" />
+	</spawn>
+
+	<spawn>
+		<territories>
+			<territory name="aden09_2518_01" minZ="-2776" maxZ="-2576">
+				<node x="169328" y="5668" />
+				<node x="170412" y="5672" />
+				<node x="170916" y="6980" />
+				<node x="170912" y="8848" />
+				<node x="170660" y="9060" />
+				<node x="168948" y="9056" />
+				<node x="168960" y="6124" />
+			</territory>
+		</territories>
+		<npc id="20675" count="18" respawnTime="3sec" /> <!-- Tairim -->
+		<npc id="20996" count="18" respawnTime="3sec" /> <!-- Spiteful Ghost of Ruins -->
+		<npc id="20997" count="18" respawnTime="3sec" /> <!-- Soldier of Grief -->
+		<npc id="20999" count="9" respawnTime="3sec" /> <!-- Roving Soul -->
+		<group>
+			<npc id="20999" count="3" x="169528" y="6160" z="-2728" respawnTime="3sec" /> <!-- Roving Soul -->
+			<npc id="20999" count="3" x="170237" y="8325" z="-2728" respawnTime="3sec" /> <!-- Roving Soul -->
+		</group>
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden09_2518_02" minZ="-2776" maxZ="-2576">
+				<node x="171796" y="5724" />
+				<node x="172856" y="5716" />
+				<node x="173280" y="6220" />
+				<node x="173236" y="9032" />
+				<node x="171540" y="9048" />
+				<node x="171296" y="8780" />
+				<node x="171324" y="6972" />
+			</territory>
+		</territories>
+		<npc id="20675" count="18" respawnTime="3sec" /> <!-- Tairim -->
+		<npc id="20996" count="18" respawnTime="3sec" /> <!-- Spiteful Ghost of Ruins -->
+		<npc id="20997" count="18" respawnTime="3sec" /> <!-- Soldier of Grief -->
+		<npc id="20999" count="9" respawnTime="3sec" /> <!-- Roving Soul -->
+		<group>
+			<npc id="20999" count="3" x="171779" y="8402" z="-2728" respawnTime="3sec" /> <!-- Roving Soul -->
+			<npc id="20999" count="3" x="172653" y="6629" z="-2728" respawnTime="3sec" /> <!-- Roving Soul -->
+		</group>
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden09_2518_03" minZ="-2768" maxZ="-2468">
+				<node x="169012" y="9472" />
+				<node x="170672" y="9472" />
+				<node x="170920" y="9716" />
+				<node x="170912" y="11788" />
+				<node x="170252" y="12904" />
+				<node x="169352" y="12900" />
+				<node x="168964" y="12444" />
+			</territory>
+		</territories>
+		<npc id="20675" count="18" respawnTime="3sec" /> <!-- Tairim -->
+		<npc id="20996" count="18" respawnTime="3sec" /> <!-- Spiteful Ghost of Ruins -->
+		<npc id="20997" count="18" respawnTime="3sec" /> <!-- Soldier of Grief -->
+		<npc id="20999" count="9" respawnTime="3sec" /> <!-- Roving Soul -->
+	</spawn>
+	<spawn>
+		<territories>
+			<territory name="aden09_2518_04" minZ="-2768" maxZ="-2468">
+				<node x="171320" y="9764" />
+				<node x="171544" y="9456" />
+				<node x="173260" y="9460" />
+				<node x="173268" y="12444" />
+				<node x="172856" y="12908" />
+				<node x="171844" y="12880" />
+				<node x="171340" y="11768" />
+			</territory>
+			<banned_territory name="aden09_2518_04b" minZ="-2768" maxZ="-1768">
+				<node x="172200" y="12689" />
+				<node x="172304" y="12688" />
+				<node x="172303" y="12786" />
+				<node x="172202" y="12785" />
+			</banned_territory>
+		</territories>
+		<npc id="20675" count="18" respawnTime="3sec" /> <!-- Tairim -->
+		<npc id="20996" count="18" respawnTime="3sec" /> <!-- Spiteful Ghost of Ruins -->
+		<npc id="20997" count="18" respawnTime="3sec" /> <!-- Soldier of Grief -->
+		<npc id="20999" count="9" respawnTime="3sec" /> <!-- Roving Soul -->
+	</spawn>
+	<spawn name="AdenRoyalCemetery_02">
+		<territories>
+			<territory name="royal_2518_02" minZ="-3600" maxZ="-3300">
+				<node x="170223" y="21624" />
+				<node x="168570" y="21617" />
+				<node x="168098" y="21137" />
+				<node x="170332" y="21141" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="6" respawnTime="60sec" />
+			<npc id="23150" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_03">
+		<territories>
+			<territory name="royal_2518_03" minZ="-3600" maxZ="-3300">
+				<node x="170223" y="21624" />
+				<node x="170332" y="21141" />
+				<node x="171608" y="22412" />
+				<node x="171153" y="22516" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="6" respawnTime="60sec" />
+			<npc id="23151" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_04">
+		<territories>
+			<territory name="royal_2518_04" minZ="-3600" maxZ="-3300">
+				<node x="171608" y="22412" />
+				<node x="171153" y="22516" />
+				<node x="171142" y="24190" />
+				<node x="171626" y="24662" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="5" respawnTime="60sec" />
+			<npc id="23152" count="5" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_05">
+		<territories>
+			<territory name="royal_2518_05" minZ="-3600" maxZ="-3300">
+				<node x="171142" y="24190" />
+				<node x="171626" y="24662" />
+				<node x="170254" y="24682" />
+				<node x="170346" y="24203" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23150" count="6" respawnTime="60sec" />
+			<npc id="23152" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_06">
+		<territories>
+			<territory name="royal_2518_06" minZ="-3600" maxZ="-3300">
+				<node x="170254" y="24682" />
+				<node x="170346" y="24203" />
+				<node x="168596" y="22505" />
+				<node x="168089" y="22538" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="5" respawnTime="60sec" />
+			<npc id="23153" count="5" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_07">
+		<territories>
+			<territory name="royal_2518_07" minZ="-3600" maxZ="-3300">
+				<node x="168596" y="22505" />
+				<node x="168089" y="22538" />
+				<node x="168048" y="21132" />
+				<node x="168595" y="21627" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="6" respawnTime="60sec" />
+			<npc id="23150" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_08">
+		<territories>
+			<territory name="royal_2518_08" minZ="-3600" maxZ="-3300">
+				<node x="168717" y="21748" />
+				<node x="170247" y="21779" />
+				<node x="170973" y="22535" />
+				<node x="171010" y="24074" />
+				<node x="170382" y="24069" />
+				<node x="168712" y="22403" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="6" respawnTime="60sec" />
+			<npc id="23151" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_09">
+		<territories>
+			<territory name="royal_2518_09" minZ="-3600" maxZ="-3300">
+				<node x="168088" y="19565" />
+				<node x="168567" y="19066" />
+				<node x="169992" y="19084" />
+				<node x="170201" y="19580" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23152" count="6" respawnTime="60sec" />
+			<npc id="23150" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_10">
+		<territories>
+			<territory name="royal_2518_10" minZ="-3600" maxZ="-3300">
+				<node x="169992" y="19084" />
+				<node x="170201" y="19580" />
+				<node x="171609" y="18162" />
+				<node x="171146" y="17915" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23153" count="6" respawnTime="60sec" />
+			<npc id="23149" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_11">
+		<territories>
+			<territory name="royal_2518_11" minZ="-3600" maxZ="-3300">
+				<node x="171609" y="18162" />
+				<node x="171146" y="17915" />
+				<node x="171154" y="16383" />
+				<node x="171655" y="15897" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="6" respawnTime="60sec" />
+			<npc id="23151" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_12">
+		<territories>
+			<territory name="royal_2518_12" minZ="-3600" maxZ="-3300">
+				<node x="171154" y="16383" />
+				<node x="171655" y="15897" />
+				<node x="170269" y="15896" />
+				<node x="170378" y="16357" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23152" count="6" respawnTime="60sec" />
+			<npc id="23150" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_13">
+		<territories>
+			<territory name="royal_2518_13" minZ="-3600" maxZ="-3300">
+				<node x="170269" y="15896" />
+				<node x="170378" y="16357" />
+				<node x="168562" y="18184" />
+				<node x="168065" y="18091" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23153" count="6" respawnTime="60sec" />
+			<npc id="23149" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_14">
+		<territories>
+			<territory name="royal_2518_14" minZ="-3600" maxZ="-3300">
+				<node x="168562" y="18184" />
+				<node x="168065" y="18091" />
+				<node x="168093" y="19586" />
+				<node x="168551" y="19055" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23150" count="6" respawnTime="60sec" />
+			<npc id="23152" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_15">
+		<territories>
+			<territory name="royal_2518_15" minZ="-3600" maxZ="-3300">
+				<node x="168741" y="18906" />
+				<node x="170004" y="18917" />
+				<node x="171008" y="17884" />
+				<node x="170993" y="16499" />
+				<node x="170364" y="16513" />
+				<node x="168716" y="18175" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="6" respawnTime="60sec" />
+			<npc id="23153" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_16">
+		<territories>
+			<territory name="royal_2518_16" minZ="-3500" maxZ="-3100">
+				<node x="173005" y="20626" />
+				<node x="173005" y="21271" />
+				<node x="175128" y="21284" />
+				<node x="175130" y="20642" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23152" count="6" respawnTime="60sec" />
+			<npc id="23150" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_17">
+		<territories>
+			<territory name="royal_2518_17" minZ="-3500" maxZ="-3100">
+				<node x="175115" y="19992" />
+				<node x="175102" y="19350" />
+				<node x="172999" y="19352" />
+				<node x="173003" y="20008" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="6" respawnTime="60sec" />
+			<npc id="23151" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_18">
+		<territories>
+			<territory name="royal_2518_18" minZ="-3500" maxZ="-3100">
+				<node x="175915" y="19986" />
+				<node x="178108" y="19990" />
+				<node x="178111" y="19344" />
+				<node x="175920" y="19343" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23153" count="6" respawnTime="60sec" />
+			<npc id="23149" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_19">
+		<territories>
+			<territory name="royal_2518_19" minZ="-3500" maxZ="-3100">
+				<node x="175946" y="20618" />
+				<node x="175949" y="21277" />
+				<node x="178066" y="21267" />
+				<node x="178073" y="20611" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23152" count="6" respawnTime="60sec" />
+			<npc id="23150" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_20">
+		<territories>
+			<territory name="royal_2518_20" minZ="-3400" maxZ="-3000">
+				<node x="176260" y="21977" />
+				<node x="176262" y="24973" />
+				<node x="177915" y="24973" />
+				<node x="177906" y="21978" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="6" respawnTime="60sec" />
+			<npc id="23153" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_21">
+		<territories>
+			<territory name="royal_2518_21" minZ="-3400" maxZ="-3000">
+				<node x="177909" y="18710" />
+				<node x="177910" y="15721" />
+				<node x="176263" y="15708" />
+				<node x="176259" y="18707" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23152" count="6" respawnTime="60sec" />
+			<npc id="23150" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_22">
+		<territories>
+			<territory name="royal_2518_22" minZ="-3400" maxZ="-3000">
+				<node x="174714" y="18692" />
+				<node x="174715" y="15710" />
+				<node x="173060" y="15703" />
+				<node x="173064" y="18694" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23149" count="6" respawnTime="60sec" />
+			<npc id="23151" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_23">
+		<territories>
+			<territory name="royal_2518_23" minZ="-3400" maxZ="-3000">
+				<node x="173058" y="21974" />
+				<node x="173059" y="24978" />
+				<node x="174715" y="24975" />
+				<node x="174712" y="21977" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23153" count="6" respawnTime="60sec" />
+			<npc id="23149" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_24">
+		<territories>
+			<territory name="royal_2518_24" minZ="-3300" maxZ="-3000">
+				<node x="179221" y="24906" />
+				<node x="179220" y="24589" />
+				<node x="179846" y="24593" />
+				<node x="179843" y="24880" />
+				<node x="179518" y="24954" />
+				<node x="179553" y="24523" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23158" count="4" respawnTime="60sec" />
+			<npc id="23157" count="4" respawnTime="60sec" />
+			<npc id="23159" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_25">
+		<territories>
+			<territory name="royal_2518_25" minZ="-3300" maxZ="-3000">
+				<node x="182704" y="24615" />
+				<node x="182084" y="24587" />
+				<node x="182084" y="24899" />
+				<node x="182711" y="24891" />
+				<node x="182370" y="24932" />
+				<node x="182410" y="24540" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23158" count="4" respawnTime="60sec" />
+			<npc id="23157" count="4" respawnTime="60sec" />
+			<npc id="23159" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_26">
+		<territories>
+			<territory name="royal_2518_26" minZ="-3300" maxZ="-3000">
+				<node x="182072" y="15760" />
+				<node x="182079" y="16020" />
+				<node x="182703" y="16046" />
+				<node x="182706" y="15729" />
+				<node x="182410" y="15668" />
+				<node x="182372" y="16094" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23158" count="3" respawnTime="60sec" />
+			<npc id="23157" count="3" respawnTime="60sec" />
+			<npc id="23159" count="3" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_27">
+		<territories>
+			<territory name="royal_2518_27" minZ="-3300" maxZ="-3000">
+				<node x="179783" y="16045" />
+				<node x="179788" y="15752" />
+				<node x="179297" y="15744" />
+				<node x="179294" y="16027" />
+				<node x="179552" y="15669" />
+				<node x="179520" y="16099" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23158" count="4" respawnTime="60sec" />
+			<npc id="23157" count="4" respawnTime="60sec" />
+			<npc id="23159" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_28">
+		<territories>
+			<territory name="royal_2518_28m" minZ="-3300" maxZ="-3000">
+				<node x="179230" y="22278" />
+				<node x="179233" y="22008" />
+				<node x="179854" y="21985" />
+				<node x="179850" y="22287" />
+				<node x="179521" y="22355" />
+				<node x="179562" y="21934" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23152" count="3" respawnTime="60sec" />
+			<npc id="23153" count="3" respawnTime="60sec" />
+			<npc id="23154" count="3" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_29">
+		<territories>
+			<territory name="royal_2518_29m" minZ="-3300" maxZ="-3000">
+				<node x="182703" y="21982" />
+				<node x="182713" y="22291" />
+				<node x="182084" y="22275" />
+				<node x="182077" y="21978" />
+				<node x="182407" y="21930" />
+			    <node x="182366" y="22350" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23152" count="3" respawnTime="60sec" />
+			<npc id="23153" count="3" respawnTime="60sec" />
+			<npc id="23154" count="3" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+	<spawn name="AdenRoyalCemetery_30">
+		<territories>
+			<territory name="royal_2518_30m" minZ="-3300" maxZ="-3000">
+				<node x="182704" y="18355" />
+				<node x="182700" y="18626" />
+				<node x="182075" y="18637" />
+				<node x="182086" y="18335" />
+				<node x="182414" y="18278" />
+				<node x="182370" y="18699" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23158" count="4" respawnTime="60sec" />
+			<npc id="23157" count="4" respawnTime="60sec" />
+			<npc id="23159" count="4" respawnTime="60sec" />
+		</group>
+	</spawn>
+
+    <spawn name="AdenRoyalCemetery_31_Mobs">
+    <territories>
+        <territory name="royal_2518_31m" minZ="-3300" maxZ="-3000">
+            <node x="179851" y="18329" />
+            <node x="179855" y="18625" />
+            <node x="179219" y="18626" />
+            <node x="179222" y="18321" />
+            <node x="179557" y="18273" />
+            <node x="179517" y="18688" />
+        </territory>
+    </territories>
+			<npc id="23158" count="4" respawnTime="60sec" />
+			<npc id="23157" count="4" respawnTime="60sec" />
+			<npc id="23159" count="4" respawnTime="60sec" />
+  </spawn>
+
+  <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3300" maxZ="-3000">
+            <node x="179540" y="18484" />
+        </territory>
+    </territories>
+    <npc id="34589" count="1" respawnTime="10min" />
+  </spawn>
+
+  <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3300" maxZ="-3000">
+            <node x="179541" y="22141" />
+        </territory>
+    </territories>
+    <npc id="34589" count="1" respawnTime="10min" />
+  </spawn>
+  
+    <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3300" maxZ="-3000">
+            <node x="179537" y="24731" />
+        </territory>
+    </territories>
+    <npc id="34589" count="1" respawnTime="10min" />
+  </spawn>
+  
+    <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3300" maxZ="-3000">
+            <node x="182388" y="24739" />
+        </territory>
+    </territories>
+    <npc id="34589" count="1" respawnTime="10min" />
+  </spawn>
+
+    <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3300" maxZ="-3000">
+            <node x="182390" y="22145" />
+        </territory>
+    </territories>
+    <npc id="34589" count="1" respawnTime="10min" />
+  </spawn>
+
+    <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3300" maxZ="-3000">
+            <node x="182392" y="18483" />
+        </territory>
+    </territories>
+    <npc id="34589" count="1" respawnTime="10min" />
+  </spawn>
+  
+      <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3300" maxZ="-3000">
+            <node x="182390" y="15888" />
+        </territory>
+    </territories>
+    <npc id="34589" count="1" respawnTime="10min" />
+  </spawn>
+  
+      <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3300" maxZ="-3000">
+            <node x="179543" y="15883" />
+        </territory>
+    </territories>
+    <npc id="34589" count="1" respawnTime="10min" />
+  </spawn>
+  
+        <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3600" maxZ="-3300">
+            <node x="177103" y="23476" />
+        </territory>
+    </territories>
+    <npc id="34590" count="1" respawnTime="10min" />
+  </spawn>
+  
+       <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3600" maxZ="-3300">
+            <node x="173880" y="17202" />
+        </territory>
+    </territories>
+    <npc id="34590" count="1" respawnTime="10min" />
+  </spawn>
+  
+       <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3600" maxZ="-3300">
+            <node x="173883" y="23471" />
+        </territory>
+    </territories>
+    <npc id="34590" count="1" respawnTime="10min" />
+  </spawn>
+  
+       <spawn name="AdenRoyalCemetery_Memorial">
+    <territories>
+        <territory name="memorial_center" minZ="-3600" maxZ="-3300">
+            <node x="177100" y="17203" />
+        </territory>
+    </territories>
+    <npc id="34590" count="1" respawnTime="10min" />
+  </spawn>
+  
+</list>

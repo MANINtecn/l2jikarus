@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+
+	<spawn name="SchuttgartWolfmanCamp_02">
+		<territories>
+			<territory name="schuttgart_2313_02w" minZ="-1700" maxZ="-1200">
+				<node x="113095" y="-160039" />
+				<node x="113527" y="-161230" />
+				<node x="114146" y="-159415" />
+				<node x="114943" y="-160509" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23143" count="4" respawnTime="5sec" />
+			<npc id="23144" count="3" respawnTime="5sec" />
+			<npc id="23145" count="4" respawnTime="5sec" />
+			<npc id="23141" count="1" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+	<spawn name="SchuttgartWolfmanCamp_03">
+		<territories>
+			<territory name="schuttgart_2313_03w" minZ="-1750" maxZ="-1300">
+				<node x="112220" y="-158579" />
+				<node x="113028" y="-159826" />
+				<node x="113305" y="-158042" />
+				<node x="113779" y="-159414" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23143" count="4" respawnTime="5sec" />
+			<npc id="23144" count="3" respawnTime="5sec" />
+			<npc id="23145" count="3" respawnTime="5sec" />
+			<npc id="23141" count="1" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+	<spawn name="SchuttgartWolfmanCamp_05">
+		<territories>
+			<territory name="schuttgart_2313_05w" minZ="-1750" maxZ="-1300">
+				<node x="108962" y="-156143" />
+				<node x="109876" y="-157233" />
+				<node x="110154" y="-154809" />
+				<node x="111575" y="-155874" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23143" count="5" respawnTime="5sec" />
+			<npc id="23144" count="4" respawnTime="5sec" />
+			<npc id="23145" count="4" respawnTime="5sec" />
+			<npc id="23141" count="2" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+	<spawn name="SchuttgartWolfmanCamp_06">
+		<territories>
+			<territory name="schuttgart_2313_06w" minZ="-1700" maxZ="-1300">
+				<node x="114474" y="-156091" />
+				<node x="114661" y="-157858" />
+				<node x="116055" y="-157619" />
+				<node x="116371" y="-156041" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23143" count="7" respawnTime="5sec" />
+			<npc id="23144" count="6" respawnTime="5sec" />
+			<npc id="23145" count="6" respawnTime="5sec" />
+			<npc id="23141" count="3" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+	<spawn name="SchuttgartWolfmanCamp_07">
+		<territories>
+			<territory name="schuttgart_2313_07w" minZ="-1750" maxZ="-1400">
+				<node x="116287" y="-156190" />
+				<node x="116306" y="-157411" />
+				<node x="117919" y="-156307" />
+				<node x="117930" y="-157732" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23143" count="7" respawnTime="5sec" />
+			<npc id="23144" count="6" respawnTime="5sec" />
+			<npc id="23145" count="6" respawnTime="5sec" />
+			<npc id="23141" count="3" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+	<spawn name="SchuttgartWolfmanCamp_08">
+		<territories>
+			<territory name="schuttgart_2313_08w" minZ="-1750" maxZ="-1400">
+				<node x="117813" y="-156273" />
+				<node x="117919" y="-158305" />
+				<node x="119022" y="-158605" />
+				<node x="119107" y="-155916" />
+				<node x="119612" y="-156374" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23143" count="4" respawnTime="5sec" />
+			<npc id="23144" count="4" respawnTime="5sec" />
+			<npc id="23145" count="4" respawnTime="5sec" />
+			<npc id="23141" count="1" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+	<spawn name="SchuttgartWolfmanCamp_09">
+		<territories>
+			<territory name="schuttgart_2313_09w" minZ="-1750" maxZ="-1400">
+				<node x="119022" y="-158605" />
+				<node x="119495" y="-157830" />
+				<node x="120119" y="-159473" />
+				<node x="121077" y="-157904" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23143" count="6" respawnTime="5sec" />
+			<npc id="23144" count="5" respawnTime="5sec" />
+			<npc id="23145" count="5" respawnTime="5sec" />
+			<npc id="23141" count="2" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+	<spawn name="SchuttgartWolfmanCamp_10">
+		<territories>
+			<territory name="schuttgart_2313_10w" minZ="-1750" maxZ="-1400">
+				<node x="111542" y="-158036" />
+				<node x="112342" y="-158684" />
+				<node x="113139" y="-157637" />
+				<node x="113157" y="-158271" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23143" count="2" respawnTime="5sec" />
+			<npc id="23144" count="2" respawnTime="5sec" />
+			<npc id="23145" count="2" respawnTime="5sec" />
+			<npc id="23141" count="1" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+	<spawn name="SchuttgartWolfmanCamp_11">
+		<territories>
+			<territory name="schuttgart_2313_11w" minZ="-1600" maxZ="-1200">
+				<node x="114695" y="-154008" />
+				<node x="115156" y="-152787" />
+				<node x="115820" y="-154593" />
+				<node x="116573" y="-154438" />
+				<node x="116720" y="-151819" />
+				<node x="117991" y="-152062" />
+				<node x="118338" y="-153558" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23138" count="20" respawnTime="5sec" />
+			<npc id="23139" count="20" respawnTime="5sec" />
+			<npc id="23140" count="20" respawnTime="50sec" />
+			<npc id="23141" count="10" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+	<spawn name="SchuttgartWolfmanCamp_12">
+		<territories>
+			<territory name="schuttgart_2313_12w" minZ="-1650" maxZ="-1300">
+				<node x="109470" y="-151518" />
+				<node x="110052" y="-153054" />
+				<node x="110280" y="-150175" />
+				<node x="111467" y="-154256" />
+				<node x="112578" y="-154241" />
+				<node x="112856" y="-150143" />
+				<node x="114208" y="-151385" />
+			</territory>
+		</territories>
+		<group>
+			<npc id="23138" count="25" respawnTime="5sec" />
+			<npc id="23139" count="25" respawnTime="5sec" />
+			<npc id="23140" count="25" respawnTime="50sec" />
+			<npc id="23141" count="11" respawnTime="50sec" />
+		</group>
+	</spawn>
+
+</list>

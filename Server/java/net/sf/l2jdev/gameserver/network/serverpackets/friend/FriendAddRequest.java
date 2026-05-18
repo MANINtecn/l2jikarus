@@ -1,0 +1,24 @@
+package net.sf.l2jdev.gameserver.network.serverpackets.friend;
+
+import net.sf.l2jdev.commons.network.WritableBuffer;
+import net.sf.l2jdev.gameserver.network.GameClient;
+import net.sf.l2jdev.gameserver.network.ServerPackets;
+import net.sf.l2jdev.gameserver.network.serverpackets.ServerPacket;
+
+public class FriendAddRequest extends ServerPacket
+{
+	private final String _requestorName;
+
+	public FriendAddRequest(String requestorName)
+	{
+		this._requestorName = requestorName;
+	}
+
+	@Override
+	public void writeImpl(GameClient client, WritableBuffer buffer)
+	{
+		ServerPackets.FRIEND_ADD_REQUEST.writeId(this, buffer);
+		buffer.writeByte(0);
+		buffer.writeString(this._requestorName);
+	}
+}

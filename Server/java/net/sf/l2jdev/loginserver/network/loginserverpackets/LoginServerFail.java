@@ -1,0 +1,18 @@
+package net.sf.l2jdev.loginserver.network.loginserverpackets;
+
+import net.sf.l2jdev.commons.network.base.BaseWritablePacket;
+
+public class LoginServerFail extends BaseWritablePacket {
+   public static final int REASON_IP_BANNED = 1;
+   public static final int REASON_IP_RESERVED = 2;
+   public static final int REASON_WRONG_HEXID = 3;
+   public static final int REASON_ID_RESERVED = 4;
+   public static final int REASON_NO_FREE_ID = 5;
+   public static final int NOT_AUTHED = 6;
+   public static final int REASON_ALREADY_LOGGED8IN = 7;
+
+   public LoginServerFail(int reason) {
+      this.writeByte(1);
+      this.writeByte(reason);
+   }
+}
