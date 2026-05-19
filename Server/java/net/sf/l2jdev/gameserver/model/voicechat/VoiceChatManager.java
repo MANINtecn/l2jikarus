@@ -7,7 +7,9 @@ import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -21,12 +23,15 @@ public class VoiceChatManager
 {
 	private static final Logger LOGGER = Logger.getLogger(VoiceChatManager.class.getName());
 
-	private static final int PORT               = 7778;
+	private static final int PORT                  = 7778;
 	private static final int BROADCAST_INTERVAL_MS = 500;
-	private static final int VOICE_RANGE        = 200; // unidades L2
+	private static final int VOICE_RANGE           = 200;
 
 	private final Set<String> _mutedPlayers = ConcurrentHashMap.newKeySet();
 	private final List<ClientSession> _sessions = new CopyOnWriteArrayList<>();
+	// Mapeia cada sessão TCP ao nome do personagem resolvido — evita que 2 contas
+	// do mesmo IP recebam sempre o mesmo personagem (findFirst seria ambíguo)
+	private final Map<ClientSession, String> _sessionPlayer = new ConcurrentHashMap<>();
 	private ServerSocket _serverSocket;
 
 	public static VoiceChatManager getInstance()
@@ -69,11 +74,20 @@ public class VoiceChatManager
 
 	private void broadcast()
 	{
-		_sessions.removeIf(s -> !s.isAlive());
+		// Remove sessões mortas e limpa seus caches
+		_sessions.removeIf(s ->
+		{
+			if (!s.isAlive())
+			{
+				_sessionPlayer.remove(s);
+				return true;
+			}
+			return false;
+		});
 
 		for (ClientSession session : _sessions)
 		{
-			Player player = resolvePlayer(session.getIp());
+			Player player = resolvePlayer(session);
 			if (player == null || _mutedPlayers.contains(player.getName()))
 				continue;
 
@@ -143,12 +157,37 @@ public class VoiceChatManager
 		}
 	}
 
-	private Player resolvePlayer(String ip)
+	// Resolve o personagem para uma sessão TCP.
+	// Usa cache para garantir que 2 sessões do mesmo IP recebam personagens distintos.
+	private Player resolvePlayer(ClientSession session)
 	{
-		return World.getInstance().getPlayers().stream()
-			.filter(p -> p.getClient() != null && ip.equals(p.getClient().getIp()))
-			.findFirst()
-			.orElse(null);
+		String ip = session.getIp();
+
+		// Verifica se já temos um personagem cacheado para esta sessão
+		String cached = _sessionPlayer.get(session);
+		if (cached != null)
+		{
+			Player p = World.getInstance().getPlayers().stream()
+				.filter(pl -> pl.getName().equals(cached) && pl.getClient() != null)
+				.findFirst().orElse(null);
+			if (p != null)
+				return p;
+			// Personagem saiu — limpa o cache desta sessão
+			_sessionPlayer.remove(session);
+		}
+
+		// Personagens deste IP já atribuídos a outras sessões
+		Set<String> taken = new HashSet<>(_sessionPlayer.values());
+
+		Player p = World.getInstance().getPlayers().stream()
+			.filter(pl -> pl.getClient() != null && ip.equals(pl.getClient().getIp()))
+			.filter(pl -> !taken.contains(pl.getName()))
+			.findFirst().orElse(null);
+
+		if (p != null)
+			_sessionPlayer.put(session, p.getName());
+
+		return p;
 	}
 
 	public void toggleMute(String playerName)
