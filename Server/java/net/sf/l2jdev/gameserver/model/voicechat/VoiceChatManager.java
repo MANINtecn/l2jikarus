@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -20,9 +21,9 @@ public class VoiceChatManager
 {
 	private static final Logger LOGGER = Logger.getLogger(VoiceChatManager.class.getName());
 
-	private static final int PORT = 7778;
+	private static final int PORT               = 7778;
 	private static final int BROADCAST_INTERVAL_MS = 500;
-	private static final int VOICE_RANGE = 2000; // unidades L2 — ligeiramente maior que range de party
+	private static final int VOICE_RANGE        = 200; // unidades L2
 
 	private final Set<String> _mutedPlayers = ConcurrentHashMap.newKeySet();
 	private final List<ClientSession> _sessions = new CopyOnWriteArrayList<>();
@@ -76,10 +77,30 @@ public class VoiceChatManager
 			if (player == null || _mutedPlayers.contains(player.getName()))
 				continue;
 
-			List<Player> nearby = World.getInstance().getVisibleObjectsInRange(player, Player.class, VOICE_RANGE);
+			// Jogadores próximos dentro do range
+			List<Player> nearby = new ArrayList<>(
+				World.getInstance().getVisibleObjectsInRange(player, Player.class, VOICE_RANGE));
+
+			// Membros de party sempre incluídos, independente da distância
+			var party = player.getParty();
+			if (party != null)
+			{
+				for (Player member : party.getMembers())
+				{
+					if (member != player && !nearby.contains(member))
+						nearby.add(member);
+				}
+			}
 
 			StringBuilder sb = new StringBuilder();
-			sb.append("SELF:").append(player.getX()).append(',').append(player.getY()).append(',').append(player.getZ()).append('\n');
+
+			// SELF:nome:x,y,z
+			sb.append("SELF:").append(player.getName()).append(':')
+			  .append(player.getX()).append(',')
+			  .append(player.getY()).append(',')
+			  .append(player.getZ()).append('\n');
+
+			// NEARBY:nome:x,y,z;nome:x,y,z
 			sb.append("NEARBY:");
 			boolean first = true;
 			for (Player p : nearby)
@@ -88,10 +109,36 @@ public class VoiceChatManager
 					continue;
 				if (!first)
 					sb.append(';');
-				sb.append(p.getName()).append(':').append(p.getX()).append(',').append(p.getY()).append(',').append(p.getZ());
+				sb.append(p.getName()).append(':')
+				  .append(p.getX()).append(',')
+				  .append(p.getY()).append(',')
+				  .append(p.getZ());
 				first = false;
 			}
 			sb.append('\n');
+
+			// PARTY:partyId:nome1;nome2  ou  PARTY: (sem party)
+			if (party != null)
+			{
+				int partyId = party.getLeader().getObjectId();
+				sb.append("PARTY:").append(partyId).append(':');
+				boolean firstMember = true;
+				for (Player member : party.getMembers())
+				{
+					if (member == player || _mutedPlayers.contains(member.getName()))
+						continue;
+					if (!firstMember)
+						sb.append(';');
+					sb.append(member.getName());
+					firstMember = false;
+				}
+			}
+			else
+			{
+				sb.append("PARTY:");
+			}
+			sb.append('\n');
+
 			session.send(sb.toString());
 		}
 	}
