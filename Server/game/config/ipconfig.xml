@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- External/Internal IP configuration for the Game Server -->
+<!-- address = public IP advertised to clients connecting from the internet -->
+<gameserver address="192.99.110.164" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../data/xsd/ipconfig.xsd">
+	<!-- Localhost connections stay on loopback -->
+	<define subnet="127.0.0.0/8" address="127.0.0.1" />
+	<!-- LAN connections — players on the same local network use internal IP -->
+	<define subnet="10.0.0.0/8" address="10.0.0.0" />
+	<define subnet="172.16.0.0/12" address="172.16.0.0" />
+	<define subnet="192.168.0.0/16" address="192.168.0.0" />
+</gameserver>
