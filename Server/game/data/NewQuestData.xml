@@ -7,6 +7,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -21,6 +22,7 @@
 		<conditions>
 			<param name="preQuestId">10001</param>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -40,6 +42,7 @@
 		<conditions>
 			<param name="preQuestId">10002</param>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -61,6 +64,7 @@
 		<conditions>
 			<param name="preQuestId">10003</param>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -80,6 +84,7 @@
 		<conditions>
 			<param name="preQuestId">10004</param>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -100,6 +105,7 @@
 		<conditions>
 			<param name="preQuestId">10005</param>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -125,6 +131,7 @@
 		<conditions>
 			<param name="preQuestId">10006</param>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -143,6 +150,7 @@
 		<conditions>
 			<param name="preQuestId">10007</param>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -162,6 +170,7 @@
 		<conditions>
 			<param name="preQuestId">10008</param>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -184,6 +193,7 @@
 		<conditions>
 			<param name="preQuestId">10009</param>
 			<param name="classIds">0;1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -205,13 +215,14 @@
 		<conditions>
 			<param name="preQuestId">10010</param>
 			<param name="classIds">1;4;7;2;3;5;6;8;9</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -229,6 +240,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -243,6 +255,7 @@
 		<conditions>
 			<param name="preQuestId">10012</param>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -262,6 +275,7 @@
 		<conditions>
 			<param name="preQuestId">10013</param>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -283,6 +297,7 @@
 		<conditions>
 			<param name="preQuestId">10014</param>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -302,6 +317,7 @@
 		<conditions>
 			<param name="preQuestId">10015</param>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -322,6 +338,7 @@
 		<conditions>
 			<param name="preQuestId">10016</param>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -347,6 +364,7 @@
 		<conditions>
 			<param name="preQuestId">10017</param>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -365,6 +383,7 @@
 		<conditions>
 			<param name="preQuestId">10018</param>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -384,6 +403,7 @@
 		<conditions>
 			<param name="preQuestId">10019</param>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -406,6 +426,7 @@
 		<conditions>
 			<param name="preQuestId">10020</param>
 			<param name="classIds">10;11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -427,13 +448,14 @@
 		<conditions>
 			<param name="preQuestId">10021</param>
 			<param name="classIds">11;15;12;13;14;16;17</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -451,6 +473,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">18;19;22;25;26;29;20;21;23;24;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -465,6 +488,7 @@
 		<conditions>
 			<param name="preQuestId">10023</param>
 			<param name="classIds">18;19;22;20;21;23;24</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -484,6 +508,7 @@
 		<conditions>
 			<param name="preQuestId">10023</param>
 			<param name="classIds">25;26;29;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -505,6 +530,7 @@
 		<conditions>
 			<param name="preQuestId">10024</param>
 			<param name="classIds">18;19;22;20;21;23;24</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -524,6 +550,7 @@
 		<conditions>
 			<param name="preQuestId">10025</param>
 			<param name="classIds">25;26;29;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -546,6 +573,7 @@
 			<param name="preQuestId">10026;10027</param>
 			<param name="classIds">18;19;22;25;26;29;20;21;23;24;27;28;30</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -565,6 +593,7 @@
 		<conditions>
 			<param name="preQuestId">10028</param>
 			<param name="classIds">18;19;22;25;26;29;20;21;23;24;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -585,6 +614,7 @@
 		<conditions>
 			<param name="preQuestId">10029</param>
 			<param name="classIds">18;19;22;25;26;29;20;21;23;24;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -610,6 +640,7 @@
 		<conditions>
 			<param name="preQuestId">10030</param>
 			<param name="classIds">18;19;22;25;26;29;20;21;23;24;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -628,6 +659,7 @@
 		<conditions>
 			<param name="preQuestId">10031</param>
 			<param name="classIds">18;19;22;25;26;29;20;21;23;24;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -647,6 +679,7 @@
 		<conditions>
 			<param name="preQuestId">10032</param>
 			<param name="classIds">18;19;22;25;26;29;20;21;23;24;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -669,6 +702,7 @@
 		<conditions>
 			<param name="preQuestId">10033</param>
 			<param name="classIds">18;19;22;25;26;29;20;21;23;24;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -690,13 +724,14 @@
 		<conditions>
 			<param name="preQuestId">10034</param>
 			<param name="classIds">19;22;26;29;20;21;23;24;27;28;30</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -714,6 +749,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">31;32;35;38;39;42;33;34;36;37;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -728,6 +764,7 @@
 		<conditions>
 			<param name="preQuestId">10036</param>
 			<param name="classIds">31;32;35;33;34;36;37</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -747,6 +784,7 @@
 		<conditions>
 			<param name="preQuestId">10036</param>
 			<param name="classIds">38;39;42;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -766,6 +804,7 @@
 		<conditions>
 			<param name="preQuestId">10037</param>
 			<param name="classIds">31;32;35;33;34;36;37</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -787,6 +826,7 @@
 		<conditions>
 			<param name="preQuestId">10038</param>
 			<param name="classIds">38;39;42;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -809,6 +849,7 @@
 			<param name="preQuestId">10039;10040</param>
 			<param name="classIds">31;32;35;38;39;42;33;34;36;37;40;41;43</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -828,6 +869,7 @@
 		<conditions>
 			<param name="preQuestId">10041</param>
 			<param name="classIds">31;32;35;38;39;42;33;34;36;37;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -848,6 +890,7 @@
 		<conditions>
 			<param name="preQuestId">10042</param>
 			<param name="classIds">31;32;35;38;39;42;33;34;36;37;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -873,6 +916,7 @@
 		<conditions>
 			<param name="preQuestId">10043</param>
 			<param name="classIds">31;32;35;38;39;42;33;34;36;37;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -891,6 +935,7 @@
 		<conditions>
 			<param name="preQuestId">10044</param>
 			<param name="classIds">31;32;35;38;39;42;33;34;36;37;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -910,6 +955,7 @@
 		<conditions>
 			<param name="preQuestId">10045</param>
 			<param name="classIds">31;32;35;38;39;42;33;34;36;37;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -932,6 +978,7 @@
 		<conditions>
 			<param name="preQuestId">10046</param>
 			<param name="classIds">31;32;35;38;39;42;33;34;36;37;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -953,13 +1000,14 @@
 		<conditions>
 			<param name="preQuestId">10047</param>
 			<param name="classIds">32;35;39;42;33;34;36;37;40;41;43</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -977,6 +1025,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -991,6 +1040,7 @@
 		<conditions>
 			<param name="preQuestId">10049</param>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1010,6 +1060,7 @@
 		<conditions>
 			<param name="preQuestId">10050</param>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1031,6 +1082,7 @@
 		<conditions>
 			<param name="preQuestId">10051</param>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1050,6 +1102,7 @@
 		<conditions>
 			<param name="preQuestId">10052</param>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1070,6 +1123,7 @@
 		<conditions>
 			<param name="preQuestId">10053</param>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1095,6 +1149,7 @@
 		<conditions>
 			<param name="preQuestId">10054</param>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1113,6 +1168,7 @@
 		<conditions>
 			<param name="preQuestId">10055</param>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1132,6 +1188,7 @@
 		<conditions>
 			<param name="preQuestId">10056</param>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1154,6 +1211,7 @@
 		<conditions>
 			<param name="preQuestId">10057</param>
 			<param name="classIds">44;45;47;49;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1175,13 +1233,14 @@
 		<conditions>
 			<param name="preQuestId">10058</param>
 			<param name="classIds">45;47;50;46;48;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -1199,6 +1258,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -1213,6 +1273,7 @@
 		<conditions>
 			<param name="preQuestId">10060</param>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1232,6 +1293,7 @@
 		<conditions>
 			<param name="preQuestId">10061</param>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1253,6 +1315,7 @@
 		<conditions>
 			<param name="preQuestId">10062</param>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1272,6 +1335,7 @@
 		<conditions>
 			<param name="preQuestId">10063</param>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1292,6 +1356,7 @@
 		<conditions>
 			<param name="preQuestId">10064</param>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1317,6 +1382,7 @@
 		<conditions>
 			<param name="preQuestId">10065</param>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1335,6 +1401,7 @@
 		<conditions>
 			<param name="preQuestId">10066</param>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1354,6 +1421,7 @@
 		<conditions>
 			<param name="preQuestId">10067</param>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1376,6 +1444,7 @@
 		<conditions>
 			<param name="preQuestId">10068</param>
 			<param name="classIds">217;218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1397,13 +1466,14 @@
 		<conditions>
 			<param name="preQuestId">10069</param>
 			<param name="classIds">218;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -1421,6 +1491,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -1435,6 +1506,7 @@
 		<conditions>
 			<param name="preQuestId">10071</param>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1454,6 +1526,7 @@
 		<conditions>
 			<param name="preQuestId">10072</param>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1475,6 +1548,7 @@
 		<conditions>
 			<param name="preQuestId">10073</param>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1494,6 +1568,7 @@
 		<conditions>
 			<param name="preQuestId">10074</param>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1514,6 +1589,7 @@
 		<conditions>
 			<param name="preQuestId">10075</param>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1539,6 +1615,7 @@
 		<conditions>
 			<param name="preQuestId">10076</param>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1557,6 +1634,7 @@
 		<conditions>
 			<param name="preQuestId">10077</param>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1576,6 +1654,7 @@
 		<conditions>
 			<param name="preQuestId">10078</param>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1598,6 +1677,7 @@
 		<conditions>
 			<param name="preQuestId">10079</param>
 			<param name="classIds">53;54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1619,13 +1699,14 @@
 		<conditions>
 			<param name="preQuestId">10080</param>
 			<param name="classIds">54;56;55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -1643,6 +1724,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -1657,6 +1739,7 @@
 		<conditions>
 			<param name="preQuestId">10082</param>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1676,6 +1759,7 @@
 		<conditions>
 			<param name="preQuestId">10083</param>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1697,6 +1781,7 @@
 		<conditions>
 			<param name="preQuestId">10084</param>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1716,6 +1801,7 @@
 		<conditions>
 			<param name="preQuestId">10085</param>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1736,6 +1822,7 @@
 		<conditions>
 			<param name="preQuestId">10086</param>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1761,6 +1848,7 @@
 		<conditions>
 			<param name="preQuestId">10087</param>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1779,6 +1867,7 @@
 		<conditions>
 			<param name="preQuestId">10088</param>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1798,6 +1887,7 @@
 		<conditions>
 			<param name="preQuestId">10089</param>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1820,6 +1910,7 @@
 		<conditions>
 			<param name="preQuestId">10090</param>
 			<param name="classIds">192;125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1841,13 +1932,14 @@
 		<conditions>
 			<param name="preQuestId">10091</param>
 			<param name="classIds">125;126;193;127;130;194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -1865,6 +1957,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -1879,6 +1972,7 @@
 		<conditions>
 			<param name="preQuestId">10093</param>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1898,6 +1992,7 @@
 		<conditions>
 			<param name="preQuestId">10094</param>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1919,6 +2014,7 @@
 		<conditions>
 			<param name="preQuestId">10095</param>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1938,6 +2034,7 @@
 		<conditions>
 			<param name="preQuestId">10096</param>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1958,6 +2055,7 @@
 		<conditions>
 			<param name="preQuestId">10097</param>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -1983,6 +2081,7 @@
 		<conditions>
 			<param name="preQuestId">10098</param>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2001,6 +2100,7 @@
 		<conditions>
 			<param name="preQuestId">10099</param>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2020,6 +2120,7 @@
 		<conditions>
 			<param name="preQuestId">10100</param>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2042,6 +2143,7 @@
 		<conditions>
 			<param name="preQuestId">10101</param>
 			<param name="classIds">196;197;200;201;204;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2063,13 +2165,14 @@
 		<conditions>
 			<param name="preQuestId">10102</param>
 			<param name="classIds">197;201;205;198;202;206</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -2088,6 +2191,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -2102,6 +2206,7 @@
 		<conditions>
 			<param name="preQuestId">10104</param>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2121,6 +2226,7 @@
 		<conditions>
 			<param name="preQuestId">10105</param>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2142,6 +2248,7 @@
 		<conditions>
 			<param name="preQuestId">10106</param>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2161,6 +2268,7 @@
 		<conditions>
 			<param name="preQuestId">10107</param>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2181,6 +2289,7 @@
 		<conditions>
 			<param name="preQuestId">10108</param>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2206,6 +2315,7 @@
 		<conditions>
 			<param name="preQuestId">10109</param>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2224,6 +2334,7 @@
 		<conditions>
 			<param name="preQuestId">10110</param>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2243,6 +2354,7 @@
 		<conditions>
 			<param name="preQuestId">10111</param>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2265,6 +2377,7 @@
 		<conditions>
 			<param name="preQuestId">10112</param>
 			<param name="classIds">208;209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2286,13 +2399,14 @@
 		<conditions>
 			<param name="preQuestId">10113</param>
 			<param name="classIds">209;210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -2311,6 +2425,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -2325,6 +2440,7 @@
 		<conditions>
 			<param name="preQuestId">10115</param>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2344,6 +2460,7 @@
 		<conditions>
 			<param name="preQuestId">10116</param>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2365,6 +2482,7 @@
 		<conditions>
 			<param name="preQuestId">10117</param>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2384,6 +2502,7 @@
 		<conditions>
 			<param name="preQuestId">10118</param>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2404,6 +2523,7 @@
 		<conditions>
 			<param name="preQuestId">10119</param>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2429,6 +2549,7 @@
 		<conditions>
 			<param name="preQuestId">10120</param>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2447,6 +2568,7 @@
 		<conditions>
 			<param name="preQuestId">10121</param>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2466,6 +2588,7 @@
 		<conditions>
 			<param name="preQuestId">10122</param>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2488,6 +2611,7 @@
 		<conditions>
 			<param name="preQuestId">10123</param>
 			<param name="classIds">221;222;225;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2509,13 +2633,14 @@
 		<conditions>
 			<param name="preQuestId">10124</param>
 			<param name="classIds">222;226;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -2534,6 +2659,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">236;237;238;240;241;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -2548,6 +2674,7 @@
 		<conditions>
 			<param name="preQuestId">10126</param>
 			<param name="classIds">236;237;238;240;241;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -2561,6 +2688,7 @@
 		<conditions>
 			<param name="preQuestId">10127</param>
 			<param name="classIds">240;241;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2579,6 +2707,7 @@
 		<conditions>
 			<param name="preQuestId">10127</param>
 			<param name="classIds">236;237;238</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2601,6 +2730,7 @@
 			<param name="preQuestId">10128;10129</param>
 			<param name="classIds">236;237;238;240;241;242</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2622,6 +2752,7 @@
 		<conditions>
 			<param name="preQuestId">10130</param>
 			<param name="classIds">236;237;238;240;241;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2643,6 +2774,7 @@
 		<conditions>
 			<param name="preQuestId">10131</param>
 			<param name="classIds">236;237;238;240;241;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2667,6 +2799,7 @@
 		<conditions>
 			<param name="preQuestId">10132</param>
 			<param name="classIds">236;237;238;240;241;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2686,6 +2819,7 @@
 		<conditions>
 			<param name="preQuestId">10133</param>
 			<param name="classIds">236;237;238;240;241;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2709,6 +2843,7 @@
 		<conditions>
 			<param name="preQuestId">10134</param>
 			<param name="classIds">236;237;238;240;241;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2730,13 +2865,14 @@
 		<conditions>
 			<param name="preQuestId">10135</param>
 			<param name="classIds">237;238;241;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -2755,6 +2891,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">247;248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -2769,6 +2906,7 @@
 		<conditions>
 			<param name="preQuestId">10137</param>
 			<param name="classIds">247;248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -2782,6 +2920,7 @@
 		<conditions>
 			<param name="preQuestId">10138</param>
 			<param name="classIds">247;248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2801,6 +2940,7 @@
 		<conditions>
 			<param name="preQuestId">10139</param>
 			<param name="classIds">247;248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2822,6 +2962,7 @@
 		<conditions>
 			<param name="preQuestId">10140</param>
 			<param name="classIds">247;248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2839,6 +2980,7 @@
 		<conditions>
 			<param name="preQuestId">10141</param>
 			<param name="classIds">247;248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2864,6 +3006,7 @@
 		<conditions>
 			<param name="preQuestId">10142</param>
 			<param name="classIds">247;248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2880,6 +3023,7 @@
 		<conditions>
 			<param name="preQuestId">10143</param>
 			<param name="classIds">247;248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2902,6 +3046,7 @@
 		<conditions>
 			<param name="preQuestId">10144</param>
 			<param name="classIds">247;248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2923,13 +3068,14 @@
 		<conditions>
 			<param name="preQuestId">10145</param>
 			<param name="classIds">248;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -2947,6 +3093,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">251;252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -2961,6 +3108,7 @@
 		<conditions>
 			<param name="preQuestId">10147</param>
 			<param name="classIds">251;252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -2975,6 +3123,7 @@
 		<conditions>
 			<param name="preQuestId">10148</param>
 			<param name="classIds">251;252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -2995,6 +3144,7 @@
 		<conditions>
 			<param name="preQuestId">10149</param>
 			<param name="classIds">251;252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3016,6 +3166,7 @@
 		<conditions>
 			<param name="preQuestId">10150</param>
 			<param name="classIds">251;252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3036,6 +3187,7 @@
 		<conditions>
 			<param name="preQuestId">10151</param>
 			<param name="classIds">251;252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3060,6 +3212,7 @@
 		<conditions>
 			<param name="preQuestId">10152</param>
 			<param name="classIds">251;252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3080,6 +3233,7 @@
 		<conditions>
 			<param name="preQuestId">10153</param>
 			<param name="classIds">251;252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3102,6 +3256,7 @@
 		<conditions>
 			<param name="preQuestId">10154</param>
 			<param name="classIds">251;252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3123,13 +3278,14 @@
 		<conditions>
 			<param name="preQuestId">10155</param>
 			<param name="classIds">252;253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -3148,6 +3304,7 @@
 		</locations>
 		<conditions>
 			<param name="classIds">260;261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<goals>
 			<param name="goalCount">1</param>
@@ -3162,6 +3319,7 @@
 		<conditions>
 			<param name="preQuestId">10157</param>
 			<param name="classIds">260;261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3181,6 +3339,7 @@
 		<conditions>
 			<param name="preQuestId">10158</param>
 			<param name="classIds">260;261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3203,6 +3362,7 @@
 		<conditions>
 			<param name="preQuestId">10159</param>
 			<param name="classIds">260;261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3224,6 +3384,7 @@
 		<conditions>
 			<param name="preQuestId">10160</param>
 			<param name="classIds">260;261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3250,6 +3411,7 @@
 		<conditions>
 			<param name="preQuestId">10161</param>
 			<param name="classIds">260;261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3274,6 +3436,7 @@
 		<conditions>
 			<param name="preQuestId">10162</param>
 			<param name="classIds">260;261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3295,13 +3458,14 @@
 		<conditions>
 			<param name="preQuestId">10163</param>
 			<param name="classIds">261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
 				<item id="91934" count="1" />
 				<item id="91767" count="1" />
 				<item id="92020" count="1" />
-				<item id="93330" count="1" />
+
 				<item id="93685" count="1" />
 				<item id="91912" count="50" />
 			</items>
@@ -3322,6 +3486,7 @@
 			<param name="minLevel">25</param>
 			<param name="preQuestId">10011;10022;10035;10048;10059;10070;10081;10092;10103;10114;10125;10136;10146;10156</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3345,6 +3510,7 @@
 		<conditions>
 			<param name="minLevel">30</param>
 			<param name="preQuestId">10301</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3371,6 +3537,7 @@
 		<conditions>
 			<param name="minLevel">35</param>
 			<param name="preQuestId">10302</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3393,6 +3560,7 @@
 			<param name="minLevel">40</param>
 			<param name="preQuestId">10303;10512</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3414,6 +3582,7 @@
 		<conditions>
 			<param name="minLevel">40</param>
 			<param name="preQuestId">10304</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3436,6 +3605,7 @@
 		<conditions>
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10305</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3458,6 +3628,7 @@
 		<conditions>
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10306</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3480,6 +3651,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">5;6;20;21;33;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3505,6 +3677,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">3;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3529,6 +3702,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">2;34</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3553,6 +3727,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">8;23;36;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3577,6 +3752,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">9;24;37;130</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3602,6 +3778,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">12;13;14;16;17;27;30;40;41;43;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3626,6 +3803,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">46</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3650,6 +3828,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">48;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3674,6 +3853,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3698,6 +3878,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">127</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3722,6 +3903,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3746,6 +3928,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">198;202;206;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3770,6 +3953,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3796,6 +3980,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10308;10309;10310;10311;10312;10313;10314;10315;10316;10317;10318;10319;10320;10441;10445;10508</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3818,6 +4003,7 @@
 		<conditions>
 			<param name="minLevel">52</param>
 			<param name="preQuestId">10321</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3839,6 +4025,7 @@
 		<conditions>
 			<param name="minLevel">52</param>
 			<param name="preQuestId">10322</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3861,6 +4048,7 @@
 		<conditions>
 			<param name="minLevel">52</param>
 			<param name="preQuestId">10323</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3883,6 +4071,7 @@
 		<conditions>
 			<param name="minLevel">52</param>
 			<param name="preQuestId">10324</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3905,6 +4094,7 @@
 		<conditions>
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10325</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3926,6 +4116,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">5;6;20;21;33;242</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3953,6 +4144,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">3;219</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -3979,6 +4171,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">2;34</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4005,6 +4198,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">8;23;36;223;227</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4031,6 +4225,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">9;24;37;130</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4058,6 +4253,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">12;13;14;16;17;27;30;40;41;43;51;52</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4084,6 +4280,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">46</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4110,6 +4307,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">48;249</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4136,6 +4334,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">55;57</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4162,6 +4361,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">127</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4188,6 +4388,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">194</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4214,6 +4415,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">198;202;206;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4240,6 +4442,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">210</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4267,6 +4470,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10327;10328;10329;10330;10331;10332;10333;10334;10335;10336;10337;10338;10339;10442;10446;10509</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4288,6 +4492,7 @@
 		<conditions>
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10340</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4310,6 +4515,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10341</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4330,6 +4536,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10342</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4350,6 +4557,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10343</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4370,6 +4578,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10344</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4391,6 +4600,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10345</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4412,6 +4622,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10346</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4432,6 +4643,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10347</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4453,6 +4665,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10348</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4474,6 +4687,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10349</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4495,6 +4709,7 @@
 		<conditions>
 			<param name="minLevel">64</param>
 			<param name="preQuestId">10350</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4516,6 +4731,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10351</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4536,6 +4752,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10352</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4556,6 +4773,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10353</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4576,6 +4794,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10354</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4597,6 +4816,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10355</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4618,6 +4838,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10356</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4638,6 +4859,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10357</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4658,6 +4880,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10358</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4678,6 +4901,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10359</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4699,6 +4923,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10360</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4719,6 +4944,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10361</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4736,6 +4962,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10362</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4753,6 +4980,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10363</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4770,6 +4998,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10364</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4787,6 +5016,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10365</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4808,6 +5038,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10366</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4828,6 +5059,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10367</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4848,6 +5080,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10368</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4868,6 +5101,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10369</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4888,6 +5122,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10370</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4908,6 +5143,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10371</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4925,6 +5161,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10372</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4942,6 +5179,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10373</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4959,6 +5197,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10374</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4976,6 +5215,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10375</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -4997,6 +5237,7 @@
 		<conditions>
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10376</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5017,6 +5258,7 @@
 		<conditions>
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10377</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5037,6 +5279,7 @@
 		<conditions>
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10378</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5057,6 +5300,7 @@
 		<conditions>
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10379</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5078,6 +5322,7 @@
 		<conditions>
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10380</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5099,6 +5344,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10381</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5120,6 +5366,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10382</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5141,6 +5388,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10383</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5162,6 +5410,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10384</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5183,6 +5432,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10385</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5205,6 +5455,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10386</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5226,6 +5477,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10387</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5247,6 +5499,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10388</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5268,6 +5521,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10389</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5290,6 +5544,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10390</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5312,6 +5567,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10391</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5333,6 +5589,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10392</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5354,6 +5611,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10393</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5375,6 +5633,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10394</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5396,6 +5655,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10395</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5414,6 +5674,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10396</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5431,6 +5692,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10397</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5448,6 +5710,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10398</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5469,6 +5732,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10399</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">5000000</param>
@@ -5488,6 +5752,7 @@
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10410;10444</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5509,6 +5774,7 @@
 		<conditions>
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10411</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5531,6 +5797,7 @@
 		<conditions>
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10412</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5553,6 +5820,7 @@
 		<conditions>
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10413</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5574,6 +5842,7 @@
 		<conditions>
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10414</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5596,6 +5865,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10415</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5617,6 +5887,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10416</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5638,6 +5909,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10417</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5659,6 +5931,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10418</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5681,6 +5954,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10419</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5703,6 +5977,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10420</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5724,6 +5999,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10421</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5745,6 +6021,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10422</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5766,6 +6043,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10423</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5788,6 +6066,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10424</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5811,6 +6090,7 @@
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10425;10507</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5832,6 +6112,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10426</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5853,6 +6134,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10427</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5874,6 +6156,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10428</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5896,6 +6179,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10429</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5918,6 +6202,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10430</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5939,6 +6224,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10431</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5960,6 +6246,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10432</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -5981,6 +6268,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10433</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6003,6 +6291,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10434</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6025,6 +6314,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10435</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6046,6 +6336,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10436</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6067,6 +6358,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10437</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6088,6 +6380,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10438</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6110,6 +6403,7 @@
 		<conditions>
 			<param name="minLevel">90</param>
 			<param name="preQuestId">10439</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6132,6 +6426,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">238</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6156,6 +6451,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">238</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6182,6 +6478,7 @@
 		<conditions>
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10400</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6204,6 +6501,7 @@
 		<conditions>
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10443</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6226,6 +6524,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">28</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6250,6 +6549,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">28</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6275,6 +6575,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10361</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6293,6 +6594,7 @@
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10362;10447</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6311,6 +6613,7 @@
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10363;10364;10448</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6333,6 +6636,7 @@
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10365;10366;10449</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6353,6 +6657,7 @@
 		<conditions>
 			<param name="minLevel">70</param>
 			<param name="preQuestId">10450</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6374,6 +6679,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10451</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6395,6 +6701,7 @@
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10367;10452</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6416,6 +6723,7 @@
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10368;10453</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6437,6 +6745,7 @@
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10369;10454</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6458,6 +6767,7 @@
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10370;10455</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6479,6 +6789,7 @@
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10371;10456</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6497,6 +6808,7 @@
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10372;10457</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6515,6 +6827,7 @@
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10373;10374;10458</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6537,6 +6850,7 @@
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10375;10376;10459</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6557,6 +6871,7 @@
 		<conditions>
 			<param name="minLevel">81</param>
 			<param name="preQuestId">10460</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6578,6 +6893,7 @@
 		<conditions>
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10461</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6599,6 +6915,7 @@
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10377;10462</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6620,6 +6937,7 @@
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10378;10463</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6641,6 +6959,7 @@
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10379;10464</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6663,6 +6982,7 @@
 			<param name="minLevel">84</param>
 			<param name="preQuestId">10380;10465</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6685,6 +7005,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10381;10466</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6707,6 +7028,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10382;10467</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6729,6 +7051,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10383;10468</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6751,6 +7074,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10384;10469</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6773,6 +7097,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10385;10470</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6796,6 +7121,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10386;10471</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6818,6 +7144,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10387;10472</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6840,6 +7167,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10388;10473</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6862,6 +7190,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10389;10474</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6885,6 +7214,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10390;10475</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6908,6 +7238,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10391;10476</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6928,6 +7259,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10477</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6949,6 +7281,7 @@
 		<conditions>
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10478</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6971,6 +7304,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10392;10479</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -6993,6 +7327,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10393;10480</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7015,6 +7350,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10394;10481</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7037,6 +7373,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10395;10482</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7056,6 +7393,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10396;10483</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7074,6 +7412,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10397;10484</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7092,6 +7431,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10398;10485</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7114,6 +7454,7 @@
 			<param name="minLevel">85</param>
 			<param name="preQuestId">10399;10486</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">5000000</param>
@@ -7133,6 +7474,7 @@
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10400;10487</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7156,6 +7498,7 @@
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10443;10488</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7179,6 +7522,7 @@
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10444;10489</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7201,6 +7545,7 @@
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10411;10490</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7224,6 +7569,7 @@
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10412;10413;10491</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7246,6 +7592,7 @@
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10414;10492</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7268,6 +7615,7 @@
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10415;10493</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7288,6 +7636,7 @@
 		<conditions>
 			<param name="minLevel">87</param>
 			<param name="preQuestId">10494</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7309,6 +7658,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10495</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7331,6 +7681,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10416;10496</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7353,6 +7704,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10417;10497</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7375,6 +7727,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10418;10498</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7398,6 +7751,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10419;10499</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7421,6 +7775,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10420;10500</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7443,6 +7798,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10421;10501</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7465,6 +7821,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10422;10502</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7487,6 +7844,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10423;10503</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7510,6 +7868,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10424;10504</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7533,6 +7892,7 @@
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10425;10505</param>
 			<param name="oneOfPreQuests">true</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7553,6 +7913,7 @@
 		<conditions>
 			<param name="minLevel">88</param>
 			<param name="preQuestId">10506</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7574,6 +7935,7 @@
 			<param name="minLevel">45</param>
 			<param name="preQuestId">10307</param>
 			<param name="classIds">253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7598,6 +7960,7 @@
 			<param name="minLevel">58</param>
 			<param name="preQuestId">10326</param>
 			<param name="classIds">253</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7626,6 +7989,7 @@
 			<param name="minLevel">25</param>
 			<param name="preQuestId">10164</param>
 			<param name="classIds">261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7650,6 +8014,7 @@
 			<param name="minLevel">30</param>
 			<param name="preQuestId">10510</param>
 			<param name="classIds">261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7677,6 +8042,7 @@
 			<param name="minLevel">35</param>
 			<param name="preQuestId">10511</param>
 			<param name="classIds">261;262</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7783,6 +8149,7 @@
 	<quest id="20011" type="1" name="Acquiring Transcendent Power">
 		<conditions>
 			<param name="minLevel">75</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<items>
@@ -7801,6 +8168,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20011</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">27000000</param>
@@ -7815,6 +8183,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20031</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">30000000</param>
@@ -7829,6 +8198,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20032</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">33000000</param>
@@ -7843,6 +8213,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20033</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">36000000</param>
@@ -7857,6 +8228,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20034</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">39000000</param>
@@ -7871,6 +8243,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20035</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">42000000</param>
@@ -7885,6 +8258,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20036</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">45000000</param>
@@ -7899,6 +8273,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20037</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">48000000</param>
@@ -7913,6 +8288,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20038</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">51000000</param>
@@ -7927,6 +8303,7 @@
 		<conditions>
 			<param name="minLevel">75</param>
 			<param name="preQuestId">20039</param>
+					<param name="maxLevel">20</param>
 		</conditions>
 		<rewards>
 			<param name="rewardExp">54000000</param>

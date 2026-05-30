@@ -196,10 +196,6 @@
 				<group chance="50">
 					<item id="94385" min="1" max="1" chance="100" /> <!-- Improved Scroll: Enchant Rare Accessories -->
 				</group>
-				<group chance="1">
-					<item id="96937" min="1" max="1" chance="50" /> <!-- Berserker's Sigil -->
-					<item id="96936" min="1" max="1" chance="50" /> <!-- Berserker's Shield -->
-				</group>
 				<group chance="0.001">
 					<item id="99908" min="1" max="1" chance="5.04" /> <!-- Spellbook: Ultimate Death Knight: Master -->
 					<item id="104949" min="1" max="1" chance="4.54" /> <!-- Legendary Prophecy - Advent -->
@@ -327,10 +323,6 @@
 				<group chance="50">
 					<item id="94383" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Rare Accessories -->
 				</group>
-				<group chance="0.5">
-					<item id="96937" min="1" max="1" chance="50" /> <!-- Berserker's Sigil -->
-					<item id="96936" min="1" max="1" chance="50" /> <!-- Berserker's Shield -->
-				</group>
 				<group chance="2">
 					<item id="103480" min="1" max="1" chance="90" /> <!-- Package: Rare Doll Summon Coupon - Kelbim (Sealed) -->
 					<item id="103481" min="1" max="1" chance="10" /> <!-- Package: Heroic Doll Summon Coupon - Kelbim (Sealed) -->
@@ -367,51 +359,6 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="30">
-					<item id="8678" min="1" max="1" chance="6.66" /> <!-- Sirra's Blade -->
-					<item id="94886" min="1" max="1" chance="6.67" /> <!-- Zephyrus -->
-					<item id="8683" min="1" max="1" chance="6.67" /> <!-- Tiphon's Spear -->
-					<item id="8688" min="1" max="1" chance="6.67" /> <!-- Daimon Crystal -->
-					<item id="8684" min="1" max="1" chance="6.67" /> <!-- Shyeed's Bow -->
-					<item id="8685" min="1" max="1" chance="6.67" /> <!-- Sobekk's Hurricane -->
-					<item id="8938" min="1" max="1" chance="6.67" /> <!-- Tallum Blade*Damascus Sword -->
-					<item id="8687" min="1" max="1" chance="6.67" /> <!-- Cabrio's Hand -->
-					<item id="8681" min="1" max="1" chance="6.66" /> <!-- Behemoth's Tuning Fork -->
-					<item id="91887" min="1" max="1" chance="6.67" /> <!-- Durendal -->
-					<item id="91902" min="1" max="1" chance="6.67" /> <!-- Éclair Bijou -->
-					<item id="8679" min="1" max="1" chance="6.66" /> <!-- Ipos' Sword -->
-					<item id="8680" min="1" max="1" chance="6.66" /> <!-- Barakiel's Axe -->
-					<item id="8686" min="1" max="1" chance="6.67" /> <!-- Themis' Tongue -->
-					<item id="8682" min="1" max="1" chance="6.66" /> <!-- Naga's Storm -->
-				</group>
-				<group chance="100">
-					<item id="5772" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Light) -->
-					<item id="90476" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Heavy) -->
-					<item id="5774" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Heavy Armor -->
-					<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
-					<item id="2395" min="1" max="1" chance="3.84" /> <!-- Majestic Leather Armor -->
-					<item id="5784" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Light) -->
-					<item id="90473" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Heavy) -->
-					<item id="93094" min="1" max="1" chance="3.84" /> <!-- Majestic Sigil -->
-					<item id="2394" min="1" max="1" chance="3.85" /> <!-- Leather Armor of Nightmare -->
-					<item id="5771" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Heavy) -->
-					<item id="5788" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Robe) -->
-					<item id="90478" min="1" max="1" chance="3.84" /> <!-- Majestic Circlet (Robe) -->
-					<item id="5776" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Robe -->
-					<item id="5783" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Heavy) -->
-					<item id="2409" min="1" max="1" chance="3.84" /> <!-- Majestic Robe -->
-					<item id="90475" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Robe) -->
-					<item id="5787" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Light) -->
-					<item id="2498" min="1" max="1" chance="3.85" /> <!-- Shield of Nightmare -->
-					<item id="5773" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Robe) -->
-					<item id="90477" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Light) -->
-					<item id="5775" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Light Armor -->
-					<item id="2383" min="1" max="1" chance="3.85" /> <!-- Majestic Plate Armor -->
-					<item id="5785" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Robe) -->
-					<item id="90474" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Light) -->
-					<item id="5786" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Heavy) -->
-					<item id="2408" min="1" max="1" chance="3.85" /> <!-- Robe of Nightmare -->
-				</group>
 				<group chance="5">
 					<item id="97859" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Rare Accessories -->
 				</group>
@@ -483,51 +430,6 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="30">
-					<item id="8688" min="1" max="1" chance="6.67" /> <!-- Daimon Crystal -->
-					<item id="8684" min="1" max="1" chance="6.67" /> <!-- Shyeed's Bow -->
-					<item id="8685" min="1" max="1" chance="6.67" /> <!-- Sobekk's Hurricane -->
-					<item id="8938" min="1" max="1" chance="6.67" /> <!-- Tallum Blade*Damascus Sword -->
-					<item id="8687" min="1" max="1" chance="6.67" /> <!-- Cabrio's Hand -->
-					<item id="8681" min="1" max="1" chance="6.66" /> <!-- Behemoth's Tuning Fork -->
-					<item id="91887" min="1" max="1" chance="6.67" /> <!-- Durendal -->
-					<item id="91902" min="1" max="1" chance="6.67" /> <!-- Éclair Bijou -->
-					<item id="8679" min="1" max="1" chance="6.66" /> <!-- Ipos' Sword -->
-					<item id="8686" min="1" max="1" chance="6.67" /> <!-- Themis' Tongue -->
-					<item id="8680" min="1" max="1" chance="6.66" /> <!-- Barakiel's Axe -->
-					<item id="8682" min="1" max="1" chance="6.66" /> <!-- Naga's Storm -->
-					<item id="8678" min="1" max="1" chance="6.66" /> <!-- Sirra's Blade -->
-					<item id="94886" min="1" max="1" chance="6.67" /> <!-- Zephyrus -->
-					<item id="8683" min="1" max="1" chance="6.67" /> <!-- Tiphon's Spear -->
-				</group>
-				<group chance="100">
-					<item id="2394" min="1" max="1" chance="3.85" /> <!-- Leather Armor of Nightmare -->
-					<item id="5771" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Heavy) -->
-					<item id="5788" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Robe) -->
-					<item id="90478" min="1" max="1" chance="3.84" /> <!-- Majestic Circlet (Robe) -->
-					<item id="5776" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Robe -->
-					<item id="2409" min="1" max="1" chance="3.84" /> <!-- Majestic Robe -->
-					<item id="5783" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Heavy) -->
-					<item id="90475" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Robe) -->
-					<item id="5787" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Light) -->
-					<item id="2498" min="1" max="1" chance="3.85" /> <!-- Shield of Nightmare -->
-					<item id="5773" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Robe) -->
-					<item id="90477" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Light) -->
-					<item id="5775" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Light Armor -->
-					<item id="2383" min="1" max="1" chance="3.85" /> <!-- Majestic Plate Armor -->
-					<item id="90474" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Light) -->
-					<item id="5785" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Robe) -->
-					<item id="5786" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Heavy) -->
-					<item id="2408" min="1" max="1" chance="3.85" /> <!-- Robe of Nightmare -->
-					<item id="5772" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Light) -->
-					<item id="90476" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Heavy) -->
-					<item id="5774" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Heavy Armor -->
-					<item id="2395" min="1" max="1" chance="3.84" /> <!-- Majestic Leather Armor -->
-					<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
-					<item id="90473" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Heavy) -->
-					<item id="93094" min="1" max="1" chance="3.84" /> <!-- Majestic Sigil -->
-					<item id="5784" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Light) -->
-				</group>
 				<group chance="5">
 					<item id="97859" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Rare Accessories -->
 				</group>
@@ -598,51 +500,6 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="30">
-					<item id="8683" min="1" max="1" chance="6.67" /> <!-- Tiphon's Spear -->
-					<item id="8688" min="1" max="1" chance="6.67" /> <!-- Daimon Crystal -->
-					<item id="8684" min="1" max="1" chance="6.67" /> <!-- Shyeed's Bow -->
-					<item id="8685" min="1" max="1" chance="6.67" /> <!-- Sobekk's Hurricane -->
-					<item id="8938" min="1" max="1" chance="6.67" /> <!-- Tallum Blade*Damascus Sword -->
-					<item id="8687" min="1" max="1" chance="6.67" /> <!-- Cabrio's Hand -->
-					<item id="8681" min="1" max="1" chance="6.66" /> <!-- Behemoth's Tuning Fork -->
-					<item id="91887" min="1" max="1" chance="6.67" /> <!-- Durendal -->
-					<item id="91902" min="1" max="1" chance="6.67" /> <!-- Éclair Bijou -->
-					<item id="8679" min="1" max="1" chance="6.66" /> <!-- Ipos' Sword -->
-					<item id="8686" min="1" max="1" chance="6.67" /> <!-- Themis' Tongue -->
-					<item id="8680" min="1" max="1" chance="6.66" /> <!-- Barakiel's Axe -->
-					<item id="8682" min="1" max="1" chance="6.66" /> <!-- Naga's Storm -->
-					<item id="8678" min="1" max="1" chance="6.66" /> <!-- Sirra's Blade -->
-					<item id="94886" min="1" max="1" chance="6.67" /> <!-- Zephyrus -->
-				</group>
-				<group chance="100">
-					<item id="5774" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Heavy Armor -->
-					<item id="2395" min="1" max="1" chance="3.84" /> <!-- Majestic Leather Armor -->
-					<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
-					<item id="90473" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Heavy) -->
-					<item id="93094" min="1" max="1" chance="3.84" /> <!-- Majestic Sigil -->
-					<item id="5784" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Light) -->
-					<item id="2394" min="1" max="1" chance="3.85" /> <!-- Leather Armor of Nightmare -->
-					<item id="5788" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Robe) -->
-					<item id="5771" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Heavy) -->
-					<item id="90478" min="1" max="1" chance="3.84" /> <!-- Majestic Circlet (Robe) -->
-					<item id="5776" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Robe -->
-					<item id="2409" min="1" max="1" chance="3.84" /> <!-- Majestic Robe -->
-					<item id="5783" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Heavy) -->
-					<item id="90475" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Robe) -->
-					<item id="5787" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Light) -->
-					<item id="2498" min="1" max="1" chance="3.85" /> <!-- Shield of Nightmare -->
-					<item id="5773" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Robe) -->
-					<item id="90477" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Light) -->
-					<item id="5775" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Light Armor -->
-					<item id="2383" min="1" max="1" chance="3.85" /> <!-- Majestic Plate Armor -->
-					<item id="90474" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Light) -->
-					<item id="5785" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Robe) -->
-					<item id="5786" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Heavy) -->
-					<item id="2408" min="1" max="1" chance="3.85" /> <!-- Robe of Nightmare -->
-					<item id="90476" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Heavy) -->
-					<item id="5772" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Light) -->
-				</group>
 				<group chance="5">
 					<item id="97859" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Rare Accessories -->
 				</group>
@@ -713,51 +570,6 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="30">
-					<item id="8678" min="1" max="1" chance="6.66" /> <!-- Sirra's Blade -->
-					<item id="94886" min="1" max="1" chance="6.67" /> <!-- Zephyrus -->
-					<item id="8683" min="1" max="1" chance="6.67" /> <!-- Tiphon's Spear -->
-					<item id="8688" min="1" max="1" chance="6.67" /> <!-- Daimon Crystal -->
-					<item id="8684" min="1" max="1" chance="6.67" /> <!-- Shyeed's Bow -->
-					<item id="8685" min="1" max="1" chance="6.67" /> <!-- Sobekk's Hurricane -->
-					<item id="8938" min="1" max="1" chance="6.67" /> <!-- Tallum Blade*Damascus Sword -->
-					<item id="8687" min="1" max="1" chance="6.67" /> <!-- Cabrio's Hand -->
-					<item id="8681" min="1" max="1" chance="6.66" /> <!-- Behemoth's Tuning Fork -->
-					<item id="91887" min="1" max="1" chance="6.67" /> <!-- Durendal -->
-					<item id="91902" min="1" max="1" chance="6.67" /> <!-- Éclair Bijou -->
-					<item id="8679" min="1" max="1" chance="6.66" /> <!-- Ipos' Sword -->
-					<item id="8680" min="1" max="1" chance="6.66" /> <!-- Barakiel's Axe -->
-					<item id="8686" min="1" max="1" chance="6.67" /> <!-- Themis' Tongue -->
-					<item id="8682" min="1" max="1" chance="6.66" /> <!-- Naga's Storm -->
-				</group>
-				<group chance="100">
-					<item id="5786" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Heavy) -->
-					<item id="2408" min="1" max="1" chance="3.85" /> <!-- Robe of Nightmare -->
-					<item id="5772" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Light) -->
-					<item id="90476" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Heavy) -->
-					<item id="5774" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Heavy Armor -->
-					<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
-					<item id="2395" min="1" max="1" chance="3.84" /> <!-- Majestic Leather Armor -->
-					<item id="5784" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Light) -->
-					<item id="90473" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Heavy) -->
-					<item id="93094" min="1" max="1" chance="3.84" /> <!-- Majestic Sigil -->
-					<item id="2394" min="1" max="1" chance="3.85" /> <!-- Leather Armor of Nightmare -->
-					<item id="5771" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Heavy) -->
-					<item id="5788" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Robe) -->
-					<item id="90478" min="1" max="1" chance="3.84" /> <!-- Majestic Circlet (Robe) -->
-					<item id="5776" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Robe -->
-					<item id="5783" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Heavy) -->
-					<item id="2409" min="1" max="1" chance="3.84" /> <!-- Majestic Robe -->
-					<item id="90475" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Robe) -->
-					<item id="5787" min="1" max="1" chance="3.84" /> <!-- Majestic Boots (Light) -->
-					<item id="2498" min="1" max="1" chance="3.85" /> <!-- Shield of Nightmare -->
-					<item id="5773" min="1" max="1" chance="3.85" /> <!-- Gauntlets of Nightmare (Robe) -->
-					<item id="90477" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Light) -->
-					<item id="5775" min="1" max="1" chance="3.84" /> <!-- Majestic Gauntlets - Light Armor -->
-					<item id="2383" min="1" max="1" chance="3.85" /> <!-- Majestic Plate Armor -->
-					<item id="5785" min="1" max="1" chance="3.85" /> <!-- Boots of Nightmare (Robe) -->
-					<item id="90474" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Light) -->
-				</group>
 				<group chance="5">
 					<item id="97859" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Rare Accessories -->
 				</group>
@@ -897,10 +709,6 @@
 				<group chance="75">
 					<item id="94383" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Rare Accessories -->
 				</group>
-				<group chance="0.5">
-					<item id="96937" min="1" max="1" chance="50" /> <!-- Berserker's Sigil -->
-					<item id="96936" min="1" max="1" chance="50" /> <!-- Berserker's Shield -->
-				</group>
 				<group chance="2">
 					<item id="103483" min="1" max="1" chance="10" /> <!-- Package: Heroic Doll Summon Coupon - Andreas van Halter (Sealed) -->
 					<item id="103482" min="1" max="1" chance="90" /> <!-- Package: Rare Doll Summon Coupon - Andreas van Halter (Sealed) -->
@@ -1014,10 +822,6 @@
 				</group>
 				<group chance="75">
 					<item id="94385" min="1" max="1" chance="100" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-				</group>
-				<group chance="1">
-					<item id="96936" min="1" max="1" chance="50" /> <!-- Berserker's Shield -->
-					<item id="96937" min="1" max="1" chance="50" /> <!-- Berserker's Sigil -->
 				</group>
 				<group chance="0.001">
 					<item id="100702" min="1" max="1" chance="4.59" /> <!-- Spellbook: Mystic Meteor: Master -->
@@ -1408,14 +1212,8 @@
 				<group chance="5">
 					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
 				</group>
-				<group chance="3">
-					<item id="94083" min="1" max="1" chance="100" /> <!-- Helmet of Mana -->
-				</group>
 				<group chance="0.001">
 					<item id="98932" min="1" max="1" chance="100" /> <!-- Aztacan's Earring -->
-				</group>
-				<group chance="1">
-					<item id="98943" min="1" max="1" chance="100" /> <!-- Aztacan's Oracle Scepter -->
 				</group>
 				<group chance="0.1">
 					<item id="102083" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Aztacan (Sealed) -->
@@ -1709,9 +1507,6 @@
 				<group chance="10">
 					<item id="93906" min="1" max="1" chance="100" /> <!-- Zaken's Crystal -->
 				</group>
-				<group chance="10">
-					<item id="94085" min="1" max="1" chance="100" /> <!-- Boots of Evasion -->
-				</group>
 				<group chance="0.01">
 					<item id="96613" min="1" max="1" chance="100" /> <!-- Spellbook: Expanded Potential of Dyes -->
 				</group>
@@ -1778,9 +1573,6 @@
 				</group>
 				<group chance="10">
 					<item id="93910" min="1" max="1" chance="100" /> <!-- Queen Ant's Crystal -->
-				</group>
-				<group chance="10">
-					<item id="94263" min="1" max="1" chance="100" /> <!-- Stun Gauntlets -->
 				</group>
 				<group chance="0.01">
 					<item id="96613" min="1" max="1" chance="100" /> <!-- Spellbook: Expanded Potential of Dyes -->
@@ -1849,9 +1641,6 @@
 				<group chance="10">
 					<item id="93907" min="1" max="1" chance="100" /> <!-- Orfen's Crystal -->
 				</group>
-				<group chance="10">
-					<item id="94083" min="1" max="1" chance="100" /> <!-- Helmet of Mana -->
-				</group>
 				<group chance="0.01">
 					<item id="96613" min="1" max="1" chance="100" /> <!-- Spellbook: Expanded Potential of Dyes -->
 				</group>
@@ -1919,9 +1708,6 @@
 				<group chance="10">
 					<item id="93908" min="1" max="1" chance="100" /> <!-- Core's Crystal -->
 				</group>
-				<group chance="10">
-					<item id="94301" min="1" max="1" chance="100" /> <!-- Shield of Vengeance -->
-				</group>
 				<group chance="0.01">
 					<item id="96613" min="1" max="1" chance="100" /> <!-- Spellbook: Expanded Potential of Dyes -->
 				</group>
@@ -1955,51 +1741,6 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="8682" min="1" max="1" chance="6.66" /> <!-- Naga's Storm -->
-					<item id="8684" min="1" max="1" chance="6.67" /> <!-- Shyeed's Bow -->
-					<item id="91887" min="1" max="1" chance="6.67" /> <!-- Durendal -->
-					<item id="8685" min="1" max="1" chance="6.67" /> <!-- Sobekk's Hurricane -->
-					<item id="94886" min="1" max="1" chance="6.67" /> <!-- Zephyrus -->
-					<item id="8686" min="1" max="1" chance="6.67" /> <!-- Themis' Tongue -->
-					<item id="8688" min="1" max="1" chance="6.67" /> <!-- Daimon Crystal -->
-					<item id="8679" min="1" max="1" chance="6.66" /> <!-- Ipos' Sword -->
-					<item id="8683" min="1" max="1" chance="6.67" /> <!-- Tiphon's Spear -->
-					<item id="8681" min="1" max="1" chance="6.66" /> <!-- Behemoth's Tuning Fork -->
-					<item id="8687" min="1" max="1" chance="6.67" /> <!-- Cabrio's Hand -->
-					<item id="8678" min="1" max="1" chance="6.66" /> <!-- Sirra's Blade -->
-					<item id="91902" min="1" max="1" chance="6.67" /> <!-- Éclair Bijou -->
-					<item id="8938" min="1" max="1" chance="6.67" /> <!-- Tallum Blade*Damascus Sword -->
-					<item id="8680" min="1" max="1" chance="6.66" /> <!-- Barakiel's Axe -->
-				</group>
-				<group chance="100">
-					<item id="90475" min="1" max="1" chance="3.84" /> <!-- Helm of Nightmare (Robe) -->
-					<item id="5774" min="1" max="1" chance="3.85" /> <!-- Majestic Gauntlets - Heavy Armor -->
-					<item id="5787" min="1" max="1" chance="3.85" /> <!-- Majestic Boots (Light) -->
-					<item id="2395" min="1" max="1" chance="3.85" /> <!-- Majestic Leather Armor -->
-					<item id="5773" min="1" max="1" chance="3.84" /> <!-- Gauntlets of Nightmare (Robe) -->
-					<item id="5784" min="1" max="1" chance="3.84" /> <!-- Boots of Nightmare (Light) -->
-					<item id="90473" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Heavy) -->
-					<item id="90477" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Light) -->
-					<item id="93094" min="1" max="1" chance="3.85" /> <!-- Majestic Sigil -->
-					<item id="2498" min="1" max="1" chance="3.84" /> <!-- Shield of Nightmare -->
-					<item id="2408" min="1" max="1" chance="3.84" /> <!-- Robe of Nightmare -->
-					<item id="2394" min="1" max="1" chance="3.84" /> <!-- Leather Armor of Nightmare -->
-					<item id="5775" min="1" max="1" chance="3.85" /> <!-- Majestic Gauntlets - Light Armor -->
-					<item id="5771" min="1" max="1" chance="3.84" /> <!-- Gauntlets of Nightmare (Heavy) -->
-					<item id="5788" min="1" max="1" chance="3.85" /> <!-- Majestic Boots (Robe) -->
-					<item id="2383" min="1" max="1" chance="3.85" /> <!-- Majestic Plate Armor -->
-					<item id="5785" min="1" max="1" chance="3.84" /> <!-- Boots of Nightmare (Robe) -->
-					<item id="90474" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Light) -->
-					<item id="90478" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Robe) -->
-					<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
-					<item id="5786" min="1" max="1" chance="3.85" /> <!-- Majestic Boots (Heavy) -->
-					<item id="5776" min="1" max="1" chance="3.85" /> <!-- Majestic Gauntlets - Robe -->
-					<item id="5772" min="1" max="1" chance="3.84" /> <!-- Gauntlets of Nightmare (Light) -->
-					<item id="5783" min="1" max="1" chance="3.84" /> <!-- Boots of Nightmare (Heavy) -->
-					<item id="90476" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Heavy) -->
-					<item id="2409" min="1" max="1" chance="3.85" /> <!-- Majestic Robe -->
-				</group>
 				<group chance="100">
 					<item id="96018" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Light) - Sealed -->
 					<item id="96008" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
@@ -2313,40 +2054,6 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="55">
-					<item id="8680" min="1" max="1" chance="6.66" /> <!-- Barakiel's Axe -->
-					<item id="91902" min="1" max="1" chance="6.67" /> <!-- Éclair Bijou -->
-					<item id="8684" min="1" max="1" chance="6.67" /> <!-- Shyeed's Bow -->
-					<item id="8679" min="1" max="1" chance="6.66" /> <!-- Ipos' Sword -->
-					<item id="8686" min="1" max="1" chance="6.67" /> <!-- Themis' Tongue -->
-					<item id="94886" min="1" max="1" chance="6.67" /> <!-- Zephyrus -->
-					<item id="8688" min="1" max="1" chance="6.67" /> <!-- Daimon Crystal -->
-					<item id="8682" min="1" max="1" chance="6.66" /> <!-- Naga's Storm -->
-					<item id="8685" min="1" max="1" chance="6.67" /> <!-- Sobekk's Hurricane -->
-					<item id="8683" min="1" max="1" chance="6.67" /> <!-- Tiphon's Spear -->
-					<item id="8681" min="1" max="1" chance="6.66" /> <!-- Behemoth's Tuning Fork -->
-					<item id="91887" min="1" max="1" chance="6.67" /> <!-- Durendal -->
-					<item id="8687" min="1" max="1" chance="6.67" /> <!-- Cabrio's Hand -->
-					<item id="8678" min="1" max="1" chance="6.66" /> <!-- Sirra's Blade -->
-					<item id="8938" min="1" max="1" chance="6.67" /> <!-- Tallum Blade*Damascus Sword -->
-				</group>
-				<group chance="100">
-					<item id="5320" min="1" max="1" chance="14.3" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5311" min="1" max="1" chance="14.2" /> <!-- Sealed Armor of Nightmare -->
-					<item id="5312" min="1" max="1" chance="14.3" /> <!-- Sealed Helm of Nightmare -->
-					<item id="5315" min="1" max="1" chance="14.3" /> <!-- Sealed Shield of Nightmare -->
-					<item id="5313" min="1" max="1" chance="14.3" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5326" min="1" max="1" chance="14.3" /> <!-- Sealed Robe of Nightmare -->
-					<item id="5314" min="1" max="1" chance="14.3" /> <!-- Sealed Boots of Nightmare -->
-				</group>
-				<group chance="100">
-					<item id="5318" min="1" max="1" chance="16.7" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5329" min="1" max="1" chance="16.6" /> <!-- Sealed Majestic Robe -->
-					<item id="5317" min="1" max="1" chance="16.7" /> <!-- Sealed Majestic Circlet -->
-					<item id="5316" min="1" max="1" chance="16.7" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5319" min="1" max="1" chance="16.7" /> <!-- Sealed Majestic Boots -->
-					<item id="5323" min="1" max="1" chance="16.6" /> <!-- Sealed Majestic Leather Armor -->
-				</group>
 				<group chance="50">
 					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
 				</group>
@@ -2440,10 +2147,6 @@
 					<item id="93387" min="1" max="1" chance="2.71" /> <!-- Spellbook: Ultimate Death Knight -->
 					<item id="104121" min="1" max="1" chance="2.7" /> <!-- Spellbook: Queen's Garden -->
 				</group>
-				<group chance="0.1">
-					<item id="100780" min="1" max="1" chance="50" /> <!-- Red Flame Gauntlets -->
-					<item id="100214" min="1" max="1" chance="50" /> <!-- Wild Wind Helmet -->
-				</group>
 				<group chance="30">
 					<item id="94383" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Rare Accessories -->
 				</group>
@@ -2489,51 +2192,6 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="91887" min="1" max="1" chance="6.67" /> <!-- Durendal -->
-					<item id="8679" min="1" max="1" chance="6.66" /> <!-- Ipos' Sword -->
-					<item id="8683" min="1" max="1" chance="6.67" /> <!-- Tiphon's Spear -->
-					<item id="8681" min="1" max="1" chance="6.66" /> <!-- Behemoth's Tuning Fork -->
-					<item id="8687" min="1" max="1" chance="6.67" /> <!-- Cabrio's Hand -->
-					<item id="8678" min="1" max="1" chance="6.66" /> <!-- Sirra's Blade -->
-					<item id="8688" min="1" max="1" chance="6.67" /> <!-- Daimon Crystal -->
-					<item id="8938" min="1" max="1" chance="6.67" /> <!-- Tallum Blade*Damascus Sword -->
-					<item id="8682" min="1" max="1" chance="6.66" /> <!-- Naga's Storm -->
-					<item id="8684" min="1" max="1" chance="6.67" /> <!-- Shyeed's Bow -->
-					<item id="8685" min="1" max="1" chance="6.67" /> <!-- Sobekk's Hurricane -->
-					<item id="94886" min="1" max="1" chance="6.67" /> <!-- Zephyrus -->
-					<item id="91902" min="1" max="1" chance="6.67" /> <!-- Éclair Bijou -->
-					<item id="8680" min="1" max="1" chance="6.66" /> <!-- Barakiel's Axe -->
-					<item id="8686" min="1" max="1" chance="6.67" /> <!-- Themis' Tongue -->
-				</group>
-				<group chance="100">
-					<item id="90473" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Heavy) -->
-					<item id="90477" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Light) -->
-					<item id="93094" min="1" max="1" chance="3.85" /> <!-- Majestic Sigil -->
-					<item id="2498" min="1" max="1" chance="3.84" /> <!-- Shield of Nightmare -->
-					<item id="2408" min="1" max="1" chance="3.84" /> <!-- Robe of Nightmare -->
-					<item id="2394" min="1" max="1" chance="3.84" /> <!-- Leather Armor of Nightmare -->
-					<item id="5775" min="1" max="1" chance="3.85" /> <!-- Majestic Gauntlets - Light Armor -->
-					<item id="5771" min="1" max="1" chance="3.84" /> <!-- Gauntlets of Nightmare (Heavy) -->
-					<item id="5788" min="1" max="1" chance="3.85" /> <!-- Majestic Boots (Robe) -->
-					<item id="2383" min="1" max="1" chance="3.85" /> <!-- Majestic Plate Armor -->
-					<item id="5784" min="1" max="1" chance="3.84" /> <!-- Boots of Nightmare (Light) -->
-					<item id="90474" min="1" max="1" chance="3.85" /> <!-- Helm of Nightmare (Light) -->
-					<item id="90478" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Robe) -->
-					<item id="5786" min="1" max="1" chance="3.85" /> <!-- Majestic Boots (Heavy) -->
-					<item id="5776" min="1" max="1" chance="3.85" /> <!-- Majestic Gauntlets - Robe -->
-					<item id="5772" min="1" max="1" chance="3.84" /> <!-- Gauntlets of Nightmare (Light) -->
-					<item id="90476" min="1" max="1" chance="3.85" /> <!-- Majestic Circlet (Heavy) -->
-					<item id="2409" min="1" max="1" chance="3.85" /> <!-- Majestic Robe -->
-					<item id="5785" min="1" max="1" chance="3.84" /> <!-- Boots of Nightmare (Robe) -->
-					<item id="90475" min="1" max="1" chance="3.84" /> <!-- Helm of Nightmare (Robe) -->
-					<item id="5774" min="1" max="1" chance="3.85" /> <!-- Majestic Gauntlets - Heavy Armor -->
-					<item id="374" min="1" max="1" chance="3.85" /> <!-- Armor of Nightmare -->
-					<item id="5787" min="1" max="1" chance="3.85" /> <!-- Majestic Boots (Light) -->
-					<item id="2395" min="1" max="1" chance="3.85" /> <!-- Majestic Leather Armor -->
-					<item id="5783" min="1" max="1" chance="3.84" /> <!-- Boots of Nightmare (Heavy) -->
-					<item id="5773" min="1" max="1" chance="3.84" /> <!-- Gauntlets of Nightmare (Robe) -->
-				</group>
 				<group chance="100">
 					<item id="96018" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Light) - Sealed -->
 					<item id="96016" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Light) - Sealed -->
@@ -2689,40 +2347,6 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="100">
-					<item id="91887" min="1" max="1" chance="6.67" /> <!-- Durendal -->
-					<item id="8688" min="1" max="1" chance="6.67" /> <!-- Daimon Crystal -->
-					<item id="8686" min="1" max="1" chance="6.67" /> <!-- Themis' Tongue -->
-					<item id="91902" min="1" max="1" chance="6.67" /> <!-- Éclair Bijou -->
-					<item id="8678" min="1" max="1" chance="6.66" /> <!-- Sirra's Blade -->
-					<item id="8681" min="1" max="1" chance="6.66" /> <!-- Behemoth's Tuning Fork -->
-					<item id="8685" min="1" max="1" chance="6.67" /> <!-- Sobekk's Hurricane -->
-					<item id="8679" min="1" max="1" chance="6.66" /> <!-- Ipos' Sword -->
-					<item id="8938" min="1" max="1" chance="6.67" /> <!-- Tallum Blade*Damascus Sword -->
-					<item id="8687" min="1" max="1" chance="6.67" /> <!-- Cabrio's Hand -->
-					<item id="94886" min="1" max="1" chance="6.67" /> <!-- Zephyrus -->
-					<item id="8683" min="1" max="1" chance="6.67" /> <!-- Tiphon's Spear -->
-					<item id="8682" min="1" max="1" chance="6.66" /> <!-- Naga's Storm -->
-					<item id="8684" min="1" max="1" chance="6.67" /> <!-- Shyeed's Bow -->
-					<item id="8680" min="1" max="1" chance="6.66" /> <!-- Barakiel's Axe -->
-				</group>
-				<group chance="50">
-					<item id="8685" min="1" max="1" chance="6.67" /> <!-- Sobekk's Hurricane -->
-					<item id="8679" min="1" max="1" chance="6.66" /> <!-- Ipos' Sword -->
-					<item id="8938" min="1" max="1" chance="6.67" /> <!-- Tallum Blade*Damascus Sword -->
-					<item id="8687" min="1" max="1" chance="6.67" /> <!-- Cabrio's Hand -->
-					<item id="94886" min="1" max="1" chance="6.67" /> <!-- Zephyrus -->
-					<item id="8683" min="1" max="1" chance="6.67" /> <!-- Tiphon's Spear -->
-					<item id="8682" min="1" max="1" chance="6.66" /> <!-- Naga's Storm -->
-					<item id="8684" min="1" max="1" chance="6.67" /> <!-- Shyeed's Bow -->
-					<item id="8680" min="1" max="1" chance="6.66" /> <!-- Barakiel's Axe -->
-					<item id="91887" min="1" max="1" chance="6.67" /> <!-- Durendal -->
-					<item id="8688" min="1" max="1" chance="6.67" /> <!-- Daimon Crystal -->
-					<item id="8686" min="1" max="1" chance="6.67" /> <!-- Themis' Tongue -->
-					<item id="91902" min="1" max="1" chance="6.67" /> <!-- Éclair Bijou -->
-					<item id="8678" min="1" max="1" chance="6.66" /> <!-- Sirra's Blade -->
-					<item id="8681" min="1" max="1" chance="6.66" /> <!-- Behemoth's Tuning Fork -->
-				</group>
 				<group chance="100">
 					<item id="96026" min="1" max="1" chance="8.34" /> <!-- Package: +5 Boots of Nightmare (Robe) - Sealed -->
 					<item id="96015" min="1" max="1" chance="8.33" /> <!-- Package: +5 Leather Armor of Nightmare - Sealed -->
@@ -2966,10 +2590,6 @@
 				</group>
 				<group chance="100">
 					<item id="98039" min="1" max="3" chance="100" /> <!-- Transcendent Upgrade Stone -->
-				</group>
-				<group chance="1">
-					<item id="100780" min="1" max="1" chance="50" /> <!-- Red Flame Gauntlets -->
-					<item id="100214" min="1" max="1" chance="50" /> <!-- Wild Wind Helmet -->
 				</group>
 				<group chance="30">
 					<item id="94385" min="1" max="1" chance="100" /> <!-- Improved Scroll: Enchant Rare Accessories -->
@@ -3285,14 +2905,6 @@
 				</group>
 				<group chance="0.3">
 					<item id="98827" min="1" max="1" chance="100" /> <!-- Immortal Ring - Sealed -->
-				</group>
-				<group chance="0.1">
-					<item id="103834" min="1" max="1" chance="16.66" /> <!-- Fafurion's Dagger -->
-					<item id="103841" min="1" max="1" chance="16.67" /> <!-- Fafurion's Staff -->
-					<item id="103838" min="1" max="1" chance="16.67" /> <!-- Fafurion's Bow -->
-					<item id="103833" min="1" max="1" chance="16.66" /> <!-- Fafurion's Sword -->
-					<item id="103844" min="1" max="1" chance="16.67" /> <!-- Fafurion's Ancient Sword -->
-					<item id="103836" min="1" max="1" chance="16.67" /> <!-- Fafurion's Fists of Water -->
 				</group>
 			</drop>
 		</dropLists>
@@ -4327,14 +3939,6 @@
 				</group>
 				<group chance="0.3">
 					<item id="98827" min="1" max="1" chance="100" /> <!-- Immortal Ring - Sealed -->
-				</group>
-				<group chance="0.1">
-					<item id="103883" min="1" max="1" chance="16.67" /> <!-- Valakas' Staff -->
-					<item id="103880" min="1" max="1" chance="16.67" /> <!-- Valakas' Bow -->
-					<item id="103875" min="1" max="1" chance="16.66" /> <!-- Valakas' Sword -->
-					<item id="103886" min="1" max="1" chance="16.67" /> <!-- Valakas' Ancient Sword -->
-					<item id="103878" min="1" max="1" chance="16.67" /> <!-- Valakas' Lava Fists -->
-					<item id="103876" min="1" max="1" chance="16.66" /> <!-- Valakas' Dagger -->
 				</group>
 			</drop>
 		</dropLists>

@@ -1923,10 +1923,10 @@ public class Quest implements IEventTimerEvent<String>, IEventTimerCancel<String
 					}
 				}
 			}
-
-			this.addCondMinLevel(condition.getMinLevel(), html);
-			this.addCondMaxLevel(condition.getMaxLevel(), html);
 		}
+
+		this.addCondMinLevel(condition.getMinLevel(), html);
+		this.addCondMaxLevel(condition.getMaxLevel(), html);
 	}
 
 	public void addCondNotClassId(PlayerClass playerClass, String html)
