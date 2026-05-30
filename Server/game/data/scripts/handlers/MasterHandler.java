@@ -72,6 +72,7 @@ import handlers.actionshifthandlers.SummonActionShift;
 import handlers.admincommandhandlers.AdminAdenLab;
 import handlers.admincommandhandlers.AdminAdmin;
 import handlers.admincommandhandlers.AdminAnnouncements;
+import handlers.admincommandhandlers.AdminCityDomination;
 import handlers.admincommandhandlers.AdminAugment;
 import handlers.admincommandhandlers.AdminBuffs;
 import handlers.admincommandhandlers.AdminCamera;
@@ -342,7 +343,6 @@ import handlers.voicedcommandhandlers.Offline;
 import handlers.voicedcommandhandlers.OfflinePlay;
 import handlers.voicedcommandhandlers.Online;
 import handlers.voicedcommandhandlers.Premium;
-import handlers.voicedcommandhandlers.VoiceCommand;
 import handlers.voicedcommandhandlers.Wedding;
 
 /**
@@ -401,6 +401,7 @@ public class MasterHandler
 			AdminAdmin.class,
 			AdminAnnouncements.class,
 			AdminAugment.class,
+			AdminCityDomination.class,
 			AdminBuffs.class,
 			AdminCamera.class,
 			AdminChangeAccessLevel.class,
@@ -616,7 +617,7 @@ public class MasterHandler
 			OnlineInfoConfig.ENABLE_ONLINE_COMMAND ? Online.class : null,
 			PremiumSystemConfig.PREMIUM_SYSTEM_ENABLED ? Premium.class : null,
 			AutoPotionsConfig.AUTO_POTIONS_ENABLED ? AutoPotion.class : null,
-		VoiceCommand.class,
+			handlers.voicedcommandhandlers.VoiceCommand.class,
 		},
 		{
 			// Target Handlers
