@@ -47,6 +47,14 @@ public class NpcActionShift implements IActionShiftHandler
 	@Override
 	public boolean onAction(Player player, WorldObject target, boolean interact)
 	{
+		// Zona Mortal: shift+click num boss da zona mostra a janela de drops (qualquer jogador)
+		if (target.isNpc() && custom.DeadZone.DeadZone.isZoneBoss(target.asNpc().getId()))
+		{
+			player.setTarget(target);
+			custom.DeadZone.DeadZone.showBossDropWindow(target.asNpc(), player);
+			return true;
+		}
+
 		// Check if the Player is a GM
 		if (player.isGM())
 		{

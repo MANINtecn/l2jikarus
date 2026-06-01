@@ -116,8 +116,9 @@
 		</skills>
 	</item>
 	<item id="92911" name="Material: Leather Scraps" additionalName="Sealed" type="EtcItem">
-		<!-- Craft points +3000. -->
+		<!-- Craft points +3000000. (Destrocos da Zona Mortal) -->
 		<set name="icon" val="icon.etc_leather_brown_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -129,7 +130,7 @@
 		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="for_npc" val="true" />
 		<skills>
-			<skill id="40078" level="1" /> <!-- Craft Points +3000 -->
+			<skill id="40078" level="1" /> <!-- Craft Points +3000000 -->
 		</skills>
 	</item>
 	<item id="92912" name="Material: Plain Fabric" additionalName="Sealed" type="EtcItem">

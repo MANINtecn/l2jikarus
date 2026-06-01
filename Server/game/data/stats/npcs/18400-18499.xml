@@ -803,6 +803,7 @@
 			<height normal="30" />
 		</collision>
 	</npc>
+	<!-- Hermit usado como Gatekeeper da Zona Mortal (mod DeadZone) - targetable liberado -->
 	<npc id="18424" level="75" type="Folk" name="Hermit">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
@@ -817,7 +818,7 @@
 			</speed>
 			<hitTime>600</hitTime>
 		</stats>
-		<status attackable="false" undying="true" noSleepMode="true" canMove="false" targetable="false" />
+		<status attackable="false" undying="true" noSleepMode="true" canMove="false" targetable="true" />
 		<collision>
 			<radius normal="8.8" />
 			<height normal="19.72" />

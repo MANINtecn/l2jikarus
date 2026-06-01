@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    L2 Samurai Crow - City Domination Guardians (Niveis 1 a 10)
+    Tipo Guard: players podem interagir (click) E atacar durante guerra.
+    Para visuals no cliente: adicionar IDs 91001-91010 ao npcgrp.dat
+    apontando para o modelo do Keeper Statue (ID 18231) ou similar.
+-->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+
+    <!-- Nivel 1 - HP: 1.000.000 -->
+    <npc id="91001" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 1">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="60" int="30" dex="40" wit="30" con="60" men="30">
+            <vitals hp="1000000" hpRegen="500" mp="1000" mpRegen="10" />
+            <attack physical="5000" magical="2500" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="800" magical="500" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Nivel 2 - HP: 2.000.000 -->
+    <npc id="91002" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 2">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="62" int="31" dex="40" wit="30" con="62" men="30">
+            <vitals hp="2000000" hpRegen="1000" mp="1000" mpRegen="10" />
+            <attack physical="7000" magical="3500" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="900" magical="580" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Nivel 3 - HP: 3.500.000 -->
+    <npc id="91003" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 3">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="64" int="32" dex="41" wit="31" con="64" men="31">
+            <vitals hp="3500000" hpRegen="1750" mp="1000" mpRegen="10" />
+            <attack physical="9500" magical="4750" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="1000" magical="650" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Nivel 4 - HP: 5.500.000 -->
+    <npc id="91004" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 4">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="66" int="33" dex="42" wit="31" con="66" men="31">
+            <vitals hp="5500000" hpRegen="2750" mp="1000" mpRegen="10" />
+            <attack physical="12000" magical="6000" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="1100" magical="720" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Nivel 5 - HP: 8.000.000 -->
+    <npc id="91005" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 5">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="68" int="34" dex="42" wit="32" con="68" men="32">
+            <vitals hp="8000000" hpRegen="4000" mp="1000" mpRegen="10" />
+            <attack physical="15000" magical="7500" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="1200" magical="800" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Nivel 6 - HP: 11.000.000 -->
+    <npc id="91006" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 6">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="70" int="35" dex="43" wit="32" con="70" men="32">
+            <vitals hp="11000000" hpRegen="5500" mp="1000" mpRegen="10" />
+            <attack physical="19000" magical="9500" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="1350" magical="880" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Nivel 7 - HP: 15.000.000 -->
+    <npc id="91007" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 7">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="72" int="36" dex="44" wit="33" con="72" men="33">
+            <vitals hp="15000000" hpRegen="7500" mp="1000" mpRegen="10" />
+            <attack physical="24000" magical="12000" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="1500" magical="970" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Nivel 8 - HP: 20.000.000 -->
+    <npc id="91008" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 8">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="74" int="37" dex="44" wit="33" con="74" men="33">
+            <vitals hp="20000000" hpRegen="10000" mp="1000" mpRegen="10" />
+            <attack physical="30000" magical="15000" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="1680" magical="1080" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Nivel 9 - HP: 26.000.000 -->
+    <npc id="91009" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 9">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="76" int="38" dex="45" wit="34" con="76" men="34">
+            <vitals hp="26000000" hpRegen="13000" mp="1000" mpRegen="10" />
+            <attack physical="37000" magical="18500" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="1850" magical="1200" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Nivel 10 - HP: 35.000.000 -->
+    <npc id="91010" level="85" type="Guard" name="Guardiao de Cidade" title="Nivel 10 (MAX)">
+        <race>CONSTRUCT</race>
+        <sex>MALE</sex>
+        <equipment rhand="5795" />
+        <stats str="80" int="40" dex="46" wit="35" con="80" men="35">
+            <vitals hp="35000000" hpRegen="17500" mp="1000" mpRegen="10" />
+            <attack physical="45000" magical="22500" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+            <defence physical="2100" magical="1350" />
+            <speed>
+                <walk ground="53" />
+                <run ground="130" />
+            </speed>
+            <hitTime>480</hitTime>
+            <abnormalResist physical="80" magical="80" />
+        </stats>
+        <status attackable="true" />
+        <collision>
+            <radius normal="15" />
+            <height normal="42" />
+        </collision>
+    </npc>
+
+    <!-- Marcador visual invisivel para o anel de fogo do City Domination -->
+    <!-- Folk: sem AI especial, sem despawn automatico, sem interacao -->
+    <npc id="91011" level="1" type="Folk" name="">
+        <race>ETC</race>
+        <sex>MALE</sex>
+        <stats str="1" int="1" dex="1" wit="1" con="1" men="1">
+            <vitals hp="1" hpRegen="0" mp="0" mpRegen="0" />
+            <attack physical="1" magical="1" critical="1" attackSpeed="1" range="1" />
+            <defence physical="1" magical="1" />
+            <speed>
+                <walk ground="0" />
+                <run ground="0" />
+            </speed>
+        </stats>
+        <status attackable="false" undying="true" canMove="false" targetable="false" showName="false" />
+        <collision>
+            <radius normal="0.1" />
+            <height normal="0.1" />
+        </collision>
+    </npc>
+
+</list>
