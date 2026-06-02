@@ -731,6 +731,7 @@ public class DeadZone extends Script
 		sb.append("<font color=\"CCAA44\">Cada zona tem DROPS UNICOS e uteis!</font><br>");
 		sb.append("<br>");
 		sb.append("<button value=\"Entrar Zona D\" action=\"bypass Quest DeadZone enter D\" width=150 height=25 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"><br1>");
+		sb.append("<font color=\"888888\"><font name=\"hs9\">Recomendado: 25 GS e Lvl 45+</font></font><br>");
 		sb.append("<button value=\"Entrar Zona C\" action=\"bypass Quest DeadZone enter C\" width=150 height=25 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"><br1>");
 		sb.append("<button value=\"Entrar Zona B\" action=\"bypass Quest DeadZone enter B\" width=150 height=25 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\">");
 		sb.append("</td></tr></table></body></html>");
