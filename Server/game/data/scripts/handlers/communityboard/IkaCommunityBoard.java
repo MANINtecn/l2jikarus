@@ -125,7 +125,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 					IItemHandler handler = ItemHandler.getInstance().getHandler(potion.getEtcItem());
 					if (handler != null)
 					{
-						handler.useItem(player, potion, false);
+						handler.onItemUse(player, potion, false);
 					}
 				}
 			}
