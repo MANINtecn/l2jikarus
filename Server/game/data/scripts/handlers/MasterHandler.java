@@ -197,6 +197,7 @@ import handlers.communityboard.DropSearchBoard;
 import handlers.communityboard.FavoriteBoard;
 import handlers.communityboard.FriendsBoard;
 import handlers.communityboard.HomeBoard;
+import handlers.communityboard.IkaCommunityBoard;
 import handlers.communityboard.HomepageBoard;
 import handlers.communityboard.MailBoard;
 import handlers.communityboard.MemoBoard;
@@ -533,6 +534,7 @@ public class MasterHandler
 			FavoriteBoard.class,
 			FriendsBoard.class,
 			HomeBoard.class,
+			IkaCommunityBoard.class,
 			HomepageBoard.class,
 			MailBoard.class,
 			MemoBoard.class,
