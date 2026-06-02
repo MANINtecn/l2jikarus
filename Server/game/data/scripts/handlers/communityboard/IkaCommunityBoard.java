@@ -5,6 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledFuture;
 
 import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
 import net.sf.l2jdev.gameserver.handler.CommunityBoardHandler;
 import net.sf.l2jdev.gameserver.handler.IItemHandler;
 import net.sf.l2jdev.gameserver.handler.IParseBoardHandler;
@@ -44,9 +45,13 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	@Override
 	public boolean onCommand(String command, Player player)
 	{
-		if (command.equals("_bbshome") || command.equals("_bbstop") || command.equals("_bbsika"))
+		if (command.equals("_bbshome") || command.equals("_bbsika"))
 		{
 			showMainPage(player);
+		}
+		else if (command.startsWith("_bbstop;"))
+		{
+			showPage(player, command.replace("_bbstop;", ""));
 		}
 		else if (command.startsWith("_bbsika_setmp_"))
 		{
@@ -140,8 +145,48 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	// ======== HTML ========
 
+	private void showPage(Player player, String page)
+	{
+		if (page.isEmpty() || !page.endsWith(".html"))
+		{
+			showMainPage(player);
+			return;
+		}
+		String html = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page);
+		if (html == null)
+		{
+			showMainPage(player);
+			return;
+		}
+		html = applyCommonVars(html, player);
+		CommunityBoardHandler.separateAndSend(html, player);
+	}
+
+	private String applyCommonVars(String html, Player player)
+	{
+		int mpThreshold = player.getVariables().getInt("IKA_MP_THRESHOLD", 0);
+		String mpStatus = mpThreshold > 0 ? mpThreshold + "%" : "OFF";
+		return html
+			.replace("%online%", String.valueOf(World.getInstance().getPlayers().size()))
+			.replace("%player_name%", player.getName())
+			.replace("%player_level%", String.valueOf(player.getLevel()))
+			.replace("%hp_pct%", String.valueOf((int)((player.getCurrentHp() / player.getMaxHp()) * 100)))
+			.replace("%mp_pct%", String.valueOf((int)((player.getCurrentMp() / player.getMaxMp()) * 100)))
+			.replace("%cp_pct%", String.valueOf((int)((player.getCurrentCp() / player.getMaxCp()) * 100)))
+			.replace("%mp_auto%", mpStatus);
+	}
+
 	private void showMainPage(Player player)
 	{
+		String html = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/home.html");
+		if (html != null)
+		{
+			html = applyCommonVars(html, player);
+			CommunityBoardHandler.separateAndSend(html, player);
+			return;
+		}
+
+		// fallback inline se o html nao carregar
 		int mpThreshold = player.getVariables().getInt("IKA_MP_THRESHOLD", 0);
 		String mpStatus = mpThreshold > 0 ? "<font color=\"44FF44\">Ativo em " + mpThreshold + "%</font>" : "<font color=\"FF4444\">Desativado</font>";
 
