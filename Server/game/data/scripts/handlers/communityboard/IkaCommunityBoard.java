@@ -82,7 +82,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		else if (command.startsWith("_bbsika_referal_"))
 		{
 			String code = command.replace("_bbsika_referal_", "").trim().toUpperCase();
-			player.sendMessage(code.isEmpty() ? "Digite um codigo valido." : "Codigo '" + code + "' recebido. Aguarde validacao.");
+			if (code.isEmpty())
+			{
+				player.sendMessage("Digite um codigo valido.");
+			}
+			else
+			{
+				redeemCode(player, code);
+			}
 			showReferralPage(player);
 		}
 		else if (command.startsWith("_bbsika_rankings"))
@@ -259,6 +266,96 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</table></center>");
 
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("auto"), c.toString()), player);
+	}
+
+	// ======== RESGATE DE CODIGO ========
+
+	private void redeemCode(Player player, String code)
+	{
+		try (Connection con = DatabaseFactory.getConnection())
+		{
+			// 1. Busca o codigo
+			try (PreparedStatement ps = con.prepareStatement("SELECT items, active, max_uses, uses FROM promo_codes WHERE code=?"))
+			{
+				ps.setString(1, code);
+				try (ResultSet rs = ps.executeQuery())
+				{
+					if (!rs.next())
+					{
+						player.sendMessage("Codigo invalido.");
+						return;
+					}
+					if (rs.getInt("active") == 0)
+					{
+						player.sendMessage("Este codigo nao esta ativo.");
+						return;
+					}
+					int maxUses = rs.getInt("max_uses");
+					int uses = rs.getInt("uses");
+					if (maxUses > 0 && uses >= maxUses)
+					{
+						player.sendMessage("Este codigo ja atingiu o limite de usos.");
+						return;
+					}
+					String items = rs.getString("items");
+
+					// 2. Verifica se essa conta ja usou
+					try (PreparedStatement ps2 = con.prepareStatement("SELECT 1 FROM promo_redeemed WHERE code=? AND account_name=?"))
+					{
+						ps2.setString(1, code);
+						ps2.setString(2, player.getAccountName());
+						try (ResultSet rs2 = ps2.executeQuery())
+						{
+							if (rs2.next())
+							{
+								player.sendMessage("Voce ja resgatou este codigo.");
+								return;
+							}
+						}
+					}
+
+					// 3. Entrega os itens
+					for (String entry : items.split(";"))
+					{
+						String[] parts = entry.trim().split(":");
+						if (parts.length == 2)
+						{
+							try
+							{
+								int itemId = Integer.parseInt(parts[0].trim());
+								long count = Long.parseLong(parts[1].trim());
+								player.addItem(net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType.REWARD, itemId, count, player, true);
+							}
+							catch (NumberFormatException ignored)
+							{
+							}
+						}
+					}
+
+					// 4. Registra o resgate
+					try (PreparedStatement ps3 = con.prepareStatement("INSERT INTO promo_redeemed (code, account_name, redeemed_at) VALUES (?,?,?)"))
+					{
+						ps3.setString(1, code);
+						ps3.setString(2, player.getAccountName());
+						ps3.setLong(3, System.currentTimeMillis());
+						ps3.executeUpdate();
+					}
+
+					// 5. Incrementa o contador
+					try (PreparedStatement ps4 = con.prepareStatement("UPDATE promo_codes SET uses=uses+1 WHERE code=?"))
+					{
+						ps4.setString(1, code);
+						ps4.executeUpdate();
+					}
+
+					player.sendMessage("Codigo '" + code + "' resgatado com sucesso! Verifique seu inventario.");
+				}
+			}
+		}
+		catch (Exception e)
+		{
+			player.sendMessage("Erro ao processar o codigo. Tente novamente.");
+		}
 	}
 
 	// ======== REFERRAL PAGE ========
