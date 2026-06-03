@@ -36,6 +36,8 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_referal",
 		"_bbsika_rankings",
 		"_bbsika_inspect",
+		"_bbsika_autopotion",
+		"_bbsika_referralpage",
 	};
 
 	@Override
@@ -105,6 +107,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		else if (command.equals("_bbsika_inspect"))
 		{
 			showInspectPage(player, "");
+		}
+		else if (command.equals("_bbsika_autopotion"))
+		{
+			showAutoPage(player);
+		}
+		else if (command.equals("_bbsika_referralpage"))
+		{
+			showReferralPage(player);
 		}
 
 		return false;
