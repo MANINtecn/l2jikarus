@@ -102,6 +102,11 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		else if (command.startsWith("_bbsika_inspect_"))
 		{
 			String name = command.replace("_bbsika_inspect_", "").trim();
+			// campo vazio passa "$inspectName" literal - ignora
+			if (name.startsWith("$") || name.isEmpty())
+			{
+				name = "";
+			}
 			showInspectPage(player, name);
 		}
 		else if (command.equals("_bbsika_inspect"))
