@@ -38,6 +38,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_inspect",
 		"_bbsika_autopotion",
 		"_bbsika_referralpage",
+		"_bbsika_account",
 	};
 
 	@Override
@@ -121,6 +122,10 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		{
 			showReferralPage(player);
 		}
+		else if (command.equals("_bbsika_account"))
+		{
+			showAccountPage(player);
+		}
 
 		return false;
 	}
@@ -180,7 +185,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		n.append(navBtn("Auto Potion", "_bbsika_setmp_0_open", "L2EssenceCommunity.gmshop_btn", active.equals("auto")));
 		n.append(navBtn("Referral", "_bbsika_referal_open", "L2EssenceCommunity.buffer_btn", active.equals("referral")));
 		n.append(navBtn("Voice", "_bbshome", "L2EssenceCommunity.teleport_btn", active.equals("voice")));
-		n.append(navBtn("Account", "_bbshome", "L2EssenceCommunity.acc_services_btn", active.equals("account")));
+		n.append(navBtn("Account", "_bbsika_account", "L2EssenceCommunity.acc_services_btn", active.equals("account")));
 		n.append(navBtn("Rankings", "_bbsika_rankings", "L2EssenceCommunity.rankings_btn", active.equals("rankings")));
 		n.append(navBtn("Inspecionar", "_bbsika_inspect", "L2EssenceCommunity.itembroker_btn", active.equals("inspect")));
 		n.append("</table>");
@@ -199,10 +204,10 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			"<table width=\"770\"><tr><td>" +
 			"<table><tr>" +
 			"<td><table width=\"180\" height=\"490\" background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\"><tr><td>" +
-			"<center><img src=\"L2EssenceCommunity.logo\" width=143 height=128></center>" +
-			"<center><img src=\"L2EssenceCommunity.effect_top\" width=167 height=18></center>" +
+			"<table width=180><tr><td align=center><img src=\"L2EssenceCommunity.logo\" width=143 height=100></td></tr></table>" +
+			"<table width=180><tr><td align=center><img src=\"L2EssenceCommunity.effect_top\" width=167 height=18></td></tr></table>" +
 			nav +
-			"<center><img src=\"L2EssenceCommunity.effect_bottom\" width=167 height=18></center>" +
+			"<table width=180><tr><td align=center><img src=\"L2EssenceCommunity.effect_bottom\" width=167 height=18></td></tr></table>" +
 			"</td></tr></table></td>" +
 			"<td><table width=\"570\" height=\"490\" background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\"><tr><td width=10></td><td>" +
 			content +
@@ -495,6 +500,45 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			return hours + "h";
 		}
 		return String.valueOf(value);
+	}
+
+	// ======== ACCOUNT PAGE ========
+
+	private void showAccountPage(Player player)
+	{
+		StringBuilder c = new StringBuilder();
+		c.append("<br><center><font color=\"CDB67F\" name=\"hs15\">ACCOUNT SERVICE</font></center><br>");
+		c.append("<center><img src=\"L2UI.SquareGray\" width=540 height=1></center><br>");
+		c.append("<center><table width=500 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=8>");
+		c.append("<tr><td align=center><font color=\"888888\">Servicos disponiveis em breve via creditos do site.</font></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td>");
+		c.append("<table width=480 cellpadding=4>");
+
+		String[][] services = {
+			{"Trocar Nick", "Altere o nome do seu personagem"},
+			{"Trocar Sexo", "Mude o genero do personagem"},
+			{"Trocar Classe", "Mude sua classe atual"},
+			{"Trocar Raca", "Mude a raca do personagem"},
+		};
+
+		for (String[] s : services)
+		{
+			c.append("<tr>");
+			c.append("<td width=30><img src=\"L2EssenceCommunity.premium_crown\" width=24 height=18></td>");
+			c.append("<td width=200><font color=\"CDB67F\">").append(s[0]).append("</font></td>");
+			c.append("<td><font color=\"888888\">").append(s[1]).append("</font></td>");
+			c.append("<td width=100 align=right><font color=\"696969\">Em breve</font></td>");
+			c.append("</tr>");
+			c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=480 height=1></td></tr>");
+		}
+
+		c.append("</table></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td align=center><font color=\"696969\" name=\"hs9\">Os servicos serao ativados apos integracao com o site. Custo em creditos.</font></td></tr>");
+		c.append("</table></center>");
+
+		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
 	}
 
 	// ======== INSPECIONAR ========
