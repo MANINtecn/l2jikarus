@@ -429,12 +429,15 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</tr></table></center><br>");
 
 		// Tabela de resultados
-		c.append("<center><table width=520 cellpadding=0 cellspacing=0 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\">");
-		c.append("<tr><td width=40 align=center><font color=\"CDB67F\">#</font></td>");
-		c.append("<td width=160><font color=\"CDB67F\">Nome</font></td>");
-		c.append("<td width=120><font color=\"CDB67F\">Classe</font></td>");
-		c.append("<td width=80 align=center><font color=\"CDB67F\">").append(getColLabel(type)).append("</font></td></tr>");
-		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=520 height=1></td></tr>");
+		c.append("<center><table width=510 cellpadding=0 cellspacing=0 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\">");
+		c.append("<tr>");
+		c.append("<td width=35 align=center><font color=\"CDB67F\">#</font></td>");
+		c.append("<td width=170><font color=\"CDB67F\">Nome</font></td>");
+		c.append("<td width=165><font color=\"CDB67F\">Classe</font></td>");
+		c.append("<td width=100 align=right><font color=\"CDB67F\">").append(getColLabel(type)).append("</font></td>");
+		c.append("<td width=10></td>");
+		c.append("</tr>");
+		c.append("<tr><td colspan=5><img src=\"L2UI.SquareGray\" width=510 height=1></td></tr>");
 
 		try (Connection con = DatabaseFactory.getConnection();
 			PreparedStatement ps = con.prepareStatement(buildRankQuery(type)))
@@ -452,10 +455,11 @@ public class IkaCommunityBoard implements IParseBoardHandler
 					String medal = pos <= 3 ? "&#9733; " : "";
 
 					c.append("<tr>");
-					c.append("<td width=40 align=center><font color=\"").append(color).append("\">").append(medal).append(pos).append("</font></td>");
-					c.append("<td width=160><font color=\"FFFFFF\">").append(name).append("</font></td>");
-					c.append("<td width=120><font color=\"888888\">").append(className).append("</font></td>");
-					c.append("<td width=80 align=center><font color=\"").append(color).append("\">").append(formatValue(type, value)).append("</font></td>");
+					c.append("<td width=35 align=center><font color=\"").append(color).append("\">").append(medal).append(pos).append("</font></td>");
+					c.append("<td width=170><font color=\"FFFFFF\">").append(name).append("</font></td>");
+					c.append("<td width=165><font color=\"888888\">").append(className).append("</font></td>");
+					c.append("<td width=100 align=right><font color=\"").append(color).append("\">").append(formatValue(type, value)).append("</font></td>");
+					c.append("<td width=10></td>");
 					c.append("</tr>");
 					pos++;
 				}
@@ -518,39 +522,71 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	private void showAccountPage(Player player)
 	{
-		StringBuilder c = new StringBuilder();
-		c.append("<br><center><font color=\"CDB67F\" name=\"hs15\">ACCOUNT SERVICE</font></center><br>");
-		c.append("<center><img src=\"L2UI.SquareGray\" width=540 height=1></center><br>");
-		c.append("<center><table width=500 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=8>");
-		c.append("<tr><td align=center><font color=\"888888\">Servicos disponiveis em breve via creditos do site.</font></td></tr>");
-		c.append("<tr><td height=10></td></tr>");
-		c.append("<tr><td>");
-		c.append("<table width=480 cellpadding=4>");
+		long credits = getPlayerCredits(player);
 
+		StringBuilder c = new StringBuilder();
+		c.append("<table width=530 cellpadding=0 cellspacing=0>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">ACCOUNT SERVICE</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+
+		// Saldo de creditos
+		c.append("<tr><td align=center>");
+		c.append("<table width=300 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=6><tr>");
+		c.append("<td align=center><img src=\"L2EssenceCommunity.premium_crown\" width=24 height=18></td>");
+		c.append("<td><font color=\"888888\">Seus Creditos:</font></td>");
+		c.append("<td align=right><font color=\"CDB67F\" name=\"hs12\">").append(credits).append("</font></td>");
+		c.append("</tr></table>");
+		c.append("</td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+
+		// Lista de servicos
 		String[][] services = {
-			{"Trocar Nick", "Altere o nome do seu personagem"},
-			{"Trocar Sexo", "Mude o genero do personagem"},
-			{"Trocar Classe", "Mude sua classe atual"},
-			{"Trocar Raca", "Mude a raca do personagem"},
+			{"Trocar Nick", "30"},
+			{"Trocar Sexo", "30"},
+			{"Trocar Classe", "30"},
+			{"Trocar Raca", "30"},
 		};
+
+		c.append("<tr><td>");
+		c.append("<table width=530 cellpadding=0 cellspacing=0>");
+		c.append("<tr>");
+		c.append("<td width=10></td>");
+		c.append("<td width=250><font color=\"AAAAAA\">Servico</font></td>");
+		c.append("<td width=100 align=center><font color=\"AAAAAA\">Custo</font></td>");
+		c.append("<td width=150 align=center><font color=\"AAAAAA\">Acao</font></td>");
+		c.append("<td width=10></td>");
+		c.append("</tr>");
+		c.append("<tr><td colspan=5><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
 
 		for (String[] s : services)
 		{
+			c.append("<tr><td height=6></td></tr>");
 			c.append("<tr>");
-			c.append("<td width=30><img src=\"L2EssenceCommunity.premium_crown\" width=24 height=18></td>");
-			c.append("<td width=200><font color=\"CDB67F\">").append(s[0]).append("</font></td>");
-			c.append("<td><font color=\"888888\">").append(s[1]).append("</font></td>");
-			c.append("<td width=100 align=right><font color=\"696969\">Em breve</font></td>");
+			c.append("<td width=10></td>");
+			c.append("<td width=250><font color=\"CDB67F\">").append(s[0]).append("</font></td>");
+			c.append("<td width=100 align=center><font color=\"FFAA00\">").append(s[1]).append(" cred</font></td>");
+			c.append("<td width=150 align=center><font color=\"696969\">Em breve</font></td>");
+			c.append("<td width=10></td>");
 			c.append("</tr>");
-			c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=480 height=1></td></tr>");
+			c.append("<tr><td height=6></td></tr>");
+			c.append("<tr><td colspan=5><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
 		}
 
 		c.append("</table></td></tr>");
-		c.append("<tr><td height=8></td></tr>");
-		c.append("<tr><td align=center><font color=\"696969\" name=\"hs9\">Os servicos serao ativados apos integracao com o site. Custo em creditos.</font></td></tr>");
-		c.append("</table></center>");
+		c.append("</table>");
 
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
+	}
+
+	private long getPlayerCredits(Player player)
+	{
+		// TODO: integrar com tabela de creditos do site quando disponivel
+		return 0;
 	}
 
 	// ======== INSPECIONAR ========
