@@ -378,6 +378,11 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	private void showReferralPage(Player player)
 	{
+		showReferralPage(player, "");
+	}
+
+	private void showReferralPage(Player player, String message)
+	{
 		StringBuilder c = new StringBuilder();
 		c.append("<table width=540 cellpadding=0 cellspacing=0>");
 		c.append("<tr><td height=20></td></tr>");
@@ -394,7 +399,12 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td align=center>");
 		c.append("<button value=\"Resgatar Codigo\" action=\"bypass _bbsika_referal_$refCode\" width=200 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\">");
 		c.append("</td></tr>");
-		c.append("<tr><td height=20></td></tr>");
+		if (!message.isEmpty())
+		{
+			c.append("<tr><td height=10></td></tr>");
+			c.append("<tr><td align=center>").append(message).append("</td></tr>");
+		}
+		c.append("<tr><td height=15></td></tr>");
 		c.append("<tr><td align=center><font color=\"696969\">Codigos sao liberados em lives de streamers e eventos.</font></td></tr>");
 		c.append("</table>");
 
