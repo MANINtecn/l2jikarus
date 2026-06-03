@@ -85,15 +85,15 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		else if (command.startsWith("_bbsika_referal_"))
 		{
 			String code = command.replace("_bbsika_referal_", "").trim().toUpperCase();
-			if (code.isEmpty())
+			if (code.isEmpty() || code.startsWith("$"))
 			{
-				player.sendMessage("Digite um codigo valido.");
+				showReferralPage(player, "<font color=\"FF4444\">Digite um codigo no campo acima.</font>");
 			}
 			else
 			{
-				redeemCode(player, code);
+				String msg = redeemCode(player, code);
+				showReferralPage(player, msg);
 			}
-			showReferralPage(player);
 		}
 		else if (command.startsWith("_bbsika_rankings"))
 		{
@@ -290,7 +290,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	// ======== RESGATE DE CODIGO ========
 
-	private void redeemCode(Player player, String code)
+	private String redeemCode(Player player, String code)
 	{
 		try (Connection con = DatabaseFactory.getConnection())
 		{
@@ -302,20 +302,17 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				{
 					if (!rs.next())
 					{
-						player.sendMessage("Codigo invalido.");
-						return;
+						return "<font color=\"FF4444\">Codigo invalido.</font>";
 					}
 					if (rs.getInt("active") == 0)
 					{
-						player.sendMessage("Este codigo nao esta ativo.");
-						return;
+						return "<font color=\"FF4444\">Este codigo nao esta ativo.</font>";
 					}
 					int maxUses = rs.getInt("max_uses");
 					int uses = rs.getInt("uses");
 					if (maxUses > 0 && uses >= maxUses)
 					{
-						player.sendMessage("Este codigo ja atingiu o limite de usos.");
-						return;
+						return "<font color=\"FF4444\">Este codigo ja atingiu o limite de usos.</font>";
 					}
 					String items = rs.getString("items");
 
@@ -328,8 +325,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 						{
 							if (rs2.next())
 							{
-								player.sendMessage("Voce ja resgatou este codigo.");
-								return;
+								return "<font color=\"FFAA00\">Voce ja resgatou este codigo.</font>";
 							}
 						}
 					}
@@ -368,13 +364,13 @@ public class IkaCommunityBoard implements IParseBoardHandler
 						ps4.executeUpdate();
 					}
 
-					player.sendMessage("Codigo '" + code + "' resgatado com sucesso! Verifique seu inventario.");
+					return "<font color=\"44FF44\">Codigo '" + code + "' resgatado! Verifique seu inventario.</font>";
 				}
 			}
 		}
 		catch (Exception e)
 		{
-			player.sendMessage("Erro ao processar o codigo. Tente novamente.");
+			return "<font color=\"FF4444\">Erro ao processar o codigo. Tente novamente.</font>";
 		}
 	}
 
