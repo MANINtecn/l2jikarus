@@ -384,32 +384,31 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	private void showReferralPage(Player player, String message)
 	{
 		StringBuilder c = new StringBuilder();
-		c.append("<table width=540 cellpadding=0 cellspacing=0>");
+		c.append("<table width=530 cellpadding=0 cellspacing=0>");
 		c.append("<tr><td height=20></td></tr>");
 		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">CODIGO REFERRAL / PROMO</font></td></tr>");
 		c.append("<tr><td height=4></td></tr>");
-		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
 		c.append("<tr><td height=20></td></tr>");
-		c.append("<tr><td align=center><font color=\"888888\">Tem um codigo de streamer ou evento?</font></td></tr>");
-		c.append("<tr><td height=4></td></tr>");
-		c.append("<tr><td align=center><font color=\"888888\">Digite abaixo para resgatar:</font></td></tr>");
-		c.append("<tr><td height=15></td></tr>");
-		c.append("<tr><td align=center><edit var=\"refCode\" width=300 height=15></edit></td></tr>");
-		c.append("<tr><td height=10></td></tr>");
 		c.append("<tr><td align=center>");
-		c.append("<button value=\"Resgatar Codigo\" action=\"bypass _bbsika_referal_$refCode\" width=200 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\">");
-		c.append("</td></tr>");
-		if (!message.isEmpty())
-		{
-			c.append("<tr><td height=10></td></tr>");
-			c.append("<tr><td align=center>").append(message).append("</td></tr>");
-		}
-		c.append("<tr><td height=15></td></tr>");
-		c.append("<tr><td align=center><font color=\"696969\">Codigos sao liberados em lives de streamers e eventos.</font></td></tr>");
+		c.append("<table width=480 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=10>");
+		c.append("<tr><td align=center><font color=\"888888\">Para resgatar um codigo, digite no chat do jogo:</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">.code SEUCODIGO</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td align=center><font color=\"696969\">Exemplo: .code STREAMER10</font></td></tr>");
 		c.append("</table>");
-
+		c.append("</td></tr>");
+		c.append("<tr><td height=15></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td align=center><font color=\"696969\">Codigos liberados em lives de streamers e eventos oficiais.</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td align=center><font color=\"696969\">Cada codigo so pode ser resgatado uma vez por conta.</font></td></tr>");
+		c.append("</table>");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("referral"), c.toString()), player);
 	}
+
 
 	// ======== RANKINGS ========
 

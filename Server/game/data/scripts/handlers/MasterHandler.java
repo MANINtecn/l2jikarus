@@ -344,6 +344,7 @@ import handlers.voicedcommandhandlers.Offline;
 import handlers.voicedcommandhandlers.OfflinePlay;
 import handlers.voicedcommandhandlers.Online;
 import handlers.voicedcommandhandlers.Premium;
+import handlers.voicedcommandhandlers.PromoCode;
 import handlers.voicedcommandhandlers.Wedding;
 
 /**
@@ -619,6 +620,7 @@ public class MasterHandler
 			OnlineInfoConfig.ENABLE_ONLINE_COMMAND ? Online.class : null,
 			PremiumSystemConfig.PREMIUM_SYSTEM_ENABLED ? Premium.class : null,
 			AutoPotionsConfig.AUTO_POTIONS_ENABLED ? AutoPotion.class : null,
+			PromoCode.class,
 			handlers.voicedcommandhandlers.VoiceCommand.class,
 		},
 		{
