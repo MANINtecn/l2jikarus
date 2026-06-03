@@ -383,18 +383,24 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	private void showReferralPage(Player player)
 	{
 		StringBuilder c = new StringBuilder();
-		c.append("<br><center><font color=\"CDB67F\" name=\"hs15\">CODIGO REFERRAL / PROMO</font></center><br>");
-		c.append("<center><img src=\"L2UI.SquareGray\" width=540 height=1></center><br>");
-		c.append("<center><table width=480 cellpadding=4>");
-		c.append("<tr><td align=center><font color=\"888888\">Tem um codigo de streamer ou evento? Digite abaixo para resgatar:</font></td></tr>");
+		c.append("<table width=540 cellpadding=0 cellspacing=0>");
+		c.append("<tr><td height=20></td></tr>");
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">CODIGO REFERRAL / PROMO</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		c.append("<tr><td height=20></td></tr>");
+		c.append("<tr><td align=center><font color=\"888888\">Tem um codigo de streamer ou evento?</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td align=center><font color=\"888888\">Digite abaixo para resgatar:</font></td></tr>");
+		c.append("<tr><td height=15></td></tr>");
+		c.append("<tr><td align=center><edit var=\"refCode\" width=300 height=15></edit></td></tr>");
 		c.append("<tr><td height=10></td></tr>");
 		c.append("<tr><td align=center>");
-		c.append("<edit var=\"refCode\" width=300 height=15></edit><br><br>");
 		c.append("<button value=\"Resgatar Codigo\" action=\"bypass _bbsika_referal_$refCode\" width=200 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\">");
 		c.append("</td></tr>");
 		c.append("<tr><td height=20></td></tr>");
-		c.append("<tr><td align=center><font color=\"696969\">Codigos sao liberados em lives de streamers e eventos oficiais.</font></td></tr>");
-		c.append("</table></center>");
+		c.append("<tr><td align=center><font color=\"696969\">Codigos sao liberados em lives de streamers e eventos.</font></td></tr>");
+		c.append("</table>");
 
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("referral"), c.toString()), player);
 	}
@@ -549,11 +555,13 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<br><center><font color=\"CDB67F\" name=\"hs15\">INSPECIONAR JOGADOR</font></center><br>");
 		c.append("<center><img src=\"L2UI.SquareGray\" width=540 height=1></center><br>");
 
-		c.append("<center><table width=480 cellpadding=2>");
-		c.append("<tr><td align=center>");
-		c.append("<edit var=\"inspectName\" width=250 height=15></edit>  ");
-		c.append("<button value=\"Buscar\" action=\"bypass _bbsika_inspect_$inspectName\" width=100 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\">");
-		c.append("</td></tr></table></center><br>");
+		c.append("<table width=540 cellpadding=0 cellspacing=0>");
+		c.append("<tr><td height=15></td></tr>");
+		c.append("<tr><td align=center><edit var=\"inspectName\" width=280 height=15></edit></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td align=center><button value=\"Buscar Jogador\" action=\"bypass _bbsika_inspect_$inspectName\" width=160 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\"></td></tr>");
+		c.append("<tr><td height=15></td></tr>");
+		c.append("</table>");
 
 		if (!targetName.isEmpty())
 		{
