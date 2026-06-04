@@ -82,9 +82,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			player.sendMessage("Auto-use MP: desativado.");
 			showAutoPage(player);
 		}
-		else if (command.startsWith("_bbsika_referal_"))
+		else if (command.equals("_bbsika_referralpage"))
 		{
-			String code = command.replace("_bbsika_referal_", "").trim().toUpperCase();
+			showReferralPage(player);
+		}
+		else if (command.startsWith("_bbsika_referal"))
+		{
+			// aceita "_bbsika_referal CODIGO" (campo edit) ou "_bbsika_referal_CODIGO"
+			String code = command.substring("_bbsika_referal".length()).replace("_", " ").trim().toUpperCase();
 			if (code.isEmpty() || code.startsWith("$"))
 			{
 				showReferralPage(player, "<font color=\"FF4444\">Digite um codigo no campo acima.</font>");
@@ -117,10 +122,6 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		else if (command.equals("_bbsika_autopotion"))
 		{
 			showAutoPage(player);
-		}
-		else if (command.equals("_bbsika_referralpage"))
-		{
-			showReferralPage(player);
 		}
 		else if (command.equals("_bbsika_account"))
 		{
@@ -386,22 +387,29 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	{
 		StringBuilder c = new StringBuilder();
 		c.append("<table width=530 cellpadding=0 cellspacing=0>");
-		c.append("<tr><td height=20></td></tr>");
+		c.append("<tr><td height=18></td></tr>");
 		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">CODIGO REFERRAL / PROMO</font></td></tr>");
 		c.append("<tr><td height=4></td></tr>");
 		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
-		c.append("<tr><td height=20></td></tr>");
+		c.append("<tr><td height=18></td></tr>");
+		c.append("<tr><td align=center><font color=\"888888\">Digite seu codigo abaixo e clique em RESGATAR:</font></td></tr>");
+		c.append("<tr><td height=12></td></tr>");
 		c.append("<tr><td align=center>");
-		c.append("<table width=480 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=10>");
-		c.append("<tr><td align=center><font color=\"888888\">Para resgatar um codigo, digite no chat do jogo:</font></td></tr>");
-		c.append("<tr><td height=4></td></tr>");
-		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">.code SEUCODIGO</font></td></tr>");
-		c.append("<tr><td height=4></td></tr>");
-		c.append("<tr><td align=center><font color=\"696969\">Exemplo: .code STREAMER10</font></td></tr>");
-		c.append("</table>");
+		c.append("<table cellpadding=0 cellspacing=0><tr>");
+		c.append("<td><edit var=\"refCode\" width=240 height=20 length=\"30\"></td>");
+		c.append("<td width=8></td>");
+		c.append("<td><button value=\"RESGATAR\" action=\"bypass _bbsika_referal $refCode\" width=110 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\"></td>");
+		c.append("</tr></table>");
 		c.append("</td></tr>");
-		c.append("<tr><td height=15></td></tr>");
+		if (message != null && !message.isEmpty())
+		{
+			c.append("<tr><td height=12></td></tr>");
+			c.append("<tr><td align=center>").append(message).append("</td></tr>");
+		}
+		c.append("<tr><td height=20></td></tr>");
 		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td align=center><font color=\"888888\">Tambem funciona no chat do jogo: <font color=\"CDB67F\">.code SEUCODIGO</font></font></td></tr>");
 		c.append("<tr><td height=8></td></tr>");
 		c.append("<tr><td align=center><font color=\"696969\">Codigos liberados em lives de streamers e eventos oficiais.</font></td></tr>");
 		c.append("<tr><td height=4></td></tr>");
