@@ -287,7 +287,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		boolean basicClaimed = player.getVariables().getBoolean("IKA_START_BASIC", false);
 		String startBtn = basicClaimed
 			? "<font color=\"44FF44\">RESGATADO</font>"
-			: "<button value=\"RESGATAR\" action=\"bypass _bbsika_start_basic\" width=140 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\">";
+			: "<button value=\"RESGATAR\" action=\"bypass _bbsika_start_basic\" width=92 height=24 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\">";
 		return html
 			.replace("%online%", String.valueOf(World.getInstance().getPlayers().size()))
 			.replace("%player_name%", player.getName())
@@ -302,6 +302,8 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	private String buildOfferBlock()
 	{
+		// Espaco reservado constante: com OU sem oferta o layout nao muda
+		final String SPACER = "<tr><td height=58></td></tr>";
 		try (Connection con = DatabaseFactory.getConnection();
 			PreparedStatement ps = con.prepareStatement("SELECT item_id, count, price_ikoin, title, icon FROM game_offer WHERE id=1 AND active=1"))
 		{
@@ -309,7 +311,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			{
 				if (!rs.next())
 				{
-					return ""; // sem oferta ativa = secao some
+					return SPACER; // sem oferta: mantem a mesma altura
 				}
 				int itemId = rs.getInt("item_id");
 				int count = rs.getInt("count");
@@ -323,30 +325,29 @@ public class IkaCommunityBoard implements IParseBoardHandler
 					: (tmpl != null && tmpl.getIcon() != null ? tmpl.getIcon() : "L2EssenceCommunity.agathions");
 
 				StringBuilder b = new StringBuilder();
-				b.append("<tr><td height=12></td></tr>");
-				b.append("<tr><td align=center><img src=\"L2UI.SquareGray\" width=500 height=1></td></tr>");
-				b.append("<tr><td height=12></td></tr>");
+				b.append("<tr><td height=8></td></tr>");
 				b.append("<tr><td><table><tr>");
-				b.append("<td width=20></td>");
-				b.append("<td width=56 align=center><img src=\"").append(icon).append("\" width=42 height=42></td>");
-				b.append("<td width=240><font name=\"hs15\" color=\"FFAA44\">").append(title == null ? "Oferta Limitada" : title).append("</font><br1>");
+				b.append("<td width=16></td>");
+				b.append("<td width=48 align=center><img src=\"").append(icon).append("\" width=40 height=40></td>");
+				b.append("<td width=190><font name=\"hs15\" color=\"FFAA44\">").append(title == null ? "Oferta Limitada" : title).append("</font><br1>");
 				b.append("<font color=\"888888\">").append(itemName);
 				if (count > 1)
 				{
 					b.append(" x").append(count);
 				}
 				b.append("</font></td>");
-				b.append("<td width=20></td>");
-				b.append("<td width=160 align=center>");
-				b.append("<font name=\"hs15\" color=\"LEVEL\">").append(price).append(" Ikoin</font><br1>");
-				b.append("<button value=\"Comprar\" action=\"bypass _bbsika_buyoffer\" width=140 height=25 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
-				b.append("</td></tr></table></td></tr>");
+				b.append("<td width=100 align=center>");
+				b.append("<font color=\"LEVEL\">").append(price).append(" Ikoin</font><br1>");
+				b.append("<button value=\"Comprar\" action=\"bypass _bbsika_buyoffer\" width=92 height=24 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+				b.append("</td>");
+				b.append("<td width=200></td>");
+				b.append("</tr></table></td></tr>");
 				return b.toString();
 			}
 		}
 		catch (Exception e)
 		{
-			return "";
+			return SPACER;
 		}
 	}
 
