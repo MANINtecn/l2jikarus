@@ -132,7 +132,8 @@ public class DeadZone extends Script
 
 	// ===== TELEGRAPH AoE (estilo Albion: marca o chao, espera, da dano) =====
 	private static boolean TELEGRAPH_ENABLED = true;
-	private static final long TELEGRAPH_INTERVAL_MS = 11000L; // a cada 11s o boss telegrafa
+	private static final long TELEGRAPH_INTERVAL_MS = 9000L;  // verifica a cada 9s
+	private static final int TELEGRAPH_CHANCE = 40;           // 40% de chance de disparar por ciclo
 	private static final long TELEGRAPH_DELAY_MS = 2500L;     // janela pra fugir (2.5s)
 	private static final int TELEGRAPH_RADIUS = 220;          // raio da zona de perigo
 	private static final double TELEGRAPH_HP_PERCENT = 0.45;  // dano = 45% do HP max do alvo
@@ -544,63 +545,218 @@ public class DeadZone extends Script
 					stopTelegraph(objId);
 					return;
 				}
-				// alvo: um player aleatorio dentro do alcance do boss
-				final List<Player> near = World.getInstance().getVisibleObjectsInRange(boss, Player.class, 900);
-				if (near.isEmpty())
+				// SO dispara se o boss esta em combate com players (quem nao luta nao toma)
+				if (!boss.isInCombat())
 				{
 					return;
 				}
-				final Player target = near.get(Rnd.get(near.size()));
-				final int tx = target.getX();
-				final int ty = target.getY();
-				final int tz = target.getZ();
-
-				// 1) desenha o circulo vermelho de perigo p/ todos por perto + aviso
-				for (Player p : World.getInstance().getVisibleObjectsInRange(boss, Player.class, 1500))
+				final List<Player> attackers = getBossAttackers(boss);
+				if (attackers.isEmpty())
 				{
-					drawDangerCircle(p, tx, ty, tz, TELEGRAPH_RADIUS, TELEGRAPH_COLOR_WARN, "dz_tele");
-					p.sendPacket(new net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage("PERIGO! Saia da area marcada!", 2000));
+					return;
 				}
-
-				// 2) apos o delay, aplica o dano em quem ficou + limpa o circulo
-				ThreadPool.schedule(() ->
+				// 40% de chance por ciclo
+				if (Rnd.get(100) >= TELEGRAPH_CHANCE)
 				{
-					try
-					{
-						if (boss.isDead())
-						{
-							for (Player p : World.getInstance().getVisibleObjectsInRange(boss, Player.class, 1500))
-							{
-								clearDangerCircle(p, "dz_tele");
-							}
-							return;
-						}
-						for (Player p : World.getInstance().getVisibleObjectsInRange(boss, Player.class, 1500))
-						{
-							final double dist = Math.sqrt(Math.pow(p.getX() - tx, 2) + Math.pow(p.getY() - ty, 2));
-							if (dist <= TELEGRAPH_RADIUS && !p.isDead())
-							{
-								// flash laranja de impacto
-								drawDangerCircle(p, tx, ty, tz, TELEGRAPH_RADIUS, TELEGRAPH_COLOR_HIT, "dz_tele");
-								final double dmg = p.getMaxHp() * TELEGRAPH_HP_PERCENT;
-								p.reduceCurrentHp(dmg, boss, null);
-								p.sendPacket(new net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage("Voce foi atingido!", 1500));
-							}
-							// limpa apos o flash
-							final Player fp = p;
-							ThreadPool.schedule(() -> clearDangerCircle(fp, "dz_tele"), 400);
-						}
-					}
-					catch (Exception ignored)
-					{
-					}
-				}, TELEGRAPH_DELAY_MS);
+					return;
+				}
+				// padrao aleatorio: 0=1 circulo grande, 1=3-4 circulos pequenos, 2=linha (pode ser diagonal)
+				fireTelegraph(boss, attackers, Rnd.get(3));
 			}
 			catch (Exception ignored)
 			{
 			}
 		}, TELEGRAPH_INTERVAL_MS, TELEGRAPH_INTERVAL_MS);
 		TELEGRAPH_TASKS.put(objId, task);
+	}
+
+	/** Executa um padrao de telegraph: desenha a marca, espera, aplica dano em quem ficou (so attackers). */
+	private void fireTelegraph(Npc boss, List<Player> attackers, int pattern)
+	{
+		final List<Player> viewers = World.getInstance().getVisibleObjectsInRange(boss, Player.class, 1800);
+		final int z = boss.getZ();
+
+		// ===== PADRAO 2: LINHA (varredura, pode ser diagonal) =====
+		if (pattern == 2)
+		{
+			final double ang = Math.toRadians(Rnd.get(360));
+			final int len = 900;
+			final int ax = boss.getX();
+			final int ay = boss.getY();
+			final int bx = ax + (int) Math.round(Math.cos(ang) * len);
+			final int by = ay + (int) Math.round(Math.sin(ang) * len);
+			final int halfW = 130;
+			for (Player p : viewers)
+			{
+				drawDangerLine(p, ax, ay, bx, by, z, halfW, TELEGRAPH_COLOR_WARN, "dz_tele0");
+				p.sendPacket(new net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage("PERIGO! Varredura incoming!", 2000));
+			}
+			ThreadPool.schedule(() ->
+			{
+				try
+				{
+					for (Player p : viewers)
+					{
+						clearTelegraph(p);
+					}
+					if (boss.isDead())
+					{
+						return;
+					}
+					for (Player p : getBossAttackers(boss))
+					{
+						if (!p.isDead() && pointInBand(p.getX(), p.getY(), ax, ay, bx, by, halfW))
+						{
+							p.reduceCurrentHp(p.getMaxHp() * TELEGRAPH_HP_PERCENT, boss, null);
+							p.sendPacket(new net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage("Voce foi atingido!", 1500));
+						}
+					}
+				}
+				catch (Exception ignored)
+				{
+				}
+			}, TELEGRAPH_DELAY_MS);
+			return;
+		}
+
+		// ===== PADRAO 0/1: CIRCULOS (1 grande ou 3-4 pequenos) =====
+		final int[][] centers;
+		if (pattern == 1)
+		{
+			final int n = 3 + Rnd.get(2); // 3 ou 4 circulos
+			centers = new int[n][3];
+			for (int i = 0; i < n; i++)
+			{
+				final Player t = attackers.get(Rnd.get(attackers.size()));
+				centers[i][0] = t.getX() + Rnd.get(-90, 90);
+				centers[i][1] = t.getY() + Rnd.get(-90, 90);
+				centers[i][2] = TELEGRAPH_RADIUS / 2; // menores
+			}
+		}
+		else
+		{
+			final Player t = attackers.get(Rnd.get(attackers.size()));
+			centers = new int[][] { { t.getX(), t.getY(), TELEGRAPH_RADIUS } };
+		}
+
+		for (Player p : viewers)
+		{
+			for (int i = 0; i < centers.length; i++)
+			{
+				drawDangerCircle(p, centers[i][0], centers[i][1], z, centers[i][2], TELEGRAPH_COLOR_WARN, "dz_tele" + i);
+			}
+			p.sendPacket(new net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage("PERIGO! Saia das areas marcadas!", 2000));
+		}
+
+		ThreadPool.schedule(() ->
+		{
+			try
+			{
+				for (Player p : viewers)
+				{
+					clearTelegraph(p);
+				}
+				if (boss.isDead())
+				{
+					return;
+				}
+				for (Player p : getBossAttackers(boss))
+				{
+					if (p.isDead())
+					{
+						continue;
+					}
+					for (int[] c : centers)
+					{
+						final double dist = Math.sqrt(Math.pow(p.getX() - c[0], 2) + Math.pow(p.getY() - c[1], 2));
+						if (dist <= c[2])
+						{
+							p.reduceCurrentHp(p.getMaxHp() * TELEGRAPH_HP_PERCENT, boss, null);
+							p.sendPacket(new net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage("Voce foi atingido!", 1500));
+							break;
+						}
+					}
+				}
+			}
+			catch (Exception ignored)
+			{
+			}
+		}, TELEGRAPH_DELAY_MS);
+	}
+
+	/** Players que estao na aggro list do boss (quem realmente luta). */
+	private static List<Player> getBossAttackers(Npc boss)
+	{
+		final List<Player> result = new ArrayList<>();
+		if (!boss.isAttackable())
+		{
+			return result;
+		}
+		for (Creature c : boss.asAttackable().getAggroList().keySet())
+		{
+			if ((c != null) && c.isPlayer() && !c.isDead() && (c.calculateDistance3D(boss) <= 2000))
+			{
+				result.add(c.asPlayer());
+			}
+		}
+		return result;
+	}
+
+	/** Desenha uma faixa retangular (linha grossa) no chao. */
+	private static void drawDangerLine(Player p, int ax, int ay, int bx, int by, int z, int halfW, int color, String name)
+	{
+		try
+		{
+			final double dx = bx - ax;
+			final double dy = by - ay;
+			final double len = Math.sqrt((dx * dx) + (dy * dy));
+			if (len < 1)
+			{
+				return;
+			}
+			final int px = (int) Math.round(-dy / len * halfW);
+			final int py = (int) Math.round(dx / len * halfW);
+			final net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive prim =
+				new net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive(name, p.getX(), p.getY(), p.getZ());
+			prim.addLine(color, ax + px, ay + py, z, bx + px, by + py, z);
+			prim.addLine(color, bx + px, by + py, z, bx - px, by - py, z);
+			prim.addLine(color, bx - px, by - py, z, ax - px, ay - py, z);
+			prim.addLine(color, ax - px, ay - py, z, ax + px, ay + py, z);
+			p.sendPacket(prim);
+		}
+		catch (Exception ignored)
+		{
+		}
+	}
+
+	/** Ponto dentro da faixa retangular (linha)? */
+	private static boolean pointInBand(int px, int py, int ax, int ay, int bx, int by, int halfW)
+	{
+		final double dx = bx - ax;
+		final double dy = by - ay;
+		final double len2 = (dx * dx) + (dy * dy);
+		if (len2 < 1)
+		{
+			return false;
+		}
+		final double t = (((px - ax) * dx) + ((py - ay) * dy)) / len2;
+		if ((t < 0) || (t > 1))
+		{
+			return false;
+		}
+		final double projX = ax + (t * dx);
+		final double projY = ay + (t * dy);
+		final double perp = Math.sqrt(Math.pow(px - projX, 2) + Math.pow(py - projY, 2));
+		return perp <= halfW;
+	}
+
+	/** Limpa todas as marcas de telegraph de um player (ate 4 circulos + linha). */
+	private static void clearTelegraph(Player p)
+	{
+		for (int i = 0; i < 4; i++)
+		{
+			clearDangerCircle(p, "dz_tele" + i);
+		}
 	}
 
 	private static void stopTelegraph(int objectId)
