@@ -80,8 +80,12 @@ public class PromoCode implements IVoicedCommandHandler
 						}
 					}
 
-					// Entrega os itens
-					for (String entry : items.split(";"))
+					// Entrega os itens (items pode ser null em codigos so de iKoin)
+					if (items == null || items.trim().isEmpty())
+					{
+						player.sendMessage("[Codigo] Codigo resgatado! Ikoin creditado no site.");
+					}
+					for (String entry : (items != null ? items : "").split(";"))
 					{
 						String[] parts = entry.trim().split(":");
 						if (parts.length == 2)
