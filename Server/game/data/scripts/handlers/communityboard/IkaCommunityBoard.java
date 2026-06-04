@@ -11,6 +11,9 @@ import net.sf.l2jdev.commons.database.DatabaseFactory;
 import net.sf.l2jdev.commons.threads.ThreadPool;
 import net.sf.l2jdev.gameserver.cache.HtmCache;
 import net.sf.l2jdev.gameserver.data.xml.ClassListData;
+import net.sf.l2jdev.gameserver.data.xml.ItemData;
+import net.sf.l2jdev.gameserver.model.item.ItemTemplate;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
 import net.sf.l2jdev.gameserver.handler.CommunityBoardHandler;
 import net.sf.l2jdev.gameserver.handler.IItemHandler;
 import net.sf.l2jdev.gameserver.handler.IParseBoardHandler;
@@ -44,6 +47,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_referralpage",
 		"_bbsika_account",
 		"_bbsika_start",
+		"_bbsika_buyoffer",
 	};
 
 	@Override
@@ -135,6 +139,11 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		else if (command.equals("_bbsika_start_basic"))
 		{
 			claimBasicStart(player);
+			showMainPage(player);
+		}
+		else if (command.equals("_bbsika_buyoffer"))
+		{
+			buyOffer(player);
 			showMainPage(player);
 		}
 
@@ -285,7 +294,113 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			.replace("%player_level%", String.valueOf(player.getLevel()))
 			.replace("%mp_auto%", mpThreshold > 0 ? mpThreshold + "%" : "OFF")
 			.replace("%ikoin%", String.valueOf(getPlayerCredits(player)))
-			.replace("%start_basic_btn%", startBtn);
+			.replace("%start_basic_btn%", startBtn)
+			.replace("%offer_block%", buildOfferBlock());
+	}
+
+	// ======== OFERTA LIMITADA (gerenciada pelo site/admin via game_offer) ========
+
+	private String buildOfferBlock()
+	{
+		try (Connection con = DatabaseFactory.getConnection();
+			PreparedStatement ps = con.prepareStatement("SELECT item_id, count, price_ikoin, title, icon FROM game_offer WHERE id=1 AND active=1"))
+		{
+			try (ResultSet rs = ps.executeQuery())
+			{
+				if (!rs.next())
+				{
+					return ""; // sem oferta ativa = secao some
+				}
+				int itemId = rs.getInt("item_id");
+				int count = rs.getInt("count");
+				int price = rs.getInt("price_ikoin");
+				String title = rs.getString("title");
+				String iconOverride = rs.getString("icon");
+
+				ItemTemplate tmpl = ItemData.getInstance().getTemplate(itemId);
+				String itemName = tmpl != null ? tmpl.getName() : "Item " + itemId;
+				String icon = (iconOverride != null && !iconOverride.isEmpty()) ? iconOverride
+					: (tmpl != null && tmpl.getIcon() != null ? tmpl.getIcon() : "L2EssenceCommunity.agathions");
+
+				StringBuilder b = new StringBuilder();
+				b.append("<tr><td height=12></td></tr>");
+				b.append("<tr><td align=center><img src=\"L2UI.SquareGray\" width=500 height=1></td></tr>");
+				b.append("<tr><td height=12></td></tr>");
+				b.append("<tr><td><table><tr>");
+				b.append("<td width=20></td>");
+				b.append("<td width=56 align=center><img src=\"").append(icon).append("\" width=42 height=42></td>");
+				b.append("<td width=240><font name=\"hs15\" color=\"FFAA44\">").append(title == null ? "Oferta Limitada" : title).append("</font><br1>");
+				b.append("<font color=\"888888\">").append(itemName);
+				if (count > 1)
+				{
+					b.append(" x").append(count);
+				}
+				b.append("</font></td>");
+				b.append("<td width=20></td>");
+				b.append("<td width=160 align=center>");
+				b.append("<font name=\"hs15\" color=\"LEVEL\">").append(price).append(" Ikoin</font><br1>");
+				b.append("<button value=\"Comprar\" action=\"bypass _bbsika_buyoffer\" width=140 height=25 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+				b.append("</td></tr></table></td></tr>");
+				return b.toString();
+			}
+		}
+		catch (Exception e)
+		{
+			return "";
+		}
+	}
+
+	private void buyOffer(Player player)
+	{
+		try (Connection con = DatabaseFactory.getConnection())
+		{
+			int itemId, count, price;
+			try (PreparedStatement ps = con.prepareStatement("SELECT item_id, count, price_ikoin FROM game_offer WHERE id=1 AND active=1");
+				ResultSet rs = ps.executeQuery())
+			{
+				if (!rs.next())
+				{
+					player.sendMessage("[Oferta] Nenhuma oferta ativa no momento.");
+					return;
+				}
+				itemId = rs.getInt("item_id");
+				count = rs.getInt("count");
+				price = rs.getInt("price_ikoin");
+			}
+
+			long balance = getPlayerCredits(player);
+			if (balance < price)
+			{
+				player.sendMessage("[Oferta] Ikoin insuficiente. Voce tem " + balance + ", precisa de " + price + ".");
+				return;
+			}
+
+			// debita Ikoin
+			try (PreparedStatement ps = con.prepareStatement("UPDATE ikoin_balance SET balance=balance-?, updated_at=? WHERE account_name=?"))
+			{
+				ps.setInt(1, price);
+				ps.setLong(2, System.currentTimeMillis());
+				ps.setString(3, player.getAccountName());
+				ps.executeUpdate();
+			}
+			try (PreparedStatement ps = con.prepareStatement("INSERT INTO ikoin_transactions (account_name, amount, type, description, created_at) VALUES (?,?,?,?,?)"))
+			{
+				ps.setString(1, player.getAccountName());
+				ps.setInt(2, -price);
+				ps.setString(3, "spend");
+				ps.setString(4, "Oferta Limitada: item " + itemId);
+				ps.setLong(5, System.currentTimeMillis());
+				ps.executeUpdate();
+			}
+
+			// entrega o item
+			player.addItem(ItemProcessType.REWARD, itemId, count, player, true);
+			player.sendMessage("[Oferta] Compra realizada! Item entregue no inventario.");
+		}
+		catch (Exception e)
+		{
+			player.sendMessage("[Oferta] Erro ao processar a compra.");
+		}
 	}
 
 	private void showPage(Player player, String page)
