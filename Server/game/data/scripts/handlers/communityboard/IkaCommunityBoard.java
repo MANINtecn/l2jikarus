@@ -448,7 +448,6 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<table width=500 cellpadding=4>");
 		c.append("<tr><td colspan=2 align=center><font color=\"AAAAAA\">MP Atual: <font color=\"6699FF\">").append(mpPct).append("%</font>  |  Status: ").append(mpStatus).append("</font></td></tr>");
 		c.append("<tr><td height=10></td></tr>");
-		c.append("<tr><td colspan=2 align=center><font color=\"888888\">Usar potion MP (id ").append(MP_POTION_ID).append(") quando MP cair abaixo de:</font></td></tr>");
 		c.append("<tr><td height=6></td></tr>");
 		c.append("<tr><td colspan=2 align=center><table cellpadding=0 cellspacing=4><tr>");
 		for (int pct : new int[]{20, 30, 40, 50, 60, 70})
