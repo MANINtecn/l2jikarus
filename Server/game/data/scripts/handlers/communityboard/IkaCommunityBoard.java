@@ -540,11 +540,11 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
 		c.append("<tr><td height=8></td></tr>");
 
-		// Saldo de creditos
+		// Saldo de Ikoin
 		c.append("<tr><td align=center>");
 		c.append("<table width=300 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=6><tr>");
 		c.append("<td align=center><img src=\"L2EssenceCommunity.premium_crown\" width=24 height=18></td>");
-		c.append("<td><font color=\"888888\">Seus Creditos:</font></td>");
+		c.append("<td><font color=\"888888\">Seu saldo Ikoin:</font></td>");
 		c.append("<td align=right><font color=\"CDB67F\" name=\"hs12\">").append(credits).append("</font></td>");
 		c.append("</tr></table>");
 		c.append("</td></tr>");
@@ -554,10 +554,12 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 		// Lista de servicos
 		String[][] services = {
-			{"Trocar Nick", "30"},
-			{"Trocar Sexo", "30"},
-			{"Trocar Classe", "30"},
-			{"Trocar Raca", "30"},
+			{"Trocar Classe", "150"},
+			{"Trocar Nick", "50"},
+			{"Trocar Sexo", "50"},
+			{"Trocar Raca", "100"},
+			{"Doar Ikoin", "-"},
+			{"Vender Personagem", "-"},
 		};
 
 		c.append("<tr><td>");
@@ -577,7 +579,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			c.append("<tr>");
 			c.append("<td width=10></td>");
 			c.append("<td width=250><font color=\"CDB67F\">").append(s[0]).append("</font></td>");
-			c.append("<td width=100 align=center><font color=\"FFAA00\">").append(s[1]).append(" cred</font></td>");
+			c.append("<td width=100 align=center><font color=\"FFAA00\">").append(s[1].equals("-") ? "--" : s[1] + " IK").append("</font></td>");
 			c.append("<td width=150 align=center><font color=\"696969\">Em breve</font></td>");
 			c.append("<td width=10></td>");
 			c.append("</tr>");
