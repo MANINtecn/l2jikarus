@@ -25,7 +25,52 @@ import net.sf.l2jdev.gameserver.model.item.instance.Item;
 public class IkaCommunityBoard implements IParseBoardHandler
 {
 	private static final int MP_POTION_ID = 49854;
-	private static final Map<Integer, ScheduledFuture<?>> AUTO_TASKS = new ConcurrentHashMap<>();
+	// Tarefa GLOBAL unica: varre todos os players online e usa potion conforme o threshold salvo.
+	// Assim funciona automatico apos relogar/RR (a variavel IKA_MP_THRESHOLD persiste no char).
+	private static volatile boolean AUTO_TASK_STARTED = false;
+
+	private static synchronized void ensureAutoTask()
+	{
+		if (AUTO_TASK_STARTED)
+		{
+			return;
+		}
+		AUTO_TASK_STARTED = true;
+		ThreadPool.scheduleAtFixedRate(() ->
+		{
+			try
+			{
+				for (Player player : World.getInstance().getPlayers())
+				{
+					if (player == null || !player.isOnline() || player.isAlikeDead())
+					{
+						continue;
+					}
+					final int mpThreshold = player.getVariables().getInt("IKA_MP_THRESHOLD", 0);
+					if (mpThreshold <= 0)
+					{
+						continue;
+					}
+					final double mpPercent = (player.getCurrentMp() / player.getMaxMp()) * 100.0;
+					if (mpPercent < mpThreshold)
+					{
+						final Item potion = player.getInventory().getItemByItemId(MP_POTION_ID);
+						if (potion != null)
+						{
+							final IItemHandler handler = ItemHandler.getInstance().getHandler(potion.getEtcItem());
+							if (handler != null)
+							{
+								handler.onItemUse(player, potion, false);
+							}
+						}
+					}
+				}
+			}
+			catch (Exception ignored)
+			{
+			}
+		}, 2000, 2000);
+	}
 
 	private static final String[] RACES = { "Human", "Elf", "Dark Elf", "Orc", "Dwarf", "Kamael", "Sylph" };
 
@@ -61,6 +106,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	@Override
 	public boolean onCommand(String command, Player player)
 	{
+		ensureAutoTask(); // garante a tarefa global de auto-potion rodando (idempotente)
 		if (command.equals("_bbshome") || command.equals("_bbsika"))
 		{
 			showMainPage(player);
@@ -77,8 +123,9 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				if (threshold > 0 && threshold <= 90)
 				{
 					player.getVariables().set("IKA_MP_THRESHOLD", threshold);
-					startAutoTask(player);
-					player.sendMessage("Auto-use MP: ativado em " + threshold + "%");
+					player.getVariables().storeMe();
+					ensureAutoTask();
+					player.sendMessage("Auto-use MP: ativado em " + threshold + "% (persiste apos relogar).");
 				}
 			}
 			catch (NumberFormatException ignored)
@@ -89,7 +136,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		else if (command.equals("_bbsika_disablemp"))
 		{
 			player.getVariables().set("IKA_MP_THRESHOLD", 0);
-			stopAutoTask(player.getObjectId());
+			player.getVariables().storeMe();
 			player.sendMessage("Auto-use MP: desativado.");
 			showAutoPage(player);
 		}
@@ -188,50 +235,6 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		player.getVariables().set("IKA_START_BASIC", true);
 		player.getVariables().storeMe();
 		player.sendMessage("[Start] Start Kit Basico resgatado! Bom jogo.");
-	}
-
-	// ======== AUTO-USE ========
-
-	private static void startAutoTask(Player player)
-	{
-		stopAutoTask(player.getObjectId());
-		ScheduledFuture<?> task = ThreadPool.scheduleAtFixedRate(() ->
-		{
-			if (!player.isOnline() || player.isAlikeDead())
-			{
-				stopAutoTask(player.getObjectId());
-				return;
-			}
-			int mpThreshold = player.getVariables().getInt("IKA_MP_THRESHOLD", 0);
-			if (mpThreshold <= 0)
-			{
-				stopAutoTask(player.getObjectId());
-				return;
-			}
-			double mpPercent = (player.getCurrentMp() / player.getMaxMp()) * 100.0;
-			if (mpPercent < mpThreshold)
-			{
-				Item potion = player.getInventory().getItemByItemId(MP_POTION_ID);
-				if (potion != null)
-				{
-					IItemHandler handler = ItemHandler.getInstance().getHandler(potion.getEtcItem());
-					if (handler != null)
-					{
-						handler.onItemUse(player, potion, false);
-					}
-				}
-			}
-		}, 2000, 2000);
-		AUTO_TASKS.put(player.getObjectId(), task);
-	}
-
-	public static void stopAutoTask(int objectId)
-	{
-		ScheduledFuture<?> task = AUTO_TASKS.remove(objectId);
-		if (task != null && !task.isCancelled())
-		{
-			task.cancel(false);
-		}
 	}
 
 	// ======== NAVEGAÇÃO COMUM ========
@@ -442,22 +445,19 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		int mpPct = (int) ((player.getCurrentMp() / player.getMaxMp()) * 100);
 
 		StringBuilder c = new StringBuilder();
-		c.append("<br><center><font color=\"CDB67F\" name=\"hs15\">AUTO POTION</font></center><br>");
-		c.append("<center><img src=\"L2UI.SquareGray\" width=540 height=1></center><br>");
-		c.append("<center>");
+		c.append("<br><center>");
 		c.append("<table width=500 cellpadding=4>");
-		c.append("<tr><td colspan=2 align=center><font color=\"AAAAAA\">MP Atual: <font color=\"6699FF\">").append(mpPct).append("%</font>  |  Status: ").append(mpStatus).append("</font></td></tr>");
-		c.append("<tr><td height=10></td></tr>");
-		c.append("<tr><td height=6></td></tr>");
-		c.append("<tr><td colspan=2 align=center><table cellpadding=0 cellspacing=4><tr>");
+		c.append("<tr><td align=center><font color=\"AAAAAA\">MP Atual: <font color=\"6699FF\">").append(mpPct).append("%</font>  |  Status: ").append(mpStatus).append("</font></td></tr>");
+		c.append("<tr><td height=12></td></tr>");
+		c.append("<tr><td align=center><table cellpadding=0 cellspacing=4><tr>");
 		for (int pct : new int[]{20, 30, 40, 50, 60, 70})
 		{
 			String back = (mpThreshold == pct) ? "L2EssenceCommunity.buy_premium_btn_over" : "L2EssenceCommunity.buy_premium_btn";
 			c.append("<td><button value=\"").append(pct).append("%\" action=\"bypass _bbsika_setmp_").append(pct).append("\" width=70 height=27 back=\"").append(back).append("\" fore=\"L2EssenceCommunity.buy_premium_btn\"></td>");
 		}
 		c.append("</tr></table></td></tr>");
-		c.append("<tr><td height=8></td></tr>");
-		c.append("<tr><td colspan=2 align=center><button value=\"Desativar\" action=\"bypass _bbsika_disablemp\" width=120 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\"></td></tr>");
+		c.append("<tr><td height=30></td></tr>");
+		c.append("<tr><td align=center><button value=\"Desativar\" action=\"bypass _bbsika_disablemp\" width=120 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\"></td></tr>");
 		c.append("</table></center>");
 
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("auto"), c.toString()), player);
