@@ -26,6 +26,10 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	private static final String[] RACES = { "Human", "Elf", "Dark Elf", "Orc", "Dwarf", "Kamael", "Sylph" };
 
+	// Start Kit Basico - itens entregues 1x por personagem. Formato "itemId:count;itemId:count"
+	// TODO: ajustar lista final dos itens do start basico
+	private static final String BASIC_START_ITEMS = "57:100000";
+
 	private static final String[] COMMANDS =
 	{
 		"_bbshome",
@@ -39,6 +43,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_autopotion",
 		"_bbsika_referralpage",
 		"_bbsika_account",
+		"_bbsika_start",
 	};
 
 	@Override
@@ -127,8 +132,43 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		{
 			showAccountPage(player);
 		}
+		else if (command.equals("_bbsika_start_basic"))
+		{
+			claimBasicStart(player);
+			showMainPage(player);
+		}
 
 		return false;
+	}
+
+	// ======== START KIT BASICO (1x por personagem) ========
+
+	private void claimBasicStart(Player player)
+	{
+		if (player.getVariables().getBoolean("IKA_START_BASIC", false))
+		{
+			player.sendMessage("[Start] Voce ja resgatou o Start Kit Basico neste personagem.");
+			return;
+		}
+		for (String entry : BASIC_START_ITEMS.split(";"))
+		{
+			String[] parts = entry.trim().split(":");
+			if (parts.length == 2)
+			{
+				try
+				{
+					int itemId = Integer.parseInt(parts[0].trim());
+					long count = Long.parseLong(parts[1].trim());
+					player.addItem(net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType.REWARD, itemId, count, player, true);
+				}
+				catch (NumberFormatException ignored)
+				{
+				}
+			}
+		}
+		player.getVariables().set("IKA_START_BASIC", true);
+		player.getVariables().storeMe();
+		player.sendMessage("[Start] Start Kit Basico resgatado! Bom jogo.");
 	}
 
 	// ======== AUTO-USE ========
@@ -235,12 +275,17 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	private String applyCommonVars(String html, Player player)
 	{
 		int mpThreshold = player.getVariables().getInt("IKA_MP_THRESHOLD", 0);
+		boolean basicClaimed = player.getVariables().getBoolean("IKA_START_BASIC", false);
+		String startBtn = basicClaimed
+			? "<font color=\"44FF44\">RESGATADO</font>"
+			: "<button value=\"RESGATAR\" action=\"bypass _bbsika_start_basic\" width=140 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\">";
 		return html
 			.replace("%online%", String.valueOf(World.getInstance().getPlayers().size()))
 			.replace("%player_name%", player.getName())
 			.replace("%player_level%", String.valueOf(player.getLevel()))
 			.replace("%mp_auto%", mpThreshold > 0 ? mpThreshold + "%" : "OFF")
-			.replace("%ikoin%", String.valueOf(getPlayerCredits(player)));
+			.replace("%ikoin%", String.valueOf(getPlayerCredits(player)))
+			.replace("%start_basic_btn%", startBtn);
 	}
 
 	private void showPage(Player player, String page)
