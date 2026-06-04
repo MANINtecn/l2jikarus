@@ -239,6 +239,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			.replace("%player_name%", player.getName())
 			.replace("%player_level%", String.valueOf(player.getLevel()))
 			.replace("%mp_auto%", mpThreshold > 0 ? mpThreshold + "%" : "OFF");
+			.replace("%ikoin%", String.valueOf(getPlayerCredits(player)));
 	}
 
 	private void showPage(Player player, String page)
@@ -584,7 +585,22 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	private long getPlayerCredits(Player player)
 	{
-		// TODO: integrar com tabela de creditos do site quando disponivel
+		try (Connection con = DatabaseFactory.getConnection();
+			PreparedStatement ps = con.prepareStatement("SELECT balance FROM ikoin_balance WHERE account_name=?"))
+		{
+			ps.setString(1, player.getAccountName());
+			try (ResultSet rs = ps.executeQuery())
+			{
+				if (rs.next())
+				{
+					return rs.getLong("balance");
+				}
+			}
+		}
+		catch (Exception e)
+		{
+			// sem saldo cadastrado ainda
+		}
 		return 0;
 	}
 
