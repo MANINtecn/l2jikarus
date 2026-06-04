@@ -130,6 +130,16 @@ public class DeadZone extends Script
 	// Bosses ja ajustados (evita mergeMul acumular no respawn do mesmo objeto)
 	private static final Set<Integer> ADJUSTED_BOSSES = Collections.newSetFromMap(new ConcurrentHashMap<>());
 
+	// ===== TELEGRAPH AoE (estilo Albion: marca o chao, espera, da dano) =====
+	private static boolean TELEGRAPH_ENABLED = true;
+	private static final long TELEGRAPH_INTERVAL_MS = 11000L; // a cada 11s o boss telegrafa
+	private static final long TELEGRAPH_DELAY_MS = 2500L;     // janela pra fugir (2.5s)
+	private static final int TELEGRAPH_RADIUS = 220;          // raio da zona de perigo
+	private static final double TELEGRAPH_HP_PERCENT = 0.45;  // dano = 45% do HP max do alvo
+	private static final int TELEGRAPH_COLOR_WARN = 0xFF3030; // vermelho (aviso)
+	private static final int TELEGRAPH_COLOR_HIT = 0xFFAA00;  // laranja (impacto)
+	private static final Map<Integer, ScheduledFuture<?>> TELEGRAPH_TASKS = new ConcurrentHashMap<>();
+
 	// objectIds dos jogadores que estao dentro da zona agora
 	private static final Set<Integer> PLAYERS_INSIDE = Collections.newSetFromMap(new ConcurrentHashMap<>());
 
@@ -511,12 +521,145 @@ public class DeadZone extends Script
 		// reduz defesa pra skills/ataque do jogador causarem mais dano (mata mais rapido)
 		npc.getStat().mergeMul(Stat.PHYSICAL_DEFENCE, BOSS_DEF_FACTOR);
 		npc.getStat().mergeMul(Stat.MAGICAL_DEFENCE, BOSS_DEF_FACTOR);
+
+		// inicia o telegraph AoE deste boss
+		if (TELEGRAPH_ENABLED)
+		{
+			startTelegraph(npc);
+		}
+	}
+
+	// ===== TELEGRAPH AoE =====
+
+	private void startTelegraph(Npc boss)
+	{
+		final int objId = boss.getObjectId();
+		stopTelegraph(objId);
+		final ScheduledFuture<?> task = ThreadPool.scheduleAtFixedRate(() ->
+		{
+			try
+			{
+				if (boss == null || boss.isDead() || !boss.isSpawned())
+				{
+					stopTelegraph(objId);
+					return;
+				}
+				// alvo: um player aleatorio dentro do alcance do boss
+				final List<Player> near = World.getInstance().getVisibleObjectsInRange(boss, Player.class, 900);
+				if (near.isEmpty())
+				{
+					return;
+				}
+				final Player target = near.get(Rnd.get(near.size()));
+				final int tx = target.getX();
+				final int ty = target.getY();
+				final int tz = target.getZ();
+
+				// 1) desenha o circulo vermelho de perigo p/ todos por perto + aviso
+				for (Player p : World.getInstance().getVisibleObjectsInRange(boss, Player.class, 1500))
+				{
+					drawDangerCircle(p, tx, ty, tz, TELEGRAPH_RADIUS, TELEGRAPH_COLOR_WARN, "dz_tele");
+					p.sendPacket(new net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage("PERIGO! Saia da area marcada!", 2000));
+				}
+
+				// 2) apos o delay, aplica o dano em quem ficou + limpa o circulo
+				ThreadPool.schedule(() ->
+				{
+					try
+					{
+						if (boss.isDead())
+						{
+							for (Player p : World.getInstance().getVisibleObjectsInRange(boss, Player.class, 1500))
+							{
+								clearDangerCircle(p, "dz_tele");
+							}
+							return;
+						}
+						for (Player p : World.getInstance().getVisibleObjectsInRange(boss, Player.class, 1500))
+						{
+							final double dist = Math.sqrt(Math.pow(p.getX() - tx, 2) + Math.pow(p.getY() - ty, 2));
+							if (dist <= TELEGRAPH_RADIUS && !p.isDead())
+							{
+								// flash laranja de impacto
+								drawDangerCircle(p, tx, ty, tz, TELEGRAPH_RADIUS, TELEGRAPH_COLOR_HIT, "dz_tele");
+								final double dmg = p.getMaxHp() * TELEGRAPH_HP_PERCENT;
+								p.reduceCurrentHp(dmg, boss, null);
+								p.sendPacket(new net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage("Voce foi atingido!", 1500));
+							}
+							// limpa apos o flash
+							final Player fp = p;
+							ThreadPool.schedule(() -> clearDangerCircle(fp, "dz_tele"), 400);
+						}
+					}
+					catch (Exception ignored)
+					{
+					}
+				}, TELEGRAPH_DELAY_MS);
+			}
+			catch (Exception ignored)
+			{
+			}
+		}, TELEGRAPH_INTERVAL_MS, TELEGRAPH_INTERVAL_MS);
+		TELEGRAPH_TASKS.put(objId, task);
+	}
+
+	private static void stopTelegraph(int objectId)
+	{
+		final ScheduledFuture<?> task = TELEGRAPH_TASKS.remove(objectId);
+		if (task != null && !task.isCancelled())
+		{
+			task.cancel(false);
+		}
+	}
+
+	/** Desenha um circulo no chao (ExServerPrimitive) p/ um player. */
+	private static void drawDangerCircle(Player p, int cx, int cy, int cz, int radius, int color, String name)
+	{
+		try
+		{
+			final int segments = 32;
+			final net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive prim =
+				new net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive(name, p.getX(), p.getY(), p.getZ());
+			prim.addPoint(color, cx, cy, cz);
+			final double step = (Math.PI * 2.0) / segments;
+			int prevX = cx + (int) Math.round(Math.cos(0) * radius);
+			int prevY = cy + (int) Math.round(Math.sin(0) * radius);
+			for (int i = 1; i <= segments; i++)
+			{
+				final double a = step * i;
+				final int x = cx + (int) Math.round(Math.cos(a) * radius);
+				final int y = cy + (int) Math.round(Math.sin(a) * radius);
+				prim.addLine(color, prevX, prevY, cz, x, y, cz);
+				prevX = x;
+				prevY = y;
+			}
+			p.sendPacket(prim);
+		}
+		catch (Exception ignored)
+		{
+		}
+	}
+
+	private static void clearDangerCircle(Player p, String name)
+	{
+		try
+		{
+			final net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive prim =
+				new net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive(name, p.getX(), p.getY(), p.getZ());
+			p.sendPacket(prim);
+		}
+		catch (Exception ignored)
+		{
+		}
 	}
 
 	/** Boss morto: dropa adena + L-Coin + chance da Sapphire Box (exclusiva da zona D). */
 	@Override
 	public void onKill(Npc npc, Player killer, boolean isSummon)
 	{
+		// para o telegraph deste boss
+		stopTelegraph(npc.getObjectId());
+
 		if (killer == null)
 		{
 			return;
