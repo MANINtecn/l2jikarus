@@ -48,6 +48,8 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_account",
 		"_bbsika_start",
 		"_bbsika_buyoffer",
+		"_bbsika_buyoffer_1",
+		"_bbsika_buyoffer_2",
 	};
 
 	@Override
@@ -141,9 +143,17 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			claimBasicStart(player);
 			showMainPage(player);
 		}
-		else if (command.equals("_bbsika_buyoffer"))
+		else if (command.startsWith("_bbsika_buyoffer_"))
 		{
-			buyOffer(player);
+			int offerId = 1;
+			try
+			{
+				offerId = Integer.parseInt(command.replace("_bbsika_buyoffer_", "").trim());
+			}
+			catch (NumberFormatException ignored)
+			{
+			}
+			buyOffer(player, offerId);
 			showMainPage(player);
 		}
 
@@ -295,18 +305,20 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			.replace("%mp_auto%", mpThreshold > 0 ? mpThreshold + "%" : "OFF")
 			.replace("%ikoin%", String.valueOf(getPlayerCredits(player)))
 			.replace("%start_basic_btn%", startBtn)
-			.replace("%offer_block%", buildOfferBlock());
+			.replace("%offer_block2%", buildOfferBlock(2))
+			.replace("%offer_block%", buildOfferBlock(1));
 	}
 
 	// ======== OFERTA LIMITADA (gerenciada pelo site/admin via game_offer) ========
 
-	private String buildOfferBlock()
+	private String buildOfferBlock(int offerId)
 	{
 		// Espaco reservado constante: com OU sem oferta o layout nao muda
-		final String SPACER = "<tr><td height=58></td></tr>";
+		final String SPACER = "<tr><td height=52></td></tr>";
 		try (Connection con = DatabaseFactory.getConnection();
-			PreparedStatement ps = con.prepareStatement("SELECT item_id, count, price_ikoin, title, icon FROM game_offer WHERE id=1 AND active=1"))
+			PreparedStatement ps = con.prepareStatement("SELECT item_id, count, price_ikoin, title, icon FROM game_offer WHERE id=? AND active=1"))
 		{
+			ps.setInt(1, offerId);
 			try (ResultSet rs = ps.executeQuery())
 			{
 				if (!rs.next())
@@ -325,7 +337,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 					: (tmpl != null && tmpl.getIcon() != null ? tmpl.getIcon() : "L2EssenceCommunity.agathions");
 
 				StringBuilder b = new StringBuilder();
-				b.append("<tr><td height=8></td></tr>");
+				b.append("<tr><td height=6></td></tr>");
 				b.append("<tr><td><table><tr>");
 				b.append("<td width=16></td>");
 				b.append("<td width=48 align=center><img src=\"").append(icon).append("\" width=40 height=40></td>");
@@ -338,7 +350,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				b.append("</font></td>");
 				b.append("<td width=100 align=center>");
 				b.append("<font color=\"LEVEL\">").append(price).append(" Ikoin</font><br1>");
-				b.append("<button value=\"Comprar\" action=\"bypass _bbsika_buyoffer\" width=92 height=24 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+				b.append("<button value=\"Comprar\" action=\"bypass _bbsika_buyoffer_").append(offerId).append("\" width=92 height=24 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
 				b.append("</td>");
 				b.append("<td width=200></td>");
 				b.append("</tr></table></td></tr>");
@@ -351,14 +363,15 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 	}
 
-	private void buyOffer(Player player)
+	private void buyOffer(Player player, int offerId)
 	{
 		try (Connection con = DatabaseFactory.getConnection())
 		{
 			int itemId, count, price;
-			try (PreparedStatement ps = con.prepareStatement("SELECT item_id, count, price_ikoin FROM game_offer WHERE id=1 AND active=1");
-				ResultSet rs = ps.executeQuery())
+			try (PreparedStatement ps0 = con.prepareStatement("SELECT item_id, count, price_ikoin FROM game_offer WHERE id=? AND active=1"))
 			{
+				ps0.setInt(1, offerId);
+				ResultSet rs = ps0.executeQuery();
 				if (!rs.next())
 				{
 					player.sendMessage("[Oferta] Nenhuma oferta ativa no momento.");
