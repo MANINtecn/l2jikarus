@@ -238,7 +238,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			.replace("%online%", String.valueOf(World.getInstance().getPlayers().size()))
 			.replace("%player_name%", player.getName())
 			.replace("%player_level%", String.valueOf(player.getLevel()))
-			.replace("%mp_auto%", mpThreshold > 0 ? mpThreshold + "%" : "OFF");
+			.replace("%mp_auto%", mpThreshold > 0 ? mpThreshold + "%" : "OFF")
 			.replace("%ikoin%", String.valueOf(getPlayerCredits(player)));
 	}
 
