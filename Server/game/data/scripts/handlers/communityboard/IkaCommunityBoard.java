@@ -533,64 +533,83 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		long credits = getPlayerCredits(player);
 
 		StringBuilder c = new StringBuilder();
-		c.append("<table width=530 cellpadding=0 cellspacing=0>");
-		c.append("<tr><td height=10></td></tr>");
+		c.append("<table width=540 cellpadding=0 cellspacing=0>");
+		c.append("<tr><td height=12></td></tr>");
 		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">ACCOUNT SERVICE</font></td></tr>");
 		c.append("<tr><td height=4></td></tr>");
-		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
-		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
 
-		// Saldo de Ikoin
+		// Saldo de Ikoin destacado
 		c.append("<tr><td align=center>");
-		c.append("<table width=300 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=6><tr>");
-		c.append("<td align=center><img src=\"L2EssenceCommunity.premium_crown\" width=24 height=18></td>");
-		c.append("<td><font color=\"888888\">Seu saldo Ikoin:</font></td>");
-		c.append("<td align=right><font color=\"CDB67F\" name=\"hs12\">").append(credits).append("</font></td>");
+		c.append("<table width=320 background=\"L2EssenceCommunity.home_server_info_bg\" cellpadding=8><tr>");
+		c.append("<td align=center width=50><img src=\"L2EssenceCommunity.premium_crown\" width=32 height=22></td>");
+		c.append("<td><font color=\"888888\">Seu saldo:</font></td>");
+		c.append("<td align=right><font color=\"CDB67F\" name=\"hs18\">").append(credits).append("</font> <font color=\"CDB67F\">Ikoin</font></td>");
 		c.append("</tr></table>");
 		c.append("</td></tr>");
-		c.append("<tr><td height=10></td></tr>");
-		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
-		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td height=14></td></tr>");
 
-		// Lista de servicos
+		// Cards de servicos (2 colunas) - {nome, custo, icone}
 		String[][] services = {
-			{"Trocar Classe", "150"},
-			{"Trocar Nick", "50"},
-			{"Trocar Sexo", "50"},
-			{"Trocar Raca", "100"},
-			{"Doar Ikoin", "-"},
-			{"Vender Personagem", "-"},
+			{"Trocar Classe", "150", "L2EssenceCommunity.change_class_base", "1"},
+			{"Trocar Nick", "100", "L2EssenceCommunity.rename", "1"},
+			{"Trocar Sexo", "20", "L2EssenceCommunity.change_sex", "1"},
+			{"Doar Ikoin", "-", "L2EssenceCommunity.adena", "0"},
+			{"Vender Personagem", "-", "L2EssenceCommunity.misc_items", "0"},
 		};
 
-		c.append("<tr><td>");
-		c.append("<table width=530 cellpadding=0 cellspacing=0>");
-		c.append("<tr>");
-		c.append("<td width=10></td>");
-		c.append("<td width=250><font color=\"AAAAAA\">Servico</font></td>");
-		c.append("<td width=100 align=center><font color=\"AAAAAA\">Custo</font></td>");
-		c.append("<td width=150 align=center><font color=\"AAAAAA\">Acao</font></td>");
-		c.append("<td width=10></td>");
-		c.append("</tr>");
-		c.append("<tr><td colspan=5><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
-
-		for (String[] s : services)
+		c.append("<tr><td><table width=540 cellpadding=0 cellspacing=0>");
+		for (int i = 0; i < services.length; i += 2)
 		{
-			c.append("<tr><td height=6></td></tr>");
 			c.append("<tr>");
+			c.append(buildServiceCard(services[i]));
 			c.append("<td width=10></td>");
-			c.append("<td width=250><font color=\"CDB67F\">").append(s[0]).append("</font></td>");
-			c.append("<td width=100 align=center><font color=\"FFAA00\">").append(s[1].equals("-") ? "--" : s[1] + " IK").append("</font></td>");
-			c.append("<td width=150 align=center><font color=\"696969\">Em breve</font></td>");
-			c.append("<td width=10></td>");
+			if (i + 1 < services.length)
+			{
+				c.append(buildServiceCard(services[i + 1]));
+			}
+			else
+			{
+				c.append("<td width=265></td>");
+			}
 			c.append("</tr>");
-			c.append("<tr><td height=6></td></tr>");
-			c.append("<tr><td colspan=5><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+			c.append("<tr><td colspan=3 height=10></td></tr>");
 		}
-
 		c.append("</table></td></tr>");
+		c.append("<tr><td height=6></td></tr>");
+		c.append("<tr><td align=center><font color=\"696969\">Servicos ativados em breve. Custo debitado do seu saldo Ikoin.</font></td></tr>");
 		c.append("</table>");
 
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
+	}
+
+	private String buildServiceCard(String[] s)
+	{
+		// s = {nome, custo, icone, ativo("1") }
+		boolean disponivel = "0".equals(s[3]);
+		String custo = s[1].equals("-") ? "" : s[1] + " Ikoin";
+		StringBuilder b = new StringBuilder();
+		b.append("<td width=265>");
+		b.append("<table width=265 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=8><tr>");
+		b.append("<td width=44 align=center><img src=\"").append(s[2]).append("\" width=32 height=32></td>");
+		b.append("<td>");
+		b.append("<font color=\"CDB67F\">").append(s[0]).append("</font><br1>");
+		if (disponivel)
+		{
+			b.append("<font color=\"696969\">Em breve</font>");
+		}
+		else
+		{
+			b.append("<font color=\"FFAA00\">").append(custo).append("</font>");
+		}
+		b.append("</td>");
+		b.append("<td width=70 align=center>");
+		b.append("<button value=\"").append(disponivel ? "Soon" : "Usar").append("\" action=\"bypass _bbsika_account\" width=60 height=22 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+		b.append("</td>");
+		b.append("</tr></table>");
+		b.append("</td>");
+		return b.toString();
 	}
 
 	private long getPlayerCredits(Player player)
