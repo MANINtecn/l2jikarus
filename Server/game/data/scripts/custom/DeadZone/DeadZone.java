@@ -714,14 +714,17 @@ public class DeadZone extends Script
 			{
 				return;
 			}
-			final int px = (int) Math.round(-dy / len * halfW);
-			final int py = (int) Math.round(dx / len * halfW);
 			final net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive prim =
 				new net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive(name, p.getX(), p.getY(), p.getZ());
-			prim.addLine(color, ax + px, ay + py, z, bx + px, by + py, z);
-			prim.addLine(color, bx + px, by + py, z, bx - px, by - py, z);
-			prim.addLine(color, bx - px, by - py, z, ax - px, ay - py, z);
-			prim.addLine(color, ax - px, ay - py, z, ax + px, ay + py, z);
+			// faixas paralelas preenchendo a largura (de -halfW a +halfW)
+			final double ux = -dy / len; // perpendicular unitario
+			final double uy = dx / len;
+			for (int off = -halfW; off <= halfW; off += 35)
+			{
+				final int ox = (int) Math.round(ux * off);
+				final int oy = (int) Math.round(uy * off);
+				prim.addLine(color, ax + ox, ay + oy, z, bx + ox, by + oy, z);
+			}
 			p.sendPacket(prim);
 		}
 		catch (Exception ignored)
@@ -768,26 +771,46 @@ public class DeadZone extends Script
 		}
 	}
 
-	/** Desenha um circulo no chao (ExServerPrimitive) p/ um player. */
+	/** Desenha um circulo PREENCHIDO no chao (borda + raios + aneis concentricos = aparencia solida). */
 	private static void drawDangerCircle(Player p, int cx, int cy, int cz, int radius, int color, String name)
 	{
 		try
 		{
-			final int segments = 32;
+			final int segments = 36;
 			final net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive prim =
 				new net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive(name, p.getX(), p.getY(), p.getZ());
 			prim.addPoint(color, cx, cy, cz);
 			final double step = (Math.PI * 2.0) / segments;
-			int prevX = cx + (int) Math.round(Math.cos(0) * radius);
-			int prevY = cy + (int) Math.round(Math.sin(0) * radius);
-			for (int i = 1; i <= segments; i++)
+			// pre-calcula os pontos da borda
+			final int[] bx = new int[segments + 1];
+			final int[] by = new int[segments + 1];
+			for (int i = 0; i <= segments; i++)
 			{
 				final double a = step * i;
-				final int x = cx + (int) Math.round(Math.cos(a) * radius);
-				final int y = cy + (int) Math.round(Math.sin(a) * radius);
-				prim.addLine(color, prevX, prevY, cz, x, y, cz);
-				prevX = x;
-				prevY = y;
+				bx[i] = cx + (int) Math.round(Math.cos(a) * radius);
+				by[i] = cy + (int) Math.round(Math.sin(a) * radius);
+			}
+			// borda + RAIOS do centro ate a borda (preenchimento "raios de sol")
+			for (int i = 0; i < segments; i++)
+			{
+				prim.addLine(color, bx[i], by[i], cz, bx[i + 1], by[i + 1], cz); // borda
+				prim.addLine(color, cx, cy, cz, bx[i], by[i], cz);               // raio
+			}
+			// aneis concentricos internos (75%, 50%, 25%) pra dar volume
+			for (double f = 0.75; f >= 0.24; f -= 0.25)
+			{
+				final int rr = (int) (radius * f);
+				int prevX = cx + rr;
+				int prevY = cy;
+				for (int i = 1; i <= segments; i++)
+				{
+					final double a = step * i;
+					final int x = cx + (int) Math.round(Math.cos(a) * rr);
+					final int y = cy + (int) Math.round(Math.sin(a) * rr);
+					prim.addLine(color, prevX, prevY, cz, x, y, cz);
+					prevX = x;
+					prevY = y;
+				}
 			}
 			p.sendPacket(prim);
 		}
