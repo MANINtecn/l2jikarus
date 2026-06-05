@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/LimitShop.xsd">
 	<!-- ===== PRODUTOS DE TESTE (mapear categoria->aba) - REMOVER DEPOIS ===== -->
+	<!-- Blessed SoE (91689) por preco distinto: 1 L-Coin=cat1, 2=cat2, 3=cat3 -->
 	<product id="990001" category="1">
 		<ingredient id="91663" count="1" /> <!-- L-Coin -->
-		<production id="57" count="1000001" /> <!-- TESTE cat1 = 1.000.001 adena -->
+		<production id="91689" /> <!-- TESTE cat1 = 1 L-Coin -->
 	</product>
 	<product id="990002" category="2">
-		<ingredient id="91663" count="1" /> <!-- L-Coin -->
-		<production id="57" count="1000002" /> <!-- TESTE cat2 = 1.000.002 adena -->
+		<ingredient id="91663" count="2" /> <!-- L-Coin -->
+		<production id="91689" /> <!-- TESTE cat2 = 2 L-Coin -->
 	</product>
 	<product id="990003" category="3">
-		<ingredient id="91663" count="1" /> <!-- L-Coin -->
-		<production id="57" count="1000003" /> <!-- TESTE cat3 = 1.000.003 adena -->
+		<ingredient id="91663" count="3" /> <!-- L-Coin -->
+		<production id="91689" /> <!-- TESTE cat3 = 3 L-Coin -->
 	</product>
 	<!-- ===== FIM DOS TESTES ===== -->
 	<product id="13" category="1">
