@@ -1,20 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/LimitShop.xsd">
-	<!-- ===== PRODUTOS DE TESTE (mapear categoria->aba) - REMOVER DEPOIS ===== -->
-	<!-- Blessed SoE (91689) por preco distinto: 1 L-Coin=cat1, 2=cat2, 3=cat3 -->
-	<product id="990001" category="1">
-		<ingredient id="91663" count="1" /> <!-- L-Coin -->
-		<production id="91689" /> <!-- TESTE cat1 = 1 L-Coin -->
+	<!-- ===== ABA EQUIPMENT (cat 8) - pids casam com o dat do cliente ===== -->
+	<!-- GERADO por build_shop.py a partir de lcoin_custom.xml - NAO editar a mao -->
+	<!-- LCOIN_CUSTOM_START -->
+	<product id="88001" category="2"> <!-- Brooch Lv. 1 -->
+		<ingredient id="91663" count="1000" />
+		<production id="90311" accountDailyLimit="3" />
 	</product>
-	<product id="990002" category="2">
-		<ingredient id="91663" count="2" /> <!-- L-Coin -->
-		<production id="91689" /> <!-- TESTE cat2 = 2 L-Coin -->
+	<product id="88002" category="2"> <!-- Reinforced Jewelry Box -->
+		<ingredient id="91663" count="5000" />
+		<production id="93259" accountDailyLimit="3" />
 	</product>
-	<product id="990003" category="3">
-		<ingredient id="91663" count="3" /> <!-- L-Coin -->
-		<production id="91689" /> <!-- TESTE cat3 = 3 L-Coin -->
+	<product id="88003" category="2"> <!-- Talisman Bracelet Lv. 1 -->
+		<ingredient id="91663" count="1000" />
+		<production id="9589" accountDailyLimit="3" />
 	</product>
-	<!-- ===== FIM DOS TESTES ===== -->
+	<product id="88004" category="2"> <!-- Enchant Kit: Talisman of Aden -->
+		<ingredient id="91663" count="700" />
+		<production id="91767" />
+	</product>
+	<product id="88005" category="2"> <!-- Enchant Kit: Talisman of Eva -->
+		<ingredient id="91663" count="700" />
+		<production id="92020" />
+	</product>
+	<product id="88006" category="2"> <!-- Enchant Kit: Talisman of Speed -->
+		<ingredient id="91663" count="700" />
+		<production id="93685" />
+	</product>
+	<product id="88007" category="2"> <!-- Venir's Talisman Lv. 1 -->
+		<ingredient id="91663" count="7000" />
+		<production id="91077" />
+	</product>
+	<product id="88008" category="2"> <!-- Venir's Talisman Fragment -->
+		<ingredient id="91663" count="250" />
+		<production id="91076" />
+	</product>
+	<product id="88009" category="2"> <!-- Agathion Bracelet Lv. 1 -->
+		<ingredient id="91663" count="1000" />
+		<production id="90888" accountDailyLimit="3" />
+	</product>
+	<product id="88010" category="2"> <!-- Pet's Pendant Lv. 1 -->
+		<ingredient id="91663" count="10000" />
+		<production id="97388" accountDailyLimit="3" />
+	</product>
+	<product id="88011" category="2"> <!-- Dragon Belt Pack -->
+		<ingredient id="91663" count="1000" />
+		<production id="91864" accountDailyLimit="1" />
+	</product>
+	<product id="88012" category="2"> <!-- Cloak of Protection -->
+		<ingredient id="91663" count="1250" />
+		<production id="93303" accountDailyLimit="5" />
+	</product>
+	<!-- LCOIN_CUSTOM_END -->
+	<!-- ===== FIM ABA EQUIPMENT ===== -->
 	<product id="13" category="1">
 		<ingredient id="91663" count="20" /> <!-- L-Coin -->
 		<production id="91689" /> <!-- Blessed Scroll of Escape (Sealed) -->
