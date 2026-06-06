@@ -3,6 +3,30 @@
 	<!-- ===== ABA EQUIPMENT (cat 8) - pids casam com o dat do cliente ===== -->
 	<!-- GERADO por build_shop.py a partir de lcoin_custom.xml - NAO editar a mao -->
 	<!-- LCOIN_CUSTOM_START -->
+	<product id="88013" category="1"> <!-- My Teleport Book -->
+		<ingredient id="91663" count="500" />
+		<production id="90404" />
+	</product>
+	<product id="88014" category="1"> <!-- My Teleport Scroll -->
+		<ingredient id="91663" count="70" />
+		<production id="90405" />
+	</product>
+	<product id="88015" category="1"> <!-- Blessed Scroll of Escape -->
+		<ingredient id="91663" count="500" />
+		<production id="91689" accountDailyLimit="1" />
+	</product>
+	<product id="88016" category="1"> <!-- Soulshot Ticket -->
+		<ingredient id="57" count="12000" />
+		<production id="90907" />
+	</product>
+	<product id="88017" category="11"> <!-- HP Potion -->
+		<ingredient id="57" count="50" />
+		<production id="91912" />
+	</product>
+	<product id="88018" category="11"> <!-- MP Potion -->
+		<ingredient id="91663" count="70" />
+		<production id="49854" />
+	</product>
 	<product id="88001" category="2"> <!-- Brooch Lv. 1 -->
 		<ingredient id="91663" count="1000" />
 		<production id="90311" accountDailyLimit="3" />
