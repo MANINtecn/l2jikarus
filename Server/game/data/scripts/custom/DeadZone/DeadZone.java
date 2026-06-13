@@ -131,7 +131,7 @@ public class DeadZone extends Script
 	private static final Set<Integer> ADJUSTED_BOSSES = Collections.newSetFromMap(new ConcurrentHashMap<>());
 
 	// ===== TELEGRAPH AoE (estilo Albion: marca o chao, espera, da dano) =====
-	private static boolean TELEGRAPH_ENABLED = true;
+	private static boolean TELEGRAPH_ENABLED = false; // desligado: boss retail, sem telegraph nem dano em area
 	private static final long TELEGRAPH_INTERVAL_MS = 9000L;  // verifica a cada 9s
 	private static final int TELEGRAPH_CHANCE = 40;           // 40% de chance de disparar por ciclo
 	private static final long TELEGRAPH_DELAY_MS = 2500L;     // janela pra fugir (2.5s)
@@ -779,7 +779,7 @@ public class DeadZone extends Script
 			final int segments = 36;
 			final net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive prim =
 				new net.sf.l2jdev.gameserver.network.serverpackets.ExServerPrimitive(name, p.getX(), p.getY(), p.getZ());
-			prim.addPoint(color, cx, cy, cz);
+			// (sem addPoint: o ponto nomeado gera um icone feio que alguns clientes nao removem na limpeza)
 			final double step = (Math.PI * 2.0) / segments;
 			// pre-calcula os pontos da borda
 			final int[] bx = new int[segments + 1];

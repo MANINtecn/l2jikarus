@@ -120,6 +120,7 @@ import handlers.admincommandhandlers.AdminMenu;
 import handlers.admincommandhandlers.AdminMessages;
 import handlers.admincommandhandlers.AdminMissingHtmls;
 import handlers.admincommandhandlers.AdminMobGroup;
+import handlers.admincommandhandlers.AdminNoTargetMod;
 import handlers.admincommandhandlers.AdminOlympiad;
 import handlers.admincommandhandlers.AdminOnline;
 import handlers.admincommandhandlers.AdminPForge;
@@ -450,6 +451,7 @@ public class MasterHandler
 			AdminMessages.class,
 			AdminMissingHtmls.class,
 			AdminMobGroup.class,
+			AdminNoTargetMod.class,
 			AdminOlympiad.class,
 			AdminOnline.class,
 			AdminPathNode.class,

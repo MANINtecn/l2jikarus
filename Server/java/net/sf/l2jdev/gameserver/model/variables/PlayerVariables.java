@@ -48,6 +48,7 @@ public class PlayerVariables extends AbstractVariables
 	public static final String SAYHA_GRACE_SUPPORT_ENDTIME = "SAYHA_GRACE_SUPPORT_ENDTIME";
 	public static final String LIMITED_SAYHA_GRACE_ENDTIME = "LIMITED_SAYHA_GRACE_ENDTIME";
 	public static final String MAGIC_LAMP_EXP = "MAGIC_LAMP_EXP";
+	public static final String NO_TARGET_MOD = "NO_TARGET_MOD";
 	public static final String DEATH_POINT_COUNT = "DEATH_POINT_COUNT";
 	public static final String BEAST_POINT_COUNT = "BEAST_POINT_COUNT";
 	public static final String ASSASSINATION_POINT_COUNT = "ASSASSINATION_POINT_COUNT";

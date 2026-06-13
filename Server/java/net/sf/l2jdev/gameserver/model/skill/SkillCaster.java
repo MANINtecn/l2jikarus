@@ -129,23 +129,29 @@ public class SkillCaster implements Runnable
 			WorldObject target = skill.getTarget(caster, worldObject, ctrlPressed, shiftPressed, false);
 			if (target == null)
 			{
-				return null;
+				// Mod No-Target (disparo livre): skill ofensiva sem alvo valido usa o proprio caster como
+				// alvo sintetico para o cast prosseguir. O dano direcional (cone+range) e montado no launchSkill.
+				if (caster.isPlayer() && caster.asPlayer().getVariables().getBoolean(net.sf.l2jdev.gameserver.model.variables.PlayerVariables.NO_TARGET_MOD, false) && skill.hasNegativeEffect())
+				{
+					target = caster;
+				}
+				else
+				{
+					return null;
+				}
 			}
-			else if (caster.isPlayer() && target.isMonster() && !target.isFakePlayer() && skill.getEffectPoint() > 0 && !ctrlPressed)
+			if (caster.isPlayer() && target.isMonster() && !target.isFakePlayer() && skill.getEffectPoint() > 0 && !ctrlPressed)
 			{
 				caster.sendPacket(SystemMessageId.INVALID_TARGET);
 				return null;
 			}
-			else if (skill.getCastRange() > 0 && !LocationUtil.checkIfInRange(skill.getCastRange() + (int) caster.getStat().getValue(Stat.MAGIC_ATTACK_RANGE, 0.0), caster, target, false))
+			if (skill.getCastRange() > 0 && !LocationUtil.checkIfInRange(skill.getCastRange() + (int) caster.getStat().getValue(Stat.MAGIC_ATTACK_RANGE, 0.0), caster, target, false))
 			{
 				return null;
 			}
-			else
-			{
-				SkillCaster skillCaster = new SkillCaster(caster, target, skill, item, castingType, ctrlPressed, shiftPressed, castTime);
-				skillCaster.run();
-				return skillCaster;
-			}
+			SkillCaster skillCaster = new SkillCaster(caster, target, skill, item, castingType, ctrlPressed, shiftPressed, castTime);
+			skillCaster.run();
+			return skillCaster;
 		}
 	}
 
@@ -392,7 +398,64 @@ public class SkillCaster implements Runnable
 
 				return false;
 			}
-			this._targets = this._skill.getTargetsAffected(caster, target);
+				// Mod No-Target (DISPARO LIVRE): monta os alvos por ALCANCE + DIRECAO.
+				// Acerta inimigos dentro do alcance real da skill (igual ao nativo, com colisao) que estejam
+				// no cone a frente OU point-blank (em cima do char). Single = o mais proximo; AoE = todos.
+				if (caster.isPlayer()
+					&& caster.asPlayer().getVariables().getBoolean(net.sf.l2jdev.gameserver.model.variables.PlayerVariables.NO_TARGET_MOD, false)
+					&& this._skill.hasNegativeEffect()
+					&& this._skill.getTargetType() != TargetType.GROUND)
+				{
+					final int reachBase = this._skill.getCastRange() > 0 ? this._skill.getCastRange() : this._skill.getAffectRange();
+					final int reach = reachBase + (int) caster.getStat().getValue(Stat.MAGIC_ATTACK_RANGE, 0.0);
+					final double headingAngle = net.sf.l2jdev.gameserver.util.LocationUtil.convertHeadingToDegree(caster.getHeading());
+					final boolean aoe = this._skill.getAffectScope() != AffectScope.SINGLE;
+					final java.util.List<Creature> hits = new java.util.ArrayList<>();
+					Creature nearest = null;
+					double nearestDist = Double.MAX_VALUE;
+					for (Creature c : World.getInstance().getVisibleObjectsInRange(caster, Creature.class, Math.max(reach + 200, 120), cc -> !cc.isDead() && cc != caster && cc.isAutoAttackable(caster)))
+					{
+						// dentro do alcance real da skill (com colisao, igual ao nativo)?
+						if (reach > 0 && !net.sf.l2jdev.gameserver.util.LocationUtil.checkIfInRange(reach, caster, c, false))
+						{
+							continue;
+						}
+						// point-blank (em cima do char) entra sempre; senao precisa estar no cone a frente
+						final double dToSelf = net.sf.l2jdev.gameserver.util.LocationUtil.calculateDistance(caster, c, true, false);
+						final boolean pointBlank = dToSelf <= (caster.getCollisionRadius() + c.getCollisionRadius() + 30);
+						if (!pointBlank)
+						{
+							double diff = Math.abs(caster.calculateDirectionTo(c) - headingAngle);
+							if (diff > 180.0)
+							{
+								diff = 360.0 - diff;
+							}
+							if (diff > 45.0)
+							{
+								continue;
+							}
+						}
+						hits.add(c);
+						if (dToSelf < nearestDist)
+						{
+							nearestDist = dToSelf;
+							nearest = c;
+						}
+					}
+					this._targets = new java.util.ArrayList<>();
+					if (aoe)
+					{
+						this._targets.addAll(hits);
+					}
+					else if (nearest != null)
+					{
+						this._targets.add(nearest);
+					}
+				}
+				else
+				{
+					this._targets = this._skill.getTargetsAffected(caster, target);
+				}
 			if (this._skill.isFlyType())
 			{
 				this.handleSkillFly(caster, target);

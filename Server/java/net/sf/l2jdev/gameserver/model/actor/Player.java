@@ -7814,6 +7814,108 @@ public class Player extends Playable
 		}
 	}
 	
+	/**
+	 * Mod No-Target (skillshot): localiza o inimigo "ancora" na direcao em que o personagem
+	 * esta virado - o mais proximo do ponto onde a skill cai (a frente, na distancia do alcance),
+	 * dentro de um cone de 120 graus. Retorna null se nao houver inimigo valido no cone/alcance.
+	 */
+	public Creature findSkillshotAnchor(Skill skill)
+	{
+		// SKILLSHOT: so acerta inimigo que JA esta dentro do alcance real da skill (igual ao check nativo,
+		// que soma os raios de colisao) e no cone a frente. Se nao houver, retorna null e a skill nao conecta
+		// — o jogador aprende o alcance de cada skill e precisa se posicionar (sem auto-walk).
+		final int reach = skill.getCastRange() + (int) this.getStat().getValue(net.sf.l2jdev.gameserver.model.stats.Stat.MAGIC_ATTACK_RANGE, 0.0);
+		// broad-phase com folga pra colisao; o checkIfInRange faz a checagem precisa (com colisao)
+		final int broad = Math.max(reach + 200, 80);
+		final double headingAngle = net.sf.l2jdev.gameserver.util.LocationUtil.convertHeadingToDegree(this.getHeading());
+		Creature chosen = null;
+		double bestDist = Double.MAX_VALUE;
+		for (Creature c : World.getInstance().getVisibleObjectsInRange(this, Creature.class, broad, cc -> !cc.isDead() && cc != this && cc.isAutoAttackable(this)))
+		{
+			// dentro do alcance real da skill? (mesmo criterio do pipeline nativo, com colisao)
+			if (reach > 0 && !net.sf.l2jdev.gameserver.util.LocationUtil.checkIfInRange(reach, this, c, false))
+			{
+				continue;
+			}
+			// no cone de 120 graus a frente?
+			double diff = Math.abs(this.calculateDirectionTo(c) - headingAngle);
+			if (diff > 180.0)
+			{
+				diff = 360.0 - diff;
+			}
+			if (diff > 60.0)
+			{
+				continue;
+			}
+			final double dToSelf = net.sf.l2jdev.gameserver.util.LocationUtil.calculateDistance(this, c, true, false);
+			if (dToSelf < bestDist)
+			{
+				bestDist = dToSelf;
+				chosen = c;
+			}
+		}
+		return chosen;
+	}
+
+	/**
+	 * Mod No-Target (ground-target / estilo MU): inimigo valido mais proximo do PONTO clicado
+	 * no chao (cursor), dentro do alcance da skill a partir do personagem. null se nao houver.
+	 */
+	public Creature findAnchorNearPoint(Skill skill, int px, int py, int pz)
+	{
+		final int range = skill.getCastRange() > 0 ? skill.getCastRange() : (skill.getAffectRange() > 0 ? skill.getAffectRange() : 600);
+		Creature chosen = null;
+		double bestDist = Double.MAX_VALUE;
+		for (Creature c : World.getInstance().getVisibleObjectsInRange(this, Creature.class, range, cc -> !cc.isDead() && cc != this && cc.isAutoAttackable(this)))
+		{
+			final double d = net.sf.l2jdev.gameserver.util.LocationUtil.calculateDistance(px, py, pz, c.getX(), c.getY(), c.getZ(), true, true);
+			if (d < bestDist)
+			{
+				bestDist = d;
+				chosen = c;
+			}
+		}
+		return chosen;
+	}
+
+	/**
+	 * Mod No-Target: inimigo valido mais proximo do personagem dentro do cone de 120 graus
+	 * a frente, ate o alcance informado. Usado pelo ataque padrao direcional. null se nao houver.
+	 */
+	public Creature findFrontEnemy(int range)
+	{
+		double headingAngle = net.sf.l2jdev.gameserver.util.LocationUtil.convertHeadingToDegree(this.getHeading());
+		Creature chosen = null;
+		double bestDist = Double.MAX_VALUE;
+		Creature nearestAny = null;
+		double nearestAnyDist = Double.MAX_VALUE;
+		for (Creature c : World.getInstance().getVisibleObjectsInRange(this, Creature.class, range, cc -> !cc.isDead() && cc != this && cc.isAutoAttackable(this) && cc.isTargetable()))
+		{
+			double d = net.sf.l2jdev.gameserver.util.LocationUtil.calculateDistance(this, c, true, true);
+			if (d < nearestAnyDist)
+			{
+				nearestAnyDist = d;
+				nearestAny = c;
+			}
+			double diff = Math.abs(this.calculateDirectionTo(c) - headingAngle);
+			if (diff > 180.0)
+			{
+				diff = 360.0 - diff;
+			}
+			if (diff > 60.0)
+			{
+				continue;
+			}
+			if (d < bestDist)
+			{
+				bestDist = d;
+				chosen = c;
+			}
+		}
+		// prioriza o cone a frente; se nao houver, o mais proximo de qualquer direcao
+		return chosen != null ? chosen : nearestAny;
+	}
+	
 	@Override
 	public boolean useMagic(Skill skill, Item item, boolean forceUse, boolean dontMove)
 	{
@@ -7950,7 +8052,24 @@ public class Player extends Playable
 						this.sendPacket(ActionFailed.STATIC_PACKET);
 						return false;
 					}
-					WorldObject target = usedSkill.getTarget(this, forceUse, dontMove, true);
+					// Mod No-Target (DISPARO LIVRE): a skill ofensiva SEMPRE sai (mira em si mesmo), com ou sem inimigo.
+					// O dano e montado por alcance+direcao no SkillCaster (acerta inimigos de 1 ate o range, a frente).
+					// Sem inimigo no alcance = whiff. O acerto depende do POSICIONAMENTO do jogador.
+					WorldObject target;
+					if (this.getVariables().getBoolean(net.sf.l2jdev.gameserver.model.variables.PlayerVariables.NO_TARGET_MOD, false)
+						&& usedSkill.hasNegativeEffect())
+					{
+						final int skillReach = usedSkill.getCastRange() > 0 ? usedSkill.getCastRange() : (usedSkill.getAffectRange() > 0 ? usedSkill.getAffectRange() : 600);
+						net.sf.l2jdev.gameserver.util.NoTargetTelegraph.setSkillRange(this, skillReach);
+						// Se ha inimigo no alcance/cone, usa ele como alvo do cast: a ANIMACAO voa ate ele (sem editar
+						// cliente). Senao, dispara livre em si mesmo (whiff, animacao no pe). O dano e montado no SkillCaster.
+						final Creature ntmAnchor = this.findSkillshotAnchor(usedSkill);
+						target = (ntmAnchor != null) ? ntmAnchor : this;
+					}
+					else
+					{
+						target = usedSkill.getTarget(this, forceUse, dontMove, true);
+					}
 					Location worldPosition = this._currentSkillWorldPosition;
 					if (usedSkill.getTargetType() == TargetType.GROUND && worldPosition == null)
 					{

@@ -600,6 +600,11 @@ public class EnterWorld extends ClientPacket
 			}
 
 			player.broadcastUserInfo();
+			// Mod No-Target: reativa o telegraph de mira se o player entrou com o mod salvo
+			if (player.getVariables().getBoolean(net.sf.l2jdev.gameserver.model.variables.PlayerVariables.NO_TARGET_MOD, false))
+			{
+				net.sf.l2jdev.gameserver.util.NoTargetTelegraph.start(player);
+			}
 			if (BeautyShopData.getInstance().hasBeautyData(player.getRace(), player.getAppearance().getSexType()))
 			{
 				player.sendPacket(new ExBeautyItemList(player));

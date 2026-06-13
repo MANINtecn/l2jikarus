@@ -677,4 +677,6 @@
 	<admin command="removefence" description="Removes the selected fence." accessLevel="100" />
 	<admin command="listfence" description="List of all fances." accessLevel="100" />
 	<admin command="gofence" description="Teleports you to the selected fence's location." accessLevel="100" />
+	<!-- NO TARGET MOD -->
+	<admin command="notarget" description="Toggle No-Target mod for player (//notarget on/off)." accessLevel="100" />
 </list>
