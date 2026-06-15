@@ -81,9 +81,9 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	// TODO: ajustar lista final dos itens do start basico
 	private static final String BASIC_START_ITEMS = "57:100000";
 
-	// Premium Account: 50 Ikoin = 28 dias. Por CONTA. Nao pode acumular (so recompra apos expirar).
+	// Premium Account: 50 Ikoin = 30 dias. Por CONTA. Nao pode acumular (so recompra apos expirar).
 	private static final int PREMIUM_COST_IKOIN = 50;
-	private static final int PREMIUM_DAYS = 28;
+	private static final int PREMIUM_DAYS = 30;
 
 	private static final String[] COMMANDS =
 	{
@@ -744,7 +744,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td align=center>");
 		c.append("<table width=520 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=8><tr>");
 		c.append("<td width=44 align=center><img src=\"L2EssenceCommunity.premium_crown\" width=32 height=22></td>");
-		c.append("<td><font color=\"CDB67F\">Premium Account</font><br1><font color=\"99CC66\">+100% XP/SP e Drop</font> <font color=\"696969\">- 28 dias</font></td>");
+		c.append("<td><font color=\"CDB67F\">Premium Account</font><br1><font color=\"99CC66\">+100% XP/SP e Drop</font> <font color=\"696969\">- ").append(PREMIUM_DAYS).append(" dias</font></td>");
 		c.append("<td width=160 align=center>");
 		c.append("<button value=\"VER PREMIUM\" action=\"bypass _bbsika_premium\" width=140 height=24 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
 		c.append("</td></tr></table>");
@@ -813,7 +813,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td height=12></td></tr>");
 
 		// Beneficios
-		c.append("<tr><td align=center><font color=\"FFFFFF\">28 dias de Premium por <font color=\"FFAA00\">").append(PREMIUM_COST_IKOIN).append(" Ikoin</font>.</font></td></tr>");
+		c.append("<tr><td align=center><font color=\"FFFFFF\">").append(PREMIUM_DAYS).append(" dias de Premium por <font color=\"FFAA00\">").append(PREMIUM_COST_IKOIN).append(" Ikoin</font>.</font></td></tr>");
 		c.append("<tr><td height=4></td></tr>");
 		c.append("<tr><td align=center><font color=\"99CC66\">+100% XP / SP &nbsp; +100% Drop &nbsp; Pesca exclusiva</font></td></tr>");
 		c.append("<tr><td align=center><font color=\"696969\">Vale para todos os personagens da conta.</font></td></tr>");
@@ -829,7 +829,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		else
 		{
 			c.append("<tr><td align=center>");
-			c.append("<button value=\"COMPRAR PREMIUM (28 dias)\" action=\"bypass _bbsika_buypremium\" width=240 height=33 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+			c.append("<button value=\"COMPRAR PREMIUM (").append(PREMIUM_DAYS).append(" dias)\" action=\"bypass _bbsika_buypremium\" width=240 height=33 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
 			c.append("</td></tr>");
 		}
 		c.append("</table>");
