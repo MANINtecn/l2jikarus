@@ -3,11 +3,14 @@ package handlers.communityboard;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.text.SimpleDateFormat;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.TimeUnit;
 
 import net.sf.l2jdev.commons.database.DatabaseFactory;
+import net.sf.l2jdev.gameserver.managers.PremiumManager;
 import net.sf.l2jdev.commons.threads.ThreadPool;
 import net.sf.l2jdev.gameserver.cache.HtmCache;
 import net.sf.l2jdev.gameserver.data.xml.ClassListData;
@@ -78,6 +81,10 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	// TODO: ajustar lista final dos itens do start basico
 	private static final String BASIC_START_ITEMS = "57:100000";
 
+	// Premium Account: 50 Ikoin = 28 dias. Por CONTA. Nao pode acumular (so recompra apos expirar).
+	private static final int PREMIUM_COST_IKOIN = 50;
+	private static final int PREMIUM_DAYS = 28;
+
 	private static final String[] COMMANDS =
 	{
 		"_bbshome",
@@ -95,6 +102,8 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_buyoffer",
 		"_bbsika_buyoffer_1",
 		"_bbsika_buyoffer_2",
+		"_bbsika_premium",
+		"_bbsika_buypremium",
 	};
 
 	@Override
@@ -184,6 +193,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		else if (command.equals("_bbsika_account"))
 		{
 			showAccountPage(player);
+		}
+		else if (command.equals("_bbsika_premium"))
+		{
+			showPremiumPage(player);
+		}
+		else if (command.equals("_bbsika_buypremium"))
+		{
+			buyPremium(player);
 		}
 		else if (command.equals("_bbsika_start_basic"))
 		{
@@ -723,6 +740,17 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</td></tr>");
 		c.append("<tr><td height=14></td></tr>");
 
+		// Destaque Premium (28 dias / 50 Ikoin)
+		c.append("<tr><td align=center>");
+		c.append("<table width=520 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=8><tr>");
+		c.append("<td width=44 align=center><img src=\"L2EssenceCommunity.premium_crown\" width=32 height=22></td>");
+		c.append("<td><font color=\"CDB67F\">Premium Account</font><br1><font color=\"99CC66\">+100% XP/SP e Drop</font> <font color=\"696969\">- 28 dias</font></td>");
+		c.append("<td width=160 align=center>");
+		c.append("<button value=\"VER PREMIUM\" action=\"bypass _bbsika_premium\" width=140 height=24 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+		c.append("</td></tr></table>");
+		c.append("</td></tr>");
+		c.append("<tr><td height=14></td></tr>");
+
 		// Cards de servicos (2 colunas) - {nome, custo, icone}
 		String[][] services = {
 			{"Trocar Classe", "150", "L2EssenceCommunity.change_class_base", "1"},
@@ -755,6 +783,112 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</table>");
 
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
+	}
+
+	// ======== PREMIUM (28 dias / 50 Ikoin, por conta) ========
+
+	private void showPremiumPage(Player player)
+	{
+		final long credits = getPlayerCredits(player);
+		final long now = System.currentTimeMillis();
+		final long expiration = PremiumManager.getInstance().getPremiumExpiration(player.getAccountName());
+		final boolean active = expiration > now;
+
+		StringBuilder c = new StringBuilder();
+		c.append("<table width=540 cellpadding=0 cellspacing=0>");
+		c.append("<tr><td height=12></td></tr>");
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">PREMIUM ACCOUNT</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+
+		// Saldo
+		c.append("<tr><td align=center>");
+		c.append("<table width=320 background=\"L2EssenceCommunity.home_server_info_bg\" cellpadding=8><tr>");
+		c.append("<td align=center width=50><img src=\"L2EssenceCommunity.premium_crown\" width=32 height=22></td>");
+		c.append("<td><font color=\"888888\">Seu saldo:</font></td>");
+		c.append("<td align=right><font color=\"CDB67F\" name=\"hs18\">").append(credits).append("</font> <font color=\"CDB67F\">Ikoin</font></td>");
+		c.append("</tr></table>");
+		c.append("</td></tr>");
+		c.append("<tr><td height=12></td></tr>");
+
+		// Beneficios
+		c.append("<tr><td align=center><font color=\"FFFFFF\">28 dias de Premium por <font color=\"FFAA00\">").append(PREMIUM_COST_IKOIN).append(" Ikoin</font>.</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td align=center><font color=\"99CC66\">+100% XP / SP &nbsp; +100% Drop &nbsp; Pesca exclusiva</font></td></tr>");
+		c.append("<tr><td align=center><font color=\"696969\">Vale para todos os personagens da conta.</font></td></tr>");
+		c.append("<tr><td height=14></td></tr>");
+
+		if (active)
+		{
+			final String until = new SimpleDateFormat("dd/MM/yyyy HH:mm").format(expiration);
+			c.append("<tr><td align=center><font color=\"99CC66\" name=\"hs12\">Premium ATIVO ate ").append(until).append(".</font></td></tr>");
+			c.append("<tr><td height=4></td></tr>");
+			c.append("<tr><td align=center><font color=\"696969\">Voce so pode comprar de novo quando expirar.</font></td></tr>");
+		}
+		else
+		{
+			c.append("<tr><td align=center>");
+			c.append("<button value=\"COMPRAR PREMIUM (28 dias)\" action=\"bypass _bbsika_buypremium\" width=240 height=33 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+			c.append("</td></tr>");
+		}
+		c.append("</table>");
+
+		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
+	}
+
+	private void buyPremium(Player player)
+	{
+		final String account = player.getAccountName();
+		final long now = System.currentTimeMillis();
+
+		// Trava: 1x a cada 28 dias (nao acumula enquanto ativo)
+		if (PremiumManager.getInstance().getPremiumExpiration(account) > now)
+		{
+			player.sendMessage("[Premium] Voce ja tem Premium ativo. Aguarde expirar para comprar de novo.");
+			showPremiumPage(player);
+			return;
+		}
+
+		final long balance = getPlayerCredits(player);
+		if (balance < PREMIUM_COST_IKOIN)
+		{
+			player.sendMessage("[Premium] Ikoin insuficiente. Voce tem " + balance + ", precisa de " + PREMIUM_COST_IKOIN + ".");
+			showPremiumPage(player);
+			return;
+		}
+
+		try (Connection con = DatabaseFactory.getConnection())
+		{
+			// debita Ikoin
+			try (PreparedStatement ps = con.prepareStatement("UPDATE ikoin_balance SET balance=balance-?, updated_at=? WHERE account_name=?"))
+			{
+				ps.setInt(1, PREMIUM_COST_IKOIN);
+				ps.setLong(2, now);
+				ps.setString(3, account);
+				ps.executeUpdate();
+			}
+			try (PreparedStatement ps = con.prepareStatement("INSERT INTO ikoin_transactions (account_name, amount, type, description, created_at) VALUES (?,?,?,?,?)"))
+			{
+				ps.setString(1, account);
+				ps.setInt(2, -PREMIUM_COST_IKOIN);
+				ps.setString(3, "spend");
+				ps.setString(4, "Premium Account " + PREMIUM_DAYS + " dias");
+				ps.setLong(5, now);
+				ps.executeUpdate();
+			}
+		}
+		catch (Exception e)
+		{
+			player.sendMessage("[Premium] Erro ao processar a compra. Tente novamente.");
+			return;
+		}
+
+		// ativa o premium na conta (aplica imediatamente se online; relog reaplica via account_premium)
+		PremiumManager.getInstance().addPremiumTime(account, PREMIUM_DAYS, TimeUnit.DAYS);
+
+		player.sendMessage("[Premium] Premium Account ativado por " + PREMIUM_DAYS + " dias! Aproveite o boost de XP e Drop.");
+		showPremiumPage(player);
 	}
 
 	private String buildServiceCard(String[] s)
