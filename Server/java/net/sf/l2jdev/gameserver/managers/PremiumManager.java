@@ -125,6 +125,7 @@ public class PremiumManager
 				{
 					player.setPremiumStatus(true);
 				}
+				player.sendUserBoostStat(); // atualiza a % de XP na UI sem precisar relogar
 				break;
 			}
 		}
@@ -140,6 +141,7 @@ public class PremiumManager
 				{
 					player.setPremiumStatus(false);
 					this.stopExpireTask(player);
+					player.sendUserBoostStat(); // remove o bonus de XP da UI ao expirar
 					break;
 				}
 			}

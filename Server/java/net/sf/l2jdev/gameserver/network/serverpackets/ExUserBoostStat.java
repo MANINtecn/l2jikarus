@@ -1,6 +1,7 @@
 package net.sf.l2jdev.gameserver.network.serverpackets;
 
 import net.sf.l2jdev.commons.network.WritableBuffer;
+import net.sf.l2jdev.gameserver.config.custom.PremiumSystemConfig;
 import net.sf.l2jdev.gameserver.model.actor.Player;
 import net.sf.l2jdev.gameserver.model.actor.enums.player.BonusExpType;
 import net.sf.l2jdev.gameserver.model.actor.stat.PlayerStat;
@@ -43,6 +44,12 @@ public class ExUserBoostStat extends ServerPacket
 			case PASSIVE:
 				count = (int) stat.getValue(Stat.BONUS_EXP_PASSIVES, 0.0);
 				bonus = (int) ((stat.getValue(Stat.BONUS_EXP, 0.0) - stat.getValue(Stat.ACTIVE_BONUS_EXP, 0.0)) * 10.0);
+				// Premium Account: mostra o bonus de XP do premium na UI (o XP real ja e aplicado no Attackable).
+				if (PremiumSystemConfig.PREMIUM_SYSTEM_ENABLED && (this._player.hasPremiumStatus()) && (PremiumSystemConfig.PREMIUM_RATE_XP > 1.0))
+				{
+					count += 1;
+					bonus += (int) ((PremiumSystemConfig.PREMIUM_RATE_XP - 1.0) * 100.0 * 10.0);
+				}
 		}
 
 		buffer.writeByte(this._type.getId());
