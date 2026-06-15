@@ -740,7 +740,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</td></tr>");
 		c.append("<tr><td height=14></td></tr>");
 
-		// Destaque Premium (28 dias / 50 Ikoin)
+		// Destaque Premium (30 dias / 50 Ikoin)
 		c.append("<tr><td align=center>");
 		c.append("<table width=520 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=8><tr>");
 		c.append("<td width=44 align=center><img src=\"L2EssenceCommunity.premium_crown\" width=32 height=22></td>");
@@ -785,7 +785,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
 	}
 
-	// ======== PREMIUM (28 dias / 50 Ikoin, por conta) ========
+	// ======== PREMIUM (30 dias / 50 Ikoin, por conta) ========
 
 	private void showPremiumPage(Player player)
 	{
@@ -842,7 +842,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		final String account = player.getAccountName();
 		final long now = System.currentTimeMillis();
 
-		// Trava: 1x a cada 28 dias (nao acumula enquanto ativo)
+		// Trava: 1x a cada 30 dias (nao acumula enquanto ativo)
 		if (PremiumManager.getInstance().getPremiumExpiration(account) > now)
 		{
 			player.sendMessage("[Premium] Voce ja tem Premium ativo. Aguarde expirar para comprar de novo.");
