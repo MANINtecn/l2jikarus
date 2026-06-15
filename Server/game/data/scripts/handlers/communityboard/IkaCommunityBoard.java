@@ -740,19 +740,9 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</td></tr>");
 		c.append("<tr><td height=14></td></tr>");
 
-		// Destaque Premium (30 dias / 50 Ikoin)
-		c.append("<tr><td align=center>");
-		c.append("<table width=520 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=8><tr>");
-		c.append("<td width=44 align=center><img src=\"L2EssenceCommunity.premium_crown\" width=32 height=22></td>");
-		c.append("<td><font color=\"CDB67F\">Premium Account</font><br1><font color=\"99CC66\">+100% XP/SP e Drop</font> <font color=\"696969\">- ").append(PREMIUM_DAYS).append(" dias</font></td>");
-		c.append("<td width=160 align=center>");
-		c.append("<button value=\"VER PREMIUM\" action=\"bypass _bbsika_premium\" width=140 height=24 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
-		c.append("</td></tr></table>");
-		c.append("</td></tr>");
-		c.append("<tr><td height=14></td></tr>");
-
-		// Cards de servicos (2 colunas) - {nome, custo, icone}
+		// Cards de servicos (2 colunas) - {nome, custo, icone, ativo("1")/embreve("0"), bypass(opcional)}
 		String[][] services = {
+			{"Premium " + PREMIUM_DAYS + "d", String.valueOf(PREMIUM_COST_IKOIN), "L2EssenceCommunity.premium_crown", "1", "_bbsika_premium"},
 			{"Trocar Classe", "150", "L2EssenceCommunity.change_class_base", "1"},
 			{"Trocar Nick", "100", "L2EssenceCommunity.rename", "1"},
 			{"Trocar Sexo", "20", "L2EssenceCommunity.change_sex", "1"},
@@ -893,8 +883,9 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	private String buildServiceCard(String[] s)
 	{
-		// s = {nome, custo, icone, ativo("1") }
+		// s = {nome, custo, icone, ativo("1"/"0"), bypass(opcional) }
 		boolean disponivel = "0".equals(s[3]);
+		String bypass = (s.length > 4 && s[4] != null && !s[4].isEmpty()) ? s[4] : "_bbsika_account";
 		String custo = s[1].equals("-") ? "" : s[1] + " Ikoin";
 		StringBuilder b = new StringBuilder();
 		b.append("<td width=265>");
@@ -912,7 +903,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		b.append("</td>");
 		b.append("<td width=70 align=center>");
-		b.append("<button value=\"").append(disponivel ? "Soon" : "Usar").append("\" action=\"bypass _bbsika_account\" width=60 height=22 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+		b.append("<button value=\"").append(disponivel ? "Soon" : "Usar").append("\" action=\"bypass ").append(disponivel ? "_bbsika_account" : bypass).append("\" width=60 height=22 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
 		b.append("</td>");
 		b.append("</tr></table>");
 		b.append("</td>");
