@@ -783,7 +783,7 @@
 		</effects>
 	</skill>
 	<skill id="47221" toLevel="1" name="Prime Master">
-		<!-- It is time to discover the power of Prime Master. <Base effect>. Max HP +45,000. P. Atk. +10%. P. Skill Critical Rate +10%. P. Skill Critical Damage +10%. Shock Atk. Rate +10%. Debuff/ Anomaly Resistance +10%. Object damage in the World Siege +25%. <Skill upgrade>. Armor Crush → Mass Armor Crush. Increases number of targets. -->
+		<!-- It is time to discover the power of Prime Master. <Base effect>. Max HP +45,000. P. Atk. +25% (ajustado pra compensar a perda de P.Atk da arma ao transformar). P. Skill Critical Rate +10%. P. Skill Critical Damage +10%. Shock Atk. Rate +10%. Debuff/ Anomaly Resistance +10%. Object damage in the World Siege +25%. <Skill upgrade>. Armor Crush → Mass Armor Crush. Increases number of targets. -->
 		<icon>icon.s_maestro_hero</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
@@ -818,7 +818,7 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="PhysicalAttack">
-				<amount>10</amount>
+				<amount>25</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PhysicalSkillCriticalRate">
