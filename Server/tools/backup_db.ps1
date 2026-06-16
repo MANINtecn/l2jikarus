@@ -48,41 +48,52 @@ try {
     if ($url -match "//[^/]+/([^?]+)") { $dbName = $Matches[1] }
     if ([string]::IsNullOrWhiteSpace($dbName)) { Log-Err "Nao consegui extrair o nome do banco da URL"; exit 1 }
 
-    # mysqldump: procura em varios lugares (robusto - acha sozinho)
+    # dump tool: MySQL = mysqldump.exe; MariaDB novo = mariadb-dump.exe. Procura os dois.
+    $dumpNames = @("mysqldump.exe", "mariadb-dump.exe")
     $dump = $null
     $candidates = New-Object System.Collections.Generic.List[string]
-    # 1. MySqlBinLocation do Database.ini
-    if (-not [string]::IsNullOrWhiteSpace($binDir)) { $candidates.Add((Join-Path $binDir "mysqldump.exe")) }
-    # 2. pasta do mysqld que esta RODANDO (fonte mais confiavel)
+
+    # 1. MySqlBinLocation do Database.ini (os dois nomes)
+    if (-not [string]::IsNullOrWhiteSpace($binDir)) {
+        foreach ($n in $dumpNames) { $candidates.Add((Join-Path $binDir $n)) }
+    }
+    # 2. pasta do mysqld que esta RODANDO (fonte mais confiavel - serve p/ MariaDB do XAMPP)
     try {
         $mysqld = Get-Process mysqld -ErrorAction SilentlyContinue | Select-Object -First 1
-        if ($mysqld -and $mysqld.Path) { $candidates.Add((Join-Path (Split-Path $mysqld.Path) "mysqldump.exe")) }
+        if ($mysqld -and $mysqld.Path) {
+            $bin = Split-Path $mysqld.Path
+            foreach ($n in $dumpNames) { $candidates.Add((Join-Path $bin $n)) }
+        }
     } catch {}
     # 3. PATH
-    $cmd = Get-Command mysqldump.exe -ErrorAction SilentlyContinue
-    if ($cmd) { $candidates.Add($cmd.Source) }
-    # 4. locais comuns de instalacao
-    foreach ($base in @("C:\Program Files\MySQL", "C:\Program Files (x86)\MySQL", "C:\MySQL", "C:\xampp\mysql\bin", "C:\wamp64\bin\mysql", "C:\mariadb")) {
+    foreach ($n in $dumpNames) {
+        $cmd = Get-Command $n -ErrorAction SilentlyContinue
+        if ($cmd) { $candidates.Add($cmd.Source) }
+    }
+    # 4. locais comuns (XAMPP, MariaDB, MySQL)
+    foreach ($base in @("C:\xampp\mysql\bin", "C:\Program Files\MariaDB", "C:\Program Files\MySQL", "C:\Program Files (x86)\MySQL", "C:\MariaDB", "C:\MySQL", "C:\wamp64\bin")) {
         if (Test-Path $base) {
-            Get-ChildItem $base -Recurse -Filter mysqldump.exe -ErrorAction SilentlyContinue | ForEach-Object { $candidates.Add($_.FullName) }
+            foreach ($n in $dumpNames) {
+                Get-ChildItem $base -Recurse -Filter $n -ErrorAction SilentlyContinue | ForEach-Object { $candidates.Add($_.FullName) }
+            }
         }
     }
     foreach ($c in $candidates) { if ($c -and (Test-Path $c)) { $dump = $c; break } }
     if (-not $dump) {
-        Log-Err ("mysqldump.exe nao encontrado. Procurado em: " + ($candidates -join " | "))
+        Log-Err ("dump tool nao encontrado (mysqldump/mariadb-dump). Procurado em: " + ($candidates -join " | "))
         exit 1
     }
-    Write-Host ("mysqldump: {0}" -f $dump)
+    Write-Host ("dump tool: {0}" -f $dump)
 
     $tmp   = Join-Path $BackupDir ("db_{0}.sql.part" -f $stamp)
     $final = Join-Path $BackupDir ("db_{0}.sql"      -f $stamp)
 
     # --- roda o dump (senha via --password= pra nao precisar de espaco) ---
-    $args = @("--user=$login")
-    if (-not [string]::IsNullOrEmpty($pass)) { $args += "--password=$pass" }
-    $args += @("--single-transaction", "--routines", "--events", "--default-character-set=utf8mb4", $dbName, "--result-file=$tmp")
+    $dumpArgs = @("--user=$login")
+    if (-not [string]::IsNullOrEmpty($pass)) { $dumpArgs += "--password=$pass" }
+    $dumpArgs += @("--single-transaction", "--routines", "--events", "--default-character-set=utf8mb4", $dbName, "--result-file=$tmp")
 
-    & $dump @args 2> (Join-Path $BackupDir "mysqldump_stderr.tmp")
+    & $dump @dumpArgs 2> (Join-Path $BackupDir "mysqldump_stderr.tmp")
     $code = $LASTEXITCODE
 
     # --- valida ---
