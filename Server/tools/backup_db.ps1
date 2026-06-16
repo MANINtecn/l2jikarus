@@ -48,12 +48,31 @@ try {
     if ($url -match "//[^/]+/([^?]+)") { $dbName = $Matches[1] }
     if ([string]::IsNullOrWhiteSpace($dbName)) { Log-Err "Nao consegui extrair o nome do banco da URL"; exit 1 }
 
-    # mysqldump: usa o MySqlBinLocation do ini; se nao existir, tenta o do PATH
-    $dump = Join-Path $binDir "mysqldump.exe"
-    if (-not (Test-Path $dump)) {
-        $cmd = Get-Command mysqldump.exe -ErrorAction SilentlyContinue
-        if ($cmd) { $dump = $cmd.Source } else { Log-Err "mysqldump.exe nao encontrado ($dump nem no PATH)"; exit 1 }
+    # mysqldump: procura em varios lugares (robusto - acha sozinho)
+    $dump = $null
+    $candidates = New-Object System.Collections.Generic.List[string]
+    # 1. MySqlBinLocation do Database.ini
+    if (-not [string]::IsNullOrWhiteSpace($binDir)) { $candidates.Add((Join-Path $binDir "mysqldump.exe")) }
+    # 2. pasta do mysqld que esta RODANDO (fonte mais confiavel)
+    try {
+        $mysqld = Get-Process mysqld -ErrorAction SilentlyContinue | Select-Object -First 1
+        if ($mysqld -and $mysqld.Path) { $candidates.Add((Join-Path (Split-Path $mysqld.Path) "mysqldump.exe")) }
+    } catch {}
+    # 3. PATH
+    $cmd = Get-Command mysqldump.exe -ErrorAction SilentlyContinue
+    if ($cmd) { $candidates.Add($cmd.Source) }
+    # 4. locais comuns de instalacao
+    foreach ($base in @("C:\Program Files\MySQL", "C:\Program Files (x86)\MySQL", "C:\MySQL", "C:\xampp\mysql\bin", "C:\wamp64\bin\mysql", "C:\mariadb")) {
+        if (Test-Path $base) {
+            Get-ChildItem $base -Recurse -Filter mysqldump.exe -ErrorAction SilentlyContinue | ForEach-Object { $candidates.Add($_.FullName) }
+        }
     }
+    foreach ($c in $candidates) { if ($c -and (Test-Path $c)) { $dump = $c; break } }
+    if (-not $dump) {
+        Log-Err ("mysqldump.exe nao encontrado. Procurado em: " + ($candidates -join " | "))
+        exit 1
+    }
+    Write-Host ("mysqldump: {0}" -f $dump)
 
     $tmp   = Join-Path $BackupDir ("db_{0}.sql.part" -f $stamp)
     $final = Join-Path $BackupDir ("db_{0}.sql"      -f $stamp)
