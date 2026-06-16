@@ -11,7 +11,7 @@
 # Parametros (ajuste os defaults pro caminho real da VPS se preciso):
 param(
     [string]$IniPath   = "C:\Server\game\config\Database.ini",
-    [string]$BackupDir = "C:\Server\backup",
+    [string]$BackupDir = "C:\Server\backups",
     [int]$KeepDays     = 30,
     [int]$MinSizeKB    = 5   # abaixo disso = dump falhou
 )
