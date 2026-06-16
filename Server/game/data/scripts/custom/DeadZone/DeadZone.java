@@ -844,31 +844,31 @@ public class DeadZone extends Script
 			return;
 		}
 
-		// Adena: aleatorio entre min e max
+		// Adena: aleatorio entre min e max - CAI NO CHAO (npc.dropItem), nao vai direto pro inventario.
 		final long adena = BOSS_ADENA_MIN + Rnd.get(Math.max(1, BOSS_ADENA_MAX - BOSS_ADENA_MIN));
 		if (adena > 0)
 		{
-			killer.addItem(ItemProcessType.REWARD, 57, adena, npc, true);
+			npc.dropItem(killer, 57, adena);
 		}
-		// L-Coin: aleatorio entre min e max
+		// L-Coin: auto-loot direto no inventario (por design - ver project_lcoin_store).
 		final int lcoin = BOSS_LCOIN_MIN + Rnd.get(Math.max(1, BOSS_LCOIN_MAX - BOSS_LCOIN_MIN + 1));
 		if (lcoin > 0)
 		{
 			killer.addItem(ItemProcessType.REWARD, 91663, lcoin, npc, true);
 		}
-		// Materiais de craft (lixo pro Random Craft) - sorteia alguns da lista
+		// Materiais de craft (lixo pro Random Craft) - sorteia alguns da lista - CAI NO CHAO.
 		if ((BOSS_CRAFT_MATERIALS.length > 0) && (BOSS_CRAFT_DROP_COUNT > 0))
 		{
 			for (int i = 0; i < BOSS_CRAFT_DROP_COUNT; i++)
 			{
 				final int matId = BOSS_CRAFT_MATERIALS[Rnd.get(BOSS_CRAFT_MATERIALS.length)];
-				killer.addItem(ItemProcessType.REWARD, matId, 1, npc, true);
+				npc.dropItem(killer, matId, 1);
 			}
 		}
-		// Sapphire (drop exclusivo da zona) - chance
+		// Sapphire (drop exclusivo da zona) - chance - CAI NO CHAO.
 		if (Rnd.get(100) < BOSS_JEWEL_CHANCE)
 		{
-			killer.addItem(ItemProcessType.REWARD, BOSS_JEWEL_BOX_ID, 1, npc, true);
+			npc.dropItem(killer, BOSS_JEWEL_BOX_ID, 1);
 			killer.sendPacket(new ExShowScreenMessage("Voce achou uma SAPPHIRE! Joia exclusiva da Zona Mortal!", ExShowScreenMessage.MIDDLE_CENTER, 6000));
 		}
 	}
