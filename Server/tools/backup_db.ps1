@@ -57,14 +57,16 @@ try {
     if (-not [string]::IsNullOrWhiteSpace($binDir)) {
         foreach ($n in $dumpNames) { $candidates.Add((Join-Path $binDir $n)) }
     }
-    # 2. pasta do mysqld que esta RODANDO (fonte mais confiavel - serve p/ MariaDB do XAMPP)
-    try {
-        $mysqld = Get-Process mysqld -ErrorAction SilentlyContinue | Select-Object -First 1
-        if ($mysqld -and $mysqld.Path) {
-            $bin = Split-Path $mysqld.Path
-            foreach ($n in $dumpNames) { $candidates.Add((Join-Path $bin $n)) }
-        }
-    } catch {}
+    # 2. pasta do daemon que esta RODANDO (mysqld OU mariadbd) - fonte mais confiavel
+    foreach ($pname in @("mysqld", "mariadbd")) {
+        try {
+            $proc = Get-Process $pname -ErrorAction SilentlyContinue | Select-Object -First 1
+            if ($proc -and $proc.Path) {
+                $bin = Split-Path $proc.Path
+                foreach ($n in $dumpNames) { $candidates.Add((Join-Path $bin $n)) }
+            }
+        } catch {}
+    }
     # 3. PATH
     foreach ($n in $dumpNames) {
         $cmd = Get-Command $n -ErrorAction SilentlyContinue
