@@ -77,9 +77,18 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	private static final String[] RACES = { "Human", "Elf", "Dark Elf", "Orc", "Dwarf", "Kamael", "Sylph" };
 
-	// Start Kit Basico - itens entregues 1x por personagem. Formato "itemId:count;itemId:count"
-	// TODO: ajustar lista final dos itens do start basico
-	private static final String BASIC_START_ITEMS = "57:100000";
+	// ===== START PACKS (formato "itemId:count;itemId:count") =====
+	// FREE (Basic): resgate gratis, 1x por personagem.
+	private static final String BASIC_START_ITEMS =
+		"94268:250;94270:250;104173:100;91912:5000;49854:500;49081:1000;71967:1;90960:1000";
+	// RARO: comprado com Ikoin, ILIMITADO.
+	private static final String RARO_PACK_ITEMS =
+		"94268:700;94270:700;104173:500;91912:7000;49854:1000;49081:2000;71967:1;90834:1;91219:3000;72191:1;72289:1";
+	private static final int RARO_PACK_COST = 70;
+	// FUNDADOR (ex-Lendario): comprado com Ikoin, ILIMITADO.
+	private static final String FUNDADOR_PACK_ITEMS =
+		"94268:1500;94270:1500;104173:1000;91912:15000;49854:2500;49081:3000;71967:1;90834:1;91827:5000;98236:1;72192:1;72289:1";
+	private static final int FUNDADOR_PACK_COST = 200;
 
 	// Premium Account: 50 Ikoin = 30 dias. Por CONTA. Nao pode acumular (so recompra apos expirar).
 	private static final int PREMIUM_COST_IKOIN = 50;
@@ -99,6 +108,8 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_referralpage",
 		"_bbsika_account",
 		"_bbsika_start",
+		"_bbsika_buypack_raro",
+		"_bbsika_buypack_fundador",
 		"_bbsika_buyoffer",
 		"_bbsika_buyoffer_1",
 		"_bbsika_buyoffer_2",
@@ -207,6 +218,16 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			claimBasicStart(player);
 			showMainPage(player);
 		}
+		else if (command.equals("_bbsika_buypack_raro"))
+		{
+			buyPack(player, "Raro", RARO_PACK_ITEMS, RARO_PACK_COST);
+			showMainPage(player);
+		}
+		else if (command.equals("_bbsika_buypack_fundador"))
+		{
+			buyPack(player, "Fundador", FUNDADOR_PACK_ITEMS, FUNDADOR_PACK_COST);
+			showMainPage(player);
+		}
 		else if (command.startsWith("_bbsika_buyoffer_"))
 		{
 			int offerId = 1;
@@ -252,6 +273,64 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		player.getVariables().set("IKA_START_BASIC", true);
 		player.getVariables().storeMe();
 		player.sendMessage("[Start] Start Kit Basico resgatado! Bom jogo.");
+	}
+
+	// ======== PACKS PAGOS (Raro / Fundador) - compra com Ikoin, ILIMITADO ========
+
+	private void buyPack(Player player, String name, String itemList, int cost)
+	{
+		final long balance = getPlayerCredits(player);
+		if (balance < cost)
+		{
+			player.sendMessage("[Start " + name + "] Ikoin insuficiente. Voce tem " + balance + ", precisa de " + cost + ".");
+			return;
+		}
+
+		final String account = player.getAccountName();
+		final long now = System.currentTimeMillis();
+		try (Connection con = DatabaseFactory.getConnection())
+		{
+			try (PreparedStatement ps = con.prepareStatement("UPDATE ikoin_balance SET balance=balance-?, updated_at=? WHERE account_name=?"))
+			{
+				ps.setInt(1, cost);
+				ps.setLong(2, now);
+				ps.setString(3, account);
+				ps.executeUpdate();
+			}
+			try (PreparedStatement ps = con.prepareStatement("INSERT INTO ikoin_transactions (account_name, amount, type, description, created_at) VALUES (?,?,?,?,?)"))
+			{
+				ps.setString(1, account);
+				ps.setInt(2, -cost);
+				ps.setString(3, "spend");
+				ps.setString(4, "Start Pack " + name);
+				ps.setLong(5, now);
+				ps.executeUpdate();
+			}
+		}
+		catch (Exception e)
+		{
+			player.sendMessage("[Start " + name + "] Erro ao processar a compra. Tente novamente.");
+			return;
+		}
+
+		// entrega os itens do pack
+		for (String entry : itemList.split(";"))
+		{
+			String[] parts = entry.trim().split(":");
+			if (parts.length == 2)
+			{
+				try
+				{
+					int itemId = Integer.parseInt(parts[0].trim());
+					long count = Long.parseLong(parts[1].trim());
+					player.addItem(ItemProcessType.REWARD, itemId, count, player, true);
+				}
+				catch (NumberFormatException ignored)
+				{
+				}
+			}
+		}
+		player.sendMessage("[Start " + name + "] Pack comprado! Itens entregues no inventario.");
 	}
 
 	// ======== NAVEGAÇÃO COMUM ========
