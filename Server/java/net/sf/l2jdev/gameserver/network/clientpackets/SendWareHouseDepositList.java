@@ -80,7 +80,7 @@ public class SendWareHouseDepositList extends ClientPacket
 							}
 							else if (PlayerConfig.ALT_GAME_KARMA_PLAYER_CAN_USE_WAREHOUSE || player.getReputation() >= 0)
 							{
-								long fee = this._items.size() * 30;
+								long fee = 0; // IKARUS: deposito sem taxa de adena (banco rapido / Zona Mortal)
 								long currentAdena = player.getAdena();
 								int slots = 0;
 
