@@ -317,7 +317,7 @@
 		</skills>
 	</item>
 	<item id="91912" name="HP Potion" type="EtcItem">
-		<!-- Momentarily recovers 50 HP. If HP is full, CP is restored. CUSTOM: reuse 1000ms -> 0 -->
+		<!-- Momentarily recovers 100 HP. If HP is full, CP is restored. CUSTOM: reuse 1000ms -> 0; heal 50 -> 100 -->
 		<set name="icon" val="icon.etc_lesser_potion_red_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
