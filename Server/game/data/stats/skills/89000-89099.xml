@@ -131,6 +131,8 @@
 		<!-- Level 10: <<font color="FF8000">Rush skill</font>>. Attacks the target. Power 9759. Ignores Shield Defense. Ignores 10% of the target's defense. -->
 		<icon>icon.s_dance_of_fury</icon>
 		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
 		<castRange>700</castRange>
 		<hitTime>400</hitTime>
 		<coolTime>300</coolTime>
@@ -159,6 +161,25 @@
 			<value level="9">45</value>
 			<value level="10">50</value>
 		</mpConsume>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>
+					<value level="1">1308</value>
+					<value level="2">1635</value>
+					<value level="3">2044</value>
+					<value level="4">2556</value>
+					<value level="5">3196</value>
+					<value level="6">3996</value>
+					<value level="7">4996</value>
+					<value level="8">6245</value>
+					<value level="9">7807</value>
+					<value level="10">9759</value>
+				</power>
+				<pDefMod>0.9</pDefMod>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<criticalChance>15</criticalChance>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="89014" toLevel="10" name="Dance of Fury">
 		<icon>icon.s_dance_of_fury</icon>
@@ -270,6 +291,11 @@
 		<!-- Level 20: Attacks the target and nearby enemies twice. Power 9868. Ignores Shield Defense. Ignores 10% of the target's defense. PvP: Attacks up to 4 targets. PvE: Attacks up to 4 targets. -->
 		<icon>icon.s_dance_of_fire</icon>
 		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>150</affectRange>
+		<affectScope>RANGE</affectScope>
+		<affectLimit>4-4</affectLimit>
 		<castRange>300</castRange>
 		<hitTime>1500</hitTime>
 		<reuseDelay>16000</reuseDelay>
@@ -317,6 +343,35 @@
 			<value level="19">89</value>
 			<value level="20">90</value>
 		</mpConsume>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>
+					<value level="1">1149</value>
+					<value level="2">1379</value>
+					<value level="3">1655</value>
+					<value level="4">1986</value>
+					<value level="5">2384</value>
+					<value level="6">2742</value>
+					<value level="7">3154</value>
+					<value level="8">3628</value>
+					<value level="9">4173</value>
+					<value level="10">4799</value>
+					<value level="11">5279</value>
+					<value level="12">5807</value>
+					<value level="13">6388</value>
+					<value level="14">7027</value>
+					<value level="15">7730</value>
+					<value level="16">8117</value>
+					<value level="17">8523</value>
+					<value level="18">8950</value>
+					<value level="19">9398</value>
+					<value level="20">9868</value>
+				</power>
+				<pDefMod>0.9</pDefMod>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<criticalChance>15</criticalChance>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="89018" toLevel="10" name="Song of Earth">
 		<!-- Level 1: <font color="FFFFFF">Caster:</font>. P./ M. Def. +500. P. Critical Rate +150. Suppression Resistance +5%. Speed +30 -->
