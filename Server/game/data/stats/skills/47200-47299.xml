@@ -818,7 +818,7 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="PhysicalAttack">
-				<amount>25</amount>
+				<amount>42</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="PhysicalSkillCriticalRate">
@@ -920,7 +920,7 @@
 		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
 		<activateRate>80</activateRate>
 		<affectLimit>6-12</affectLimit>
-		<affectObject>NOT_FRIEND_PC</affectObject>
+		<affectObject>NOT_FRIEND</affectObject>
 		<affectRange>200</affectRange>
 		<affectScope>POINT_BLANK</affectScope>
 		<basicProperty>PHYSICAL</basicProperty>
