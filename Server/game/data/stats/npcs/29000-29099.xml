@@ -66,9 +66,11 @@
 				<group chance="5">
 					<item id="6660" min="1" max="1" chance="100" /> <!-- Queen Ant's Ring -->
 				</group>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="0.6">
 					<item id="102214" min="1" max="1" chance="100" /> <!-- Package: +5 ~ +7 Queen Ant's Stone Breaker - Sealed -->
 				</group>
+				-->
 				<group chance="0.3">
 					<item id="101605" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Queen Ant (Sealed) -->
 				</group>
@@ -695,9 +697,11 @@
 				<group chance="5">
 					<item id="6661" min="1" max="1" chance="100" /> <!-- Orfen's Earring -->
 				</group>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="0.6">
 					<item id="102212" min="1" max="1" chance="100" /> <!-- Package: +5 ~ +7 Orfen's Venom Sword - Sealed -->
 				</group>
+				-->
 				<group chance="0.3">
 					<item id="101606" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Orfen (Sealed) -->
 				</group>
@@ -979,6 +983,7 @@
 		</collision>
 		<dropLists>
 			<drop>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="96010" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Heavy) - Sealed -->
 					<item id="96012" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Circlet (Heavy) - Sealed -->
@@ -1005,6 +1010,7 @@
 					<item id="96007" min="1" max="1" chance="4.17" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
 					<item id="96017" min="1" max="1" chance="4.17" /> <!-- Package: +5 Gauntlets of Nightmare (Light) - Sealed -->
 				</group>
+				-->
 				<group chance="100">
 					<item id="91951" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Talisman of Baium -->
 				</group>
@@ -1017,9 +1023,11 @@
 				<group chance="5.4">
 					<item id="49683" min="1" max="1" chance="100" /> <!-- Talisman of Baium -->
 				</group>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="1.8">
 					<item id="102213" min="1" max="1" chance="100" /> <!-- Package: +5 ~ +7 Baium's Thunder Breaker - Sealed -->
 				</group>
+				-->
 				<group chance="0.675">
 					<item id="101610" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Baium (Sealed) -->
 				</group>
@@ -1166,9 +1174,11 @@
 				<group chance="5">
 					<item id="90763" min="1" max="1" chance="100" /> <!-- Zaken's Earring -->
 				</group>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="0.6">
 					<item id="102210" min="1" max="1" chance="100" /> <!-- Package: +5 ~ +7 Zaken's Blood Sword - Sealed -->
 				</group>
+				-->
 				<group chance="0.3">
 					<item id="101609" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Zaken (Sealed) -->
 				</group>
@@ -1642,9 +1652,11 @@
 					<item id="94188" min="4" max="8" chance="30" /> <!-- Augmenting Stone: Armor -->
 					<item id="94423" min="4" max="8" chance="30" /> <!-- Augmenting Stone: Accessory -->
 				</group>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="1">
 					<item id="102209" min="1" max="1" chance="100" /> <!-- +6 ~ +8 Random Boss Weapon Pack - Sealed -->
 				</group>
+				-->
 				<group chance="5">
 					<item id="103135" min="1" max="1" chance="100" /> <!-- Sealed Dye Coupon Lv. 3 -->
 				</group>

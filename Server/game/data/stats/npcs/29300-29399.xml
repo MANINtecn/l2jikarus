@@ -216,15 +216,19 @@
 		</skillList>
 		<dropLists>
 			<drop>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="103216" min="1" max="1" chance="50" /> <!-- +6 ~ +8 Armor of Protection Pack - Sealed -->
 					<item id="102209" min="1" max="1" chance="50" /> <!-- +6 ~ +8 Random Boss Weapon Pack - Sealed -->
 				</group>
+				-->
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="25">
 					<item id="103594" min="1" max="1" chance="33.33" /> <!-- +5 ~ +7 Red Flame Gauntlets Pack - Sealed -->
 					<item id="103596" min="1" max="1" chance="33.34" /> <!-- +5 ~ +7 Sea Boots Pack - Sealed -->
 					<item id="103595" min="1" max="1" chance="33.33" /> <!-- +5 ~ +7 Wild Wind Helmet Pack - Sealed -->
 				</group>
+				-->
 				<group chance="100">
 					<item id="94385" min="1" max="3" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
 					<item id="94383" min="1" max="3" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
@@ -337,6 +341,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="96029" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Gauntlets - Robe - Sealed -->
 					<item id="96007" min="1" max="1" chance="4.17" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
@@ -363,6 +368,7 @@
 					<item id="96026" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Robe) - Sealed -->
 					<item id="96016" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Light) - Sealed -->
 				</group>
+				-->
 				<group chance="100">
 					<item id="91951" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Talisman of Baium -->
 				</group>
@@ -375,9 +381,11 @@
 				<group chance="5.4">
 					<item id="49683" min="1" max="1" chance="100" /> <!-- Talisman of Baium -->
 				</group>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="1.8">
 					<item id="102213" min="1" max="1" chance="100" /> <!-- Package: +5 ~ +7 Baium's Thunder Breaker - Sealed -->
 				</group>
+				-->
 				<group chance="0.675">
 					<item id="101610" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Baium (Sealed) -->
 				</group>
@@ -445,6 +453,7 @@
 		</skillList>
 		<dropLists>
 			<drop>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="96026" min="1" max="1" chance="8.34" /> <!-- Package: +5 Boots of Nightmare (Robe) - Sealed -->
 					<item id="96007" min="1" max="1" chance="8.33" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
@@ -459,6 +468,8 @@
 					<item id="96010" min="1" max="1" chance="8.33" /> <!-- Package: +5 Boots of Nightmare (Heavy) - Sealed -->
 					<item id="96018" min="1" max="1" chance="8.33" /> <!-- Package: +5 Boots of Nightmare (Light) - Sealed -->
 				</group>
+				-->
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="50">
 					<item id="96015" min="1" max="1" chance="8.33" /> <!-- Package: +5 Leather Armor of Nightmare - Sealed -->
 					<item id="96009" min="1" max="1" chance="8.33" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
@@ -473,6 +484,8 @@
 					<item id="96023" min="1" max="1" chance="8.34" /> <!-- Package: +5 Robe of Nightmare - Sealed -->
 					<item id="96024" min="1" max="1" chance="8.34" /> <!-- Package: +5 Helm of Nightmare (Robe) - Sealed -->
 				</group>
+				-->
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="50">
 					<item id="96017" min="1" max="1" chance="8.33" /> <!-- Package: +5 Gauntlets of Nightmare (Light) - Sealed -->
 					<item id="96025" min="1" max="1" chance="8.34" /> <!-- Package: +5 Gauntlets of Nightmare (Robe) - Sealed -->
@@ -487,6 +500,8 @@
 					<item id="96015" min="1" max="1" chance="8.33" /> <!-- Package: +5 Leather Armor of Nightmare - Sealed -->
 					<item id="96009" min="1" max="1" chance="8.33" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
 				</group>
+				-->
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="96011" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Plate Armor - Sealed -->
 					<item id="96027" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Robe - Sealed -->
@@ -501,6 +516,8 @@
 					<item id="96029" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Gauntlets - Robe - Sealed -->
 					<item id="96019" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Leather Armor - Sealed -->
 				</group>
+				-->
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="50">
 					<item id="96014" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Boots (Heavy) - Sealed -->
 					<item id="96022" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Boots (Light) - Sealed -->
@@ -515,6 +532,8 @@
 					<item id="96011" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Plate Armor - Sealed -->
 					<item id="96027" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Robe - Sealed -->
 				</group>
+				-->
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="50">
 					<item id="96020" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Circlet (Light) - Sealed -->
 					<item id="96028" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Circlet (Robe) - Sealed -->
@@ -529,6 +548,8 @@
 					<item id="96030" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Boots (Robe) - Sealed -->
 					<item id="96012" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Circlet (Heavy) - Sealed -->
 				</group>
+				-->
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="102167" min="1" max="1" chance="16.6" /> <!-- Package: +5 ~ +7 Flaming Tunic - Sealed -->
 					<item id="102165" min="1" max="1" chance="16.7" /> <!-- Package: +5 ~ +7 Leather Armor of Lightning - Sealed -->
@@ -537,6 +558,8 @@
 					<item id="102168" min="1" max="1" chance="16.6" /> <!-- Package: +5 ~ +7 Flaming Stockings - Sealed -->
 					<item id="102164" min="1" max="1" chance="16.7" /> <!-- Package: +5 ~ +7 Ice Crystal Gaiters - Sealed -->
 				</group>
+				-->
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="10">
 					<item id="102171" min="1" max="1" chance="16.7" /> <!-- Package: +6 ~ +8 Ice Crystal Breastplate - Sealed -->
 					<item id="102170" min="1" max="1" chance="16.6" /> <!-- Package: +6 ~ +8 Leather Leggings of Lightning - Sealed -->
@@ -545,6 +568,7 @@
 					<item id="102173" min="1" max="1" chance="16.7" /> <!-- Package: +6 ~ +8 Flaming Tunic - Sealed -->
 					<item id="102169" min="1" max="1" chance="16.6" /> <!-- Package: +6 ~ +8 Leather Armor of Lightning - Sealed -->
 				</group>
+				-->
 				<group chance="100">
 					<item id="91951" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Talisman of Baium -->
 				</group>
@@ -554,9 +578,11 @@
 				<group chance="10.8">
 					<item id="49683" min="1" max="1" chance="100" /> <!-- Talisman of Baium -->
 				</group>
+				<!-- BOSS_GEAR_REMOVED
 				<group chance="5.4">
 					<item id="102213" min="1" max="1" chance="100" /> <!-- Package: +5 ~ +7 Baium's Thunder Breaker - Sealed -->
 				</group>
+				-->
 				<group chance="3">
 					<item id="101610" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Baium (Sealed) -->
 				</group>
