@@ -1,9 +1,15 @@
 package handlers.communityboard;
 
+import java.io.OutputStream;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledFuture;
@@ -94,6 +100,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	private static final int PREMIUM_COST_IKOIN = 50;
 	private static final int PREMIUM_DAYS = 30;
 
+	// ===== COMPRA DE IKOIN VIA PIX (MercadoPago) =====
+	private static final String VPS_API     = "http://localhost:8080";       // GS -> VPS (mesma maquina)
+	private static final String VPS_PUB_URL = "http://192.99.110.164:8080";  // cliente do jogo -> VPS
+	private static final String VPS_KEY     = "ikarus2026";
+	private static final HttpClient HTTP    = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(8)).build();
+	// objectId do jogador -> mpgId (pagamento PIX pendente)
+	private static final Map<Integer, String> PENDING_PIX = new ConcurrentHashMap<>();
+
 	private static final String[] COMMANDS =
 	{
 		"_bbshome",
@@ -115,6 +129,9 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_buyoffer_2",
 		"_bbsika_premium",
 		"_bbsika_buypremium",
+		"_bbsika_comprar",
+		"_bbsika_ikoin_pix_create",
+		"_bbsika_ikoin_pix_check",
 	};
 
 	@Override
@@ -241,6 +258,28 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			buyOffer(player, offerId);
 			showMainPage(player);
 		}
+		else if (command.equals("_bbsika_comprar"))
+		{
+			showComprarPage(player, "");
+		}
+		else if (command.startsWith("_bbsika_ikoin_pix_create"))
+		{
+			final String raw = command.replace("_bbsika_ikoin_pix_create", "").replaceAll("[^0-9]", "").trim();
+			int ikoins = 0;
+			try { ikoins = Integer.parseInt(raw); } catch (NumberFormatException ignored) {}
+			if (ikoins < 10 || ikoins > 5000)
+			{
+				showComprarPage(player, "<font color=\"FF4444\">Digite um valor entre 10 e 5000.</font>");
+			}
+			else
+			{
+				createPixAndShow(player, ikoins);
+			}
+		}
+		else if (command.equals("_bbsika_ikoin_pix_check"))
+		{
+			checkPixAndShow(player);
+		}
 
 		return false;
 	}
@@ -333,6 +372,147 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		player.sendMessage("[Start " + name + "] Pack comprado! Itens entregues no inventario.");
 	}
 
+	// ======== COMPRA DE IKOIN VIA PIX ========
+
+	private void showComprarPage(Player player, String msg)
+	{
+		final int saldo = getPlayerCredits(player);
+		final StringBuilder c = new StringBuilder();
+		c.append("<br><br>");
+		c.append("<font name=\"hs12\" color=\"LEVEL\">COMPRAR IKOINS</font><br>");
+		c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br><br>");
+		c.append("<font color=\"aaaaaa\">1 Ikoin = R$ 1,00 &nbsp;|&nbsp; Saldo atual: <font color=\"LEVEL\">").append(saldo).append(" Ikoins</font></font><br><br>");
+		if (!msg.isEmpty()) { c.append(msg).append("<br>"); }
+		c.append("<table><tr>");
+		c.append("<td><font color=\"aaaaaa\">Quantidade (min 10, max 5000):</font></td>");
+		c.append("<td><edit var=\"ikoins\" width=80 height=15></td></tr></table><br>");
+		c.append("<button value=\"Gerar QR PIX\" action=\"bypass _bbsika_ikoin_pix_create_$ikoins\" width=180 height=30 ");
+		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"><br><br>");
+		c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br>");
+		c.append("<font color=\"888888\">Prefere cartao de credito? Acesse:</font><br>");
+		c.append("<font color=\"LEVEL\">l2ikarus.com/checkout</font><br>");
+		c.append("<font color=\"888888\">(entre com sua conta e escolha o pacote)</font>");
+		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("comprar"), c.toString()), player);
+	}
+
+	private void createPixAndShow(Player player, int ikoins)
+	{
+		try
+		{
+			final String body = "{\"account\":\"" + player.getAccountName() + "\",\"ikoins\":" + ikoins + "}";
+			final HttpRequest req = HttpRequest.newBuilder()
+				.uri(URI.create(VPS_API + "/ikoin/pix"))
+				.timeout(Duration.ofSeconds(10))
+				.header("Content-Type", "application/json")
+				.header("x-api-key", VPS_KEY)
+				.POST(HttpRequest.BodyPublishers.ofString(body))
+				.build();
+			final String resp = HTTP.send(req, HttpResponse.BodyHandlers.ofString()).body();
+			final String mpgId  = jsonStr(resp, "mpgId");
+			final String pixCode = jsonStr(resp, "pixCode");
+			final boolean hasQr = resp.contains("\"hasQr\":true");
+			if (mpgId.isEmpty())
+			{
+				final String err = jsonStr(resp, "error");
+				showComprarPage(player, "<font color=\"FF4444\">Erro ao gerar PIX: " + err + "</font>");
+				return;
+			}
+			PENDING_PIX.put(player.getObjectId(), mpgId);
+			final StringBuilder c = new StringBuilder();
+			c.append("<br><br>");
+			c.append("<font name=\"hs12\" color=\"LEVEL\">PIX GERADO</font><br>");
+			c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br><br>");
+			c.append("<font color=\"CCAA44\">").append(ikoins).append(" Ikoins &nbsp;|&nbsp; R$ ").append(ikoins).append(",00</font><br><br>");
+			if (hasQr)
+			{
+				c.append("<center><img src=\"").append(VPS_PUB_URL).append("/ikoin/qr/").append(mpgId).append("\" width=200 height=200></center><br>");
+			}
+			if (!pixCode.isEmpty())
+			{
+				c.append("<font color=\"aaaaaa\">Copia e Cola:</font><br>");
+				// Mostra os primeiros 60 chars + reticencias (codigo completo é ~120 chars)
+				final String preview = pixCode.length() > 60 ? pixCode.substring(0, 60) + "..." : pixCode;
+				c.append("<font color=\"888888\">").append(preview).append("</font><br><br>");
+			}
+			c.append("<font color=\"888888\">Expira em 30 minutos. Escaneie o QR com o app do seu banco.</font><br><br>");
+			c.append("<button value=\"Verificar Pagamento\" action=\"bypass _bbsika_ikoin_pix_check\" width=180 height=30 ");
+			c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"> ");
+			c.append("<button value=\"Novo PIX\" action=\"bypass _bbsika_comprar\" width=120 height=30 ");
+			c.append("back=\"L2EssenceCommunity.gmshop_btn\" fore=\"L2EssenceCommunity.gmshop_btn\">");
+			CommunityBoardHandler.separateAndSend(buildFrame(buildNav("comprar"), c.toString()), player);
+		}
+		catch (Exception e)
+		{
+			showComprarPage(player, "<font color=\"FF4444\">Erro de conexão com o servidor de pagamento.</font>");
+		}
+	}
+
+	private void checkPixAndShow(Player player)
+	{
+		final String mpgId = PENDING_PIX.get(player.getObjectId());
+		if (mpgId == null)
+		{
+			showComprarPage(player, "<font color=\"FF4444\">Nenhum PIX pendente encontrado. Gere um novo.</font>");
+			return;
+		}
+		try
+		{
+			final HttpRequest req = HttpRequest.newBuilder()
+				.uri(URI.create(VPS_API + "/ikoin/pix/" + mpgId))
+				.timeout(Duration.ofSeconds(8))
+				.header("x-api-key", VPS_KEY)
+				.GET()
+				.build();
+			final String resp = HTTP.send(req, HttpResponse.BodyHandlers.ofString()).body();
+			final String status = jsonStr(resp, "status");
+			final StringBuilder c = new StringBuilder();
+			c.append("<br><br>");
+			if ("paid".equals(status))
+			{
+				PENDING_PIX.remove(player.getObjectId());
+				final String amt = jsonStr(resp, "amount");
+				c.append("<font name=\"hs12\" color=\"44FF44\">PAGAMENTO CONFIRMADO!</font><br>");
+				c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br><br>");
+				c.append("<font color=\"CCAA44\">+").append(amt).append(" Ikoins adicionados a sua conta!</font><br>");
+				c.append("<font color=\"aaaaaa\">Saldo atualizado: <font color=\"LEVEL\">").append(getPlayerCredits(player)).append(" Ikoins</font></font><br><br>");
+				c.append("<button value=\"Comprar mais\" action=\"bypass _bbsika_comprar\" width=150 height=30 ");
+				c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+			}
+			else if ("pending".equals(status))
+			{
+				c.append("<font name=\"hs12\" color=\"CCAA44\">AGUARDANDO PAGAMENTO</font><br>");
+				c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br><br>");
+				c.append("<font color=\"aaaaaa\">PIX ainda nao foi pago. Abra o app do banco e escaneie o QR code.</font><br><br>");
+				c.append("<button value=\"Verificar novamente\" action=\"bypass _bbsika_ikoin_pix_check\" width=180 height=30 ");
+				c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"> ");
+				c.append("<button value=\"Cancelar\" action=\"bypass _bbsika_comprar\" width=100 height=30 ");
+				c.append("back=\"L2EssenceCommunity.gmshop_btn\" fore=\"L2EssenceCommunity.gmshop_btn\">");
+			}
+			else
+			{
+				c.append("<font color=\"FF4444\">Status desconhecido. Tente novamente ou contate o suporte.</font><br>");
+				c.append("<button value=\"Voltar\" action=\"bypass _bbsika_comprar\" width=100 height=30 ");
+				c.append("back=\"L2EssenceCommunity.gmshop_btn\" fore=\"L2EssenceCommunity.gmshop_btn\">");
+			}
+			CommunityBoardHandler.separateAndSend(buildFrame(buildNav("comprar"), c.toString()), player);
+		}
+		catch (Exception e)
+		{
+			showComprarPage(player, "<font color=\"FF4444\">Erro ao verificar pagamento.</font>");
+		}
+	}
+
+	// Extrai valor de string de um JSON simples (sem biblioteca)
+	private static String jsonStr(String json, String key)
+	{
+		final String search = "\"" + key + "\":\"";
+		final int idx = json.indexOf(search);
+		if (idx < 0) return "";
+		final int start = idx + search.length();
+		final int end = json.indexOf("\"", start);
+		return end < 0 ? "" : json.substring(start, end);
+	}
+
 	// ======== NAVEGAÇÃO COMUM ========
 
 	private String buildNav(String active)
@@ -347,6 +527,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		n.append(navBtn("Account", "_bbsika_account", "L2EssenceCommunity.acc_services_btn", active.equals("account")));
 		n.append(navBtn("Rankings", "_bbsika_rankings", "L2EssenceCommunity.rankings_btn", active.equals("rankings")));
 		n.append(navBtn("Inspecionar", "_bbsika_inspect", "L2EssenceCommunity.itembroker_btn", active.equals("inspect")));
+		n.append(navBtn("Comprar Ikoin", "_bbsika_comprar", "L2EssenceCommunity.donate_items_btn", active.equals("comprar")));
 		n.append("</table>");
 		return n.toString();
 	}
