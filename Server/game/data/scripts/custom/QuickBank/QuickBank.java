@@ -8,24 +8,19 @@
  */
 package custom.QuickBank;
 
-import net.sf.l2jdev.gameserver.config.GeneralConfig;
 import net.sf.l2jdev.gameserver.model.actor.Npc;
 import net.sf.l2jdev.gameserver.model.actor.Player;
 import net.sf.l2jdev.gameserver.model.script.Script;
 import net.sf.l2jdev.gameserver.model.zone.ZoneId;
-import net.sf.l2jdev.gameserver.network.serverpackets.ActionFailed;
-import net.sf.l2jdev.gameserver.network.serverpackets.WareHouseDepositList;
 
 /**
  * Banco Rapido (Quick Bank) - L2 Ikarus.
- * NPC cosmetico 18423: clicou, abre o bau direto (sem menu Private/Clan, sem
- * escolher depositar/retirar). A janela nativa do warehouse ja faz o 2-cliques
- * pra mover item e pergunta a quantidade se for stackavel.
- * Compensa o "perde tudo" da Zona Mortal: guardar/buildar com praticidade.
+ * NPC cosmetico 18423: abre menu Depositar/Retirar usando os bypass handlers
+ * nativos (PrivateWarehouse IBypassHandler). Funciona so em peace zone.
  */
 public class QuickBank extends Script
 {
-	private static final int NPC = 18423; // Folk cosmetico (Giran)
+	private static final int NPC = 18423;
 
 	private QuickBank()
 	{
@@ -37,31 +32,21 @@ public class QuickBank extends Script
 	@Override
 	public String onFirstTalk(Npc npc, Player player)
 	{
-		// So funciona em cidades/vilas (peace zone). Nas zonas de farm (Dragon
-		// Valley, Towers, Kelbim) o 18423 continua so cosmetico - preserva o
-		// risco da Zona Mortal (sem acesso a bau no meio do farm).
 		if (!npc.isInsideZone(ZoneId.PEACE))
 		{
-			return null; // cosmetico: nao abre nada
-		}
-		openBank(player);
-		return null; // sem html: a janela do bau ja abre
-	}
-
-	private static void openBank(Player player)
-	{
-		if (!GeneralConfig.ALLOW_WAREHOUSE || player.hasItemRequest())
-		{
-			return;
+			player.sendMessage("O Banco Rápido só funciona em cidades e vilas.");
+			return null;
 		}
 
-		player.sendPacket(ActionFailed.STATIC_PACKET);
-		player.setActiveWarehouse(player.getWarehouse());
-		player.setInventoryBlockingStatus(true);
-		// Janela de deposito (mostra inventario; no cliente Essence costuma exibir
-		// o bau junto, permitindo depositar E retirar na mesma janela).
-		player.sendPacket(new WareHouseDepositList(1, player, WareHouseDepositList.PRIVATE));
-		player.sendPacket(new WareHouseDepositList(2, player, WareHouseDepositList.PRIVATE));
+		// Retornar HTML com os bypass nativos do warehouse.
+		// O handler PrivateWarehouse (IBypassHandler) processa DepositP e WithdrawP.
+		final String id = String.valueOf(npc.getObjectId());
+		return "<html><body><center><br>" +
+			"<font color=\"LEVEL\">Banco Rápido</font><br>" +
+			"<font color=\"aaaaaa\">Guarde seus itens antes de entrar<br>na Zona Mortal!</font><br><br>" +
+			"<Button ALIGN=LEFT ICON=\"NORMAL\" action=\"bypass -h npc_" + id + "_DepositP\">Depositar Itens</Button>" +
+			"<Button ALIGN=LEFT ICON=\"NORMAL\" action=\"bypass -h npc_" + id + "_WithdrawP\">Retirar Itens</Button>" +
+			"</center></body></html>";
 	}
 
 	public static void main(String[] args)
