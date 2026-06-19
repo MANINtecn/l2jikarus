@@ -9,8 +9,10 @@
  */
 package custom.DeadZone;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -19,6 +21,12 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 
 import net.sf.l2jdev.commons.threads.ThreadPool;
 import net.sf.l2jdev.commons.util.ConfigReader;
@@ -118,14 +126,27 @@ public class DeadZone extends Script
 	private static double BOSS_HP_FACTOR;
 	private static double BOSS_DMG_FACTOR;
 	private static double BOSS_DEF_FACTOR;
-	private static int BOSS_ADENA_MIN;
-	private static int BOSS_ADENA_MAX;
-	private static int BOSS_LCOIN_MIN;
-	private static int BOSS_LCOIN_MAX;
-	private static int BOSS_JEWEL_BOX_ID;
-	private static int BOSS_JEWEL_CHANCE;
-	private static int[] BOSS_CRAFT_MATERIALS;
-	private static int BOSS_CRAFT_DROP_COUNT;
+
+	/** Drops carregados do DeadZoneDrops.xml, por zona (zone id -> lista de drops). */
+	private static final Map<Integer, List<DropEntry>> ZONE_DROPS = new HashMap<>();
+
+	private static class DropEntry
+	{
+		final int itemId;
+		final int chance;   // 0-100
+		final int min;
+		final int max;
+		final String screenMsg; // null = sem mensagem
+
+		DropEntry(int itemId, int chance, int min, int max, String screenMsg)
+		{
+			this.itemId = itemId;
+			this.chance = chance;
+			this.min = min;
+			this.max = max;
+			this.screenMsg = screenMsg;
+		}
+	}
 
 	// Bosses ja ajustados (evita mergeMul acumular no respawn do mesmo objeto)
 	private static final Set<Integer> ADJUSTED_BOSSES = Collections.newSetFromMap(new ConcurrentHashMap<>());
@@ -245,24 +266,7 @@ public class DeadZone extends Script
 		BOSS_HP_FACTOR = Double.parseDouble(cfg.getString("DeadZoneBossHpFactor", "0.08"));
 		BOSS_DMG_FACTOR = Double.parseDouble(cfg.getString("DeadZoneBossDamageFactor", "0.6"));
 		BOSS_DEF_FACTOR = Double.parseDouble(cfg.getString("DeadZoneBossDefenceFactor", "0.3"));
-		BOSS_ADENA_MIN = cfg.getInt("DeadZoneBossAdenaMin", 40000);
-		BOSS_ADENA_MAX = cfg.getInt("DeadZoneBossAdenaMax", 120000);
-		BOSS_LCOIN_MIN = cfg.getInt("DeadZoneBossLCoinMin", 5);
-		BOSS_LCOIN_MAX = cfg.getInt("DeadZoneBossLCoinMax", 15);
-		BOSS_JEWEL_BOX_ID = cfg.getInt("DeadZoneBossJewelBoxId", 102817);
-		BOSS_JEWEL_CHANCE = cfg.getInt("DeadZoneBossJewelChance", 3);
-		BOSS_CRAFT_DROP_COUNT = cfg.getInt("DeadZoneBossCraftDropCount", 2);
-		final String[] mats = cfg.getString("DeadZoneBossCraftMaterials", "").split(",");
-		final java.util.List<Integer> matList = new ArrayList<>();
-		for (String m : mats)
-		{
-			final String t = m.trim();
-			if (!t.isEmpty())
-			{
-				matList.add(Integer.parseInt(t));
-			}
-		}
-		BOSS_CRAFT_MATERIALS = matList.stream().mapToInt(Integer::intValue).toArray();
+		loadDropsXml();
 		ZONE_D_ID = cfg.getInt("DeadZoneD_ZoneId", 90001);
 		ZONE_D_NAME = cfg.getString("DeadZoneD_Name", "Zona Mortal");
 		SCREEN_MESSAGE = cfg.getString("DeadZoneScreenMessage", "ATENCAO! Voce entrou na ZONA MORTAL.");
@@ -308,6 +312,46 @@ public class DeadZone extends Script
 			{
 				PROTECTED_ITEMS.add(Integer.parseInt(trimmed));
 			}
+		}
+	}
+
+	private static void loadDropsXml()
+	{
+		ZONE_DROPS.clear();
+		final File xml = new File("./data/scripts/custom/DeadZone/DeadZoneDrops.xml");
+		if (!xml.exists())
+		{
+			LOGGER.warning("DeadZone: DeadZoneDrops.xml nao encontrado — sem drops de boss!");
+			return;
+		}
+		try
+		{
+			final Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(xml);
+			doc.getDocumentElement().normalize();
+			final NodeList zones = doc.getElementsByTagName("zone");
+			for (int z = 0; z < zones.getLength(); z++)
+			{
+				final Element zone = (Element) zones.item(z);
+				final int zoneId = Integer.parseInt(zone.getAttribute("id"));
+				final List<DropEntry> drops = new ArrayList<>();
+				final NodeList dropNodes = zone.getElementsByTagName("drop");
+				for (int d = 0; d < dropNodes.getLength(); d++)
+				{
+					final Element drop = (Element) dropNodes.item(d);
+					final int itemId = Integer.parseInt(drop.getAttribute("itemId"));
+					final int chance = Integer.parseInt(drop.getAttribute("chance"));
+					final int min = Integer.parseInt(drop.getAttribute("min"));
+					final int max = Integer.parseInt(drop.getAttribute("max"));
+					final String msg = drop.hasAttribute("screenMsg") ? drop.getAttribute("screenMsg") : null;
+					drops.add(new DropEntry(itemId, chance, min, max, msg));
+				}
+				ZONE_DROPS.put(zoneId, drops);
+				LOGGER.info("DeadZone: zona " + zoneId + " carregada com " + drops.size() + " drops do XML.");
+			}
+		}
+		catch (Exception e)
+		{
+			LOGGER.warning("DeadZone: erro ao ler DeadZoneDrops.xml — " + e.getMessage());
 		}
 	}
 
@@ -844,34 +888,25 @@ public class DeadZone extends Script
 			return;
 		}
 
-		// IKARUS (2026-06-17): tudo vai DIRETO pro inventario (auto-loot global).
-		// Na Zona Mortal o risco e' carregar: se morrer aqui, perde tudo.
-		// Adena: aleatorio entre min e max.
-		final long adena = BOSS_ADENA_MIN + Rnd.get(Math.max(1, BOSS_ADENA_MAX - BOSS_ADENA_MIN));
-		if (adena > 0)
+		// Drops lidos do DeadZoneDrops.xml (editavel sem compilar).
+		final List<DropEntry> drops = ZONE_DROPS.get(ZONE_D_ID);
+		if (drops != null)
 		{
-			killer.addItem(ItemProcessType.REWARD, 57, adena, npc, true);
-		}
-		// L-Coin.
-		final int lcoin = BOSS_LCOIN_MIN + Rnd.get(Math.max(1, BOSS_LCOIN_MAX - BOSS_LCOIN_MIN + 1));
-		if (lcoin > 0)
-		{
-			killer.addItem(ItemProcessType.REWARD, 91663, lcoin, npc, true);
-		}
-		// Materiais de craft (lixo pro Random Craft) - sorteia alguns da lista.
-		if ((BOSS_CRAFT_MATERIALS.length > 0) && (BOSS_CRAFT_DROP_COUNT > 0))
-		{
-			for (int i = 0; i < BOSS_CRAFT_DROP_COUNT; i++)
+			for (DropEntry drop : drops)
 			{
-				final int matId = BOSS_CRAFT_MATERIALS[Rnd.get(BOSS_CRAFT_MATERIALS.length)];
-				killer.addItem(ItemProcessType.REWARD, matId, 1, npc, true);
+				if (drop.chance >= 100 || Rnd.get(100) < drop.chance)
+				{
+					final long qty = (drop.min == drop.max) ? drop.min : drop.min + Rnd.get(drop.max - drop.min + 1);
+					if (qty > 0)
+					{
+						killer.addItem(ItemProcessType.REWARD, drop.itemId, qty, npc, true);
+						if (drop.screenMsg != null)
+						{
+							killer.sendPacket(new ExShowScreenMessage(drop.screenMsg, ExShowScreenMessage.MIDDLE_CENTER, 6000));
+						}
+					}
+				}
 			}
-		}
-		// Sapphire (drop exclusivo da zona) - chance.
-		if (Rnd.get(100) < BOSS_JEWEL_CHANCE)
-		{
-			killer.addItem(ItemProcessType.REWARD, BOSS_JEWEL_BOX_ID, 1, npc, true);
-			killer.sendPacket(new ExShowScreenMessage("Voce achou uma SAPPHIRE! Joia exclusiva da Zona Mortal!", ExShowScreenMessage.MIDDLE_CENTER, 6000));
 		}
 	}
 
@@ -899,11 +934,24 @@ public class DeadZone extends Script
 		sb.append("<font color=\"888888\">Nivel ").append(npc.getLevel()).append("  |  HP ").append((long) npc.getCurrentHp()).append(" / ").append(npc.getMaxHp()).append("</font><br1>");
 		sb.append("<img src=\"L2UI.SquareGray\" width=260 height=1><br>");
 		sb.append("<font color=\"LEVEL\">== DROPS ==</font><br>");
-		sb.append("<font color=\"CCAA44\">Adena</font>: ").append(BOSS_ADENA_MIN).append(" - ").append(BOSS_ADENA_MAX).append("<br1>");
-		sb.append("<font color=\"CCAA44\">L-Coin</font>: ").append(BOSS_LCOIN_MIN).append(" - ").append(BOSS_LCOIN_MAX).append("<br1>");
-		sb.append("<font color=\"CCAA44\">Materiais de Craft</font>: ").append(BOSS_CRAFT_DROP_COUNT).append("x (100%)<br1>");
-		sb.append("<br><font color=\"3399FF\">>> Sapphire Lv.1 <<</font><br1>");
-		sb.append("<font color=\"3399FF\">Joia EXCLUSIVA - chance ").append(BOSS_JEWEL_CHANCE).append("%</font><br>");
+		final List<DropEntry> drops = ZONE_DROPS.get(ZONE_D_ID);
+		if (drops != null)
+		{
+			for (DropEntry drop : drops)
+			{
+				final String name = ItemData.getInstance().getTemplate(drop.itemId) != null
+					? ItemData.getInstance().getTemplate(drop.itemId).getName()
+					: "Item " + drop.itemId;
+				final String color = drop.screenMsg != null ? "3399FF" : "CCAA44";
+				sb.append("<font color=\"").append(color).append("\">").append(name).append("</font>");
+				sb.append(": ").append(drop.min);
+				if (drop.max != drop.min)
+				{
+					sb.append(" - ").append(drop.max);
+				}
+				sb.append("  <font color=\"888888\">(").append(drop.chance).append("%)</font><br1>");
+			}
+		}
 		sb.append("</td></tr></table></body></html>");
 		final NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId(), sb.toString());
 		player.sendPacket(html);

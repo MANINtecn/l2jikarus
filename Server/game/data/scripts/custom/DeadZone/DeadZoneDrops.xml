@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DROPS DA ZONA MORTAL (Dead Zone) - L2 Ikarus
+  ============================================
+  Edite aqui os drops dos BOSSES de cada zona. Aplica com RESTART do servidor
+  (NAO precisa compilar jar - e' script + xml, lidos no boot).
+
+  Cada <zone id="..."> casa com o ID da zona no DeadZone.ini (DeadZoneD_ZoneId etc).
+  Cada <drop> e' um item que pode cair quando um boss da zona morre:
+    itemId    = ID do item (57=Adena, 91663=L-Coin)
+    chance    = % de chance de dropar (0-100). 100 = sempre.
+    min / max = quantidade (sorteia entre min e max). Pra item unico, min=max=1.
+    screenMsg = (opcional) mensagem na tela do jogador quando dropar.
+
+  Pra ADICIONAR um item: copie uma linha <drop .../> e troque itemId/chance/min/max.
+  Pra REMOVER: apague a linha.
+  Pra criar drop de uma NOVA zona (C/B no futuro): copie um bloco <zone> inteiro
+  e troque o id pra bater com o novo DeadZone<X>_ZoneId do .ini.
+-->
+<deadzone>
+
+	<!-- ===================== ZONA D (Dion) - id 90001 ===================== -->
+	<zone id="90001" name="Zona Mortal de Dion (D)">
+		<!-- Moedas -->
+		<drop itemId="57"     chance="100" min="40000" max="120000" />              <!-- Adena -->
+		<drop itemId="91663"  chance="100" min="5"     max="15" />                  <!-- L-Coin -->
+
+		<!-- Materiais de Random Craft (lixo que vira craft points) -->
+		<drop itemId="92908"  chance="45" min="1" max="2" />   <!-- Lump of Wood -->
+		<drop itemId="92910"  chance="45" min="1" max="2" />   <!-- Rags -->
+		<drop itemId="92911"  chance="45" min="1" max="2" />   <!-- Leather Scraps -->
+		<drop itemId="92913"  chance="45" min="1" max="2" />   <!-- Unknown Metal -->
+		<drop itemId="92914"  chance="45" min="1" max="2" />   <!-- Sack Shreds -->
+
+		<!-- Item exclusivo da zona (joia equipavel) -->
+		<drop itemId="102817" chance="3" min="1" max="1" screenMsg="Voce achou uma SAPPHIRE! Joia exclusiva da Zona Mortal!" />
+	</zone>
+
+	<!-- ===================== ZONA C (futura) - exemplo desativado =====================
+	<zone id="90002" name="Zona Mortal C">
+		<drop itemId="57"    chance="100" min="80000" max="200000" />
+		<drop itemId="91663" chance="100" min="10"    max="25" />
+		<drop itemId="92911" chance="50"  min="1"     max="3" />
+	</zone>
+	-->
+
+</deadzone>
