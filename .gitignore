@@ -2,9 +2,7 @@
 build/classes/
 **/*.class
 
-# JARs compilados (deploy manual via RDP)
-Server/libs/L2JDev_Master.jar
-Server/libs/L2JDev_Login.jar
+# JARs compilados — rastreados no git para sync automático com VPS
 
 # Geodata (binários grandes, gerenciados separadamente)
 Server/game/data/geodata/
