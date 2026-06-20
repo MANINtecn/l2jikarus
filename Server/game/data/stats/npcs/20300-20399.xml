@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="20300" level="44" type="Monster" name="Zenta Lizardman Matriarch">
 		<parameters>
@@ -10,11 +10,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="4" /> (NPC Strike)
+			<skill name="PhysicalSpecial" id="4032" level="4" /> <!-- NPC Strike -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="221" /> (rhand: Assassin Knife)
+		<equipment rhand="221" /> <!-- rhand: Assassin Knife -->
 		<acquire exp="51" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1201.08570061422" hpRegen="5.5" mp="584" mpRegen="2.1" />
@@ -29,16 +29,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="4032" level="4" /> (NPC Strike)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="4032" level="4" /> <!-- NPC Strike -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -64,7 +64,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> (rhand: Bow)
+		<equipment rhand="14" /> <!-- rhand: Bow -->
 		<acquire exp="42" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1063.54199060681" hpRegen="5.5" mp="504.8" mpRegen="2.1" />
@@ -79,15 +79,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -114,7 +114,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="16" /> (rhand: Great Spear)
+		<equipment rhand="16" /> <!-- rhand: Great Spear -->
 		<acquire exp="45" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1108.45623972656" hpRegen="5.5" mp="531" mpRegen="2.1" />
@@ -129,15 +129,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -164,7 +164,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="7" /> (rhand: Apprentice's Rod)
+		<equipment rhand="7" /> <!-- rhand: Apprentice's Rod -->
 		<acquire exp="48" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1154.31374327461" hpRegen="5.5" mp="557.4" mpRegen="2.1" />
@@ -179,15 +179,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -211,11 +211,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="3" /> (NPC Strike)
+			<skill name="PhysicalSpecial" id="4032" level="3" /> <!-- NPC Strike -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="74" /> (rhand: Katana)
+		<equipment rhand="74" /> <!-- rhand: Katana -->
 		<acquire exp="33" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="853.930787729907" hpRegen="4.5" mp="417.6" mpRegen="1.8" />
@@ -230,16 +230,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4032" level="3" /> (NPC Strike)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4032" level="3" /> <!-- NPC Strike -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -280,15 +280,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -306,7 +306,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="5" /> (Mace)
+		<equipment rhand="5" /> <!-- Mace -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="151.029160627777" hpRegen="2" mp="100.48" mpRegen="0.9" />
@@ -321,15 +321,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -344,16 +344,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2" max="3" chance="100" /> (Adena)
+					<item id="57" min="2" max="3" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0033">
-					<item id="2424" min="1" max="1" chance="22.158" /> (Manticore Skin Boots)
-					<item id="124" min="1" max="1" chance="1.712" /> (Two-handed Sword)
-					<item id="2401" min="1" max="1" chance="11.823" /> (Elven Mithril Stockings)
-					<item id="186" min="1" max="1" chance="1.712" /> (Staff of Magic)
-					<item id="2411" min="1" max="1" chance="14.779" /> (Brigandine Helmet)
-					<item id="910" min="1" max="1" chance="46.106" /> (Necklace of Devotion)
-					<item id="293" min="1" max="1" chance="1.712" /> (Battle Hammer)
+					<item id="2424" min="1" max="1" chance="22.158" /> <!-- Manticore Skin Boots -->
+					<item id="124" min="1" max="1" chance="1.712" /> <!-- Two-handed Sword -->
+					<item id="2401" min="1" max="1" chance="11.823" /> <!-- Elven Mithril Stockings -->
+					<item id="186" min="1" max="1" chance="1.712" /> <!-- Staff of Magic -->
+					<item id="2411" min="1" max="1" chance="14.779" /> <!-- Brigandine Helmet -->
+					<item id="910" min="1" max="1" chance="46.106" /> <!-- Necklace of Devotion -->
+					<item id="293" min="1" max="1" chance="1.712" /> <!-- Battle Hammer -->
 				</group>
 			</drop>
 		</dropLists>
@@ -380,15 +380,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -404,16 +404,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4" max="4" chance="100" /> (Adena)
+					<item id="57" min="4" max="4" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0049">
-					<item id="295" min="1" max="1" chance="2.52" /> (Dwarven Trident)
-					<item id="275" min="1" max="1" chance="2.52" /> (Longbow)
-					<item id="182" min="1" max="1" chance="2.52" /> (Doom Hammer)
-					<item id="628" min="1" max="1" chance="30.453" /> (Hoplon)
-					<item id="2446" min="1" max="1" chance="31.951" /> (Reinforced Leather Gloves)
-					<item id="913" min="1" max="1" chance="12.985" /> (Elven Necklace)
-					<item id="415" min="1" max="1" chance="17.05" /> (Mithril Banded Gaiters)
+					<item id="295" min="1" max="1" chance="2.52" /> <!-- Dwarven Trident -->
+					<item id="275" min="1" max="1" chance="2.52" /> <!-- Longbow -->
+					<item id="182" min="1" max="1" chance="2.52" /> <!-- Doom Hammer -->
+					<item id="628" min="1" max="1" chance="30.453" /> <!-- Hoplon -->
+					<item id="2446" min="1" max="1" chance="31.951" /> <!-- Reinforced Leather Gloves -->
+					<item id="913" min="1" max="1" chance="12.985" /> <!-- Elven Necklace -->
+					<item id="415" min="1" max="1" chance="17.05" /> <!-- Mithril Banded Gaiters -->
 				</group>
 			</drop>
 		</dropLists>
@@ -440,15 +440,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false" />
@@ -479,15 +479,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -519,16 +519,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="13" /> (Fairies)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4276" level="1" /> (Bow Vulnerability)
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4276" level="1" /> <!-- Bow Vulnerability -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -543,19 +543,19 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1" max="2" chance="100" /> (Adena)
+					<item id="57" min="1" max="2" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1141">
-					<item id="32" min="1" max="1" chance="1.099" /> (Piece Bone Gaiters)
-					<item id="26" min="1" max="1" chance="0.445" /> (Bronze Breastplate)
-					<item id="50" min="1" max="1" chance="3.231" /> (Leather Gloves)
-					<item id="906" min="1" max="1" chance="20.256" /> (Necklace of Knowledge)
-					<item id="625" min="1" max="1" chance="1.696" /> (Bone Shield)
-					<item id="1148" min="1" max="1" chance="1.189" /> (Durable Leather Helmet)
-					<item id="113" min="1" max="1" chance="26.974" /> (Mage Earring)
-					<item id="875" min="1" max="1" chance="40.511" /> (Ring of Knowledge)
-					<item id="846" min="1" max="1" chance="1.367" /> (Coral Earring)
-					<item id="38" min="1" max="1" chance="3.231" /> (Low Boots)
+					<item id="32" min="1" max="1" chance="1.099" /> <!-- Piece Bone Gaiters -->
+					<item id="26" min="1" max="1" chance="0.445" /> <!-- Bronze Breastplate -->
+					<item id="50" min="1" max="1" chance="3.231" /> <!-- Leather Gloves -->
+					<item id="906" min="1" max="1" chance="20.256" /> <!-- Necklace of Knowledge -->
+					<item id="625" min="1" max="1" chance="1.696" /> <!-- Bone Shield -->
+					<item id="1148" min="1" max="1" chance="1.189" /> <!-- Durable Leather Helmet -->
+					<item id="113" min="1" max="1" chance="26.974" /> <!-- Mage Earring -->
+					<item id="875" min="1" max="1" chance="40.511" /> <!-- Ring of Knowledge -->
+					<item id="846" min="1" max="1" chance="1.367" /> <!-- Coral Earring -->
+					<item id="38" min="1" max="1" chance="3.231" /> <!-- Low Boots -->
 				</group>
 			</drop>
 		</dropLists>
@@ -582,16 +582,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="13" /> (Fairies)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4276" level="1" /> (Bow Vulnerability)
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4276" level="1" /> <!-- Bow Vulnerability -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -606,19 +606,19 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2" max="2" chance="100" /> (Adena)
+					<item id="57" min="2" max="2" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1416">
-					<item id="875" min="1" max="1" chance="40.511" /> (Ring of Knowledge)
-					<item id="846" min="1" max="1" chance="1.367" /> (Coral Earring)
-					<item id="38" min="1" max="1" chance="3.231" /> (Low Boots)
-					<item id="32" min="1" max="1" chance="1.099" /> (Piece Bone Gaiters)
-					<item id="26" min="1" max="1" chance="0.445" /> (Bronze Breastplate)
-					<item id="50" min="1" max="1" chance="3.231" /> (Leather Gloves)
-					<item id="906" min="1" max="1" chance="20.256" /> (Necklace of Knowledge)
-					<item id="625" min="1" max="1" chance="1.696" /> (Bone Shield)
-					<item id="1148" min="1" max="1" chance="1.189" /> (Durable Leather Helmet)
-					<item id="113" min="1" max="1" chance="26.974" /> (Mage Earring)
+					<item id="875" min="1" max="1" chance="40.511" /> <!-- Ring of Knowledge -->
+					<item id="846" min="1" max="1" chance="1.367" /> <!-- Coral Earring -->
+					<item id="38" min="1" max="1" chance="3.231" /> <!-- Low Boots -->
+					<item id="32" min="1" max="1" chance="1.099" /> <!-- Piece Bone Gaiters -->
+					<item id="26" min="1" max="1" chance="0.445" /> <!-- Bronze Breastplate -->
+					<item id="50" min="1" max="1" chance="3.231" /> <!-- Leather Gloves -->
+					<item id="906" min="1" max="1" chance="20.256" /> <!-- Necklace of Knowledge -->
+					<item id="625" min="1" max="1" chance="1.696" /> <!-- Bone Shield -->
+					<item id="1148" min="1" max="1" chance="1.189" /> <!-- Durable Leather Helmet -->
+					<item id="113" min="1" max="1" chance="26.974" /> <!-- Mage Earring -->
 				</group>
 			</drop>
 		</dropLists>
@@ -645,16 +645,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="13" /> (Fairies)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4276" level="1" /> (Bow Vulnerability)
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4276" level="1" /> <!-- Bow Vulnerability -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
@@ -694,15 +694,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -738,16 +738,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4276" level="1" /> (Bow Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4276" level="1" /> <!-- Bow Vulnerability -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -782,15 +782,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450" />
@@ -801,21 +801,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1" max="1" chance="100" /> (Adena)
+					<item id="57" min="1" max="1" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5238">
-					<item id="25" min="1" max="1" chance="0.068" /> (Piece Bone Breastplate)
-					<item id="2386" min="1" max="1" chance="0.433" /> (Wooden Gaiters)
-					<item id="31" min="1" max="1" chance="0.169" /> (Bone Gaiters)
-					<item id="1104" min="1" max="1" chance="0.169" /> (Stockings of Devotion)
-					<item id="908" min="1" max="1" chance="0.181" /> (Necklace of Wisdom)
-					<item id="412" min="1" max="1" chance="0.169" /> (Cotton Pants)
-					<item id="878" min="1" max="1" chance="0.201" /> (Blue Coral Ring)
-					<item id="27" min="1" max="1" chance="0.058" /> (Durable Leather Shirt)
-					<item id="118" min="1" max="1" chance="32.585" /> (Magic Necklace)
-					<item id="877" min="1" max="1" chance="0.363" /> (Ring of Wisdom)
-					<item id="30" min="1" max="1" chance="0.433" /> (Durable Leather Pants)
-					<item id="116" min="1" max="1" chance="65.17" /> (Magic Ring)
+					<item id="25" min="1" max="1" chance="0.068" /> <!-- Piece Bone Breastplate -->
+					<item id="2386" min="1" max="1" chance="0.433" /> <!-- Wooden Gaiters -->
+					<item id="31" min="1" max="1" chance="0.169" /> <!-- Bone Gaiters -->
+					<item id="1104" min="1" max="1" chance="0.169" /> <!-- Stockings of Devotion -->
+					<item id="908" min="1" max="1" chance="0.181" /> <!-- Necklace of Wisdom -->
+					<item id="412" min="1" max="1" chance="0.169" /> <!-- Cotton Pants -->
+					<item id="878" min="1" max="1" chance="0.201" /> <!-- Blue Coral Ring -->
+					<item id="27" min="1" max="1" chance="0.058" /> <!-- Durable Leather Shirt -->
+					<item id="118" min="1" max="1" chance="32.585" /> <!-- Magic Necklace -->
+					<item id="877" min="1" max="1" chance="0.363" /> <!-- Ring of Wisdom -->
+					<item id="30" min="1" max="1" chance="0.433" /> <!-- Durable Leather Pants -->
+					<item id="116" min="1" max="1" chance="65.17" /> <!-- Magic Ring -->
 				</group>
 			</drop>
 		</dropLists>
@@ -842,15 +842,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450" />
@@ -861,21 +861,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1" max="2" chance="100" /> (Adena)
+					<item id="57" min="1" max="2" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.7578">
-					<item id="48" min="1" max="1" chance="31.916" /> (Short Gloves)
-					<item id="5284" min="1" max="1" chance="0.005" /> (Zweihander)
-					<item id="155" min="1" max="1" chance="0.005" /> (Flanged Mace)
-					<item id="42" min="1" max="1" chance="1.296" /> (Leather Cap)
-					<item id="217" min="1" max="1" chance="0.009" /> (Shining Knife)
-					<item id="43" min="1" max="1" chance="0.297" /> (Wooden Helmet)
-					<item id="2501" min="1" max="1" chance="0.009" /> (Bone Club)
-					<item id="463" min="1" max="1" chance="0.777" /> (Feriotic Stockings)
-					<item id="91891" min="1" max="1" chance="0.005" /> (Warrior's Rapier)
-					<item id="19" min="1" max="1" chance="1.851" /> (Small Shield)
-					<item id="35" min="1" max="1" chance="31.916" /> (Cloth Shoes)
-					<item id="36" min="1" max="1" chance="31.916" /> (Leather Sandals)
+					<item id="48" min="1" max="1" chance="31.916" /> <!-- Short Gloves -->
+					<item id="5284" min="1" max="1" chance="0.005" /> <!-- Zweihander -->
+					<item id="155" min="1" max="1" chance="0.005" /> <!-- Flanged Mace -->
+					<item id="42" min="1" max="1" chance="1.296" /> <!-- Leather Cap -->
+					<item id="217" min="1" max="1" chance="0.009" /> <!-- Shining Knife -->
+					<item id="43" min="1" max="1" chance="0.297" /> <!-- Wooden Helmet -->
+					<item id="2501" min="1" max="1" chance="0.009" /> <!-- Bone Club -->
+					<item id="463" min="1" max="1" chance="0.777" /> <!-- Feriotic Stockings -->
+					<item id="91891" min="1" max="1" chance="0.005" /> <!-- Warrior's Rapier -->
+					<item id="19" min="1" max="1" chance="1.851" /> <!-- Small Shield -->
+					<item id="35" min="1" max="1" chance="31.916" /> <!-- Cloth Shoes -->
+					<item id="36" min="1" max="1" chance="31.916" /> <!-- Leather Sandals -->
 				</group>
 			</drop>
 		</dropLists>
@@ -888,7 +888,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="4" /> (Club)
+		<equipment rhand="4" /> <!-- Club -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="84.5708723990791" hpRegen="2" mp="69.6" mpRegen="0.9" />
@@ -903,15 +903,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -926,21 +926,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1" max="1" chance="100" /> (Adena)
+					<item id="57" min="1" max="1" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0458">
-					<item id="2371" min="1" max="1" chance="1.319" /> (Butcher's Fist)
-					<item id="309" min="1" max="1" chance="0.247" /> (Tears of Eva)
-					<item id="272" min="1" max="1" chance="0.247" /> (Forest Bow)
-					<item id="9" min="1" max="1" chance="0.622" /> (Cedar Staff)
-					<item id="2373" min="1" max="1" chance="1.319" /> (Eldritch Staff)
-					<item id="1" min="1" max="1" chance="43.801" /> (Short Sword)
-					<item id="11" min="1" max="1" chance="43.801" /> (Bone Dagger)
-					<item id="1510" min="1" max="1" chance="1.319" /> (Butcher's Sword)
-					<item id="989" min="1" max="1" chance="1.319" /> (Eldritch Dagger)
-					<item id="271" min="1" max="1" chance="0.622" /> (Hunting Bow)
-					<item id="3" min="1" max="1" chance="2.691" /> (Broadsword)
-					<item id="215" min="1" max="1" chance="2.691" /> (Doom Dagger)
+					<item id="2371" min="1" max="1" chance="1.319" /> <!-- Butcher's Fist -->
+					<item id="309" min="1" max="1" chance="0.247" /> <!-- Tears of Eva -->
+					<item id="272" min="1" max="1" chance="0.247" /> <!-- Forest Bow -->
+					<item id="9" min="1" max="1" chance="0.622" /> <!-- Cedar Staff -->
+					<item id="2373" min="1" max="1" chance="1.319" /> <!-- Eldritch Staff -->
+					<item id="1" min="1" max="1" chance="43.801" /> <!-- Short Sword -->
+					<item id="11" min="1" max="1" chance="43.801" /> <!-- Bone Dagger -->
+					<item id="1510" min="1" max="1" chance="1.319" /> <!-- Butcher's Sword -->
+					<item id="989" min="1" max="1" chance="1.319" /> <!-- Eldritch Dagger -->
+					<item id="271" min="1" max="1" chance="0.622" /> <!-- Hunting Bow -->
+					<item id="3" min="1" max="1" chance="2.691" /> <!-- Broadsword -->
+					<item id="215" min="1" max="1" chance="2.691" /> <!-- Doom Dagger -->
 				</group>
 			</drop>
 		</dropLists>
@@ -953,7 +953,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="12" /> (Knife)
+		<equipment rhand="12" /> <!-- Knife -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="210.5730168254" hpRegen="2.5" mp="124.48" mpRegen="1.2" />
@@ -968,15 +968,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -997,7 +997,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="217" /> (rhand: Shining Knife)
+		<equipment rhand="217" /> <!-- rhand: Shining Knife -->
 		<acquire exp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="84.5708723990791" hpRegen="2" mp="69.6" mpRegen="0.9" />
@@ -1012,15 +1012,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -1035,21 +1035,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1" max="1" chance="100" /> (Adena)
+					<item id="57" min="1" max="1" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.3019">
-					<item id="463" min="1" max="1" chance="0.777" /> (Feriotic Stockings)
-					<item id="91891" min="1" max="1" chance="0.005" /> (Warrior's Rapier)
-					<item id="19" min="1" max="1" chance="1.851" /> (Small Shield)
-					<item id="35" min="1" max="1" chance="31.916" /> (Cloth Shoes)
-					<item id="36" min="1" max="1" chance="31.916" /> (Leather Sandals)
-					<item id="48" min="1" max="1" chance="31.916" /> (Short Gloves)
-					<item id="5284" min="1" max="1" chance="0.005" /> (Zweihander)
-					<item id="155" min="1" max="1" chance="0.005" /> (Flanged Mace)
-					<item id="42" min="1" max="1" chance="1.296" /> (Leather Cap)
-					<item id="217" min="1" max="1" chance="0.009" /> (Shining Knife)
-					<item id="43" min="1" max="1" chance="0.297" /> (Wooden Helmet)
-					<item id="2501" min="1" max="1" chance="0.009" /> (Bone Club)
+					<item id="463" min="1" max="1" chance="0.777" /> <!-- Feriotic Stockings -->
+					<item id="91891" min="1" max="1" chance="0.005" /> <!-- Warrior's Rapier -->
+					<item id="19" min="1" max="1" chance="1.851" /> <!-- Small Shield -->
+					<item id="35" min="1" max="1" chance="31.916" /> <!-- Cloth Shoes -->
+					<item id="36" min="1" max="1" chance="31.916" /> <!-- Leather Sandals -->
+					<item id="48" min="1" max="1" chance="31.916" /> <!-- Short Gloves -->
+					<item id="5284" min="1" max="1" chance="0.005" /> <!-- Zweihander -->
+					<item id="155" min="1" max="1" chance="0.005" /> <!-- Flanged Mace -->
+					<item id="42" min="1" max="1" chance="1.296" /> <!-- Leather Cap -->
+					<item id="217" min="1" max="1" chance="0.009" /> <!-- Shining Knife -->
+					<item id="43" min="1" max="1" chance="0.297" /> <!-- Wooden Helmet -->
+					<item id="2501" min="1" max="1" chance="0.009" /> <!-- Bone Club -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1062,7 +1062,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="4" /> (Club)
+		<equipment rhand="4" /> <!-- Club -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="131.780887914649" hpRegen="2" mp="92.64" mpRegen="0.9" />
@@ -1077,15 +1077,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -1100,16 +1100,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2" max="2" chance="100" /> (Adena)
+					<item id="57" min="2" max="2" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0045">
-					<item id="351" min="1" max="1" chance="5.452" /> (Breastplate)
-					<item id="2426" min="1" max="1" chance="14.815" /> (Elven Mithril Boots)
-					<item id="317" min="1" max="1" chance="1.145" /> (Tome of Blood)
-					<item id="127" min="1" max="1" chance="1.145" /> (Crimson Sword)
-					<item id="890" min="1" max="1" chance="61.484" /> (Ring of Devotion)
-					<item id="2449" min="1" max="1" chance="14.815" /> (Brigandine Gauntlets)
-					<item id="223" min="1" max="1" chance="1.145" /> (Kukuri)
+					<item id="351" min="1" max="1" chance="5.452" /> <!-- Breastplate -->
+					<item id="2426" min="1" max="1" chance="14.815" /> <!-- Elven Mithril Boots -->
+					<item id="317" min="1" max="1" chance="1.145" /> <!-- Tome of Blood -->
+					<item id="127" min="1" max="1" chance="1.145" /> <!-- Crimson Sword -->
+					<item id="890" min="1" max="1" chance="61.484" /> <!-- Ring of Devotion -->
+					<item id="2449" min="1" max="1" chance="14.815" /> <!-- Brigandine Gauntlets -->
+					<item id="223" min="1" max="1" chance="1.145" /> <!-- Kukuri -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1122,7 +1122,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="217" /> (Shining Knife)
+		<equipment rhand="217" /> <!-- Shining Knife -->
 		<acquire exp="6" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="243.022656988362" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
@@ -1137,15 +1137,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
@@ -1166,7 +1166,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="10" /> (Dagger)
+		<equipment rhand="10" /> <!-- Dagger -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="172.242688443633" hpRegen="2" mp="108.4" mpRegen="0.9" />
@@ -1181,15 +1181,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
@@ -1210,7 +1210,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="4" /> (Club)
+		<equipment rhand="4" /> <!-- Club -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="84.5708723990791" hpRegen="2" mp="69.6" mpRegen="0.9" />
@@ -1225,15 +1225,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -1248,21 +1248,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1" max="1" chance="100" /> (Adena)
+					<item id="57" min="1" max="1" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0455">
-					<item id="5" min="1" max="1" chance="2.708" /> (Mace)
-					<item id="743" min="1" max="1" chance="1.008" /> (Sentinel's Sword)
-					<item id="8" min="1" max="1" chance="2.708" /> (Willow Staff)
-					<item id="308" min="1" max="1" chance="44.082" /> (Buffalo's Horn)
-					<item id="154" min="1" max="1" chance="0.626" /> (Dwarven Mace)
-					<item id="120" min="1" max="1" chance="0.249" /> (Sword of Reflection)
-					<item id="747" min="1" max="1" chance="1.328" /> (Wand of Adept)
-					<item id="1333" min="1" max="1" chance="0.626" /> (Training Two-handed Sword)
-					<item id="2372" min="1" max="1" chance="1.328" /> (Dagger of Adept)
-					<item id="744" min="1" max="1" chance="1.008" /> (Sentinel's Staff)
-					<item id="121" min="1" max="1" chance="0.249" /> (Sword of Watershadow)
-					<item id="4" min="1" max="1" chance="44.082" /> (Club)
+					<item id="5" min="1" max="1" chance="2.708" /> <!-- Mace -->
+					<item id="743" min="1" max="1" chance="1.008" /> <!-- Sentinel's Sword -->
+					<item id="8" min="1" max="1" chance="2.708" /> <!-- Willow Staff -->
+					<item id="308" min="1" max="1" chance="44.082" /> <!-- Buffalo's Horn -->
+					<item id="154" min="1" max="1" chance="0.626" /> <!-- Dwarven Mace -->
+					<item id="120" min="1" max="1" chance="0.249" /> <!-- Sword of Reflection -->
+					<item id="747" min="1" max="1" chance="1.328" /> <!-- Wand of Adept -->
+					<item id="1333" min="1" max="1" chance="0.626" /> <!-- Training Two-handed Sword -->
+					<item id="2372" min="1" max="1" chance="1.328" /> <!-- Dagger of Adept -->
+					<item id="744" min="1" max="1" chance="1.008" /> <!-- Sentinel's Staff -->
+					<item id="121" min="1" max="1" chance="0.249" /> <!-- Sword of Watershadow -->
+					<item id="4" min="1" max="1" chance="44.082" /> <!-- Club -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1275,7 +1275,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="4" /> (rhand: Club)
+		<equipment rhand="4" /> <!-- rhand: Club -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="131.780887914649" hpRegen="2" mp="92.64" mpRegen="0.9" />
@@ -1290,15 +1290,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -1313,16 +1313,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2" max="2" chance="100" /> (Adena)
+					<item id="57" min="2" max="2" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0026">
-					<item id="276" min="1" max="1" chance="3.016" /> (Elven Bow)
-					<item id="435" min="1" max="1" chance="19.442" /> (Wizard Tunic)
-					<item id="91880" min="1" max="1" chance="3.016" /> (Military Talwar)
-					<item id="181" min="1" max="1" chance="3.016" /> (Mace of Miracle)
-					<item id="912" min="1" max="1" chance="22.664" /> (Necklace of Old Forest)
-					<item id="2447" min="1" max="1" chance="38.233" /> (Gloves of Knowledge)
-					<item id="58" min="1" max="1" chance="10.613" /> (Mithril Breastplate)
+					<item id="276" min="1" max="1" chance="3.016" /> <!-- Elven Bow -->
+					<item id="435" min="1" max="1" chance="19.442" /> <!-- Wizard Tunic -->
+					<item id="91880" min="1" max="1" chance="3.016" /> <!-- Military Talwar -->
+					<item id="181" min="1" max="1" chance="3.016" /> <!-- Mace of Miracle -->
+					<item id="912" min="1" max="1" chance="22.664" /> <!-- Necklace of Old Forest -->
+					<item id="2447" min="1" max="1" chance="38.233" /> <!-- Gloves of Knowledge -->
+					<item id="58" min="1" max="1" chance="10.613" /> <!-- Mithril Breastplate -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1335,7 +1335,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="4" /> (Club)
+		<equipment rhand="4" /> <!-- Club -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="84.5708723990791" hpRegen="2" mp="69.6" mpRegen="0.9" />
@@ -1350,15 +1350,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -1379,7 +1379,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="12" /> (rhand: Knife)
+		<equipment rhand="12" /> <!-- rhand: Knife -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="131.780887914649" hpRegen="2" mp="92.64" mpRegen="0.9" />
@@ -1394,15 +1394,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -1417,21 +1417,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2" max="2" chance="100" /> (Adena)
+					<item id="57" min="2" max="2" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.087">
-					<item id="738" min="1" max="1" chance="1.796" /> (Sword of Solidarity)
-					<item id="255" min="1" max="1" chance="0.614" /> (Fox Claw Gloves)
-					<item id="67" min="1" max="1" chance="0.614" /> (Orcish Sword)
-					<item id="13" min="1" max="1" chance="43.258" /> (Short Bow)
-					<item id="253" min="1" max="1" chance="43.258" /> (Spiked Gloves)
-					<item id="14" min="1" max="1" chance="2.658" /> (Bow)
-					<item id="2" min="1" max="1" chance="0.244" /> (Long Sword)
-					<item id="981" min="1" max="1" chance="1.303" /> (Red Sunset Sword)
-					<item id="946" min="1" max="1" chance="0.499" /> (Skeleton Dagger)
-					<item id="254" min="1" max="1" chance="2.658" /> (Iron Gloves)
-					<item id="2374" min="1" max="1" chance="1.303" /> (Red Sunset Dagger)
-					<item id="153" min="1" max="1" chance="1.796" /> (Sickle)
+					<item id="738" min="1" max="1" chance="1.796" /> <!-- Sword of Solidarity -->
+					<item id="255" min="1" max="1" chance="0.614" /> <!-- Fox Claw Gloves -->
+					<item id="67" min="1" max="1" chance="0.614" /> <!-- Orcish Sword -->
+					<item id="13" min="1" max="1" chance="43.258" /> <!-- Short Bow -->
+					<item id="253" min="1" max="1" chance="43.258" /> <!-- Spiked Gloves -->
+					<item id="14" min="1" max="1" chance="2.658" /> <!-- Bow -->
+					<item id="2" min="1" max="1" chance="0.244" /> <!-- Long Sword -->
+					<item id="981" min="1" max="1" chance="1.303" /> <!-- Red Sunset Sword -->
+					<item id="946" min="1" max="1" chance="0.499" /> <!-- Skeleton Dagger -->
+					<item id="254" min="1" max="1" chance="2.658" /> <!-- Iron Gloves -->
+					<item id="2374" min="1" max="1" chance="1.303" /> <!-- Red Sunset Dagger -->
+					<item id="153" min="1" max="1" chance="1.796" /> <!-- Sickle -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1464,15 +1464,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -1501,16 +1501,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4276" level="1" /> (Bow Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4276" level="1" /> <!-- Bow Vulnerability -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -1547,18 +1547,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4276" level="1" /> (Bow Vulnerability)
-			<skill id="4151" level="1" /> (NPC Windstrike - Magic)
-			<skill id="4160" level="1" /> (NPC Aura Burn - Magic)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4276" level="1" /> <!-- Bow Vulnerability -->
+			<skill id="4151" level="1" /> <!-- NPC Windstrike - Magic -->
+			<skill id="4160" level="1" /> <!-- NPC Aura Burn - Magic -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -1594,20 +1594,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4444" level="2" /> (Greater Bow Resistance)
-			<skill id="4273" level="3" /> (Dagger Resistance)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
-			<skill id="4284" level="5" /> (Infection Resistance)
-			<skill id="4254" level="1" /> (NPC Prominence - Slow)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
+			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4284" level="5" /> <!-- Infection Resistance -->
+			<skill id="4254" level="1" /> <!-- NPC Prominence - Slow -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -1622,16 +1622,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3" max="4" chance="100" /> (Adena)
+					<item id="57" min="3" max="4" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0051">
-					<item id="467" min="1" max="1" chance="22.846" /> (Dark Stockings)
-					<item id="292" min="1" max="1" chance="2.217" /> (Pike)
-					<item id="880" min="1" max="1" chance="33.362" /> (Black Pearl Ring)
-					<item id="91895" min="1" max="1" chance="2.217" /> (Fleuret)
-					<item id="434" min="1" max="1" chance="14.293" /> (White Tunic)
-					<item id="466" min="1" max="1" chance="22.846" /> (Elven Stockings)
-					<item id="222" min="1" max="1" chance="2.217" /> (Poniard Dagger)
+					<item id="467" min="1" max="1" chance="22.846" /> <!-- Dark Stockings -->
+					<item id="292" min="1" max="1" chance="2.217" /> <!-- Pike -->
+					<item id="880" min="1" max="1" chance="33.362" /> <!-- Black Pearl Ring -->
+					<item id="91895" min="1" max="1" chance="2.217" /> <!-- Fleuret -->
+					<item id="434" min="1" max="1" chance="14.293" /> <!-- White Tunic -->
+					<item id="466" min="1" max="1" chance="22.846" /> <!-- Elven Stockings -->
+					<item id="222" min="1" max="1" chance="2.217" /> <!-- Poniard Dagger -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1658,15 +1658,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="13" /> (Fairies)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false" />
@@ -1697,15 +1697,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -1737,15 +1737,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="13" /> (Fairies)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -1760,16 +1760,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2" max="2" chance="100" /> (Adena)
+					<item id="57" min="2" max="2" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0036">
-					<item id="2423" min="1" max="1" chance="26.891" /> (Boots of Knowledge)
-					<item id="47" min="1" max="1" chance="17.927" /> (Helmet)
-					<item id="125" min="1" max="1" chance="2.121" /> (Spinebone Sword)
-					<item id="881" min="1" max="1" chance="21.927" /> (Elven Ring)
-					<item id="2422" min="1" max="1" chance="26.891" /> (Reinforced Leather Boots)
-					<item id="315" min="1" max="1" chance="2.121" /> (Divine Rod)
-					<item id="180" min="1" max="1" chance="2.121" /> (Mace of Judgment)
+					<item id="2423" min="1" max="1" chance="26.891" /> <!-- Boots of Knowledge -->
+					<item id="47" min="1" max="1" chance="17.927" /> <!-- Helmet -->
+					<item id="125" min="1" max="1" chance="2.121" /> <!-- Spinebone Sword -->
+					<item id="881" min="1" max="1" chance="21.927" /> <!-- Elven Ring -->
+					<item id="2422" min="1" max="1" chance="26.891" /> <!-- Reinforced Leather Boots -->
+					<item id="315" min="1" max="1" chance="2.121" /> <!-- Divine Rod -->
+					<item id="180" min="1" max="1" chance="2.121" /> <!-- Mace of Judgment -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1796,15 +1796,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false" />
@@ -1823,7 +1823,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4035" level="2" /> (Poison)
+			<skill name="DeBuff" id="4035" level="2" /> <!-- Poison -->
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -1841,16 +1841,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4035" level="2" /> (Poison)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4035" level="2" /> <!-- Poison -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -1869,7 +1869,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="946" /> (rhand: Skeleton Dagger)
+		<equipment rhand="946" /> <!-- rhand: Skeleton Dagger -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="210.5730168254" hpRegen="2.5" mp="124.48" mpRegen="1.2" />
@@ -1884,16 +1884,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="1000" clanHelpRange="300">
@@ -1912,7 +1912,7 @@
 			<param name="MoveAroundSocial" value="120" />
 			<param name="MoveAroundSocial1" value="120" />
 			<param name="MoveAroundSocial2" value="120" />
-			<skill name="DDMagicSlow" id="4247" level="1" /> (NPC Windstrike - Slow)
+			<skill name="DDMagicSlow" id="4247" level="1" /> <!-- NPC Windstrike - Slow -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -1930,17 +1930,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="18" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4071" level="5" /> (Bow Resistance)
-			<skill id="4284" level="5" /> (Infection Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="18" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4071" level="5" /> <!-- Bow Resistance -->
+			<skill id="4284" level="5" /> <!-- Infection Resistance -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -1962,7 +1962,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="5" /> (rhand: Mace)
+		<equipment rhand="5" /> <!-- rhand: Mace -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="210.5730168254" hpRegen="2.5" mp="124.48" mpRegen="1.2" />
@@ -1977,15 +1977,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300">
@@ -2000,16 +2000,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3" max="3" chance="100" /> (Adena)
+					<item id="57" min="3" max="3" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0045">
-					<item id="850" min="1" max="1" chance="16.411" /> (Elven Earring)
-					<item id="553" min="1" max="1" chance="30.174" /> (Iron Boots)
-					<item id="69" min="1" max="1" chance="2.38" /> (Bastard Sword)
-					<item id="469" min="1" max="1" chance="16.101" /> (Stockings of Knowledge)
-					<item id="185" min="1" max="1" chance="2.38" /> (Staff of Mana)
-					<item id="63" min="1" max="1" chance="30.174" /> (Gauntlets)
-					<item id="183" min="1" max="1" chance="2.38" /> (Mystic Staff)
+					<item id="850" min="1" max="1" chance="16.411" /> <!-- Elven Earring -->
+					<item id="553" min="1" max="1" chance="30.174" /> <!-- Iron Boots -->
+					<item id="69" min="1" max="1" chance="2.38" /> <!-- Bastard Sword -->
+					<item id="469" min="1" max="1" chance="16.101" /> <!-- Stockings of Knowledge -->
+					<item id="185" min="1" max="1" chance="2.38" /> <!-- Staff of Mana -->
+					<item id="63" min="1" max="1" chance="30.174" /> <!-- Gauntlets -->
+					<item id="183" min="1" max="1" chance="2.38" /> <!-- Mystic Staff -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2022,7 +2022,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="5" /> (rhand: Mace)
+		<equipment rhand="5" /> <!-- rhand: Mace -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="172.242688443633" hpRegen="2" mp="108.4" mpRegen="0.9" />
@@ -2037,15 +2037,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300">
@@ -2081,16 +2081,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4035" level="1" /> (Poison)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4035" level="1" /> <!-- Poison -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2127,20 +2127,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4444" level="2" /> (Greater Bow Resistance)
-			<skill id="4273" level="3" /> (Dagger Resistance)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
-			<skill id="4284" level="5" /> (Infection Resistance)
-			<skill id="4249" level="1" /> (Decrease Speed)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
+			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4284" level="5" /> <!-- Infection Resistance -->
+			<skill id="4249" level="1" /> <!-- Decrease Speed -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -2167,7 +2167,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="1472" /> (Dreadbane)
+		<equipment rhand="1472" /> <!-- Dreadbane -->
 		<acquire exp="81" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1764.82565992283" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
@@ -2182,16 +2182,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4001" level="5" /> (NPC Windstrike)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4001" level="5" /> <!-- NPC Windstrike -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2227,15 +2227,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -2271,16 +2271,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4276" level="1" /> (Bow Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4276" level="1" /> <!-- Bow Vulnerability -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -2315,15 +2315,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2360,16 +2360,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4047" level="2" /> (Hold)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4047" level="2" /> <!-- Hold -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2393,9 +2393,9 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic1" id="4100" level="2" /> (NPC Prominence)
-			<skill name="DDMagic2" id="4001" level="2" /> (NPC Windstrike)
-			<skill name="DeBuff" id="4104" level="2" /> (Flame)
+			<skill name="DDMagic1" id="4100" level="2" /> <!-- NPC Prominence -->
+			<skill name="DDMagic2" id="4001" level="2" /> <!-- NPC Windstrike -->
+			<skill name="DeBuff" id="4104" level="2" /> <!-- Flame -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
@@ -2413,18 +2413,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4001" level="2" /> (NPC Windstrike)
-			<skill id="4100" level="2" /> (NPC Prominence)
-			<skill id="4104" level="2" /> (Flame)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4001" level="2" /> <!-- NPC Windstrike -->
+			<skill id="4100" level="2" /> <!-- NPC Prominence -->
+			<skill id="4104" level="2" /> <!-- Flame -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2466,16 +2466,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4046" level="2" /> (Sleep)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4046" level="2" /> <!-- Sleep -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2494,7 +2494,7 @@
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
-			<skill name="DDMagic" id="4002" level="2" /> (NPC HP Drain)
+			<skill name="DDMagic" id="4002" level="2" /> <!-- NPC HP Drain -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -2512,16 +2512,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4002" level="2" /> (NPC HP Drain)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4002" level="2" /> <!-- NPC HP Drain -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2548,7 +2548,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="16" /> (Great Spear)
+		<equipment rhand="16" /> <!-- Great Spear -->
 		<acquire exp="15" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="486.247334679017" hpRegen="3.5" mp="259.2" mpRegen="1.5" />
@@ -2563,15 +2563,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2598,7 +2598,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="16" /> (Great Spear)
+		<equipment rhand="16" /> <!-- Great Spear -->
 		<acquire exp="12" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="408.258202789494" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
@@ -2613,15 +2613,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2643,7 +2643,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="11" /> (Bone Dagger)
+		<equipment rhand="11" /> <!-- Bone Dagger -->
 		<acquire exp="9" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="318.213311042722" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
@@ -2658,15 +2658,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2688,7 +2688,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> (Long Sword)
+		<equipment rhand="2" /> <!-- Long Sword -->
 		<acquire exp="9" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="339.282213839231" hpRegen="2.5" mp="183.28" mpRegen="1.2" />
@@ -2703,15 +2703,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2733,7 +2733,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="12" /> (Knife)
+		<equipment rhand="12" /> <!-- Knife -->
 		<acquire exp="6" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278.843298502084" hpRegen="2.5" mp="157.6" mpRegen="1.2" />
@@ -2748,15 +2748,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2778,7 +2778,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> (rhand: Bow)
+		<equipment rhand="14" /> <!-- rhand: Bow -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="172.242688443633" hpRegen="2" mp="108.4" mpRegen="0.9" />
@@ -2793,15 +2793,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai type="ARCHER" aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -2822,7 +2822,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> (rhand: Long Sword)
+		<equipment rhand="2" /> <!-- rhand: Long Sword -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="210.5730168254" hpRegen="2.5" mp="124.48" mpRegen="1.2" />
@@ -2837,15 +2837,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300">
@@ -2880,15 +2880,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -2903,16 +2903,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2" max="3" chance="100" /> (Adena)
+					<item id="57" min="2" max="3" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0048">
-					<item id="178" min="1" max="1" chance="2.798" /> (Bone Staff)
-					<item id="414" min="1" max="1" chance="18.31" /> (Lion Skin Gaiters)
-					<item id="627" min="1" max="1" chance="32.696" /> (Aspis)
-					<item id="848" min="1" max="1" chance="26.863" /> (Earring of Magic)
-					<item id="7885" min="1" max="1" chance="2.798" /> (Priest Sword)
-					<item id="312" min="1" max="1" chance="2.798" /> (Branch of Life)
-					<item id="377" min="1" max="1" chance="13.738" /> (Scale Gaiters)
+					<item id="178" min="1" max="1" chance="2.798" /> <!-- Bone Staff -->
+					<item id="414" min="1" max="1" chance="18.31" /> <!-- Lion Skin Gaiters -->
+					<item id="627" min="1" max="1" chance="32.696" /> <!-- Aspis -->
+					<item id="848" min="1" max="1" chance="26.863" /> <!-- Earring of Magic -->
+					<item id="7885" min="1" max="1" chance="2.798" /> <!-- Priest Sword -->
+					<item id="312" min="1" max="1" chance="2.798" /> <!-- Branch of Life -->
+					<item id="377" min="1" max="1" chance="13.738" /> <!-- Scale Gaiters -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2925,7 +2925,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="217" /> (Shining Knife)
+		<equipment rhand="217" /> <!-- Shining Knife -->
 		<acquire exp="6" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="243.022656988362" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
@@ -2940,15 +2940,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
@@ -2963,16 +2963,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3" max="4" chance="100" /> (Adena)
+					<item id="57" min="3" max="4" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0066">
-					<item id="178" min="1" max="1" chance="2.798" /> (Bone Staff)
-					<item id="414" min="1" max="1" chance="18.31" /> (Lion Skin Gaiters)
-					<item id="627" min="1" max="1" chance="32.696" /> (Aspis)
-					<item id="848" min="1" max="1" chance="26.863" /> (Earring of Magic)
-					<item id="7885" min="1" max="1" chance="2.798" /> (Priest Sword)
-					<item id="312" min="1" max="1" chance="2.798" /> (Branch of Life)
-					<item id="377" min="1" max="1" chance="13.738" /> (Scale Gaiters)
+					<item id="178" min="1" max="1" chance="2.798" /> <!-- Bone Staff -->
+					<item id="414" min="1" max="1" chance="18.31" /> <!-- Lion Skin Gaiters -->
+					<item id="627" min="1" max="1" chance="32.696" /> <!-- Aspis -->
+					<item id="848" min="1" max="1" chance="26.863" /> <!-- Earring of Magic -->
+					<item id="7885" min="1" max="1" chance="2.798" /> <!-- Priest Sword -->
+					<item id="312" min="1" max="1" chance="2.798" /> <!-- Branch of Life -->
+					<item id="377" min="1" max="1" chance="13.738" /> <!-- Scale Gaiters -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2999,16 +2999,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="5" /> (Plants)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4277" level="5" /> (Infection Resistance)
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4277" level="5" /> <!-- Infection Resistance -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -3023,16 +3023,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2" max="2" chance="100" /> (Adena)
+					<item id="57" min="2" max="2" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0035">
-					<item id="433" min="1" max="1" chance="14.108" /> (Elven Tunic)
-					<item id="468" min="1" max="1" chance="22.551" /> (Wizard Stockings)
-					<item id="46" min="1" max="1" chance="28.189" /> (Bronze Helmet)
-					<item id="7880" min="1" max="1" chance="3.446" /> (Steel Sword)
-					<item id="274" min="1" max="1" chance="3.446" /> (Reinforced Bow)
-					<item id="911" min="1" max="1" chance="24.814" /> (Necklace of Magic)
-					<item id="314" min="1" max="1" chance="3.446" /> (Proof of Revenge)
+					<item id="433" min="1" max="1" chance="14.108" /> <!-- Elven Tunic -->
+					<item id="468" min="1" max="1" chance="22.551" /> <!-- Wizard Stockings -->
+					<item id="46" min="1" max="1" chance="28.189" /> <!-- Bronze Helmet -->
+					<item id="7880" min="1" max="1" chance="3.446" /> <!-- Steel Sword -->
+					<item id="274" min="1" max="1" chance="3.446" /> <!-- Reinforced Bow -->
+					<item id="911" min="1" max="1" chance="24.814" /> <!-- Necklace of Magic -->
+					<item id="314" min="1" max="1" chance="3.446" /> <!-- Proof of Revenge -->
 				</group>
 			</drop>
 		</dropLists>
@@ -3045,7 +3045,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="68" /> (rhand: Falchion)
+		<equipment rhand="68" /> <!-- rhand: Falchion -->
 		<acquire exp="12" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="361.300316445296" hpRegen="2.5" mp="192" mpRegen="1.2" />
@@ -3060,16 +3060,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3089,7 +3089,7 @@
 			<param name="MoveAroundSocial" value="116" />
 			<param name="MoveAroundSocial1" value="116" />
 			<param name="MoveAroundSocial2" value="116" />
-			<skill name="DDMagicSlow" id="4247" level="1" /> (NPC Windstrike - Slow)
+			<skill name="DDMagicSlow" id="4247" level="1" /> <!-- NPC Windstrike - Slow -->
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -3107,19 +3107,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4444" level="2" /> (Greater Bow Resistance)
-			<skill id="4273" level="3" /> (Dagger Resistance)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
-			<skill id="4284" level="5" /> (Infection Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
+			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4284" level="5" /> <!-- Infection Resistance -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
@@ -3154,15 +3154,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3195,16 +3195,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4276" level="1" /> (Bow Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4276" level="1" /> <!-- Bow Vulnerability -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -3239,15 +3239,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
@@ -3268,7 +3268,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> (Long Sword)
+		<equipment rhand="2" /> <!-- Long Sword -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="172.242688443633" hpRegen="2" mp="108.4" mpRegen="0.9" />
@@ -3283,15 +3283,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
@@ -3312,7 +3312,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> (Long Sword)
+		<equipment rhand="2" /> <!-- Long Sword -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="195.554343533029" hpRegen="2.5" mp="116.4" mpRegen="1.2" />
@@ -3327,15 +3327,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
@@ -3359,11 +3359,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4077" level="2" /> (NPC Aura Burn)
+			<skill name="PhysicalSpecial" id="4077" level="2" /> <!-- NPC Aura Burn -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="68" /> (rhand: Falchion)
+		<equipment rhand="68" /> <!-- rhand: Falchion -->
 		<acquire exp="12" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="408.258202789494" hpRegen="3.5" mp="218.52" mpRegen="1.5" />
@@ -3378,16 +3378,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3415,7 +3415,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="946" /> (rhand: Skeleton Dagger)
+		<equipment rhand="946" /> <!-- rhand: Skeleton Dagger -->
 		<acquire exp="12" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="384.286402264366" hpRegen="3.5" mp="205.2" mpRegen="1.5" />
@@ -3430,16 +3430,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3459,7 +3459,7 @@
 			<param name="MoveAroundSocial1" value="42" />
 			<param name="MoveAroundSocial2" value="42" />
 			<minions name="Privates">
-				<npc id="20377" count="4" respawnTime="0" weightPoint="1" /> (Varika's Bandit)
+				<npc id="20377" count="4" respawnTime="0" weightPoint="1" /> <!-- Varika's Bandit -->
 			</minions>
 			<param name="ShoutMsg1" value="1000154" />
 			<param name="ShoutMsg2" value="1000155" />
@@ -3468,7 +3468,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="12" /> (rhand: Knife)
+		<equipment rhand="12" /> <!-- rhand: Knife -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="172.242688443633" hpRegen="2" mp="108.4" mpRegen="0.9" />
@@ -3483,15 +3483,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>2</sNpcPropHpRate>
@@ -3538,15 +3538,15 @@
 			<height normal="16.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 	</npc>
 	<npc id="20378" level="13" type="Monster" name="Stone Giant">
@@ -3554,7 +3554,7 @@
 			<param name="MoveAroundSocial" value="116" />
 			<param name="MoveAroundSocial1" value="116" />
 			<param name="MoveAroundSocial2" value="116" />
-			<skill name="DDMagicSlow" id="4247" level="1" /> (NPC Windstrike - Slow)
+			<skill name="DDMagicSlow" id="4247" level="1" /> <!-- NPC Windstrike - Slow -->
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -3572,20 +3572,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4444" level="2" /> (Greater Bow Resistance)
-			<skill id="4273" level="3" /> (Dagger Resistance)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
-			<skill id="4284" level="5" /> (Infection Resistance)
-			<skill id="4247" level="1" /> (NPC Windstrike - Slow)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
+			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4284" level="5" /> <!-- Infection Resistance -->
+			<skill id="4247" level="1" /> <!-- NPC Windstrike - Slow -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -3603,7 +3603,7 @@
 			<param name="MoveAroundSocial" value="116" />
 			<param name="MoveAroundSocial1" value="116" />
 			<param name="MoveAroundSocial2" value="116" />
-			<skill name="DDMagicSlow" id="4249" level="1" /> (Decrease Speed)
+			<skill name="DDMagicSlow" id="4249" level="1" /> <!-- Decrease Speed -->
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -3621,20 +3621,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4444" level="2" /> (Greater Bow Resistance)
-			<skill id="4273" level="3" /> (Dagger Resistance)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
-			<skill id="4284" level="5" /> (Infection Resistance)
-			<skill id="4249" level="1" /> (Decrease Speed)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
+			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4284" level="5" /> <!-- Infection Resistance -->
+			<skill id="4249" level="1" /> <!-- Decrease Speed -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -3649,16 +3649,16 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3" max="4" chance="100" /> (Adena)
+					<item id="57" min="3" max="4" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0081">
-					<item id="847" min="1" max="1" chance="34.552" /> (Red Crescent)
-					<item id="291" min="1" max="1" chance="2.273" /> (Trident)
-					<item id="376" min="1" max="1" chance="17.805" /> (Iron Plate Gaiters)
-					<item id="101" min="1" max="1" chance="2.273" /> (Scroll of Wisdom)
-					<item id="45" min="1" max="1" chance="29.695" /> (Bone Helmet)
-					<item id="347" min="1" max="1" chance="11.131" /> (Ring Breastplate)
-					<item id="91881" min="1" max="1" chance="2.273" /> (Talwar)
+					<item id="847" min="1" max="1" chance="34.552" /> <!-- Red Crescent -->
+					<item id="291" min="1" max="1" chance="2.273" /> <!-- Trident -->
+					<item id="376" min="1" max="1" chance="17.805" /> <!-- Iron Plate Gaiters -->
+					<item id="101" min="1" max="1" chance="2.273" /> <!-- Scroll of Wisdom -->
+					<item id="45" min="1" max="1" chance="29.695" /> <!-- Bone Helmet -->
+					<item id="347" min="1" max="1" chance="11.131" /> <!-- Ring Breastplate -->
+					<item id="91881" min="1" max="1" chance="2.273" /> <!-- Talwar -->
 				</group>
 			</drop>
 		</dropLists>
@@ -3668,7 +3668,7 @@
 			<param name="MoveAroundSocial" value="116" />
 			<param name="MoveAroundSocial1" value="116" />
 			<param name="MoveAroundSocial2" value="116" />
-			<skill name="DDMagicSlow" id="4247" level="1" /> (NPC Windstrike - Slow)
+			<skill name="DDMagicSlow" id="4247" level="1" /> <!-- NPC Windstrike - Slow -->
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -3686,20 +3686,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4444" level="2" /> (Greater Bow Resistance)
-			<skill id="4273" level="3" /> (Dagger Resistance)
-			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
-			<skill id="4284" level="5" /> (Infection Resistance)
-			<skill id="4247" level="1" /> (NPC Windstrike - Slow)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
+			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4284" level="5" /> <!-- Infection Resistance -->
+			<skill id="4247" level="1" /> <!-- NPC Windstrike - Slow -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3721,7 +3721,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="156" /> (rhand: Hand Axe)
+		<equipment rhand="156" /> <!-- rhand: Hand Axe -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="172.242688443633" hpRegen="2" mp="108.4" mpRegen="0.9" />
@@ -3736,15 +3736,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -3765,7 +3765,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> (rhand: Long Sword)
+		<equipment rhand="2" /> <!-- rhand: Long Sword -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="195.554343533029" hpRegen="2.5" mp="116.4" mpRegen="1.2" />
@@ -3780,15 +3780,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -3829,16 +3829,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4035" level="3" /> (Poison)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4035" level="3" /> <!-- Poison -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3860,7 +3860,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> (rhand: Bow)
+		<equipment rhand="14" /> <!-- rhand: Bow -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="131.780887914649" hpRegen="2" mp="92.64" mpRegen="0.9" />
@@ -3875,15 +3875,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai type="ARCHER" aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -3898,17 +3898,17 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2" max="2" chance="100" /> (Adena)
+					<item id="57" min="2" max="2" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8111">
-					<item id="51" min="1" max="1" chance="0.387" /> (Bracer)
-					<item id="33" min="1" max="1" chance="0.207" /> (Durable Leather Gaiters)
-					<item id="39" min="1" max="1" chance="0.387" /> (Boots)
-					<item id="845" min="1" max="1" chance="0.535" /> (Cat's Eye)
-					<item id="907" min="1" max="1" chance="1.016" /> (Necklace of Anguish)
-					<item id="112" min="1" max="1" chance="97.02" /> (Apprentice's Earring)
-					<item id="34" min="1" max="1" chance="0.155" /> (Bronze Gaiters)
-					<item id="1105" min="1" max="1" chance="0.207" /> (Stockings of Magic)
+					<item id="51" min="1" max="1" chance="0.387" /> <!-- Bracer -->
+					<item id="33" min="1" max="1" chance="0.207" /> <!-- Durable Leather Gaiters -->
+					<item id="39" min="1" max="1" chance="0.387" /> <!-- Boots -->
+					<item id="845" min="1" max="1" chance="0.535" /> <!-- Cat's Eye -->
+					<item id="907" min="1" max="1" chance="1.016" /> <!-- Necklace of Anguish -->
+					<item id="112" min="1" max="1" chance="97.02" /> <!-- Apprentice's Earring -->
+					<item id="34" min="1" max="1" chance="0.155" /> <!-- Bronze Gaiters -->
+					<item id="1105" min="1" max="1" chance="0.207" /> <!-- Stockings of Magic -->
 				</group>
 			</drop>
 		</dropLists>
@@ -3921,7 +3921,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> (rhand: Long Sword)
+		<equipment rhand="2" /> <!-- rhand: Long Sword -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="172.242688443633" hpRegen="2" mp="108.4" mpRegen="0.9" />
@@ -3936,15 +3936,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300">
@@ -3959,21 +3959,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3" max="3" chance="100" /> (Adena)
+					<item id="57" min="3" max="3" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.892">
-					<item id="155" min="1" max="1" chance="0.005" /> (Flanged Mace)
-					<item id="42" min="1" max="1" chance="1.296" /> (Leather Cap)
-					<item id="217" min="1" max="1" chance="0.009" /> (Shining Knife)
-					<item id="43" min="1" max="1" chance="0.297" /> (Wooden Helmet)
-					<item id="2501" min="1" max="1" chance="0.009" /> (Bone Club)
-					<item id="463" min="1" max="1" chance="0.777" /> (Feriotic Stockings)
-					<item id="91891" min="1" max="1" chance="0.005" /> (Warrior's Rapier)
-					<item id="19" min="1" max="1" chance="1.851" /> (Small Shield)
-					<item id="35" min="1" max="1" chance="31.916" /> (Cloth Shoes)
-					<item id="36" min="1" max="1" chance="31.916" /> (Leather Sandals)
-					<item id="48" min="1" max="1" chance="31.916" /> (Short Gloves)
-					<item id="5284" min="1" max="1" chance="0.005" /> (Zweihander)
+					<item id="155" min="1" max="1" chance="0.005" /> <!-- Flanged Mace -->
+					<item id="42" min="1" max="1" chance="1.296" /> <!-- Leather Cap -->
+					<item id="217" min="1" max="1" chance="0.009" /> <!-- Shining Knife -->
+					<item id="43" min="1" max="1" chance="0.297" /> <!-- Wooden Helmet -->
+					<item id="2501" min="1" max="1" chance="0.009" /> <!-- Bone Club -->
+					<item id="463" min="1" max="1" chance="0.777" /> <!-- Feriotic Stockings -->
+					<item id="91891" min="1" max="1" chance="0.005" /> <!-- Warrior's Rapier -->
+					<item id="19" min="1" max="1" chance="1.851" /> <!-- Small Shield -->
+					<item id="35" min="1" max="1" chance="31.916" /> <!-- Cloth Shoes -->
+					<item id="36" min="1" max="1" chance="31.916" /> <!-- Leather Sandals -->
+					<item id="48" min="1" max="1" chance="31.916" /> <!-- Short Gloves -->
+					<item id="5284" min="1" max="1" chance="0.005" /> <!-- Zweihander -->
 				</group>
 			</drop>
 		</dropLists>
@@ -3986,7 +3986,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> (rhand: Long Sword)
+		<equipment rhand="2" /> <!-- rhand: Long Sword -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="210.5730168254" hpRegen="2.5" mp="124.48" mpRegen="1.2" />
@@ -4001,15 +4001,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300">
@@ -4030,7 +4030,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> (rhand: Long Sword)
+		<equipment rhand="2" /> <!-- rhand: Long Sword -->
 		<acquire exp="3" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="195.554343533029" hpRegen="2.5" mp="116.4" mpRegen="1.2" />
@@ -4045,15 +4045,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -4074,7 +4074,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="12" /> (Knife)
+		<equipment rhand="12" /> <!-- Knife -->
 		<acquire exp="6" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278.843298502084" hpRegen="2.5" mp="157.6" mpRegen="1.2" />
@@ -4089,15 +4089,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -4119,7 +4119,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="12" /> (Knife)
+		<equipment rhand="12" /> <!-- Knife -->
 		<acquire exp="9" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="318.213311042722" hpRegen="2.5" mp="174.64" mpRegen="1.2" />
@@ -4134,15 +4134,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -4178,15 +4178,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false" />
@@ -4218,16 +4218,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4276" level="1" /> (Bow Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4276" level="1" /> <!-- Bow Vulnerability -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="false">
@@ -4262,15 +4262,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -4306,15 +4306,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="500" clanHelpRange="300" />
@@ -4329,13 +4329,13 @@
 			<param name="MoveAroundSocial1" value="72" />
 			<param name="MoveAroundSocial2" value="72" />
 			<minions name="Privates">
-				<npc id="20399" count="2" respawnTime="0" weightPoint="1" /> (Beast Wolfster)
+				<npc id="20399" count="2" respawnTime="0" weightPoint="1" /> <!-- Beast Wolfster -->
 			</minions>
 			<param name="ShoutMsg1" value="1000103" />
 			<param name="ShoutMsg2" value="1000104" />
 			<param name="ShoutMsg3" value="1000105" />
 			<param name="ShoutMsg4" value="1000106" />
-			<skill name="PhysicalSpecial" id="4032" level="1" /> (NPC Strike)
+			<skill name="PhysicalSpecial" id="4032" level="1" /> <!-- NPC Strike -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4353,16 +4353,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4032" level="1" /> (NPC Strike)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4032" level="1" /> <!-- NPC Strike -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>2</sNpcPropHpRate>
@@ -4398,15 +4398,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>0.5</sNpcPropHpRate>

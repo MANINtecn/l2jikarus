@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="19200" level="88" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -21,8 +21,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> (Plants)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19201" level="88" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -46,8 +46,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> (Plants)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19202" level="88" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -71,8 +71,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> (Plants)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19203" level="85" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -96,9 +96,9 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> (Plants)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19204" level="85" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -122,9 +122,9 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> (Plants)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19205" level="85" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -148,9 +148,9 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> (Plants)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19206" level="90" type="Monster" name="Birdling Swallow">
@@ -252,7 +252,7 @@
 			<height normal="120" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
+			<skill id="4416" level="4" /> <!-- Animals -->
 		</skillList>
 	</npc>
 	<npc id="19211" level="85" type="Folk" name="">
@@ -314,9 +314,9 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19214" level="85" type="Monster" name="Flame Scorpion" element="FIRE">
@@ -340,9 +340,9 @@
 			<height normal="52.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> (Insects)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="12" /> <!-- Insects -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19215" level="85" type="Monster" name="Flame Stakato" element="FIRE">
@@ -366,9 +366,9 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19216" level="85" type="Monster" name="Flame Scorpion" element="FIRE">
@@ -392,9 +392,9 @@
 			<height normal="52.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> (Insects)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="12" /> <!-- Insects -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19217" level="85" type="Monster" name="Iff" title="Egg Keeper Lv. 1" element="FIRE">
@@ -418,8 +418,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19218" level="85" type="Monster" name="Iff" title="Egg Keeper Lv. 2" element="FIRE">
@@ -443,8 +443,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19219" level="85" type="Monster" name="Ifrin" title="Egg Keeper Lv. 3" element="FIRE">
@@ -468,8 +468,8 @@
 			<height normal="28" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19220" level="85" type="Monster" name="Ifrin" title="Egg Keeper Lv. 4" element="FIRE">
@@ -493,8 +493,8 @@
 			<height normal="28" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19221" level="85" type="Monster" name="Ifrit" title="Egg Keeper Lv. 5" element="FIRE">
@@ -518,15 +518,15 @@
 			<height normal="48.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19222" level="80" type="RaidBoss" name="Giant Orc Amad" title="Special Reward Bearer">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38425" /> (Monster Only: Amden Blunt Weapon - Not Available)
+		<equipment rhand="38425" /> <!-- Monster Only: Amden Blunt Weapon - Not Available -->
 		<acquire exp="19200" sp="192" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="1066669000" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
@@ -544,15 +544,15 @@
 			<height normal="123" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="19223" level="85" type="RaidBoss" name="Raven" title="Villain">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<equipment rhand="102007" /> (Appearance - 2nd Mercenary Weapon - Type A (Raven) - Not available)
+		<equipment rhand="102007" /> <!-- Appearance - 2nd Mercenary Weapon - Type A (Raven) - Not available -->
 		<acquire exp="1300500" sp="13005" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="7397140" hpRegen="10.2" mp="3693.6" mpRegen="3.6" />
@@ -570,12 +570,12 @@
 			<height normal="53" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
+			<skill id="4416" level="4" /> <!-- Animals -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104748" min="1" max="1" chance="100" /> (Guardian Raven's Box - Sealed)
+					<item id="104748" min="1" max="1" chance="100" /> <!-- Guardian Raven's Box - Sealed -->
 				</group>
 			</drop>
 		</dropLists>
@@ -601,12 +601,12 @@
 			<height normal="62.56" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4416" level="3" /> <!-- Beasts -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104749" min="1" max="1" chance="100" /> (Beoro's Pack - Sealed)
+					<item id="104749" min="1" max="1" chance="100" /> <!-- Beoro's Pack - Sealed -->
 				</group>
 			</drop>
 		</dropLists>
@@ -632,8 +632,8 @@
 			<height normal="39.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19226" level="83" type="Monster" name="Bruto Chief">
@@ -657,14 +657,14 @@
 			<height normal="42.424" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4416" level="3" /> <!-- Beasts -->
 		</skillList>
 	</npc>
 	<npc id="19227" level="83" type="Monster" name="Bruto Shooter">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<acquire exp="3423" sp="33" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="63291.77" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
@@ -682,15 +682,15 @@
 			<height normal="36.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19228" level="83" type="Monster" name="Bruto Shaman">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38437" /> (Monster Only: Tiger Staff - Not Available)
+		<equipment rhand="38437" /> <!-- Monster Only: Tiger Staff - Not Available -->
 		<acquire exp="3423" sp="33" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="63291.77" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
@@ -708,8 +708,8 @@
 			<height normal="32.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19229" level="83" type="Monster" name="Reserve Cook Pam">
@@ -733,15 +733,15 @@
 			<height normal="32.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48587" level="3" /> (Bow/ Firearms Resistance)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48587" level="3" /> <!-- Bow/ Firearms Resistance -->
 		</skillList>
 	</npc>
 	<npc id="19230" level="85" type="RaidBoss" name="Raven" title="Villain">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<equipment rhand="102007" /> (Appearance - 2nd Mercenary Weapon - Type A (Raven) - Not available)
+		<equipment rhand="102007" /> <!-- Appearance - 2nd Mercenary Weapon - Type A (Raven) - Not available -->
 		<acquire exp="1528899" sp="15288" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="2666660" hpRegen="10.2" mp="3693.6" mpRegen="3.6" />
@@ -759,7 +759,7 @@
 			<height normal="53" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
+			<skill id="4416" level="4" /> <!-- Animals -->
 		</skillList>
 	</npc>
 	<npc id="19231" level="85" type="RaidBoss" name="Beoro" title="Emperor">
@@ -783,7 +783,7 @@
 			<height normal="62.56" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4416" level="3" /> <!-- Beasts -->
 		</skillList>
 	</npc>
 	<npc id="19232" level="85" type="Monster" name="Bruto Warrior">
@@ -807,8 +807,8 @@
 			<height normal="39.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19233" level="85" type="Monster" name="Bruto Chief">
@@ -832,14 +832,14 @@
 			<height normal="42.424" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4416" level="3" /> <!-- Beasts -->
 		</skillList>
 	</npc>
 	<npc id="19234" level="85" type="Monster" name="Bruto Shooter">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<acquire exp="2154" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3139.87342" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -857,15 +857,15 @@
 			<height normal="36.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19235" level="85" type="Monster" name="Bruto Shaman">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38437" /> (Monster Only: Tiger Staff - Not Available)
+		<equipment rhand="38437" /> <!-- Monster Only: Tiger Staff - Not Available -->
 		<acquire exp="2154" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3139.87342" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -883,8 +883,8 @@
 			<height normal="32.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19236" level="85" type="Monster" name="Reserve Cook Pam">
@@ -908,8 +908,8 @@
 			<height normal="32.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48587" level="3" /> (Bow/ Firearms Resistance)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48587" level="3" /> <!-- Bow/ Firearms Resistance -->
 		</skillList>
 	</npc>
 	<npc id="19237" level="82" type="Monster" name="Wolf" title="Luck Bringer">
@@ -935,10 +935,10 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="99995" min="1" max="1" chance="0.476" /> (Package: Guardian's Pendant Lv. 1 - Sealed)
+					<item id="99995" min="1" max="1" chance="0.476" /> <!-- Package: Guardian's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -966,10 +966,10 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="99995" min="1" max="1" chance="0.476" /> (Package: Guardian's Pendant Lv. 1 - Sealed)
+					<item id="99995" min="1" max="1" chance="0.476" /> <!-- Package: Guardian's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -997,10 +997,10 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="99995" min="1" max="1" chance="0.476" /> (Package: Guardian's Pendant Lv. 1 - Sealed)
+					<item id="99995" min="1" max="1" chance="0.476" /> <!-- Package: Guardian's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1028,10 +1028,10 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="99995" min="1" max="1" chance="0.476" /> (Package: Guardian's Pendant Lv. 1 - Sealed)
+					<item id="99995" min="1" max="1" chance="0.476" /> <!-- Package: Guardian's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1059,10 +1059,10 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="99995" min="1" max="1" chance="0.476" /> (Package: Guardian's Pendant Lv. 1 - Sealed)
+					<item id="99995" min="1" max="1" chance="0.476" /> <!-- Package: Guardian's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1090,10 +1090,10 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="99995" min="1" max="1" chance="0.476" /> (Package: Guardian's Pendant Lv. 1 - Sealed)
+					<item id="99995" min="1" max="1" chance="0.476" /> <!-- Package: Guardian's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1121,10 +1121,10 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="99995" min="1" max="1" chance="0.476" /> (Package: Guardian's Pendant Lv. 1 - Sealed)
+					<item id="99995" min="1" max="1" chance="0.476" /> <!-- Package: Guardian's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1169,9 +1169,9 @@
 			<height normal="26.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19246" level="78" type="Monster" name="Krotania" title="Rare" element="WATER">
@@ -1195,9 +1195,9 @@
 			<height normal="26.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19247" level="78" type="Monster" name="Torfeton" title="Rare" element="WIND">
@@ -1221,9 +1221,9 @@
 			<height normal="62.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19248" level="78" type="Monster" name="Escriton" title="Rare" element="EARTH">
@@ -1247,9 +1247,9 @@
 			<height normal="62.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19249" level="88" type="Monster" name="Krophy" title="Rare" element="FIRE">
@@ -1273,8 +1273,8 @@
 			<height normal="74.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19250" level="88" type="Monster" name="Krotany" title="Rare" element="WATER">
@@ -1298,8 +1298,8 @@
 			<height normal="74.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19251" level="88" type="Monster" name="Torfeto" title="Rare" element="WIND">
@@ -1323,8 +1323,8 @@
 			<height normal="80" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19252" level="88" type="Monster" name="Escrito" title="Rare" element="EARTH">
@@ -1348,8 +1348,8 @@
 			<height normal="80" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="19253" level="85" type="Monster" name="Excellent Pumpkin">
@@ -1846,7 +1846,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3957" max="4374" chance="100" /> (Adena)
+					<item id="57" min="3957" max="4374" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1871,8 +1871,8 @@
 			<height normal="41" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19278" level="85" type="Monster" name="Grand Explosion">
@@ -1895,8 +1895,8 @@
 			<height normal="29" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19279" level="91" type="Monster" name="Giant Golem" title="Supply Depot Commodore">
@@ -1919,8 +1919,8 @@
 			<height normal="175" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19280" level="85" type="Monster" name="Service Golem">
@@ -1943,8 +1943,8 @@
 			<height normal="68.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19281" level="91" type="Monster" name="Dr. Chaos" title="Iron Heart">
@@ -1967,8 +1967,8 @@
 			<height normal="106.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19282" level="85" type="Monster" name="Dr. Chaos" title="Iron Heart">
@@ -1991,8 +1991,8 @@
 			<height normal="105" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19283" level="85" type="Monster" name="Dr. Chaos" title="Iron Heart">
@@ -2015,8 +2015,8 @@
 			<height normal="106.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 	</npc>
 	<npc id="19285" level="85" type="Monster" name="Blackpuff">
@@ -2161,8 +2161,8 @@
 			<height normal="45.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="19292" level="85" type="Folk" name="Ironheart's Golden Pack" title="Supply Depot Commodore">

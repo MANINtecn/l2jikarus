@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="22400" level="83" type="Monster" name="Ancient Thrower" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="94664" /> (For monsters_Dragontroop Lancer Javeline - Not Available)
+		<equipment rhand="94664" /> <!-- For monsters_Dragontroop Lancer Javeline - Not Available -->
 		<acquire exp="186003" sp="1860" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="224771.5" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
@@ -22,15 +22,15 @@
 			<height normal="54" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="93303" min="1" max="1" chance="3.571" /> (Package: Cloak of Protection - Sealed)
+					<item id="93303" min="1" max="1" chance="3.571" /> <!-- Package: Cloak of Protection - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -56,15 +56,15 @@
 			<height normal="60" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="93303" min="1" max="1" chance="3.571" /> (Package: Cloak of Protection - Sealed)
+					<item id="93303" min="1" max="1" chance="3.571" /> <!-- Package: Cloak of Protection - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -90,15 +90,15 @@
 			<height normal="84" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="93303" min="1" max="1" chance="3.571" /> (Package: Cloak of Protection - Sealed)
+					<item id="93303" min="1" max="1" chance="3.571" /> <!-- Package: Cloak of Protection - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -124,15 +124,15 @@
 			<height normal="39.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4416" level="10" /> <!-- Dragons -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100589" min="1" max="1" chance="3.226" /> (Enchant Kit: Phantom Mask - Sealed)
+					<item id="100589" min="1" max="1" chance="3.226" /> <!-- Enchant Kit: Phantom Mask - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -141,7 +141,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<equipment rhand="94660" /> (For monsters_Dragontroop Commander Spear - Not Available)
+		<equipment rhand="94660" /> <!-- For monsters_Dragontroop Commander Spear - Not Available -->
 		<acquire exp="186003" sp="1860" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="224771.5" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
@@ -159,15 +159,15 @@
 			<height normal="46.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4416" level="10" /> <!-- Dragons -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100589" min="1" max="1" chance="3.226" /> (Enchant Kit: Phantom Mask - Sealed)
+					<item id="100589" min="1" max="1" chance="3.226" /> <!-- Enchant Kit: Phantom Mask - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -176,7 +176,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<acquire exp="186003" sp="1860" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="224771.5" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
@@ -194,15 +194,15 @@
 			<height normal="46.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4416" level="10" /> <!-- Dragons -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100589" min="1" max="1" chance="3.226" /> (Enchant Kit: Phantom Mask - Sealed)
+					<item id="100589" min="1" max="1" chance="3.226" /> <!-- Enchant Kit: Phantom Mask - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -228,15 +228,15 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4416" level="10" /> <!-- Dragons -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100589" min="1" max="1" chance="3.226" /> (Enchant Kit: Phantom Mask - Sealed)
+					<item id="100589" min="1" max="1" chance="3.226" /> <!-- Enchant Kit: Phantom Mask - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -262,15 +262,15 @@
 			<height normal="17" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
+			<skill id="4416" level="4" /> <!-- Animals -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="93296" min="1" max="1" chance="0.833" /> (Einhasad's Pendant Lv. 1 - Sealed)
+					<item id="93296" min="1" max="1" chance="0.833" /> <!-- Einhasad's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -296,15 +296,15 @@
 			<height normal="18.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
+			<skill id="4416" level="4" /> <!-- Animals -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="93296" min="1" max="1" chance="0.833" /> (Einhasad's Pendant Lv. 1 - Sealed)
+					<item id="93296" min="1" max="1" chance="0.833" /> <!-- Einhasad's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -330,15 +330,15 @@
 			<height normal="16.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
+			<skill id="4416" level="4" /> <!-- Animals -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="93296" min="1" max="1" chance="0.833" /> (Einhasad's Pendant Lv. 1 - Sealed)
+					<item id="93296" min="1" max="1" chance="0.833" /> <!-- Einhasad's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -364,15 +364,15 @@
 			<height normal="15.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
+			<skill id="4416" level="4" /> <!-- Animals -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="93296" min="1" max="1" chance="0.833" /> (Einhasad's Pendant Lv. 1 - Sealed)
+					<item id="93296" min="1" max="1" chance="0.833" /> <!-- Einhasad's Pendant Lv. 1 - Sealed -->
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
+					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -397,19 +397,19 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2521" max="2787" chance="100" /> (Adena)
+					<item id="57" min="2521" max="2787" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="11.2506">
-					<item id="101587" min="1" max="1" chance="0.02" /> (Aden's Exploration Report Page - Sealed)
-					<item id="94184" min="1" max="1" chance="0.033" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="0.02" /> (Scroll of Blessing - Armor)
-					<item id="92481" min="1" max="1" chance="99.927" /> (Cloth)
+					<item id="101587" min="1" max="1" chance="0.02" /> <!-- Aden's Exploration Report Page - Sealed -->
+					<item id="94184" min="1" max="1" chance="0.033" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="0.02" /> <!-- Scroll of Blessing - Armor -->
+					<item id="92481" min="1" max="1" chance="99.927" /> <!-- Cloth -->
 				</group>
 			</drop>
 		</dropLists>
@@ -434,19 +434,19 @@
 			<height normal="54.15" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3048" max="3373" chance="100" /> (Adena)
+					<item id="57" min="3048" max="3373" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="15.0691">
-					<item id="101587" min="1" max="1" chance="0.02" /> (Aden's Exploration Report Page - Sealed)
-					<item id="94184" min="1" max="1" chance="0.033" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="0.02" /> (Scroll of Blessing - Armor)
-					<item id="92481" min="1" max="1" chance="99.927" /> (Cloth)
+					<item id="101587" min="1" max="1" chance="0.02" /> <!-- Aden's Exploration Report Page - Sealed -->
+					<item id="94184" min="1" max="1" chance="0.033" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="0.02" /> <!-- Scroll of Blessing - Armor -->
+					<item id="92481" min="1" max="1" chance="99.927" /> <!-- Cloth -->
 				</group>
 			</drop>
 		</dropLists>
@@ -472,8 +472,8 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="22414" level="80" type="Monster" name="Dark Fighter">
@@ -497,8 +497,8 @@
 			<height normal="46" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="22415" level="80" type="Monster" name="Dark Knight">
@@ -522,8 +522,8 @@
 			<height normal="47" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="22416" level="80" type="Monster" name="Earth Scorpion" title="Swallowed by Darkness">
@@ -547,8 +547,8 @@
 			<height normal="66" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="22417" level="80" type="Monster" name="Dark Boneman">
@@ -572,8 +572,8 @@
 			<height normal="32.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="22418" level="88" type="Monster" name="Lesser Warrior">
@@ -597,8 +597,8 @@
 			<height normal="46" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22419" level="88" type="Monster" name="Lesser Hunter">
@@ -622,8 +622,8 @@
 			<height normal="36.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22420" level="90" type="Monster" name="Baron's Warrior">
@@ -647,8 +647,8 @@
 			<height normal="46" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22421" level="90" type="Monster" name="Baron's Puncher">
@@ -672,8 +672,8 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22422" level="90" type="Monster" name="Baron's Overlord">
@@ -697,8 +697,8 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22423" level="90" type="Monster" name="Evolved Lesser Giant Lord">
@@ -722,8 +722,8 @@
 			<height normal="60.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22424" level="90" type="Monster" name="Giant Guardian" title="Transcendent Guardian">
@@ -747,7 +747,7 @@
 			<height normal="87" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
+			<skill id="4416" level="11" /> <!-- Giants -->
 		</skillList>
 	</npc>
 	<npc id="22425" level="90" type="Monster" name="Transcendent Treasure Chest">
@@ -770,7 +770,7 @@
 			<height normal="19" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 		</skillList>
 	</npc>
 	<npc id="22426" level="85" type="Monster" name="Tailed Warrior" element="WIND">
@@ -794,17 +794,17 @@
 			<height normal="28.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> (Fairies)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="663" max="733" chance="100" /> (Adena)
+					<item id="57" min="663" max="733" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0025">
-					<item id="97655" min="1" max="1" chance="15.266" /> (Package: +4 ~ +12 Collector's Weapon C - Sealed)
-					<item id="97656" min="1" max="1" chance="30.531" /> (Package: +4 ~ +8 Collector's Armor C - Sealed)
+					<item id="97655" min="1" max="1" chance="15.266" /> <!-- Package: +4 ~ +12 Collector's Weapon C - Sealed -->
+					<item id="97656" min="1" max="1" chance="30.531" /> <!-- Package: +4 ~ +8 Collector's Armor C - Sealed -->
 				</group>
 			</drop>
 		</dropLists>
@@ -830,13 +830,13 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="663" max="733" chance="100" /> (Adena)
+					<item id="57" min="663" max="733" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -862,13 +862,13 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="663" max="733" chance="100" /> (Adena)
+					<item id="57" min="663" max="733" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -894,16 +894,16 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> (Fairies)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="663" max="733" chance="100" /> (Adena)
+					<item id="57" min="663" max="733" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0147">
-					<item id="91767" min="1" max="1" chance="23.128" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="91767" min="1" max="1" chance="23.128" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				</group>
 			</drop>
 		</dropLists>
@@ -929,7 +929,7 @@
 			<height normal="43.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> (Plants)
+			<skill id="4416" level="5" /> <!-- Plants -->
 		</skillList>
 	</npc>
 	<npc id="22431" level="85" type="Monster" name="Morgos' Hot Springs Hunter" title="Hot Springs Searcher" element="FIRE">
@@ -953,17 +953,17 @@
 			<height normal="38.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="761" max="841" chance="100" /> (Adena)
+					<item id="57" min="761" max="841" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="8.5577">
-					<item id="92481" min="1" max="1" chance="99.98" /> (Cloth)
-					<item id="101587" min="1" max="1" chance="0.02" /> (Aden's Exploration Report Page - Sealed)
+					<item id="92481" min="1" max="1" chance="99.98" /> <!-- Cloth -->
+					<item id="101587" min="1" max="1" chance="0.02" /> <!-- Aden's Exploration Report Page - Sealed -->
 				</group>
 			</drop>
 		</dropLists>
@@ -972,7 +972,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="95007" /> (Dagger of Mana - Sealed)
+		<equipment rhand="95007" /> <!-- Dagger of Mana - Sealed -->
 		<acquire exp="1569" sp="15" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -990,8 +990,8 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22433" level="87" type="Monster" name="Gorde Grendel" element="EARTH">
@@ -1015,13 +1015,13 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1043" max="1153" chance="100" /> (Adena)
+					<item id="57" min="1043" max="1153" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1047,13 +1047,13 @@
 			<height normal="34" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1043" max="1153" chance="100" /> (Adena)
+					<item id="57" min="1043" max="1153" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1079,13 +1079,13 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1043" max="1153" chance="100" /> (Adena)
+					<item id="57" min="1043" max="1153" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1111,19 +1111,19 @@
 			<height normal="31" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1043" max="1153" chance="100" /> (Adena)
+					<item id="57" min="1043" max="1153" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0138">
-					<item id="91767" min="1" max="1" chance="17.42" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="91767" min="1" max="1" chance="17.42" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				</group>
 				<group chance="0.0071">
-					<item id="96623" min="1" max="1" chance="100" /> (Dye Booster)
+					<item id="96623" min="1" max="1" chance="100" /> <!-- Dye Booster -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1149,20 +1149,20 @@
 			<height normal="56.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1348" max="1489" chance="100" /> (Adena)
+					<item id="57" min="1348" max="1489" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0266">
-					<item id="91767" min="1" max="1" chance="18.727" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="91767" min="1" max="1" chance="18.727" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				</group>
 				<group chance="9.124">
-					<item id="92476" min="1" max="1" chance="99.98" /> (Metal Ingot)
-					<item id="97338" min="1" max="1" chance="0.02" /> (Scroll of Blessing - Armor)
+					<item id="92476" min="1" max="1" chance="99.98" /> <!-- Metal Ingot -->
+					<item id="97338" min="1" max="1" chance="0.02" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1187,7 +1187,7 @@
 			<height normal="41.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
+			<skill id="4416" level="4" /> <!-- Animals -->
 		</skillList>
 	</npc>
 	<npc id="22439" level="87" type="Monster" name="Gorde Warrior" element="EARTH">
@@ -1211,13 +1211,13 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1373" max="1517" chance="100" /> (Adena)
+					<item id="57" min="1373" max="1517" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1243,13 +1243,13 @@
 			<height normal="28" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1373" max="1517" chance="100" /> (Adena)
+					<item id="57" min="1373" max="1517" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1275,13 +1275,13 @@
 			<height normal="35.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1373" max="1517" chance="100" /> (Adena)
+					<item id="57" min="1373" max="1517" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1307,19 +1307,19 @@
 			<height normal="40.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1373" max="1517" chance="100" /> (Adena)
+					<item id="57" min="1373" max="1517" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0182">
-					<item id="91767" min="1" max="1" chance="17.42" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="91767" min="1" max="1" chance="17.42" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				</group>
 				<group chance="0.0093">
-					<item id="96623" min="1" max="1" chance="100" /> (Dye Booster)
+					<item id="96623" min="1" max="1" chance="100" /> <!-- Dye Booster -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1345,20 +1345,20 @@
 			<height normal="68" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1373" max="1517" chance="100" /> (Adena)
+					<item id="57" min="1373" max="1517" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0271">
-					<item id="91767" min="1" max="1" chance="18.727" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="91767" min="1" max="1" chance="18.727" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				</group>
 				<group chance="9.2916">
-					<item id="92476" min="1" max="1" chance="99.98" /> (Metal Ingot)
-					<item id="97338" min="1" max="1" chance="0.02" /> (Scroll of Blessing - Armor)
+					<item id="92476" min="1" max="1" chance="99.98" /> <!-- Metal Ingot -->
+					<item id="97338" min="1" max="1" chance="0.02" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1383,7 +1383,7 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4416" level="3" /> <!-- Beasts -->
 		</skillList>
 	</npc>
 	<npc id="22445" level="87" type="Monster" name="Morgos' Canyon Hunter" title="Canyon Seeker" element="FIRE">
@@ -1407,16 +1407,16 @@
 			<height normal="44.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1365" max="1508" chance="100" /> (Adena)
+					<item id="57" min="1365" max="1508" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0092">
-					<item id="101587" min="1" max="1" chance="100" /> (Aden's Exploration Report Page - Sealed)
+					<item id="101587" min="1" max="1" chance="100" /> <!-- Aden's Exploration Report Page - Sealed -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1442,8 +1442,8 @@
 			<height normal="33.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22447" level="90" type="Monster" name="Morgos' Footman" element="FIRE">
@@ -1467,13 +1467,13 @@
 			<height normal="29.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1925" max="2125" chance="100" /> (Adena)
+					<item id="57" min="1925" max="2125" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1499,13 +1499,13 @@
 			<height normal="34.375" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1925" max="2125" chance="100" /> (Adena)
+					<item id="57" min="1925" max="2125" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1514,7 +1514,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38426" /> (Monster Only: Amden Bow - Not Available)
+		<equipment rhand="38426" /> <!-- Monster Only: Amden Bow - Not Available -->
 		<acquire exp="7317" sp="72" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="196563.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1532,13 +1532,13 @@
 			<height normal="29.45" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2057" max="2270" chance="100" /> (Adena)
+					<item id="57" min="2057" max="2270" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1564,17 +1564,17 @@
 			<height normal="31.65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2115" max="2334" chance="100" /> (Adena)
+					<item id="57" min="2115" max="2334" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0253">
-					<item id="94184" min="1" max="1" chance="62.5" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="37.5" /> (Scroll of Blessing - Armor)
+					<item id="94184" min="1" max="1" chance="62.5" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="37.5" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1583,7 +1583,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38425" /> (Monster Only: Amden Blunt Weapon - Not Available)
+		<equipment rhand="38425" /> <!-- Monster Only: Amden Blunt Weapon - Not Available -->
 		<acquire exp="12345" sp="123" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="275188" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1601,13 +1601,13 @@
 			<height normal="40.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2823" max="3115" chance="100" /> (Adena)
+					<item id="57" min="2823" max="3115" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1633,22 +1633,22 @@
 			<height normal="43.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100250" min="1" max="1" chance="0.12" /> (Package: Armor Diagram)
+					<item id="100250" min="1" max="1" chance="0.12" /> <!-- Package: Armor Diagram -->
 				</group>
 				<group chance="70">
-					<item id="57" min="3819" max="4215" chance="100" /> (Adena)
+					<item id="57" min="3819" max="4215" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0463">
-					<item id="101587" min="1" max="1" chance="7.407" /> (Aden's Exploration Report Page - Sealed)
-					<item id="94188" min="1" max="1" chance="37.037" /> (Augmenting Stone: Armor)
-					<item id="94423" min="1" max="1" chance="37.037" /> (Augmenting Stone: Accessory)
-					<item id="94186" min="1" max="1" chance="18.519" /> (Augmenting Stone: Weapon)
+					<item id="101587" min="1" max="1" chance="7.407" /> <!-- Aden's Exploration Report Page - Sealed -->
+					<item id="94188" min="1" max="1" chance="37.037" /> <!-- Augmenting Stone: Armor -->
+					<item id="94423" min="1" max="1" chance="37.037" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="18.519" /> <!-- Augmenting Stone: Weapon -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1657,7 +1657,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="93000" /> (Test - Awoken Weapon: One-handed Sword - Test)
+		<equipment rhand="93000" /> <!-- Test - Awoken Weapon: One-handed Sword - Test -->
 		<acquire exp="10539" sp="105" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="235875.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1675,13 +1675,13 @@
 			<height normal="35.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2188" max="2414" chance="100" /> (Adena)
+					<item id="57" min="2188" max="2414" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1690,7 +1690,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="95007" /> (Dagger of Mana - Sealed)
+		<equipment rhand="95007" /> <!-- Dagger of Mana - Sealed -->
 		<acquire exp="10539" sp="105" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="235875.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1708,13 +1708,13 @@
 			<height normal="33.01" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2188" max="2414" chance="100" /> (Adena)
+					<item id="57" min="2188" max="2414" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1723,7 +1723,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15304" /> (Transparent Crossbow (NPC) - Not Available)
+		<equipment rhand="15304" /> <!-- Transparent Crossbow (NPC) - Not Available -->
 		<acquire exp="10539" sp="105" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="235875.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1741,13 +1741,13 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2380" max="2627" chance="100" /> (Adena)
+					<item id="57" min="2380" max="2627" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1756,7 +1756,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="8688" /> (Daimon Crystal)
+		<equipment rhand="8688" /> <!-- Daimon Crystal -->
 		<acquire exp="10539" sp="105" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="235875.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1774,13 +1774,13 @@
 			<height normal="33.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2241" max="2473" chance="100" /> (Adena)
+					<item id="57" min="2241" max="2473" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1806,21 +1806,21 @@
 			<height normal="38.76" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100250" min="1" max="1" chance="0.25" /> (Package: Armor Diagram)
+					<item id="100250" min="1" max="1" chance="0.25" /> <!-- Package: Armor Diagram -->
 				</group>
 				<group chance="70">
-					<item id="57" min="5432" max="5996" chance="100" /> (Adena)
+					<item id="57" min="5432" max="5996" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2032">
-					<item id="94423" min="1" max="1" chance="40" /> (Augmenting Stone: Accessory)
-					<item id="94186" min="1" max="1" chance="20" /> (Augmenting Stone: Weapon)
-					<item id="94188" min="1" max="1" chance="40" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="40" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="20" /> <!-- Augmenting Stone: Weapon -->
+					<item id="94188" min="1" max="1" chance="40" /> <!-- Augmenting Stone: Armor -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1846,22 +1846,22 @@
 			<height normal="42.24" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100250" min="1" max="1" chance="0.8" /> (Package: Armor Diagram)
+					<item id="100250" min="1" max="1" chance="0.8" /> <!-- Package: Armor Diagram -->
 				</group>
 				<group chance="70">
-					<item id="57" min="7815" max="8626" chance="100" /> (Adena)
+					<item id="57" min="7815" max="8626" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0947">
-					<item id="94186" min="1" max="1" chance="18.519" /> (Augmenting Stone: Weapon)
-					<item id="101587" min="1" max="1" chance="7.407" /> (Aden's Exploration Report Page - Sealed)
-					<item id="94188" min="1" max="1" chance="37.037" /> (Augmenting Stone: Armor)
-					<item id="94423" min="1" max="1" chance="37.037" /> (Augmenting Stone: Accessory)
+					<item id="94186" min="1" max="1" chance="18.519" /> <!-- Augmenting Stone: Weapon -->
+					<item id="101587" min="1" max="1" chance="7.407" /> <!-- Aden's Exploration Report Page - Sealed -->
+					<item id="94188" min="1" max="1" chance="37.037" /> <!-- Augmenting Stone: Armor -->
+					<item id="94423" min="1" max="1" chance="37.037" /> <!-- Augmenting Stone: Accessory -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1887,13 +1887,13 @@
 			<height normal="28.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="953" max="1052" chance="100" /> (Adena)
+					<item id="57" min="953" max="1052" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1902,7 +1902,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38445" /> (Monster Only: One-handed Blunt Weapon - Not Available)
+		<equipment rhand="38445" /> <!-- Monster Only: One-handed Blunt Weapon - Not Available -->
 		<acquire exp="4818" sp="48" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="117938" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1920,13 +1920,13 @@
 			<height normal="32.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="966" max="1066" chance="100" /> (Adena)
+					<item id="57" min="966" max="1066" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1952,19 +1952,19 @@
 			<height normal="33.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100250" min="1" max="1" chance="0.01" /> (Package: Armor Diagram)
+					<item id="100250" min="1" max="1" chance="0.01" /> <!-- Package: Armor Diagram -->
 				</group>
 				<group chance="70">
-					<item id="57" min="994" max="1097" chance="100" /> (Adena)
+					<item id="57" min="994" max="1097" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0036">
-					<item id="101587" min="1" max="1" chance="100" /> (Aden's Exploration Report Page - Sealed)
+					<item id="101587" min="1" max="1" chance="100" /> <!-- Aden's Exploration Report Page - Sealed -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1973,7 +1973,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38445" /> (Monster Only: One-handed Blunt Weapon - Not Available)
+		<equipment rhand="38445" /> <!-- Monster Only: One-handed Blunt Weapon - Not Available -->
 		<acquire exp="4407" sp="42" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="78625.32" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1991,13 +1991,13 @@
 			<height normal="26.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="966" max="1066" chance="100" /> (Adena)
+					<item id="57" min="966" max="1066" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2006,7 +2006,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38425" /> (Monster Only: Amden Blunt Weapon - Not Available)
+		<equipment rhand="38425" /> <!-- Monster Only: Amden Blunt Weapon - Not Available -->
 		<acquire exp="7317" sp="72" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="196563.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2024,17 +2024,17 @@
 			<height normal="36.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="966" max="1066" chance="100" /> (Adena)
+					<item id="57" min="966" max="1066" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0116">
-					<item id="97338" min="1" max="1" chance="37.5" /> (Scroll of Blessing - Armor)
-					<item id="94184" min="1" max="1" chance="62.5" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="37.5" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="62.5" /> <!-- Scroll of Blessing - Weapon -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2043,7 +2043,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38445" /> (Monster Only: One-handed Blunt Weapon - Not Available)
+		<equipment rhand="38445" /> <!-- Monster Only: One-handed Blunt Weapon - Not Available -->
 		<acquire exp="4407" sp="42" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="78625.32" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2061,13 +2061,13 @@
 			<height normal="32.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="966" max="1066" chance="100" /> (Adena)
+					<item id="57" min="966" max="1066" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2093,13 +2093,13 @@
 			<height normal="18.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="966" max="1066" chance="100" /> (Adena)
+					<item id="57" min="966" max="1066" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2125,13 +2125,13 @@
 			<height normal="36.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2890" max="3190" chance="100" /> (Adena)
+					<item id="57" min="2890" max="3190" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2157,13 +2157,13 @@
 			<height normal="36.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3473" max="3834" chance="100" /> (Adena)
+					<item id="57" min="3473" max="3834" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2189,13 +2189,13 @@
 			<height normal="44.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4110" max="4536" chance="100" /> (Adena)
+					<item id="57" min="4110" max="4536" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2221,13 +2221,13 @@
 			<height normal="44.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4850" max="5353" chance="100" /> (Adena)
+					<item id="57" min="4850" max="5353" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2253,13 +2253,13 @@
 			<height normal="33.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="5653" max="6239" chance="100" /> (Adena)
+					<item id="57" min="5653" max="6239" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2285,13 +2285,13 @@
 			<height normal="33.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="6493" max="7167" chance="100" /> (Adena)
+					<item id="57" min="6493" max="7167" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2317,13 +2317,13 @@
 			<height normal="39.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7064" max="7796" chance="100" /> (Adena)
+					<item id="57" min="7064" max="7796" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2332,7 +2332,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="95007" /> (Dagger of Mana - Sealed)
+		<equipment rhand="95007" /> <!-- Dagger of Mana - Sealed -->
 		<acquire exp="81321" sp="813" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="471751.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2350,13 +2350,13 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7888" max="8707" chance="100" /> (Adena)
+					<item id="57" min="7888" max="8707" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2365,7 +2365,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="160" /> (Battle Axe)
+		<equipment rhand="160" /> <!-- Battle Axe -->
 		<acquire exp="26325" sp="261" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="471751.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2383,17 +2383,17 @@
 			<height normal="31" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1458" max="1608" chance="100" /> (Adena)
+					<item id="57" min="1458" max="1608" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0063">
-					<item id="94184" min="1" max="1" chance="62.5" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="37.5" /> (Scroll of Blessing - Armor)
+					<item id="94184" min="1" max="1" chance="62.5" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="37.5" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2402,7 +2402,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="75" /> (Caliburs)
+		<equipment rhand="75" /> <!-- Caliburs -->
 		<acquire exp="13164" sp="129" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="117938" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2420,16 +2420,16 @@
 			<height normal="31.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100250" min="1" max="1" chance="0.0002" /> (Package: Armor Diagram)
+					<item id="100250" min="1" max="1" chance="0.0002" /> <!-- Package: Armor Diagram -->
 				</group>
 				<group chance="70">
-					<item id="57" min="1458" max="1608" chance="100" /> (Adena)
+					<item id="57" min="1458" max="1608" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2438,7 +2438,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="6917" /> (Monster Only (Poisonous Dart) - Sealed)
+		<equipment rhand="6917" /> <!-- Monster Only (Poisonous Dart) - Sealed -->
 		<acquire exp="13164" sp="129" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="117938" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2456,18 +2456,18 @@
 			<height normal="37.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1514" max="1670" chance="100" /> (Adena)
+					<item id="57" min="1514" max="1670" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.006">
-					<item id="97338" min="1" max="1" chance="27.273" /> (Scroll of Blessing - Armor)
-					<item id="101587" min="1" max="1" chance="27.273" /> (Aden's Exploration Report Page - Sealed)
-					<item id="94184" min="1" max="1" chance="45.455" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="27.273" /> <!-- Scroll of Blessing - Armor -->
+					<item id="101587" min="1" max="1" chance="27.273" /> <!-- Aden's Exploration Report Page - Sealed -->
+					<item id="94184" min="1" max="1" chance="45.455" /> <!-- Scroll of Blessing - Weapon -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2476,7 +2476,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="9" /> (Cedar Staff)
+		<equipment rhand="9" /> <!-- Cedar Staff -->
 		<acquire exp="13164" sp="129" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="117938" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2494,13 +2494,13 @@
 			<height normal="32" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1590" max="1754" chance="100" /> (Adena)
+					<item id="57" min="1590" max="1754" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2509,7 +2509,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="158" /> (Tarbar)
+		<equipment rhand="158" /> <!-- Tarbar -->
 		<acquire exp="7134" sp="69" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="117938" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2527,13 +2527,13 @@
 			<height normal="29" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1458" max="1608" chance="100" /> (Adena)
+					<item id="57" min="1458" max="1608" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2542,7 +2542,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97158" lhand="97159" /> (Monster's Weapon: One-handed Blunt Weapon of Silenos Infantryman - Not Available / Monster's Weapon: Silenos Infantryman's Shield - Not Available)
+		<equipment rhand="97158" lhand="97159" /> <!-- Monster's Weapon: One-handed Blunt Weapon of Silenos Infantryman - Not Available / Monster's Weapon: Silenos Infantryman's Shield - Not Available -->
 		<acquire exp="35001" sp="348" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="406886.7" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2560,13 +2560,13 @@
 			<height normal="41" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1481" max="1635" chance="100" /> (Adena)
+					<item id="57" min="1481" max="1635" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2575,7 +2575,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97156" /> (Monster's Weapon: Silenos Recruit's One-handed Axe - Not Available)
+		<equipment rhand="97156" /> <!-- Monster's Weapon: Silenos Recruit's One-handed Axe - Not Available -->
 		<acquire exp="19020" sp="189" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="135629.1" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2593,13 +2593,13 @@
 			<height normal="38" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1481" max="1635" chance="100" /> (Adena)
+					<item id="57" min="1481" max="1635" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2608,7 +2608,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="6917" /> (Monster Only (Poisonous Dart) - Sealed)
+		<equipment rhand="6917" /> <!-- Monster Only (Poisonous Dart) - Sealed -->
 		<acquire exp="19020" sp="189" attributeExp="1287" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="135629.1" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2626,16 +2626,16 @@
 			<height normal="37.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100250" min="1" max="1" chance="0.0002" /> (Package: Armor Diagram)
+					<item id="100250" min="1" max="1" chance="0.0002" /> <!-- Package: Armor Diagram -->
 				</group>
 				<group chance="70">
-					<item id="57" min="1599" max="1765" chance="100" /> (Adena)
+					<item id="57" min="1599" max="1765" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2644,7 +2644,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97160" /> (Monster's Weapon: Silenos Pikeman's Two-handed Spear - Not Available)
+		<equipment rhand="97160" /> <!-- Monster's Weapon: Silenos Pikeman's Two-handed Spear - Not Available -->
 		<acquire exp="35001" sp="348" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="406886.7" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2662,13 +2662,13 @@
 			<height normal="38" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1481" max="1635" chance="100" /> (Adena)
+					<item id="57" min="1481" max="1635" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2677,7 +2677,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97157" /> (Monster's Weapon: Silenos Mage's Staff - Not Available)
+		<equipment rhand="97157" /> <!-- Monster's Weapon: Silenos Mage's Staff - Not Available -->
 		<acquire exp="19020" sp="189" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="135629.1" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2695,13 +2695,13 @@
 			<height normal="46" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1502" max="1658" chance="100" /> (Adena)
+					<item id="57" min="1502" max="1658" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2710,7 +2710,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97162" /> (Monster's Weapon: Silenos Shaman's Staff - Not Available)
+		<equipment rhand="97162" /> <!-- Monster's Weapon: Silenos Shaman's Staff - Not Available -->
 		<acquire exp="28437" sp="282" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="271257.6" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2728,16 +2728,16 @@
 			<height normal="39.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1481" max="1635" chance="100" /> (Adena)
+					<item id="57" min="1481" max="1635" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0053">
-					<item id="101587" min="1" max="1" chance="100" /> (Aden's Exploration Report Page - Sealed)
+					<item id="101587" min="1" max="1" chance="100" /> <!-- Aden's Exploration Report Page - Sealed -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2746,7 +2746,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97156" /> (Monster's Weapon: Silenos Recruit's One-handed Axe - Not Available)
+		<equipment rhand="97156" /> <!-- Monster's Weapon: Silenos Recruit's One-handed Axe - Not Available -->
 		<acquire exp="19020" sp="189" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="135629.1" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2764,17 +2764,17 @@
 			<height normal="38" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1481" max="1635" chance="100" /> (Adena)
+					<item id="57" min="1481" max="1635" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0177">
-					<item id="94184" min="1" max="1" chance="62.5" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="37.5" /> (Scroll of Blessing - Armor)
+					<item id="94184" min="1" max="1" chance="62.5" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="37.5" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2799,24 +2799,24 @@
 			<height normal="50" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="163892" max="180891" chance="100" /> (Adena)
+					<item id="57" min="163892" max="180891" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7194">
-					<item id="94184" min="1" max="1" chance="45.455" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="27.273" /> (Scroll of Blessing - Armor)
-					<item id="101587" min="1" max="1" chance="27.273" /> (Aden's Exploration Report Page - Sealed)
+					<item id="94184" min="1" max="1" chance="45.455" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="27.273" /> <!-- Scroll of Blessing - Armor -->
+					<item id="101587" min="1" max="1" chance="27.273" /> <!-- Aden's Exploration Report Page - Sealed -->
 				</group>
 			</drop>
 			<fortune>
-				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
-				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
-				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
+				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
+				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
 			</fortune>
 		</dropLists>
 	</npc>
@@ -2824,7 +2824,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38445" /> (Monster Only: One-handed Blunt Weapon - Not Available)
+		<equipment rhand="38445" /> <!-- Monster Only: One-handed Blunt Weapon - Not Available -->
 		<acquire exp="1818" sp="15" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="78625.32" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2842,13 +2842,13 @@
 			<height normal="32.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="905" max="999" chance="100" /> (Adena)
+					<item id="57" min="905" max="999" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2873,15 +2873,15 @@
 			<height normal="33.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22489" level="90" type="Monster" name="Varka" title="Jakal's Chief Assassin" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2500" /> (Dark Legion's Edge)
+		<equipment rhand="2500" /> <!-- Dark Legion's Edge -->
 		<acquire exp="73431" sp="732" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="772569" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2899,17 +2899,17 @@
 			<height normal="42.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="5681" max="6271" chance="100" /> (Adena)
+					<item id="57" min="5681" max="6271" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0272">
-					<item id="94184" min="1" max="1" chance="62.5" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="37.5" /> (Scroll of Blessing - Armor)
+					<item id="94184" min="1" max="1" chance="62.5" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="37.5" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2935,8 +2935,8 @@
 			<height normal="45" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22491" level="87" type="Monster" name="Flame Stakato" element="FIRE">
@@ -2960,8 +2960,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22492" level="87" type="Monster" name="Flame Scorpion" element="FIRE">
@@ -2985,8 +2985,8 @@
 			<height normal="52.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22493" level="87" type="Monster" name="Flame Scarab" element="FIRE">
@@ -3010,8 +3010,8 @@
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22494" level="87" type="Monster" name="Flame Salamander" element="FIRE">
@@ -3035,8 +3035,8 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22495" level="87" type="Monster" name="Black Bone Scout" element="EARTH">
@@ -3044,7 +3044,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="18846" sp="186" attributeExp="1740" />
-		<equipment rhand="97293" /> (For monsters_Antharas' Lair_Devil Spearshooter - Not Available)
+		<equipment rhand="97293" /> <!-- For monsters_Antharas' Lair_Devil Spearshooter - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="56610.13" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3061,16 +3061,16 @@
 			<height normal="46" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
+					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
 				</group>
 				<group chance="70">
-					<item id="57" min="2147" max="2378" chance="100" /> (Adena)
+					<item id="57" min="2147" max="2378" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -3096,16 +3096,16 @@
 			<height normal="55.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
+					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
 				</group>
 				<group chance="70">
-					<item id="57" min="2542" max="2816" chance="100" /> (Adena)
+					<item id="57" min="2542" max="2816" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -3131,16 +3131,16 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
+					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
 				</group>
 				<group chance="70">
-					<item id="57" min="2147" max="2378" chance="100" /> (Adena)
+					<item id="57" min="2147" max="2378" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -3166,16 +3166,16 @@
 			<height normal="62" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
+					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
 				</group>
 				<group chance="70">
-					<item id="57" min="2542" max="2816" chance="100" /> (Adena)
+					<item id="57" min="2542" max="2816" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -3201,27 +3201,27 @@
 			<height normal="49.176" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
+					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
 				</group>
 				<group chance="70">
-					<item id="57" min="3800" max="4196" chance="100" /> (Adena)
+					<item id="57" min="3800" max="4196" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.055">
-					<item id="91767" min="1" max="1" chance="22.859" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="91767" min="1" max="1" chance="22.859" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
 				</group>
 				<group chance="0.0215">
-					<item id="94423" min="1" max="1" chance="32.061" /> (Augmenting Stone: Accessory)
-					<item id="94186" min="1" max="1" chance="16.031" /> (Augmenting Stone: Weapon)
-					<item id="93255" min="1" max="1" chance="4.58" /> (Blessed Scroll: Enchant Weapon)
-					<item id="94188" min="1" max="1" chance="32.061" /> (Augmenting Stone: Armor)
-					<item id="93256" min="1" max="1" chance="4.58" /> (Blessed Scroll: Enchant Armor)
-					<item id="94184" min="1" max="1" chance="10.687" /> (Scroll of Blessing - Weapon)
+					<item id="94423" min="1" max="1" chance="32.061" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="16.031" /> <!-- Augmenting Stone: Weapon -->
+					<item id="93255" min="1" max="1" chance="4.58" /> <!-- Blessed Scroll: Enchant Weapon -->
+					<item id="94188" min="1" max="1" chance="32.061" /> <!-- Augmenting Stone: Armor -->
+					<item id="93256" min="1" max="1" chance="4.58" /> <!-- Blessed Scroll: Enchant Armor -->
+					<item id="94184" min="1" max="1" chance="10.687" /> <!-- Scroll of Blessing - Weapon -->
 				</group>
 			</drop>
 		</dropLists>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="23900" level="76" type="Monster" name="Laikel of Terror" title="Leader of Creation">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -18,15 +18,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<ai aggroRange="300" isAggressive="true" />
 		<collision>
@@ -52,15 +52,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="31.5" />
@@ -85,15 +85,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="25" />
@@ -118,15 +118,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="18" />
@@ -151,15 +151,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="15" />
@@ -184,15 +184,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="34" />
@@ -217,15 +217,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="40" />
@@ -250,15 +250,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="35" />
@@ -283,15 +283,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -316,15 +316,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -350,15 +350,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="9.6" />
@@ -383,15 +383,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="16.8" />
@@ -416,15 +416,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="21" />
@@ -450,15 +450,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -484,15 +484,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -518,15 +518,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -552,15 +552,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -585,15 +585,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -618,15 +618,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -651,15 +651,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="28" />
@@ -684,15 +684,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="44" />
@@ -717,15 +717,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="24" />
@@ -750,15 +750,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="55" />
@@ -783,15 +783,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -816,15 +816,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="15" />
@@ -849,15 +849,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="36" />
@@ -882,15 +882,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="32" />
@@ -915,15 +915,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="50" />
@@ -948,15 +948,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="27.5" />
@@ -981,15 +981,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="32.5" />
@@ -1014,15 +1014,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1047,15 +1047,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -1080,15 +1080,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -1113,15 +1113,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -1146,15 +1146,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -1179,15 +1179,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -1213,15 +1213,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -1247,15 +1247,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1281,15 +1281,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="15" />
@@ -1314,15 +1314,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -1347,15 +1347,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1380,15 +1380,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="18" />
@@ -1413,15 +1413,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -1447,15 +1447,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -1480,15 +1480,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -1513,15 +1513,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -1547,15 +1547,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -1581,15 +1581,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1615,15 +1615,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -1648,15 +1648,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="34" />
@@ -1681,15 +1681,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1714,15 +1714,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="16" />
@@ -1747,15 +1747,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -1781,15 +1781,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -1814,15 +1814,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -1847,15 +1847,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -1880,15 +1880,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -1913,15 +1913,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="29" />
@@ -1946,15 +1946,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8.1" />
@@ -1979,15 +1979,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -2012,15 +2012,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -2046,15 +2046,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="13.5" />
@@ -2079,15 +2079,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="15" />
@@ -2112,15 +2112,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -2145,15 +2145,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -2178,15 +2178,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -2211,15 +2211,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -2244,15 +2244,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -2277,15 +2277,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -2310,15 +2310,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="18" /> (Dwarves)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -2343,15 +2343,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -2376,15 +2376,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -2409,15 +2409,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="29" />
@@ -2442,15 +2442,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8.1" />
@@ -2475,15 +2475,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -2508,15 +2508,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -2542,15 +2542,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="13.5" />
@@ -2575,15 +2575,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="15" />
@@ -2608,15 +2608,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -2641,15 +2641,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -2674,15 +2674,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -2707,15 +2707,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -2740,15 +2740,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -2773,15 +2773,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -2806,15 +2806,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="18" /> (Dwarves)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="18" /> <!-- Dwarves -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -2839,15 +2839,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -2873,15 +2873,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="9.5" />
@@ -2907,15 +2907,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -2940,15 +2940,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="45" />
@@ -2973,15 +2973,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="26" />
@@ -3006,15 +3006,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="26" />
@@ -3039,15 +3039,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="13" /> (Fairies)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -3072,15 +3072,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="18.5" />
@@ -3105,15 +3105,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="12.5" />
@@ -3138,15 +3138,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="16" />
@@ -3171,15 +3171,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="16" />
@@ -3204,15 +3204,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="17" />
@@ -3237,15 +3237,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -3270,15 +3270,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="26" />
@@ -3304,15 +3304,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="13" />

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="14900" level="75" type="Pet" name="Magnus">
 		<parameters>
@@ -21,18 +21,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5138" level="1" /> (Whiplash)
-			<skill id="5139" level="1" /> (Tidal Wave)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5138" level="1" /> <!-- Whiplash -->
+			<skill id="5139" level="1" /> <!-- Tidal Wave -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -64,19 +64,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -108,19 +108,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -152,19 +152,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -196,20 +196,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="1895" level="1" /> (Spectral Potential)
-			<skill id="5142" level="2" /> (Corpse Burst)
-			<skill id="5140" level="2" /> (Dark Curse)
-			<skill id="5141" level="2" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="1895" level="1" /> <!-- Spectral Potential -->
+			<skill id="5142" level="2" /> <!-- Corpse Burst -->
+			<skill id="5140" level="2" /> <!-- Dark Curse -->
+			<skill id="5141" level="2" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -241,20 +241,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="1895" level="1" /> (Spectral Potential)
-			<skill id="5142" level="3" /> (Corpse Burst)
-			<skill id="5140" level="3" /> (Dark Curse)
-			<skill id="5141" level="3" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="1895" level="1" /> <!-- Spectral Potential -->
+			<skill id="5142" level="3" /> <!-- Corpse Burst -->
+			<skill id="5140" level="3" /> <!-- Dark Curse -->
+			<skill id="5141" level="3" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -286,20 +286,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="1895" level="1" /> (Spectral Potential)
-			<skill id="5142" level="4" /> (Corpse Burst)
-			<skill id="5140" level="4" /> (Dark Curse)
-			<skill id="5141" level="4" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="1895" level="1" /> <!-- Spectral Potential -->
+			<skill id="5142" level="4" /> <!-- Corpse Burst -->
+			<skill id="5140" level="4" /> <!-- Dark Curse -->
+			<skill id="5141" level="4" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -331,20 +331,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="1895" level="1" /> (Spectral Potential)
-			<skill id="5142" level="5" /> (Corpse Burst)
-			<skill id="5140" level="5" /> (Dark Curse)
-			<skill id="5141" level="5" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="1895" level="1" /> <!-- Spectral Potential -->
+			<skill id="5142" level="5" /> <!-- Corpse Burst -->
+			<skill id="5140" level="5" /> <!-- Dark Curse -->
+			<skill id="5141" level="5" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -376,20 +376,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="1895" level="1" /> (Spectral Potential)
-			<skill id="5142" level="6" /> (Corpse Burst)
-			<skill id="5140" level="6" /> (Dark Curse)
-			<skill id="5141" level="6" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="1895" level="1" /> <!-- Spectral Potential -->
+			<skill id="5142" level="6" /> <!-- Corpse Burst -->
+			<skill id="5140" level="6" /> <!-- Dark Curse -->
+			<skill id="5141" level="6" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -421,19 +421,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -465,19 +465,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -509,19 +509,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -553,19 +553,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -597,19 +597,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -641,19 +641,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -685,19 +685,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
-			<skill id="5142" level="1" /> (Corpse Burst)
-			<skill id="5140" level="1" /> (Dark Curse)
-			<skill id="5141" level="1" /> (Dicing Death)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
+			<skill id="5142" level="1" /> <!-- Corpse Burst -->
+			<skill id="5140" level="1" /> <!-- Dark Curse -->
+			<skill id="5141" level="1" /> <!-- Dicing Death -->
 		</skillList>
 		<shots soul="2" spirit="2" />
 		<exCrtEffect>false</exCrtEffect>
@@ -729,16 +729,16 @@
 			<height normal="9.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
 		</skillList>
 	</npc>
 	<npc id="14917" level="75" type="Folk" name="Expert Ricky">
@@ -762,16 +762,16 @@
 			<height normal="9.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="4" /> (HP High)
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4121" level="9" /> (Summoned Monster Magic Protection)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="4" /> <!-- HP High -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4121" level="9" /> <!-- Summoned Monster Magic Protection -->
 		</skillList>
 	</npc>
 	<npc id="14918" level="85" type="Pet" name="Cat Emperor">
@@ -801,10 +801,10 @@
 			<height normal="15.9" />
 		</collision>
 		<skillList>
-			<skill id="47902" level="1" /> (Emperor's Blessing)
-			<skill id="47903" level="1" /> (Outcry)
-			<skill id="4025" level="12" /> (Master Recharge)
-			<skill id="47923" level="1" /> (Cat Emperor Lv1 (Basic Effect))
+			<skill id="47902" level="1" /> <!-- Emperor's Blessing -->
+			<skill id="47903" level="1" /> <!-- Outcry -->
+			<skill id="4025" level="12" /> <!-- Master Recharge -->
+			<skill id="47923" level="1" /> <!-- Cat Emperor Lv1 (Basic Effect) -->
 		</skillList>
 	</npc>
 	<npc id="14919" level="85" type="Pet" name="Unicorn Guardian">
@@ -834,10 +834,10 @@
 			<height normal="23" />
 		</collision>
 		<skillList>
-			<skill id="47905" level="1" /> (Guard's Blessing)
-			<skill id="47906" level="1" /> (Trample)
-			<skill id="4025" level="12" /> (Master Recharge)
-			<skill id="47924" level="1" /> (Unicorn Guard Lv1 (Basic Effect))
+			<skill id="47905" level="1" /> <!-- Guard's Blessing -->
+			<skill id="47906" level="1" /> <!-- Trample -->
+			<skill id="4025" level="12" /> <!-- Master Recharge -->
+			<skill id="47924" level="1" /> <!-- Unicorn Guard Lv1 (Basic Effect) -->
 		</skillList>
 	</npc>
 	<npc id="14920" level="85" type="Pet" name="Lord Raise">
@@ -867,10 +867,10 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="47908" level="1" /> (Lord's Blessing)
-			<skill id="47909" level="1" /> (Specter's Dance)
-			<skill id="4025" level="12" /> (Master Recharge)
-			<skill id="47925" level="1" /> (Lord Raise Lv1 (Basic Effect))
+			<skill id="47908" level="1" /> <!-- Lord's Blessing -->
+			<skill id="47909" level="1" /> <!-- Specter's Dance -->
+			<skill id="4025" level="12" /> <!-- Master Recharge -->
+			<skill id="47925" level="1" /> <!-- Lord Raise Lv1 (Basic Effect) -->
 		</skillList>
 	</npc>
 	<npc id="14921" level="85" type="Folk" name="Feline Queen">
@@ -896,7 +896,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="98326" /> (Arcana Reaper - Not Available)
+		<equipment rhand="98326" /> <!-- Arcana Reaper - Not Available -->
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="4600" hpRegen="10.5" mp="1778" mpRegen="3.6" />
 			<speed>
@@ -916,7 +916,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="98327" /> (Elemental Reaper - Not Available)
+		<equipment rhand="98327" /> <!-- Elemental Reaper - Not Available -->
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="3800" hpRegen="10.5" mp="1778" mpRegen="3.6" />
 			<speed>
@@ -936,7 +936,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="98328" /> (Spectral Reaper - Not Available)
+		<equipment rhand="98328" /> <!-- Spectral Reaper - Not Available -->
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="4300" hpRegen="10.5" mp="1778" mpRegen="3.6" />
 			<speed>
@@ -956,7 +956,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="98329" /> (Envoy Weapon - Not Available)
+		<equipment rhand="98329" /> <!-- Envoy Weapon - Not Available -->
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="4300" hpRegen="10.5" mp="1778" mpRegen="3.6" />
 			<speed>

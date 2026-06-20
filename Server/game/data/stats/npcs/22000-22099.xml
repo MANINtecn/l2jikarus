@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="22000" level="80" type="Monster" name="Corrupted Ghost" element="WIND">
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<acquire exp="5517" sp="54" attributeExp="792" />
-		<equipment rhand="3939" /> (Monster Only (Bensh) - Not Available)
+		<equipment rhand="3939" /> <!-- Monster Only (Bensh) - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -18,19 +18,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="17" /> (Very Strong P. Atk.)
-			<skill id="4411" level="17" /> (Very Strong M. Atk.)
-			<skill id="4412" level="17" /> (Very Strong P. Def.)
-			<skill id="4413" level="17" /> (Very Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<ai aggroRange="400" />
 		<collision>
@@ -42,7 +42,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire exp="5457" sp="54" attributeExp="880" />
-		<equipment rhand="210" /> (Staff of Evil Spirits)
+		<equipment rhand="210" /> <!-- Staff of Evil Spirits -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -56,19 +56,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="17" /> (Very Strong P. Atk.)
-			<skill id="4411" level="17" /> (Very Strong M. Atk.)
-			<skill id="4412" level="17" /> (Very Strong P. Def.)
-			<skill id="4413" level="17" /> (Very Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -79,7 +79,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="4293" sp="42" attributeExp="968" />
-		<equipment rhand="78" /> (Great Sword)
+		<equipment rhand="78" /> <!-- Great Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="8890.506" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -98,19 +98,19 @@
 			</clanList>
 		</ai>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="17" /> (Very Strong P. Atk.)
-			<skill id="4411" level="17" /> (Very Strong M. Atk.)
-			<skill id="4412" level="17" /> (Very Strong P. Def.)
-			<skill id="4413" level="17" /> (Very Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -121,7 +121,7 @@
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
 		<acquire exp="5283" sp="51" attributeExp="1056" />
-		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1844.02134215877" magical="1259.22752534588" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -135,19 +135,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="15" /> (Strong M. Atk.)
-			<skill id="4412" level="17" /> (Very Strong P. Def.)
-			<skill id="4413" level="17" /> (Very Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="7" />
@@ -171,19 +171,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="17" /> (Very Strong P. Atk.)
-			<skill id="4411" level="17" /> (Very Strong M. Atk.)
-			<skill id="4412" level="17" /> (Very Strong P. Def.)
-			<skill id="4413" level="17" /> (Very Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -194,7 +194,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="6615" sp="66" attributeExp="802" />
-		<equipment rhand="84" /> (Homunkulus' Sword)
+		<equipment rhand="84" /> <!-- Homunkulus' Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13504.43" hpRegen="8.5" mp="2272.704" mpRegen="3" />
 			<attack physical="1923.41310080512" magical="1313.44181218444" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -208,19 +208,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -231,7 +231,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="7152" sp="69" attributeExp="891" />
-		<equipment rhand="84" /> (Homunkulus' Sword)
+		<equipment rhand="84" /> <!-- Homunkulus' Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="11676.58" hpRegen="17" mp="2563.2" mpRegen="6" />
 			<attack physical="10629.38625" magical="5443.869375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -245,19 +245,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -268,7 +268,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="6438" sp="63" attributeExp="980" />
-		<equipment rhand="142" /> (Keshanberk)
+		<equipment rhand="142" /> <!-- Keshanberk -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13504.43" hpRegen="8.5" mp="2272.704" mpRegen="3" />
 			<attack physical="1923.41310080512" magical="1313.44181218444" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -282,19 +282,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="16.8" />
@@ -318,19 +318,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -341,7 +341,7 @@
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<acquire exp="7602" sp="75" attributeExp="1158" />
-		<equipment rhand="3939" /> (Monster Only (Bensh) - Not Available)
+		<equipment rhand="3939" /> <!-- Monster Only (Bensh) - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="18005.7" hpRegen="8.5" mp="2272.704" mpRegen="3" />
 			<attack physical="1923.41310080512" magical="1313.44181218444" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -355,19 +355,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -378,7 +378,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="7998" sp="78" attributeExp="822" />
-		<equipment rhand="242" /> (Soulfire Dirk)
+		<equipment rhand="242" /> <!-- Soulfire Dirk -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="11950" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="11543.949375" magical="5912.2678125" random="5" critical="8" accuracy="10" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -392,19 +392,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -415,7 +415,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="7911" sp="78" attributeExp="913" />
-		<equipment rhand="202" /> (Mace of Underworld)
+		<equipment rhand="202" /> <!-- Mace of Underworld -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="11950" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="11543.949375" magical="5912.2678125" random="20" critical="1" accuracy="10" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -429,19 +429,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -452,7 +452,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="7785" sp="75" attributeExp="1004" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="11950" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="11543.949375" magical="5912.2678125" random="5" critical="8" accuracy="10" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -466,19 +466,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -489,7 +489,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="7659" sp="75" attributeExp="1096" />
-		<equipment rhand="242" /> (Soulfire Dirk)
+		<equipment rhand="242" /> <!-- Soulfire Dirk -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="11950" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="11543.949375" magical="5912.2678125" random="5" critical="8" accuracy="10" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -503,19 +503,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -526,7 +526,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="11952" sp="117" attributeExp="1187" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="23900.63" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="11543.949375" magical="5912.2678125" random="5" critical="8" accuracy="10" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -540,19 +540,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="4116" level="3" /> (Magic Damage Resistance)
-			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="4116" level="3" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -563,7 +563,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="11298" sp="111" attributeExp="842" />
-		<equipment rhand="242" /> (Soulfire Dirk)
+		<equipment rhand="242" /> <!-- Soulfire Dirk -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="10" critical="4" accuracy="14" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -577,19 +577,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="4116" level="4" /> (Magic Damage Resistance)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -600,7 +600,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="11298" sp="111" attributeExp="935" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="10" critical="4" accuracy="14" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -614,19 +614,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="4116" level="4" /> (Magic Damage Resistance)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -637,7 +637,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="11298" sp="111" attributeExp="1029" />
-		<equipment rhand="284" /> (Dark Elven Longbow)
+		<equipment rhand="284" /> <!-- Dark Elven Longbow -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="5" critical="8" accuracy="14" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -651,19 +651,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="4116" level="4" /> (Magic Damage Resistance)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -674,7 +674,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="11298" sp="111" attributeExp="1122" />
-		<equipment rhand="79" /> (Damascus Sword)
+		<equipment rhand="79" /> <!-- Damascus Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="10" critical="4" accuracy="14" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -688,19 +688,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="4116" level="4" /> (Magic Damage Resistance)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -711,7 +711,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="17940" sp="177" attributeExp="1216" />
-		<equipment rhand="79" /> (Damascus Sword)
+		<equipment rhand="79" /> <!-- Damascus Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="24393.04" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="10" critical="4" accuracy="14" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -725,19 +725,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="4116" level="4" /> (Magic Damage Resistance)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -748,7 +748,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="13743" sp="135" attributeExp="1029" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="21574.68" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="22469.69025" magical="11507.9146875" random="10" critical="4" accuracy="14" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -762,21 +762,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="4116" level="5" /> (Magic Damage Resistance)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="4116" level="5" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13.5" />
@@ -787,7 +787,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="13743" sp="135" attributeExp="1122" />
-		<equipment rhand="6718" /> (Monster Only (Einhasad Shaman))
+		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="21574.68" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="22469.69025" magical="11507.9146875" random="20" critical="1" accuracy="14" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -801,21 +801,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="4116" level="5" /> (Magic Damage Resistance)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="4116" level="5" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -826,7 +826,7 @@
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
 		<acquire exp="13743" sp="135" attributeExp="1122" />
-		<equipment rhand="6717" /> (Monster Only (Einhasad Warrior))
+		<equipment rhand="6717" /> <!-- Monster Only (Einhasad Warrior) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="21574.68" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="22469.69025" magical="11507.9146875" random="20" critical="1" accuracy="14" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -840,21 +840,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="4116" level="5" /> (Magic Damage Resistance)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="4116" level="5" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -865,7 +865,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="21819" sp="216" attributeExp="1216" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="43148.73" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="22469.69025" magical="11507.9146875" random="20" critical="1" accuracy="14" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -879,21 +879,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="4116" level="5" /> (Magic Damage Resistance)
-			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="4116" level="5" /> <!-- Magic Damage Resistance -->
+			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -904,7 +904,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="16056" sp="159" attributeExp="1216" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="28694.3" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="22469.69025" magical="11507.9146875" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -918,20 +918,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="3" /> (Bow Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="3" /> <!-- Bow Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13.5" />
@@ -942,7 +942,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="16056" sp="159" attributeExp="1216" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="28694.3" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="22469.69025" magical="11507.9146875" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -956,20 +956,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="3" /> (Bow Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="3" /> <!-- Bow Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13.5" />
@@ -980,7 +980,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="16056" sp="159" attributeExp="1216" />
-		<equipment rhand="91986" /> (Monster Only (Grail Apostle Spear))
+		<equipment rhand="91986" /> <!-- Monster Only (Grail Apostle Spear) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="28694.3" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="22469.69025" magical="11507.9146875" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -994,20 +994,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="3" /> (Bow Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="3" /> <!-- Bow Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1018,7 +1018,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="25479" sp="252" attributeExp="1216" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="57387.98" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="22469.69025" magical="11507.9146875" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1032,20 +1032,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="3" /> (Bow Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="3" /> <!-- Bow Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1056,7 +1056,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="18807" sp="186" attributeExp="1244" />
-		<equipment rhand="6718" /> (Monster Only (Einhasad Shaman))
+		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="51697.47" hpRegen="17" mp="11502" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1070,20 +1070,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="16" /> (Very Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -1094,7 +1094,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="18807" sp="186" attributeExp="1244" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="51697.47" hpRegen="17" mp="11502" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1108,20 +1108,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="16" /> (Very Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13.5" />
@@ -1132,7 +1132,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="18807" sp="186" attributeExp="1244" />
-		<equipment rhand="91986" /> (Monster Only (Grail Apostle Spear))
+		<equipment rhand="91986" /> <!-- Monster Only (Grail Apostle Spear) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="51697.47" hpRegen="17" mp="11502" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1146,20 +1146,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="16" /> (Very Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1170,7 +1170,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="31356" sp="312" attributeExp="1244" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="103394.9" hpRegen="17" mp="11502" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1184,20 +1184,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="16" /> (Very Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1208,7 +1208,7 @@
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
 		<acquire exp="23508" sp="234" attributeExp="1740" />
-		<equipment rhand="6717" /> (Monster Only (Einhasad Warrior))
+		<equipment rhand="6717" /> <!-- Monster Only (Einhasad Warrior) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="129243.7" hpRegen="17" mp="11502" mpRegen="6" />
 			<attack physical="38821.5" magical="19882.55" random="10" critical="4" accuracy="15" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1222,20 +1222,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="17" /> (Very Strong P. Def.)
-			<skill id="4413" level="17" /> (Very Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -1246,7 +1246,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="23508" sp="234" attributeExp="1740" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="129243.7" hpRegen="17" mp="11502" mpRegen="6" />
 			<attack physical="38821.5" magical="19882.55" random="10" critical="4" accuracy="15" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1260,20 +1260,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="17" /> (Very Strong P. Def.)
-			<skill id="4413" level="17" /> (Very Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1284,7 +1284,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="30600" sp="303" attributeExp="1740" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="155092.4" hpRegen="17" mp="11502" mpRegen="6" />
 			<attack physical="38821.5" magical="19882.55" random="10" critical="4" accuracy="15" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1298,20 +1298,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="17" /> (Very Strong P. Def.)
-			<skill id="4413" level="17" /> (Very Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1322,7 +1322,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="26823" sp="267" attributeExp="2070" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="275188" hpRegen="17" mp="11928" mpRegen="6" />
 			<attack physical="58232.25" magical="29823.825" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1336,20 +1336,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1360,7 +1360,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="31038" sp="309" attributeExp="2070" />
-		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="275188" hpRegen="17" mp="11928" mpRegen="6" />
 			<attack physical="58232.25" magical="29823.825" random="5" critical="8" accuracy="10" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -1374,20 +1374,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1398,7 +1398,7 @@
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
 		<acquire exp="38136" sp="381" attributeExp="2070" />
-		<equipment rhand="6717" /> (Monster Only (Einhasad Warrior))
+		<equipment rhand="6717" /> <!-- Monster Only (Einhasad Warrior) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="353813.3" hpRegen="17" mp="11928" mpRegen="6" />
 			<attack physical="58232.25" magical="29823.825" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1412,20 +1412,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -1436,7 +1436,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="34212" sp="339" attributeExp="2070" />
-		<equipment rhand="6718" /> (Monster Only (Einhasad Shaman))
+		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="353813.3" hpRegen="17" mp="11928" mpRegen="6" />
 			<attack physical="58232.25" magical="29823.825" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1450,20 +1450,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -1474,7 +1474,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="34212" sp="339" attributeExp="2070" />
-		<equipment rhand="91986" /> (Monster Only (Grail Apostle Spear))
+		<equipment rhand="91986" /> <!-- Monster Only (Grail Apostle Spear) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="353813.3" hpRegen="17" mp="11928" mpRegen="6" />
 			<attack physical="58232.25" magical="29823.825" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1488,20 +1488,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1512,7 +1512,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="43128" sp="429" attributeExp="2070" />
-		<equipment rhand="6718" /> (Monster Only (Einhasad Shaman))
+		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="471751.3" hpRegen="17" mp="11928" mpRegen="6" />
 			<attack physical="58232.25" magical="29823.825" random="20" critical="1" accuracy="19" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1526,20 +1526,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="5599" level="10" /> (Shock Resistance)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
-			<skill id="4116" level="7" /> (Magic Damage Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="5599" level="10" /> <!-- Shock Resistance -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4116" level="7" /> <!-- Magic Damage Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -1550,7 +1550,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="564" sp="3" attributeExp="1144" />
-		<equipment rhand="84" /> (Homunkulus' Sword)
+		<equipment rhand="84" /> <!-- Homunkulus' Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="24537.34" hpRegen="8.5" mp="3073.92792" mpRegen="3" />
 			<attack physical="3116.39606824831" magical="2128.09451783454" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1564,19 +1564,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4086" level="1" /> (Critical Chance)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="4286" level="1" /> (Greater Sleep Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="4286" level="1" /> <!-- Greater Sleep Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="16.8" />
@@ -1587,7 +1587,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire exp="594" sp="3" attributeExp="1173" />
-		<equipment rhand="210" /> (Staff of Evil Spirits)
+		<equipment rhand="210" /> <!-- Staff of Evil Spirits -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="40793.04" hpRegen="17" mp="2512.2" mpRegen="6" />
 			<attack physical="18343.15875" magical="9394.504875" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1601,20 +1601,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4085" level="1" /> (Critical Damage)
-			<skill id="4086" level="1" /> (Critical Chance)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="4286" level="1" /> (Greater Sleep Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="4286" level="1" /> <!-- Greater Sleep Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="16.8" />
@@ -1625,7 +1625,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="13245" sp="132" attributeExp="1740" />
-		<equipment rhand="76" /> (Sword of Delusion)
+		<equipment rhand="76" /> <!-- Sword of Delusion -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="155092.4" hpRegen="17" mp="11502" mpRegen="6" />
 			<attack physical="38821.5" magical="19882.55" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1639,19 +1639,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
-			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4085" level="1" /> (Critical Damage)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="4286" level="1" /> (Greater Sleep Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="4286" level="1" /> <!-- Greater Sleep Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="15" />
@@ -1675,16 +1675,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -1708,16 +1708,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -1741,16 +1741,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1761,7 +1761,7 @@
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<acquire exp="636" sp="6" attributeExp="1216" />
-		<equipment rhand="3939" /> (Monster Only (Bensh) - Not Available)
+		<equipment rhand="3939" /> <!-- Monster Only (Bensh) - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1775,16 +1775,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="3" /> (Light Armor)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -1795,7 +1795,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="636" sp="6" attributeExp="1216" />
-		<equipment rhand="242" /> (Soulfire Dirk)
+		<equipment rhand="242" /> <!-- Soulfire Dirk -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -1809,16 +1809,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1829,7 +1829,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="636" sp="6" attributeExp="1216" />
-		<equipment rhand="79" /> (Damascus Sword)
+		<equipment rhand="79" /> <!-- Damascus Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1843,16 +1843,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1863,7 +1863,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="636" sp="6" attributeExp="1216" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1877,16 +1877,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1897,7 +1897,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="636" sp="6" attributeExp="1216" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1911,16 +1911,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1931,7 +1931,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="636" sp="6" attributeExp="1216" />
-		<equipment rhand="91986" /> (Monster Only (Grail Apostle Spear))
+		<equipment rhand="91986" /> <!-- Monster Only (Grail Apostle Spear) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -1945,16 +1945,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1965,7 +1965,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="636" sp="6" attributeExp="1216" />
-		<equipment rhand="148" /> (Sword of Valhalla)
+		<equipment rhand="148" /> <!-- Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1979,16 +1979,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -1999,7 +1999,7 @@
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
 		<acquire exp="636" sp="6" attributeExp="1216" />
-		<equipment rhand="6717" /> (Monster Only (Einhasad Warrior))
+		<equipment rhand="6717" /> <!-- Monster Only (Einhasad Warrior) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -2013,16 +2013,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="8" />
@@ -2033,7 +2033,7 @@
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="636" sp="6" attributeExp="1216" />
-		<equipment rhand="6718" /> (Monster Only (Einhasad Shaman))
+		<equipment rhand="6718" /> <!-- Monster Only (Einhasad Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.2" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="12483.16125" magical="6393.2859375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -2047,16 +2047,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -2080,18 +2080,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="5620" level="8" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="5620" level="8" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="22" />
@@ -2100,7 +2100,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="152" max="167" chance="100" /> (Adena)
+					<item id="57" min="152" max="167" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2122,18 +2122,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="5620" level="8" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="5620" level="8" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="32" />
@@ -2142,7 +2142,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="152" max="167" chance="100" /> (Adena)
+					<item id="57" min="152" max="167" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2164,18 +2164,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="5620" level="8" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="5620" level="8" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="15" />
@@ -2184,7 +2184,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="152" max="167" chance="100" /> (Adena)
+					<item id="57" min="152" max="167" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2206,18 +2206,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4071" level="2" /> (Bow Resistance)
-			<skill id="5620" level="8" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
+			<skill id="5620" level="8" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="36" />
@@ -2226,7 +2226,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="393" max="434" chance="100" /> (Adena)
+					<item id="57" min="393" max="434" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2248,16 +2248,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -2281,16 +2281,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -2314,16 +2314,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -2347,16 +2347,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="15" />
@@ -2386,16 +2386,16 @@
 			<height normal="65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22065" level="85" type="Monster" name="Drake" element="EARTH">
@@ -2420,16 +2420,16 @@
 			<height normal="100" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="15" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22066" level="85" type="Monster" name="Blood Queen" element="EARTH">
@@ -2449,16 +2449,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="14" />
@@ -2488,18 +2488,18 @@
 			<height normal="31" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22068" level="82" type="Monster" name="Convict" element="EARTH">
@@ -2524,18 +2524,18 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22069" level="83" type="Monster" name="Cave Servant" element="EARTH">
@@ -2561,18 +2561,18 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22070" level="83" type="Monster" name="Cave Servant Archer" element="EARTH">
@@ -2598,18 +2598,18 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22071" level="84" type="Monster" name="Cave Servant Warrior" element="EARTH">
@@ -2635,18 +2635,18 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22072" level="84" type="Monster" name="Cave Servant Captain" element="EARTH">
@@ -2672,18 +2672,18 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22073" level="85" type="Monster" name="Royal Cave Servant" element="EARTH">
@@ -2709,18 +2709,18 @@
 			<height normal="28.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22074" level="82" type="Monster" name="Gargoyle Hunter" element="EARTH">
@@ -2745,16 +2745,16 @@
 			<height normal="65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22075" level="82" type="Monster" name="Dustwind Gargoyle" element="EARTH">
@@ -2779,16 +2779,16 @@
 			<height normal="65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22076" level="83" type="Monster" name="Thunder Wyrm" element="EARTH">
@@ -2813,16 +2813,16 @@
 			<height normal="72" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22077" level="83" type="Monster" name="Maluk Succubus" element="EARTH">
@@ -2847,16 +2847,16 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22078" level="83" type="Monster" name="Maluk Succubus Turen" element="EARTH">
@@ -2881,16 +2881,16 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22079" level="84" type="Monster" name="Cave Keeper" element="EARTH">
@@ -2916,16 +2916,16 @@
 			<height normal="46" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22080" level="83" type="Monster" name="Cave Servant" element="EARTH">
@@ -2951,18 +2951,18 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22081" level="83" type="Monster" name="Cave Servant Archer" element="EARTH">
@@ -2988,18 +2988,18 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22082" level="84" type="Monster" name="Cave Servant Warrior" element="EARTH">
@@ -3025,18 +3025,18 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22083" level="84" type="Monster" name="Cave Servant Captain" element="EARTH">
@@ -3062,18 +3062,18 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22084" level="85" type="Monster" name="Royal Cave Servant" element="EARTH">
@@ -3099,18 +3099,18 @@
 			<height normal="28.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22085" level="84" type="Monster" name="Cave Keeper" element="EARTH">
@@ -3136,16 +3136,16 @@
 			<height normal="46" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="7" /> (Dagger)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22086" level="82" type="Monster" name="Convict" element="EARTH">
@@ -3170,18 +3170,18 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22087" level="85" type="Monster" name="Headless Knight" element="EARTH">
@@ -3207,18 +3207,18 @@
 			<height normal="31" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22088" level="82" type="Monster" name="Dustwind Gargoyle" element="EARTH">
@@ -3243,16 +3243,16 @@
 			<height normal="65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22089" level="83" type="Monster" name="Thunder Wyrm" element="EARTH">
@@ -3277,16 +3277,16 @@
 			<height normal="72" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22090" level="83" type="Monster" name="Maluk Succubus" element="EARTH">
@@ -3311,16 +3311,16 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22091" level="83" type="Monster" name="Maluk Succubus Turen" element="EARTH">
@@ -3345,16 +3345,16 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22092" level="85" type="Monster" name="Drake" element="EARTH">
@@ -3379,16 +3379,16 @@
 			<height normal="100" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22093" level="82" type="Monster" name="Gargoyle Hunter" element="EARTH">
@@ -3413,16 +3413,16 @@
 			<height normal="65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22094" level="84" type="Monster" name="Cave Maiden" element="EARTH">
@@ -3448,16 +3448,16 @@
 			<height normal="65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="22095" level="83" type="Monster" name="Cave Banshee" element="EARTH">
@@ -3483,18 +3483,18 @@
 			<height normal="23" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="15" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="22096" level="85" type="Monster" name="Bone Horror Chieftain" element="EARTH">
@@ -3515,16 +3515,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -3549,16 +3549,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -3583,16 +3583,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -3622,16 +3622,16 @@
 			<height normal="23" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="15" /> (Strong M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 	</npc>
 </list>

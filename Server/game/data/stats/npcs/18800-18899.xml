@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="18800" level="80" type="Monster" name="Ream's High Priest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -21,7 +21,7 @@
 			<height normal="31.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
+			<skill id="4416" level="8" /> <!-- Angels -->
 		</skillList>
 	</npc>
 	<npc id="18801" level="85" type="Folk" name="">
@@ -66,7 +66,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="284" /> (Dark Elven Longbow)
+		<equipment rhand="284" /> <!-- Dark Elven Longbow -->
 		<acquire exp="2166" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7000" hpRegen="10.2" mp="2365" mpRegen="3.6" />
@@ -84,15 +84,15 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="18804" level="85" type="Monster" name="Blackhide Bandit" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="66" /> (Gladius)
+		<equipment rhand="66" /> <!-- Gladius -->
 		<acquire exp="2166" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7000" hpRegen="10.2" mp="2365" mpRegen="3.6" />
@@ -110,15 +110,15 @@
 			<height normal="31.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="18805" level="85" type="Monster" name="Blackhide Warrior" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="95430" /> (Monster Only: Dragon Infantryman Sword - Not Available)
+		<equipment rhand="95430" /> <!-- Monster Only: Dragon Infantryman Sword - Not Available -->
 		<acquire exp="2166" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7000" hpRegen="10.2" mp="2365" mpRegen="3.6" />
@@ -136,15 +136,15 @@
 			<height normal="38" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="18806" level="85" type="Monster" name="Blackhide Wizard" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="5798" /> (Tomb Savant B - Not Available)
+		<equipment rhand="5798" /> <!-- Tomb Savant B - Not Available -->
 		<acquire exp="2166" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7000" hpRegen="10.2" mp="2365" mpRegen="3.6" />
@@ -162,8 +162,8 @@
 			<height normal="34" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="18807" level="85" type="Monster" name="Blackhide Cook" title="Brewing Dumpling Soup" element="FIRE">
@@ -186,8 +186,8 @@
 			<height normal="32.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="18808" level="85" type="Monster" name="Tiger" title="Enslaved">
@@ -211,7 +211,7 @@
 			<height normal="45" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4416" level="3" /> <!-- Beasts -->
 		</skillList>
 	</npc>
 	<npc id="18809" level="85" type="Monster" name="Tiger" title="Training">
@@ -235,7 +235,7 @@
 			<height normal="45" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4416" level="3" /> <!-- Beasts -->
 		</skillList>
 	</npc>
 	<npc id="18810" level="85" type="RaidBoss" name="Black Tiger" title="Trained">
@@ -259,7 +259,7 @@
 			<height normal="45" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4416" level="3" /> <!-- Beasts -->
 		</skillList>
 	</npc>
 	<npc id="18811" level="85" type="Monster" name="Black Tiger" title="Year of the Golden Pig" element="FIRE">
@@ -282,8 +282,8 @@
 			<height normal="19.44" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="18812" level="85" type="Monster" name="Dumpling Soup" title="Black Tiger's Favorite Dish">
@@ -347,8 +347,8 @@
 			<height normal="46.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="18815" level="85" type="Folk" name="">
@@ -412,7 +412,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38425" /> (Monster Only: Amden Blunt Weapon - Not Available)
+		<equipment rhand="38425" /> <!-- Monster Only: Amden Blunt Weapon - Not Available -->
 		<acquire exp="19200" sp="192" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="12640000" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
@@ -430,15 +430,15 @@
 			<height normal="123" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="18819" level="80" type="Monster" name="Orc Filled With Red Energy" title="Event Monster">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="6719" /> (Monster Only (Ketra Orc Chieftain))
+		<equipment rhand="6719" /> <!-- Monster Only (Ketra Orc Chieftain) -->
 		<acquire exp="3840" sp="36" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="35000" hpRegen="10.2" mp="1507.8" mpRegen="3.6" />
@@ -456,15 +456,15 @@
 			<height normal="38.5" grown="46.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="18820" level="80" type="Monster" name="Orc Filled With Yellow Energy" title="Event Monster">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="6719" /> (Monster Only (Ketra Orc Chieftain))
+		<equipment rhand="6719" /> <!-- Monster Only (Ketra Orc Chieftain) -->
 		<acquire exp="3840" sp="36" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="35000" hpRegen="10.2" mp="1507.8" mpRegen="3.6" />
@@ -482,15 +482,15 @@
 			<height normal="38.5" grown="46.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="18821" level="80" type="Monster" name="Orc Filled With Blue Energy" title="Event Monster">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="6719" /> (Monster Only (Ketra Orc Chieftain))
+		<equipment rhand="6719" /> <!-- Monster Only (Ketra Orc Chieftain) -->
 		<acquire exp="3840" sp="36" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="35000" hpRegen="10.2" mp="1507.8" mpRegen="3.6" />
@@ -508,8 +508,8 @@
 			<height normal="38.5" grown="46.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="18822" level="85" type="Monster" name="Orc Filled With Red Energy" title="Event Monster">
@@ -533,8 +533,8 @@
 			<height normal="54.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="18823" level="85" type="Monster" name="Orc Filled With Yellow Energy" title="Event Monster">
@@ -558,8 +558,8 @@
 			<height normal="54.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="18824" level="85" type="Monster" name="Orc Filled With Blue Energy" title="Event Monster">
@@ -583,8 +583,8 @@
 			<height normal="54.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48539" level="1" /> (Will to Fight)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48539" level="1" /> <!-- Will to Fight -->
 		</skillList>
 	</npc>
 	<npc id="18825" level="85" type="Folk" name="">
@@ -626,42 +626,42 @@
 			<height normal="80.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4416" level="10" /> <!-- Dragons -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
+					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
 				</group>
 				<group chance="100">
-					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
+					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="60">
-					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
+					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 				<group chance="50">
-					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
+					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
 				</group>
 				<group chance="40">
-					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
-					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
-					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
+					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
 				</group>
 				<group chance="30">
-					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
-					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="10">
-					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
-					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
+					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
+					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
 				</group>
 				<group chance="1">
-					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
+					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
 				</group>
 				<group chance="0.05">
-					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
-					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
 				</group>
 			</drop>
 		</dropLists>
@@ -670,7 +670,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="95840" /> (For monsters_+5 Frost Lord's Sword_Not Available)
+		<equipment rhand="95840" /> <!-- For monsters_+5 Frost Lord's Sword_Not Available -->
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="55555555.5555556" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="14444" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -687,43 +687,43 @@
 			<height normal="102.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
+					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
 				</group>
 				<group chance="100">
-					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
+					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="60">
-					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
-					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
 				</group>
 				<group chance="50">
-					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
+					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
 				</group>
 				<group chance="40">
-					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
-					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
-					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
+					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
+					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
+					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
 				</group>
 				<group chance="30">
-					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
-					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
+					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
+					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="10">
-					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
-					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
+					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
+					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
 				</group>
 				<group chance="1">
-					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
+					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
 				</group>
 				<group chance="0.05">
-					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
-					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
+					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
+					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
 				</group>
 			</drop>
 		</dropLists>
@@ -848,42 +848,42 @@
 			<height normal="83" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
+			<skill id="4416" level="9" /> <!-- Demons -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
+					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
 				</group>
 				<group chance="25">
-					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
+					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="15">
-					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
+					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 				<group chance="12.5">
-					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
+					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
 				</group>
 				<group chance="8">
-					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
-					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
-					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
+					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
 				</group>
 				<group chance="6">
-					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
-					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="2">
-					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
-					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
+					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
+					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
 				</group>
 				<group chance="0.2">
-					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
+					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
 				</group>
 				<group chance="0.01">
-					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
-					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
 				</group>
 			</drop>
 		</dropLists>
@@ -908,8 +908,8 @@
 			<height normal="74.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="18835" level="87" type="RaidBoss" name="Reggiesys" title="Advisor's Servant" element="WATER">
@@ -932,43 +932,43 @@
 			<height normal="98" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
+					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
 				</group>
 				<group chance="25">
-					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
+					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="15">
-					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
+					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 				<group chance="12.5">
-					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
+					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
 				</group>
 				<group chance="8">
-					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
-					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
-					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
+					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
 				</group>
 				<group chance="6">
-					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
-					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="2">
-					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
-					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
 				</group>
 				<group chance="0.2">
-					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
+					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
 				</group>
 				<group chance="0.01">
-					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
-					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
 				</group>
 			</drop>
 		</dropLists>
@@ -993,8 +993,8 @@
 			<height normal="103" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
 		</skillList>
 	</npc>
 	<npc id="18837" level="87" type="RaidBoss" name="Ultimate Behemoth" title="Antharas' Avatar" element="EARTH">
@@ -1017,13 +1017,13 @@
 			<height normal="80.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103935" min="1" max="1" chance="100" /> (Lucky Package: Enhanced - Rare Doll Summon Coupon - Behemoth (Time-limited))
+					<item id="103935" min="1" max="1" chance="100" /> <!-- Lucky Package: Enhanced - Rare Doll Summon Coupon - Behemoth (Time-limited) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1032,7 +1032,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="95842" /> (For monsters_+10 Frost Lord's Sword_Not Available)
+		<equipment rhand="95842" /> <!-- For monsters_+10 Frost Lord's Sword_Not Available -->
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="55555555.5555556" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="14444" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1049,15 +1049,15 @@
 			<height normal="102.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="48045" level="1" /> (Water Attribute Monster)
-			<skill id="4085" level="1" /> (Critical Damage)
-			<skill id="4086" level="1" /> (Critical Rate)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Rate -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103936" min="1" max="1" chance="100" /> (Lucky Package: Enhanced - Rare Doll Summon Coupon - Glakias (Time-limited))
+					<item id="103936" min="1" max="1" chance="100" /> <!-- Lucky Package: Enhanced - Rare Doll Summon Coupon - Glakias (Time-limited) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1082,13 +1082,13 @@
 			<height normal="174" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103934" min="1" max="1" chance="100" /> (Lucky Package: Enhanced - Rare Doll Summon Coupon - Baium (Time-limited))
+					<item id="103934" min="1" max="1" chance="100" /> <!-- Lucky Package: Enhanced - Rare Doll Summon Coupon - Baium (Time-limited) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1113,42 +1113,42 @@
 			<height normal="174" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
+			<skill id="4416" level="1" /> <!-- Undead -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
+					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
 				</group>
 				<group chance="100">
-					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
+					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="60">
-					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
-					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
+					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
 				</group>
 				<group chance="50">
-					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
+					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
 				</group>
 				<group chance="40">
-					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
-					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
-					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
+					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
 				</group>
 				<group chance="30">
-					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
-					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
 				</group>
 				<group chance="10">
-					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
-					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
+					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
+					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
 				</group>
 				<group chance="1">
-					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
+					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
 				</group>
 				<group chance="0.05">
-					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
-					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1387,7 +1387,7 @@
 			<height normal="72" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18853" level="86" type="RaidBoss" name="Vanguard Commander" title="Kelbim's Legion">
@@ -1410,8 +1410,8 @@
 			<height normal="62" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18854" level="86" type="RaidBoss" name="Summoner Commander" title="Kelbim's Legion">
@@ -1434,8 +1434,8 @@
 			<height normal="59.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18855" level="86" type="RaidBoss" name="Wizard Commander" title="Kelbim's Legion">
@@ -1458,8 +1458,8 @@
 			<height normal="108" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="1" /> (Undead)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="1" /> <!-- Undead -->
 		</skillList>
 	</npc>
 	<npc id="18856" level="86" type="RaidBoss" name="Assaulter Commander" title="Kelbim's Legion">
@@ -1482,8 +1482,8 @@
 			<height normal="87" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18857" level="86" type="RaidBoss" name="Shooter Commander" title="Kelbim's Legion">
@@ -1506,8 +1506,8 @@
 			<height normal="48" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18858" level="86" type="RaidBoss" name="Warrior Commander" title="Kelbim's Legion">
@@ -1530,8 +1530,8 @@
 			<height normal="48" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18859" level="86" type="RaidBoss" name="Healer Commander" title="Kelbim's Legion">
@@ -1554,8 +1554,8 @@
 			<height normal="47" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="14" /> (Humans)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="14" /> <!-- Humans -->
 		</skillList>
 	</npc>
 	<npc id="18860" level="92" type="RaidBoss" name="Vanguard Commander" title="Kelbim's Legion">
@@ -1578,8 +1578,8 @@
 			<height normal="62" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18861" level="92" type="RaidBoss" name="Summoner Commander" title="Kelbim's Legion">
@@ -1602,8 +1602,8 @@
 			<height normal="59.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18862" level="92" type="RaidBoss" name="Wizard Commander" title="Kelbim's Legion">
@@ -1626,8 +1626,8 @@
 			<height normal="108" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="1" /> (Undead)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="1" /> <!-- Undead -->
 		</skillList>
 	</npc>
 	<npc id="18863" level="92" type="RaidBoss" name="Assaulter Commander" title="Kelbim's Legion">
@@ -1650,8 +1650,8 @@
 			<height normal="87" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18864" level="92" type="RaidBoss" name="Shooter Commander" title="Kelbim's Legion">
@@ -1674,8 +1674,8 @@
 			<height normal="48" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18865" level="92" type="RaidBoss" name="Warrior Commander" title="Kelbim's Legion">
@@ -1698,8 +1698,8 @@
 			<height normal="48" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18866" level="92" type="RaidBoss" name="Healer Commander" title="Kelbim's Legion">
@@ -1722,8 +1722,8 @@
 			<height normal="47" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="14" /> (Humans)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="14" /> <!-- Humans -->
 		</skillList>
 	</npc>
 	<npc id="18867" level="86" type="Monster" name="Servitors" title="Summoner Commander">
@@ -1746,7 +1746,7 @@
 			<height normal="63" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
+			<skill id="4416" level="9" /> <!-- Demons -->
 		</skillList>
 	</npc>
 	<npc id="18868" level="92" type="Monster" name="Servitors" title="Summoner Commander">
@@ -1769,7 +1769,7 @@
 			<height normal="63" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
+			<skill id="4416" level="9" /> <!-- Demons -->
 		</skillList>
 	</npc>
 	<npc id="18869" level="85" type="Folk" name="">
@@ -1795,7 +1795,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="7" /> (Apprentice's Rod)
+		<equipment rhand="7" /> <!-- Apprentice's Rod -->
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="35738" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
@@ -1815,7 +1815,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="9" /> (Cedar Staff)
+		<equipment rhand="9" /> <!-- Cedar Staff -->
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="35738" hpRegen="10.5" mp="11928" mpRegen="3.6" />
 			<speed>
@@ -1851,8 +1851,8 @@
 			<height normal="97" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="4416" level="3" /> <!-- Beasts -->
 		</skillList>
 	</npc>
 	<npc id="18873" level="80" type="Monster" name="Warrior of Darkness">
@@ -1876,7 +1876,7 @@
 			<height normal="33.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
+			<skill id="4416" level="9" /> <!-- Demons -->
 		</skillList>
 	</npc>
 	<npc id="18874" level="80" type="Monster" name="Shooter of Darkness">
@@ -1900,7 +1900,7 @@
 			<height normal="32.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
+			<skill id="4416" level="1" /> <!-- Undead -->
 		</skillList>
 	</npc>
 	<npc id="18875" level="80" type="Monster" name="Beast of Darkness">
@@ -1924,7 +1924,7 @@
 			<height normal="43.15" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="18876" level="85" type="Folk" name="">
@@ -2067,7 +2067,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="98252" /> (Monster Weapon_Monsters Only_Blood Sword Akamanah - Not Available)
+		<equipment rhand="98252" /> <!-- Monster Weapon_Monsters Only_Blood Sword Akamanah - Not Available -->
 		<acquire exp="4086" sp="39" attributeExp="1105" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="5543.85675" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -2085,14 +2085,14 @@
 			<height normal="36.30245" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
+			<skill id="4416" level="9" /> <!-- Demons -->
 		</skillList>
 	</npc>
 	<npc id="18884" level="85" type="Monster" name="Brainwashed Baron">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="98251" /> (Monster Weapon_Monsters Only_Demonic Sword Zariche - Not Available)
+		<equipment rhand="98251" /> <!-- Monster Weapon_Monsters Only_Demonic Sword Zariche - Not Available -->
 		<acquire exp="4086" sp="39" attributeExp="1105" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="5543.85675" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -2110,7 +2110,7 @@
 			<height normal="35.02975" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
+			<skill id="4416" level="9" /> <!-- Demons -->
 		</skillList>
 	</npc>
 	<npc id="18885" level="85" type="Folk" name="">

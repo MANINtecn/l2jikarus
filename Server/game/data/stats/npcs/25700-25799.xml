@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="25735" level="40" type="RaidBoss" name="Giant Golden Pig" title="Raid Boss">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -17,16 +17,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="77" />
@@ -50,16 +50,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="77" />
@@ -83,16 +83,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="77" />
@@ -119,50 +119,50 @@
 			<height normal="77.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="7122" level="1" /> (Raid Boss (Lv. 80))
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="7122" level="1" /> <!-- Raid Boss (Lv. 80) -->
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103974" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Eva Pack)
-					<item id="103979" min="1" max="1" chance="12.5" /> (+4 ~ +6 Cloak of Protection Pack)
-					<item id="103978" min="1" max="1" chance="12.5" /> (+4 ~ +6 Phantom Mask Pack)
-					<item id="103973" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Aden Pack)
-					<item id="103976" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Authority Pack)
-					<item id="103977" min="1" max="1" chance="12.5" /> (+4 ~ +6 Circlet of Hero Pack)
-					<item id="103975" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Speed Pack)
-					<item id="103980" min="1" max="1" chance="12.5" /> (+4 ~ +6 Dragon Belt Pack)
+					<item id="103974" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Eva Pack -->
+					<item id="103979" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Cloak of Protection Pack -->
+					<item id="103978" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Phantom Mask Pack -->
+					<item id="103973" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Aden Pack -->
+					<item id="103976" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Authority Pack -->
+					<item id="103977" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Circlet of Hero Pack -->
+					<item id="103975" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Speed Pack -->
+					<item id="103980" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Dragon Belt Pack -->
 				</group>
 				<group chance="1.2">
-					<item id="105279" min="1" max="1" chance="100" /> (Superior Spellbook)
+					<item id="105279" min="1" max="1" chance="100" /> <!-- Superior Spellbook -->
 				</group>
 				<group chance="100">
-					<item id="730" min="1" max="3" chance="80" /> (Scroll: Enchant Armor)
-					<item id="729" min="1" max="3" chance="20" /> (Scroll: Enchant Weapon)
+					<item id="730" min="1" max="3" chance="80" /> <!-- Scroll: Enchant Armor -->
+					<item id="729" min="1" max="3" chance="20" /> <!-- Scroll: Enchant Weapon -->
 				</group>
 				<group chance="2">
-					<item id="94096" min="1" max="1" chance="100" /> (Guardian's Skillbook - Volume 1)
+					<item id="94096" min="1" max="1" chance="100" /> <!-- Guardian's Skillbook - Volume 1 -->
 				</group>
 				<group chance="0.1">
-					<item id="6660" min="1" max="1" chance="100" /> (Queen Ant's Ring)
+					<item id="6660" min="1" max="1" chance="100" /> <!-- Queen Ant's Ring -->
 				</group>
 			</drop>
 			<fortune>
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
 			</fortune>
 		</dropLists>
 	</npc>
@@ -187,50 +187,50 @@
 			<height normal="120" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="7123" level="1" /> (Raid Boss (Lv. 80))
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="7123" level="1" /> <!-- Raid Boss (Lv. 80) -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103979" min="1" max="1" chance="12.5" /> (+4 ~ +6 Cloak of Protection Pack)
-					<item id="103978" min="1" max="1" chance="12.5" /> (+4 ~ +6 Phantom Mask Pack)
-					<item id="103973" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Aden Pack)
-					<item id="103976" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Authority Pack)
-					<item id="103977" min="1" max="1" chance="12.5" /> (+4 ~ +6 Circlet of Hero Pack)
-					<item id="103975" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Speed Pack)
-					<item id="103980" min="1" max="1" chance="12.5" /> (+4 ~ +6 Dragon Belt Pack)
-					<item id="103974" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Eva Pack)
+					<item id="103979" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Cloak of Protection Pack -->
+					<item id="103978" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Phantom Mask Pack -->
+					<item id="103973" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Aden Pack -->
+					<item id="103976" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Authority Pack -->
+					<item id="103977" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Circlet of Hero Pack -->
+					<item id="103975" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Speed Pack -->
+					<item id="103980" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Dragon Belt Pack -->
+					<item id="103974" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Eva Pack -->
 				</group>
 				<group chance="1.2">
-					<item id="105279" min="1" max="1" chance="100" /> (Superior Spellbook)
+					<item id="105279" min="1" max="1" chance="100" /> <!-- Superior Spellbook -->
 				</group>
 				<group chance="100">
-					<item id="730" min="1" max="3" chance="80" /> (Scroll: Enchant Armor)
-					<item id="729" min="1" max="3" chance="20" /> (Scroll: Enchant Weapon)
+					<item id="730" min="1" max="3" chance="80" /> <!-- Scroll: Enchant Armor -->
+					<item id="729" min="1" max="3" chance="20" /> <!-- Scroll: Enchant Weapon -->
 				</group>
 				<group chance="2">
-					<item id="94096" min="1" max="1" chance="100" /> (Guardian's Skillbook - Volume 1)
+					<item id="94096" min="1" max="1" chance="100" /> <!-- Guardian's Skillbook - Volume 1 -->
 				</group>
 				<group chance="0.1">
-					<item id="49580" min="1" max="1" chance="100" /> (Baium's Ring)
+					<item id="49580" min="1" max="1" chance="100" /> <!-- Baium's Ring -->
 				</group>
 			</drop>
 			<fortune>
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
 			</fortune>
 		</dropLists>
 	</npc>
@@ -238,7 +238,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="120" /> (Sword of Reflection)
+		<equipment rhand="120" /> <!-- Sword of Reflection -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="160460.3" hpRegen="10.2" mp="71253" mpRegen="3.6" />
 			<attack physical="3105.728" magical="1590.608" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -255,14 +255,14 @@
 			<height normal="30" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
+			<skill id="4416" level="8" /> <!-- Angels -->
 		</skillList>
 	</npc>
 	<npc id="25741" level="85" type="Monster" name="Angel's Staff" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="206" /> (Demon's Staff)
+		<equipment rhand="206" /> <!-- Demon's Staff -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="160460.3" hpRegen="10.2" mp="71253" mpRegen="3.6" />
 			<attack physical="3105.728" magical="1590.608" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -279,8 +279,8 @@
 			<height normal="38.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4414" level="3" /> <!-- Light Armor -->
 		</skillList>
 	</npc>
 	<npc id="25742" level="85" type="RaidBoss" name="Core's Priest Decar" title="High Elite">
@@ -303,50 +303,50 @@
 			<height normal="81.6" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="7124" level="1" /> (Raid Boss (Lv. 80))
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="7124" level="1" /> <!-- Raid Boss (Lv. 80) -->
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103980" min="1" max="1" chance="12.5" /> (+4 ~ +6 Dragon Belt Pack)
-					<item id="103974" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Eva Pack)
-					<item id="103979" min="1" max="1" chance="12.5" /> (+4 ~ +6 Cloak of Protection Pack)
-					<item id="103978" min="1" max="1" chance="12.5" /> (+4 ~ +6 Phantom Mask Pack)
-					<item id="103973" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Aden Pack)
-					<item id="103976" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Authority Pack)
-					<item id="103977" min="1" max="1" chance="12.5" /> (+4 ~ +6 Circlet of Hero Pack)
-					<item id="103975" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Speed Pack)
+					<item id="103980" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Dragon Belt Pack -->
+					<item id="103974" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Eva Pack -->
+					<item id="103979" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Cloak of Protection Pack -->
+					<item id="103978" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Phantom Mask Pack -->
+					<item id="103973" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Aden Pack -->
+					<item id="103976" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Authority Pack -->
+					<item id="103977" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Circlet of Hero Pack -->
+					<item id="103975" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Speed Pack -->
 				</group>
 				<group chance="1.2">
-					<item id="105279" min="1" max="1" chance="100" /> (Superior Spellbook)
+					<item id="105279" min="1" max="1" chance="100" /> <!-- Superior Spellbook -->
 				</group>
 				<group chance="100">
-					<item id="729" min="1" max="3" chance="20" /> (Scroll: Enchant Weapon)
-					<item id="730" min="1" max="3" chance="80" /> (Scroll: Enchant Armor)
+					<item id="729" min="1" max="3" chance="20" /> <!-- Scroll: Enchant Weapon -->
+					<item id="730" min="1" max="3" chance="80" /> <!-- Scroll: Enchant Armor -->
 				</group>
 				<group chance="2">
-					<item id="94096" min="1" max="1" chance="100" /> (Guardian's Skillbook - Volume 1)
+					<item id="94096" min="1" max="1" chance="100" /> <!-- Guardian's Skillbook - Volume 1 -->
 				</group>
 				<group chance="0.1">
-					<item id="6662" min="1" max="1" chance="100" /> (Core's Ring)
+					<item id="6662" min="1" max="1" chance="100" /> <!-- Core's Ring -->
 				</group>
 			</drop>
 			<fortune>
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
 			</fortune>
 		</dropLists>
 	</npc>
@@ -370,50 +370,50 @@
 			<height normal="76.1" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="7125" level="1" /> (Raid Boss (Lv. 80))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="7125" level="1" /> <!-- Raid Boss (Lv. 80) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103979" min="1" max="1" chance="12.5" /> (+4 ~ +6 Cloak of Protection Pack)
-					<item id="103978" min="1" max="1" chance="12.5" /> (+4 ~ +6 Phantom Mask Pack)
-					<item id="103973" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Aden Pack)
-					<item id="103976" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Authority Pack)
-					<item id="103977" min="1" max="1" chance="12.5" /> (+4 ~ +6 Circlet of Hero Pack)
-					<item id="103975" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Speed Pack)
-					<item id="103980" min="1" max="1" chance="12.5" /> (+4 ~ +6 Dragon Belt Pack)
-					<item id="103974" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Eva Pack)
+					<item id="103979" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Cloak of Protection Pack -->
+					<item id="103978" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Phantom Mask Pack -->
+					<item id="103973" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Aden Pack -->
+					<item id="103976" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Authority Pack -->
+					<item id="103977" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Circlet of Hero Pack -->
+					<item id="103975" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Speed Pack -->
+					<item id="103980" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Dragon Belt Pack -->
+					<item id="103974" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Eva Pack -->
 				</group>
 				<group chance="1.2">
-					<item id="105279" min="1" max="1" chance="100" /> (Superior Spellbook)
+					<item id="105279" min="1" max="1" chance="100" /> <!-- Superior Spellbook -->
 				</group>
 				<group chance="100">
-					<item id="730" min="1" max="3" chance="80" /> (Scroll: Enchant Armor)
-					<item id="729" min="1" max="3" chance="20" /> (Scroll: Enchant Weapon)
+					<item id="730" min="1" max="3" chance="80" /> <!-- Scroll: Enchant Armor -->
+					<item id="729" min="1" max="3" chance="20" /> <!-- Scroll: Enchant Weapon -->
 				</group>
 				<group chance="2">
-					<item id="94096" min="1" max="1" chance="100" /> (Guardian's Skillbook - Volume 1)
+					<item id="94096" min="1" max="1" chance="100" /> <!-- Guardian's Skillbook - Volume 1 -->
 				</group>
 				<group chance="0.1">
-					<item id="6661" min="1" max="1" chance="100" /> (Orfen's Earring)
+					<item id="6661" min="1" max="1" chance="100" /> <!-- Orfen's Earring -->
 				</group>
 			</drop>
 			<fortune>
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
 			</fortune>
 		</dropLists>
 	</npc>
@@ -437,19 +437,19 @@
 			<height normal="26.1" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="1" /> (Raid Boss (Lv. 60))
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="1" /> <!-- Raid Boss (Lv. 60) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25745" level="70" type="RaidBoss" name="Evil Orc Darphen" title="High Elite">
@@ -473,19 +473,19 @@
 			<height normal="46.2" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="2" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="2" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25746" level="80" type="RaidBoss" name="Magikus" title="Elite">
@@ -508,19 +508,19 @@
 			<height normal="55.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="3" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="3" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25747" level="70" type="RaidBoss" name="Rael Mahum Radium" title="Elite">
@@ -543,19 +543,19 @@
 			<height normal="72.75" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="4" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="4" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25748" level="70" type="RaidBoss" name="Rael Mahum Supercium" title="Elite">
@@ -578,19 +578,19 @@
 			<height normal="50.25" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="5" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="5" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25749" level="65" type="RaidBoss" name="Tayga King Feron" title="Elite">
@@ -613,19 +613,19 @@
 			<height normal="55.8" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="6" /> (Raid Boss (Lv. 65))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="6" /> <!-- Raid Boss (Lv. 65) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25750" level="65" type="RaidBoss" name="Tayga Shaman Marga" title="Elite">
@@ -649,19 +649,19 @@
 			<height normal="55.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="7" /> (Raid Boss (Lv. 65))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="7" /> <!-- Raid Boss (Lv. 65) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25751" level="65" type="RaidBoss" name="Tayga Champion Septon" title="Elite">
@@ -685,26 +685,26 @@
 			<height normal="54" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="8" /> (Raid Boss (Lv. 65))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="8" /> <!-- Raid Boss (Lv. 65) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25752" level="60" type="Monster" name="Tayga Warrior" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38434" /> (Monster Only: Tiger Polearm - Not Available)
+		<equipment rhand="38434" /> <!-- Monster Only: Tiger Polearm - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="46851.2" hpRegen="6.5" mp="33506" mpRegen="2.4" />
 			<attack physical="962.69102" magical="657.39318" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -721,15 +721,15 @@
 			<height normal="27.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4414" level="3" /> <!-- Light Armor -->
 		</skillList>
 	</npc>
 	<npc id="25753" level="60" type="Monster" name="Tayga Shooter" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38430" /> (Monster Only: Tiger Bow - Not Available)
+		<equipment rhand="38430" /> <!-- Monster Only: Tiger Bow - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="46851.2" hpRegen="6.5" mp="33506" mpRegen="2.4" />
 			<attack physical="962.69102" magical="657.39318" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -746,8 +746,8 @@
 			<height normal="26.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4414" level="3" /> <!-- Light Armor -->
 		</skillList>
 	</npc>
 	<npc id="25754" level="70" type="RaidBoss" name="Flamestone Giant" title="Elite">
@@ -770,19 +770,19 @@
 			<height normal="45" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="9" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="9" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25755" level="80" type="RaidBoss" name="Flame Salamander" title="High Elite">
@@ -805,19 +805,19 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="10" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="7" /> (Spirits)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="10" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25756" level="80" type="RaidBoss" name="Fire Dre Vanul" title="High Elite">
@@ -840,19 +840,19 @@
 			<height normal="43.15" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="11" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="11" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25757" level="85" type="RaidBoss" name="Grousse" title="Elite">
@@ -875,19 +875,19 @@
 			<height normal="60.6" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="12" /> (Raid Boss (Lv. 80))
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="12" /> <!-- Raid Boss (Lv. 80) -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25758" level="80" type="RaidBoss" name="Demon Goblier" title="High Elite">
@@ -910,19 +910,19 @@
 			<height normal="61.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="13" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="13" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25759" level="80" type="RaidBoss" name="Fiend Cherkia" title="High Elite">
@@ -945,19 +945,19 @@
 			<height normal="52.8" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="14" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="14" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25760" level="80" type="RaidBoss" name="Fiend Harthemon" title="High Elite">
@@ -980,19 +980,19 @@
 			<height normal="59.1" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="15" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="15" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25761" level="80" type="RaidBoss" name="Demon Sarboth" title="High Elite">
@@ -1015,19 +1015,19 @@
 			<height normal="68" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="16" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="16" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25762" level="80" type="RaidBoss" name="Demon Bedukel" title="High Elite">
@@ -1051,19 +1051,19 @@
 			<height normal="56" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="17" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="17" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25763" level="80" type="RaidBoss" name="Bloody Witch Rumilla" title="High Elite">
@@ -1086,19 +1086,19 @@
 			<height normal="80" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="18" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="18" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25764" level="80" type="Monster" name="Demon Collector" title="Raid Minion">
@@ -1121,15 +1121,15 @@
 			<height normal="23" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4414" level="3" /> <!-- Light Armor -->
 		</skillList>
 	</npc>
 	<npc id="25765" level="80" type="Monster" name="Demon Servant" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
+		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="99633.6" hpRegen="8.5" mp="71253" mpRegen="3" />
 			<attack physical="1589.41802" magical="1085.36648" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -1146,8 +1146,8 @@
 			<height normal="26" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4414" level="3" /> <!-- Light Armor -->
 		</skillList>
 	</npc>
 	<npc id="25766" level="85" type="RaidBoss" name="Monster Minorta" title="High Elite">
@@ -1171,47 +1171,47 @@
 			<height normal="75.75" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="19" /> (Raid Boss (Lv. 80))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="19" /> <!-- Raid Boss (Lv. 80) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103975" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Speed Pack)
-					<item id="103979" min="1" max="1" chance="12.5" /> (+4 ~ +6 Cloak of Protection Pack)
-					<item id="103978" min="1" max="1" chance="12.5" /> (+4 ~ +6 Phantom Mask Pack)
-					<item id="103974" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Eva Pack)
-					<item id="103977" min="1" max="1" chance="12.5" /> (+4 ~ +6 Circlet of Hero Pack)
-					<item id="103973" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Aden Pack)
-					<item id="103976" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Authority Pack)
-					<item id="103980" min="1" max="1" chance="12.5" /> (+4 ~ +6 Dragon Belt Pack)
+					<item id="103975" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Speed Pack -->
+					<item id="103979" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Cloak of Protection Pack -->
+					<item id="103978" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Phantom Mask Pack -->
+					<item id="103974" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Eva Pack -->
+					<item id="103977" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Circlet of Hero Pack -->
+					<item id="103973" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Aden Pack -->
+					<item id="103976" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Authority Pack -->
+					<item id="103980" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Dragon Belt Pack -->
 				</group>
 				<group chance="1.2">
-					<item id="105279" min="1" max="1" chance="100" /> (Superior Spellbook)
+					<item id="105279" min="1" max="1" chance="100" /> <!-- Superior Spellbook -->
 				</group>
 				<group chance="100">
-					<item id="729" min="1" max="3" chance="20" /> (Scroll: Enchant Weapon)
-					<item id="730" min="1" max="3" chance="80" /> (Scroll: Enchant Armor)
+					<item id="729" min="1" max="3" chance="20" /> <!-- Scroll: Enchant Weapon -->
+					<item id="730" min="1" max="3" chance="80" /> <!-- Scroll: Enchant Armor -->
 				</group>
 				<group chance="2">
-					<item id="94096" min="1" max="1" chance="100" /> (Guardian's Skillbook - Volume 1)
+					<item id="94096" min="1" max="1" chance="100" /> <!-- Guardian's Skillbook - Volume 1 -->
 				</group>
 			</drop>
 			<fortune>
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
 			</fortune>
 		</dropLists>
 	</npc>
@@ -1235,54 +1235,54 @@
 			<height normal="48" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="20" /> (Raid Boss (Lv. 85))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="20" /> <!-- Raid Boss (Lv. 85) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103977" min="1" max="1" chance="12.5" /> (+4 ~ +6 Circlet of Hero Pack)
-					<item id="103975" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Speed Pack)
-					<item id="103980" min="1" max="1" chance="12.5" /> (+4 ~ +6 Dragon Belt Pack)
-					<item id="103974" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Eva Pack)
-					<item id="103979" min="1" max="1" chance="12.5" /> (+4 ~ +6 Cloak of Protection Pack)
-					<item id="103978" min="1" max="1" chance="12.5" /> (+4 ~ +6 Phantom Mask Pack)
-					<item id="103973" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Aden Pack)
-					<item id="103976" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Authority Pack)
+					<item id="103977" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Circlet of Hero Pack -->
+					<item id="103975" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Speed Pack -->
+					<item id="103980" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Dragon Belt Pack -->
+					<item id="103974" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Eva Pack -->
+					<item id="103979" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Cloak of Protection Pack -->
+					<item id="103978" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Phantom Mask Pack -->
+					<item id="103973" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Aden Pack -->
+					<item id="103976" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Authority Pack -->
 				</group>
 				<group chance="1.1">
-					<item id="105279" min="1" max="1" chance="100" /> (Superior Spellbook)
+					<item id="105279" min="1" max="1" chance="100" /> <!-- Superior Spellbook -->
 				</group>
 				<group chance="0.8">
-					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
+					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
 				</group>
 				<group chance="2">
-					<item id="94117" min="1" max="1" chance="100" /> (Guardian's Skillbook - Volume 2)
+					<item id="94117" min="1" max="1" chance="100" /> <!-- Guardian's Skillbook - Volume 2 -->
 				</group>
 				<group chance="100">
-					<item id="730" min="2" max="4" chance="80" /> (Scroll: Enchant Armor)
-					<item id="729" min="2" max="4" chance="20" /> (Scroll: Enchant Weapon)
+					<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant Armor -->
+					<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant Weapon -->
 				</group>
 				<group chance="3">
-					<item id="93255" min="1" max="1" chance="20" /> (Blessed Scroll: Enchant Weapon)
-					<item id="93256" min="1" max="1" chance="80" /> (Blessed Scroll: Enchant Armor)
+					<item id="93255" min="1" max="1" chance="20" /> <!-- Blessed Scroll: Enchant Weapon -->
+					<item id="93256" min="1" max="1" chance="80" /> <!-- Blessed Scroll: Enchant Armor -->
 				</group>
 			</drop>
 			<fortune>
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
 			</fortune>
 		</dropLists>
 	</npc>
@@ -1306,19 +1306,19 @@
 			<height normal="60.75" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="21" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="21" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25769" level="70" type="RaidBoss" name="Kerfaus" title="High Elite">
@@ -1341,19 +1341,19 @@
 			<height normal="57" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="22" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="22" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25770" level="70" type="RaidBoss" name="Milinaus" title="High Elite">
@@ -1377,26 +1377,26 @@
 			<height normal="46.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="23" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="23" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25771" level="70" type="Monster" name="Centaur Thrower" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38446" /> (Monster Only: Centaur Throwing Blade - Not Available)
+		<equipment rhand="38446" /> <!-- Monster Only: Centaur Throwing Blade - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="62353.5" hpRegen="7.5" mp="44592" mpRegen="2.7" />
 			<attack physical="1377.72746" magical="940.80926" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1413,8 +1413,8 @@
 			<height normal="34.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4414" level="3" /> <!-- Light Armor -->
 		</skillList>
 	</npc>
 	<npc id="25772" level="70" type="RaidBoss" name="Evil Orc Zetahl" title="High Elite">
@@ -1437,19 +1437,19 @@
 			<height normal="40.8" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="24" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="24" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25773" level="85" type="RaidBoss" name="Evil Orc Tabris" title="High Elite">
@@ -1472,47 +1472,47 @@
 			<height normal="54.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="25" /> (Raid Boss (Lv. 80))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="25" /> <!-- Raid Boss (Lv. 80) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103979" min="1" max="1" chance="12.5" /> (+4 ~ +6 Cloak of Protection Pack)
-					<item id="103978" min="1" max="1" chance="12.5" /> (+4 ~ +6 Phantom Mask Pack)
-					<item id="103974" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Eva Pack)
-					<item id="103977" min="1" max="1" chance="12.5" /> (+4 ~ +6 Circlet of Hero Pack)
-					<item id="103973" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Aden Pack)
-					<item id="103976" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Authority Pack)
-					<item id="103980" min="1" max="1" chance="12.5" /> (+4 ~ +6 Dragon Belt Pack)
-					<item id="103975" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Speed Pack)
+					<item id="103979" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Cloak of Protection Pack -->
+					<item id="103978" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Phantom Mask Pack -->
+					<item id="103974" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Eva Pack -->
+					<item id="103977" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Circlet of Hero Pack -->
+					<item id="103973" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Aden Pack -->
+					<item id="103976" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Authority Pack -->
+					<item id="103980" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Dragon Belt Pack -->
+					<item id="103975" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Speed Pack -->
 				</group>
 				<group chance="1.2">
-					<item id="105279" min="1" max="1" chance="100" /> (Superior Spellbook)
+					<item id="105279" min="1" max="1" chance="100" /> <!-- Superior Spellbook -->
 				</group>
 				<group chance="100">
-					<item id="729" min="1" max="3" chance="20" /> (Scroll: Enchant Weapon)
-					<item id="730" min="1" max="3" chance="80" /> (Scroll: Enchant Armor)
+					<item id="729" min="1" max="3" chance="20" /> <!-- Scroll: Enchant Weapon -->
+					<item id="730" min="1" max="3" chance="80" /> <!-- Scroll: Enchant Armor -->
 				</group>
 				<group chance="2">
-					<item id="94096" min="1" max="1" chance="100" /> (Guardian's Skillbook - Volume 1)
+					<item id="94096" min="1" max="1" chance="100" /> <!-- Guardian's Skillbook - Volume 1 -->
 				</group>
 			</drop>
 			<fortune>
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
 			</fortune>
 		</dropLists>
 	</npc>
@@ -1536,19 +1536,19 @@
 			<height normal="50" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="26" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="26" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25775" level="90" type="RaidBoss" name="Evil Orc Dephracor" title="High Elite">
@@ -1571,54 +1571,54 @@
 			<height normal="47.4" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="27" /> (Raid Boss (Lv. 85))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="27" /> <!-- Raid Boss (Lv. 85) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103975" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Speed Pack)
-					<item id="103980" min="1" max="1" chance="12.5" /> (+4 ~ +6 Dragon Belt Pack)
-					<item id="103974" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Eva Pack)
-					<item id="103979" min="1" max="1" chance="12.5" /> (+4 ~ +6 Cloak of Protection Pack)
-					<item id="103978" min="1" max="1" chance="12.5" /> (+4 ~ +6 Phantom Mask Pack)
-					<item id="103973" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Aden Pack)
-					<item id="103976" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Authority Pack)
-					<item id="103977" min="1" max="1" chance="12.5" /> (+4 ~ +6 Circlet of Hero Pack)
+					<item id="103975" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Speed Pack -->
+					<item id="103980" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Dragon Belt Pack -->
+					<item id="103974" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Eva Pack -->
+					<item id="103979" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Cloak of Protection Pack -->
+					<item id="103978" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Phantom Mask Pack -->
+					<item id="103973" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Aden Pack -->
+					<item id="103976" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Authority Pack -->
+					<item id="103977" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Circlet of Hero Pack -->
 				</group>
 				<group chance="1.1">
-					<item id="105279" min="1" max="1" chance="100" /> (Superior Spellbook)
+					<item id="105279" min="1" max="1" chance="100" /> <!-- Superior Spellbook -->
 				</group>
 				<group chance="0.8">
-					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
+					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
 				</group>
 				<group chance="2">
-					<item id="94117" min="1" max="1" chance="100" /> (Guardian's Skillbook - Volume 2)
+					<item id="94117" min="1" max="1" chance="100" /> <!-- Guardian's Skillbook - Volume 2 -->
 				</group>
 				<group chance="100">
-					<item id="729" min="2" max="4" chance="20" /> (Scroll: Enchant Weapon)
-					<item id="730" min="2" max="4" chance="80" /> (Scroll: Enchant Armor)
+					<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant Weapon -->
+					<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant Armor -->
 				</group>
 				<group chance="3">
-					<item id="93256" min="1" max="1" chance="80" /> (Blessed Scroll: Enchant Armor)
-					<item id="93255" min="1" max="1" chance="20" /> (Blessed Scroll: Enchant Weapon)
+					<item id="93256" min="1" max="1" chance="80" /> <!-- Blessed Scroll: Enchant Armor -->
+					<item id="93255" min="1" max="1" chance="20" /> <!-- Blessed Scroll: Enchant Weapon -->
 				</group>
 			</drop>
 			<fortune>
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
-				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
 			</fortune>
 		</dropLists>
 	</npc>
@@ -1642,19 +1642,19 @@
 			<height normal="56.25" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="28" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="28" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25777" level="70" type="RaidBoss" name="Evil Orc Turation" title="High Elite">
@@ -1678,26 +1678,26 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="29" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="29" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25778" level="80" type="Monster" name="Evil Orcish Shooter" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="288" /> (Carnage Bow)
+		<equipment rhand="288" /> <!-- Carnage Bow -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="99633.6" hpRegen="10.2" mp="71253" mpRegen="3.6" />
 			<attack physical="3105.728" magical="1590.608" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -1714,7 +1714,7 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
 		</skillList>
 	</npc>
 	<npc id="25779" level="80" type="RaidBoss" name="Gariott" title="High Elite">
@@ -1737,19 +1737,19 @@
 			<height normal="69" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="30" /> (Raid Boss (Lv. 80))
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="30" /> <!-- Raid Boss (Lv. 80) -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25780" level="80" type="RaidBoss" name="Varbasion" title="High Elite">
@@ -1772,19 +1772,19 @@
 			<height normal="68.25" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="31" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="31" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25781" level="80" type="RaidBoss" name="Varmoni" title="High Elite">
@@ -1807,19 +1807,19 @@
 			<height normal="60" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="32" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="32" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25782" level="80" type="RaidBoss" name="Overlord Muscel" title="High Elite">
@@ -1842,19 +1842,19 @@
 			<height normal="77.25" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="33" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="33" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25783" level="80" type="RaidBoss" name="Bathus Elbogen" title="High Elite">
@@ -1877,19 +1877,19 @@
 			<height normal="70.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="34" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="34" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25784" level="80" type="RaidBoss" name="Daumen Kshana" title="High Elite">
@@ -1912,26 +1912,26 @@
 			<height normal="72.75" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="35" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="35" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25785" level="80" type="Monster" name="Degraded Lesser Giant Warrior" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<equipment rhand="3937" /> (Monster Only (Lesser Giant) - Not Available)
+		<equipment rhand="3937" /> <!-- Monster Only (Lesser Giant) - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="99633.6" hpRegen="8.5" mp="71253" mpRegen="3" />
 			<attack physical="1589.41802" magical="1085.36648" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1948,15 +1948,15 @@
 			<height normal="69" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4414" level="3" /> <!-- Light Armor -->
 		</skillList>
 	</npc>
 	<npc id="25786" level="80" type="Monster" name="Degraded Lesser Giant Soldier" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<equipment rhand="4028" /> (Giant Cannon - Not Available)
+		<equipment rhand="4028" /> <!-- Giant Cannon - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="99633.6" hpRegen="8.5" mp="71253" mpRegen="3" />
 			<attack physical="1589.41802" magical="1085.36648" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1973,8 +1973,8 @@
 			<height normal="66" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4414" level="3" /> <!-- Light Armor -->
 		</skillList>
 	</npc>
 	<npc id="25787" level="25" type="RaidBoss" name="Death Knight" title="Raid's Soul Plunderer">
@@ -1998,19 +1998,19 @@
 			<height normal="72" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="36" /> (Raid Boss (Lv. 25))
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="36" /> <!-- Raid Boss (Lv. 25) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25788" level="35" type="RaidBoss" name="Death Knight" title="Raid's Soul Plunderer">
@@ -2034,19 +2034,19 @@
 			<height normal="72" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="37" /> (Raid Boss (Lv. 35))
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="37" /> <!-- Raid Boss (Lv. 35) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25789" level="45" type="RaidBoss" name="Death Knight" title="Raid's Soul Plunderer">
@@ -2070,19 +2070,19 @@
 			<height normal="72" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="38" /> (Raid Boss (Lv. 45))
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="38" /> <!-- Raid Boss (Lv. 45) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25790" level="55" type="RaidBoss" name="Death Knight" title="Raid's Soul Plunderer">
@@ -2106,19 +2106,19 @@
 			<height normal="64" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="39" /> (Raid Boss (Lv. 55))
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="39" /> <!-- Raid Boss (Lv. 55) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25791" level="65" type="RaidBoss" name="Death Knight" title="Raid's Soul Plunderer">
@@ -2142,19 +2142,19 @@
 			<height normal="64" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="40" /> (Raid Boss (Lv. 65))
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="40" /> <!-- Raid Boss (Lv. 65) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25792" level="75" type="RaidBoss" name="Death Knight" title="Raid's Soul Plunderer">
@@ -2178,19 +2178,19 @@
 			<height normal="64" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="41" /> (Raid Boss (Lv. 75))
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="41" /> <!-- Raid Boss (Lv. 75) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25793" level="80" type="RaidBoss" name="Giant Golden Pig" title="Raid Boss">
@@ -2214,19 +2214,19 @@
 			<height normal="1842" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50009" level="43" /> (Raid Boss (Lv. 80))
-			<skill id="4416" level="4" /> (Animals)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50009" level="43" /> <!-- Raid Boss (Lv. 80) -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 	</npc>
 	<npc id="25794" level="62" type="Monster" name="Kutis" title="Kutus' Nemesis">
@@ -2251,19 +2251,19 @@
 			<height normal="43.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50028" level="1" /> (Raid Boss (Lv. 62))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50028" level="1" /> <!-- Raid Boss (Lv. 62) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
 			<clanList>
@@ -2293,19 +2293,19 @@
 			<height normal="37.8" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50028" level="2" /> (Raid Boss (Lv. 64))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50028" level="2" /> <!-- Raid Boss (Lv. 64) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
 			<clanList>
@@ -2335,19 +2335,19 @@
 			<height normal="47" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50028" level="3" /> (Raid Boss (Lv. 66))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50028" level="3" /> <!-- Raid Boss (Lv. 66) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
 			<clanList>
@@ -2377,19 +2377,19 @@
 			<height normal="47.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50028" level="4" /> (Raid Boss (Lv. 68))
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50028" level="4" /> <!-- Raid Boss (Lv. 68) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
 			<clanList>
@@ -2419,19 +2419,19 @@
 			<height normal="45" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50028" level="5" /> (Raid Boss (Lv. 70))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50028" level="5" /> <!-- Raid Boss (Lv. 70) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
 			<clanList>
@@ -2461,20 +2461,20 @@
 			<height normal="38.4" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> (Raid Boss)
-			<skill id="50028" level="6" /> (Raid Boss (Lv. 72))
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="14765" level="4" /> (Blood Siphon Resistance)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
-			<skill id="5238" level="1" /> (Freezing)
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="50028" level="6" /> <!-- Raid Boss (Lv. 72) -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="5238" level="1" /> <!-- Freezing -->
 		</skillList>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
 			<clanList>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="16100" level="55" type="Monster" name="Red Hawk">
 		<race>ANIMAL</race>
@@ -348,7 +348,7 @@
 	<npc id="16115" level="75" type="Pet" name="Raven">
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="102004" /> (Short Spear)
+		<equipment rhand="102004" /> <!-- Short Spear -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1673.05473" hpRegen="8.5" mp="889.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -368,7 +368,7 @@
 	<npc id="16116" level="80" type="Pet" name="Raven" title="Veteran">
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="102005" /> (Lance)
+		<equipment rhand="102005" /> <!-- Lance -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1673.05473" hpRegen="8.5" mp="889.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -388,7 +388,7 @@
 	<npc id="16117" level="85" type="Pet" name="Raven" title="Veteran">
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="102006" /> (Spear)
+		<equipment rhand="102006" /> <!-- Spear -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1673.05473" hpRegen="8.5" mp="889.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -408,7 +408,7 @@
 	<npc id="16118" level="90" type="Pet" name="Raven" title="Hero">
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="102007" /> (Appearance - 2nd Mercenary Weapon - Type A (Raven) - Not available)
+		<equipment rhand="102007" /> <!-- Appearance - 2nd Mercenary Weapon - Type A (Raven) - Not available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1673.05473" hpRegen="8.5" mp="889.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -428,7 +428,7 @@
 	<npc id="16119" level="95" type="Pet" name="Raven" title="Hero">
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="102008" /> (Appearance - 2nd Mercenary Weapon - Type B (Raven) - Not available)
+		<equipment rhand="102008" /> <!-- Appearance - 2nd Mercenary Weapon - Type B (Raven) - Not available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1673.05473" hpRegen="8.5" mp="889.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -448,7 +448,7 @@
 	<npc id="16120" level="75" type="Pet" name="Vulcan">
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="102009" /> (Work Hammer)
+		<equipment rhand="102009" /> <!-- Work Hammer -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1673.05473" hpRegen="8.5" mp="889.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -468,7 +468,7 @@
 	<npc id="16121" level="80" type="Pet" name="Vulcan" title="Veteran">
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="102010" /> (Appearance - 1st Mercenary Weapon - Type A (Vulcan) - Not available)
+		<equipment rhand="102010" /> <!-- Appearance - 1st Mercenary Weapon - Type A (Vulcan) - Not available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1673.05473" hpRegen="8.5" mp="889.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -488,7 +488,7 @@
 	<npc id="16122" level="85" type="Pet" name="Vulcan" title="Veteran">
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="102011" /> (Appearance - 1st Mercenary Weapon - Type B (Vulcan) - Not available)
+		<equipment rhand="102011" /> <!-- Appearance - 1st Mercenary Weapon - Type B (Vulcan) - Not available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1673.05473" hpRegen="8.5" mp="889.8" mpRegen="3" />
 			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />

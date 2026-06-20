@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="24000" level="82" type="Monster" name="Leona Blackbird" title="Dragon's Agent">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -19,15 +19,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<ai aggroRange="300" isAggressive="true" />
 		<collision>
@@ -54,15 +54,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -87,15 +87,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="45" />
@@ -120,15 +120,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="26" />
@@ -153,15 +153,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="26" />
@@ -186,15 +186,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="13" /> (Fairies)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -219,15 +219,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="18.5" />
@@ -252,15 +252,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="12.5" />
@@ -285,15 +285,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="16" />
@@ -318,15 +318,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="16" />
@@ -351,15 +351,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="17" />
@@ -384,15 +384,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -417,15 +417,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="26" />
@@ -451,15 +451,15 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -484,20 +484,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> (Humanoids)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="14" /> (Strong M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48046" level="1" /> (Wind Attribute Monster)
-			<skill id="4085" level="1" /> (Critical Damage)
-			<skill id="4086" level="1" /> (Critical Chance)
-			<skill id="4071" level="1" /> (Bow Resistance)
-			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="15.6" />
@@ -506,18 +506,18 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="57" max="63" chance="100" /> (Adena)
+					<item id="57" min="57" max="63" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.01">
-					<item id="265" min="1" max="1" chance="2.528" /> (Fisted Blade)
-					<item id="135" min="1" max="1" chance="1.773" /> (Samurai Long Sword)
-					<item id="2435" min="1" max="1" chance="44.363" /> (Demon's Boots)
-					<item id="356" min="1" max="1" chance="5.2" /> (Full Plate Armor)
-					<item id="91896" min="1" max="1" chance="1.773" /> (Admiral's Estoc)
-					<item id="1127" min="1" max="1" chance="44.363" /> (Forgotten Boots)
+					<item id="265" min="1" max="1" chance="2.528" /> <!-- Fisted Blade -->
+					<item id="135" min="1" max="1" chance="1.773" /> <!-- Samurai Long Sword -->
+					<item id="2435" min="1" max="1" chance="44.363" /> <!-- Demon's Boots -->
+					<item id="356" min="1" max="1" chance="5.2" /> <!-- Full Plate Armor -->
+					<item id="91896" min="1" max="1" chance="1.773" /> <!-- Admiral's Estoc -->
+					<item id="1127" min="1" max="1" chance="44.363" /> <!-- Forgotten Boots -->
 				</group>
 				<group chance="5.4601">
-					<item id="3031" min="1" max="1" chance="100" /> (Spirit Ore - Sealed)
+					<item id="3031" min="1" max="1" chance="100" /> <!-- Spirit Ore - Sealed -->
 				</group>
 			</drop>
 		</dropLists>
@@ -538,18 +538,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4389" level="3" /> (Fear Resistance)
-			<skill id="4225" level="5" /> (Shock Attack Resistance)
-			<skill id="4287" level="5" /> (Hold Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4389" level="3" /> <!-- Fear Resistance -->
+			<skill id="4225" level="5" /> <!-- Shock Attack Resistance -->
+			<skill id="4287" level="5" /> <!-- Hold Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -573,20 +573,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="16" /> (Very Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="5549" level="1" /> (Melee Attack Vulnerability)
-			<skill id="4085" level="1" /> (Critical Damage)
-			<skill id="4389" level="3" /> (Fear Resistance)
-			<skill id="4225" level="5" /> (Shock Attack Resistance)
-			<skill id="4287" level="5" /> (Hold Resistance)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="5549" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4389" level="3" /> <!-- Fear Resistance -->
+			<skill id="4225" level="5" /> <!-- Shock Attack Resistance -->
+			<skill id="4287" level="5" /> <!-- Hold Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="25" />
@@ -614,18 +614,18 @@
 			<height normal="42.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4389" level="3" /> (Fear Resistance)
-			<skill id="4225" level="5" /> (Shock Attack Resistance)
-			<skill id="4287" level="5" /> (Hold Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4389" level="3" /> <!-- Fear Resistance -->
+			<skill id="4225" level="5" /> <!-- Shock Attack Resistance -->
+			<skill id="4287" level="5" /> <!-- Hold Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24018" level="78" type="Monster" name="Hekaton Prime" title="Giant's Cave Master">
@@ -643,20 +643,20 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="16" /> (Very Strong P. Def.)
-			<skill id="4413" level="14" /> (Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4085" level="1" /> (Critical Damage)
-			<skill id="4086" level="1" /> (Critical Chance)
-			<skill id="4389" level="3" /> (Fear Resistance)
-			<skill id="4225" level="5" /> (Shock Attack Resistance)
-			<skill id="4287" level="5" /> (Hold Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4389" level="3" /> <!-- Fear Resistance -->
+			<skill id="4225" level="5" /> <!-- Shock Attack Resistance -->
+			<skill id="4287" level="5" /> <!-- Hold Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="32" />
@@ -680,18 +680,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="14" /> (Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4389" level="3" /> (Fear Resistance)
-			<skill id="4225" level="5" /> (Shock Attack Resistance)
-			<skill id="4287" level="5" /> (Hold Resistance)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4389" level="3" /> <!-- Fear Resistance -->
+			<skill id="4225" level="5" /> <!-- Shock Attack Resistance -->
+			<skill id="4287" level="5" /> <!-- Hold Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="27.5" />
@@ -714,18 +714,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="4389" level="3" /> (Fear Resistance)
-			<skill id="4225" level="5" /> (Shock Attack Resistance)
-			<skill id="4287" level="5" /> (Hold Resistance)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4389" level="3" /> <!-- Fear Resistance -->
+			<skill id="4225" level="5" /> <!-- Shock Attack Resistance -->
+			<skill id="4287" level="5" /> <!-- Hold Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="24" />
@@ -750,18 +750,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4389" level="3" /> (Fear Resistance)
-			<skill id="4225" level="5" /> (Shock Attack Resistance)
-			<skill id="4287" level="5" /> (Hold Resistance)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4389" level="3" /> <!-- Fear Resistance -->
+			<skill id="4225" level="5" /> <!-- Shock Attack Resistance -->
+			<skill id="4287" level="5" /> <!-- Hold Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="25" />
@@ -786,19 +786,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="11" /> (Giants)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="14" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4285" level="5" /> (Sleep Resistance)
-			<skill id="4389" level="3" /> (Fear Resistance)
-			<skill id="4225" level="5" /> (Shock Attack Resistance)
-			<skill id="4287" level="5" /> (Hold Resistance)
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4389" level="3" /> <!-- Fear Resistance -->
+			<skill id="4225" level="5" /> <!-- Shock Attack Resistance -->
+			<skill id="4287" level="5" /> <!-- Hold Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="50" />
@@ -826,18 +826,18 @@
 			<height normal="35" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="15" /> (Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="4389" level="3" /> (Fear Resistance)
-			<skill id="4225" level="5" /> (Shock Attack Resistance)
-			<skill id="4287" level="5" /> (Hold Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4389" level="3" /> <!-- Fear Resistance -->
+			<skill id="4225" level="5" /> <!-- Shock Attack Resistance -->
+			<skill id="4287" level="5" /> <!-- Hold Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24024" level="75" type="Monster" name="Hunter">
@@ -862,19 +862,19 @@
 			<height normal="35" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="5" /> (Blunt Weapon)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="4439" level="2" /> (Greater Hold Resistance)
-			<skill id="4440" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="4439" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="4440" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24025" level="70" type="Monster" name="Bloody Purple" element="FIRE">
@@ -905,22 +905,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="8" /> (Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -955,22 +955,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="17" />
@@ -998,22 +998,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="10.4" />
@@ -1042,22 +1042,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13" />
@@ -1086,22 +1086,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -1129,22 +1129,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="16.5" />
@@ -1172,22 +1172,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13.2" />
@@ -1215,22 +1215,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="8" /> (Weak P. Def.)
-			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="24" />
@@ -1259,22 +1259,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
-			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="19.2" />
@@ -1303,22 +1303,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="8.4" />
@@ -1347,22 +1347,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -1390,22 +1390,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="13.2" />
@@ -1433,22 +1433,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
-			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="17" />
@@ -1476,22 +1476,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="12" /> (Bugs)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="22.4" />
@@ -1519,22 +1519,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -1562,22 +1562,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
-			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="23" />
@@ -1605,22 +1605,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="3" /> (Beasts)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -1648,22 +1648,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="30" />
@@ -1691,22 +1691,22 @@
 			<height normal="37" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> (Dragons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24044" level="74" type="Monster" name="Zaken's Treasure Chest" element="FIRE">
@@ -1730,22 +1730,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -1773,22 +1773,22 @@
 			<height normal="8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24046" level="70" type="Monster" name="All-seeing Eye" element="FIRE">
@@ -1808,22 +1808,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -1847,22 +1847,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -1890,22 +1890,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="7" />
@@ -1929,22 +1929,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="7" />
@@ -1972,22 +1972,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="11" />
@@ -2010,22 +2010,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="9" /> (Bow)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="9" /> <!-- Bow -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -2053,22 +2053,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="8" /> (Angels)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="9" />
@@ -2092,22 +2092,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="16" />
@@ -2135,22 +2135,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="14" /> (Humans)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="15" />
@@ -2174,22 +2174,22 @@
 		</stats>
 		<status attackable="true" passableDoor="true" />
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="12" />
@@ -2218,20 +2218,20 @@
 			<height normal="15" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24057" level="70" type="Monster" name="Fiend's Radiant Chest" element="FIRE">
@@ -2256,20 +2256,20 @@
 			<height normal="12" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24058" level="70" type="Monster" name="Radiant Treasure Chest" element="FIRE">
@@ -2294,20 +2294,20 @@
 			<height normal="9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24059" level="70" type="Monster" name="Radiant Jewel Box" element="FIRE">
@@ -2332,20 +2332,20 @@
 			<height normal="9.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24060" level="70" type="Monster" name="Strong Large Wooden Chest" element="FIRE">
@@ -2370,20 +2370,20 @@
 			<height normal="14" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24061" level="70" type="Monster" name="Fiend's Strong Chest" element="FIRE">
@@ -2408,20 +2408,20 @@
 			<height normal="12" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24062" level="70" type="Monster" name="Strong Iron Chest" element="FIRE">
@@ -2446,20 +2446,20 @@
 			<height normal="8.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24063" level="70" type="Monster" name="Strong Treasure Chest" element="FIRE">
@@ -2484,20 +2484,20 @@
 			<height normal="8.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24064" level="70" type="Monster" name="Simple Large Wooden Chest" element="FIRE">
@@ -2522,20 +2522,20 @@
 			<height normal="14" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24065" level="70" type="Monster" name="Simple Big Jar" element="FIRE">
@@ -2560,20 +2560,20 @@
 			<height normal="21.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24066" level="70" type="Monster" name="Simple Iron Chest" element="FIRE">
@@ -2598,20 +2598,20 @@
 			<height normal="8.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24067" level="70" type="Monster" name="Simple Treasure Chest" element="FIRE">
@@ -2636,20 +2636,20 @@
 			<height normal="8.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24068" level="70" type="Monster" name="Ancient Large Wooden Chest" element="FIRE">
@@ -2674,20 +2674,20 @@
 			<height normal="14" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24069" level="70" type="Monster" name="Old Big Jar" element="FIRE">
@@ -2712,20 +2712,20 @@
 			<height normal="21.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24070" level="70" type="Monster" name="Ancient Iron Chest" element="FIRE">
@@ -2750,20 +2750,20 @@
 			<height normal="9.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24071" level="70" type="Monster" name="Ancient Jewel Box" element="FIRE">
@@ -2788,20 +2788,20 @@
 			<height normal="9.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24072" level="70" type="Monster" name="Small Jar of Luck" element="FIRE">
@@ -2826,20 +2826,20 @@
 			<height normal="15" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24073" level="70" type="Monster" name="Small Jar of Hope" element="FIRE">
@@ -2864,20 +2864,20 @@
 			<height normal="15" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24074" level="70" type="Monster" name="Small Jar of Fate" element="FIRE">
@@ -2902,20 +2902,20 @@
 			<height normal="15" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> (Others)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24075" level="70" type="Monster" name="Large Jar of Luck" element="FIRE">
@@ -2940,20 +2940,20 @@
 			<height normal="21.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24076" level="70" type="Monster" name="Large Jar of Hope" element="FIRE">
@@ -2978,20 +2978,20 @@
 			<height normal="21.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24077" level="70" type="Monster" name="Large Jar of Fate" element="FIRE">
@@ -3016,20 +3016,20 @@
 			<height normal="21.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24078" level="70" type="Monster" name="Large Treasure Chest of Luck" element="FIRE">
@@ -3054,20 +3054,20 @@
 			<height normal="8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24079" level="70" type="Monster" name="Large Treasure Chest of Hope" element="FIRE">
@@ -3092,20 +3092,20 @@
 			<height normal="8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24080" level="70" type="Monster" name="Large Treasure Chest of Fate" element="FIRE">
@@ -3130,20 +3130,20 @@
 			<height normal="8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24081" level="70" type="Monster" name="Small Treasure Chest of Luck" element="FIRE">
@@ -3168,20 +3168,20 @@
 			<height normal="12" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24082" level="70" type="Monster" name="Small Treasure Chest of Hope" element="FIRE">
@@ -3206,20 +3206,20 @@
 			<height normal="12" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24083" level="70" type="Monster" name="Small Treasure Chest of Fate" element="FIRE">
@@ -3244,20 +3244,20 @@
 			<height normal="12" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> (Magical Creatures)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24084" level="70" type="Monster" name="Keeper of Skeleton's Treasure" element="FIRE">
@@ -3282,22 +3282,22 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24085" level="72" type="Monster" name="Sairon's Doll" element="FIRE">
@@ -3322,22 +3322,22 @@
 			<height normal="13.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> (Undead)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 	<npc id="24086" level="72" type="Monster" name="Sairon's Doll" element="FIRE">
@@ -3363,22 +3363,22 @@
 			<height normal="15" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> (Demons)
-			<skill id="4408" level="1" /> (HP Increase (1x))
-			<skill id="4409" level="1" /> (MP Increase (1x))
-			<skill id="4410" level="11" /> (Average Damage Dealer)
-			<skill id="4411" level="11" /> (Average M. Atk.)
-			<skill id="4412" level="11" /> (Average P. Def.)
-			<skill id="4413" level="11" /> (Average M. Def.)
-			<skill id="4414" level="2" /> (Standard Type)
-			<skill id="4415" level="3" /> (One-handed Sword)
-			<skill id="48044" level="1" /> (Fire Attribute Monster)
-			<skill id="5599" level="11" /> (Shock Resistance)
-			<skill id="5554" level="11" /> (Silence Resistance)
-			<skill id="50010" level="2" /> (Greater Hold Resistance)
-			<skill id="50011" level="2" /> (Greater Paralysis Resistance)
-			<skill id="4116" level="6" /> (Magic Damage Resistance)
-			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="5599" level="11" /> <!-- Shock Resistance -->
+			<skill id="5554" level="11" /> <!-- Silence Resistance -->
+			<skill id="50010" level="2" /> <!-- Greater Hold Resistance -->
+			<skill id="50011" level="2" /> <!-- Greater Paralysis Resistance -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 	</npc>
 </list>
