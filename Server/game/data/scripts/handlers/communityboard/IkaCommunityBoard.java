@@ -490,8 +490,8 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	private void showChangeSexPage(Player player)
 	{
-		final String atual = player.getAppearance().getSex() ? "Feminino" : "Masculino";
-		final String novo = player.getAppearance().getSex() ? "Masculino" : "Feminino";
+		final String atual = player.getAppearance().isFemale() ? "Feminino" : "Masculino";
+		final String novo = player.getAppearance().isFemale() ? "Masculino" : "Feminino";
 		final long balance = getPlayerCredits(player);
 		final StringBuilder c = new StringBuilder();
 		c.append("<br><br>");
@@ -518,7 +518,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			return;
 		}
 		final long now = System.currentTimeMillis();
-		final boolean newSex = !player.getAppearance().getSex();
+		final boolean newFemale = !player.getAppearance().isFemale();
 		try (Connection con = DatabaseFactory.getConnection())
 		{
 			try (PreparedStatement ps = con.prepareStatement("UPDATE ikoin_balance SET balance=balance-?, updated_at=? WHERE account_name=?"))
@@ -539,7 +539,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			}
 			try (PreparedStatement ps = con.prepareStatement("UPDATE characters SET sex=? WHERE charId=?"))
 			{
-				ps.setInt(1, newSex ? 1 : 0);
+				ps.setInt(1, newFemale ? 1 : 0);
 				ps.setInt(2, player.getObjectId());
 				ps.executeUpdate();
 			}
@@ -550,7 +550,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			showAccountPage(player);
 			return;
 		}
-		player.getAppearance().setSex(newSex);
+		if (newFemale) player.getAppearance().setFemale(); else player.getAppearance().setMale();
 		player.broadcastUserInfo();
 		player.sendMessage("[Sexo] Sexo alterado! Relogar para visualizar a mudanca.");
 		showAccountPage(player);
@@ -560,7 +560,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 
 	private void showComprarPage(Player player, String msg)
 	{
-		final int saldo = getPlayerCredits(player);
+		final long saldo = getPlayerCredits(player);
 		final StringBuilder c = new StringBuilder();
 		c.append("<br><br>");
 		c.append("<font name=\"hs12\" color=\"LEVEL\">COMPRAR IKOINS</font><br>");
