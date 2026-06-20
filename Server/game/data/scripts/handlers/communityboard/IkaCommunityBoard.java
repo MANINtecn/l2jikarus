@@ -1407,50 +1407,142 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("inspect"), c.toString()), player);
 	}
 
+	// slots PAPERDOLL que queremos mostrar (ordem de exibição)
+	private static final int[] EQUIP_SLOTS = { 7, 4, 8, 10, 9, 11, 12, 13, 14, 5, 6, 0, 1, 2, 3 };
+	private static final String[] EQUIP_LABELS = { "Arma", "Armadura", "Luvas", "Botas", "Calca", "Elmo", "Colar", "Brinco E", "Brinco D", "Anel E", "Anel D", "Talisman 1", "Talisman 2", "Talisman 3", "Talisman 4" };
+
 	private void buildInspectFromPlayer(StringBuilder c, Player target)
 	{
-		int hpPct = (int)((target.getCurrentHp() / target.getMaxHp()) * 100);
-		int mpPct = (int)((target.getCurrentMp() / target.getMaxMp()) * 100);
-		int cpPct = (int)((target.getCurrentCp() / target.getMaxCp()) * 100);
+		final int hpPct = (int)((target.getCurrentHp() / target.getMaxHp()) * 100);
+		final int mpPct = (int)((target.getCurrentMp() / target.getMaxMp()) * 100);
+		final int cpPct = (int)((target.getCurrentCp() / target.getMaxCp()) * 100);
 
-		c.append("<center><table width=500 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=4>");
-		c.append("<tr><td colspan=2 align=center><font color=\"44FF44\">&#9679; Online</font>  <font color=\"CDB67F\" name=\"hs12\">").append(target.getName()).append("</font></td></tr>");
-		c.append("<tr><td colspan=2><img src=\"L2UI.SquareGray\" width=480 height=1></td></tr>");
-		c.append("<tr><td width=240><font color=\"888888\">Nivel:</font> <font color=\"FFFFFF\">").append(target.getLevel()).append("</font></td>");
-		c.append("<td width=240><font color=\"888888\">Classe:</font> <font color=\"FFFFFF\">").append(getClassName(target.getActiveClass())).append("</font></td></tr>");
-		c.append("<tr><td><font color=\"888888\">Raca:</font> <font color=\"FFFFFF\">").append(getRaceName(target.getRace().ordinal())).append("</font></td>");
-		c.append("<td><font color=\"888888\">PvP / PK:</font> <font color=\"FF6666\">").append(target.getPvpKills()).append("</font> / <font color=\"AA4444\">").append(target.getPkKills()).append("</font></td></tr>");
-		c.append("<tr><td colspan=2 height=6></td></tr>");
-		c.append("<tr><td><font color=\"888888\">HP:</font> ").append(buildBar(hpPct, "FF3333", "330000", 200)).append("</td>");
-		c.append("<td><font color=\"888888\">CP:</font> ").append(buildBar(cpPct, "33CC33", "003300", 200)).append("</td></tr>");
-		c.append("<tr><td colspan=2><font color=\"888888\">MP:</font> ").append(buildBar(mpPct, "3366FF", "000033", 430)).append("</td></tr>");
-		c.append("</table></center>");
+		c.append("<table width=530 cellpadding=3 cellspacing=0>");
+
+		// cabeçalho
+		c.append("<tr><td colspan=4 align=center><font color=\"44FF44\">&#9679; Online</font>  <font color=\"CDB67F\" name=\"hs12\">").append(target.getName()).append("</font></td></tr>");
+		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+
+		// info básica — linha 1
+		c.append("<tr>");
+		c.append("<td width=130><font color=\"888888\">Nivel:</font> <font color=\"FFFFFF\">").append(target.getLevel()).append("</font></td>");
+		c.append("<td width=200><font color=\"888888\">Classe:</font> <font color=\"FFFFFF\">").append(getClassName(target.getActiveClass())).append("</font></td>");
+		c.append("<td width=100><font color=\"888888\">Raca:</font> <font color=\"FFFFFF\">").append(getRaceName(target.getRace().ordinal())).append("</font></td>");
+		c.append("<td width=100><font color=\"888888\">PvP:</font> <font color=\"FF6666\">").append(target.getPvpKills()).append("</font> <font color=\"888888\">PK:</font> <font color=\"AA4444\">").append(target.getPkKills()).append("</font></td>");
+		c.append("</tr>");
+
+		// barras HP/CP/MP
+		c.append("<tr><td colspan=2><font color=\"888888\">HP:</font> ").append(buildBar(hpPct, "CC2222", "220000", 310)).append("</td>");
+		c.append("<td colspan=2><font color=\"888888\">CP:</font> ").append(buildBar(cpPct, "22AA22", "002200", 200)).append("</td></tr>");
+		c.append("<tr><td colspan=4><font color=\"888888\">MP:</font> ").append(buildBar(mpPct, "2255CC", "001133", 510)).append("</td></tr>");
+
+		// stats
+		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr>");
+		c.append("<td><font color=\"888888\">P.Atk:</font> <font color=\"FFFFFF\">").append((int)target.getPAtk()).append("</font></td>");
+		c.append("<td><font color=\"888888\">P.Def:</font> <font color=\"FFFFFF\">").append((int)target.getPDef()).append("</font></td>");
+		c.append("<td><font color=\"888888\">M.Atk:</font> <font color=\"FFFFFF\">").append((int)target.getMAtk()).append("</font></td>");
+		c.append("<td><font color=\"888888\">M.Def:</font> <font color=\"FFFFFF\">").append((int)target.getMDef()).append("</font></td>");
+		c.append("</tr>");
+		c.append("<tr>");
+		c.append("<td><font color=\"888888\">Velocidade:</font> <font color=\"FFFFFF\">").append(target.getRunSpeed()).append("</font></td>");
+		c.append("<td><font color=\"888888\">Crit:</font> <font color=\"FFFFFF\">").append((int)target.getCriticalHit()).append("</font></td>");
+		c.append("<td><font color=\"888888\">Evasao:</font> <font color=\"FFFFFF\">").append(target.getEvasionRate()).append("</font></td>");
+		c.append("<td><font color=\"888888\">Precisao:</font> <font color=\"FFFFFF\">").append(target.getAccuracy()).append("</font></td>");
+		c.append("</tr>");
+
+		// equipamentos
+		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td colspan=4 align=center><font color=\"CDB67F\">EQUIPAMENTOS</font></td></tr>");
+		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+
+		for (int i = 0; i < EQUIP_SLOTS.length; i++)
+		{
+			final Item item = target.getInventory().getPaperdollItem(EQUIP_SLOTS[i]);
+			if (item == null) continue;
+			final String enchant = item.getEnchantLevel() > 0 ? " <font color=\"FFAA00\">+" + item.getEnchantLevel() + "</font>" : "";
+			final String icon = item.getTemplate().getIcon() != null ? item.getTemplate().getIcon() : "L2UI_CH3.shortcut_dfbutton";
+			c.append("<tr>");
+			c.append("<td width=130><font color=\"696969\">").append(EQUIP_LABELS[i]).append(":</font></td>");
+			c.append("<td width=36><img src=\"").append(icon).append("\" width=32 height=32></td>");
+			c.append("<td colspan=2><font color=\"CCCCCC\">").append(item.getName()).append("</font>").append(enchant).append("</td>");
+			c.append("</tr>");
+		}
+
+		c.append("</table>");
 	}
 
 	private void buildInspectFromDB(StringBuilder c, String name)
 	{
-		try (Connection con = DatabaseFactory.getConnection();
-			PreparedStatement ps = con.prepareStatement("SELECT char_name, level, classid, race, pvpkills, pkKills, sex FROM characters WHERE char_name=? AND accesslevel=0 LIMIT 1"))
+		try (Connection con = DatabaseFactory.getConnection())
 		{
-			ps.setString(1, name);
-			try (ResultSet rs = ps.executeQuery())
+			int charId = -1;
+			String charName = "";
+			int level = 0, classId = 0, race = 0, pvp = 0, pk = 0;
+
+			try (PreparedStatement ps = con.prepareStatement("SELECT charId, char_name, level, classid, race, pvpkills, pkKills FROM characters WHERE char_name=? AND accesslevel=0 LIMIT 1"))
 			{
-				if (rs.next())
+				ps.setString(1, name);
+				try (ResultSet rs = ps.executeQuery())
 				{
-					c.append("<center><table width=500 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=4>");
-					c.append("<tr><td colspan=2 align=center><font color=\"888888\">&#9679; Offline</font>  <font color=\"CDB67F\" name=\"hs12\">").append(rs.getString("char_name")).append("</font></td></tr>");
-					c.append("<tr><td colspan=2><img src=\"L2UI.SquareGray\" width=480 height=1></td></tr>");
-					c.append("<tr><td width=240><font color=\"888888\">Nivel:</font> <font color=\"FFFFFF\">").append(rs.getInt("level")).append("</font></td>");
-					c.append("<td width=240><font color=\"888888\">Classe:</font> <font color=\"FFFFFF\">").append(getClassName(rs.getInt("classid"))).append("</font></td></tr>");
-					c.append("<tr><td><font color=\"888888\">Raca:</font> <font color=\"FFFFFF\">").append(getRaceName(rs.getInt("race"))).append("</font></td>");
-					c.append("<td><font color=\"888888\">PvP / PK:</font> <font color=\"FF6666\">").append(rs.getInt("pvpkills")).append("</font> / <font color=\"AA4444\">").append(rs.getInt("pkKills")).append("</font></td></tr>");
-					c.append("</table></center>");
-				}
-				else
-				{
-					c.append("<center><font color=\"FF4444\">Jogador '").append(name).append("' nao encontrado.</font></center>");
+					if (!rs.next())
+					{
+						c.append("<center><font color=\"FF4444\">Jogador '").append(name).append("' nao encontrado.</font></center>");
+						return;
+					}
+					charId   = rs.getInt("charId");
+					charName = rs.getString("char_name");
+					level    = rs.getInt("level");
+					classId  = rs.getInt("classid");
+					race     = rs.getInt("race");
+					pvp      = rs.getInt("pvpkills");
+					pk       = rs.getInt("pkKills");
 				}
 			}
+
+			c.append("<table width=530 cellpadding=3 cellspacing=0>");
+			c.append("<tr><td colspan=4 align=center><font color=\"888888\">&#9679; Offline</font>  <font color=\"CDB67F\" name=\"hs12\">").append(charName).append("</font></td></tr>");
+			c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+			c.append("<tr>");
+			c.append("<td width=130><font color=\"888888\">Nivel:</font> <font color=\"FFFFFF\">").append(level).append("</font></td>");
+			c.append("<td width=200><font color=\"888888\">Classe:</font> <font color=\"FFFFFF\">").append(getClassName(classId)).append("</font></td>");
+			c.append("<td width=100><font color=\"888888\">Raca:</font> <font color=\"FFFFFF\">").append(getRaceName(race)).append("</font></td>");
+			c.append("<td width=100><font color=\"888888\">PvP:</font> <font color=\"FF6666\">").append(pvp).append("</font> <font color=\"888888\">PK:</font> <font color=\"AA4444\">").append(pk).append("</font></td>");
+			c.append("</tr>");
+
+			// equipamentos do banco
+			c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+			c.append("<tr><td colspan=4 align=center><font color=\"CDB67F\">EQUIPAMENTOS</font></td></tr>");
+			c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+
+			try (PreparedStatement ps2 = con.prepareStatement(
+				"SELECT i.item_id, i.enchant_level, i.loc_data FROM items i WHERE i.owner_id=? AND i.loc='PAPERDOLL' ORDER BY i.loc_data"))
+			{
+				ps2.setInt(1, charId);
+				try (ResultSet rs2 = ps2.executeQuery())
+				{
+					boolean hasItem = false;
+					while (rs2.next())
+					{
+						hasItem = true;
+						final int itemId = rs2.getInt("item_id");
+						final int enchantLvl = rs2.getInt("enchant_level");
+						final ItemTemplate tmpl = ItemData.getInstance().getTemplate(itemId);
+						final String iName = tmpl != null ? tmpl.getName() : "Item " + itemId;
+						final String icon = (tmpl != null && tmpl.getIcon() != null) ? tmpl.getIcon() : "L2UI_CH3.shortcut_dfbutton";
+						final String enchant = enchantLvl > 0 ? " <font color=\"FFAA00\">+" + enchantLvl + "</font>" : "";
+						c.append("<tr>");
+						c.append("<td width=36><img src=\"").append(icon).append("\" width=32 height=32></td>");
+						c.append("<td colspan=3><font color=\"CCCCCC\">").append(iName).append("</font>").append(enchant).append("</td>");
+						c.append("</tr>");
+					}
+					if (!hasItem)
+					{
+						c.append("<tr><td colspan=4 align=center><font color=\"696969\">Sem equipamentos.</font></td></tr>");
+					}
+				}
+			}
+			c.append("</table>");
 		}
 		catch (Exception e)
 		{
