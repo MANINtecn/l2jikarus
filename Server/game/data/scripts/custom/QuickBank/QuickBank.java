@@ -12,11 +12,14 @@ import net.sf.l2jdev.gameserver.model.actor.Npc;
 import net.sf.l2jdev.gameserver.model.actor.Player;
 import net.sf.l2jdev.gameserver.model.script.Script;
 import net.sf.l2jdev.gameserver.model.zone.ZoneId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ActionFailed;
+import net.sf.l2jdev.gameserver.network.serverpackets.WareHouseDepositList;
+import net.sf.l2jdev.gameserver.network.serverpackets.WareHouseWithdrawalList;
 
 /**
  * Banco Rapido (Quick Bank) - L2 Ikarus.
- * NPC cosmetico 18423: abre menu Depositar/Retirar usando os bypass handlers
- * nativos (PrivateWarehouse IBypassHandler). Funciona so em peace zone.
+ * NPC 18423: abre deposito e retirada da warehouse privada diretamente (sem dialog).
+ * Funciona so em peace zone.
  */
 public class QuickBank extends Script
 {
@@ -38,15 +41,22 @@ public class QuickBank extends Script
 			return null;
 		}
 
-		// Retornar HTML com os bypass nativos do warehouse.
-		// O handler PrivateWarehouse (IBypassHandler) processa DepositP e WithdrawP.
-		final String id = String.valueOf(npc.getObjectId());
-		return "<html><body><center><br>" +
-			"<font color=\"LEVEL\">Banco Rápido</font><br>" +
-			"<font color=\"aaaaaa\">Guarde seus itens antes de entrar<br>na Zona Mortal!</font><br><br>" +
-			"<Button ALIGN=LEFT ICON=\"NORMAL\" action=\"bypass -h npc_" + id + "_DepositP\">Depositar Itens</Button>" +
-			"<Button ALIGN=LEFT ICON=\"NORMAL\" action=\"bypass -h npc_" + id + "_WithdrawP\">Retirar Itens</Button>" +
-			"</center></body></html>";
+		player.sendPacket(ActionFailed.STATIC_PACKET);
+		player.setActiveWarehouse(player.getWarehouse());
+		player.setInventoryBlockingStatus(true);
+
+		// Abre a janela de deposito
+		player.sendPacket(new WareHouseDepositList(1, player, WareHouseDepositList.PRIVATE));
+		player.sendPacket(new WareHouseDepositList(2, player, WareHouseDepositList.PRIVATE));
+
+		// Abre tambem a janela de retirada (se tiver itens guardados)
+		if (player.getWarehouse().getSize() > 0)
+		{
+			player.sendPacket(new WareHouseWithdrawalList(1, player, WareHouseWithdrawalList.PRIVATE));
+			player.sendPacket(new WareHouseWithdrawalList(2, player, WareHouseWithdrawalList.PRIVATE));
+		}
+
+		return null;
 	}
 
 	public static void main(String[] args)

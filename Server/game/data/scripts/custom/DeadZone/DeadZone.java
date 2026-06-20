@@ -116,6 +116,9 @@ public class DeadZone extends Script
 	// Contador de violacoes por jogador (objectId -> qtd)
 	private static final Map<Integer, Integer> VIOLATIONS = new ConcurrentHashMap<>();
 
+	// Instancia unica do gatekeeper (evita duplicar em restarts)
+	private static volatile Npc GATEKEEPER_INSTANCE = null;
+
 	// Raid bosses lvl 20-34 reaproveitados como mini-bosses da zona
 	private static final int[] BOSS_IDS =
 	{
@@ -222,15 +225,22 @@ public class DeadZone extends Script
 		addSpawnId(BOSS_IDS);
 		addKillId(BOSS_IDS);
 
-		// Gatekeeper (Portador da Morte) - spawn + interacao + chamas vermelhas
+		// Gatekeeper (Portador da Morte) - spawn unico + interacao + chamas vermelhas
 		addFirstTalkId(GATEKEEPER_NPC_ID);
 		addTalkId(GATEKEEPER_NPC_ID);
-		final Npc gatekeeper = addSpawn(GATEKEEPER_NPC_ID, GK_X, GK_Y, GK_Z, GK_HEADING, false, 0);
-		gatekeeper.setTitle("Portador da Morte");
-		gatekeeper.setTargetable(true); // Hermit e targetable=false por padrao - libera pro jogador clicar
-		gatekeeper.getEffectList().startAbnormalVisualEffect(AbnormalVisualEffect.DK_IGNITION_DARKELF_AVE);
-		gatekeeper.updateAbnormalVisualEffects();
-		gatekeeper.broadcastInfo();
+		synchronized (DeadZone.class)
+		{
+			if (GATEKEEPER_INSTANCE != null && GATEKEEPER_INSTANCE.isSpawned())
+			{
+				GATEKEEPER_INSTANCE.deleteMe();
+			}
+			GATEKEEPER_INSTANCE = addSpawn(GATEKEEPER_NPC_ID, GK_X, GK_Y, GK_Z, GK_HEADING, false, 0);
+		}
+		GATEKEEPER_INSTANCE.setTitle("Portador da Morte");
+		GATEKEEPER_INSTANCE.setTargetable(true);
+		GATEKEEPER_INSTANCE.getEffectList().startAbnormalVisualEffect(AbnormalVisualEffect.DK_IGNITION_DARKELF_AVE);
+		GATEKEEPER_INSTANCE.updateAbnormalVisualEffects();
+		GATEKEEPER_INSTANCE.broadcastInfo();
 
 		// Alerta global de atracao (servidor inteiro)
 		if (ANNOUNCE_INTERVAL > 0)

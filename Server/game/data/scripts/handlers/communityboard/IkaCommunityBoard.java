@@ -562,20 +562,25 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	{
 		final long saldo = getPlayerCredits(player);
 		final StringBuilder c = new StringBuilder();
-		c.append("<br><br>");
-		c.append("<font name=\"hs12\" color=\"LEVEL\">COMPRAR IKOINS</font><br>");
-		c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br><br>");
-		c.append("<font color=\"aaaaaa\">1 Ikoin = R$ 1,00 &nbsp;|&nbsp; Saldo atual: <font color=\"LEVEL\">").append(saldo).append(" Ikoins</font></font><br><br>");
-		if (!msg.isEmpty()) { c.append(msg).append("<br>"); }
-		c.append("<table><tr>");
-		c.append("<td><font color=\"aaaaaa\">Quantidade (min 10, max 5000):</font></td>");
-		c.append("<td><edit var=\"ikoins\" width=80 height=15></td></tr></table><br>");
-		c.append("<button value=\"Gerar QR PIX\" action=\"bypass _bbsika_ikoin_pix_create_$ikoins\" width=180 height=30 ");
-		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"><br><br>");
-		c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br>");
-		c.append("<font color=\"888888\">Prefere cartao de credito? Acesse:</font><br>");
-		c.append("<font color=\"LEVEL\">l2ikarus.com/checkout</font><br>");
-		c.append("<font color=\"888888\">(entre com sua conta e escolha o pacote)</font>");
+		// banner com imagem nativa
+		c.append("<center><table background=\"L2EssenceCommunity.donate_bg\" width=530 height=110>");
+		c.append("<tr><td align=center valign=top><br><br>");
+		c.append("<font name=\"hs16\" color=\"LEVEL\">COMPRAR IKOINS</font><br><br>");
+		c.append("<font color=\"aaaaaa\">1 Ikoin = R$ 1,00 &nbsp;|&nbsp; Saldo: <font color=\"LEVEL\">").append(saldo).append(" Ikoins</font></font>");
+		c.append("</td></tr></table></center><br>");
+		c.append("<center><img src=\"L2UI.SquareGray\" width=500 height=1></center><br>");
+		if (!msg.isEmpty()) { c.append("<center>").append(msg).append("</center><br>"); }
+		// form centralizado
+		c.append("<center><table cellspacing=4>");
+		c.append("<tr><td align=right><font color=\"aaaaaa\">Quantidade (min 10, max 5000):</font></td>");
+		c.append("<td><edit var=\"ikoins\" width=100 height=15></td></tr>");
+		c.append("</table></center><br>");
+		c.append("<center><button value=\"Gerar QR PIX\" action=\"bypass _bbsika_ikoin_pix_create_$ikoins\" width=200 height=33 ");
+		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"></center><br><br>");
+		c.append("<center><img src=\"L2UI.SquareGray\" width=500 height=1></center><br>");
+		c.append("<center><font color=\"888888\">Prefere cartao de credito? Acesse:</font></center>");
+		c.append("<center><font color=\"LEVEL\">l2ikarus.com/checkout</font></center>");
+		c.append("<center><font color=\"888888\">(entre com sua conta e escolha o pacote)</font></center>");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("comprar"), c.toString()), player);
 	}
 
@@ -709,9 +714,9 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		n.append(navBtn("Referral", "_bbsika_referal_open", "L2EssenceCommunity.buffer_btn", active.equals("referral")));
 		n.append(navBtn("Voice", "_bbshome", "L2EssenceCommunity.teleport_btn", active.equals("voice")));
 		n.append(navBtn("Account", "_bbsika_account", "L2EssenceCommunity.acc_services_btn", active.equals("account")));
+		n.append(navBtn("Comprar Ikoin", "_bbsika_comprar", "L2EssenceCommunity.donate_items_btn", active.equals("comprar")));
 		n.append(navBtn("Rankings", "_bbsika_rankings", "L2EssenceCommunity.rankings_btn", active.equals("rankings")));
 		n.append(navBtn("Inspecionar", "_bbsika_inspect", "L2EssenceCommunity.itembroker_btn", active.equals("inspect")));
-		n.append(navBtn("Comprar Ikoin", "_bbsika_comprar", "L2EssenceCommunity.donate_items_btn", active.equals("comprar")));
 		n.append("</table>");
 		return n.toString();
 	}
