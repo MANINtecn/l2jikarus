@@ -1071,15 +1071,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</tr></table></center><br>");
 
 		// Tabela de resultados
-		c.append("<center><table width=510 cellpadding=0 cellspacing=0 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\">");
-		c.append("<tr>");
-		c.append("<td width=35 align=center><font color=\"CDB67F\">#</font></td>");
-		c.append("<td width=170><font color=\"CDB67F\">Nome</font></td>");
-		c.append("<td width=165><font color=\"CDB67F\">Classe</font></td>");
-		c.append("<td width=100 align=right><font color=\"CDB67F\">").append(getColLabel(type)).append("</font></td>");
-		c.append("<td width=10></td>");
+		c.append("<table width=540 cellpadding=2 cellspacing=0>");
+		c.append("<tr bgcolor=\"333333\">");
+		c.append("<td width=30 align=center><font color=\"CDB67F\">#</font></td>");
+		c.append("<td width=160><font color=\"CDB67F\">Nome</font></td>");
+		c.append("<td width=210><font color=\"CDB67F\">Classe</font></td>");
+		c.append("<td width=110 align=right><font color=\"CDB67F\">").append(getColLabel(type)).append("</font></td>");
 		c.append("</tr>");
-		c.append("<tr><td colspan=5><img src=\"L2UI.SquareGray\" width=510 height=1></td></tr>");
+		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
 
 		try (Connection con = DatabaseFactory.getConnection();
 			PreparedStatement ps = con.prepareStatement(buildRankQuery(type)))
@@ -1094,14 +1093,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 					long value = rs.getLong("val");
 					String className = getClassName(classId);
 					String color = pos == 1 ? "FFD700" : pos == 2 ? "C0C0C0" : pos == 3 ? "CD7F32" : "AAAAAA";
-					String medal = pos <= 3 ? "&#9733; " : "";
+					String medal = pos == 1 ? "&#9733; " : pos == 2 ? "&#9733; " : pos == 3 ? "&#9733; " : "";
+					String bg = pos % 2 == 0 ? " bgcolor=\"222222\"" : "";
 
-					c.append("<tr>");
-					c.append("<td width=35 align=center><font color=\"").append(color).append("\">").append(medal).append(pos).append("</font></td>");
-					c.append("<td width=170><font color=\"FFFFFF\">").append(name).append("</font></td>");
-					c.append("<td width=165><font color=\"888888\">").append(className).append("</font></td>");
-					c.append("<td width=100 align=right><font color=\"").append(color).append("\">").append(formatValue(type, value)).append("</font></td>");
-					c.append("<td width=10></td>");
+					c.append("<tr").append(bg).append(">");
+					c.append("<td width=30 align=center><font color=\"").append(color).append("\">").append(medal).append(pos).append("</font></td>");
+					c.append("<td width=160><font color=\"FFFFFF\">").append(name).append("</font></td>");
+					c.append("<td width=210><font color=\"888888\">").append(className).append("</font></td>");
+					c.append("<td width=110 align=right><font color=\"").append(color).append("\">").append(formatValue(type, value)).append("</font></td>");
 					c.append("</tr>");
 					pos++;
 				}

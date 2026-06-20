@@ -4,50 +4,52 @@
 	<!-- If you want to reduce the change for an item to be shown, you can add a lower chance value. -->
 	<!-- You can also add an announce value if you want the craft to be announced on the server. -->
 	<rewards>
-		<!-- Raidboss Weapons -->
-		<item id="92408" chance="3" announce="true" /> <!-- Baium's Thunder Breaker -->
-		<item id="93294" chance="3" announce="true" /> <!-- Baium's Thunder Breaker - Sealed -->
-		<item id="92421" chance="3" announce="true" /> <!-- Queen Ant's Stone Breaker -->
-		<item id="93295" chance="3" announce="true" /> <!-- Queen Ant's Stone Breaker - Sealed -->
-		<item id="92404" chance="3" announce="true" /> <!-- Zaken's Blood Sword -->
-		<item id="93291" chance="3" announce="true" /> <!-- Zaken's Blood Sword - Sealed -->
-		<item id="96268" chance="3" announce="true" /> <!-- Beleth' Soul Eater -->
-		<item id="96269" chance="3" announce="true" /> <!-- Beleth' Soul Eater - Sealed -->
-		<item id="92405" chance="3" announce="true" /> <!-- Core's Plasmic Bow -->
-		<item id="93292" chance="3" announce="true" /> <!-- Core's Plasmic Bow - Sealed -->
-		<item id="92407" chance="3" announce="true" /> <!-- Orfen's Venom Sword -->
-		<item id="93293" chance="3" announce="true" /> <!-- Orfen's Venom Sword - Sealed -->
-		<item id="94888" chance="3" announce="true" /> <!-- Anakim's Divine Pistols -->
-		<item id="95422" chance="3" announce="true" /> <!-- Anakim's Divine Pistols - Sealed -->
+		<!-- Raidboss Weapons — DESABILITADO ate liberar grad boss
+		<item id="92408" chance="3" announce="true" /> Baium's Thunder Breaker
+		<item id="93294" chance="3" announce="true" /> Baium's Thunder Breaker - Sealed
+		<item id="92421" chance="3" announce="true" /> Queen Ant's Stone Breaker
+		<item id="93295" chance="3" announce="true" /> Queen Ant's Stone Breaker - Sealed
+		<item id="92404" chance="3" announce="true" /> Zaken's Blood Sword
+		<item id="93291" chance="3" announce="true" /> Zaken's Blood Sword - Sealed
+		<item id="96268" chance="3" announce="true" /> Beleth' Soul Eater
+		<item id="96269" chance="3" announce="true" /> Beleth' Soul Eater - Sealed
+		<item id="92405" chance="3" announce="true" /> Core's Plasmic Bow
+		<item id="93292" chance="3" announce="true" /> Core's Plasmic Bow - Sealed
+		<item id="92407" chance="3" announce="true" /> Orfen's Venom Sword
+		<item id="93293" chance="3" announce="true" /> Orfen's Venom Sword - Sealed
+		<item id="94888" chance="3" announce="true" /> Anakim's Divine Pistols
+		<item id="95422" chance="3" announce="true" /> Anakim's Divine Pistols - Sealed
+		-->
 
-		<!-- Frost Lord Weapons (Vanguard Update) -->
-		<item id="97133" chance="3" announce="true" /> <!-- Frost Lord's Weapon Coupon -->
-		<item id="95725" chance="3" announce="true" /> <!-- Frost Lord's Sword -->
-		<item id="95726" chance="3" announce="true" /> <!-- Frost Lord's Two-handed Sword -->
-		<item id="95727" chance="3" announce="true" /> <!-- Frost Lord's Axe -->
-		<item id="95728" chance="3" announce="true" /> <!-- Frost Lord's Dagger -->
-		<item id="95729" chance="3" announce="true" /> <!-- Frost Lord's Spear -->
-		<item id="95730" chance="3" announce="true" /> <!-- Frost Lord's Bow -->
-		<item id="95731" chance="3" announce="true" /> <!-- Frost Lord's Blade Fists -->
-		<item id="95732" chance="3" announce="true" /> <!-- Frost Lord's Magic Blunt Weapon -->
-		<item id="95733" chance="3" announce="true" /> <!-- Frost Lord's Staff -->
-		<item id="95734" chance="3" announce="true" /> <!-- Frost Lord's Ancient Sword -->
-		<item id="95735" chance="3" announce="true" /> <!-- Frost Lord's Rapier -->
-		<item id="95736" chance="3" announce="true" /> <!-- Frost Lord's Pistols -->
-		<item id="95737" chance="3" announce="true" /> <!-- Frost Lord's Dual Swords -->
-		<item id="96751" chance="3" announce="true" /> <!-- Frost Lord's Sword - Sealed -->
-		<item id="96752" chance="3" announce="true" /> <!-- Frost Lord's Two-handed Sword - Sealed -->
-		<item id="96753" chance="3" announce="true" /> <!-- Frost Lord's Axe - Sealed -->
-		<item id="96754" chance="3" announce="true" /> <!-- Frost Lord's Dagger - Sealed -->
-		<item id="96755" chance="3" announce="true" /> <!-- Frost Lord's Spear - Sealed -->
-		<item id="96756" chance="3" announce="true" /> <!-- Frost Lord's Bow - Sealed -->
-		<item id="96757" chance="3" announce="true" /> <!-- Frost Lord's Blade Fists - Sealed -->
-		<item id="96758" chance="3" announce="true" /> <!-- Frost Lord's Magic Blunt - Sealed -->
-		<item id="96759" chance="3" announce="true" /> <!-- Frost Lord's Staff - Sealed -->
-		<item id="96760" chance="3" announce="true" /> <!-- Frost Lord's Ancient Sword - Sealed -->
-		<item id="96761" chance="3" announce="true" /> <!-- Frost Lord's Rapier - Sealed -->
-		<item id="96762" chance="3" announce="true" /> <!-- Frost Lord's Pistols - Sealed -->
-		<item id="96763" chance="3" announce="true" /> <!-- Frost Lord's Dual Swords - Sealed -->
+		<!-- Frost Lord Weapons — DESABILITADO ate liberar grad boss
+		<item id="97133" chance="3" announce="true" /> Frost Lord's Weapon Coupon
+		<item id="95725" chance="3" announce="true" /> Frost Lord's Sword
+		<item id="95726" chance="3" announce="true" /> Frost Lord's Two-handed Sword
+		<item id="95727" chance="3" announce="true" /> Frost Lord's Axe
+		<item id="95728" chance="3" announce="true" /> Frost Lord's Dagger
+		<item id="95729" chance="3" announce="true" /> Frost Lord's Spear
+		<item id="95730" chance="3" announce="true" /> Frost Lord's Bow
+		<item id="95731" chance="3" announce="true" /> Frost Lord's Blade Fists
+		<item id="95732" chance="3" announce="true" /> Frost Lord's Magic Blunt Weapon
+		<item id="95733" chance="3" announce="true" /> Frost Lord's Staff
+		<item id="95734" chance="3" announce="true" /> Frost Lord's Ancient Sword
+		<item id="95735" chance="3" announce="true" /> Frost Lord's Rapier
+		<item id="95736" chance="3" announce="true" /> Frost Lord's Pistols
+		<item id="95737" chance="3" announce="true" /> Frost Lord's Dual Swords
+		<item id="96751" chance="3" announce="true" /> Frost Lord's Sword - Sealed
+		<item id="96752" chance="3" announce="true" /> Frost Lord's Two-handed Sword - Sealed
+		<item id="96753" chance="3" announce="true" /> Frost Lord's Axe - Sealed
+		<item id="96754" chance="3" announce="true" /> Frost Lord's Dagger - Sealed
+		<item id="96755" chance="3" announce="true" /> Frost Lord's Spear - Sealed
+		<item id="96756" chance="3" announce="true" /> Frost Lord's Bow - Sealed
+		<item id="96757" chance="3" announce="true" /> Frost Lord's Blade Fists - Sealed
+		<item id="96758" chance="3" announce="true" /> Frost Lord's Magic Blunt - Sealed
+		<item id="96759" chance="3" announce="true" /> Frost Lord's Staff - Sealed
+		<item id="96760" chance="3" announce="true" /> Frost Lord's Ancient Sword - Sealed
+		<item id="96761" chance="3" announce="true" /> Frost Lord's Rapier - Sealed
+		<item id="96762" chance="3" announce="true" /> Frost Lord's Pistols - Sealed
+		<item id="96763" chance="3" announce="true" /> Frost Lord's Dual Swords - Sealed
+		-->
 
 		<!-- Weapons A Grade Top -->
 		<item id="91887" chance="25" announce="true" /> <!-- Durendal -->
@@ -337,8 +339,9 @@
 		<item id="93237" chance="12.5" announce="true" /> <!-- Random Enhanced Tallum Helmet Crafting (Light) -->
 		<item id="93238" chance="12.5" announce="true" /> <!-- Random Enhanced Tallum Helmet Crafting (Robe) -->
 
-		<!-- Boss Weapons Packs -->
-		<item id="92990" chance="5" announce="true" /> <!-- Boss' Weapon Pack -->
+		<!-- Boss Weapons Packs — DESABILITADO ate liberar grad boss
+		<item id="92990" chance="5" announce="true" /> Boss' Weapon Pack
+		-->
 
 		<!-- Weapons Packs -->
 		<item id="93252" chance="15" announce="true" /> <!-- +7 B-grade Weapon Crafting -->
