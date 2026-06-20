@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="19400" level="86" type="Monster" name="Hero's Bodyguard" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -21,17 +21,17 @@
 			<height normal="54" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="118" max="130" chance="100" /> <!-- Adena -->
+					<item id="57" min="118" max="130" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0088">
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -57,17 +57,17 @@
 			<height normal="54" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="146" max="162" chance="100" /> <!-- Adena -->
+					<item id="57" min="146" max="162" chance="100" /> (Adena)
 				</group>
 				<group chance="0.011">
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -76,7 +76,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="94664" /> <!-- For monsters_Dragontroop Lancer Javeline - Not Available -->
+		<equipment rhand="94664" /> (For monsters_Dragontroop Lancer Javeline - Not Available)
 		<acquire exp="29856" sp="297" attributeExp="871" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="76649.0529727084" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -94,17 +94,17 @@
 			<height normal="54" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="146" max="162" chance="100" /> <!-- Adena -->
+					<item id="57" min="146" max="162" chance="100" /> (Adena)
 				</group>
 				<group chance="0.011">
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -130,17 +130,17 @@
 			<height normal="36.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="146" max="162" chance="100" /> <!-- Adena -->
+					<item id="57" min="146" max="162" chance="100" /> (Adena)
 				</group>
 				<group chance="0.011">
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -166,17 +166,17 @@
 			<height normal="58" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="150" max="166" chance="100" /> <!-- Adena -->
+					<item id="57" min="150" max="166" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0112">
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -185,7 +185,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="94664" /> <!-- For monsters_Dragontroop Lancer Javeline - Not Available -->
+		<equipment rhand="94664" /> (For monsters_Dragontroop Lancer Javeline - Not Available)
 		<acquire exp="59715" sp="597" attributeExp="871" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="153298.10127" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -203,17 +203,17 @@
 			<height normal="54" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="163" max="180" chance="100" /> <!-- Adena -->
+					<item id="57" min="163" max="180" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0122">
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -239,26 +239,26 @@
 			<height normal="67" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="98075" min="1" max="1" chance="3" /> <!-- Common Spellbook Coupon - Not available - Sealed -->
-					<item id="94212" min="1" max="1" chance="12" /> <!-- Augmenting Stone: Armor - Sealed -->
-					<item id="95803" min="1" max="1" chance="1.5" /> <!-- Hardin's Soul Crystal Lv. 1 -->
-					<item id="97788" min="1" max="1" chance="6" /> <!-- Augmenting Stone: Special Equipment - Sealed -->
-					<item id="95783" min="1" max="1" chance="25" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-					<item id="94424" min="1" max="1" chance="12" /> <!-- Augmenting Stone: Accessory - Sealed -->
-					<item id="101209" min="1" max="1" chance="3" /> <!-- Enhanced Spellbook Coupon - Not available - Sealed -->
-					<item id="96901" min="1" max="1" chance="25" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
-					<item id="104726" min="1" max="1" chance="0.05" /> <!-- Rare Accessory Pack - Sealed -->
-					<item id="94210" min="1" max="1" chance="12" /> <!-- Augmenting Stone: Weapon - Sealed -->
-					<item id="97176" min="1" max="1" chance="0.45" /> <!-- Unique Spellbook Coupon - Not available - Sealed -->
+					<item id="98075" min="1" max="1" chance="3" /> (Common Spellbook Coupon - Not available - Sealed)
+					<item id="94212" min="1" max="1" chance="12" /> (Augmenting Stone: Armor - Sealed)
+					<item id="95803" min="1" max="1" chance="1.5" /> (Hardin's Soul Crystal Lv. 1)
+					<item id="97788" min="1" max="1" chance="6" /> (Augmenting Stone: Special Equipment - Sealed)
+					<item id="95783" min="1" max="1" chance="25" /> (Aden's Soul Crystal Lv. 1 - Weapon)
+					<item id="94424" min="1" max="1" chance="12" /> (Augmenting Stone: Accessory - Sealed)
+					<item id="101209" min="1" max="1" chance="3" /> (Enhanced Spellbook Coupon - Not available - Sealed)
+					<item id="96901" min="1" max="1" chance="25" /> (Aden's Soul Crystal Lv. 1 - Armor)
+					<item id="104726" min="1" max="1" chance="0.05" /> (Rare Accessory Pack - Sealed)
+					<item id="94210" min="1" max="1" chance="12" /> (Augmenting Stone: Weapon - Sealed)
+					<item id="97176" min="1" max="1" chance="0.45" /> (Unique Spellbook Coupon - Not available - Sealed)
 				</group>
 				<group chance="15">
-					<item id="103739" min="1" max="1" chance="100" /> <!-- Orbis Temple's Time Stone (Time-limited) -->
+					<item id="103739" min="1" max="1" chance="100" /> (Orbis Temple's Time Stone (Time-limited))
 				</group>
 			</drop>
 		</dropLists>
@@ -284,33 +284,33 @@
 			<height normal="84" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97790" min="1" max="1" chance="1.5" /> <!-- Blessed Augmenting Stone: Special Equipment - Sealed -->
-					<item id="98075" min="1" max="1" chance="5" /> <!-- Common Spellbook Coupon - Not available - Sealed -->
-					<item id="94208" min="1" max="1" chance="35" /> <!-- Scroll of Blessing - Weapon - Sealed -->
-					<item id="101209" min="1" max="1" chance="5" /> <!-- Enhanced Spellbook Coupon - Not available - Sealed -->
-					<item id="97177" min="1" max="1" chance="0.5" /> <!-- Rare Spellbook Coupon - Not available - Sealed -->
-					<item id="97445" min="1" max="1" chance="3" /> <!-- Blessed Augmenting Stone: Armor - Sealed -->
-					<item id="104726" min="1" max="1" chance="0.05" /> <!-- Rare Accessory Pack - Sealed -->
-					<item id="103404" min="1" max="1" chance="3.5" /> <!-- Scroll of Blessing - Special - Sealed -->
-					<item id="97176" min="1" max="1" chance="1.5" /> <!-- Unique Spellbook Coupon - Not available - Sealed -->
-					<item id="97447" min="1" max="1" chance="3" /> <!-- Blessed Augmenting Stone: Accessory - Sealed -->
-					<item id="97444" min="1" max="1" chance="3" /> <!-- Blessed Augmenting Stone: Weapon - Sealed -->
-					<item id="103489" min="1" max="1" chance="3.95" /> <!-- Orbis Temple's Doll Summon Coupon (Superior - Heroic) - 1-time - Sealed -->
-					<item id="97339" min="1" max="1" chance="35" /> <!-- Scroll of Blessing - Armor - Sealed -->
+					<item id="97790" min="1" max="1" chance="1.5" /> (Blessed Augmenting Stone: Special Equipment - Sealed)
+					<item id="98075" min="1" max="1" chance="5" /> (Common Spellbook Coupon - Not available - Sealed)
+					<item id="94208" min="1" max="1" chance="35" /> (Scroll of Blessing - Weapon - Sealed)
+					<item id="101209" min="1" max="1" chance="5" /> (Enhanced Spellbook Coupon - Not available - Sealed)
+					<item id="97177" min="1" max="1" chance="0.5" /> (Rare Spellbook Coupon - Not available - Sealed)
+					<item id="97445" min="1" max="1" chance="3" /> (Blessed Augmenting Stone: Armor - Sealed)
+					<item id="104726" min="1" max="1" chance="0.05" /> (Rare Accessory Pack - Sealed)
+					<item id="103404" min="1" max="1" chance="3.5" /> (Scroll of Blessing - Special - Sealed)
+					<item id="97176" min="1" max="1" chance="1.5" /> (Unique Spellbook Coupon - Not available - Sealed)
+					<item id="97447" min="1" max="1" chance="3" /> (Blessed Augmenting Stone: Accessory - Sealed)
+					<item id="97444" min="1" max="1" chance="3" /> (Blessed Augmenting Stone: Weapon - Sealed)
+					<item id="103489" min="1" max="1" chance="3.95" /> (Orbis Temple's Doll Summon Coupon (Superior - Heroic) - 1-time - Sealed)
+					<item id="97339" min="1" max="1" chance="35" /> (Scroll of Blessing - Armor - Sealed)
 				</group>
 				<group chance="15">
-					<item id="103739" min="1" max="1" chance="100" /> <!-- Orbis Temple's Time Stone (Time-limited) -->
+					<item id="103739" min="1" max="1" chance="100" /> (Orbis Temple's Time Stone (Time-limited))
 				</group>
 				<group chance="100">
-					<item id="95783" min="1" max="1" chance="48" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-					<item id="96901" min="1" max="1" chance="48" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
-					<item id="95803" min="1" max="1" chance="4" /> <!-- Hardin's Soul Crystal Lv. 1 -->
+					<item id="95783" min="1" max="1" chance="48" /> (Aden's Soul Crystal Lv. 1 - Weapon)
+					<item id="96901" min="1" max="1" chance="48" /> (Aden's Soul Crystal Lv. 1 - Armor)
+					<item id="95803" min="1" max="1" chance="4" /> (Hardin's Soul Crystal Lv. 1)
 				</group>
 			</drop>
 		</dropLists>
@@ -376,17 +376,17 @@
 			<height normal="53.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="454" max="501" chance="100" /> <!-- Adena -->
+					<item id="57" min="454" max="501" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0502">
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -412,17 +412,17 @@
 			<height normal="49.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="609" max="674" chance="100" /> <!-- Adena -->
+					<item id="57" min="609" max="674" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0675">
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -448,17 +448,17 @@
 			<height normal="53.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="105" max="117" chance="100" /> <!-- Adena -->
+					<item id="57" min="105" max="117" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0079">
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -484,17 +484,17 @@
 			<height normal="49.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="146" max="162" chance="100" /> <!-- Adena -->
+					<item id="57" min="146" max="162" chance="100" /> (Adena)
 				</group>
 				<group chance="0.011">
-					<item id="103737" min="1" max="1" chance="90.252" /> <!-- Orbis' Adena Pack - Sealed -->
-					<item id="103738" min="1" max="1" chance="9.748" /> <!-- Orbis' Full Adena Pack - Sealed -->
+					<item id="103737" min="1" max="1" chance="90.252" /> (Orbis' Adena Pack - Sealed)
+					<item id="103738" min="1" max="1" chance="9.748" /> (Orbis' Full Adena Pack - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -520,8 +520,8 @@
 			<height normal="24.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19415" level="92" type="Monster" name="XP Chest" title="Ancient Hero's Gift" element="EARTH">
@@ -545,8 +545,8 @@
 			<height normal="24.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19416" level="86" type="Monster" name="XP Chest" title="Hero's Gift" element="EARTH">
@@ -570,8 +570,8 @@
 			<height normal="24.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19417" level="88" type="Monster" name="XP Chest" title="Ancient Hero's Gift" element="EARTH">
@@ -595,8 +595,8 @@
 			<height normal="24.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19418" level="85" type="Monster" name="Honey Bee" element="WIND">
@@ -640,9 +640,9 @@
 			<height normal="43" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> <!-- Fairies -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="13" /> (Fairies)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19420" level="85" type="Monster" name="Aroma Thief" element="WIND">
@@ -666,9 +666,9 @@
 			<height normal="41.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="48587" level="3" /> <!-- Bow/ Firearms Resistance -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="48587" level="3" /> (Bow/ Firearms Resistance)
 		</skillList>
 	</npc>
 	<npc id="19421" level="85" type="Folk" name="Flower Bud">
@@ -711,9 +711,9 @@
 			<height normal="52.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19423" level="85" type="Folk" name="Flower Bud" title="Aroma Keeper">
@@ -794,27 +794,27 @@
 			<height normal="52.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="33">
-					<item id="103908" min="1" max="1" chance="100" /> <!-- Lucky Pack: Warm Flower Essence (10-50 pcs.) (Time-limited) - Sealed -->
+					<item id="103908" min="1" max="1" chance="100" /> (Lucky Pack: Warm Flower Essence (10-50 pcs.) (Time-limited) - Sealed)
 				</group>
 				<group chance="6.6">
-					<item id="102741" min="1" max="1" chance="10" /> <!-- Rare Spellbook Coupon (Time-limited) - Not available - Sealed -->
-					<item id="102740" min="1" max="1" chance="20" /> <!-- Unique Spellbook Coupon (Time-limited) - Not available - Sealed -->
-					<item id="102739" min="1" max="1" chance="70" /> <!-- Enhanced Spellbook Coupon (Time-limited) - Not available - Sealed -->
+					<item id="102741" min="1" max="1" chance="10" /> (Rare Spellbook Coupon (Time-limited) - Not available - Sealed)
+					<item id="102740" min="1" max="1" chance="20" /> (Unique Spellbook Coupon (Time-limited) - Not available - Sealed)
+					<item id="102739" min="1" max="1" chance="70" /> (Enhanced Spellbook Coupon (Time-limited) - Not available - Sealed)
 				</group>
 				<group chance="1.6">
-					<item id="103803" min="1" max="1" chance="50" /> <!-- Spellbook: MP Recovery -->
-					<item id="103802" min="1" max="1" chance="50" /> <!-- Spellbook: HP Recovery -->
+					<item id="103803" min="1" max="1" chance="50" /> (Spellbook: MP Recovery)
+					<item id="103802" min="1" max="1" chance="50" /> (Spellbook: HP Recovery)
 				</group>
 				<group chance="3.3">
-					<item id="95783" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-					<item id="96901" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
-					<item id="95803" min="1" max="1" chance="10" /> <!-- Hardin's Soul Crystal Lv. 1 -->
+					<item id="95783" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Weapon)
+					<item id="96901" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Armor)
+					<item id="95803" min="1" max="1" chance="10" /> (Hardin's Soul Crystal Lv. 1)
 				</group>
 			</drop>
 		</dropLists>
@@ -839,8 +839,8 @@
 			<height normal="97.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19428" level="91" type="Monster" name="Leviathan" title="Demon of Envy" element="WIND">
@@ -863,8 +863,8 @@
 			<height normal="113.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19429" level="91" type="Monster" name="Leviathin" title="Demon of Envy" element="WIND">
@@ -887,8 +887,8 @@
 			<height normal="104.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19430" level="91" type="Monster" name="Belpher" title="Demon of Sloth" element="WIND">
@@ -911,8 +911,8 @@
 			<height normal="129.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19431" level="91" type="Monster" name="Shatan" title="Demon of Wrath" element="WIND">
@@ -935,8 +935,8 @@
 			<height normal="104" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19432" level="85" type="Monster" name="Assassin of Light" element="WIND">
@@ -960,14 +960,14 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="172" max="190" chance="100" /> <!-- Adena -->
+					<item id="57" min="172" max="190" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -993,14 +993,14 @@
 			<height normal="68" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="172" max="190" chance="100" /> <!-- Adena -->
+					<item id="57" min="172" max="190" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1026,14 +1026,14 @@
 			<height normal="48.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="172" max="190" chance="100" /> <!-- Adena -->
+					<item id="57" min="172" max="190" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1042,7 +1042,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>PLANT</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="3900" sp="195" attributeExp="1700" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="41957.3205333333" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1060,14 +1060,14 @@
 			<height normal="62" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="172" max="190" chance="100" /> <!-- Adena -->
+					<item id="57" min="172" max="190" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1093,14 +1093,14 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="186" max="205" chance="100" /> <!-- Adena -->
+					<item id="57" min="186" max="205" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1126,14 +1126,14 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="172" max="190" chance="100" /> <!-- Adena -->
+					<item id="57" min="172" max="190" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1159,13 +1159,13 @@
 			<height normal="52.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="480" max="530" chance="100" /> <!-- Adena -->
+					<item id="57" min="480" max="530" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1191,13 +1191,13 @@
 			<height normal="39.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="480" max="530" chance="100" /> <!-- Adena -->
+					<item id="57" min="480" max="530" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1223,13 +1223,13 @@
 			<height normal="49.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="480" max="530" chance="100" /> <!-- Adena -->
+					<item id="57" min="480" max="530" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1238,7 +1238,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="13530" sp="219" attributeExp="1800" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="119268.467009353" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1256,13 +1256,13 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="480" max="530" chance="100" /> <!-- Adena -->
+					<item id="57" min="480" max="530" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1288,13 +1288,13 @@
 			<height normal="48.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="528" max="583" chance="100" /> <!-- Adena -->
+					<item id="57" min="528" max="583" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1320,13 +1320,13 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="480" max="530" chance="100" /> <!-- Adena -->
+					<item id="57" min="480" max="530" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1352,9 +1352,9 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19445" level="88" type="Monster" name="Flower Berserker" element="WIND">
@@ -1378,9 +1378,9 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19446" level="80" type="Monster" name="Floratan" title="Flowery Scent Lover" element="WIND">
@@ -1404,9 +1404,9 @@
 			<height normal="43" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> <!-- Fairies -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="13" /> (Fairies)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19447" level="85" type="Folk" name="Flower Bud">
@@ -1449,9 +1449,9 @@
 			<height normal="52.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19449" level="85" type="Folk" name="Flower Bud" title="Fragrant">
@@ -1494,27 +1494,27 @@
 			<height normal="52.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="33">
-					<item id="103908" min="1" max="1" chance="100" /> <!-- Lucky Pack: Warm Flower Essence (10-50 pcs.) (Time-limited) - Sealed -->
+					<item id="103908" min="1" max="1" chance="100" /> (Lucky Pack: Warm Flower Essence (10-50 pcs.) (Time-limited) - Sealed)
 				</group>
 				<group chance="6.6">
-					<item id="102741" min="1" max="1" chance="10" /> <!-- Rare Spellbook Coupon (Time-limited) - Not available - Sealed -->
-					<item id="102740" min="1" max="1" chance="20" /> <!-- Unique Spellbook Coupon (Time-limited) - Not available - Sealed -->
-					<item id="102739" min="1" max="1" chance="70" /> <!-- Enhanced Spellbook Coupon (Time-limited) - Not available - Sealed -->
+					<item id="102741" min="1" max="1" chance="10" /> (Rare Spellbook Coupon (Time-limited) - Not available - Sealed)
+					<item id="102740" min="1" max="1" chance="20" /> (Unique Spellbook Coupon (Time-limited) - Not available - Sealed)
+					<item id="102739" min="1" max="1" chance="70" /> (Enhanced Spellbook Coupon (Time-limited) - Not available - Sealed)
 				</group>
 				<group chance="1.6">
-					<item id="103803" min="1" max="1" chance="50" /> <!-- Spellbook: MP Recovery -->
-					<item id="103802" min="1" max="1" chance="50" /> <!-- Spellbook: HP Recovery -->
+					<item id="103803" min="1" max="1" chance="50" /> (Spellbook: MP Recovery)
+					<item id="103802" min="1" max="1" chance="50" /> (Spellbook: HP Recovery)
 				</group>
 				<group chance="3.3">
-					<item id="95783" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-					<item id="96901" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
-					<item id="95803" min="1" max="1" chance="10" /> <!-- Hardin's Soul Crystal Lv. 1 -->
+					<item id="95783" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Weapon)
+					<item id="96901" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Armor)
+					<item id="95803" min="1" max="1" chance="10" /> (Hardin's Soul Crystal Lv. 1)
 				</group>
 			</drop>
 		</dropLists>
@@ -1540,9 +1540,9 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19452" level="80" type="Monster" name="Flower Berserker" element="WIND">
@@ -1566,9 +1566,9 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19453" level="89" type="Monster" name="Totem of Limits" title="Seal of Curse">
@@ -1613,27 +1613,27 @@
 			<height normal="91" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103908" min="1" max="1" chance="100" /> <!-- Lucky Pack: Warm Flower Essence (10-50 pcs.) (Time-limited) - Sealed -->
+					<item id="103908" min="1" max="1" chance="100" /> (Lucky Pack: Warm Flower Essence (10-50 pcs.) (Time-limited) - Sealed)
 				</group>
 				<group chance="20">
-					<item id="102741" min="1" max="1" chance="10" /> <!-- Rare Spellbook Coupon (Time-limited) - Not available - Sealed -->
-					<item id="102740" min="1" max="1" chance="20" /> <!-- Unique Spellbook Coupon (Time-limited) - Not available - Sealed -->
-					<item id="102739" min="1" max="1" chance="70" /> <!-- Enhanced Spellbook Coupon (Time-limited) - Not available - Sealed -->
+					<item id="102741" min="1" max="1" chance="10" /> (Rare Spellbook Coupon (Time-limited) - Not available - Sealed)
+					<item id="102740" min="1" max="1" chance="20" /> (Unique Spellbook Coupon (Time-limited) - Not available - Sealed)
+					<item id="102739" min="1" max="1" chance="70" /> (Enhanced Spellbook Coupon (Time-limited) - Not available - Sealed)
 				</group>
 				<group chance="5">
-					<item id="103803" min="1" max="1" chance="50" /> <!-- Spellbook: MP Recovery -->
-					<item id="103802" min="1" max="1" chance="50" /> <!-- Spellbook: HP Recovery -->
+					<item id="103803" min="1" max="1" chance="50" /> (Spellbook: MP Recovery)
+					<item id="103802" min="1" max="1" chance="50" /> (Spellbook: HP Recovery)
 				</group>
 				<group chance="10">
-					<item id="95783" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-					<item id="96901" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
-					<item id="95803" min="1" max="1" chance="10" /> <!-- Hardin's Soul Crystal Lv. 1 -->
+					<item id="95783" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Weapon)
+					<item id="96901" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Armor)
+					<item id="95803" min="1" max="1" chance="10" /> (Hardin's Soul Crystal Lv. 1)
 				</group>
 			</drop>
 		</dropLists>
@@ -1659,27 +1659,27 @@
 			<height normal="91" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103908" min="1" max="1" chance="100" /> <!-- Lucky Pack: Warm Flower Essence (10-50 pcs.) (Time-limited) - Sealed -->
+					<item id="103908" min="1" max="1" chance="100" /> (Lucky Pack: Warm Flower Essence (10-50 pcs.) (Time-limited) - Sealed)
 				</group>
 				<group chance="20">
-					<item id="102741" min="1" max="1" chance="10" /> <!-- Rare Spellbook Coupon (Time-limited) - Not available - Sealed -->
-					<item id="102740" min="1" max="1" chance="20" /> <!-- Unique Spellbook Coupon (Time-limited) - Not available - Sealed -->
-					<item id="102739" min="1" max="1" chance="70" /> <!-- Enhanced Spellbook Coupon (Time-limited) - Not available - Sealed -->
+					<item id="102741" min="1" max="1" chance="10" /> (Rare Spellbook Coupon (Time-limited) - Not available - Sealed)
+					<item id="102740" min="1" max="1" chance="20" /> (Unique Spellbook Coupon (Time-limited) - Not available - Sealed)
+					<item id="102739" min="1" max="1" chance="70" /> (Enhanced Spellbook Coupon (Time-limited) - Not available - Sealed)
 				</group>
 				<group chance="5">
-					<item id="103803" min="1" max="1" chance="50" /> <!-- Spellbook: MP Recovery -->
-					<item id="103802" min="1" max="1" chance="50" /> <!-- Spellbook: HP Recovery -->
+					<item id="103803" min="1" max="1" chance="50" /> (Spellbook: MP Recovery)
+					<item id="103802" min="1" max="1" chance="50" /> (Spellbook: HP Recovery)
 				</group>
 				<group chance="10">
-					<item id="95803" min="1" max="1" chance="10" /> <!-- Hardin's Soul Crystal Lv. 1 -->
-					<item id="95783" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-					<item id="96901" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
+					<item id="95803" min="1" max="1" chance="10" /> (Hardin's Soul Crystal Lv. 1)
+					<item id="95783" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Weapon)
+					<item id="96901" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Armor)
 				</group>
 			</drop>
 		</dropLists>
@@ -1761,7 +1761,7 @@
 			<height normal="78" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="19460" level="91" type="Monster" name="Lachik" title="Ancient Slayer">
@@ -1784,7 +1784,7 @@
 			<height normal="76.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4416" level="3" /> (Beasts)
 		</skillList>
 	</npc>
 	<npc id="19461" level="91" type="Monster" name="Etin" title="Two-headed Destroyer">
@@ -1807,7 +1807,7 @@
 			<height normal="74.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4416" level="11" /> (Giants)
 		</skillList>
 	</npc>
 	<npc id="19462" level="91" type="Monster" name="Nemar" title="Double Trouble">
@@ -1830,7 +1830,7 @@
 			<height normal="78" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="19463" level="91" type="Monster" name="Rokas" title="Bone Legion's Monarch">
@@ -1853,7 +1853,7 @@
 			<height normal="80.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="19464" level="91" type="Monster" name="Morg" title="Howling Storm">
@@ -1876,7 +1876,7 @@
 			<height normal="78" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="19465" level="91" type="Monster" name="Lachik" title="Ancient Slayer">
@@ -1899,7 +1899,7 @@
 			<height normal="76.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4416" level="3" /> (Beasts)
 		</skillList>
 	</npc>
 	<npc id="19466" level="91" type="Monster" name="Etin" title="Two-headed Destroyer">
@@ -1922,7 +1922,7 @@
 			<height normal="74.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4416" level="11" /> (Giants)
 		</skillList>
 	</npc>
 	<npc id="19467" level="91" type="Monster" name="Nemar" title="Double Trouble">
@@ -1945,7 +1945,7 @@
 			<height normal="78" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="19468" level="85" type="Folk" name="">
@@ -2007,15 +2007,15 @@
 			<height normal="40.25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19471" level="86" type="Monster" name="Tantar Lizardman Archer" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="11940" sp="117" attributeExp="1230" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="79469.7381192" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -2033,8 +2033,8 @@
 			<height normal="40.25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19472" level="86" type="Monster" name="Tantar Warrior" title="Tantar Watchman" element="WATER">
@@ -2058,8 +2058,8 @@
 			<height normal="53.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19473" level="90" type="Monster" name="Inis" title="Eastern Gate Keeper" element="WATER">
@@ -2083,15 +2083,15 @@
 			<height normal="75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19474" level="90" type="Monster" name="Archeon" title="Western Gate Keeper" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire attributeExp="1287" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3481006.32911" hpRegen="10.2" mp="18000" mpRegen="3.6" />
@@ -2109,8 +2109,8 @@
 			<height normal="77" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19475" level="90" type="Monster" name="Trazenta" title="Southern Gate Keeper" element="WATER">
@@ -2134,8 +2134,8 @@
 			<height normal="81" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19476" level="90" type="Monster" name="Kaztar" title="Northern Gate Keeper" element="WATER">
@@ -2159,8 +2159,8 @@
 			<height normal="87" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19477" level="90" type="RaidBoss" name="Aztacan" title="Tantar Chief" element="WATER">
@@ -2184,46 +2184,46 @@
 			<height normal="139" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="0.5">
-					<item id="103995" min="1" max="1" chance="100" /> <!-- Lucky Package: Enhanced - Rare Doll Summon Coupon - Aztacan (Time-limited) -->
+					<item id="103995" min="1" max="1" chance="100" /> (Lucky Package: Enhanced - Rare Doll Summon Coupon - Aztacan (Time-limited))
 				</group>
 				<group chance="0.001">
-					<item id="103996" min="1" max="1" chance="100" /> <!-- Package: Aztacan's Earring (Sealed) (Time-limited) -->
+					<item id="103996" min="1" max="1" chance="100" /> (Package: Aztacan's Earring (Sealed) (Time-limited))
 				</group>
 				<group chance="0.001">
-					<item id="103997" min="1" max="1" chance="100" /> <!-- Package: Aztacan's Oracle Scepter (Sealed) (Time-limited) -->
+					<item id="103997" min="1" max="1" chance="100" /> (Package: Aztacan's Oracle Scepter (Sealed) (Time-limited))
 				</group>
 				<group chance="0.25">
-					<item id="97859" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Rare Accessories -->
+					<item id="97859" min="1" max="1" chance="100" /> (Stable Scroll: Enchant Rare Accessories)
 				</group>
 				<group chance="5">
-					<item id="101530" min="1" max="1" chance="98" /> <!-- Greater Upgrade Stone -->
-					<item id="98039" min="1" max="1" chance="2" /> <!-- Transcendent Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="98" /> (Greater Upgrade Stone)
+					<item id="98039" min="1" max="1" chance="2" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="2.5">
-					<item id="100412" min="1" max="1" chance="100" /> <!-- Boss Weapon Coupon (Sealed) (Time-limited) -->
+					<item id="100412" min="1" max="1" chance="100" /> (Boss Weapon Coupon (Sealed) (Time-limited))
 				</group>
 				<group chance="5">
-					<item id="101432" min="1" max="1" chance="100" /> <!-- Special Armor Coupon (Sealed) (Time-limited) -->
+					<item id="101432" min="1" max="1" chance="100" /> (Special Armor Coupon (Sealed) (Time-limited))
 				</group>
 				<group chance="100">
-					<item id="94184" min="1" max="1" chance="48" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="103403" min="1" max="1" chance="4" /> <!-- Scroll of Blessing - Special -->
-					<item id="97338" min="1" max="1" chance="48" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="48" /> (Scroll of Blessing - Weapon)
+					<item id="103403" min="1" max="1" chance="4" /> (Scroll of Blessing - Special)
+					<item id="97338" min="1" max="1" chance="48" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="25">
-					<item id="93257" min="1" max="1" chance="25" /> <!-- Cursed Scroll: Enchant Weapon -->
-					<item id="93258" min="1" max="1" chance="25" /> <!-- Cursed Scroll: Enchant Armor -->
-					<item id="93255" min="1" max="1" chance="25" /> <!-- Blessed Scroll: Enchant Weapon -->
-					<item id="93256" min="1" max="1" chance="25" /> <!-- Blessed Scroll: Enchant Armor -->
+					<item id="93257" min="1" max="1" chance="25" /> (Cursed Scroll: Enchant Weapon)
+					<item id="93258" min="1" max="1" chance="25" /> (Cursed Scroll: Enchant Armor)
+					<item id="93255" min="1" max="1" chance="25" /> (Blessed Scroll: Enchant Weapon)
+					<item id="93256" min="1" max="1" chance="25" /> (Blessed Scroll: Enchant Armor)
 				</group>
 				<group chance="100">
-					<item id="103998" min="5" max="5" chance="100" /> <!-- Package: +0 ~ +9 Hunter's Earring (Time-limited) -->
+					<item id="103998" min="5" max="5" chance="100" /> (Package: +0 ~ +9 Hunter's Earring (Time-limited))
 				</group>
 			</drop>
 		</dropLists>
@@ -2403,7 +2403,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1229" max="1360" chance="100" /> <!-- Adena -->
+					<item id="57" min="1229" max="1360" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2431,7 +2431,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1492" max="1649" chance="100" /> <!-- Adena -->
+					<item id="57" min="1492" max="1649" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2459,7 +2459,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1229" max="1360" chance="100" /> <!-- Adena -->
+					<item id="57" min="1229" max="1360" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2487,7 +2487,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1492" max="1649" chance="100" /> <!-- Adena -->
+					<item id="57" min="1492" max="1649" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2515,7 +2515,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1344" max="1488" chance="100" /> <!-- Adena -->
+					<item id="57" min="1344" max="1488" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2543,7 +2543,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1492" max="1649" chance="100" /> <!-- Adena -->
+					<item id="57" min="1492" max="1649" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2552,7 +2552,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="98218" /> <!-- Monster Only (Zombie Gate Guard Spear) - Not available -->
+		<equipment rhand="98218" /> (Monster Only (Zombie Gate Guard Spear) - Not available)
 		<acquire exp="987072" sp="9870" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="356644.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2572,7 +2572,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1344" max="1488" chance="100" /> <!-- Adena -->
+					<item id="57" min="1344" max="1488" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2581,7 +2581,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="38443" /> <!-- Monster Only: Centaur Axe - Not Available -->
+		<equipment rhand="38443" /> (Monster Only: Centaur Axe - Not Available)
 		<acquire exp="2755620" sp="27555" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="715553.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -2601,7 +2601,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1492" max="1649" chance="100" /> <!-- Adena -->
+					<item id="57" min="1492" max="1649" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2629,7 +2629,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1344" max="1488" chance="100" /> <!-- Adena -->
+					<item id="57" min="1344" max="1488" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2657,7 +2657,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1492" max="1649" chance="100" /> <!-- Adena -->
+					<item id="57" min="1492" max="1649" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>

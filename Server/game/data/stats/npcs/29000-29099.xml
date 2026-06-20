@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="29001" level="80" type="GrandBoss" name="Queen Ant" title="Dungeon Queen">
 		<parameters>
 			<minions name="Privates">
-				<npc id="29003" count="6" respawnTime="10" weightPoint="1" /> <!-- Nurse Ant -->
-				<npc id="29005" count="8" respawnTime="360" weightPoint="1" /> <!-- Ant Guardsman -->
+				<npc id="29003" count="6" respawnTime="10" weightPoint="1" /> (Nurse Ant)
+				<npc id="29005" count="8" respawnTime="360" weightPoint="1" /> (Ant Guardsman)
 			</minions>
 		</parameters>
 		<race>BUG</race>
@@ -22,23 +22,23 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4021" level="1" /> <!-- Queen Ant -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
-			<skill id="4116" level="2" /> <!-- Magic Damage Resistance -->
-			<skill id="48083" level="1" /> <!-- Antharas' Resistance -->
-			<skill id="4019" level="1" /> <!-- Decrease Speed -->
-			<skill id="4017" level="1" /> <!-- Queen Ant's Blow -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4021" level="1" /> (Queen Ant)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="4071" level="1" /> (Bow Resistance)
+			<skill id="4116" level="2" /> (Magic Damage Resistance)
+			<skill id="48083" level="1" /> (Antharas' Resistance)
+			<skill id="4019" level="1" /> (Decrease Speed)
+			<skill id="4017" level="1" /> (Queen Ant's Blow)
 		</skillList>
 		<corpseTime>300</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -54,17 +54,17 @@
 		<dropLists>
 			<drop>
 				<group chance="15">
-					<item id="102391" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Speed Pack -->
-					<item id="102393" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Circlet of Hero Pack -->
-					<item id="102390" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Eva Pack -->
-					<item id="102396" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Dragon Belt Pack -->
-					<item id="102389" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Aden Pack -->
-					<item id="102392" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Authority Pack -->
-					<item id="102395" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Cloak of Protection Pack -->
-					<item id="102394" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Phantom Mask Pack -->
+					<item id="102391" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Speed Pack)
+					<item id="102393" min="1" max="1" chance="12.5" /> (+5 ~ +7 Circlet of Hero Pack)
+					<item id="102390" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Eva Pack)
+					<item id="102396" min="1" max="1" chance="12.5" /> (+5 ~ +7 Dragon Belt Pack)
+					<item id="102389" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Aden Pack)
+					<item id="102392" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Authority Pack)
+					<item id="102395" min="1" max="1" chance="12.5" /> (+5 ~ +7 Cloak of Protection Pack)
+					<item id="102394" min="1" max="1" chance="12.5" /> (+5 ~ +7 Phantom Mask Pack)
 				</group>
 				<group chance="5">
-					<item id="6660" min="1" max="1" chance="100" /> <!-- Queen Ant's Ring -->
+					<item id="6660" min="1" max="1" chance="100" /> (Queen Ant's Ring)
 				</group>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="0.6">
@@ -72,22 +72,22 @@
 				</group>
 				-->
 				<group chance="0.3">
-					<item id="101605" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Queen Ant (Sealed) -->
+					<item id="101605" min="1" max="1" chance="100" /> (Package: Superior Doll Summon Coupon - Queen Ant (Sealed))
 				</group>
 				<group chance="2.2">
-					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
+					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
 				</group>
 				<group chance="100">
-					<item id="729" min="1" max="3" chance="100" /> <!-- Scroll: Enchant Weapon -->
+					<item id="729" min="1" max="3" chance="100" /> (Scroll: Enchant Weapon)
 				</group>
 				<group chance="100">
-					<item id="730" min="1" max="3" chance="100" /> <!-- Scroll: Enchant Armor -->
+					<item id="730" min="1" max="3" chance="100" /> (Scroll: Enchant Armor)
 				</group>
 			</drop>
 			<fortune>
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -108,16 +108,16 @@
 		</stats>
 		<status attackable="true" undying="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="4500" aggroRange="450">
@@ -147,17 +147,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4020" level="1" /> <!-- Recovery -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4020" level="1" /> (Recovery)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="700" aggroRange="450">
@@ -192,16 +192,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="700" isAggressive="true">
@@ -236,16 +236,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="700" aggroRange="450">
@@ -261,9 +261,9 @@
 	<npc id="29006" level="80" type="GrandBoss" name="Core" title="Cruma Control Device">
 		<parameters>
 			<minions name="Privates">
-				<npc id="29008" count="3" respawnTime="360" weightPoint="1" /> <!-- Fate Knight -->
-				<npc id="29011" count="4" respawnTime="360" weightPoint="1" /> <!-- Susceptor -->
-				<npc id="29007" count="10" respawnTime="360" weightPoint="1" /> <!-- Death Knight -->
+				<npc id="29008" count="3" respawnTime="360" weightPoint="1" /> (Fate Knight)
+				<npc id="29011" count="4" respawnTime="360" weightPoint="1" /> (Susceptor)
+				<npc id="29007" count="10" respawnTime="360" weightPoint="1" /> (Death Knight)
 			</minions>
 		</parameters>
 		<race>CONSTRUCT</race>
@@ -281,18 +281,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="48083" level="1" /> <!-- Antharas' Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="48083" level="1" /> (Antharas' Resistance)
 		</skillList>
 		<corpseTime>10</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -307,9 +307,9 @@
 		</collision>
 		<dropLists>
 			<fortune>
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -321,7 +321,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="75" /> <!-- Caliburs -->
+		<equipment rhand="75" /> (Caliburs)
 		<acquire exp="13947" sp="418" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="44000" hpRegen="1" mp="747.8" mpRegen="2.1" />
@@ -336,16 +336,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="2300" isAggressive="true">
@@ -367,7 +367,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="1472" /> <!-- Dreadbane -->
+		<equipment rhand="1472" /> (Dreadbane)
 		<acquire exp="15169" sp="501" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="44000" hpRegen="1" mp="889.8" mpRegen="2.4" />
@@ -382,17 +382,17 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4001" level="5" /> <!-- NPC Windstrike -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4001" level="5" /> (NPC Windstrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" clanHelpRange="700" isAggressive="true">
@@ -428,17 +428,17 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4035" level="4" /> <!-- Poison -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4035" level="4" /> (Poison)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="800" isAggressive="true">
@@ -473,16 +473,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="1200" isAggressive="true">
@@ -504,7 +504,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="2915" sp="215" /> <!-- Need confirm retail values -->
+		<acquire exp="2915" sp="215" /> (Need confirm retail values)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="44000" hpRegen="1" mp="720" mpRegen="2.1" />
 			<attack physical="3633" magical="66" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -518,17 +518,17 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4001" level="4" /> <!-- NPC Windstrike -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4001" level="4" /> (NPC Windstrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="1500" isAggressive="true">
@@ -564,20 +564,20 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4001" level="4" /> <!-- NPC Windstrike -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4001" level="4" /> (NPC Windstrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="800" isAggressive="true">
@@ -612,16 +612,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="11" /> <!-- Giants -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="11" /> (Giants)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="1200" aggroRange="450">
@@ -655,21 +655,21 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="13" /> <!-- Fairies -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4062" level="1" /> <!-- Orfen -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="48083" level="1" /> <!-- Antharas' Resistance -->
-			<skill id="4063" level="1" /> <!-- Paralysis -->
-			<skill id="4064" level="1" /> <!-- Paralysis -->
+			<skill id="4416" level="13" /> (Fairies)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4062" level="1" /> (Orfen)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="48083" level="1" /> (Antharas' Resistance)
+			<skill id="4063" level="1" /> (Paralysis)
+			<skill id="4064" level="1" /> (Paralysis)
 		</skillList>
 		<corpseTime>300</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -685,40 +685,40 @@
 		<dropLists>
 			<drop>
 				<group chance="15">
-					<item id="102395" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Cloak of Protection Pack -->
-					<item id="102394" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Phantom Mask Pack -->
-					<item id="102391" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Speed Pack -->
-					<item id="102393" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Circlet of Hero Pack -->
-					<item id="102390" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Eva Pack -->
-					<item id="102396" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Dragon Belt Pack -->
-					<item id="102389" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Aden Pack -->
-					<item id="102392" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Authority Pack -->
+					<item id="102395" min="1" max="1" chance="12.5" /> (+5 ~ +7 Cloak of Protection Pack)
+					<item id="102394" min="1" max="1" chance="12.5" /> (+5 ~ +7 Phantom Mask Pack)
+					<item id="102391" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Speed Pack)
+					<item id="102393" min="1" max="1" chance="12.5" /> (+5 ~ +7 Circlet of Hero Pack)
+					<item id="102390" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Eva Pack)
+					<item id="102396" min="1" max="1" chance="12.5" /> (+5 ~ +7 Dragon Belt Pack)
+					<item id="102389" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Aden Pack)
+					<item id="102392" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Authority Pack)
 				</group>
 				<group chance="5">
-					<item id="6661" min="1" max="1" chance="100" /> <!-- Orfen's Earring -->
+					<item id="6661" min="1" max="1" chance="100" /> (Orfen's Earring)
 				</group>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="0.6">
-					<item id="102212" min="1" max="1" chance="100" /> <!-- Package: +5 ~ +7 Orfen's Venom Sword - Sealed -->
+					<item id="102212" min="1" max="1" chance="100" /> (Package: +5 ~ +7 Orfen's Venom Sword - Sealed)
 				</group>
 				-->
 				<group chance="0.3">
-					<item id="101606" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Orfen (Sealed) -->
+					<item id="101606" min="1" max="1" chance="100" /> (Package: Superior Doll Summon Coupon - Orfen (Sealed))
 				</group>
 				<group chance="2.2">
-					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
+					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
 				</group>
 				<group chance="100">
-					<item id="729" min="1" max="3" chance="100" /> <!-- Scroll: Enchant Weapon -->
+					<item id="729" min="1" max="3" chance="100" /> (Scroll: Enchant Weapon)
 				</group>
 				<group chance="100">
-					<item id="730" min="1" max="3" chance="100" /> <!-- Scroll: Enchant Armor -->
+					<item id="730" min="1" max="3" chance="100" /> (Scroll: Enchant Armor)
 				</group>
 			</drop>
 			<fortune>
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -730,7 +730,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="16035" sp="481" /> <!-- Need confirm retail values -->
+		<acquire exp="16035" sp="481" /> (Need confirm retail values)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="10619" hpRegen="158" mp="36936" mpRegen="2.1" />
 			<attack physical="298" magical="1535" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -744,16 +744,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="2500" aggroRange="450">
@@ -774,7 +774,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2915" sp="215" /> <!-- Need confirm retail values -->
+		<acquire exp="2915" sp="215" /> (Need confirm retail values)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="10619" hpRegen="162" mp="36936" mpRegen="2.1" />
 			<attack physical="1058" magical="1535" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -788,16 +788,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="2700" aggroRange="450">
@@ -818,7 +818,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>FEMALE</sex>
-		<acquire exp="16035" sp="481" /> <!-- Need confirm retail values -->
+		<acquire exp="16035" sp="481" /> (Need confirm retail values)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="10619" hpRegen="158" mp="36936" mpRegen="2.1" />
 			<attack physical="298" magical="1535" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -832,16 +832,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="2700" aggroRange="450">
@@ -857,7 +857,7 @@
 	<npc id="29018" level="49" type="Monster" name="Riba Iren">
 		<race>BUG</race>
 		<sex>FEMALE</sex>
-		<acquire exp="2915" sp="215" /> <!-- Need confirm retail values -->
+		<acquire exp="2915" sp="215" /> (Need confirm retail values)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="10619" hpRegen="162" mp="36936" mpRegen="2.1" />
 			<attack physical="1058" magical="1535" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -871,17 +871,17 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4516" level="1" /> <!-- Orfen Heal -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4516" level="1" /> (Orfen Heal)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" clanHelpRange="2900" isAggressive="true">
@@ -911,27 +911,27 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4122" level="1" /> <!-- Antharas -->
-			<skill id="4071" level="2" /> <!-- Bow Resistance -->
-			<skill id="4106" level="1" /> <!-- Antharas Stun -->
-			<skill id="4108" level="1" /> <!-- Antharas Terror -->
-			<skill id="4109" level="1" /> <!-- Curse of Antharas -->
-			<skill id="4110" level="2" /> <!-- Breath Attack -->
-			<skill id="4111" level="1" /> <!-- Antharas Fossilization -->
-			<skill id="4112" level="1" /> <!-- Ordinary Attack -->
-			<skill id="4113" level="1" /> <!-- Animal doing ordinary attack -->
-			<skill id="5092" level="1" /> <!-- Antharas Terror -->
-			<skill id="5093" level="1" /> <!-- Antharas Meteor -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4122" level="1" /> (Antharas)
+			<skill id="4071" level="2" /> (Bow Resistance)
+			<skill id="4106" level="1" /> (Antharas Stun)
+			<skill id="4108" level="1" /> (Antharas Terror)
+			<skill id="4109" level="1" /> (Curse of Antharas)
+			<skill id="4110" level="2" /> (Breath Attack)
+			<skill id="4111" level="1" /> (Antharas Fossilization)
+			<skill id="4112" level="1" /> (Ordinary Attack)
+			<skill id="4113" level="1" /> (Animal doing ordinary attack)
+			<skill id="5092" level="1" /> (Antharas Terror)
+			<skill id="5093" level="1" /> (Antharas Meteor)
 		</skillList>
 		<corpseTime>14</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -957,20 +957,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4256" level="1" /> <!-- Shock Immunity -->
-			<skill id="48083" level="1" /> <!-- Antharas' Resistance -->
-			<skill id="4127" level="1" /> <!-- Baium: General Attack -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="4256" level="1" /> (Shock Immunity)
+			<skill id="48083" level="1" /> (Antharas' Resistance)
+			<skill id="4127" level="1" /> (Baium: General Attack)
 		</skillList>
 		<corpseTime>13</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -985,100 +985,100 @@
 			<drop>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
-					<item id="96010" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Heavy) - Sealed -->
-					<item id="96012" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Circlet (Heavy) - Sealed -->
-					<item id="96027" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Robe - Sealed -->
-					<item id="96024" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Robe) - Sealed -->
-					<item id="96013" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Gauntlets - Heavy Armor - Sealed -->
-					<item id="96022" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Boots (Light) - Sealed -->
-					<item id="96019" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Leather Armor - Sealed -->
-					<item id="96025" min="1" max="1" chance="4.17" /> <!-- Package: +5 Gauntlets of Nightmare (Robe) - Sealed -->
-					<item id="96018" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Light) - Sealed -->
-					<item id="96008" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
-					<item id="96020" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Circlet (Light) - Sealed -->
-					<item id="96023" min="1" max="1" chance="4.17" /> <!-- Package: +5 Robe of Nightmare - Sealed -->
-					<item id="96015" min="1" max="1" chance="4.17" /> <!-- Package: +5 Leather Armor of Nightmare - Sealed -->
-					<item id="96021" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Gauntlets - Light Armor - Sealed -->
-					<item id="96009" min="1" max="1" chance="4.17" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
-					<item id="96030" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Boots (Robe) - Sealed -->
-					<item id="96011" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Plate Armor - Sealed -->
-					<item id="96026" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Robe) - Sealed -->
-					<item id="96016" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Light) - Sealed -->
-					<item id="96028" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Circlet (Robe) - Sealed -->
-					<item id="96014" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Boots (Heavy) - Sealed -->
-					<item id="96029" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Gauntlets - Robe - Sealed -->
-					<item id="96007" min="1" max="1" chance="4.17" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
-					<item id="96017" min="1" max="1" chance="4.17" /> <!-- Package: +5 Gauntlets of Nightmare (Light) - Sealed -->
+					<item id="96010" min="1" max="1" chance="4.17" /> (Package: +5 Boots of Nightmare (Heavy) - Sealed)
+					<item id="96012" min="1" max="1" chance="4.17" /> (Package: +5 Majestic Circlet (Heavy) - Sealed)
+					<item id="96027" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Robe - Sealed)
+					<item id="96024" min="1" max="1" chance="4.17" /> (Package: +5 Helm of Nightmare (Robe) - Sealed)
+					<item id="96013" min="1" max="1" chance="4.17" /> (Package: +5 Majestic Gauntlets - Heavy Armor - Sealed)
+					<item id="96022" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Boots (Light) - Sealed)
+					<item id="96019" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Leather Armor - Sealed)
+					<item id="96025" min="1" max="1" chance="4.17" /> (Package: +5 Gauntlets of Nightmare (Robe) - Sealed)
+					<item id="96018" min="1" max="1" chance="4.17" /> (Package: +5 Boots of Nightmare (Light) - Sealed)
+					<item id="96008" min="1" max="1" chance="4.17" /> (Package: +5 Helm of Nightmare (Heavy) - Sealed)
+					<item id="96020" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Circlet (Light) - Sealed)
+					<item id="96023" min="1" max="1" chance="4.17" /> (Package: +5 Robe of Nightmare - Sealed)
+					<item id="96015" min="1" max="1" chance="4.17" /> (Package: +5 Leather Armor of Nightmare - Sealed)
+					<item id="96021" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Gauntlets - Light Armor - Sealed)
+					<item id="96009" min="1" max="1" chance="4.17" /> (Package: +5 Gauntlets of Nightmare (Heavy) - Sealed)
+					<item id="96030" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Boots (Robe) - Sealed)
+					<item id="96011" min="1" max="1" chance="4.17" /> (Package: +5 Majestic Plate Armor - Sealed)
+					<item id="96026" min="1" max="1" chance="4.17" /> (Package: +5 Boots of Nightmare (Robe) - Sealed)
+					<item id="96016" min="1" max="1" chance="4.17" /> (Package: +5 Helm of Nightmare (Light) - Sealed)
+					<item id="96028" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Circlet (Robe) - Sealed)
+					<item id="96014" min="1" max="1" chance="4.17" /> (Package: +5 Majestic Boots (Heavy) - Sealed)
+					<item id="96029" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Gauntlets - Robe - Sealed)
+					<item id="96007" min="1" max="1" chance="4.17" /> (Package: +5 Armor of Nightmare - Sealed)
+					<item id="96017" min="1" max="1" chance="4.17" /> (Package: +5 Gauntlets of Nightmare (Light) - Sealed)
 				</group>
 				-->
 				<group chance="100">
-					<item id="91951" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Talisman of Baium -->
+					<item id="91951" min="1" max="1" chance="100" /> (Scroll: Enchant Talisman of Baium)
 				</group>
 				<group chance="2.2">
-					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
+					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
 				</group>
 				<group chance="7.5">
-					<item id="49580" min="1" max="1" chance="100" /> <!-- Baium's Ring -->
+					<item id="49580" min="1" max="1" chance="100" /> (Baium's Ring)
 				</group>
 				<group chance="5.4">
-					<item id="49683" min="1" max="1" chance="100" /> <!-- Talisman of Baium -->
+					<item id="49683" min="1" max="1" chance="100" /> (Talisman of Baium)
 				</group>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="1.8">
-					<item id="102213" min="1" max="1" chance="100" /> <!-- Package: +5 ~ +7 Baium's Thunder Breaker - Sealed -->
+					<item id="102213" min="1" max="1" chance="100" /> (Package: +5 ~ +7 Baium's Thunder Breaker - Sealed)
 				</group>
 				-->
 				<group chance="0.675">
-					<item id="101610" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Baium (Sealed) -->
+					<item id="101610" min="1" max="1" chance="100" /> (Package: Superior Doll Summon Coupon - Baium (Sealed))
 				</group>
 				<group chance="0.2">
-					<item id="94498" min="1" max="1" chance="10.2" /> <!-- Spellbook: Titan Champion -->
-					<item id="94862" min="1" max="1" chance="9.69" /> <!-- Spellbook: Exclusion -->
-					<item id="95347" min="1" max="1" chance="9.99" /> <!-- Spellbook: Rolling Dice -->
-					<item id="94508" min="1" max="1" chance="9.83" /> <!-- Spellbook: Cacophony of War -->
-					<item id="93387" min="1" max="1" chance="10.37" /> <!-- Spellbook: Ultimate Death Knight -->
-					<item id="94673" min="1" max="1" chance="9.79" /> <!-- Spellbook: Team Building -->
-					<item id="94668" min="1" max="1" chance="10.04" /> <!-- Spellbook: Pa'agrio's Touch -->
-					<item id="94863" min="1" max="1" chance="9.88" /> <!-- Spellbook: Dark Disruption -->
-					<item id="95346" min="1" max="1" chance="10.21" /> <!-- Spellbook: Meteor -->
-					<item id="94861" min="1" max="1" chance="10" /> <!-- Spellbook: Tranquility -->
+					<item id="94498" min="1" max="1" chance="10.2" /> (Spellbook: Titan Champion)
+					<item id="94862" min="1" max="1" chance="9.69" /> (Spellbook: Exclusion)
+					<item id="95347" min="1" max="1" chance="9.99" /> (Spellbook: Rolling Dice)
+					<item id="94508" min="1" max="1" chance="9.83" /> (Spellbook: Cacophony of War)
+					<item id="93387" min="1" max="1" chance="10.37" /> (Spellbook: Ultimate Death Knight)
+					<item id="94673" min="1" max="1" chance="9.79" /> (Spellbook: Team Building)
+					<item id="94668" min="1" max="1" chance="10.04" /> (Spellbook: Pa'agrio's Touch)
+					<item id="94863" min="1" max="1" chance="9.88" /> (Spellbook: Dark Disruption)
+					<item id="95346" min="1" max="1" chance="10.21" /> (Spellbook: Meteor)
+					<item id="94861" min="1" max="1" chance="10" /> (Spellbook: Tranquility)
 				</group>
 				<group chance="2">
-					<item id="93909" min="1" max="1" chance="100" /> <!-- Baium's Crystal -->
+					<item id="93909" min="1" max="1" chance="100" /> (Baium's Crystal)
 				</group>
 				<group chance="100">
-					<item id="97787" min="1" max="3" chance="25" /> <!-- Augmenting Stone: Special Equipment -->
-					<item id="94188" min="1" max="3" chance="25" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="3" chance="25" /> <!-- Augmenting Stone: Accessory -->
-					<item id="94186" min="1" max="3" chance="25" /> <!-- Augmenting Stone: Weapon -->
+					<item id="97787" min="1" max="3" chance="25" /> (Augmenting Stone: Special Equipment)
+					<item id="94188" min="1" max="3" chance="25" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="3" chance="25" /> (Augmenting Stone: Accessory)
+					<item id="94186" min="1" max="3" chance="25" /> (Augmenting Stone: Weapon)
 				</group>
 				<group chance="100">
-					<item id="93255" min="1" max="1" chance="20" /> <!-- Blessed Scroll: Enchant Weapon -->
-					<item id="93256" min="1" max="1" chance="80" /> <!-- Blessed Scroll: Enchant Armor -->
+					<item id="93255" min="1" max="1" chance="20" /> (Blessed Scroll: Enchant Weapon)
+					<item id="93256" min="1" max="1" chance="80" /> (Blessed Scroll: Enchant Armor)
 				</group>
 				<group chance="10">
-					<item id="97859" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Rare Accessories -->
+					<item id="97859" min="1" max="1" chance="100" /> (Stable Scroll: Enchant Rare Accessories)
 				</group>
 				<group chance="30">
-					<item id="97442" min="1" max="1" chance="33.4" /> <!-- Blessed Augmenting Stone: Accessory -->
-					<item id="97439" min="1" max="1" chance="33.3" /> <!-- Blessed Augmenting Stone: Weapon -->
-					<item id="97440" min="1" max="1" chance="33.3" /> <!-- Blessed Augmenting Stone: Armor -->
+					<item id="97442" min="1" max="1" chance="33.4" /> (Blessed Augmenting Stone: Accessory)
+					<item id="97439" min="1" max="1" chance="33.3" /> (Blessed Augmenting Stone: Weapon)
+					<item id="97440" min="1" max="1" chance="33.3" /> (Blessed Augmenting Stone: Armor)
 				</group>
 				<group chance="10">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 			</drop>
 			<fortune>
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
 	<npc id="29021" level="80" type="Monster" name="Archangel">
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="93" /> <!-- Winged Spear -->
+		<equipment rhand="93" /> (Winged Spear)
 		<acquire exp="11520" sp="2" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="822426" hpRegen="158" mp="1475" mpRegen="3" />
@@ -1093,18 +1093,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4132" level="1" /> <!-- Spear: Pound the Ground -->
-			<skill id="4133" level="1" /> <!-- Heal -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4132" level="1" /> (Spear: Pound the Ground)
+			<skill id="4133" level="1" /> (Heal)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
@@ -1133,24 +1133,24 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
-			<skill id="4116" level="2" /> <!-- Magic Damage Resistance -->
-			<skill id="48083" level="1" /> <!-- Antharas' Resistance -->
-			<skill id="4221" level="1" /> <!-- Range Dual Attack -->
-			<skill id="4220" level="1" /> <!-- Dual Attack -->
-			<skill id="4218" level="1" /> <!-- Drain -->
-			<skill id="4219" level="1" /> <!-- Hold -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="4071" level="1" /> (Bow Resistance)
+			<skill id="4116" level="2" /> (Magic Damage Resistance)
+			<skill id="48083" level="1" /> (Antharas' Resistance)
+			<skill id="4221" level="1" /> (Range Dual Attack)
+			<skill id="4220" level="1" /> (Dual Attack)
+			<skill id="4218" level="1" /> (Drain)
+			<skill id="4219" level="1" /> (Hold)
 		</skillList>
 		<corpseTime>300</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -1162,40 +1162,40 @@
 		<dropLists>
 			<drop>
 				<group chance="15">
-					<item id="102390" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Eva Pack -->
-					<item id="102395" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Cloak of Protection Pack -->
-					<item id="102394" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Phantom Mask Pack -->
-					<item id="102389" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Aden Pack -->
-					<item id="102392" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Authority Pack -->
-					<item id="102393" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Circlet of Hero Pack -->
-					<item id="102391" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Speed Pack -->
-					<item id="102396" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Dragon Belt Pack -->
+					<item id="102390" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Eva Pack)
+					<item id="102395" min="1" max="1" chance="12.5" /> (+5 ~ +7 Cloak of Protection Pack)
+					<item id="102394" min="1" max="1" chance="12.5" /> (+5 ~ +7 Phantom Mask Pack)
+					<item id="102389" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Aden Pack)
+					<item id="102392" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Authority Pack)
+					<item id="102393" min="1" max="1" chance="12.5" /> (+5 ~ +7 Circlet of Hero Pack)
+					<item id="102391" min="1" max="1" chance="12.5" /> (+5 ~ +7 Talisman of Speed Pack)
+					<item id="102396" min="1" max="1" chance="12.5" /> (+5 ~ +7 Dragon Belt Pack)
 				</group>
 				<group chance="5">
-					<item id="90763" min="1" max="1" chance="100" /> <!-- Zaken's Earring -->
+					<item id="90763" min="1" max="1" chance="100" /> (Zaken's Earring)
 				</group>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="0.6">
-					<item id="102210" min="1" max="1" chance="100" /> <!-- Package: +5 ~ +7 Zaken's Blood Sword - Sealed -->
+					<item id="102210" min="1" max="1" chance="100" /> (Package: +5 ~ +7 Zaken's Blood Sword - Sealed)
 				</group>
 				-->
 				<group chance="0.3">
-					<item id="101609" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Zaken (Sealed) -->
+					<item id="101609" min="1" max="1" chance="100" /> (Package: Superior Doll Summon Coupon - Zaken (Sealed))
 				</group>
 				<group chance="2.2">
-					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
+					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
 				</group>
 				<group chance="100">
-					<item id="729" min="1" max="3" chance="100" /> <!-- Scroll: Enchant Weapon -->
+					<item id="729" min="1" max="3" chance="100" /> (Scroll: Enchant Weapon)
 				</group>
 				<group chance="100">
-					<item id="730" min="1" max="3" chance="100" /> <!-- Scroll: Enchant Armor -->
+					<item id="730" min="1" max="3" chance="100" /> (Scroll: Enchant Armor)
 				</group>
 			</drop>
 			<fortune>
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -1207,7 +1207,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5129" /> <!-- Doll Knife -->
+		<equipment rhand="5129" /> (Doll Knife)
 		<acquire exp="129198" sp="3875" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1828" hpRegen="6.5" mp="832.4" mpRegen="2.4" />
@@ -1222,19 +1222,19 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="19" /> <!-- Dual Swords -->
-			<skill id="4071" level="5" /> <!-- Bow Resistance -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="19" /> (Dual Swords)
+			<skill id="4071" level="5" /> (Bow Resistance)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
@@ -1265,19 +1265,19 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4071" level="5" /> <!-- Bow Resistance -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4071" level="5" /> (Bow Resistance)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
@@ -1314,7 +1314,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="232" /> <!-- Dark Elven Dagger -->
+		<equipment rhand="232" /> (Dark Elven Dagger)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2126.3" hpRegen="6.5" mp="804" mpRegen="2.4" />
 			<attack physical="420" magical="328" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -1328,16 +1328,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
@@ -1354,7 +1354,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="225" /> <!-- Mithril Dagger -->
+		<equipment rhand="225" /> (Mithril Dagger)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1776" hpRegen="6.5" mp="584" mpRegen="2.1" />
 			<attack physical="371" magical="289" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -1368,16 +1368,16 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
@@ -1401,17 +1401,17 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
 		</skillList>
 		<corpseTime>15</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -1428,7 +1428,7 @@
 	<npc id="29046" level="85" type="Monster" name="Scarlet van Halisha">
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="8204" /> <!-- Monster Only (Follower of Frintezza Calibur) -->
+		<equipment rhand="8204" /> (Monster Only (Follower of Frintezza Calibur))
 		<acquire exp="130849003" sp="31403" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="16500000" hpRegen="1" mp="12240" mpRegen="10" />
@@ -1442,20 +1442,20 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="48083" level="1" /> <!-- Antharas' Resistance -->
-			<skill id="5078" level="1" /> <!-- Frintezza Critical Damage -->
-			<skill id="5017" level="1" /> <!-- Demon -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="48083" level="1" /> (Antharas' Resistance)
+			<skill id="5078" level="1" /> (Frintezza Critical Damage)
+			<skill id="5017" level="1" /> (Demon)
 		</skillList>
 		<corpseTime>18</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -1492,190 +1492,190 @@
 			<height normal="112.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="48083" level="1" /> <!-- Antharas' Resistance -->
-			<skill id="5078" level="1" /> <!-- Frintezza Critical Damage -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="48083" level="1" /> (Antharas' Resistance)
+			<skill id="5078" level="1" /> (Frintezza Critical Damage)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103103" min="1" max="1" chance="0.066" /> <!-- Package: +7 Ipos' Sword - Sealed -->
-					<item id="103074" min="1" max="1" chance="6" /> <!-- Package: +5 Barakiel's Axe - Sealed -->
-					<item id="103096" min="1" max="1" chance="0.6" /> <!-- Package: +6 Cabrio's Hand - Sealed -->
-					<item id="103078" min="1" max="1" chance="6" /> <!-- Package: +5 Shyeed's Bow - Sealed -->
-					<item id="103113" min="1" max="1" chance="0.067" /> <!-- Package: +7 Tallum Blade*Damascus Sword - Sealed -->
-					<item id="103116" min="1" max="1" chance="0.067" /> <!-- Package: +7 Zephyrus - Sealed -->
-					<item id="103072" min="1" max="1" chance="6" /> <!-- Package: +5 Sirra's Blade - Sealed -->
-					<item id="103107" min="1" max="1" chance="0.067" /> <!-- Package: +7 Tiphon's Spear - Sealed -->
-					<item id="103099" min="1" max="1" chance="0.6" /> <!-- Package: +6 Durendal - Sealed -->
-					<item id="103115" min="1" max="1" chance="0.067" /> <!-- Package: +7 Éclair Bijou - Sealed -->
-					<item id="103106" min="1" max="1" chance="0.066" /> <!-- Package: +7 Naga's Storm - Sealed -->
-					<item id="103110" min="1" max="1" chance="0.067" /> <!-- Package: +7 Themis' Tongue - Sealed -->
-					<item id="103097" min="1" max="1" chance="0.6" /> <!-- Package: +6 Daimon's Crystal - Sealed -->
-					<item id="103094" min="1" max="1" chance="0.6" /> <!-- Package: +6 Sobekk's Hurricane - Sealed -->
-					<item id="103105" min="1" max="1" chance="0.066" /> <!-- Package: +7 Behemoth's Tuning Fork - Sealed -->
-					<item id="103088" min="1" max="1" chance="0.6" /> <!-- Package: +6 Ipos' Sword - Sealed -->
-					<item id="103081" min="1" max="1" chance="6" /> <!-- Package: +5 Cabrio's Hand - Sealed -->
-					<item id="103098" min="1" max="1" chance="0.6" /> <!-- Package: +6 Tallum Blade*Damascus Sword - Sealed -->
-					<item id="103101" min="1" max="1" chance="0.6" /> <!-- Package: +6 Zephyrus - Sealed -->
-					<item id="103104" min="1" max="1" chance="0.066" /> <!-- Package: +7 Barakiel's Axe - Sealed -->
-					<item id="103108" min="1" max="1" chance="0.067" /> <!-- Package: +7 Shyeed's Bow - Sealed -->
-					<item id="103092" min="1" max="1" chance="0.6" /> <!-- Package: +6 Tiphon's Spear - Sealed -->
-					<item id="103084" min="1" max="1" chance="6" /> <!-- Package: +5 Durendal - Sealed -->
-					<item id="103100" min="1" max="1" chance="0.6" /> <!-- Package: +6 Éclair Bijou - Sealed -->
-					<item id="103091" min="1" max="1" chance="0.6" /> <!-- Package: +6 Naga's Storm - Sealed -->
-					<item id="103102" min="1" max="1" chance="0.066" /> <!-- Package: +7 Sirra's Blade - Sealed -->
-					<item id="103095" min="1" max="1" chance="0.6" /> <!-- Package: +6 Themis' Tongue - Sealed -->
-					<item id="103082" min="1" max="1" chance="6" /> <!-- Package: +5 Daimon's Crystal - Sealed -->
-					<item id="103079" min="1" max="1" chance="6" /> <!-- Package: +5 Sobekk's Hurricane - Sealed -->
-					<item id="103090" min="1" max="1" chance="0.6" /> <!-- Package: +6 Behemoth's Tuning Fork - Sealed -->
-					<item id="103073" min="1" max="1" chance="6" /> <!-- Package: +5 Ipos' Sword - Sealed -->
-					<item id="103083" min="1" max="1" chance="6" /> <!-- Package: +5 Tallum Blade*Damascus Sword - Sealed -->
-					<item id="103086" min="1" max="1" chance="6" /> <!-- Package: +5 Zephyrus - Sealed -->
-					<item id="103089" min="1" max="1" chance="0.6" /> <!-- Package: +6 Barakiel's Axe - Sealed -->
-					<item id="103111" min="1" max="1" chance="0.067" /> <!-- Package: +7 Cabrio's Hand - Sealed -->
-					<item id="103093" min="1" max="1" chance="0.6" /> <!-- Package: +6 Shyeed's Bow - Sealed -->
-					<item id="103077" min="1" max="1" chance="6" /> <!-- Package: +5 Tiphon's Spear - Sealed -->
-					<item id="103085" min="1" max="1" chance="6" /> <!-- Package: +5 Éclair Bijou - Sealed -->
-					<item id="103076" min="1" max="1" chance="6" /> <!-- Package: +5 Naga's Storm - Sealed -->
-					<item id="103087" min="1" max="1" chance="0.6" /> <!-- Package: +6 Sirra's Blade - Sealed -->
-					<item id="103080" min="1" max="1" chance="6" /> <!-- Package: +5 Themis' Tongue - Sealed -->
-					<item id="103114" min="1" max="1" chance="0.067" /> <!-- Package: +7 Durendal - Sealed -->
-					<item id="103075" min="1" max="1" chance="6" /> <!-- Package: +5 Behemoth's Tuning Fork - Sealed -->
-					<item id="103112" min="1" max="1" chance="0.067" /> <!-- Package: +7 Daimon's Crystal - Sealed -->
-					<item id="103109" min="1" max="1" chance="0.067" /> <!-- Package: +7 Sobekk's Hurricane - Sealed -->
+					<item id="103103" min="1" max="1" chance="0.066" /> (Package: +7 Ipos' Sword - Sealed)
+					<item id="103074" min="1" max="1" chance="6" /> (Package: +5 Barakiel's Axe - Sealed)
+					<item id="103096" min="1" max="1" chance="0.6" /> (Package: +6 Cabrio's Hand - Sealed)
+					<item id="103078" min="1" max="1" chance="6" /> (Package: +5 Shyeed's Bow - Sealed)
+					<item id="103113" min="1" max="1" chance="0.067" /> (Package: +7 Tallum Blade*Damascus Sword - Sealed)
+					<item id="103116" min="1" max="1" chance="0.067" /> (Package: +7 Zephyrus - Sealed)
+					<item id="103072" min="1" max="1" chance="6" /> (Package: +5 Sirra's Blade - Sealed)
+					<item id="103107" min="1" max="1" chance="0.067" /> (Package: +7 Tiphon's Spear - Sealed)
+					<item id="103099" min="1" max="1" chance="0.6" /> (Package: +6 Durendal - Sealed)
+					<item id="103115" min="1" max="1" chance="0.067" /> (Package: +7 Éclair Bijou - Sealed)
+					<item id="103106" min="1" max="1" chance="0.066" /> (Package: +7 Naga's Storm - Sealed)
+					<item id="103110" min="1" max="1" chance="0.067" /> (Package: +7 Themis' Tongue - Sealed)
+					<item id="103097" min="1" max="1" chance="0.6" /> (Package: +6 Daimon's Crystal - Sealed)
+					<item id="103094" min="1" max="1" chance="0.6" /> (Package: +6 Sobekk's Hurricane - Sealed)
+					<item id="103105" min="1" max="1" chance="0.066" /> (Package: +7 Behemoth's Tuning Fork - Sealed)
+					<item id="103088" min="1" max="1" chance="0.6" /> (Package: +6 Ipos' Sword - Sealed)
+					<item id="103081" min="1" max="1" chance="6" /> (Package: +5 Cabrio's Hand - Sealed)
+					<item id="103098" min="1" max="1" chance="0.6" /> (Package: +6 Tallum Blade*Damascus Sword - Sealed)
+					<item id="103101" min="1" max="1" chance="0.6" /> (Package: +6 Zephyrus - Sealed)
+					<item id="103104" min="1" max="1" chance="0.066" /> (Package: +7 Barakiel's Axe - Sealed)
+					<item id="103108" min="1" max="1" chance="0.067" /> (Package: +7 Shyeed's Bow - Sealed)
+					<item id="103092" min="1" max="1" chance="0.6" /> (Package: +6 Tiphon's Spear - Sealed)
+					<item id="103084" min="1" max="1" chance="6" /> (Package: +5 Durendal - Sealed)
+					<item id="103100" min="1" max="1" chance="0.6" /> (Package: +6 Éclair Bijou - Sealed)
+					<item id="103091" min="1" max="1" chance="0.6" /> (Package: +6 Naga's Storm - Sealed)
+					<item id="103102" min="1" max="1" chance="0.066" /> (Package: +7 Sirra's Blade - Sealed)
+					<item id="103095" min="1" max="1" chance="0.6" /> (Package: +6 Themis' Tongue - Sealed)
+					<item id="103082" min="1" max="1" chance="6" /> (Package: +5 Daimon's Crystal - Sealed)
+					<item id="103079" min="1" max="1" chance="6" /> (Package: +5 Sobekk's Hurricane - Sealed)
+					<item id="103090" min="1" max="1" chance="0.6" /> (Package: +6 Behemoth's Tuning Fork - Sealed)
+					<item id="103073" min="1" max="1" chance="6" /> (Package: +5 Ipos' Sword - Sealed)
+					<item id="103083" min="1" max="1" chance="6" /> (Package: +5 Tallum Blade*Damascus Sword - Sealed)
+					<item id="103086" min="1" max="1" chance="6" /> (Package: +5 Zephyrus - Sealed)
+					<item id="103089" min="1" max="1" chance="0.6" /> (Package: +6 Barakiel's Axe - Sealed)
+					<item id="103111" min="1" max="1" chance="0.067" /> (Package: +7 Cabrio's Hand - Sealed)
+					<item id="103093" min="1" max="1" chance="0.6" /> (Package: +6 Shyeed's Bow - Sealed)
+					<item id="103077" min="1" max="1" chance="6" /> (Package: +5 Tiphon's Spear - Sealed)
+					<item id="103085" min="1" max="1" chance="6" /> (Package: +5 Éclair Bijou - Sealed)
+					<item id="103076" min="1" max="1" chance="6" /> (Package: +5 Naga's Storm - Sealed)
+					<item id="103087" min="1" max="1" chance="0.6" /> (Package: +6 Sirra's Blade - Sealed)
+					<item id="103080" min="1" max="1" chance="6" /> (Package: +5 Themis' Tongue - Sealed)
+					<item id="103114" min="1" max="1" chance="0.067" /> (Package: +7 Durendal - Sealed)
+					<item id="103075" min="1" max="1" chance="6" /> (Package: +5 Behemoth's Tuning Fork - Sealed)
+					<item id="103112" min="1" max="1" chance="0.067" /> (Package: +7 Daimon's Crystal - Sealed)
+					<item id="103109" min="1" max="1" chance="0.067" /> (Package: +7 Sobekk's Hurricane - Sealed)
 				</group>
 				<group chance="25">
-					<item id="103132" min="1" max="1" chance="0.167" /> <!-- Package: +7 Hunter's Leather Leggings - Sealed -->
-					<item id="103131" min="1" max="1" chance="0.167" /> <!-- Package: +7 Hunter's Leather Armor - Sealed -->
-					<item id="103123" min="1" max="1" chance="1.5" /> <!-- Package: +6 Hunter's Breastplate - Sealed -->
-					<item id="103133" min="1" max="1" chance="0.167" /> <!-- Package: +7 Hunter's Tunic - Sealed -->
-					<item id="103124" min="1" max="1" chance="1.5" /> <!-- Package: +6 Hunter's Gaiters - Sealed -->
-					<item id="103128" min="1" max="1" chance="1.5" /> <!-- Package: +6 Hunter's Stockings - Sealed -->
-					<item id="103126" min="1" max="1" chance="1.5" /> <!-- Package: +6 Hunter's Leather Leggings - Sealed -->
-					<item id="103125" min="1" max="1" chance="1.5" /> <!-- Package: +6 Hunter's Leather Armor - Sealed -->
-					<item id="103117" min="1" max="1" chance="15" /> <!-- Package: +5 Hunter's Breastplate - Sealed -->
-					<item id="103127" min="1" max="1" chance="1.5" /> <!-- Package: +6 Hunter's Tunic - Sealed -->
-					<item id="103118" min="1" max="1" chance="15" /> <!-- Package: +5 Hunter's Gaiters - Sealed -->
-					<item id="103122" min="1" max="1" chance="15" /> <!-- Package: +5 Hunter's Stockings - Sealed -->
-					<item id="103120" min="1" max="1" chance="15" /> <!-- Package: +5 Hunter's Leather Leggings - Sealed -->
-					<item id="103119" min="1" max="1" chance="15" /> <!-- Package: +5 Hunter's Leather Armor - Sealed -->
-					<item id="103121" min="1" max="1" chance="15" /> <!-- Package: +5 Hunter's Tunic - Sealed -->
-					<item id="103129" min="1" max="1" chance="0.166" /> <!-- Package: +7 Hunter's Breastplate - Sealed -->
-					<item id="103130" min="1" max="1" chance="0.166" /> <!-- Package: +7 Hunter's Gaiters - Sealed -->
-					<item id="103134" min="1" max="1" chance="0.167" /> <!-- Package: +7 Hunter's Stockings - Sealed -->
+					<item id="103132" min="1" max="1" chance="0.167" /> (Package: +7 Hunter's Leather Leggings - Sealed)
+					<item id="103131" min="1" max="1" chance="0.167" /> (Package: +7 Hunter's Leather Armor - Sealed)
+					<item id="103123" min="1" max="1" chance="1.5" /> (Package: +6 Hunter's Breastplate - Sealed)
+					<item id="103133" min="1" max="1" chance="0.167" /> (Package: +7 Hunter's Tunic - Sealed)
+					<item id="103124" min="1" max="1" chance="1.5" /> (Package: +6 Hunter's Gaiters - Sealed)
+					<item id="103128" min="1" max="1" chance="1.5" /> (Package: +6 Hunter's Stockings - Sealed)
+					<item id="103126" min="1" max="1" chance="1.5" /> (Package: +6 Hunter's Leather Leggings - Sealed)
+					<item id="103125" min="1" max="1" chance="1.5" /> (Package: +6 Hunter's Leather Armor - Sealed)
+					<item id="103117" min="1" max="1" chance="15" /> (Package: +5 Hunter's Breastplate - Sealed)
+					<item id="103127" min="1" max="1" chance="1.5" /> (Package: +6 Hunter's Tunic - Sealed)
+					<item id="103118" min="1" max="1" chance="15" /> (Package: +5 Hunter's Gaiters - Sealed)
+					<item id="103122" min="1" max="1" chance="15" /> (Package: +5 Hunter's Stockings - Sealed)
+					<item id="103120" min="1" max="1" chance="15" /> (Package: +5 Hunter's Leather Leggings - Sealed)
+					<item id="103119" min="1" max="1" chance="15" /> (Package: +5 Hunter's Leather Armor - Sealed)
+					<item id="103121" min="1" max="1" chance="15" /> (Package: +5 Hunter's Tunic - Sealed)
+					<item id="103129" min="1" max="1" chance="0.166" /> (Package: +7 Hunter's Breastplate - Sealed)
+					<item id="103130" min="1" max="1" chance="0.166" /> (Package: +7 Hunter's Gaiters - Sealed)
+					<item id="103134" min="1" max="1" chance="0.167" /> (Package: +7 Hunter's Stockings - Sealed)
 				</group>
 				<group chance="0.05">
-					<item id="102025" min="1" max="1" chance="100" /> <!-- Advanced Guardian Book -->
+					<item id="102025" min="1" max="1" chance="100" /> (Advanced Guardian Book)
 				</group>
 				<group chance="0.025">
-					<item id="102026" min="1" max="1" chance="100" /> <!-- Superior Guardian Book -->
+					<item id="102026" min="1" max="1" chance="100" /> (Superior Guardian Book)
 				</group>
 				<group chance="0.01">
-					<item id="102027" min="1" max="1" chance="100" /> <!-- Rare Guardian Book -->
+					<item id="102027" min="1" max="1" chance="100" /> (Rare Guardian Book)
 				</group>
 				<group chance="0.0005">
-					<item id="102012" min="1" max="1" chance="32" /> <!-- Heroic Guardian Book - Raven's Gate -->
-					<item id="103941" min="1" max="1" chance="4" /> <!-- Heroic Guardian Book - Avalanche -->
-					<item id="98891" min="1" max="1" chance="32" /> <!-- Heroic Guardian Book - Fox Call -->
-					<item id="102013" min="1" max="1" chance="32" /> <!-- Heroic Guardian Book - Iron Age -->
+					<item id="102012" min="1" max="1" chance="32" /> (Heroic Guardian Book - Raven's Gate)
+					<item id="103941" min="1" max="1" chance="4" /> (Heroic Guardian Book - Avalanche)
+					<item id="98891" min="1" max="1" chance="32" /> (Heroic Guardian Book - Fox Call)
+					<item id="102013" min="1" max="1" chance="32" /> (Heroic Guardian Book - Iron Age)
 				</group>
 				<group chance="2">
-					<item id="105275" min="1" max="1" chance="100" /> <!-- Enhanced Spellbook -->
+					<item id="105275" min="1" max="1" chance="100" /> (Enhanced Spellbook)
 				</group>
 				<group chance="0.5">
-					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
+					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
 				</group>
 				<group chance="0.1">
-					<item id="96295" min="1" max="1" chance="2.7" /> <!-- Spellbook: Condemnation -->
-					<item id="95346" min="1" max="1" chance="2.71" /> <!-- Spellbook: Meteor -->
-					<item id="103009" min="1" max="1" chance="2.7" /> <!-- Spellbook: Ancient Power -->
-					<item id="94863" min="1" max="1" chance="2.71" /> <!-- Spellbook: Dark Disruption -->
-					<item id="94673" min="1" max="1" chance="2.71" /> <!-- Spellbook: Team Building -->
-					<item id="95354" min="1" max="1" chance="2.7" /> <!-- Spellbook: Dragon Strike -->
-					<item id="95347" min="1" max="1" chance="2.71" /> <!-- Spellbook: Rolling Dice -->
-					<item id="97832" min="1" max="1" chance="2.7" /> <!-- Spellbook: Flamenco -->
-					<item id="94861" min="1" max="1" chance="2.71" /> <!-- Spellbook: Tranquility -->
-					<item id="96291" min="1" max="1" chance="2.7" /> <!-- Spellbook: Hell -->
-					<item id="94668" min="1" max="1" chance="2.71" /> <!-- Spellbook: Pa'agrio's Touch -->
-					<item id="94498" min="1" max="1" chance="2.71" /> <!-- Spellbook: Titan Champion -->
-					<item id="95861" min="1" max="1" chance="2.7" /> <!-- Spellbook: Prime Master -->
-					<item id="94508" min="1" max="1" chance="2.71" /> <!-- Spellbook: Cacophony of War -->
-					<item id="96670" min="1" max="1" chance="2.7" /> <!-- Spellbook: Critical Assault -->
-					<item id="97453" min="1" max="1" chance="2.7" /> <!-- Spellbook: Overwhelming Power -->
-					<item id="97184" min="1" max="1" chance="2.7" /> <!-- Spellbook: Lord Raise -->
-					<item id="93387" min="1" max="1" chance="2.71" /> <!-- Spellbook: Ultimate Death Knight -->
-					<item id="104121" min="1" max="1" chance="2.7" /> <!-- Spellbook: Queen's Garden -->
-					<item id="94862" min="1" max="1" chance="2.71" /> <!-- Spellbook: Exclusion -->
-					<item id="101146" min="1" max="1" chance="2.7" /> <!-- Spellbook: Sephiroth -->
-					<item id="97323" min="1" max="1" chance="2.7" /> <!-- Spellbook: Great Sweep -->
-					<item id="98481" min="1" max="1" chance="2.7" /> <!-- Spellbook: Time Distortion -->
-					<item id="97831" min="1" max="1" chance="2.7" /> <!-- Spellbook: Amadeus -->
-					<item id="97465" min="1" max="1" chance="2.7" /> <!-- Spellbook: Leopold -->
-					<item id="97183" min="1" max="1" chance="2.7" /> <!-- Spellbook: Fairy Rainbow -->
-					<item id="97318" min="1" max="1" chance="2.7" /> <!-- Spellbook: Challenger -->
-					<item id="104947" min="1" max="1" chance="2.7" /> <!-- Heroic Prophecy - Omen -->
-					<item id="97111" min="1" max="1" chance="2.7" /> <!-- Spellbook: Wild Evolution -->
-					<item id="96672" min="1" max="1" chance="2.7" /> <!-- Spellbook: Mortal Piercing -->
-					<item id="96289" min="1" max="1" chance="2.7" /> <!-- Spellbook: Phoenix Shield -->
-					<item id="97182" min="1" max="1" chance="2.7" /> <!-- Spellbook: Cat Emperor -->
-					<item id="101173" min="1" max="1" chance="2.7" /> <!-- Spellbook: Holy Circle -->
-					<item id="96671" min="1" max="1" chance="2.7" /> <!-- Spellbook: Fury Blade -->
-					<item id="96293" min="1" max="1" chance="2.7" /> <!-- Spellbook: Shelter -->
-					<item id="96873" min="1" max="1" chance="2.7" /> <!-- Spellbook: Legendary Archer -->
-					<item id="97837" min="1" max="1" chance="2.7" /> <!-- Spellbook: Crusader -->
+					<item id="96295" min="1" max="1" chance="2.7" /> (Spellbook: Condemnation)
+					<item id="95346" min="1" max="1" chance="2.71" /> (Spellbook: Meteor)
+					<item id="103009" min="1" max="1" chance="2.7" /> (Spellbook: Ancient Power)
+					<item id="94863" min="1" max="1" chance="2.71" /> (Spellbook: Dark Disruption)
+					<item id="94673" min="1" max="1" chance="2.71" /> (Spellbook: Team Building)
+					<item id="95354" min="1" max="1" chance="2.7" /> (Spellbook: Dragon Strike)
+					<item id="95347" min="1" max="1" chance="2.71" /> (Spellbook: Rolling Dice)
+					<item id="97832" min="1" max="1" chance="2.7" /> (Spellbook: Flamenco)
+					<item id="94861" min="1" max="1" chance="2.71" /> (Spellbook: Tranquility)
+					<item id="96291" min="1" max="1" chance="2.7" /> (Spellbook: Hell)
+					<item id="94668" min="1" max="1" chance="2.71" /> (Spellbook: Pa'agrio's Touch)
+					<item id="94498" min="1" max="1" chance="2.71" /> (Spellbook: Titan Champion)
+					<item id="95861" min="1" max="1" chance="2.7" /> (Spellbook: Prime Master)
+					<item id="94508" min="1" max="1" chance="2.71" /> (Spellbook: Cacophony of War)
+					<item id="96670" min="1" max="1" chance="2.7" /> (Spellbook: Critical Assault)
+					<item id="97453" min="1" max="1" chance="2.7" /> (Spellbook: Overwhelming Power)
+					<item id="97184" min="1" max="1" chance="2.7" /> (Spellbook: Lord Raise)
+					<item id="93387" min="1" max="1" chance="2.71" /> (Spellbook: Ultimate Death Knight)
+					<item id="104121" min="1" max="1" chance="2.7" /> (Spellbook: Queen's Garden)
+					<item id="94862" min="1" max="1" chance="2.71" /> (Spellbook: Exclusion)
+					<item id="101146" min="1" max="1" chance="2.7" /> (Spellbook: Sephiroth)
+					<item id="97323" min="1" max="1" chance="2.7" /> (Spellbook: Great Sweep)
+					<item id="98481" min="1" max="1" chance="2.7" /> (Spellbook: Time Distortion)
+					<item id="97831" min="1" max="1" chance="2.7" /> (Spellbook: Amadeus)
+					<item id="97465" min="1" max="1" chance="2.7" /> (Spellbook: Leopold)
+					<item id="97183" min="1" max="1" chance="2.7" /> (Spellbook: Fairy Rainbow)
+					<item id="97318" min="1" max="1" chance="2.7" /> (Spellbook: Challenger)
+					<item id="104947" min="1" max="1" chance="2.7" /> (Heroic Prophecy - Omen)
+					<item id="97111" min="1" max="1" chance="2.7" /> (Spellbook: Wild Evolution)
+					<item id="96672" min="1" max="1" chance="2.7" /> (Spellbook: Mortal Piercing)
+					<item id="96289" min="1" max="1" chance="2.7" /> (Spellbook: Phoenix Shield)
+					<item id="97182" min="1" max="1" chance="2.7" /> (Spellbook: Cat Emperor)
+					<item id="101173" min="1" max="1" chance="2.7" /> (Spellbook: Holy Circle)
+					<item id="96671" min="1" max="1" chance="2.7" /> (Spellbook: Fury Blade)
+					<item id="96293" min="1" max="1" chance="2.7" /> (Spellbook: Shelter)
+					<item id="96873" min="1" max="1" chance="2.7" /> (Spellbook: Legendary Archer)
+					<item id="97837" min="1" max="1" chance="2.7" /> (Spellbook: Crusader)
 				</group>
 				<group chance="2.6">
-					<item id="91550" min="1" max="1" chance="100" /> <!-- Frintezza's Necklace -->
+					<item id="91550" min="1" max="1" chance="100" /> (Frintezza's Necklace)
 				</group>
 				<group chance="1">
-					<item id="103357" min="1" max="1" chance="10" /> <!-- Package: Heroic Doll Summon Coupon - Scarlet van Halisha (Sealed) -->
-					<item id="103356" min="1" max="1" chance="90" /> <!-- Package: Rare Doll Summon Coupon - Scarlet van Halisha (Sealed) -->
+					<item id="103357" min="1" max="1" chance="10" /> (Package: Heroic Doll Summon Coupon - Scarlet van Halisha (Sealed))
+					<item id="103356" min="1" max="1" chance="90" /> (Package: Rare Doll Summon Coupon - Scarlet van Halisha (Sealed))
 				</group>
 				<group chance="1">
-					<item id="103358" min="1" max="1" chance="90" /> <!-- Package: Rare Doll Summon Coupon - Frintezza (Sealed) -->
-					<item id="103359" min="1" max="1" chance="10" /> <!-- Package: Heroic Doll Summon Coupon - Frintezza (Sealed) -->
+					<item id="103358" min="1" max="1" chance="90" /> (Package: Rare Doll Summon Coupon - Frintezza (Sealed))
+					<item id="103359" min="1" max="1" chance="10" /> (Package: Heroic Doll Summon Coupon - Frintezza (Sealed))
 				</group>
 				<group chance="100">
-					<item id="94186" min="4" max="8" chance="30" /> <!-- Augmenting Stone: Weapon -->
-					<item id="97787" min="4" max="8" chance="10" /> <!-- Augmenting Stone: Special Equipment -->
-					<item id="94188" min="4" max="8" chance="30" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="4" max="8" chance="30" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="4" max="8" chance="30" /> (Augmenting Stone: Weapon)
+					<item id="97787" min="4" max="8" chance="10" /> (Augmenting Stone: Special Equipment)
+					<item id="94188" min="4" max="8" chance="30" /> (Augmenting Stone: Armor)
+					<item id="94423" min="4" max="8" chance="30" /> (Augmenting Stone: Accessory)
 				</group>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="1">
-					<item id="102209" min="1" max="1" chance="100" /> <!-- +6 ~ +8 Random Boss Weapon Pack - Sealed -->
+					<item id="102209" min="1" max="1" chance="100" /> (+6 ~ +8 Random Boss Weapon Pack - Sealed)
 				</group>
 				-->
 				<group chance="5">
-					<item id="103135" min="1" max="1" chance="100" /> <!-- Sealed Dye Coupon Lv. 3 -->
+					<item id="103135" min="1" max="1" chance="100" /> (Sealed Dye Coupon Lv. 3)
 				</group>
 				<group chance="100">
-					<item id="93256" min="1" max="1" chance="50" /> <!-- Blessed Scroll: Enchant Armor -->
-					<item id="93258" min="1" max="1" chance="50" /> <!-- Cursed Scroll: Enchant Armor -->
+					<item id="93256" min="1" max="1" chance="50" /> (Blessed Scroll: Enchant Armor)
+					<item id="93258" min="1" max="1" chance="50" /> (Cursed Scroll: Enchant Armor)
 				</group>
 				<group chance="100">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="0.03">
-					<item id="95797" min="1" max="1" chance="25" /> <!-- Aden's Soul Crystal Lv. 15 - Weapon -->
-					<item id="96915" min="1" max="1" chance="70" /> <!-- Aden's Soul Crystal Lv. 15 - Armor -->
-					<item id="95817" min="1" max="1" chance="5" /> <!-- Hardin's Soul Crystal Lv. 15 -->
+					<item id="95797" min="1" max="1" chance="25" /> (Aden's Soul Crystal Lv. 15 - Weapon)
+					<item id="96915" min="1" max="1" chance="70" /> (Aden's Soul Crystal Lv. 15 - Armor)
+					<item id="95817" min="1" max="1" chance="5" /> (Hardin's Soul Crystal Lv. 15)
 				</group>
 				<group chance="0.01">
-					<item id="101809" min="1" max="1" chance="50" /> <!-- Stable Scroll: Enchant Weapon -->
-					<item id="101810" min="1" max="1" chance="50" /> <!-- Stable Scroll: Enchant Armor -->
+					<item id="101809" min="1" max="1" chance="50" /> (Stable Scroll: Enchant Weapon)
+					<item id="101810" min="1" max="1" chance="50" /> (Stable Scroll: Enchant Armor)
 				</group>
 			</drop>
 		</dropLists>
@@ -1697,19 +1697,19 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4116" level="2" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="4116" level="2" /> (Magic Damage Resistance)
+			<skill id="4071" level="1" /> (Bow Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="CORPSE" clanHelpRange="1000" isAggressive="true" aggroRange="6000">
@@ -1739,19 +1739,19 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4116" level="2" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="4116" level="2" /> (Magic Damage Resistance)
+			<skill id="4071" level="1" /> (Bow Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="CORPSE" clanHelpRange="1000" isAggressive="true" aggroRange="6000">
@@ -1781,20 +1781,20 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4116" level="2" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="5009" level="1" /> <!-- Frintezza Ghost Fighter -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4116" level="2" /> (Magic Damage Resistance)
+			<skill id="4071" level="1" /> (Bow Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="5009" level="1" /> (Frintezza Ghost Fighter)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" clanHelpRange="2000" isAggressive="true">
@@ -1824,20 +1824,20 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4116" level="2" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="5010" level="1" /> <!-- Frintezza Ghost Mage -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4116" level="2" /> (Magic Damage Resistance)
+			<skill id="4071" level="1" /> (Bow Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="5010" level="1" /> (Frintezza Ghost Mage)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" clanHelpRange="2000" isAggressive="true">
@@ -1866,15 +1866,15 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED">
@@ -1903,16 +1903,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="5004" level="1" /> <!-- Dimensional Stun -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="5004" level="1" /> (Dimensional Stun)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED">
@@ -1945,19 +1945,19 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4122" level="1" /> <!-- Antharas -->
-			<skill id="4071" level="2" /> <!-- Bow Resistance -->
-			<skill id="5093" level="1" /> <!-- Antharas Meteor -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4122" level="1" /> (Antharas)
+			<skill id="4071" level="2" /> (Bow Resistance)
+			<skill id="5093" level="1" /> (Antharas Meteor)
 		</skillList>
 		<corpseTime>14</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -1989,19 +1989,19 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4122" level="1" /> <!-- Antharas -->
-			<skill id="4071" level="2" /> <!-- Bow Resistance -->
-			<skill id="5093" level="1" /> <!-- Antharas Meteor -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4122" level="1" /> (Antharas)
+			<skill id="4071" level="2" /> (Bow Resistance)
+			<skill id="5093" level="1" /> (Antharas Meteor)
 		</skillList>
 		<corpseTime>14</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -2032,22 +2032,22 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" isDeathPenalty="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="5465" level="1" /> <!-- Earth Attribute -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4122" level="1" /> <!-- Antharas -->
-			<skill id="4071" level="2" /> <!-- Bow Resistance -->
-			<skill id="4112" level="1" /> <!-- Ordinary Attack -->
-			<skill id="5093" level="1" /> <!-- Antharas Meteor -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="5465" level="1" /> (Earth Attribute)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="2" /> (Full Magic Attack Resistance)
+			<skill id="4122" level="1" /> (Antharas)
+			<skill id="4071" level="2" /> (Bow Resistance)
+			<skill id="4112" level="1" /> (Ordinary Attack)
+			<skill id="5093" level="1" /> (Antharas Meteor)
 		</skillList>
 		<corpseTime>14</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -2061,28 +2061,28 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="947" min="24" max="36" chance="100" /> <!-- Scroll: Enchant B-grade Weapon -->
+					<item id="947" min="24" max="36" chance="100" /> (Scroll: Enchant B-grade Weapon)
 				</group>
 				<group chance="100">
-					<item id="948" min="32" max="48" chance="100" /> <!-- Scroll: Enchant B-grade Armor -->
+					<item id="948" min="32" max="48" chance="100" /> (Scroll: Enchant B-grade Armor)
 				</group>
 				<group chance="100">
-					<item id="729" min="16" max="24" chance="100" /> <!-- Scroll: Enchant Weapon -->
+					<item id="729" min="16" max="24" chance="100" /> (Scroll: Enchant Weapon)
 				</group>
 				<group chance="100">
-					<item id="730" min="32" max="48" chance="100" /> <!-- Scroll: Enchant Armor -->
+					<item id="730" min="32" max="48" chance="100" /> (Scroll: Enchant Armor)
 				</group>
 				<group chance="20">
-					<item id="90992" min="1" max="1" chance="100" /> <!-- Antharas' Earring -->
+					<item id="90992" min="1" max="1" chance="100" /> (Antharas' Earring)
 				</group>
 				<group chance="20">
-					<item id="93387" min="1" max="1" chance="100" /> <!-- Spellbook: Ultimate Death Knight -->
+					<item id="93387" min="1" max="1" chance="100" /> (Spellbook: Ultimate Death Knight)
 				</group>
 			</drop>
 			<fortune>
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
-				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
+				<item id="101965" min="1" max="1" chance="1" /> (Fortune Time Box - Boss Raid - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -2108,19 +2108,19 @@
 		</stats>
 		<status attackable="true" isDeathPenalty="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="5465" level="1" /> <!-- Earth Attribute -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="5095" level="1" /> <!-- Antharas Subordinate Melee Attack -->
-			<skill id="5096" level="1" /> <!-- Antharas Subordinate Remote Attack -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="5465" level="1" /> (Earth Attribute)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="5095" level="1" /> (Antharas Subordinate Melee Attack)
+			<skill id="5096" level="1" /> (Antharas Subordinate Remote Attack)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
@@ -2151,19 +2151,19 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="5465" level="1" /> <!-- Earth Attribute -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="5094" level="1" /> <!-- Antharas Subordinate Suicide -->
-			<skill id="5097" level="1" /> <!-- Antharas Self-destruction -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="5465" level="1" /> (Earth Attribute)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="5094" level="1" /> (Antharas Subordinate Suicide)
+			<skill id="5097" level="1" /> (Antharas Self-destruction)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
@@ -2191,18 +2191,18 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="5094" level="1" /> <!-- Antharas Subordinate Suicide -->
-			<skill id="5097" level="1" /> <!-- Antharas Self-destruction -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="5094" level="1" /> (Antharas Subordinate Suicide)
+			<skill id="5097" level="1" /> (Antharas Self-destruction)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
@@ -2230,18 +2230,18 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="5094" level="1" /> <!-- Antharas Subordinate Suicide -->
-			<skill id="5097" level="1" /> <!-- Antharas Self-destruction -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="5094" level="1" /> (Antharas Subordinate Suicide)
+			<skill id="5097" level="1" /> (Antharas Self-destruction)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
@@ -2269,18 +2269,18 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="5094" level="1" /> <!-- Antharas Subordinate Suicide -->
-			<skill id="5097" level="1" /> <!-- Antharas Self-destruction -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="5094" level="1" /> (Antharas Subordinate Suicide)
+			<skill id="5097" level="1" /> (Antharas Self-destruction)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
@@ -2308,18 +2308,18 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="5094" level="1" /> <!-- Antharas Subordinate Suicide -->
-			<skill id="5097" level="1" /> <!-- Antharas Self-destruction -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="5094" level="1" /> (Antharas Subordinate Suicide)
+			<skill id="5097" level="1" /> (Antharas Self-destruction)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
@@ -2347,18 +2347,18 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="5094" level="1" /> <!-- Antharas Subordinate Suicide -->
-			<skill id="5097" level="1" /> <!-- Antharas Self-destruction -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="5094" level="1" /> (Antharas Subordinate Suicide)
+			<skill id="5097" level="1" /> (Antharas Self-destruction)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
@@ -2386,18 +2386,18 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="5465" level="1" /> <!-- Earth Attribute -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="5094" level="1" /> <!-- Antharas Subordinate Suicide -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="5465" level="1" /> (Earth Attribute)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="5094" level="1" /> (Antharas Subordinate Suicide)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="200" clanHelpRange="300" isAggressive="true" />
@@ -2439,16 +2439,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2490,16 +2490,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2541,16 +2541,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2592,16 +2592,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2643,16 +2643,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2694,16 +2694,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2745,16 +2745,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2796,16 +2796,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2847,16 +2847,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2898,16 +2898,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -2949,16 +2949,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -3000,16 +3000,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -3051,16 +3051,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -3102,16 +3102,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -3153,16 +3153,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -3204,16 +3204,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -3255,16 +3255,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -3306,16 +3306,16 @@
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" />
@@ -3345,17 +3345,17 @@
 			<height normal="174" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4256" level="1" /> <!-- Shock Immunity -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4256" level="1" /> (Shock Immunity)
 		</skillList>
 	</npc>
 </list>

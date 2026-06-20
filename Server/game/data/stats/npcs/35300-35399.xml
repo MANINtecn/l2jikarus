@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="35300" level="56" type="Defender" name="Protector" title="Innadril">
 		<parameters>
@@ -6,7 +6,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="2499" /> <!-- Elven Long Sword -->
+		<equipment rhand="2499" /> (Elven Long Sword)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1724.6831" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
@@ -21,16 +21,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="16" /> (HP Increase (8x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -51,7 +51,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="276" /> <!-- Elven Bow -->
+		<equipment rhand="276" /> (Elven Bow)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1724.6831" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
@@ -66,16 +66,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="16" /> (HP Increase (8x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -96,7 +96,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="16" /> <!-- Great Spear -->
+		<equipment rhand="16" /> (Great Spear)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1724.6831" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
@@ -111,16 +111,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="16" /> (HP Increase (8x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -141,7 +141,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="2" /> <!-- Long Sword -->
+		<equipment rhand="2" /> (Long Sword)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1724.6831" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
@@ -156,16 +156,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="16" /> (HP Increase (8x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -186,7 +186,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1724.6831" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
@@ -201,16 +201,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="16" /> (HP Increase (8x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -231,7 +231,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="16" /> <!-- Great Spear -->
+		<equipment rhand="16" /> (Great Spear)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1724.6831" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
@@ -246,16 +246,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="16" /> (HP Increase (8x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -276,7 +276,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> <!-- Long Sword -->
+		<equipment rhand="2" /> (Long Sword)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1724.6831" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
@@ -291,16 +291,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="16" /> (HP Increase (8x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -321,7 +321,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1724.6831" hpRegen="6.5" mp="918.8" mpRegen="2.4" />
@@ -336,16 +336,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="16" /> (HP Increase (8x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -399,16 +399,16 @@
 		</stats>
 		<status attackable="false" canMove="false" />
 		<skillList>
-			<skill id="4416" level="23" /> <!-- Mercenaries -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="23" /> (Mercenaries)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="600" aggroRange="1000">
@@ -461,16 +461,16 @@
 		</stats>
 		<status attackable="false" canMove="false" />
 		<skillList>
-			<skill id="4416" level="23" /> <!-- Mercenaries -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="23" /> (Mercenaries)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="600" aggroRange="1000">
@@ -523,16 +523,16 @@
 		</stats>
 		<status attackable="false" canMove="false" />
 		<skillList>
-			<skill id="4416" level="23" /> <!-- Mercenaries -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="23" /> (Mercenaries)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="600" aggroRange="1000">
@@ -570,16 +570,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="1000" />
@@ -618,16 +618,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -666,16 +666,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -691,7 +691,7 @@
 		</parameters>
 		<race>DWARF</race>
 		<sex>MALE</sex>
-		<equipment rhand="89" /> <!-- Big Hammer -->
+		<equipment rhand="89" /> (Big Hammer)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2676" hpRegen="7.5" mp="1507" mpRegen="2.7" />
 			<attack physical="688.86373" magical="470.40463" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -705,16 +705,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="18" /> <!-- Dwarves -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="18" /> (Dwarves)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -743,16 +743,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="18" /> <!-- Dwarves -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="18" /> (Dwarves)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -798,16 +798,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="15" /> <!-- Elves -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="15" /> (Elves)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -836,16 +836,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -875,16 +875,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -914,16 +914,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -939,7 +939,7 @@
 		</parameters>
 		<race>HUMAN</race>
 		<sex>MALE</sex>
-		<equipment rhand="74" /> <!-- Katana -->
+		<equipment rhand="74" /> (Katana)
 		<acquire exp="561" sp="10" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2676" hpRegen="7.5" mp="1507" mpRegen="2.7" />
@@ -954,16 +954,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -988,17 +988,17 @@
 		</stats>
 		<status attackable="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="19" /> <!-- Others -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4390" level="1" /> <!-- Mystic Immunity -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="19" /> (Others)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4390" level="1" /> (Mystic Immunity)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -1023,17 +1023,17 @@
 		</stats>
 		<status attackable="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="19" /> <!-- Others -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4390" level="1" /> <!-- Mystic Immunity -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="19" /> (Others)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4390" level="1" /> (Mystic Immunity)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -1048,7 +1048,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="142" /> <!-- Keshanberk -->
+		<equipment rhand="142" /> (Keshanberk)
 		<acquire exp="901" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1063,16 +1063,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>2</sNpcPropHpRate>
@@ -1093,7 +1093,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="79" /> <!-- Damascus Sword -->
+		<equipment rhand="79" /> (Damascus Sword)
 		<acquire exp="939" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1108,16 +1108,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1138,7 +1138,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="76" lhand="2497" /> <!-- Sword of Delusion / Full Plate Shield -->
+		<equipment rhand="76" lhand="2497" /> (Sword of Delusion / Full Plate Shield)
 		<acquire exp="863" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1153,16 +1153,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1198,17 +1198,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4114" level="1" /> <!-- Aden Flame -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4114" level="1" /> (Aden Flame)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1230,7 +1230,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="193" /> <!-- Stick of Faith -->
+		<equipment rhand="193" /> (Stick of Faith)
 		<acquire exp="827" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1245,17 +1245,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4115" level="1" /> <!-- Aden Heal -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4115" level="1" /> (Aden Heal)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1276,7 +1276,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="1376" /> <!-- Royal Guard Spear -->
+		<equipment rhand="1376" /> (Royal Guard Spear)
 		<acquire exp="827" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1291,16 +1291,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1321,7 +1321,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="93" /> <!-- Winged Spear -->
+		<equipment rhand="93" /> (Winged Spear)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1336,16 +1336,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1366,7 +1366,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> <!-- Long Sword -->
+		<equipment rhand="2" /> (Long Sword)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1381,16 +1381,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1411,7 +1411,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1426,16 +1426,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1456,7 +1456,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="16" /> <!-- Great Spear -->
+		<equipment rhand="16" /> (Great Spear)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1471,16 +1471,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1501,7 +1501,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="2" /> <!-- Long Sword -->
+		<equipment rhand="2" /> (Long Sword)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1516,16 +1516,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1546,7 +1546,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1561,16 +1561,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1591,7 +1591,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="16" /> <!-- Great Spear -->
+		<equipment rhand="16" /> (Great Spear)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1606,16 +1606,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1636,7 +1636,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> <!-- Long Sword -->
+		<equipment rhand="2" /> (Long Sword)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1651,16 +1651,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1681,7 +1681,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="280" /> <!-- Light Crossbow -->
+		<equipment rhand="280" /> (Light Crossbow)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1696,16 +1696,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1726,7 +1726,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="76" lhand="2497" /> <!-- Sword of Delusion / Full Plate Shield -->
+		<equipment rhand="76" lhand="2497" /> (Sword of Delusion / Full Plate Shield)
 		<acquire exp="863" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1741,16 +1741,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1786,17 +1786,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4114" level="1" /> <!-- Aden Flame -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4114" level="1" /> (Aden Flame)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1818,7 +1818,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="193" /> <!-- Stick of Faith -->
+		<equipment rhand="193" /> (Stick of Faith)
 		<acquire exp="827" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1833,17 +1833,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4115" level="1" /> <!-- Aden Heal -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4115" level="1" /> (Aden Heal)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1864,7 +1864,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="1376" /> <!-- Royal Guard Spear -->
+		<equipment rhand="1376" /> (Royal Guard Spear)
 		<acquire exp="827" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1879,16 +1879,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1909,7 +1909,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="93" /> <!-- Winged Spear -->
+		<equipment rhand="93" /> (Winged Spear)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1924,16 +1924,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1954,7 +1954,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> <!-- Long Sword -->
+		<equipment rhand="2" /> (Long Sword)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -1969,16 +1969,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -1999,7 +1999,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -2014,16 +2014,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -2044,7 +2044,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="16" /> <!-- Great Spear -->
+		<equipment rhand="16" /> (Great Spear)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -2059,16 +2059,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -2089,7 +2089,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="2" /> <!-- Long Sword -->
+		<equipment rhand="2" /> (Long Sword)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -2104,16 +2104,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -2134,7 +2134,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -2149,16 +2149,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -2179,7 +2179,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="16" /> <!-- Great Spear -->
+		<equipment rhand="16" /> (Great Spear)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -2194,16 +2194,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="11" /> <!-- Spear -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="11" /> (Spear)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -2224,7 +2224,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="76" /> <!-- Sword of Delusion -->
+		<equipment rhand="76" /> (Sword of Delusion)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -2239,16 +2239,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -2269,7 +2269,7 @@
 		</parameters>
 		<race>CASTLE_GUARD</race>
 		<sex>MALE</sex>
-		<equipment rhand="280" /> <!-- Light Crossbow -->
+		<equipment rhand="280" /> (Light Crossbow)
 		<acquire exp="792" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
@@ -2284,16 +2284,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="22" /> <!-- Defending Army -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="11" /> <!-- MP Increase (3x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="22" /> (Defending Army)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="11" /> (MP Increase (3x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>8</sNpcPropHpRate>
@@ -2346,16 +2346,16 @@
 		</stats>
 		<status attackable="false" canMove="false" />
 		<skillList>
-			<skill id="4416" level="23" /> <!-- Mercenaries -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="23" /> (Mercenaries)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="600" aggroRange="1000">
@@ -2407,16 +2407,16 @@
 		</stats>
 		<status attackable="false" canMove="false" />
 		<skillList>
-			<skill id="4416" level="23" /> <!-- Mercenaries -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="23" /> (Mercenaries)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="600" aggroRange="1000">
@@ -2468,16 +2468,16 @@
 		</stats>
 		<status attackable="false" canMove="false" />
 		<skillList>
-			<skill id="4416" level="23" /> <!-- Mercenaries -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="23" /> (Mercenaries)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="600" aggroRange="1000">
@@ -2514,16 +2514,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="1000" />
@@ -2561,16 +2561,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2607,16 +2607,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2653,16 +2653,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2699,16 +2699,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2745,16 +2745,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2770,7 +2770,7 @@
 		</parameters>
 		<race>DWARF</race>
 		<sex>MALE</sex>
-		<equipment rhand="89" /> <!-- Big Hammer -->
+		<equipment rhand="89" /> (Big Hammer)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2676" hpRegen="7.5" mp="1507" mpRegen="2.7" />
 			<attack physical="688.86373" magical="470.40463" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2784,16 +2784,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="18" /> <!-- Dwarves -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="18" /> (Dwarves)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2822,16 +2822,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="18" /> <!-- Dwarves -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="18" /> (Dwarves)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2880,16 +2880,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="15" /> <!-- Elves -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="15" /> (Elves)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2918,16 +2918,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2956,16 +2956,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -2995,16 +2995,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3020,7 +3020,7 @@
 		</parameters>
 		<race>HUMAN</race>
 		<sex>MALE</sex>
-		<equipment rhand="74" /> <!-- Katana -->
+		<equipment rhand="74" /> (Katana)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2676" hpRegen="7.5" mp="1507" mpRegen="2.7" />
 			<attack physical="688.86373" magical="470.40463" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3034,16 +3034,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3055,7 +3055,7 @@
 	<npc id="35368" level="55" type="Monster" name="Bloody Monarch Nurka">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="72" /> <!-- StormBringer -->
+		<equipment rhand="72" /> (StormBringer)
 		<acquire exp="45" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3200000" hpRegen="6.5" mp="1442.4" mpRegen="2.4" />
@@ -3070,17 +3070,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4042" level="1" /> <!-- Nurka Blaze -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4042" level="1" /> (Nurka Blaze)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -3097,7 +3097,7 @@
 	<npc id="35369" level="40" type="Monster" name="Partisan Healer">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="7" /> <!-- Apprentice's Rod -->
+		<equipment rhand="7" /> (Apprentice's Rod)
 		<acquire exp="24" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="966.57792" hpRegen="4.5" mp="1345.8" mpRegen="1.8" />
@@ -3112,16 +3112,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="1000">
@@ -3137,7 +3137,7 @@
 	<npc id="35370" level="40" type="Monster" name="Partisan Guardsman">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="69" /> <!-- Bastard Sword -->
+		<equipment rhand="69" /> (Bastard Sword)
 		<acquire exp="24" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="966.57792" hpRegen="4.5" mp="1345.8" mpRegen="1.8" />
@@ -3152,16 +3152,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000">
@@ -3177,7 +3177,7 @@
 	<npc id="35371" level="40" type="Monster" name="Partisan Guardsman">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="24" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="966.57792" hpRegen="4.5" mp="1345.8" mpRegen="1.8" />
@@ -3192,16 +3192,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" aggroRange="1000">
@@ -3217,7 +3217,7 @@
 	<npc id="35372" level="35" type="Monster" name="Partisan Soldier">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> <!-- Long Sword -->
+		<equipment rhand="2" /> (Long Sword)
 		<acquire exp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="772.73802" hpRegen="4.5" mp="1282.4" mpRegen="1.8" />
@@ -3232,16 +3232,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000">
@@ -3257,7 +3257,7 @@
 	<npc id="35373" level="35" type="Monster" name="Partisan Wizard">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="7" /> <!-- Apprentice's Rod -->
+		<equipment rhand="7" /> (Apprentice's Rod)
 		<acquire exp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="772.73802" hpRegen="4.5" mp="1282.4" mpRegen="1.8" />
@@ -3272,16 +3272,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="1000">
@@ -3297,7 +3297,7 @@
 	<npc id="35374" level="35" type="Monster" name="Partisan Archer">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="772.73802" hpRegen="4.5" mp="1282.4" mpRegen="1.8" />
@@ -3312,16 +3312,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" aggroRange="1000">
@@ -3337,17 +3337,17 @@
 	<npc id="35375" level="55" type="Monster" name="Bloody Monarch Nurka">
 		<parameters>
 			<minions name="Privates">
-				<npc id="35376" count="2" respawnTime="60" weightPoint="1" /> <!-- Partisan Healer -->
-				<npc id="35377" count="8" respawnTime="60" weightPoint="1" /> <!-- Partisan Guardsman -->
-				<npc id="35378" count="4" respawnTime="60" weightPoint="1" /> <!-- Partisan Guardsman -->
-				<npc id="35379" count="1" respawnTime="60" weightPoint="1" /> <!-- Partisan Soldier -->
-				<npc id="35380" count="2" respawnTime="60" weightPoint="1" /> <!-- Partisan Wizard -->
-				<npc id="35381" count="2" respawnTime="60" weightPoint="1" /> <!-- Partisan Archer -->
+				<npc id="35376" count="2" respawnTime="60" weightPoint="1" /> (Partisan Healer)
+				<npc id="35377" count="8" respawnTime="60" weightPoint="1" /> (Partisan Guardsman)
+				<npc id="35378" count="4" respawnTime="60" weightPoint="1" /> (Partisan Guardsman)
+				<npc id="35379" count="1" respawnTime="60" weightPoint="1" /> (Partisan Soldier)
+				<npc id="35380" count="2" respawnTime="60" weightPoint="1" /> (Partisan Wizard)
+				<npc id="35381" count="2" respawnTime="60" weightPoint="1" /> (Partisan Archer)
 			</minions>
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="72" /> <!-- StormBringer -->
+		<equipment rhand="72" /> (StormBringer)
 		<acquire exp="45" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3200000" hpRegen="6.5" mp="1442.4" mpRegen="2.4" />
@@ -3362,17 +3362,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4042" level="1" /> <!-- Nurka Blaze -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4042" level="1" /> (Nurka Blaze)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -3389,7 +3389,7 @@
 	<npc id="35376" level="40" type="Monster" name="Partisan Healer">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="7" /> <!-- Apprentice's Rod -->
+		<equipment rhand="7" /> (Apprentice's Rod)
 		<acquire exp="24" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="966.57792" hpRegen="4.5" mp="1345.8" mpRegen="1.8" />
@@ -3404,16 +3404,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="1000">
@@ -3429,7 +3429,7 @@
 	<npc id="35377" level="40" type="Monster" name="Partisan Guardsman">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="69" /> <!-- Bastard Sword -->
+		<equipment rhand="69" /> (Bastard Sword)
 		<acquire exp="24" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="966.57792" hpRegen="4.5" mp="1345.8" mpRegen="1.8" />
@@ -3444,16 +3444,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000">
@@ -3469,7 +3469,7 @@
 	<npc id="35378" level="40" type="Monster" name="Partisan Guardsman">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="24" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="966.57792" hpRegen="4.5" mp="1345.8" mpRegen="1.8" />
@@ -3484,16 +3484,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" aggroRange="1000">
@@ -3509,7 +3509,7 @@
 	<npc id="35379" level="35" type="Monster" name="Partisan Soldier">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2" /> <!-- Long Sword -->
+		<equipment rhand="2" /> (Long Sword)
 		<acquire exp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="772.73802" hpRegen="4.5" mp="1282.4" mpRegen="1.8" />
@@ -3524,16 +3524,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000">
@@ -3549,7 +3549,7 @@
 	<npc id="35380" level="35" type="Monster" name="Partisan Wizard">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="7" /> <!-- Apprentice's Rod -->
+		<equipment rhand="7" /> (Apprentice's Rod)
 		<acquire exp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="772.73802" hpRegen="4.5" mp="1282.4" mpRegen="1.8" />
@@ -3564,16 +3564,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="1000">
@@ -3589,7 +3589,7 @@
 	<npc id="35381" level="35" type="Monster" name="Partisan Archer">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="772.73802" hpRegen="4.5" mp="1282.4" mpRegen="1.8" />
@@ -3604,16 +3604,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" aggroRange="1000">
@@ -3646,16 +3646,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3684,16 +3684,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3731,16 +3731,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3769,16 +3769,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3816,16 +3816,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3854,16 +3854,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3901,16 +3901,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3939,16 +3939,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -3986,16 +3986,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -4024,16 +4024,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -4071,16 +4071,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -4109,16 +4109,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -4156,16 +4156,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -4194,16 +4194,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -4241,16 +4241,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -4279,16 +4279,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -4326,16 +4326,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
@@ -4364,16 +4364,16 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" />
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />

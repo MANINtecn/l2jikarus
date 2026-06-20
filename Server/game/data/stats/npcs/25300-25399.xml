@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="25300" level="75" type="Monster" name="Hekaton's Scout" title="Raid Minion">
 		<race>HUMANOID</race>
@@ -16,16 +16,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" />
@@ -50,16 +50,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -71,11 +71,11 @@
 	<npc id="25302" level="75" type="RaidBoss" name="Ketra Battlemaster Tayr" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25303" count="3" respawnTime="360" weightPoint="1" /> <!-- Tayr's Advisor -->
-				<npc id="25304" count="1" respawnTime="360" weightPoint="1" /> <!-- Tayr's Guardsman -->
+				<npc id="25303" count="3" respawnTime="360" weightPoint="1" /> (Tayr's Advisor)
+				<npc id="25304" count="1" respawnTime="360" weightPoint="1" /> (Tayr's Guardsman)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
-			<skill name="RangeHold_a" id="4197" level="9" /> <!-- Hold -->
+			<skill name="RangeHold_a" id="4197" level="9" /> (Hold)
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -119,18 +119,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4195" level="9" /> <!-- BOSS Twister -->
-			<skill id="4200" level="9" /> <!-- Decrease Atk. Spd. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4195" level="9" /> (BOSS Twister)
+			<skill id="4200" level="9" /> (Decrease Atk. Spd.)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -158,17 +158,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4741" level="9" /> <!-- BOSS Strike -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4741" level="9" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -181,9 +181,9 @@
 		<parameters>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<param name="doSummonNPC" value="1" />
-			<skill name="SelfBuff_a" id="4173" level="10" /> <!-- BOSS Might -->
-			<skill name="PhysicalSpecial_a" id="4726" level="10" /> <!-- Stun -->
-			<skill name="SelfRangePhysicalSpecial_a" id="4736" level="10" /> <!-- BOSS Spinning Slash -->
+			<skill name="SelfBuff_a" id="4173" level="10" /> (BOSS Might)
+			<skill name="PhysicalSpecial_a" id="4726" level="10" /> (Stun)
+			<skill name="SelfRangePhysicalSpecial_a" id="4736" level="10" /> (BOSS Spinning Slash)
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
@@ -210,8 +210,8 @@
 	<npc id="25306" level="75" type="RaidBoss" name="Fire Spirit Nastron" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25307" count="1" respawnTime="360" weightPoint="1" /> <!-- Nastron's Kinsman -->
-				<npc id="25308" count="4" respawnTime="360" weightPoint="1" /> <!-- Nastron's Kinsman -->
+				<npc id="25307" count="1" respawnTime="360" weightPoint="1" /> (Nastron's Kinsman)
+				<npc id="25308" count="4" respawnTime="360" weightPoint="1" /> (Nastron's Kinsman)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="DDMagic_a" id="4194" level="10" />
@@ -234,21 +234,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4906" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4188" level="10" /> <!-- Bleed -->
-			<skill id="4190" level="10" /> <!-- Decrease MP -->
-			<skill id="4194" level="10" /> <!-- BOSS Aura Burn -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4906" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4188" level="10" /> (Bleed)
+			<skill id="4190" level="10" /> (Decrease MP)
+			<skill id="4194" level="10" /> (BOSS Aura Burn)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -276,17 +276,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4741" level="10" /> <!-- BOSS Strike -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4741" level="10" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -311,16 +311,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -332,8 +332,8 @@
 	<npc id="25309" level="75" type="RaidBoss" name="Varka Hero Shadith" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25310" count="1" respawnTime="360" weightPoint="1" /> <!-- Shadith's Prefect -->
-				<npc id="25311" count="4" respawnTime="360" weightPoint="1" /> <!-- Shadith's Watchman -->
+				<npc id="25310" count="1" respawnTime="360" weightPoint="1" /> (Shadith's Prefect)
+				<npc id="25311" count="4" respawnTime="360" weightPoint="1" /> (Shadith's Watchman)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="DDMagic_a" id="4195" level="9" />
@@ -356,21 +356,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4907" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4184" level="9" /> <!-- Decrease Atk. Spd. -->
-			<skill id="4188" level="9" /> <!-- Bleed -->
-			<skill id="4195" level="9" /> <!-- BOSS Twister -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4907" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="6" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4184" level="9" /> (Decrease Atk. Spd.)
+			<skill id="4188" level="9" /> (Bleed)
+			<skill id="4195" level="9" /> (BOSS Twister)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -398,17 +398,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4741" level="8" /> <!-- BOSS Strike -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4741" level="8" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -433,16 +433,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -454,11 +454,11 @@
 	<npc id="25312" level="75" type="RaidBoss" name="Varka Battlemaster Mos" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25313" count="2" respawnTime="360" weightPoint="1" /> <!-- Mos' Advisor -->
-				<npc id="25314" count="2" respawnTime="360" weightPoint="1" /> <!-- Mos' Protector -->
+				<npc id="25313" count="2" respawnTime="360" weightPoint="1" /> (Mos' Advisor)
+				<npc id="25314" count="2" respawnTime="360" weightPoint="1" /> (Mos' Protector)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
-			<skill name="RangeDDMagic_a" id="4178" level="9" /> <!-- BOSS Flamestrike -->
+			<skill name="RangeDDMagic_a" id="4178" level="9" /> (BOSS Flamestrike)
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -502,18 +502,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4212" level="9" /> <!-- BOSS Shield -->
-			<skill id="4786" level="9" /> <!-- BOSS Chant of Life -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4212" level="9" /> (BOSS Shield)
+			<skill id="4786" level="9" /> (BOSS Chant of Life)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -538,16 +538,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -560,9 +560,9 @@
 		<parameters>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<param name="doSummonNPC" value="1" />
-			<skill name="SelfBuff_a" id="4175" level="10" /> <!-- BOSS Haste -->
-			<skill name="PhysicalSpecial_a" id="4721" level="10" /> <!-- BOSS Strike -->
-			<skill name="SelfRangePhysicalSpecial_a" id="4172" level="10" /> <!-- Stun -->
+			<skill name="SelfBuff_a" id="4175" level="10" /> (BOSS Haste)
+			<skill name="PhysicalSpecial_a" id="4721" level="10" /> (BOSS Strike)
+			<skill name="SelfRangePhysicalSpecial_a" id="4172" level="10" /> (Stun)
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -589,8 +589,8 @@
 	<npc id="25316" level="75" type="RaidBoss" name="Water Spirit Ashutar" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25317" count="1" respawnTime="360" weightPoint="1" /> <!-- Ashutar's Kinsman -->
-				<npc id="25318" count="4" respawnTime="360" weightPoint="1" /> <!-- Ashutar's Kinsman -->
+				<npc id="25317" count="1" respawnTime="360" weightPoint="1" /> (Ashutar's Kinsman)
+				<npc id="25318" count="4" respawnTime="360" weightPoint="1" /> (Ashutar's Kinsman)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="DDMagic_a" id="4196" level="10" />
@@ -613,21 +613,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4910" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4187" level="10" /> <!-- Decrease Speed -->
-			<skill id="4190" level="10" /> <!-- Decrease MP -->
-			<skill id="4196" level="10" /> <!-- Decrease Speed -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4910" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4187" level="10" /> (Decrease Speed)
+			<skill id="4190" level="10" /> (Decrease MP)
+			<skill id="4196" level="10" /> (Decrease Speed)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -655,17 +655,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4726" level="10" /> <!-- Stun -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4726" level="10" /> (Stun)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -690,16 +690,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -711,8 +711,8 @@
 	<npc id="25319" level="75" type="RaidBoss" name="Ember" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25320" count="3" respawnTime="360" weightPoint="1" /> <!-- Ember's Watchman -->
-				<npc id="25321" count="1" respawnTime="360" weightPoint="1" /> <!-- Ember's Messenger -->
+				<npc id="25320" count="3" respawnTime="360" weightPoint="1" /> (Ember's Watchman)
+				<npc id="25321" count="1" respawnTime="360" weightPoint="1" /> (Ember's Messenger)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="DDMagic_a" id="4191" level="10" />
@@ -735,21 +735,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4911" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4188" level="10" /> <!-- Bleed -->
-			<skill id="4189" level="10" /> <!-- Paralysis -->
-			<skill id="4191" level="10" /> <!-- BOSS Windstrike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4911" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4188" level="10" /> (Bleed)
+			<skill id="4189" level="10" /> (Paralysis)
+			<skill id="4191" level="10" /> (BOSS Windstrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -778,21 +778,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4191" level="9" /> <!-- BOSS Windstrike -->
-			<skill id="4199" level="9" /> <!-- Decrease P. Atk. -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4191" level="9" /> (BOSS Windstrike)
+			<skill id="4199" level="9" /> (Decrease P. Atk.)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -821,18 +821,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4209" level="9" /> <!-- BOSS Heal -->
-			<skill id="4213" level="9" /> <!-- BOSS Haste -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4209" level="9" /> (BOSS Heal)
+			<skill id="4213" level="9" /> (BOSS Haste)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -844,8 +844,8 @@
 	<npc id="25322" level="66" type="RaidBoss" name="Demon's Agent Falston" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25323" count="3" respawnTime="360" weightPoint="1" /> <!-- Falston's Disciple -->
-				<npc id="25324" count="1" respawnTime="360" weightPoint="1" /> <!-- Servant of Falston -->
+				<npc id="25323" count="3" respawnTime="360" weightPoint="1" /> (Falston's Disciple)
+				<npc id="25324" count="1" respawnTime="360" weightPoint="1" /> (Servant of Falston)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeHold_a" id="4197" level="6" />
@@ -866,19 +866,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4912" level="1" /> <!-- Raid Boss (Lv. 66) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="4" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4197" level="6" /> <!-- Hold -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4912" level="1" /> (Raid Boss (Lv. 66))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="4" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4197" level="6" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -907,18 +907,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4192" level="6" /> <!-- BOSS HP Drain -->
-			<skill id="4204" level="6" /> <!-- Bleed -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4192" level="6" /> (BOSS HP Drain)
+			<skill id="4204" level="6" /> (Bleed)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="MAGE" clanHelpRange="300" />
@@ -946,17 +946,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4169" level="6" /> <!-- Stun -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4169" level="6" /> (Stun)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -968,8 +968,8 @@
 	<npc id="25325" level="70" type="RaidBoss" name="Barakiel" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25326" count="1" respawnTime="360" weightPoint="1" /> <!-- Barakiel's Apostle -->
-				<npc id="25327" count="4" respawnTime="360" weightPoint="1" /> <!-- Barakiel's Acolyte -->
+				<npc id="25326" count="1" respawnTime="360" weightPoint="1" /> (Barakiel's Apostle)
+				<npc id="25327" count="4" respawnTime="360" weightPoint="1" /> (Barakiel's Acolyte)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="DDMagic_a" id="4192" level="7" />
@@ -992,21 +992,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4913" level="1" /> <!-- Raid Boss (Lv. 70) -->
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="4" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4188" level="7" /> <!-- Bleed -->
-			<skill id="4190" level="7" /> <!-- Decrease MP -->
-			<skill id="4192" level="7" /> <!-- BOSS HP Drain -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4913" level="1" /> (Raid Boss (Lv. 70))
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="4" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4188" level="7" /> (Bleed)
+			<skill id="4190" level="7" /> (Decrease MP)
+			<skill id="4192" level="7" /> (BOSS HP Drain)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1034,17 +1034,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4724" level="6" /> <!-- Stun -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4724" level="6" /> (Stun)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="MAGE" clanHelpRange="300" />
@@ -1069,16 +1069,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="MAGE" clanHelpRange="300" />
@@ -1090,10 +1090,10 @@
 	<npc id="25328" level="71" type="RaidBoss" name="Eilhalder von Hellmann" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25329" count="1" respawnTime="360" weightPoint="1" /> <!-- Violette -->
-				<npc id="25330" count="1" respawnTime="360" weightPoint="1" /> <!-- Kurstin -->
-				<npc id="25331" count="1" respawnTime="360" weightPoint="1" /> <!-- Mina -->
-				<npc id="25332" count="1" respawnTime="360" weightPoint="1" /> <!-- Dorian -->
+				<npc id="25329" count="1" respawnTime="360" weightPoint="1" /> (Violette)
+				<npc id="25330" count="1" respawnTime="360" weightPoint="1" /> (Kurstin)
+				<npc id="25331" count="1" respawnTime="360" weightPoint="1" /> (Mina)
+				<npc id="25332" count="1" respawnTime="360" weightPoint="1" /> (Dorian)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeHold_a" id="4197" level="7" />
@@ -1114,19 +1114,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4914" level="1" /> <!-- Raid Boss (Lv. 71) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4197" level="7" /> <!-- Hold -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4914" level="1" /> (Raid Boss (Lv. 71))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4197" level="7" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1155,18 +1155,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4193" level="7" /> <!-- BOSS Life Drain -->
-			<skill id="4206" level="7" /> <!-- Decrease MP -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4193" level="7" /> (BOSS Life Drain)
+			<skill id="4206" level="7" /> (Decrease MP)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="MAGE" clanHelpRange="300" />
@@ -1195,18 +1195,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4193" level="7" /> <!-- BOSS Life Drain -->
-			<skill id="4199" level="7" /> <!-- Decrease P. Atk. -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4193" level="7" /> (BOSS Life Drain)
+			<skill id="4199" level="7" /> (Decrease P. Atk.)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="MAGE" clanHelpRange="300" />
@@ -1235,18 +1235,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4193" level="7" /> <!-- BOSS Life Drain -->
-			<skill id="4203" level="7" /> <!-- Decrease Speed -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4193" level="7" /> (BOSS Life Drain)
+			<skill id="4203" level="7" /> (Decrease Speed)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="MAGE" clanHelpRange="300" />
@@ -1274,17 +1274,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4181" level="7" /> <!-- BOSS Mortal Blow -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4181" level="7" /> (BOSS Mortal Blow)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
@@ -1316,21 +1316,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4915" level="1" /> <!-- Raid Boss (Lv. 28) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4172" level="2" /> <!-- Stun -->
-			<skill id="4175" level="2" /> <!-- BOSS Haste -->
-			<skill id="4723" level="2" /> <!-- BOSS Strike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4915" level="1" /> (Raid Boss (Lv. 28))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4172" level="2" /> (Stun)
+			<skill id="4175" level="2" /> (BOSS Haste)
+			<skill id="4723" level="2" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1362,21 +1362,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4916" level="1" /> <!-- Raid Boss (Lv. 38) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4172" level="3" /> <!-- Stun -->
-			<skill id="4175" level="3" /> <!-- BOSS Haste -->
-			<skill id="4723" level="3" /> <!-- BOSS Strike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4916" level="1" /> (Raid Boss (Lv. 38))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4172" level="3" /> (Stun)
+			<skill id="4175" level="3" /> (BOSS Haste)
+			<skill id="4723" level="3" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1408,21 +1408,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4917" level="1" /> <!-- Raid Boss (Lv. 48) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4172" level="4" /> <!-- Stun -->
-			<skill id="4175" level="4" /> <!-- BOSS Haste -->
-			<skill id="4723" level="4" /> <!-- BOSS Strike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4917" level="1" /> (Raid Boss (Lv. 48))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4172" level="4" /> (Stun)
+			<skill id="4175" level="4" /> (BOSS Haste)
+			<skill id="4723" level="4" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1454,21 +1454,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4918" level="1" /> <!-- Raid Boss (Lv. 58) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4172" level="5" /> <!-- Stun -->
-			<skill id="4175" level="5" /> <!-- BOSS Haste -->
-			<skill id="4723" level="5" /> <!-- BOSS Strike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4918" level="1" /> (Raid Boss (Lv. 58))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4172" level="5" /> (Stun)
+			<skill id="4175" level="5" /> (BOSS Haste)
+			<skill id="4723" level="5" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1500,21 +1500,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4919" level="1" /> <!-- Raid Boss (Lv. 68) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4172" level="6" /> <!-- Stun -->
-			<skill id="4175" level="6" /> <!-- BOSS Haste -->
-			<skill id="4723" level="6" /> <!-- BOSS Strike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4919" level="1" /> (Raid Boss (Lv. 68))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4172" level="6" /> (Stun)
+			<skill id="4175" level="6" /> (BOSS Haste)
+			<skill id="4723" level="6" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1546,21 +1546,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4920" level="1" /> <!-- Raid Boss (Lv. 78) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4172" level="8" /> <!-- Stun -->
-			<skill id="4175" level="8" /> <!-- BOSS Haste -->
-			<skill id="4723" level="8" /> <!-- BOSS Strike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4920" level="1" /> (Raid Boss (Lv. 78))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4172" level="8" /> (Stun)
+			<skill id="4175" level="8" /> (BOSS Haste)
+			<skill id="4723" level="8" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1572,15 +1572,15 @@
 	<npc id="25339" level="85" type="Monster" name="Alectia" title="Halisha's Shadow">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25340" count="1" respawnTime="360" weightPoint="1" /> <!-- Alectia's Knight -->
-				<npc id="25341" count="1" respawnTime="360" weightPoint="1" /> <!-- Alectia's Knight -->
+				<npc id="25340" count="1" respawnTime="360" weightPoint="1" /> (Alectia's Knight)
+				<npc id="25341" count="1" respawnTime="360" weightPoint="1" /> (Alectia's Knight)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="9" />
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="6720" /> <!-- Monster Only (Halisha's Shadow) -->
+		<equipment rhand="6720" /> (Monster Only (Halisha's Shadow))
 		<acquire exp="115600000" sp="3468000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="5500000" hpRegen="1" mp="1708.8" mpRegen="3" />
@@ -1595,20 +1595,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4921" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4178" level="9" /> <!-- BOSS Flamestrike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4921" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4178" level="9" /> (BOSS Flamestrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1637,18 +1637,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4212" level="9" /> <!-- BOSS Shield -->
-			<skill id="4788" level="9" /> <!-- BOSS Chant of Life -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4212" level="9" /> (BOSS Shield)
+			<skill id="4788" level="9" /> (BOSS Chant of Life)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -1673,16 +1673,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -1694,16 +1694,16 @@
 	<npc id="25342" level="85" type="Monster" name="Tisha" title="Halisha's Shadow">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25343" count="1" respawnTime="360" weightPoint="1" /> <!-- Tisha's Knight -->
-				<npc id="25345" count="1" respawnTime="360" weightPoint="1" /> <!-- Tisha's Knight -->
-				<npc id="25344" count="1" respawnTime="360" weightPoint="1" /> <!-- Tisha's Knight -->
+				<npc id="25343" count="1" respawnTime="360" weightPoint="1" /> (Tisha's Knight)
+				<npc id="25345" count="1" respawnTime="360" weightPoint="1" /> (Tisha's Knight)
+				<npc id="25344" count="1" respawnTime="360" weightPoint="1" /> (Tisha's Knight)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="PhysicalSpecial_b" id="4748" level="9" />
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="6720" /> <!-- Monster Only (Halisha's Shadow) -->
+		<equipment rhand="6720" /> (Monster Only (Halisha's Shadow))
 		<acquire exp="2643172" sp="634" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="11000000" hpRegen="1" mp="1708.8" mpRegen="3" />
@@ -1718,20 +1718,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4922" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4748" level="9" /> <!-- Stun -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4922" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4748" level="9" /> (Stun)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1760,18 +1760,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4212" level="9" /> <!-- BOSS Shield -->
-			<skill id="4788" level="9" /> <!-- BOSS Chant of Life -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="11" /> (HP Increase (3x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="15" /> (Strong P. Def.)
+			<skill id="4413" level="15" /> (Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4212" level="9" /> (BOSS Shield)
+			<skill id="4788" level="9" /> (BOSS Chant of Life)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -1796,16 +1796,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="11" /> (HP Increase (3x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="15" /> (Strong P. Def.)
+			<skill id="4413" level="15" /> (Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" />
@@ -1834,18 +1834,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4191" level="9" /> <!-- BOSS Windstrike -->
-			<skill id="4203" level="9" /> <!-- Decrease Speed -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="11" /> (HP Increase (3x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="15" /> (Strong P. Def.)
+			<skill id="4413" level="15" /> (Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4191" level="9" /> (BOSS Windstrike)
+			<skill id="4203" level="9" /> (Decrease Speed)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="MAGE" clanHelpRange="300" />
@@ -1857,15 +1857,15 @@
 	<npc id="25346" level="85" type="Monster" name="Mekara" title="Halisha's Shadow">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25347" count="1" respawnTime="360" weightPoint="1" /> <!-- Mekara's Knight -->
-				<npc id="25348" count="1" respawnTime="360" weightPoint="1" /> <!-- Mekara's Knight -->
+				<npc id="25347" count="1" respawnTime="360" weightPoint="1" /> (Mekara's Knight)
+				<npc id="25348" count="1" respawnTime="360" weightPoint="1" /> (Mekara's Knight)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeHold_a" id="4197" level="9" />
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="6720" /> <!-- Monster Only (Halisha's Shadow) -->
+		<equipment rhand="6720" /> (Monster Only (Halisha's Shadow))
 		<acquire exp="2643172" sp="634" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="19250000" hpRegen="1" mp="1708.8" mpRegen="3" />
@@ -1880,20 +1880,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4923" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4197" level="9" /> <!-- Hold -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4923" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="16" /> (Very Strong M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4197" level="9" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1922,18 +1922,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4191" level="9" /> <!-- BOSS Windstrike -->
-			<skill id="4199" level="9" /> <!-- Decrease P. Atk. -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="17" /> (Very Strong P. Atk.)
+			<skill id="4411" level="17" /> (Very Strong M. Atk.)
+			<skill id="4412" level="17" /> (Very Strong P. Def.)
+			<skill id="4413" level="17" /> (Very Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4191" level="9" /> (BOSS Windstrike)
+			<skill id="4199" level="9" /> (Decrease P. Atk.)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="MAGE" clanHelpRange="300" />
@@ -1948,7 +1948,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="78" /> <!-- Great Sword -->
+		<equipment rhand="78" /> (Great Sword)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="48785.9394" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1962,19 +1962,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4743" level="9" /> <!-- BOSS Strike -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="17" /> (Very Strong P. Atk.)
+			<skill id="4411" level="17" /> (Very Strong M. Atk.)
+			<skill id="4412" level="17" /> (Very Strong P. Def.)
+			<skill id="4413" level="17" /> (Very Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4743" level="9" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -1986,8 +1986,8 @@
 	<npc id="25349" level="85" type="Monster" name="Morigul" title="Halisha's Shadow">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25350" count="1" respawnTime="360" weightPoint="1" /> <!-- Morigul's Knight -->
-				<npc id="25351" count="1" respawnTime="360" weightPoint="1" /> <!-- Morigul's Knight -->
+				<npc id="25350" count="1" respawnTime="360" weightPoint="1" /> (Morigul's Knight)
+				<npc id="25351" count="1" respawnTime="360" weightPoint="1" /> (Morigul's Knight)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="DDMagic_a" id="4195" level="9" />
@@ -1996,7 +1996,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="6720" /> <!-- Monster Only (Halisha's Shadow) -->
+		<equipment rhand="6720" /> (Monster Only (Halisha's Shadow))
 		<acquire exp="2643172" sp="634" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="33000000" hpRegen="1" mp="1708.8" mpRegen="3" />
@@ -2011,22 +2011,22 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4924" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4184" level="9" /> <!-- Decrease Atk. Spd. -->
-			<skill id="4187" level="9" /> <!-- Decrease Speed -->
-			<skill id="4195" level="9" /> <!-- BOSS Twister -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4924" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="18" /> (Extremely Strong M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4184" level="9" /> (Decrease Atk. Spd.)
+			<skill id="4187" level="9" /> (Decrease Speed)
+			<skill id="4195" level="9" /> (BOSS Twister)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2055,18 +2055,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
-			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4191" level="9" /> <!-- BOSS Windstrike -->
-			<skill id="4201" level="9" /> <!-- Sleep -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="13" /> (HP Increase (5x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
+			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
+			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4191" level="9" /> (BOSS Windstrike)
+			<skill id="4201" level="9" /> (Sleep)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="MAGE" clanHelpRange="300" />
@@ -2095,18 +2095,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
-			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4212" level="9" /> <!-- BOSS Shield -->
-			<skill id="4788" level="9" /> <!-- BOSS Chant of Life -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="13" /> (HP Increase (5x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
+			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
+			<skill id="4413" level="19" /> (Extremely Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4212" level="9" /> (BOSS Shield)
+			<skill id="4788" level="9" /> (BOSS Chant of Life)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2118,7 +2118,7 @@
 	<npc id="25352" level="30" type="RaidBoss" name="Giant Wasteland Basilisk" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25353" count="3" respawnTime="360" weightPoint="1" /> <!-- Wasteland Basilisk -->
+				<npc id="25353" count="3" respawnTime="360" weightPoint="1" /> (Wasteland Basilisk)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="RangeHold_a" id="4197" level="3" />
@@ -2139,20 +2139,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4925" level="1" /> <!-- Raid Boss (Lv. 30) -->
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4197" level="3" /> <!-- Hold -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4925" level="1" /> (Raid Boss (Lv. 30))
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4197" level="3" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2180,17 +2180,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4728" level="2" /> <!-- Stun -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4728" level="2" /> (Stun)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2202,8 +2202,8 @@
 	<npc id="25354" level="35" type="RaidBoss" name="Gargoyle Lord Sirocco" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25355" count="4" respawnTime="360" weightPoint="1" /> <!-- Sirocco's Gargoyle -->
-				<npc id="25356" count="1" respawnTime="360" weightPoint="1" /> <!-- Sirocco's Protector -->
+				<npc id="25355" count="4" respawnTime="360" weightPoint="1" /> (Sirocco's Gargoyle)
+				<npc id="25356" count="1" respawnTime="360" weightPoint="1" /> (Sirocco's Protector)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="DDMagic_a" id="4195" level="3" />
@@ -2226,25 +2226,25 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4926" level="1" /> <!-- Raid Boss (Lv. 35) -->
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4184" level="3" /> <!-- Decrease Atk. Spd. -->
-			<skill id="4186" level="3" /> <!-- Hold -->
-			<skill id="4195" level="3" /> <!-- BOSS Twister -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4926" level="1" /> (Raid Boss (Lv. 35))
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4184" level="3" /> (Decrease Atk. Spd.)
+			<skill id="4186" level="3" /> (Hold)
+			<skill id="4195" level="3" /> (BOSS Twister)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2269,19 +2269,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2309,20 +2309,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4741" level="3" /> <!-- BOSS Strike -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4741" level="3" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2334,15 +2334,15 @@
 	<npc id="25357" level="21" type="RaidBoss" name="Sukar Ratman Chief" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25358" count="2" respawnTime="360" weightPoint="1" /> <!-- Sukar Ratman Protector -->
-				<npc id="25359" count="1" respawnTime="360" weightPoint="1" /> <!-- Sukar Ratman Priest -->
+				<npc id="25358" count="2" respawnTime="360" weightPoint="1" /> (Sukar Ratman Protector)
+				<npc id="25359" count="1" respawnTime="360" weightPoint="1" /> (Sukar Ratman Priest)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="2" />
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="216" /> <!-- Dirk -->
+		<equipment rhand="216" /> (Dirk)
 		<acquire exp="4086482" sp="122594" raidPoints="5" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="420140" hpRegen="423" mp="210070" mpRegen="10" />
@@ -2357,20 +2357,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4927" level="1" /> <!-- Raid Boss (Lv. 21) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4178" level="2" /> <!-- BOSS Flamestrike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4927" level="1" /> (Raid Boss (Lv. 21))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4178" level="2" /> (BOSS Flamestrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2385,7 +2385,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="216" /> <!-- Dirk -->
+		<equipment rhand="216" /> (Dirk)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="26439" hpRegen="5" mp="20799" mpRegen="10" />
 			<attack physical="121" magical="52" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -2399,17 +2399,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4733" level="2" /> <!-- BOSS Mortal Blow -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4733" level="2" /> (BOSS Mortal Blow)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2425,7 +2425,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="179" /> <!-- Mace of Prayer -->
+		<equipment rhand="179" /> (Mace of Prayer)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="26439" hpRegen="5" mp="20799" mpRegen="10" />
 			<attack physical="121" magical="52" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -2439,18 +2439,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4211" level="2" /> <!-- BOSS Might -->
-			<skill id="4783" level="2" /> <!-- BOSS Heal -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4211" level="2" /> (BOSS Might)
+			<skill id="4783" level="2" /> (BOSS Heal)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2462,7 +2462,7 @@
 	<npc id="25360" level="26" type="RaidBoss" name="Tiger Hornet" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25361" count="3" respawnTime="360" weightPoint="1" /> <!-- Yellow Hornet -->
+				<npc id="25361" count="3" respawnTime="360" weightPoint="1" /> (Yellow Hornet)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
 			<skill name="RangeHold_a" id="4197" level="2" />
@@ -2483,19 +2483,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4928" level="1" /> <!-- Raid Boss (Lv. 26) -->
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4197" level="2" /> <!-- Hold -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4928" level="1" /> (Raid Boss (Lv. 26))
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4197" level="2" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2523,17 +2523,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4733" level="2" /> <!-- BOSS Mortal Blow -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4733" level="2" /> (BOSS Mortal Blow)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2545,8 +2545,8 @@
 	<npc id="25362" level="23" type="RaidBoss" name="Hunters' Chieftain Sharuk" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25363" count="2" respawnTime="360" weightPoint="1" /> <!-- Sharuk's Tracker -->
-				<npc id="25364" count="3" respawnTime="360" weightPoint="1" /> <!-- Sharuk's Sniper -->
+				<npc id="25363" count="2" respawnTime="360" weightPoint="1" /> (Sharuk's Tracker)
+				<npc id="25364" count="3" respawnTime="360" weightPoint="1" /> (Sharuk's Sniper)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="PhysicalSpecial_b" id="4743" level="2" />
@@ -2567,19 +2567,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4929" level="1" /> <!-- Raid Boss (Lv. 23) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4743" level="2" /> <!-- BOSS Strike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4929" level="1" /> (Raid Boss (Lv. 23))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4743" level="2" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2604,16 +2604,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2638,16 +2638,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2665,7 +2665,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="93" /> <!-- Winged Spear -->
+		<equipment rhand="93" /> (Winged Spear)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="1232174.03509997" hpRegen="1207.39267133816" mp="2691.6" mpRegen="5.4" />
 			<attack physical="12124.002" magical="5644.86" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2679,22 +2679,22 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4930" level="1" /> <!-- Raid Boss (Lv. 70) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4174" level="2" /> <!-- BOSS Shield -->
-			<skill id="4723" level="2" /> <!-- BOSS Strike -->
-			<skill id="4738" level="2" /> <!-- BOSS Spinning Slash -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4930" level="1" /> (Raid Boss (Lv. 70))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4174" level="2" /> (BOSS Shield)
+			<skill id="4723" level="2" /> (BOSS Strike)
+			<skill id="4738" level="2" /> (BOSS Spinning Slash)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2706,8 +2706,8 @@
 	<npc id="25366" level="90" type="RaidBoss" name="Kuroboros' High Priest" title="High Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25367" count="2" respawnTime="360" weightPoint="1" /> <!-- Kuroboros' Follower -->
-				<npc id="25368" count="1" respawnTime="360" weightPoint="1" /> <!-- Kuroboros' Discipline -->
+				<npc id="25367" count="2" respawnTime="360" weightPoint="1" /> (Kuroboros' Follower)
+				<npc id="25368" count="1" respawnTime="360" weightPoint="1" /> (Kuroboros' Discipline)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="2" />
@@ -2727,20 +2727,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4931" level="1" /> <!-- Raid Boss (Lv. 85) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4178" level="2" /> <!-- BOSS Flamestrike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4931" level="1" /> (Raid Boss (Lv. 85))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4178" level="2" /> (BOSS Flamestrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2751,37 +2751,37 @@
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="103976" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Authority Pack -->
-					<item id="103977" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Circlet of Hero Pack -->
-					<item id="103975" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Speed Pack -->
-					<item id="103980" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Dragon Belt Pack -->
-					<item id="103974" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Eva Pack -->
-					<item id="103979" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Cloak of Protection Pack -->
-					<item id="103978" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Phantom Mask Pack -->
-					<item id="103973" min="1" max="1" chance="12.5" /> <!-- +4 ~ +6 Talisman of Aden Pack -->
+					<item id="103976" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Authority Pack)
+					<item id="103977" min="1" max="1" chance="12.5" /> (+4 ~ +6 Circlet of Hero Pack)
+					<item id="103975" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Speed Pack)
+					<item id="103980" min="1" max="1" chance="12.5" /> (+4 ~ +6 Dragon Belt Pack)
+					<item id="103974" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Eva Pack)
+					<item id="103979" min="1" max="1" chance="12.5" /> (+4 ~ +6 Cloak of Protection Pack)
+					<item id="103978" min="1" max="1" chance="12.5" /> (+4 ~ +6 Phantom Mask Pack)
+					<item id="103973" min="1" max="1" chance="12.5" /> (+4 ~ +6 Talisman of Aden Pack)
 				</group>
 				<group chance="1.1">
-					<item id="105279" min="1" max="1" chance="100" /> <!-- Superior Spellbook -->
+					<item id="105279" min="1" max="1" chance="100" /> (Superior Spellbook)
 				</group>
 				<group chance="0.8">
-					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
+					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
 				</group>
 				<group chance="2">
-					<item id="94117" min="1" max="1" chance="100" /> <!-- Guardian's Skillbook - Volume 2 -->
+					<item id="94117" min="1" max="1" chance="100" /> (Guardian's Skillbook - Volume 2)
 				</group>
 				<group chance="100">
-					<item id="730" min="2" max="4" chance="80" /> <!-- Scroll: Enchant Armor -->
-					<item id="729" min="2" max="4" chance="20" /> <!-- Scroll: Enchant Weapon -->
+					<item id="730" min="2" max="4" chance="80" /> (Scroll: Enchant Armor)
+					<item id="729" min="2" max="4" chance="20" /> (Scroll: Enchant Weapon)
 				</group>
 				<group chance="3">
-					<item id="93255" min="1" max="1" chance="20" /> <!-- Blessed Scroll: Enchant Weapon -->
-					<item id="93256" min="1" max="1" chance="80" /> <!-- Blessed Scroll: Enchant Armor -->
+					<item id="93255" min="1" max="1" chance="20" /> (Blessed Scroll: Enchant Weapon)
+					<item id="93256" min="1" max="1" chance="80" /> (Blessed Scroll: Enchant Armor)
 				</group>
 			</drop>
 			<fortune>
-				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
-				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
-				<item id="101964" min="1" max="1" chance="0.8" /> <!-- Fortune Time Box - Command Channel Raid - Sealed -->
+				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
+				<item id="101964" min="1" max="1" chance="0.8" /> (Fortune Time Box - Command Channel Raid - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -2791,7 +2791,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="1" lhand="102" /> <!-- Short Sword / Round Shield -->
+		<equipment rhand="1" lhand="102" /> (Short Sword / Round Shield)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="160460.3" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3633" magical="6279" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2805,17 +2805,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4743" level="2" /> <!-- BOSS Strike -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4743" level="2" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2831,7 +2831,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="179" /> <!-- Mace of Prayer -->
+		<equipment rhand="179" /> (Mace of Prayer)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="160460.3" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3633" magical="6279" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -2845,18 +2845,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4212" level="6" /> <!-- BOSS Shield -->
-			<skill id="4788" level="6" /> <!-- BOSS Chant of Life -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4212" level="6" /> (BOSS Shield)
+			<skill id="4788" level="6" /> (BOSS Chant of Life)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2868,8 +2868,8 @@
 	<npc id="25369" level="80" type="RaidBoss" name="Cursed Scavenger" title="Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25370" count="1" respawnTime="360" weightPoint="1" /> <!-- Corpse Scavenger -->
-				<npc id="25371" count="4" respawnTime="360" weightPoint="1" /> <!-- Anima Scavenger -->
+				<npc id="25370" count="1" respawnTime="360" weightPoint="1" /> (Corpse Scavenger)
+				<npc id="25371" count="4" respawnTime="360" weightPoint="1" /> (Anima Scavenger)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="DDMagic_a" id="4191" level="2" />
@@ -2891,24 +2891,24 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4932" level="1" /> <!-- Raid Boss (Lv. 75) -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4183" level="2" /> <!-- Decrease P. Atk. -->
-			<skill id="4185" level="2" /> <!-- Sleep -->
-			<skill id="4191" level="2" /> <!-- BOSS Windstrike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4932" level="1" /> (Raid Boss (Lv. 75))
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4183" level="2" /> (Decrease P. Atk.)
+			<skill id="4185" level="2" /> (Sleep)
+			<skill id="4191" level="2" /> (BOSS Windstrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -2923,7 +2923,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="946" /> <!-- Skeleton Dagger -->
+		<equipment rhand="946" /> (Skeleton Dagger)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="27512" hpRegen="7" mp="21643" mpRegen="10" />
 			<attack physical="172" magical="95" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -2937,19 +2937,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4733" level="2" /> <!-- BOSS Mortal Blow -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4733" level="2" /> (BOSS Mortal Blow)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -2961,7 +2961,7 @@
 	<npc id="25371" level="24" type="Monster" name="Anima Scavenger" title="Raid Minion">
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="946" /> <!-- Skeleton Dagger -->
+		<equipment rhand="946" /> (Skeleton Dagger)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="27512" hpRegen="7" mp="21643" mpRegen="10" />
 			<attack physical="172" magical="95" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -2975,18 +2975,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -3018,24 +3018,24 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4933" level="1" /> <!-- Raid Boss (Lv. 20) -->
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4172" level="2" /> <!-- Stun -->
-			<skill id="4173" level="2" /> <!-- BOSS Might -->
-			<skill id="4733" level="2" /> <!-- BOSS Mortal Blow -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4933" level="1" /> (Raid Boss (Lv. 20))
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4172" level="2" /> (Stun)
+			<skill id="4173" level="2" /> (BOSS Might)
+			<skill id="4733" level="2" /> (BOSS Mortal Blow)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -3047,7 +3047,7 @@
 	<npc id="25373" level="21" type="RaidBoss" name="Dagoniel's Messenger Malex" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25374" count="3" respawnTime="360" weightPoint="1" /> <!-- Abyss Flyer -->
+				<npc id="25374" count="3" respawnTime="360" weightPoint="1" /> (Abyss Flyer)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeHold_a" id="4197" level="2" />
@@ -3068,19 +3068,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4934" level="1" /> <!-- Raid Boss (Lv. 21) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4197" level="2" /> <!-- Hold -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4934" level="1" /> (Raid Boss (Lv. 21))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4197" level="2" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -3108,17 +3108,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4728" level="2" /> <!-- Stun -->
+			<skill id="4416" level="4" /> (Animals)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4728" level="2" /> (Stun)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -3130,8 +3130,8 @@
 	<npc id="25375" level="20" type="RaidBoss" name="Zombie Lord Ferkel" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25376" count="2" respawnTime="360" weightPoint="1" /> <!-- Ferkel's Zombie Warrior -->
-				<npc id="25377" count="1" respawnTime="360" weightPoint="1" /> <!-- Ferkel's Zombie Priest -->
+				<npc id="25376" count="2" respawnTime="360" weightPoint="1" /> (Ferkel's Zombie Warrior)
+				<npc id="25377" count="1" respawnTime="360" weightPoint="1" /> (Ferkel's Zombie Priest)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="2" />
@@ -3152,21 +3152,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4899" level="1" /> <!-- Raid Boss (Lv. 20) -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4178" level="2" /> <!-- BOSS Flamestrike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4899" level="1" /> (Raid Boss (Lv. 20))
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4178" level="2" /> (BOSS Flamestrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -3194,19 +3194,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4743" level="1" /> <!-- BOSS Strike -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4743" level="1" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -3235,20 +3235,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4213" level="1" /> <!-- BOSS Haste -->
-			<skill id="4783" level="1" /> <!-- BOSS Heal -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4213" level="1" /> (BOSS Haste)
+			<skill id="4783" level="1" /> (BOSS Heal)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -3260,10 +3260,10 @@
 	<npc id="25378" level="20" type="RaidBoss" name="Madness Beast" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25379" count="3" respawnTime="360" weightPoint="1" /> <!-- Dementia Beast -->
+				<npc id="25379" count="3" respawnTime="360" weightPoint="1" /> (Dementia Beast)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
-			<skill name="RangeHold_a" id="4197" level="2" /> <!-- Hold -->
+			<skill name="RangeHold_a" id="4197" level="2" /> (Hold)
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
@@ -3281,19 +3281,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4935" level="1" /> <!-- Raid Boss (Lv. 20) -->
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4197" level="2" /> <!-- Hold -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4935" level="1" /> (Raid Boss (Lv. 20))
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4197" level="2" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" isAggressive="false" />
@@ -3304,7 +3304,7 @@
 	</npc>
 	<npc id="25379" level="19" type="Monster" name="Dementia Beast" title="Raid Minion">
 		<parameters>
-			<skill name="PhysicalSpecial_a" id="4743" level="1" /> <!-- BOSS Strike -->
+			<skill name="PhysicalSpecial_a" id="4743" level="1" /> (BOSS Strike)
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
@@ -3321,17 +3321,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4743" level="1" /> <!-- BOSS Strike -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4743" level="1" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" isAggressive="false" />
@@ -3343,13 +3343,13 @@
 	<npc id="25380" level="21" type="RaidBoss" name="Icarus' Messenger Kaysha" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25381" count="1" respawnTime="360" weightPoint="1" /> <!-- Nightmare Flyer -->
-				<npc id="25382" count="4" respawnTime="360" weightPoint="1" /> <!-- Hostile Flyer -->
+				<npc id="25381" count="1" respawnTime="360" weightPoint="1" /> (Nightmare Flyer)
+				<npc id="25382" count="4" respawnTime="360" weightPoint="1" /> (Hostile Flyer)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm03_A" />
-			<skill name="DDMagic_a" id="4192" level="2" /> <!-- BOSS HP Drain -->
-			<skill name="SelfRangeDebuff_a" id="4188" level="2" /> <!-- Bleed -->
-			<skill name="SelfRangeDebuffAnother_a" id="4187" level="2" /> <!-- Decrease Speed -->
+			<skill name="DDMagic_a" id="4192" level="2" /> (BOSS HP Drain)
+			<skill name="SelfRangeDebuff_a" id="4188" level="2" /> (Bleed)
+			<skill name="SelfRangeDebuffAnother_a" id="4187" level="2" /> (Decrease Speed)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
@@ -3367,21 +3367,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4936" level="1" /> <!-- Raid Boss (Lv. 21) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4187" level="2" /> <!-- Decrease Speed -->
-			<skill id="4188" level="2" /> <!-- Bleed -->
-			<skill id="4192" level="2" /> <!-- BOSS HP Drain -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4936" level="1" /> (Raid Boss (Lv. 21))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4187" level="2" /> (Decrease Speed)
+			<skill id="4188" level="2" /> (Bleed)
+			<skill id="4192" level="2" /> (BOSS HP Drain)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" isAggressive="false" />
@@ -3392,7 +3392,7 @@
 	</npc>
 	<npc id="25381" level="19" type="Monster" name="Nightmare Flyer" title="Raid Minion">
 		<parameters>
-			<skill name="PhysicalSpecial_a" id="4743" level="1" /> <!-- BOSS Strike -->
+			<skill name="PhysicalSpecial_a" id="4743" level="1" /> (BOSS Strike)
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
@@ -3409,17 +3409,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4743" level="1" /> <!-- BOSS Strike -->
+			<skill id="4416" level="4" /> (Animals)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4743" level="1" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" isAggressive="false" />
@@ -3444,16 +3444,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="4" /> (Animals)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" isAggressive="false" />
@@ -3465,14 +3465,14 @@
 	<npc id="25383" level="34" type="RaidBoss" name="Sir Calibus' Ghost" title="Raid Boss">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25384" count="3" respawnTime="360" weightPoint="1" /> <!-- Calibus' Follower -->
+				<npc id="25384" count="3" respawnTime="360" weightPoint="1" /> (Calibus' Follower)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="RangeHold_a" id="4197" level="3" />
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="75" /> <!-- Caliburs -->
+		<equipment rhand="75" /> (Caliburs)
 		<acquire exp="383723" sp="92" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="197375.02253587" hpRegen="25.6128307622386" mp="387.72" mpRegen="1.8" />
@@ -3487,21 +3487,21 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4937" level="1" /> <!-- Raid Boss (Lv. 34) -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4197" level="3" /> <!-- Hold -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4937" level="1" /> (Raid Boss (Lv. 34))
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4197" level="3" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -3516,7 +3516,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="946" /> <!-- Skeleton Dagger -->
+		<equipment rhand="946" /> (Skeleton Dagger)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="9983.70344337502" hpRegen="24.5170941308607" mp="372.96" mpRegen="1.8" />
 			<attack physical="562.230118784958" magical="179.112100596385" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -3530,19 +3530,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4733" level="3" /> <!-- BOSS Mortal Blow -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4733" level="3" /> (BOSS Mortal Blow)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -3554,8 +3554,8 @@
 	<npc id="25385" level="80" type="RaidBoss" name="Evil Spirit Tempest" title="High Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25386" count="1" respawnTime="360" weightPoint="1" /> <!-- Storm Ghost -->
-				<npc id="25387" count="4" respawnTime="360" weightPoint="1" /> <!-- Storm Spirit -->
+				<npc id="25386" count="1" respawnTime="360" weightPoint="1" /> (Storm Ghost)
+				<npc id="25387" count="4" respawnTime="360" weightPoint="1" /> (Storm Spirit)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="DDMagic_a" id="4192" level="3" />
@@ -3577,22 +3577,22 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4938" level="1" /> <!-- Raid Boss (Lv. 75) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4188" level="3" /> <!-- Bleed -->
-			<skill id="4190" level="3" /> <!-- Decrease MP -->
-			<skill id="4192" level="3" /> <!-- BOSS HP Drain -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4938" level="1" /> (Raid Boss (Lv. 75))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4188" level="3" /> (Bleed)
+			<skill id="4190" level="3" /> (Decrease MP)
+			<skill id="4192" level="3" /> (BOSS HP Drain)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -3607,7 +3607,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="128" /> <!-- Knight's Sword -->
+		<equipment rhand="128" /> (Knight's Sword)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="99633.6" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3333" magical="5676" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3621,19 +3621,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4743" level="3" /> <!-- BOSS Strike -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4743" level="3" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -3645,7 +3645,7 @@
 	<npc id="25387" level="80" type="Monster" name="Storm Spirit" title="Raid Minion">
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="946" /> <!-- Skeleton Dagger -->
+		<equipment rhand="946" /> (Skeleton Dagger)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="99633.6" hpRegen="17" mp="71253" mpRegen="10" />
 			<attack physical="3333" magical="5676" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -3659,18 +3659,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -3682,15 +3682,15 @@
 	<npc id="25388" level="60" type="RaidBoss" name="Red-eyed Leader Trakia" title="Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25389" count="3" respawnTime="360" weightPoint="1" /> <!-- Red-eyed Archer -->
-				<npc id="25390" count="2" respawnTime="360" weightPoint="1" /> <!-- Red-eyed Troop Combatant -->
+				<npc id="25389" count="3" respawnTime="360" weightPoint="1" /> (Red-eyed Archer)
+				<npc id="25390" count="2" respawnTime="360" weightPoint="1" /> (Red-eyed Troop Combatant)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="PhysicalSpecial_b" id="4743" level="3" />
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="70" /> <!-- Claymore -->
+		<equipment rhand="70" /> (Claymore)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="50675.55499615" hpRegen="1" mp="2073.6" mpRegen="4.8" />
 			<attack physical="609.961176" magical="473.3232" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3704,20 +3704,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4939" level="1" /> <!-- Raid Boss (Lv. 60) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4743" level="3" /> <!-- BOSS Strike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4939" level="1" /> (Raid Boss (Lv. 60))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4743" level="3" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -3729,7 +3729,7 @@
 	<npc id="25389" level="34" type="Monster" name="Red-eyed Archer" title="Raid Minion">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="279" /> <!-- Reinforced Longbow -->
+		<equipment rhand="279" /> (Reinforced Longbow)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="30391" hpRegen="9" mp="23908" mpRegen="10" />
 			<attack physical="289" magical="272" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -3743,16 +3743,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" />
@@ -3764,7 +3764,7 @@
 	<npc id="25390" level="34" type="Monster" name="Red-eyed Troop Combatant" title="Raid Minion">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="128" /> <!-- Knight's Sword -->
+		<equipment rhand="128" /> (Knight's Sword)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="30391" hpRegen="9" mp="23908" mpRegen="10" />
 			<attack physical="386" magical="272" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3778,16 +3778,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -3805,7 +3805,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="127" /> <!-- Crimson Sword -->
+		<equipment rhand="127" /> (Crimson Sword)
 		<acquire exp="4234032" sp="127020" raidPoints="5" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="473425" hpRegen="429" mp="236713" mpRegen="10" />
@@ -3820,22 +3820,22 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4940" level="1" /> <!-- Raid Boss (Lv. 33) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4173" level="3" /> <!-- BOSS Might -->
-			<skill id="4723" level="3" /> <!-- BOSS Strike -->
-			<skill id="4738" level="3" /> <!-- BOSS Spinning Slash -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4940" level="1" /> (Raid Boss (Lv. 33))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4173" level="3" /> (BOSS Might)
+			<skill id="4723" level="3" /> (BOSS Strike)
+			<skill id="4738" level="3" /> (BOSS Spinning Slash)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -3847,14 +3847,14 @@
 	<npc id="25392" level="35" type="RaidBoss" name="Royal Guard Captain" title="Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25393" count="3" respawnTime="360" weightPoint="1" /> <!-- Elite Marsh Stakato -->
+				<npc id="25393" count="3" respawnTime="360" weightPoint="1" /> (Elite Marsh Stakato)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeHold_a" id="4197" level="3" />
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
-		<equipment rhand="129" /> <!-- Sword of Revolution -->
+		<equipment rhand="129" /> (Sword of Revolution)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="18570.1724533022" hpRegen="1" mp="805.2" mpRegen="3.6" />
 			<attack physical="129.32896" magical="88.31491" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3868,20 +3868,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4941" level="1" /> <!-- Raid Boss (Lv. 35) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4197" level="3" /> <!-- Hold -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4941" level="1" /> (Raid Boss (Lv. 35))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4197" level="3" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -3896,7 +3896,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="223" /> <!-- Kukuri -->
+		<equipment rhand="223" /> (Kukuri)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="29497" hpRegen="9" mp="23204" mpRegen="10" />
 			<attack physical="306" magical="210" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -3910,17 +3910,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4733" level="3" /> <!-- BOSS Mortal Blow -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4733" level="3" /> (BOSS Mortal Blow)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -3952,24 +3952,24 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4942" level="1" /> <!-- Raid Boss (Lv. 38) -->
-			<skill id="4416" level="11" /> <!-- Giants -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4176" level="3" /> <!-- BOSS Reflect Damage -->
-			<skill id="4728" level="3" /> <!-- Stun -->
-			<skill id="4738" level="3" /> <!-- BOSS Spinning Slash -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4942" level="1" /> (Raid Boss (Lv. 38))
+			<skill id="4416" level="11" /> (Giants)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4176" level="3" /> (BOSS Reflect Damage)
+			<skill id="4728" level="3" /> (Stun)
+			<skill id="4738" level="3" /> (BOSS Spinning Slash)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -3981,8 +3981,8 @@
 	<npc id="25395" level="80" type="RaidBoss" name="Susceptor Archon" title="High Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25396" count="1" respawnTime="360" weightPoint="1" /> <!-- Susceptor Kusion -->
-				<npc id="25397" count="2" respawnTime="360" weightPoint="1" /> <!-- Susceptor Gustos -->
+				<npc id="25396" count="1" respawnTime="360" weightPoint="1" /> (Susceptor Kusion)
+				<npc id="25397" count="2" respawnTime="360" weightPoint="1" /> (Susceptor Gustos)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm01_A" />
 			<skill name="RangeDDMagic_a" id="4178" level="4" />
@@ -4002,20 +4002,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4943" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4178" level="4" /> <!-- BOSS Flamestrike -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4943" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4178" level="4" /> (BOSS Flamestrike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -4044,18 +4044,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4212" level="4" /> <!-- BOSS Shield -->
-			<skill id="4788" level="4" /> <!-- BOSS Chant of Life -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4212" level="4" /> (BOSS Shield)
+			<skill id="4788" level="4" /> (BOSS Chant of Life)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -4083,17 +4083,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4743" level="4" /> <!-- BOSS Strike -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4743" level="4" /> (BOSS Strike)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
@@ -4105,8 +4105,8 @@
 	<npc id="25398" level="85" type="RaidBoss" name="Gaze of Abyss" title="Elite">
 		<parameters>
 			<minions name="Privates">
-				<npc id="25399" count="3" respawnTime="360" weightPoint="1" /> <!-- Watcher's Apprentice -->
-				<npc id="25400" count="1" respawnTime="360" weightPoint="1" /> <!-- Watcher's Attendant -->
+				<npc id="25399" count="3" respawnTime="360" weightPoint="1" /> (Watcher's Apprentice)
+				<npc id="25400" count="1" respawnTime="360" weightPoint="1" /> (Watcher's Attendant)
 			</minions>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
 			<skill name="DDMagic_a" id="4194" level="3" />
@@ -4128,22 +4128,22 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4944" level="1" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4182" level="3" /> <!-- Poison -->
-			<skill id="4190" level="3" /> <!-- Decrease MP -->
-			<skill id="4194" level="3" /> <!-- BOSS Aura Burn -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4944" level="1" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4182" level="3" /> (Poison)
+			<skill id="4190" level="3" /> (Decrease MP)
+			<skill id="4194" level="3" /> (BOSS Aura Burn)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
@@ -4172,18 +4172,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4196" level="3" /> <!-- Decrease Speed -->
-			<skill id="4202" level="3" /> <!-- Hold -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="4196" level="3" /> (Decrease Speed)
+			<skill id="4202" level="3" /> (Hold)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />

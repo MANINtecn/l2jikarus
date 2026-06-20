@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="18900" level="86" type="Monster" name="Giran Volunteer" title="Relic Keeper" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -59,7 +59,7 @@
 			<height normal="28.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4416" level="19" /> (Others)
 		</skillList>
 	</npc>
 	<npc id="18903" level="80" type="RaidBoss" name="Lakar" title="Jisra's Messenger">
@@ -82,7 +82,7 @@
 			<height normal="117" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18904" level="80" type="Monster" name="Tombstone">
@@ -129,7 +129,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="160" /> <!-- Battle Axe -->
+		<equipment rhand="160" /> (Battle Axe)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="94937" hpRegen="10.2" mp="1507.8" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -146,7 +146,7 @@
 			<height normal="31.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18907" level="75" type="Monster" name="Batran" title="Village Patrolman">
@@ -169,7 +169,7 @@
 			<height normal="23" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4416" level="14" /> (Humans)
 		</skillList>
 	</npc>
 	<npc id="18908" level="85" type="Folk" name="">
@@ -211,44 +211,44 @@
 			<height normal="67" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
-			<skill id="4116" level="2" /> <!-- Magic Damage Resistance -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4071" level="1" /> (Bow Resistance)
+			<skill id="4116" level="2" /> (Magic Damage Resistance)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="25">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="15">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="12.5">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="8">
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
 				</group>
 				<group chance="6">
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="2">
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="0.2">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.01">
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -273,44 +273,44 @@
 			<height normal="53" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Insects -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
-			<skill id="4116" level="2" /> <!-- Magic Damage Resistance -->
+			<skill id="4416" level="12" /> (Insects)
+			<skill id="4071" level="1" /> (Bow Resistance)
+			<skill id="4116" level="2" /> (Magic Damage Resistance)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="25">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="15">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="12.5">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="8">
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
 				</group>
 				<group chance="6">
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="2">
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="0.2">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.01">
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -335,43 +335,43 @@
 			<height normal="143" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> <!-- Fairies -->
-			<skill id="4062" level="1" /> <!-- Orfen -->
+			<skill id="4416" level="13" /> (Fairies)
+			<skill id="4062" level="1" /> (Orfen)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="25">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="15">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="12.5">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="8">
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
 				</group>
 				<group chance="6">
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="2">
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="0.2">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.01">
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -396,42 +396,42 @@
 			<height normal="75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4416" level="2" /> (Magical Creatures)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="25">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="15">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="12.5">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="8">
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
 				</group>
 				<group chance="6">
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="2">
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="0.2">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.01">
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -456,42 +456,42 @@
 			<height normal="174" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="100">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="60">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="50">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="40">
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
 				</group>
 				<group chance="30">
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="10">
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="1">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.05">
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -516,13 +516,13 @@
 			<height normal="174" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103934" min="1" max="1" chance="100" /> <!-- Lucky Package: Enhanced - Rare Doll Summon Coupon - Baium (Time-limited) -->
+					<item id="103934" min="1" max="1" chance="100" /> (Lucky Package: Enhanced - Rare Doll Summon Coupon - Baium (Time-limited))
 				</group>
 			</drop>
 		</dropLists>
@@ -531,7 +531,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="93" /> <!-- Winged Spear -->
+		<equipment rhand="93" /> (Winged Spear)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="3300002" hpRegen="10.2" mp="1475" mpRegen="3.6" />
 			<attack physical="6211.456" magical="3181.216" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -548,42 +548,42 @@
 			<height normal="120" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="25">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="15">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="12.5">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="8">
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
 				</group>
 				<group chance="6">
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="2">
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="0.2">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.01">
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -608,42 +608,42 @@
 			<height normal="80.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4416" level="10" /> (Dragons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="100">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="60">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="50">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="40">
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
 				</group>
 				<group chance="30">
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="10">
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="1">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.05">
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -668,13 +668,13 @@
 			<height normal="80.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103935" min="1" max="1" chance="100" /> <!-- Lucky Package: Enhanced - Rare Doll Summon Coupon - Behemoth (Time-limited) -->
+					<item id="103935" min="1" max="1" chance="100" /> (Lucky Package: Enhanced - Rare Doll Summon Coupon - Behemoth (Time-limited))
 				</group>
 			</drop>
 		</dropLists>
@@ -699,42 +699,42 @@
 			<height normal="83" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="25">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="15">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="12.5">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="8">
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
 				</group>
 				<group chance="6">
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="2">
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="0.2">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.01">
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -755,16 +755,16 @@
 		</stats>
 		<status attackable="false" undying="true" noSleepMode="true" targetable="false" showName="false" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
@@ -777,7 +777,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="95840" /> <!-- For monsters_+5 Frost Lord's Sword_Not Available -->
+		<equipment rhand="95840" /> (For monsters_+5 Frost Lord's Sword_Not Available)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="262827000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -794,43 +794,43 @@
 			<height normal="102.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="100">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="60">
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
 				</group>
 				<group chance="50">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="40">
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
 				</group>
 				<group chance="30">
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="10">
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="1">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.05">
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -839,7 +839,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="95842" /> <!-- For monsters_+10 Frost Lord's Sword_Not Available -->
+		<equipment rhand="95842" /> (For monsters_+10 Frost Lord's Sword_Not Available)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="26666666.6666667" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="14444" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -856,15 +856,15 @@
 			<height normal="102.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Rate -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Rate)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103936" min="1" max="1" chance="100" /> <!-- Lucky Package: Enhanced - Rare Doll Summon Coupon - Glakias (Time-limited) -->
+					<item id="103936" min="1" max="1" chance="100" /> (Lucky Package: Enhanced - Rare Doll Summon Coupon - Glakias (Time-limited))
 				</group>
 			</drop>
 		</dropLists>
@@ -889,43 +889,43 @@
 			<height normal="98" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="25">
-					<item id="102668" min="1" max="1" chance="100" /> <!-- Package: Magic Tablet (10 pcs.) (Time-limited) -->
+					<item id="102668" min="1" max="1" chance="100" /> (Package: Magic Tablet (10 pcs.) (Time-limited))
 				</group>
 				<group chance="25">
-					<item id="102691" min="1" max="1" chance="100" /> <!-- Pack: Doll Summon Coupon (Time-limited) -->
+					<item id="102691" min="1" max="1" chance="100" /> (Pack: Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="15">
-					<item id="94184" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="50" /> <!-- Scroll of Blessing - Armor -->
+					<item id="94184" min="1" max="1" chance="50" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="50" /> (Scroll of Blessing - Armor)
 				</group>
 				<group chance="12.5">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 				<group chance="8">
-					<item id="94186" min="1" max="1" chance="33" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94188" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="1" chance="33.5" /> <!-- Augmenting Stone: Accessory -->
+					<item id="94186" min="1" max="1" chance="33" /> (Augmenting Stone: Weapon)
+					<item id="94188" min="1" max="1" chance="33.5" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="33.5" /> (Augmenting Stone: Accessory)
 				</group>
 				<group chance="6">
-					<item id="102671" min="1" max="1" chance="40" /> <!-- Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited) -->
-					<item id="102428" min="1" max="1" chance="60" /> <!-- Package: Enhanced Doll Summon Coupon (Time-limited) -->
+					<item id="102671" min="1" max="1" chance="40" /> (Lucky Package: Enhanced - Superior Doll Summon Coupon (Time-limited))
+					<item id="102428" min="1" max="1" chance="60" /> (Package: Enhanced Doll Summon Coupon (Time-limited))
 				</group>
 				<group chance="2">
-					<item id="102669" min="1" max="1" chance="80" /> <!-- Package: Unique Spellbook Coupon (Time-limited) -->
-					<item id="102670" min="1" max="1" chance="20" /> <!-- Package: Rare Spellbook Coupon (Time-limited) -->
+					<item id="102669" min="1" max="1" chance="80" /> (Package: Unique Spellbook Coupon (Time-limited))
+					<item id="102670" min="1" max="1" chance="20" /> (Package: Rare Spellbook Coupon (Time-limited))
 				</group>
 				<group chance="0.2">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.01">
-					<item id="94385" min="1" max="1" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-					<item id="94383" min="1" max="1" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="1" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="1" chance="80" /> (Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -1653,7 +1653,7 @@
 			<height normal="63" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4416" level="7" /> (Spirits)
 		</skillList>
 	</npc>
 	<npc id="18958" level="85" type="Monster" name="Mole">
@@ -1677,8 +1677,8 @@
 			<height normal="63" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48539" level="1" /> <!-- Will to Fight -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48539" level="1" /> (Will to Fight)
 		</skillList>
 	</npc>
 	<npc id="18959" level="85" type="Monster" name="Mole" title="Suspicious">
@@ -1702,8 +1702,8 @@
 			<height normal="96" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48539" level="1" /> <!-- Will to Fight -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48539" level="1" /> (Will to Fight)
 		</skillList>
 	</npc>
 	<npc id="18960" level="80" type="Monster" name="Krateth' Praetorian">
@@ -1727,9 +1727,9 @@
 			<height normal="46.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Rate -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Rate)
 		</skillList>
 	</npc>
 	<npc id="18961" level="80" type="Monster" name="Krateth' Praetorian">
@@ -1753,9 +1753,9 @@
 			<height normal="51.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Rate -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Rate)
 		</skillList>
 	</npc>
 	<npc id="18962" level="85" type="RaidBoss" name="Krateth" title="Ancient Pirate Captain">
@@ -1778,8 +1778,8 @@
 			<height normal="64.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="18963" level="80" type="Monster" name="Pirate Mercenary">
@@ -1803,8 +1803,8 @@
 			<height normal="47.05" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18964" level="83" type="Monster" name="Fox" title="Dazzling Luck Messenger">
@@ -1830,10 +1830,10 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="99995" min="1" max="1" chance="0.476" /> <!-- Package: Guardian's Pendant Lv. 1 - Sealed -->
+					<item id="99995" min="1" max="1" chance="0.476" /> (Package: Guardian's Pendant Lv. 1 - Sealed)
 				</group>
 				<group chance="70">
-					<item id="57" min="6857" max="7582" chance="100" /> <!-- Adena -->
+					<item id="57" min="6857" max="7582" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1917,14 +1917,14 @@
 			<height normal="75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<fortune>
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -1932,7 +1932,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13924050" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="3611" magical="2465" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -1949,14 +1949,14 @@
 			<height normal="77" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<fortune>
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -1980,14 +1980,14 @@
 			<height normal="81" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<fortune>
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -2011,14 +2011,14 @@
 			<height normal="87" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<fortune>
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -2043,8 +2043,8 @@
 			<height normal="45.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="48539" level="1" /> <!-- Will to Fight -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="48539" level="1" /> (Will to Fight)
 		</skillList>
 	</npc>
 	<npc id="18979" level="85" type="Folk" name="">
@@ -2106,9 +2106,9 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18982" level="85" type="Monster" name="Guardsman" element="WATER">
@@ -2131,9 +2131,9 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18983" level="85" type="Folk" name="">
@@ -2236,15 +2236,24 @@
 			<height normal="46.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="48539" level="1" /> <!-- Will to Fight -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="48539" level="1" /> (Will to Fight)
 		</skillList>
 	</npc>
 	<npc id="18991" level="87" type="RaidBoss" name="Death Knight" title="Human" element="FIRE">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<!-- CUSTOM (L2 Ikarus Intercrow / City Domination): adicionado skills ativas + boost stats pra boss usar magias -->
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="20" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="15" />
+			<skill name="DDMagic" id="4078" level="9" />
+		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="93864" /> <!-- Death Knight's Flame Sword -->
+		<equipment rhand="93864" /> (Death Knight's Flame Sword)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="8000000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="1112" magical="7592" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2261,15 +2270,29 @@
 			<height normal="43.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="1" />  <!-- Undead -->
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4408" level="1" />  <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />  <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="16" /> (Very Strong M. Atk.)
+			<skill id="4412" level="16" /> (Very Strong P. Def.)
+			<skill id="4413" level="16" /> (Very Strong M. Def.)
+			<skill id="4414" level="2" />  <!-- Standard Type -->
+			<skill id="4415" level="3" />  <!-- One-handed Sword -->
+			<skill id="4078" level="9" />  <!-- NPC Flamestrike (DD magic single) -->
+			<skill id="5249" level="12" /> (Dark Circle (AoE POINT_BLANK r200 DARK magic))
+			<skill id="5246" level="12" /> (Dark Explosion (AoE RANGE r300 DARK magic, sem charges))
+			<!-- 1437 Dark Flame REMOVIDO: usa MagicalSoulDamage que requer Player.getCharges(), quebra em NPC -->
+			<!-- 762 Hell Smashing REMOVIDO: mesmo problema (skill de player Death Knight class) -->
 		</skillList>
+		<shots shotChance="50" spiritChance="40" />
 	</npc>
 	<npc id="18992" level="87" type="RaidBoss" name="Death Knight" title="Elf" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="93864" /> <!-- Death Knight's Flame Sword -->
+		<equipment rhand="93864" /> (Death Knight's Flame Sword)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="8000000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="1112" magical="7592" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2286,15 +2309,15 @@
 			<height normal="43.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="18993" level="87" type="RaidBoss" name="Death Knight" title="Dark Elf" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="93864" /> <!-- Death Knight's Flame Sword -->
+		<equipment rhand="93864" /> (Death Knight's Flame Sword)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="8000000" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="1112" magical="7592" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2311,15 +2334,15 @@
 			<height normal="43.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="18994" level="86" type="Monster" name="Boneman Archer">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="30285" sp="300" attributeExp="1230" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="28606.96203" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
@@ -2337,7 +2360,7 @@
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="18995" level="86" type="Monster" name="Boneman Warrior">
@@ -2361,7 +2384,7 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="18996" level="85" type="Monster" name="Mutated Mole">
@@ -2384,7 +2407,7 @@
 			<height normal="63" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4416" level="7" /> (Spirits)
 		</skillList>
 	</npc>
 	<npc id="18997" level="85" type="Monster" name="Mole">
@@ -2408,8 +2431,8 @@
 			<height normal="63" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48539" level="1" /> <!-- Will to Fight -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48539" level="1" /> (Will to Fight)
 		</skillList>
 	</npc>
 	<npc id="18998" level="85" type="Monster" name="Mole" title="Suspicious">
@@ -2433,8 +2456,8 @@
 			<height normal="96" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48539" level="1" /> <!-- Will to Fight -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48539" level="1" /> (Will to Fight)
 		</skillList>
 	</npc>
 	<npc id="18999" level="85" type="Folk" name="">

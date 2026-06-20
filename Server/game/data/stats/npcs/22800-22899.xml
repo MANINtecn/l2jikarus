@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="22800" level="91" type="Monster" name="Lycaria" title="Guardian of the Invaded Lands" element="EARTH">
 		<parameters>
 			<minions name="Privates">
-				<npc id="22799" count="4" respawnTime="0" weightPoint="1" /> <!-- Lycaria's Familiar Spirit -->
+				<npc id="22799" count="4" respawnTime="0" weightPoint="1" /> (Lycaria's Familiar Spirit)
 			</minions>
 		</parameters>
 		<race>FAIRY</race>
@@ -25,8 +25,8 @@
 			<height normal="99" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> <!-- Fairies -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="13" /> (Fairies)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
 			<clanList>
@@ -36,17 +36,17 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="94423" min="1" max="1" chance="12.5" /> <!-- Augmenting Stone: Accessory -->
-					<item id="94186" min="1" max="1" chance="12.5" /> <!-- Augmenting Stone: Weapon -->
-					<item id="91767" min="1" max="1" chance="50" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="97787" min="1" max="1" chance="12.5" /> <!-- Augmenting Stone: Special Equipment -->
-					<item id="94188" min="1" max="1" chance="12.5" /> <!-- Augmenting Stone: Armor -->
+					<item id="94423" min="1" max="1" chance="12.5" /> (Augmenting Stone: Accessory)
+					<item id="94186" min="1" max="1" chance="12.5" /> (Augmenting Stone: Weapon)
+					<item id="91767" min="1" max="1" chance="50" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="97787" min="1" max="1" chance="12.5" /> (Augmenting Stone: Special Equipment)
+					<item id="94188" min="1" max="1" chance="12.5" /> (Augmenting Stone: Armor)
 				</group>
 			</drop>
 			<fortune>
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -71,8 +71,8 @@
 			<height normal="69" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> <!-- Fairies -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="13" /> (Fairies)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
 			<clanList>
@@ -83,7 +83,7 @@
 	<npc id="22802" level="92" type="Monster" name="Lyansus" title="Guardian of the Invaded Lands" element="EARTH">
 		<parameters>
 			<minions name="Privates">
-				<npc id="22801" count="4" respawnTime="0" weightPoint="1" /> <!-- Lyansus' Familiar Spirit -->
+				<npc id="22801" count="4" respawnTime="0" weightPoint="1" /> (Lyansus' Familiar Spirit)
 			</minions>
 		</parameters>
 		<race>FAIRY</race>
@@ -105,8 +105,8 @@
 			<height normal="116" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> <!-- Fairies -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="13" /> (Fairies)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
 			<clanList>
@@ -116,22 +116,22 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="94186" min="1" max="1" chance="16.25" /> <!-- Augmenting Stone: Weapon -->
-					<item id="94423" min="1" max="1" chance="16.25" /> <!-- Augmenting Stone: Accessory -->
-					<item id="97440" min="1" max="1" chance="1.25" /> <!-- Blessed Augmenting Stone: Armor -->
-					<item id="97787" min="1" max="1" chance="16.25" /> <!-- Augmenting Stone: Special Equipment -->
-					<item id="100250" min="1" max="1" chance="0.005" /> <!-- Package: Armor Diagram -->
-					<item id="97442" min="1" max="1" chance="1.25" /> <!-- Blessed Augmenting Stone: Accessory -->
-					<item id="97439" min="1" max="1" chance="1.25" /> <!-- Blessed Augmenting Stone: Weapon -->
-					<item id="91767" min="1" max="1" chance="30" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="94188" min="1" max="1" chance="16.25" /> <!-- Augmenting Stone: Armor -->
-					<item id="97789" min="1" max="1" chance="1.245" /> <!-- Blessed Augmenting Stone: Special Equipment -->
+					<item id="94186" min="1" max="1" chance="16.25" /> (Augmenting Stone: Weapon)
+					<item id="94423" min="1" max="1" chance="16.25" /> (Augmenting Stone: Accessory)
+					<item id="97440" min="1" max="1" chance="1.25" /> (Blessed Augmenting Stone: Armor)
+					<item id="97787" min="1" max="1" chance="16.25" /> (Augmenting Stone: Special Equipment)
+					<item id="100250" min="1" max="1" chance="0.005" /> (Package: Armor Diagram)
+					<item id="97442" min="1" max="1" chance="1.25" /> (Blessed Augmenting Stone: Accessory)
+					<item id="97439" min="1" max="1" chance="1.25" /> (Blessed Augmenting Stone: Weapon)
+					<item id="91767" min="1" max="1" chance="30" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="94188" min="1" max="1" chance="16.25" /> (Augmenting Stone: Armor)
+					<item id="97789" min="1" max="1" chance="1.245" /> (Blessed Augmenting Stone: Special Equipment)
 				</group>
 			</drop>
 			<fortune>
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
-				<item id="101963" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Special Monster - Sealed -->
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
+				<item id="101963" min="1" max="1" chance="1" /> (Fortune Time Box - Special Monster - Sealed)
 			</fortune>
 		</dropLists>
 	</npc>
@@ -156,24 +156,24 @@
 			<height normal="72.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="640" max="708" chance="100" /> <!-- Adena -->
+					<item id="57" min="640" max="708" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0026">
-					<item id="97655" min="1" max="1" chance="2.743" /> <!-- Package: +4 ~ +12 Collector's Weapon C - Sealed -->
-					<item id="97656" min="1" max="1" chance="5.487" /> <!-- Package: +4 ~ +8 Collector's Armor C - Sealed -->
+					<item id="97655" min="1" max="1" chance="2.743" /> (Package: +4 ~ +12 Collector's Weapon C - Sealed)
+					<item id="97656" min="1" max="1" chance="5.487" /> (Package: +4 ~ +8 Collector's Armor C - Sealed)
 				</group>
 				<group chance="0.9136">
-					<item id="92481" min="1" max="1" chance="99.83" /> <!-- Cloth -->
-					<item id="101587" min="1" max="1" chance="0.02" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="0.05" /> <!-- Dye Booster -->
-					<item id="94188" min="1" max="1" chance="0.1" /> <!-- Augmenting Stone: Armor -->
+					<item id="92481" min="1" max="1" chance="99.83" /> (Cloth)
+					<item id="101587" min="1" max="1" chance="0.02" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="0.05" /> (Dye Booster)
+					<item id="94188" min="1" max="1" chance="0.1" /> (Augmenting Stone: Armor)
 				</group>
 			</drop>
 		</dropLists>
@@ -199,14 +199,14 @@
 			<height normal="56.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="487" max="539" chance="100" /> <!-- Adena -->
+					<item id="57" min="487" max="539" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -232,21 +232,21 @@
 			<height normal="57.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="973" max="1076" chance="100" /> <!-- Adena -->
+					<item id="57" min="973" max="1076" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0065">
-					<item id="97653" min="1" max="1" chance="5.297" /> <!-- Collector's Weapon C - Sealed -->
-					<item id="97654" min="1" max="1" chance="10.593" /> <!-- Collector's Armor C - Sealed -->
+					<item id="97653" min="1" max="1" chance="5.297" /> (Collector's Weapon C - Sealed)
+					<item id="97654" min="1" max="1" chance="10.593" /> (Collector's Armor C - Sealed)
 				</group>
 				<group chance="0.0131">
-					<item id="90045" min="1" max="1" chance="90.909" /> <!-- Magic Tablet -->
-					<item id="94184" min="1" max="1" chance="9.091" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="90045" min="1" max="1" chance="90.909" /> (Magic Tablet)
+					<item id="94184" min="1" max="1" chance="9.091" /> (Scroll of Blessing - Weapon)
 				</group>
 			</drop>
 		</dropLists>
@@ -272,17 +272,17 @@
 			<height normal="81.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="741" max="819" chance="100" /> <!-- Adena -->
+					<item id="57" min="741" max="819" chance="100" /> (Adena)
 				</group>
 				<group chance="6.8232">
-					<item id="92479" min="1" max="1" chance="99.98" /> <!-- Metallograph -->
-					<item id="101587" min="1" max="1" chance="0.02" /> <!-- Aden's Exploration Report Page - Sealed -->
+					<item id="92479" min="1" max="1" chance="99.98" /> (Metallograph)
+					<item id="101587" min="1" max="1" chance="0.02" /> (Aden's Exploration Report Page - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -308,13 +308,13 @@
 			<height normal="64.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="741" max="819" chance="100" /> <!-- Adena -->
+					<item id="57" min="741" max="819" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -323,7 +323,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38430" /> <!-- Monster Only: Tiger Bow - Not Available -->
+		<equipment rhand="38430" /> (Monster Only: Tiger Bow - Not Available)
 		<acquire exp="12648" sp="126" attributeExp="871" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="61318.99" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -341,23 +341,23 @@
 			<height normal="45.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1505" max="1663" chance="100" /> <!-- Adena -->
+					<item id="57" min="1505" max="1663" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0311">
-					<item id="96901" min="1" max="1" chance="30.775" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
-					<item id="97655" min="1" max="1" chance="0.633" /> <!-- Package: +4 ~ +12 Collector's Weapon C - Sealed -->
-					<item id="97656" min="1" max="1" chance="1.265" /> <!-- Package: +4 ~ +8 Collector's Armor C - Sealed -->
-					<item id="95783" min="1" max="1" chance="46.163" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
+					<item id="96901" min="1" max="1" chance="30.775" /> (Aden's Soul Crystal Lv. 1 - Armor)
+					<item id="97655" min="1" max="1" chance="0.633" /> (Package: +4 ~ +12 Collector's Weapon C - Sealed)
+					<item id="97656" min="1" max="1" chance="1.265" /> (Package: +4 ~ +8 Collector's Armor C - Sealed)
+					<item id="95783" min="1" max="1" chance="46.163" /> (Aden's Soul Crystal Lv. 1 - Weapon)
 				</group>
 				<group chance="5.7365">
-					<item id="92477" min="1" max="1" chance="99.967" /> <!-- Wood -->
-					<item id="94184" min="1" max="1" chance="0.033" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="92477" min="1" max="1" chance="99.967" /> (Wood)
+					<item id="94184" min="1" max="1" chance="0.033" /> (Scroll of Blessing - Weapon)
 				</group>
 			</drop>
 		</dropLists>
@@ -383,13 +383,13 @@
 			<height normal="25.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1145" max="1266" chance="100" /> <!-- Adena -->
+					<item id="57" min="1145" max="1266" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -415,13 +415,13 @@
 			<height normal="25.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1145" max="1266" chance="100" /> <!-- Adena -->
+					<item id="57" min="1145" max="1266" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -430,7 +430,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="283" /> <!-- Akat Longbow -->
+		<equipment rhand="283" /> (Akat Longbow)
 		<acquire exp="6957" sp="15" attributeExp="287" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="9198.10127" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -448,15 +448,15 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22812" level="88" type="Monster" name="Brave Ol Mahum Warrior" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="77" /> <!-- Tsurugi -->
+		<equipment rhand="77" /> (Tsurugi)
 		<acquire exp="6957" sp="15" attributeExp="287" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="9198.10127" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -474,15 +474,15 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22813" level="88" type="Monster" name="Brave Ol Mahum Veteran" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="68" lhand="19" /> <!-- Falchion / Small Shield -->
+		<equipment rhand="68" lhand="19" /> (Falchion / Small Shield)
 		<acquire exp="13914" sp="33" attributeExp="575" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="18395.56962" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -500,15 +500,15 @@
 			<height normal="45.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22814" level="88" type="Monster" name="Brave Ol Mahum Officer" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="75" /> <!-- Caliburs -->
+		<equipment rhand="75" /> (Caliburs)
 		<acquire exp="21081" sp="51" attributeExp="871" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="30659.6211911" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -526,15 +526,15 @@
 			<height normal="33" grown="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22815" level="88" type="Monster" name="Brave Ol Mahum Senior Officer" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="127" lhand="633" /> <!-- Crimson Sword / Zubei's Shield -->
+		<equipment rhand="127" lhand="633" /> (Crimson Sword / Zubei's Shield)
 		<acquire exp="21081" sp="51" attributeExp="871" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="30659.6211911" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -552,15 +552,15 @@
 			<height normal="52.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22816" level="89" type="Monster" name="Brave Ol Mahum Commander" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="75" /> <!-- Caliburs -->
+		<equipment rhand="75" /> (Caliburs)
 		<acquire exp="21564" sp="51" attributeExp="881" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="30659.49367" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -578,15 +578,15 @@
 			<height normal="43.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22817" level="90" type="Monster" name="Oel Mahum Special Squad Warrior" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="71" /> <!-- Flamberge -->
+		<equipment rhand="71" /> (Flamberge)
 		<acquire exp="44103" sp="108" attributeExp="1782" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="61318.98734" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -604,8 +604,8 @@
 			<height normal="57" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22818" level="91" type="Monster" name="Sel Mahum Praetorian" element="FIRE">
@@ -629,8 +629,8 @@
 			<height normal="45" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22819" level="83" type="Monster" name="Evil Dragon Bomber" element="WIND">
@@ -654,8 +654,8 @@
 			<height normal="28" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22820" level="84" type="Monster" name="Evil Thunder Wyrm" element="WIND">
@@ -679,8 +679,8 @@
 			<height normal="72" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22821" level="84" type="Monster" name="Evil Tarask Dragon" element="WIND">
@@ -704,8 +704,8 @@
 			<height normal="39.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22822" level="84" type="Monster" name="Evil Drake" element="WIND">
@@ -729,15 +729,15 @@
 			<height normal="100" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22823" level="85" type="Monster" name="Evil Monsters' Messenger" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<equipment rhand="68" /> <!-- Falchion -->
+		<equipment rhand="68" /> (Falchion)
 		<acquire exp="10173" sp="24" attributeExp="1683" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="18000" hpRegen="10.2" mp="1" mpRegen="3.6" />
@@ -755,15 +755,15 @@
 			<height normal="65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22824" level="85" type="Monster" name="Evil Demons' Messenger" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="3939" /> <!-- Monster Only (Bensh) - Not Available -->
+		<equipment rhand="3939" /> (Monster Only (Bensh) - Not Available)
 		<acquire exp="10173" sp="24" attributeExp="1683" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="18000" hpRegen="10.2" mp="1" mpRegen="3.6" />
@@ -781,15 +781,15 @@
 			<height normal="49" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22825" level="86" type="Monster" name="Evil Undead Praetorian" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="1472" /> <!-- Monster Only (Death Knight) - Not Available -->
+		<equipment rhand="1472" /> (Monster Only (Death Knight) - Not Available)
 		<acquire exp="15621" sp="36" attributeExp="2554" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="27000" hpRegen="10.2" mp="1" mpRegen="3.6" />
@@ -807,15 +807,15 @@
 			<height normal="45" grown="52" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22826" level="86" type="Monster" name="Enraged Lizardman Warrior" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="8682" /> <!-- Naga's Storm -->
+		<equipment rhand="8682" /> (Naga's Storm)
 		<acquire exp="4440" sp="9" attributeExp="473" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6818.07896" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -833,8 +833,8 @@
 			<height normal="40" grown="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22827" level="86" type="Monster" name="Enraged Lizardman Berserker" element="WATER">
@@ -858,15 +858,15 @@
 			<height normal="37.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22828" level="86" type="Monster" name="Enraged Lizardman Shooter" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="26649" sp="66" attributeExp="2838" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="40908.47376" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -884,8 +884,8 @@
 			<height normal="40.25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22829" level="86" type="Monster" name="Enraged Lizardman Summoner" element="WATER">
@@ -909,15 +909,15 @@
 			<height normal="44" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22830" level="87" type="Monster" name="Enraged Leto Lizardman Warrior" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="93" /> <!-- Winged Spear -->
+		<equipment rhand="93" /> (Winged Spear)
 		<acquire exp="9090" sp="21" attributeExp="957" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13636.15792" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -935,15 +935,15 @@
 			<height normal="35" grown="42.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22831" level="87" type="Monster" name="Enraged Leto Lizardman Chief" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="221" /> <!-- Assassin Knife -->
+		<equipment rhand="221" /> (Assassin Knife)
 		<acquire exp="18180" sp="45" attributeExp="1914" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="27272.31584" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -961,15 +961,15 @@
 			<height normal="40" grown="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22832" level="87" type="Monster" name="Enraged Zenta Lizardman Warrior" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="16" /> <!-- Spear -->
+		<equipment rhand="16" /> (Spear)
 		<acquire exp="9090" sp="21" attributeExp="957" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13636.15792" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -987,15 +987,15 @@
 			<height normal="35" grown="42.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22833" level="87" type="Monster" name="Enraged Zenta Lizardman Matriarch" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="221" /> <!-- Assassin Knife -->
+		<equipment rhand="221" /> (Assassin Knife)
 		<acquire exp="18180" sp="45" attributeExp="1914" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="27272.31584" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1013,15 +1013,15 @@
 			<height normal="40" grown="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22834" level="88" type="Monster" name="Enraged Harit Lizardman Shooter" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="14" /> <!-- Bow -->
+		<equipment rhand="14" /> (Bow)
 		<acquire exp="9300" sp="21" attributeExp="968" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13636.15792" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1039,15 +1039,15 @@
 			<height normal="30" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22835" level="88" type="Monster" name="Enraged Harit Lizardman Chief" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="221" /> <!-- Assassin Knife -->
+		<equipment rhand="221" /> (Assassin Knife)
 		<acquire exp="18600" sp="45" attributeExp="1936" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="27272.31584" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1065,8 +1065,8 @@
 			<height normal="40" grown="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22836" level="89" type="Monster" name="Enraged Delh Lizardman Rogue" element="WATER">
@@ -1090,8 +1090,8 @@
 			<height normal="40.25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22837" level="89" type="Monster" name="Enraged Delh Lizardman Combatant" element="WATER">
@@ -1115,8 +1115,8 @@
 			<height normal="62" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22838" level="94" type="Monster" name="Lava Salamander" element="FIRE">
@@ -1140,16 +1140,16 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
+					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3443" max="3804" chance="100" /> <!-- Adena -->
+					<item id="57" min="3443" max="3804" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1175,16 +1175,16 @@
 			<height normal="75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
+					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3443" max="3804" chance="100" /> <!-- Adena -->
+					<item id="57" min="3443" max="3804" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1210,16 +1210,16 @@
 			<height normal="52.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Insects -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="12" /> (Insects)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
+					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3443" max="3804" chance="100" /> <!-- Adena -->
+					<item id="57" min="3443" max="3804" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1245,22 +1245,22 @@
 			<height normal="35" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
+					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3787" max="4185" chance="100" /> <!-- Adena -->
+					<item id="57" min="3787" max="4185" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0257">
-					<item id="93256" min="1" max="1" chance="14.493" /> <!-- Blessed Scroll: Enchant Armor -->
-					<item id="101587" min="1" max="1" chance="20.29" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="100550" min="1" max="1" chance="50.725" /> <!-- Upgrade Stone Fragment - Sealed -->
-					<item id="93255" min="1" max="1" chance="14.493" /> <!-- Blessed Scroll: Enchant Weapon -->
+					<item id="93256" min="1" max="1" chance="14.493" /> (Blessed Scroll: Enchant Armor)
+					<item id="101587" min="1" max="1" chance="20.29" /> (Aden's Exploration Report Page - Sealed)
+					<item id="100550" min="1" max="1" chance="50.725" /> (Upgrade Stone Fragment - Sealed)
+					<item id="93255" min="1" max="1" chance="14.493" /> (Blessed Scroll: Enchant Weapon)
 				</group>
 			</drop>
 		</dropLists>
@@ -1269,7 +1269,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="6722" /> <!-- Monster Only (Arimanes) -->
+		<equipment rhand="6722" /> (Monster Only (Arimanes))
 		<acquire exp="144525" sp="1443" attributeExp="2090" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="439436.1" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1287,16 +1287,16 @@
 			<height normal="57.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
+					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="4061" max="4492" chance="100" /> <!-- Adena -->
+					<item id="57" min="4061" max="4492" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1322,16 +1322,16 @@
 			<height normal="40" grown="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
+					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="4061" max="4492" chance="100" /> <!-- Adena -->
+					<item id="57" min="4061" max="4492" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1357,16 +1357,16 @@
 			<height normal="39.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
+					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="4061" max="4492" chance="100" /> <!-- Adena -->
+					<item id="57" min="4061" max="4492" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1392,22 +1392,22 @@
 			<height normal="55.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="101560" min="1" max="1" chance="0.001" /> <!-- Ancient Ruins' Time Stone -->
+					<item id="101560" min="1" max="1" chance="0.001" /> (Ancient Ruins' Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="4467" max="4942" chance="100" /> <!-- Adena -->
+					<item id="57" min="4467" max="4942" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0302">
-					<item id="93256" min="1" max="1" chance="14.493" /> <!-- Blessed Scroll: Enchant Armor -->
-					<item id="101587" min="1" max="1" chance="20.29" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="100550" min="1" max="1" chance="50.725" /> <!-- Upgrade Stone Fragment - Sealed -->
-					<item id="93255" min="1" max="1" chance="14.493" /> <!-- Blessed Scroll: Enchant Weapon -->
+					<item id="93256" min="1" max="1" chance="14.493" /> (Blessed Scroll: Enchant Armor)
+					<item id="101587" min="1" max="1" chance="20.29" /> (Aden's Exploration Report Page - Sealed)
+					<item id="100550" min="1" max="1" chance="50.725" /> (Upgrade Stone Fragment - Sealed)
+					<item id="93255" min="1" max="1" chance="14.493" /> (Blessed Scroll: Enchant Weapon)
 				</group>
 			</drop>
 		</dropLists>
@@ -1433,21 +1433,21 @@
 			<height normal="60.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="1024" max="1132" chance="100" /> <!-- Adena -->
+					<item id="57" min="1024" max="1132" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0109">
-					<item id="95437" min="1" max="1" chance="21.563" /> <!-- Sealed Angel's Hammer -->
-					<item id="95436" min="1" max="1" chance="21.563" /> <!-- Guardian Messenger's Spear -->
-					<item id="91767" min="1" max="1" chance="56.874" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
+					<item id="95437" min="1" max="1" chance="21.563" /> (Sealed Angel's Hammer)
+					<item id="95436" min="1" max="1" chance="21.563" /> (Guardian Messenger's Spear)
+					<item id="91767" min="1" max="1" chance="56.874" /> (Enchant Kit: Talisman of Aden - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1473,8 +1473,8 @@
 			<height normal="48.35" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22848" level="86" type="Monster" name="Decayed Sage" title="Heavenly Watcher" element="WIND">
@@ -1498,21 +1498,21 @@
 			<height normal="56.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="1623" max="1793" chance="100" /> <!-- Adena -->
+					<item id="57" min="1623" max="1793" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0188">
-					<item id="91767" min="1" max="1" chance="56.874" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="21.563" /> <!-- Sealed Angel's Hammer -->
-					<item id="95436" min="1" max="1" chance="21.563" /> <!-- Guardian Messenger's Spear -->
+					<item id="91767" min="1" max="1" chance="56.874" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="21.563" /> (Sealed Angel's Hammer)
+					<item id="95436" min="1" max="1" chance="21.563" /> (Guardian Messenger's Spear)
 				</group>
 			</drop>
 		</dropLists>
@@ -1538,8 +1538,8 @@
 			<height normal="54.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22850" level="87" type="Monster" name="Brainwashed Berserker" title="Heavenly Watcher" element="WIND">
@@ -1563,25 +1563,25 @@
 			<height normal="69" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="2067" max="2285" chance="100" /> <!-- Adena -->
+					<item id="57" min="2067" max="2285" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0138">
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
 				</group>
 				<group chance="0.0017">
-					<item id="101587" min="1" max="1" chance="100" /> <!-- Aden's Exploration Report Page - Sealed -->
+					<item id="101587" min="1" max="1" chance="100" /> (Aden's Exploration Report Page - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1607,15 +1607,15 @@
 			<height normal="57" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22852" level="88" type="Monster" name="Hallate's Mighty Warrior" title="Heavenly Watcher" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="124" /> <!-- Two-handed Sword -->
+		<equipment rhand="124" /> (Two-handed Sword)
 		<acquire exp="12825" sp="54" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="49362.02532" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1633,26 +1633,26 @@
 			<height normal="58.2" grown="70.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="2261" max="2499" chance="100" /> <!-- Adena -->
+					<item id="57" min="2261" max="2499" chance="100" /> (Adena)
 				</group>
 				<group chance="0.021">
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
 				</group>
 				<group chance="0.0046">
-					<item id="101587" min="1" max="1" chance="28.571" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="71.429" /> <!-- Dye Booster -->
+					<item id="101587" min="1" max="1" chance="28.571" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="71.429" /> (Dye Booster)
 				</group>
 			</drop>
 		</dropLists>
@@ -1661,7 +1661,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="124" /> <!-- Two-handed Sword -->
+		<equipment rhand="124" /> (Two-handed Sword)
 		<acquire exp="12825" sp="54" attributeExp="871" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="33725.31646" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1679,8 +1679,8 @@
 			<height normal="48" grown="58.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22854" level="89" type="Monster" name="Mighty Hard-skinned Beast" title="Heavenly Watcher" element="WIND">
@@ -1704,26 +1704,26 @@
 			<height normal="30.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="2488" max="2752" chance="100" /> <!-- Adena -->
+					<item id="57" min="2488" max="2752" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0237">
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
 				</group>
 				<group chance="0.0052">
-					<item id="101587" min="1" max="1" chance="28.571" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="71.429" /> <!-- Dye Booster -->
+					<item id="101587" min="1" max="1" chance="28.571" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="71.429" /> (Dye Booster)
 				</group>
 			</drop>
 		</dropLists>
@@ -1749,8 +1749,8 @@
 			<height normal="24.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22856" level="90" type="Monster" name="Evolved Mighty Hard-skinned Beast" title="Heavenly Watcher" element="WIND">
@@ -1774,26 +1774,26 @@
 			<height normal="30.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="2596" max="2870" chance="100" /> <!-- Adena -->
+					<item id="57" min="2596" max="2870" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0272">
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
 				</group>
 				<group chance="0.006">
-					<item id="101587" min="1" max="1" chance="28.571" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="71.429" /> <!-- Dye Booster -->
+					<item id="101587" min="1" max="1" chance="28.571" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="71.429" /> (Dye Booster)
 				</group>
 			</drop>
 		</dropLists>
@@ -1819,8 +1819,8 @@
 			<height normal="24.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22858" level="91" type="Monster" name="Heavenly Kin's Watcher" title="Heavenly Watcher" element="WIND">
@@ -1844,26 +1844,26 @@
 			<height normal="56.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="2911" max="3216" chance="100" /> <!-- Adena -->
+					<item id="57" min="2911" max="3216" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0417">
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
 				</group>
 				<group chance="0.0092">
-					<item id="101587" min="1" max="1" chance="28.571" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="71.429" /> <!-- Dye Booster -->
+					<item id="101587" min="1" max="1" chance="28.571" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="71.429" /> (Dye Booster)
 				</group>
 			</drop>
 		</dropLists>
@@ -1889,8 +1889,8 @@
 			<height normal="39.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22860" level="91" type="Monster" name="Heavenly Kin's Loyal Knight" element="WIND">
@@ -1914,8 +1914,8 @@
 			<height normal="52.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22861" level="92" type="Monster" name="Mutated Watcher Messenger" title="Heavenly Watcher" element="WIND">
@@ -1939,26 +1939,26 @@
 			<height normal="56.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="2906" max="3213" chance="100" /> <!-- Adena -->
+					<item id="57" min="2906" max="3213" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0417">
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
 				</group>
 				<group chance="0.0091">
-					<item id="101587" min="1" max="1" chance="28.571" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="71.429" /> <!-- Dye Booster -->
+					<item id="101587" min="1" max="1" chance="28.571" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="71.429" /> (Dye Booster)
 				</group>
 			</drop>
 		</dropLists>
@@ -1984,8 +1984,8 @@
 			<height normal="39.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22863" level="92" type="Monster" name="Mutated Loyal Knight Messenger" element="WIND">
@@ -2009,8 +2009,8 @@
 			<height normal="52.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22864" level="93" type="Monster" name="Watcher of Darkness" title="Heavenly Watcher" element="WIND">
@@ -2034,26 +2034,26 @@
 			<height normal="56.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3060" max="3384" chance="100" /> <!-- Adena -->
+					<item id="57" min="3060" max="3384" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0467">
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
 				</group>
 				<group chance="0.0102">
-					<item id="101587" min="1" max="1" chance="28.571" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="71.429" /> <!-- Dye Booster -->
+					<item id="101587" min="1" max="1" chance="28.571" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="71.429" /> (Dye Booster)
 				</group>
 			</drop>
 		</dropLists>
@@ -2079,8 +2079,8 @@
 			<height normal="39.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22866" level="93" type="Monster" name="Loyal Knight of Darkness" element="WIND">
@@ -2104,8 +2104,8 @@
 			<height normal="52.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22867" level="94" type="Monster" name="Divine Warrior" title="Heavenly Watcher" element="WIND">
@@ -2129,26 +2129,26 @@
 			<height normal="49" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3022" max="3343" chance="100" /> <!-- Adena -->
+					<item id="57" min="3022" max="3343" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0469">
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
 				</group>
 				<group chance="0.0103">
-					<item id="101587" min="1" max="1" chance="28.571" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="71.429" /> <!-- Dye Booster -->
+					<item id="101587" min="1" max="1" chance="28.571" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="71.429" /> (Dye Booster)
 				</group>
 			</drop>
 		</dropLists>
@@ -2174,8 +2174,8 @@
 			<height normal="49" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22869" level="95" type="Monster" name="Heavenly Bodyguard" title="Heavenly Watcher" element="WIND">
@@ -2199,26 +2199,26 @@
 			<height normal="45.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3757" max="4154" chance="100" /> <!-- Adena -->
+					<item id="57" min="3757" max="4154" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0642">
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
 				</group>
 				<group chance="0.0141">
-					<item id="101587" min="1" max="1" chance="28.571" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="71.429" /> <!-- Dye Booster -->
+					<item id="101587" min="1" max="1" chance="28.571" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="71.429" /> (Dye Booster)
 				</group>
 			</drop>
 		</dropLists>
@@ -2244,15 +2244,15 @@
 			<height normal="68.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22871" level="95" type="Monster" name="Immortal Archangel" title="Heavenly Watcher" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="97" /> <!-- Lance -->
+		<equipment rhand="97" /> (Lance)
 		<acquire exp="76239" sp="762" attributeExp="2185" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="213895.56962" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -2270,26 +2270,26 @@
 			<height normal="71.169" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="97830" min="1" max="1" chance="0.0007" /> <!-- Tower of Insolence's Time Stone -->
+					<item id="97830" min="1" max="1" chance="0.0007" /> (Tower of Insolence's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3369" max="3727" chance="100" /> <!-- Adena -->
+					<item id="57" min="3369" max="3727" chance="100" /> (Adena)
 				</group>
 				<group chance="0.059">
-					<item id="91767" min="1" max="1" chance="42.805" /> <!-- Enchant Kit: Talisman of Aden - Sealed -->
-					<item id="95437" min="1" max="1" chance="16.229" /> <!-- Sealed Angel's Hammer -->
-					<item id="93303" min="1" max="1" chance="24.737" /> <!-- Package: Cloak of Protection - Sealed -->
-					<item id="95436" min="1" max="1" chance="16.229" /> <!-- Guardian Messenger's Spear -->
+					<item id="91767" min="1" max="1" chance="42.805" /> (Enchant Kit: Talisman of Aden - Sealed)
+					<item id="95437" min="1" max="1" chance="16.229" /> (Sealed Angel's Hammer)
+					<item id="93303" min="1" max="1" chance="24.737" /> (Package: Cloak of Protection - Sealed)
+					<item id="95436" min="1" max="1" chance="16.229" /> (Guardian Messenger's Spear)
 				</group>
 				<group chance="0.0129">
-					<item id="101587" min="1" max="1" chance="28.571" /> <!-- Aden's Exploration Report Page - Sealed -->
-					<item id="96623" min="1" max="1" chance="71.429" /> <!-- Dye Booster -->
+					<item id="101587" min="1" max="1" chance="28.571" /> (Aden's Exploration Report Page - Sealed)
+					<item id="96623" min="1" max="1" chance="71.429" /> (Dye Booster)
 				</group>
 			</drop>
 		</dropLists>
@@ -2298,7 +2298,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="97" /> <!-- Lance -->
+		<equipment rhand="97" /> (Lance)
 		<acquire exp="76239" sp="762" attributeExp="2185" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="160394.3038" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -2316,8 +2316,8 @@
 			<height normal="46.446" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22873" level="93" type="Monster" name="Illusory Warrior" element="FIRE">
@@ -2341,16 +2341,16 @@
 			<height normal="41.525" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100542" min="1" max="1" chance="0.007" /> <!-- Celestial Tower's Time Stone -->
+					<item id="100542" min="1" max="1" chance="0.007" /> (Celestial Tower's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3779" max="4179" chance="100" /> <!-- Adena -->
+					<item id="57" min="3779" max="4179" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2359,7 +2359,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="90813" sp="906" attributeExp="1023" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="152581.6" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -2377,21 +2377,21 @@
 			<height normal="61.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100542" min="1" max="1" chance="0.007" /> <!-- Celestial Tower's Time Stone -->
+					<item id="100542" min="1" max="1" chance="0.007" /> (Celestial Tower's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3779" max="4179" chance="100" /> <!-- Adena -->
+					<item id="57" min="3779" max="4179" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0269">
-					<item id="94184" min="1" max="1" chance="45.455" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="97338" min="1" max="1" chance="27.273" /> <!-- Scroll of Blessing - Armor -->
-					<item id="101587" min="1" max="1" chance="27.273" /> <!-- Aden's Exploration Report Page - Sealed -->
+					<item id="94184" min="1" max="1" chance="45.455" /> (Scroll of Blessing - Weapon)
+					<item id="97338" min="1" max="1" chance="27.273" /> (Scroll of Blessing - Armor)
+					<item id="101587" min="1" max="1" chance="27.273" /> (Aden's Exploration Report Page - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -2417,16 +2417,16 @@
 			<height normal="49.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100542" min="1" max="1" chance="0.007" /> <!-- Celestial Tower's Time Stone -->
+					<item id="100542" min="1" max="1" chance="0.007" /> (Celestial Tower's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3779" max="4179" chance="100" /> <!-- Adena -->
+					<item id="57" min="3779" max="4179" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2452,16 +2452,16 @@
 			<height normal="58.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100542" min="1" max="1" chance="0.007" /> <!-- Celestial Tower's Time Stone -->
+					<item id="100542" min="1" max="1" chance="0.007" /> (Celestial Tower's Time Stone)
 				</group>
 				<group chance="70">
-					<item id="57" min="3779" max="4179" chance="100" /> <!-- Adena -->
+					<item id="57" min="3779" max="4179" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2487,13 +2487,13 @@
 			<height normal="24.625" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1860" max="2057" chance="100" /> <!-- Adena -->
+					<item id="57" min="1860" max="2057" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2519,13 +2519,13 @@
 			<height normal="33.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1860" max="2057" chance="100" /> <!-- Adena -->
+					<item id="57" min="1860" max="2057" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2551,13 +2551,13 @@
 			<height normal="39.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1860" max="2057" chance="100" /> <!-- Adena -->
+					<item id="57" min="1860" max="2057" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2583,13 +2583,13 @@
 			<height normal="39.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1860" max="2057" chance="100" /> <!-- Adena -->
+					<item id="57" min="1860" max="2057" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2615,13 +2615,13 @@
 			<height normal="31" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2620" max="2896" chance="100" /> <!-- Adena -->
+					<item id="57" min="2620" max="2896" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2647,13 +2647,13 @@
 			<height normal="41.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2620" max="2896" chance="100" /> <!-- Adena -->
+					<item id="57" min="2620" max="2896" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2679,13 +2679,13 @@
 			<height normal="49.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2620" max="2896" chance="100" /> <!-- Adena -->
+					<item id="57" min="2620" max="2896" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2711,13 +2711,13 @@
 			<height normal="49.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2620" max="2896" chance="100" /> <!-- Adena -->
+					<item id="57" min="2620" max="2896" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2743,13 +2743,13 @@
 			<height normal="37.375" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3381" max="3738" chance="100" /> <!-- Adena -->
+					<item id="57" min="3381" max="3738" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2775,13 +2775,13 @@
 			<height normal="50.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3381" max="3738" chance="100" /> <!-- Adena -->
+					<item id="57" min="3381" max="3738" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2807,13 +2807,13 @@
 			<height normal="59.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3381" max="3738" chance="100" /> <!-- Adena -->
+					<item id="57" min="3381" max="3738" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2839,13 +2839,13 @@
 			<height normal="59.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3381" max="3738" chance="100" /> <!-- Adena -->
+					<item id="57" min="3381" max="3738" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2854,7 +2854,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="79" lhand="945" /> <!-- Damascus Sword / Skeleton Buckler -->
+		<equipment rhand="79" lhand="945" /> (Damascus Sword / Skeleton Buckler)
 		<acquire exp="1662" sp="3" attributeExp="239" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6579.74684" hpRegen="10.2" mp="2182.53" mpRegen="3.6" />
@@ -2872,15 +2872,15 @@
 			<height normal="39" grown="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22890" level="79" type="Monster" name="Brutal Death Blade" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="1472" /> <!-- Monster Only (Death Knight) - Not Available -->
+		<equipment rhand="1472" /> (Monster Only (Death Knight) - Not Available)
 		<acquire exp="3324" sp="3" attributeExp="478" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13159.49367" hpRegen="10.2" mp="2182.53" mpRegen="3.6" />
@@ -2898,15 +2898,15 @@
 			<height normal="45" grown="52" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22891" level="80" type="Monster" name="Brutal Death Knight" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="75" /> <!-- Caliburs -->
+		<equipment rhand="75" /> (Caliburs)
 		<acquire exp="4773" sp="3" attributeExp="968" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="26670.88608" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -2924,8 +2924,8 @@
 			<height normal="38.6" grown="47.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22892" level="80" type="Monster" name="Brutal Succubus" element="EARTH">
@@ -2949,15 +2949,15 @@
 			<height normal="55.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22893" level="81" type="Monster" name="Brutal Banshee" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="3939" /> <!-- Monster Only (Bensh) - Not Available -->
+		<equipment rhand="3939" /> (Monster Only (Bensh) - Not Available)
 		<acquire exp="6816" sp="6" attributeExp="1470" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="39477.8481" hpRegen="10.2" mp="2272.704" mpRegen="3.6" />
@@ -2975,8 +2975,8 @@
 			<height normal="49" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22894" level="76" type="Monster" name="Evil Tanta Lizardman" element="WATER">
@@ -3000,8 +3000,8 @@
 			<height normal="48.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22895" level="77" type="Monster" name="Evil Tanta Lizardman Warrior" element="WATER">
@@ -3025,8 +3025,8 @@
 			<height normal="49.65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22896" level="78" type="Monster" name="Evil Tanta Lizardman Herbalist" element="WATER">
@@ -3050,8 +3050,8 @@
 			<height normal="53.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22897" level="79" type="Monster" name="Evil Tanta Lizardman Worshiper" element="WATER">
@@ -3075,8 +3075,8 @@
 			<height normal="64.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22898" level="80" type="Monster" name="Evil Mighty Tanta Lizardman Warrior" element="WATER">
@@ -3100,8 +3100,8 @@
 			<height normal="57.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="22899" level="80" type="Monster" name="Ghost Knights' Soldier" element="WIND">
@@ -3125,15 +3125,15 @@
 			<height normal="24.625" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="48587" level="3" /> <!-- Bow/ Firearms Resistance -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="48587" level="3" /> (Bow/ Firearms Resistance)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="224" max="248" chance="100" /> <!-- Adena -->
+					<item id="57" min="224" max="248" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>

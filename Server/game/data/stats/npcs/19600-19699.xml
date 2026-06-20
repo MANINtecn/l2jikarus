@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="19600" level="80" type="Monster" name="Blue High Swordsman" title="Festival Mask">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -21,12 +21,12 @@
 			<height normal="44.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="1000" max="1000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="1000" max="1000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -52,12 +52,12 @@
 			<height normal="35.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="10" max="10" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="10" max="10" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -83,12 +83,12 @@
 			<height normal="58.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="20" max="20" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="20" max="20" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -114,12 +114,12 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="50" max="50" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="50" max="50" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -145,12 +145,12 @@
 			<height normal="47.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="250" max="250" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="250" max="250" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -159,7 +159,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>MALE</sex>
-		<equipment rhand="105385" /> <!-- NPC only_Japanese Spear - Not available -->
+		<equipment rhand="105385" /> (NPC only_Japanese Spear - Not available)
 		<acquire exp="731850" sp="71748" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="516720.09578112" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
@@ -177,12 +177,12 @@
 			<height normal="32.65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4416" level="14" /> (Humans)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="1000" max="1000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="1000" max="1000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -208,12 +208,12 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4416" level="11" /> (Giants)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="3000" max="3000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="3000" max="3000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -242,15 +242,15 @@
 			<height normal="1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> <!-- Others -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="19" /> (Others)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
 		</skillList>
 	</npc>
 	<npc id="19673" level="85" type="Folk" name="">
@@ -277,16 +277,16 @@
 			<height normal="16.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="18" /> <!-- Dwarves -->
-			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="1" /> <!-- Bare Hands -->
+			<skill id="4416" level="18" /> (Dwarves)
+			<skill id="14765" level="3" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="1" /> (Bare Hands)
 		</skillList>
 	</npc>
 </list>

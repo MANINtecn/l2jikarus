@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="18700" level="80" type="Monster" name="Large Prime Watermelon">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -419,7 +419,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97158" lhand="97159" /> <!-- Monster's Weapon: One-handed Blunt Weapon of Silenos Infantryman - Not Available / Monster's Weapon: Silenos Infantryman's Shield - Not Available -->
+		<equipment rhand="97158" lhand="97159" /> (Monster's Weapon: One-handed Blunt Weapon of Silenos Infantryman - Not Available / Monster's Weapon: Silenos Infantryman's Shield - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12330.37975" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -436,7 +436,7 @@
 			<height normal="41" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18723" level="80" type="Monster" name="Morgos' Soldier">
@@ -459,7 +459,7 @@
 			<height normal="48.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18724" level="85" type="Folk" name="">
@@ -485,7 +485,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97158" lhand="97159" /> <!-- Monster's Weapon: One-handed Blunt Weapon of Silenos Infantryman - Not Available / Monster's Weapon: Silenos Infantryman's Shield - Not Available -->
+		<equipment rhand="97158" lhand="97159" /> (Monster's Weapon: One-handed Blunt Weapon of Silenos Infantryman - Not Available / Monster's Weapon: Silenos Infantryman's Shield - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12330.37975" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -502,7 +502,7 @@
 			<height normal="41" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18726" level="80" type="Monster" name="Morgos' Soldier">
@@ -525,7 +525,7 @@
 			<height normal="48.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18727" level="87" type="Folk" name="Seal Tombstone">
@@ -722,8 +722,8 @@
 			<height normal="61.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="18737" level="85" type="Folk" name="">
@@ -766,13 +766,13 @@
 			<height normal="31" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="6354" max="7022" chance="100" /> <!-- Adena -->
+					<item id="57" min="6354" max="7022" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -798,13 +798,13 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="6354" max="7022" chance="100" /> <!-- Adena -->
+					<item id="57" min="6354" max="7022" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -813,7 +813,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="22524" sp="225" attributeExp="2070" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="235875.3" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -831,13 +831,13 @@
 			<height normal="23.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="6354" max="7022" chance="100" /> <!-- Adena -->
+					<item id="57" min="6354" max="7022" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1036,7 +1036,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="5792" /> <!-- Tomb Guard B - Not Available -->
+		<equipment rhand="5792" /> (Tomb Guard B - Not Available)
 		<acquire exp="32511" sp="324" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1054,14 +1054,14 @@
 			<height normal="51.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18752" level="85" type="Monster" name="Library Servitor">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="5791" /> <!-- Tomb Guard A - Not Available -->
+		<equipment rhand="5791" /> (Tomb Guard A - Not Available)
 		<acquire exp="32511" sp="324" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1079,14 +1079,14 @@
 			<height normal="44.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18753" level="85" type="Monster" name="Library Cleric">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="5793" /> <!-- Tomb Savant A - Not Available -->
+		<equipment rhand="5793" /> (Tomb Savant A - Not Available)
 		<acquire exp="32511" sp="324" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1104,14 +1104,14 @@
 			<height normal="44.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18754" level="85" type="Monster" name="Watcher">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5795" /> <!-- Tomb Guard A - Not Available -->
+		<equipment rhand="5795" /> (Tomb Guard A - Not Available)
 		<acquire exp="1623" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1129,14 +1129,14 @@
 			<height normal="37.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 	</npc>
 	<npc id="18755" level="85" type="Monster" name="Akkan" title="Sanctuary Lord">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="78" /> <!-- Great Sword -->
+		<equipment rhand="78" /> (Great Sword)
 		<acquire exp="260100" sp="2601" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="327600" hpRegen="10.2" mp="11928" mpRegen="3.6" />
@@ -1154,14 +1154,14 @@
 			<height normal="40" grown="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="18756" level="85" type="Monster" name="Sanctuary Servant">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="97363" /> <!-- Tomb Guard B - Not Available -->
+		<equipment rhand="97363" /> (Tomb Guard B - Not Available)
 		<acquire exp="32511" sp="324" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1179,14 +1179,14 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4416" level="2" /> (Magical Creatures)
 		</skillList>
 	</npc>
 	<npc id="18757" level="85" type="Monster" name="Dark Sanctuary Servant">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="97364" /> <!-- Only for monsters (Tomb Guard C) - Not Available -->
+		<equipment rhand="97364" /> (Only for monsters (Tomb Guard C) - Not Available)
 		<acquire exp="1623" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1204,7 +1204,7 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4416" level="2" /> (Magical Creatures)
 		</skillList>
 	</npc>
 	<npc id="18758" level="85" type="Monster" name="Ran" title="Sanctuary Lord">
@@ -1228,14 +1228,14 @@
 			<height normal="54.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 	</npc>
 	<npc id="18759" level="85" type="Monster" name="Sanctuary Watchman">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5796" /> <!-- Tomb Guard B - Not Available -->
+		<equipment rhand="5796" /> (Tomb Guard B - Not Available)
 		<acquire exp="1623" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1253,14 +1253,14 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 	</npc>
 	<npc id="18760" level="85" type="Monster" name="Sanctuary Manager">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5795" /> <!-- Tomb Guard A - Not Available -->
+		<equipment rhand="5795" /> (Tomb Guard A - Not Available)
 		<acquire exp="1623" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1278,7 +1278,7 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 	</npc>
 	<npc id="18761" level="85" type="Monster" name="Black Mad" title="Sanctuary Lord">
@@ -1302,7 +1302,7 @@
 			<height normal="47" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="18762" level="85" type="RaidBoss" name="Bale" title="Fiery Lord">
@@ -1326,7 +1326,7 @@
 			<height normal="91.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4416" level="7" /> (Spirits)
 		</skillList>
 	</npc>
 	<npc id="18763" level="85" type="Monster" name="Khan" title="Sanctuary Lord">
@@ -1350,14 +1350,14 @@
 			<height normal="56.15" grown="60.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18764" level="85" type="Monster" name="Believer of Dawn">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="8207" lhand="8207" /> <!-- Monster Only (Heretic Private Axe) / Monster Only (Heretic Private Axe) -->
+		<equipment rhand="8207" lhand="8207" /> (Monster Only (Heretic Private Axe) / Monster Only (Heretic Private Axe))
 		<acquire exp="1623" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1375,14 +1375,14 @@
 			<height normal="28.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18765" level="85" type="Monster" name="Priest of Dawn">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="8206" /> <!-- Monster Only (Heretic Priest Sword) -->
+		<equipment rhand="8206" /> (Monster Only (Heretic Priest Sword))
 		<acquire exp="1623" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1400,7 +1400,7 @@
 			<height normal="19.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18766" level="85" type="Monster" name="Gatekeeper Statue of Dawn">
@@ -1423,7 +1423,7 @@
 			<height normal="46.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4416" level="2" /> (Magical Creatures)
 		</skillList>
 	</npc>
 	<npc id="18767" level="85" type="Monster" name="Warrior of Dawn">
@@ -1447,7 +1447,7 @@
 			<height normal="29" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18768" level="85" type="RaidBoss" name="Ream" title="Dawn Lady">
@@ -1471,21 +1471,21 @@
 			<height normal="90" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="1">
-					<item id="101368" min="1" max="1" chance="100" /> <!-- Blessed Scroll: Enchant A-grade Weapon/ Armor (Sealed) (Time-limited) -->
+					<item id="101368" min="1" max="1" chance="100" /> (Blessed Scroll: Enchant A-grade Weapon/ Armor (Sealed) (Time-limited))
 				</group>
 				<group chance="5">
-					<item id="101369" min="1" max="1" chance="100" /> <!-- Augmenting Stone Pack (Time-limited) -->
+					<item id="101369" min="1" max="1" chance="100" /> (Augmenting Stone Pack (Time-limited))
 				</group>
 				<group chance="100">
-					<item id="101370" min="1" max="1" chance="100" /> <!-- Scroll: Enchant A-grade Weapon/ Armor Pack (Sealed) -->
+					<item id="101370" min="1" max="1" chance="100" /> (Scroll: Enchant A-grade Weapon/ Armor Pack (Sealed))
 				</group>
 				<group chance="100">
-					<item id="101367" min="1" max="1" chance="100" /> <!-- Special Equipment Pack (Time-limited) - Sealed -->
+					<item id="101367" min="1" max="1" chance="100" /> (Special Equipment Pack (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1511,7 +1511,7 @@
 			<height normal="34.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18770" level="85" type="Monster" name="Ream's High Priest">
@@ -1535,7 +1535,7 @@
 			<height normal="31.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18771" level="85" type="Folk" name="">
@@ -1732,7 +1732,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="5792" /> <!-- Tomb Guard B - Not Available -->
+		<equipment rhand="5792" /> (Tomb Guard B - Not Available)
 		<acquire exp="8064" sp="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -1750,14 +1750,14 @@
 			<height normal="51.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18782" level="80" type="Monster" name="Library Servitor">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="5791" /> <!-- Tomb Guard A - Not Available -->
+		<equipment rhand="5791" /> (Tomb Guard A - Not Available)
 		<acquire exp="8064" sp="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -1775,14 +1775,14 @@
 			<height normal="44.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18783" level="80" type="Monster" name="Library Cleric">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="5793" /> <!-- Tomb Savant A - Not Available -->
+		<equipment rhand="5793" /> (Tomb Savant A - Not Available)
 		<acquire exp="8064" sp="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -1800,14 +1800,14 @@
 			<height normal="44.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18784" level="80" type="Monster" name="Watcher">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5795" /> <!-- Tomb Guard A - Not Available -->
+		<equipment rhand="5795" /> (Tomb Guard A - Not Available)
 		<acquire exp="384" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -1825,14 +1825,14 @@
 			<height normal="37.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 	</npc>
 	<npc id="18785" level="80" type="Monster" name="Akkan" title="Sanctuary Lord">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="78" /> <!-- Great Sword -->
+		<equipment rhand="78" /> (Great Sword)
 		<acquire exp="64512" sp="645" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="68250" hpRegen="10.2" mp="747.8" mpRegen="3.6" />
@@ -1850,14 +1850,14 @@
 			<height normal="40" grown="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="18786" level="80" type="Monster" name="Sanctuary Servant">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="97363" /> <!-- Tomb Guard B - Not Available -->
+		<equipment rhand="97363" /> (Tomb Guard B - Not Available)
 		<acquire exp="8064" sp="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -1875,14 +1875,14 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4416" level="2" /> (Magical Creatures)
 		</skillList>
 	</npc>
 	<npc id="18787" level="80" type="Monster" name="Dark Sanctuary Servant">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="97364" /> <!-- Only for monsters (Tomb Guard C) - Not Available -->
+		<equipment rhand="97364" /> (Only for monsters (Tomb Guard C) - Not Available)
 		<acquire exp="384" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -1900,7 +1900,7 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4416" level="2" /> (Magical Creatures)
 		</skillList>
 	</npc>
 	<npc id="18788" level="80" type="Monster" name="Ran" title="Sanctuary Lord">
@@ -1924,14 +1924,14 @@
 			<height normal="54.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 	</npc>
 	<npc id="18789" level="80" type="Monster" name="Sanctuary Watchman">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5796" /> <!-- Tomb Guard B - Not Available -->
+		<equipment rhand="5796" /> (Tomb Guard B - Not Available)
 		<acquire exp="384" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -1949,14 +1949,14 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 	</npc>
 	<npc id="18790" level="80" type="Monster" name="Sanctuary Manager">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5795" /> <!-- Tomb Guard A - Not Available -->
+		<equipment rhand="5795" /> (Tomb Guard A - Not Available)
 		<acquire exp="384" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -1974,7 +1974,7 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 	</npc>
 	<npc id="18791" level="80" type="Monster" name="Black Mad" title="Sanctuary Lord">
@@ -1998,7 +1998,7 @@
 			<height normal="47" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="18792" level="80" type="RaidBoss" name="Bale" title="Fiery Lord">
@@ -2022,7 +2022,7 @@
 			<height normal="91.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4416" level="7" /> (Spirits)
 		</skillList>
 	</npc>
 	<npc id="18793" level="80" type="Monster" name="Khan" title="Sanctuary Lord">
@@ -2046,14 +2046,14 @@
 			<height normal="56.15" grown="60.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18794" level="80" type="Monster" name="Believer of Dawn">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="8207" lhand="8207" /> <!-- Monster Only (Heretic Private Axe) / Monster Only (Heretic Private Axe) -->
+		<equipment rhand="8207" lhand="8207" /> (Monster Only (Heretic Private Axe) / Monster Only (Heretic Private Axe))
 		<acquire exp="384" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -2071,14 +2071,14 @@
 			<height normal="28.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18795" level="80" type="Monster" name="Priest of Dawn">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="8206" /> <!-- Monster Only (Heretic Priest Sword) -->
+		<equipment rhand="8206" /> (Monster Only (Heretic Priest Sword))
 		<acquire exp="384" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13335.44" hpRegen="10.2" mp="2227.484" mpRegen="3.6" />
@@ -2096,7 +2096,7 @@
 			<height normal="19.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18796" level="80" type="Folk" name="Gatekeeper Statue of Dawn">
@@ -2119,8 +2119,8 @@
 			<height normal="46.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18797" level="80" type="Monster" name="Warrior of Dawn">
@@ -2144,7 +2144,7 @@
 			<height normal="29" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="18798" level="80" type="RaidBoss" name="Ream" title="Dawn Lady">
@@ -2168,21 +2168,21 @@
 			<height normal="90" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="1">
-					<item id="101368" min="1" max="1" chance="100" /> <!-- Blessed Scroll: Enchant A-grade Weapon/ Armor (Sealed) (Time-limited) -->
+					<item id="101368" min="1" max="1" chance="100" /> (Blessed Scroll: Enchant A-grade Weapon/ Armor (Sealed) (Time-limited))
 				</group>
 				<group chance="5">
-					<item id="101369" min="1" max="1" chance="100" /> <!-- Augmenting Stone Pack (Time-limited) -->
+					<item id="101369" min="1" max="1" chance="100" /> (Augmenting Stone Pack (Time-limited))
 				</group>
 				<group chance="100">
-					<item id="101370" min="1" max="1" chance="100" /> <!-- Scroll: Enchant A-grade Weapon/ Armor Pack (Sealed) -->
+					<item id="101370" min="1" max="1" chance="100" /> (Scroll: Enchant A-grade Weapon/ Armor Pack (Sealed))
 				</group>
 				<group chance="100">
-					<item id="101367" min="1" max="1" chance="100" /> <!-- Special Equipment Pack (Time-limited) - Sealed -->
+					<item id="101367" min="1" max="1" chance="100" /> (Special Equipment Pack (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -2208,7 +2208,7 @@
 			<height normal="34.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 </list>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="19500" level="88" type="Monster" name="Oel Mahum Footman">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="242" /> <!-- Soulfire Dirk -->
+		<equipment rhand="242" /> (Soulfire Dirk)
 		<acquire exp="20907" sp="207" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="397638.238123076" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -22,15 +22,15 @@
 			<height normal="31.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19501" level="85" type="Monster" name="Oel Mahum Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="148" /> <!-- Sword of Valhalla -->
+		<equipment rhand="148" /> (Sword of Valhalla)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -47,15 +47,15 @@
 			<height normal="34.2" grown="41.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19502" level="85" type="Monster" name="Oel Mahum Ranger">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="79" /> <!-- Damascus Sword -->
+		<equipment rhand="79" /> (Damascus Sword)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -72,15 +72,15 @@
 			<height normal="39" grown="47.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19503" level="85" type="Monster" name="Oel Mahum Keeper">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="148" /> <!-- Sword of Valhalla -->
+		<equipment rhand="148" /> (Sword of Valhalla)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -97,15 +97,15 @@
 			<height normal="39" grown="47.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19504" level="85" type="Monster" name="Oel Mahum Berserker">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="79" /> <!-- Damascus Sword -->
+		<equipment rhand="79" /> (Damascus Sword)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -122,15 +122,15 @@
 			<height normal="42.5" grown="51.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19505" level="88" type="Monster" name="Oel Mahum Protector">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="279" /> <!-- Reinforced Longbow -->
+		<equipment rhand="279" /> (Reinforced Longbow)
 		<acquire exp="20907" sp="207" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="397638.238123076" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -148,15 +148,15 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19506" level="85" type="Monster" name="Oel Mahum Archer">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="284" /> <!-- Dark Elven Longbow -->
+		<equipment rhand="284" /> (Dark Elven Longbow)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -173,15 +173,15 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19507" level="85" type="Monster" name="Oel Mahum Sniper">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -198,15 +198,15 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19508" level="85" type="Monster" name="Oel Mahum Keeper Shooter">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -223,15 +223,15 @@
 			<height normal="46.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19509" level="85" type="Monster" name="Oel Mahum Elite Archer">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -248,15 +248,15 @@
 			<height normal="50.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19510" level="88" type="Monster" name="Oel Mahum Commander" title="Forest Ruler">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="127" /> <!-- Crimson Sword -->
+		<equipment rhand="127" /> (Crimson Sword)
 		<acquire exp="144687" sp="1446" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="474683.544360127" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
@@ -274,12 +274,12 @@
 			<height normal="45" grown="54" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="10" max="10" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="10" max="10" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -288,7 +288,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="72" /> <!-- Stormbringer -->
+		<equipment rhand="72" /> (Stormbringer)
 		<acquire exp="723444" sp="7233" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="949367.088720254" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
@@ -306,12 +306,12 @@
 			<height normal="50.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="20" max="20" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="20" max="20" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -337,12 +337,12 @@
 			<height normal="49.7" grown="59.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="50" max="50" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="50" max="50" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -351,7 +351,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="79" /> <!-- Damascus Sword -->
+		<equipment rhand="79" /> (Damascus Sword)
 		<acquire exp="5787972" sp="57879" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3797468.35488102" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
@@ -369,12 +369,12 @@
 			<height normal="53" grown="64.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="250" max="250" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="250" max="250" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -400,12 +400,12 @@
 			<height normal="67.95" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="1000" max="1000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="1000" max="1000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -414,7 +414,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="242" /> <!-- Soulfire Dirk -->
+		<equipment rhand="242" /> (Soulfire Dirk)
 		<acquire exp="19506" sp="195" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -432,15 +432,15 @@
 			<height normal="31.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19516" level="85" type="Monster" name="Oel Mahum Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="148" /> <!-- Sword of Valhalla -->
+		<equipment rhand="148" /> (Sword of Valhalla)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -457,15 +457,15 @@
 			<height normal="34.2" grown="41.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19517" level="85" type="Monster" name="Oel Mahum Ranger">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="79" /> <!-- Damascus Sword -->
+		<equipment rhand="79" /> (Damascus Sword)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -482,15 +482,15 @@
 			<height normal="39" grown="47.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19518" level="85" type="Monster" name="Oel Mahum Keeper">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="148" /> <!-- Sword of Valhalla -->
+		<equipment rhand="148" /> (Sword of Valhalla)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -507,15 +507,15 @@
 			<height normal="39" grown="47.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19519" level="85" type="Monster" name="Oel Mahum Berserker">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="79" /> <!-- Damascus Sword -->
+		<equipment rhand="79" /> (Damascus Sword)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -532,15 +532,15 @@
 			<height normal="42.5" grown="51.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19520" level="85" type="Monster" name="Oel Mahum Protector">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="279" /> <!-- Reinforced Longbow -->
+		<equipment rhand="279" /> (Reinforced Longbow)
 		<acquire exp="19506" sp="195" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="278977.938492698" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -558,8 +558,8 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19521" level="80" type="Monster" name="Leoric" title="Forest Emperor">
@@ -583,7 +583,7 @@
 			<height normal="67.95" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="19522" level="80" type="Monster" name="Large Leoric" title="Bearer of Suffering">
@@ -607,7 +607,7 @@
 			<height normal="83" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="19523" level="88" type="Monster" name="Large Leoric" title="Bearer of Suffering">
@@ -631,12 +631,12 @@
 			<height normal="83" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="3000" max="3000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="3000" max="3000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -662,12 +662,12 @@
 			<height normal="83" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="3000" max="3000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="3000" max="3000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -676,7 +676,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="127" /> <!-- Crimson Sword -->
+		<equipment rhand="127" /> (Crimson Sword)
 		<acquire exp="134991" sp="1347" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="334746.835498607" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
@@ -694,12 +694,12 @@
 			<height normal="45" grown="54" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="10" max="10" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="10" max="10" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -708,7 +708,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="72" /> <!-- Stormbringer -->
+		<equipment rhand="72" /> (Stormbringer)
 		<acquire exp="674958" sp="6747" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="669493.670997213" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
@@ -726,12 +726,12 @@
 			<height normal="50.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="20" max="20" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="20" max="20" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -757,12 +757,12 @@
 			<height normal="49.7" grown="59.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="50" max="50" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="50" max="50" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -771,7 +771,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="79" /> <!-- Damascus Sword -->
+		<equipment rhand="79" /> (Damascus Sword)
 		<acquire exp="5400066" sp="54000" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2677974.68398885" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
@@ -789,12 +789,12 @@
 			<height normal="53" grown="64.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="250" max="250" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="250" max="250" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -820,12 +820,12 @@
 			<height normal="67.95" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="1000" max="1000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="1000" max="1000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -834,7 +834,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="242" /> <!-- Soulfire Dirk -->
+		<equipment rhand="242" /> (Soulfire Dirk)
 		<acquire exp="1761" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="67281.2624715" hpRegen="10.2" mp="2364.81086311211" mpRegen="3.6" />
@@ -852,15 +852,15 @@
 			<height normal="31.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19531" level="80" type="Monster" name="Oel Mahum Protector">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="279" /> <!-- Reinforced Longbow -->
+		<equipment rhand="279" /> (Reinforced Longbow)
 		<acquire exp="1761" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="67281.2624715" hpRegen="10.2" mp="2364.81086311211" mpRegen="3.6" />
@@ -878,15 +878,15 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19532" level="80" type="Monster" name="Oel Mahum Commander" title="Forest Ruler">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="127" /> <!-- Crimson Sword -->
+		<equipment rhand="127" /> (Crimson Sword)
 		<acquire exp="12195" sp="120" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="100921.89370725" hpRegen="10.2" mp="2364.81086311211" mpRegen="3.6" />
@@ -904,14 +904,14 @@
 			<height normal="45" grown="54" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="19533" level="80" type="Monster" name="Oel Mahum Leader" title="Forest Ruler">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="72" /> <!-- Stormbringer -->
+		<equipment rhand="72" /> (Stormbringer)
 		<acquire exp="60984" sp="609" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="201843.7874145" hpRegen="10.2" mp="2364.81086311211" mpRegen="3.6" />
@@ -929,7 +929,7 @@
 			<height normal="50.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="19534" level="80" type="Monster" name="Oel Mahum Commodore" title="Forest Ruler">
@@ -953,14 +953,14 @@
 			<height normal="49.7" grown="59.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="19535" level="80" type="Monster" name="Oel Mahum Chief Keeper" title="Forest Ruler">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="79" /> <!-- Damascus Sword -->
+		<equipment rhand="79" /> (Damascus Sword)
 		<acquire exp="487911" sp="4878" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="605531.3622435" hpRegen="10.2" mp="2364.81086311211" mpRegen="3.6" />
@@ -978,7 +978,7 @@
 			<height normal="53" grown="64.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> (Angels)
 		</skillList>
 	</npc>
 	<npc id="19536" level="85" type="Folk" name="">
@@ -1020,9 +1020,9 @@
 			<height normal="100" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
-			<skill id="4116" level="2" /> <!-- Magic Damage Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
+			<skill id="4116" level="2" /> (Magic Damage Resistance)
 		</skillList>
 	</npc>
 	<npc id="19538" level="85" type="Folk" name="Magic Water Pillar">
@@ -1201,8 +1201,8 @@
 			<height normal="23.25" grown="28.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19547" level="85" type="Folk" name="Sultriness" title="Heat's Breath">
@@ -1226,7 +1226,7 @@
 			<height normal="138.25" grown="168.25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4416" level="7" /> (Spirits)
 		</skillList>
 	</npc>
 	<npc id="19548" level="87" type="Folk" name="Janitor" title="Minion">
@@ -1253,7 +1253,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="98218" /> <!-- Monster Only (Zombie Gate Guard Spear) - Not available -->
+		<equipment rhand="98218" /> (Monster Only (Zombie Gate Guard Spear) - Not available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="534967.72152" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="2780" magical="1898" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1311,8 +1311,8 @@
 			<height normal="53.5" grown="65.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19552" level="80" type="Folk" name="Invisible Caress">
@@ -1356,8 +1356,8 @@
 			<height normal="23.25" grown="28.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19554" level="88" type="Folk" name="Sultriness" title="Heat's Breath">
@@ -1381,12 +1381,12 @@
 			<height normal="138.25" grown="168.25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4416" level="7" /> (Spirits)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104549" min="1" max="1" chance="100" /> <!-- Cool Ice Box (Time-limited) - Sealed -->
+					<item id="104549" min="1" max="1" chance="100" /> (Cool Ice Box (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1412,8 +1412,8 @@
 			<height normal="53.5" grown="65.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19556" level="85" type="Folk" name="Withered Watermelon">
@@ -1645,7 +1645,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="586" max="648" chance="100" /> <!-- Adena -->
+					<item id="57" min="586" max="648" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1671,8 +1671,8 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19568" level="88" type="Folk" name="Shadow Spirit">
@@ -1696,8 +1696,8 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19569" level="88" type="Folk" name="Masked Warrior" title="Festival Mask">
@@ -1721,12 +1721,12 @@
 			<height normal="44.85" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="10" max="10" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="10" max="10" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1752,12 +1752,12 @@
 			<height normal="39.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="20" max="20" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="20" max="20" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1766,7 +1766,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97162" /> <!-- Monster's Weapon: Silenos Shaman's Staff - Not Available -->
+		<equipment rhand="97162" /> (Monster's Weapon: Silenos Shaman's Staff - Not Available)
 		<acquire exp="1880955" sp="18807" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1898734.17744051" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
@@ -1784,12 +1784,12 @@
 			<height normal="39.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="50" max="50" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="50" max="50" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1815,12 +1815,12 @@
 			<height normal="66.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="250" max="250" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="250" max="250" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1846,12 +1846,12 @@
 			<height normal="44.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="1000" max="1000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="1000" max="1000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1877,12 +1877,12 @@
 			<height normal="35.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="10" max="10" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="10" max="10" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1908,12 +1908,12 @@
 			<height normal="58.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="20" max="20" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="20" max="20" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1939,12 +1939,12 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="50" max="50" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="50" max="50" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1970,12 +1970,12 @@
 			<height normal="47.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="250" max="250" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="250" max="250" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1984,7 +1984,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>MALE</sex>
-		<equipment rhand="105385" /> <!-- NPC only_Japanese Spear - Not available -->
+		<equipment rhand="105385" /> (NPC only_Japanese Spear - Not available)
 		<acquire exp="8681751" sp="86817" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7594936.70976203" hpRegen="10.2" mp="2928.25" mpRegen="3.6" />
@@ -2002,12 +2002,12 @@
 			<height normal="32.65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4416" level="14" /> (Humans)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="1000" max="1000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="1000" max="1000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -2033,12 +2033,12 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4416" level="11" /> (Giants)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="3000" max="3000" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="3000" max="3000" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -2121,7 +2121,7 @@
 			<height normal="81.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="19584" level="88" type="Monster" name="Temporarily 5">
@@ -2145,7 +2145,7 @@
 			<height normal="79" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="19585" level="88" type="Monster" name="Lava Salamander" element="FIRE">
@@ -2236,7 +2236,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="6722" /> <!-- Monster Only (Arimanes) -->
+		<equipment rhand="6722" /> (Monster Only (Arimanes))
 		<acquire exp="97128" sp="969" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="550167.552" hpRegen="10.2" mp="29683" mpRegen="3.6" />
@@ -2338,8 +2338,8 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19594" level="80" type="Monster" name="Shadow Spirit">
@@ -2363,8 +2363,8 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19595" level="80" type="Monster" name="Masked Warrior" title="Festival Mask">
@@ -2388,12 +2388,12 @@
 			<height normal="44.85" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="10" max="10" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="10" max="10" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -2438,12 +2438,12 @@
 			<height normal="39.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4416" level="9" /> (Demons)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="20" max="20" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="20" max="20" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -2452,7 +2452,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97162" /> <!-- Monster's Weapon: Silenos Shaman's Staff - Not Available -->
+		<equipment rhand="97162" /> (Monster's Weapon: Silenos Shaman's Staff - Not Available)
 		<acquire exp="158559" sp="71748" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="193770.03591792" hpRegen="10.2" mp="2364.81086311211" mpRegen="3.6" />
@@ -2470,12 +2470,12 @@
 			<height normal="39.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="50" max="50" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="50" max="50" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -2501,12 +2501,12 @@
 			<height normal="66.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104143" min="250" max="250" chance="100" /> <!-- Festival of Illusions Coin (Time-limited) - Sealed -->
+					<item id="104143" min="250" max="250" chance="100" /> (Festival of Illusions Coin (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>

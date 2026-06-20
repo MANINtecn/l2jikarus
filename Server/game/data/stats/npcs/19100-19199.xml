@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="19100" level="76" type="Monster" name="Slime">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -21,8 +21,8 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19101" level="76" type="Monster" name="Undine">
@@ -46,8 +46,8 @@
 			<height normal="63" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19102" level="76" type="Monster" name="Water Breath">
@@ -71,8 +71,8 @@
 			<height normal="67.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19103" level="76" type="Monster" name="Temple Guardian Warrior">
@@ -96,13 +96,13 @@
 			<height normal="64.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="126" max="139" chance="100" /> <!-- Adena -->
+					<item id="57" min="126" max="139" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -128,13 +128,13 @@
 			<height normal="53.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="126" max="139" chance="100" /> <!-- Adena -->
+					<item id="57" min="126" max="139" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -160,13 +160,13 @@
 			<height normal="48.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="126" max="139" chance="100" /> <!-- Adena -->
+					<item id="57" min="126" max="139" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -232,10 +232,10 @@
 			<height normal="50.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19109" level="80" type="Monster" name="Slime">
@@ -259,10 +259,10 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19110" level="80" type="Monster" name="Undine">
@@ -286,10 +286,10 @@
 			<height normal="63" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19111" level="80" type="Monster" name="Water Breath">
@@ -313,10 +313,10 @@
 			<height normal="67.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19112" level="80" type="Monster" name="Temple Guardian Warrior">
@@ -340,15 +340,15 @@
 			<height normal="64.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1391" max="1540" chance="100" /> <!-- Adena -->
+					<item id="57" min="1391" max="1540" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -374,15 +374,15 @@
 			<height normal="53.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1391" max="1540" chance="100" /> <!-- Adena -->
+					<item id="57" min="1391" max="1540" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -408,15 +408,15 @@
 			<height normal="48.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1391" max="1540" chance="100" /> <!-- Adena -->
+					<item id="57" min="1391" max="1540" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -500,7 +500,7 @@
 			<height normal="47.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="19119" level="88" type="Monster" name="Mercenary Summoner" title="Mirage Catcher">
@@ -523,7 +523,7 @@
 			<height normal="89.25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="19120" level="80" type="Monster" name="Frost-covered Pumpkin">
@@ -612,12 +612,12 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="102565" min="1" max="1" chance="0.05" /> <!-- Lucky Package: +5 ~ +6 Armor of Protection Coupon (Sealed) (Time-limited) - Sealed -->
-					<item id="97147" min="8" max="12" chance="50" /> <!-- Hidden Power Booster - Sealed -->
-					<item id="100314" min="1" max="1" chance="0.02" /> <!-- Lucky Package: +5 ~ +7 Frost Lord's Weapon Coupon (Sealed) (Time-limited) - Sealed -->
-					<item id="103388" min="1" max="1" chance="3.93" /> <!-- Package: Transcendent Upgrade Stone (1-10 pcs.) (Time-limited) - Sealed -->
-					<item id="100722" min="4" max="6" chance="45" /> <!-- Dye Booster - Sealed -->
-					<item id="103387" min="1" max="1" chance="1" /> <!-- Lucky Pack: Selected Jewel Coupon (500-1000 pcs.) (Time-limited) - Sealed -->
+					<item id="102565" min="1" max="1" chance="0.05" /> (Lucky Package: +5 ~ +6 Armor of Protection Coupon (Sealed) (Time-limited) - Sealed)
+					<item id="97147" min="8" max="12" chance="50" /> (Hidden Power Booster - Sealed)
+					<item id="100314" min="1" max="1" chance="0.02" /> (Lucky Package: +5 ~ +7 Frost Lord's Weapon Coupon (Sealed) (Time-limited) - Sealed)
+					<item id="103388" min="1" max="1" chance="3.93" /> (Package: Transcendent Upgrade Stone (1-10 pcs.) (Time-limited) - Sealed)
+					<item id="100722" min="4" max="6" chance="45" /> (Dye Booster - Sealed)
+					<item id="103387" min="1" max="1" chance="1" /> (Lucky Pack: Selected Jewel Coupon (500-1000 pcs.) (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -708,11 +708,11 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103313" min="1" max="1" chance="0.49" /> <!-- Superior Doll Summon Coupon - 1-time (Time-limited) - Sealed -->
-					<item id="103389" min="1" max="1" chance="4.5" /> <!-- Enhanced Doll Summon Coupon - 1-time (Time-limited) - Sealed -->
-					<item id="103332" min="1" max="1" chance="95" /> <!-- Doll Summon Coupon (Common - Heroic) - 1-time - Sealed -->
-					<item id="103331" min="1" max="1" chance="0.002" /> <!-- Doll Summon Coupon (Heroic) - 1-time (Time-limited) - Sealed -->
-					<item id="103314" min="1" max="1" chance="0.009" /> <!-- Rare Doll Summon Coupon - 1-time (Time-limited) - Sealed -->
+					<item id="103313" min="1" max="1" chance="0.49" /> (Superior Doll Summon Coupon - 1-time (Time-limited) - Sealed)
+					<item id="103389" min="1" max="1" chance="4.5" /> (Enhanced Doll Summon Coupon - 1-time (Time-limited) - Sealed)
+					<item id="103332" min="1" max="1" chance="95" /> (Doll Summon Coupon (Common - Heroic) - 1-time - Sealed)
+					<item id="103331" min="1" max="1" chance="0.002" /> (Doll Summon Coupon (Heroic) - 1-time (Time-limited) - Sealed)
+					<item id="103314" min="1" max="1" chance="0.009" /> (Rare Doll Summon Coupon - 1-time (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -740,12 +740,12 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="100314" min="1" max="1" chance="0.02" /> <!-- Lucky Package: +5 ~ +7 Frost Lord's Weapon Coupon (Sealed) (Time-limited) - Sealed -->
-					<item id="103387" min="1" max="1" chance="1" /> <!-- Lucky Pack: Selected Jewel Coupon (500-1000 pcs.) (Time-limited) - Sealed -->
-					<item id="100722" min="4" max="6" chance="48.93" /> <!-- Dye Booster - Sealed -->
-					<item id="102565" min="1" max="1" chance="0.05" /> <!-- Lucky Package: +5 ~ +6 Armor of Protection Coupon (Sealed) (Time-limited) - Sealed -->
-					<item id="102461" min="1" max="1" chance="45" /> <!-- Equipment Enchant Scroll Pack (Time-limited) - Sealed -->
-					<item id="103390" min="1" max="1" chance="5" /> <!-- Package: Greater Upgrade Stone (1-10 pcs.) (Time-limited) - Sealed -->
+					<item id="100314" min="1" max="1" chance="0.02" /> (Lucky Package: +5 ~ +7 Frost Lord's Weapon Coupon (Sealed) (Time-limited) - Sealed)
+					<item id="103387" min="1" max="1" chance="1" /> (Lucky Pack: Selected Jewel Coupon (500-1000 pcs.) (Time-limited) - Sealed)
+					<item id="100722" min="4" max="6" chance="48.93" /> (Dye Booster - Sealed)
+					<item id="102565" min="1" max="1" chance="0.05" /> (Lucky Package: +5 ~ +6 Armor of Protection Coupon (Sealed) (Time-limited) - Sealed)
+					<item id="102461" min="1" max="1" chance="45" /> (Equipment Enchant Scroll Pack (Time-limited) - Sealed)
+					<item id="103390" min="1" max="1" chance="5" /> (Package: Greater Upgrade Stone (1-10 pcs.) (Time-limited) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -830,7 +830,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>MALE</sex>
-		<equipment rhand="8683" /> <!-- Tiphon's Spear -->
+		<equipment rhand="8683" /> (Tiphon's Spear)
 		<acquire exp="162" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6250" hpRegen="10.2" mp="1674.8" mpRegen="3.6" />
@@ -848,7 +848,7 @@
 			<height normal="23.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4416" level="14" /> (Humans)
 		</skillList>
 	</npc>
 	<npc id="19134" level="80" type="Folk" name="Antharas Decoration 1">
@@ -872,7 +872,7 @@
 			<height normal="22.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4416" level="14" /> (Humans)
 		</skillList>
 	</npc>
 	<npc id="19135" level="80" type="Folk" name="Antharas Decoration 2">
@@ -896,14 +896,14 @@
 			<height normal="43" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4416" level="2" /> (Magical Creatures)
 		</skillList>
 	</npc>
 	<npc id="19136" level="80" type="Folk" name="Expedition Member">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DARK_ELF</race>
 		<sex>MALE</sex>
-		<equipment rhand="288" /> <!-- Carnage Bow -->
+		<equipment rhand="288" /> (Carnage Bow)
 		<acquire exp="162" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="5634.17722" hpRegen="10.2" mp="1674.8" mpRegen="3.6" />
@@ -921,7 +921,7 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="16" /> <!-- Dark Elves -->
+			<skill id="4416" level="16" /> (Dark Elves)
 		</skillList>
 	</npc>
 	<npc id="19137" level="80" type="Folk" name="Expedition Member">
@@ -945,7 +945,7 @@
 			<height normal="23.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
+			<skill id="4416" level="14" /> (Humans)
 		</skillList>
 	</npc>
 	<npc id="19138" level="85" type="Folk" name="Summoned from Darkness">
@@ -1046,10 +1046,10 @@
 			<height normal="36.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19143" level="85" type="Monster" name="Greedy Dragon" title="Filled with XP">
@@ -1073,10 +1073,10 @@
 			<height normal="82.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19144" level="85" type="Monster" name="Black Flame Dragon" title="Calamity Bearer">
@@ -1100,10 +1100,10 @@
 			<height normal="112.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19145" level="80" type="Monster" name="Wrathful Dragon">
@@ -1127,10 +1127,10 @@
 			<height normal="36.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19146" level="80" type="Monster" name="Greedy Dragon" title="Filled with XP">
@@ -1154,10 +1154,10 @@
 			<height normal="82.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19147" level="80" type="Monster" name="Black Flame Dragon" title="Calamity Bearer">
@@ -1181,10 +1181,10 @@
 			<height normal="112.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48587" level="4" /> <!-- Bow/ Firearms Resistance -->
-			<skill id="4116" level="4" /> <!-- Magic Damage Resistance -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48587" level="4" /> (Bow/ Firearms Resistance)
+			<skill id="4116" level="4" /> (Magic Damage Resistance)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19148" level="85" type="Folk" name="Egg" title="Bursting with Blue Energy">
@@ -1245,8 +1245,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19151" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1269,8 +1269,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19152" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1293,8 +1293,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19153" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1317,8 +1317,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19154" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1341,8 +1341,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19155" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1365,8 +1365,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19156" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1389,8 +1389,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19157" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1413,8 +1413,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19158" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1437,8 +1437,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19159" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1461,8 +1461,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19160" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1485,8 +1485,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19161" level="88" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1509,8 +1509,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19162" level="85" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1533,8 +1533,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19163" level="85" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1557,8 +1557,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19164" level="85" type="RaidBoss" name="Armeria" title="Forest Mistress" element="WATER">
@@ -1581,8 +1581,8 @@
 			<height normal="105.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19165" level="88" type="Monster" name="Armeria's Lackey" element="WATER">
@@ -1605,8 +1605,8 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19166" level="85" type="Monster" name="Armeria's Lackey" element="WATER">
@@ -1629,8 +1629,8 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19167" level="88" type="Monster" name="Spring Assassin" element="WATER">
@@ -1654,13 +1654,13 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1312" max="1452" chance="100" /> <!-- Adena -->
+					<item id="57" min="1312" max="1452" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1686,13 +1686,13 @@
 			<height normal="68" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1312" max="1452" chance="100" /> <!-- Adena -->
+					<item id="57" min="1312" max="1452" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1718,13 +1718,13 @@
 			<height normal="48.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1312" max="1452" chance="100" /> <!-- Adena -->
+					<item id="57" min="1312" max="1452" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1733,7 +1733,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>PLANT</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="23232" sp="210" attributeExp="1760" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="89908.86076" hpRegen="10.2" mp="11290.8" mpRegen="3.6" />
@@ -1751,13 +1751,13 @@
 			<height normal="62" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1312" max="1452" chance="100" /> <!-- Adena -->
+					<item id="57" min="1312" max="1452" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1783,13 +1783,13 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1312" max="1452" chance="100" /> <!-- Adena -->
+					<item id="57" min="1312" max="1452" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1815,14 +1815,14 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="266" max="295" chance="100" /> <!-- Adena -->
+					<item id="57" min="266" max="295" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1848,14 +1848,14 @@
 			<height normal="68" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="266" max="295" chance="100" /> <!-- Adena -->
+					<item id="57" min="266" max="295" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1881,14 +1881,14 @@
 			<height normal="48.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="266" max="295" chance="100" /> <!-- Adena -->
+					<item id="57" min="266" max="295" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1897,7 +1897,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>PLANT</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="8937" sp="51" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32361.39241" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -1915,14 +1915,14 @@
 			<height normal="62" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="266" max="295" chance="100" /> <!-- Adena -->
+					<item id="57" min="266" max="295" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1948,14 +1948,14 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="266" max="295" chance="100" /> <!-- Adena -->
+					<item id="57" min="266" max="295" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1981,13 +1981,13 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="266" max="295" chance="100" /> <!-- Adena -->
+					<item id="57" min="266" max="295" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2013,13 +2013,13 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1312" max="1452" chance="100" /> <!-- Adena -->
+					<item id="57" min="1312" max="1452" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2045,8 +2045,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19180" level="88" type="Monster" name="Woods Defender" title="Aden Server" element="WATER">
@@ -2070,8 +2070,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19181" level="88" type="Monster" name="Woods Defender" title="Aden Server" element="WATER">
@@ -2095,8 +2095,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19182" level="88" type="Monster" name="Woods Defender" title="Aden Server" element="WATER">
@@ -2120,8 +2120,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19183" level="88" type="Monster" name="Woods Defender" title="Aden Server" element="WATER">
@@ -2145,8 +2145,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19184" level="88" type="Monster" name="Woods Defender" title="Aden Server" element="WATER">
@@ -2170,8 +2170,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19185" level="88" type="Monster" name="Woods Defender" title="Aden Server" element="WATER">
@@ -2195,8 +2195,8 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19186" level="88" type="Monster" name="Woods Defender" title="Aden Server" element="WATER">
@@ -2220,8 +2220,8 @@
 			<height normal="39.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19187" level="85" type="Monster" name="Woods Defender" title="Eva Server" element="WATER">
@@ -2245,9 +2245,9 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19188" level="85" type="Monster" name="Woods Defender" title="Eva Server" element="WATER">
@@ -2271,9 +2271,9 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19189" level="85" type="Monster" name="Woods Defender" title="Eva Server" element="WATER">
@@ -2297,9 +2297,9 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="19190" level="85" type="Monster" name="Draco Egg">
@@ -2365,8 +2365,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19193" level="88" type="Monster" name="Woods Defender" title="Frintezza Server" element="WATER">
@@ -2390,8 +2390,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19194" level="88" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -2415,8 +2415,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19195" level="88" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -2440,8 +2440,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19196" level="88" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -2465,8 +2465,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19197" level="88" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -2490,8 +2490,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19198" level="88" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -2515,8 +2515,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="19199" level="88" type="Monster" name="Illusion of Spring" title="Vibrant with Green" element="WATER">
@@ -2540,8 +2540,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 </list>

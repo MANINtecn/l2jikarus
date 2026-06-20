@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="25800" level="74" type="Monster" name="Kasha" title="Gosmos' Mentor">
 		<!-- Source: www.l2wiki.com -->
@@ -28,20 +28,20 @@
 			<height normal="52" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="7" /> <!-- Raid Boss (Lv. 74) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="5238" level="1" /> <!-- Freezing -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="7" /> (Raid Boss (Lv. 74))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="5238" level="1" /> (Freezing)
 		</skillList>
 	</npc>
 	<npc id="25801" level="76" type="Monster" name="Dorak" title="Kabed's Rival">
@@ -71,20 +71,20 @@
 			<height normal="46.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="8" /> <!-- Raid Boss (Lv. 76) -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-			<skill id="6268" level="1" /> <!-- Jump Attack -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="8" /> (Raid Boss (Lv. 76))
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
+			<skill id="6268" level="1" /> (Jump Attack)
 		</skillList>
 	</npc>
 	<npc id="25802" level="78" type="Monster" name="Turan" title="Leo's Tracker">
@@ -114,19 +114,19 @@
 			<height normal="46.2" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="9" /> <!-- Raid Boss (Lv. 78) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="9" /> (Raid Boss (Lv. 78))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25803" level="80" type="Monster" name="Varkan" title="Varka's Gatekeeper">
@@ -156,19 +156,19 @@
 			<height normal="46.2" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="10" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="10" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25804" level="80" type="Monster" name="Ketran" title="Ketra's Gatekeeper">
@@ -198,19 +198,19 @@
 			<height normal="37" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="11" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="11" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25805" level="80" type="Monster" name="Likan" title="Hallate's Adept">
@@ -240,19 +240,19 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="12" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="12" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25806" level="80" type="Monster" name="Anbarad" title="Barda's Nemesis">
@@ -281,19 +281,19 @@
 			<height normal="48.2" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="13" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="13" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25807" level="80" type="Monster" name="Baranos" title="Mos' Prefect">
@@ -323,19 +323,19 @@
 			<height normal="49.2" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="14" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="4" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="14" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="4" /> (HP High)
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25808" level="80" type="Monster" name="Takuran" title="Tayr's Prefect">
@@ -365,19 +365,19 @@
 			<height normal="28.8" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="15" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="5" /> <!-- HP High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="15" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="5" /> (HP High)
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25809" level="80" type="Monster" name="Nast" title="Ipos' Agent">
@@ -406,19 +406,19 @@
 			<height normal="39.6" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="16" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="6" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="16" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="6" /> (HP Very High)
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="17" /> (Very Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25810" level="80" type="Monster" name="Keltar" title="Shuriel's Paladin">
@@ -448,19 +448,19 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="17" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="7" /> <!-- HP Very High -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="17" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="7" /> (HP Very High)
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="18" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25811" level="80" type="Monster" name="Satur" title="Shadith's Prefect">
@@ -490,19 +490,19 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="18" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="18" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="10" /> (HP Increase (2x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25812" level="80" type="Monster" name="Kosnak" title="Hekaton's Prefect">
@@ -532,19 +532,19 @@
 			<height normal="38.5" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="19" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="20" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="19" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="11" /> (HP Increase (3x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="20" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25813" level="80" type="Monster" name="Garaki" title="Shax's Shadow">
@@ -573,26 +573,26 @@
 			<height normal="47" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="20" /> <!-- Raid Boss (Lv. 80) -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="21" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="20" /> (Raid Boss (Lv. 80))
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="21" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25814" level="62" type="Monster" name="Kutis' Pawn" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="283" /> <!-- Akat Longbow -->
+		<equipment rhand="283" /> (Akat Longbow)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="73556.96" hpRegen="7.5" mp="35201" mpRegen="2.7" />
@@ -610,15 +610,15 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="8" /> (Weak P. Def.)
 		</skillList>
 	</npc>
 	<npc id="25815" level="64" type="Monster" name="Garan's Vanguard" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="72" /> <!-- Stormbringer -->
+		<equipment rhand="72" /> (Stormbringer)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="81096.84" hpRegen="7.5" mp="37345" mpRegen="2.7" />
@@ -636,15 +636,15 @@
 			<height normal="29" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
 		</skillList>
 	</npc>
 	<npc id="25816" level="66" type="Monster" name="Batur's Priest" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="84" /> <!-- Homunkulus' Sword -->
+		<equipment rhand="84" /> (Homunkulus' Sword)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="93667.09" hpRegen="7.5" mp="39620" mpRegen="2.7" />
@@ -662,9 +662,9 @@
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25817" level="68" type="Monster" name="Venir's Spirit" title="Raid Minion">
@@ -688,16 +688,16 @@
 			<height normal="35" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25818" level="70" type="Monster" name="Oel's Vanguard" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="75" /> <!-- Caliburs -->
+		<equipment rhand="75" /> (Caliburs)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="137137.3" hpRegen="7.5" mp="44592" mpRegen="2.7" />
@@ -715,15 +715,15 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
 		</skillList>
 	</npc>
 	<npc id="25819" level="72" type="Monster" name="Taranka's Healer" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="195" /> <!-- Cursed Staff -->
+		<equipment rhand="195" /> (Cursed Staff)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="165936.1" hpRegen="8.5" mp="48227" mpRegen="3" />
@@ -741,16 +741,16 @@
 			<height normal="32" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25820" level="74" type="Monster" name="Kasha's Marksman" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="286" /> <!-- Eminence Bow -->
+		<equipment rhand="286" /> (Eminence Bow)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="200782.9" hpRegen="8.5" mp="53170" mpRegen="3" />
@@ -768,8 +768,8 @@
 			<height normal="21.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="8" /> (Weak P. Def.)
 		</skillList>
 	</npc>
 	<npc id="25821" level="76" type="Monster" name="Dorak's Evil Spirit" title="Raid Minion">
@@ -793,16 +793,16 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25822" level="78" type="Monster" name="Turan's Escort" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2503" /> <!-- Yaksa Mace -->
+		<equipment rhand="2503" /> (Yaksa Mace)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="293967.1" hpRegen="10.2" mp="64628" mpRegen="3.6" />
@@ -820,15 +820,15 @@
 			<height normal="37" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
 		</skillList>
 	</npc>
 	<npc id="25823" level="80" type="Monster" name="Varkan's Priest" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="5793" /> <!-- Tomb Savant A - Not Available -->
+		<equipment rhand="5793" /> (Tomb Savant A - Not Available)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="355699.4" hpRegen="10.2" mp="71253" mpRegen="3.6" />
@@ -846,16 +846,16 @@
 			<height normal="41.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25824" level="80" type="Monster" name="Ketran's Sniper" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="287" /> <!-- Bow of Peril -->
+		<equipment rhand="287" /> (Bow of Peril)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="355699.4" hpRegen="10.2" mp="71253" mpRegen="3.6" />
@@ -873,8 +873,8 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
 		</skillList>
 	</npc>
 	<npc id="25825" level="80" type="Monster" name="Likan's Maid" title="Raid Minion">
@@ -898,16 +898,16 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25826" level="80" type="Monster" name="Anbarad's Priest" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="210" /> <!-- Staff of Evil Spirits -->
+		<equipment rhand="210" /> (Staff of Evil Spirits)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="355699.4" hpRegen="10.2" mp="71253" mpRegen="3.6" />
@@ -925,9 +925,9 @@
 			<height normal="34" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25827" level="80" type="Monster" name="Baranos' Watchman" title="Raid Minion">
@@ -951,15 +951,15 @@
 			<height normal="37.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
 		</skillList>
 	</npc>
 	<npc id="25828" level="80" type="Monster" name="Takuran's Protector" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="175" /> <!-- Art of Battle Axe -->
+		<equipment rhand="175" /> (Art of Battle Axe)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="355699.4" hpRegen="10.2" mp="71253" mpRegen="3.6" />
@@ -977,15 +977,15 @@
 			<height normal="24" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
 		</skillList>
 	</npc>
 	<npc id="25829" level="80" type="Monster" name="Nast's Pikeman" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="1472" /> <!-- Dreadbane - Not Available -->
+		<equipment rhand="1472" /> (Dreadbane - Not Available)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="355699.4" hpRegen="10.2" mp="71253" mpRegen="3.6" />
@@ -1003,15 +1003,15 @@
 			<height normal="45" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
 		</skillList>
 	</npc>
 	<npc id="25830" level="80" type="Monster" name="Keltar's Shaman" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="202" /> <!-- Mace of Underworld -->
+		<equipment rhand="202" /> (Mace of Underworld)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="355699.4" hpRegen="10.2" mp="71253" mpRegen="3.6" />
@@ -1029,16 +1029,16 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25831" level="80" type="Monster" name="Satur's Seer" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="5794" /> <!-- Tomb Savant B - Not Available -->
+		<equipment rhand="5794" /> (Tomb Savant B - Not Available)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="355699.4" hpRegen="10.2" mp="71253" mpRegen="3.6" />
@@ -1056,15 +1056,15 @@
 			<height normal="39.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
 		</skillList>
 	</npc>
 	<npc id="25832" level="80" type="Monster" name="Kosnak's Escorts" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="171" /> <!-- Deadman's Glory -->
+		<equipment rhand="171" /> (Deadman's Glory)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="355699.4" hpRegen="10.2" mp="71253" mpRegen="3.6" />
@@ -1082,15 +1082,15 @@
 			<height normal="24" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
 		</skillList>
 	</npc>
 	<npc id="25833" level="80" type="Monster" name="Garaki's Banshee" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="3939" /> <!-- Monster Only (Bensh) - Not Available -->
+		<equipment rhand="3939" /> (Monster Only (Bensh) - Not Available)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="355699.4" hpRegen="10.2" mp="71253" mpRegen="3.6" />
@@ -1108,9 +1108,9 @@
 			<height normal="23" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25834" level="81" type="Monster" name="Shadai" title="Leader">
@@ -1135,19 +1135,19 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="21" /> <!-- Raid Boss (Lv. 81) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="21" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="21" /> (Raid Boss (Lv. 81))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="21" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25835" level="82" type="Monster" name="Turabait" title="Conqueror">
@@ -1172,19 +1172,19 @@
 			<height normal="41.25" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="22" /> <!-- Raid Boss (Lv. 82) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="21" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="22" /> (Raid Boss (Lv. 82))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="21" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25836" level="83" type="Monster" name="Tier" title="Fallen Angel">
@@ -1209,19 +1209,19 @@
 			<height normal="55.1" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="23" /> <!-- Raid Boss (Lv. 83) -->
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="21" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="23" /> (Raid Boss (Lv. 83))
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="21" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25837" level="84" type="Monster" name="Cherkia" title="Demon Apostle">
@@ -1245,19 +1245,19 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="24" /> <!-- Raid Boss (Lv. 84) -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="21" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="24" /> (Raid Boss (Lv. 84))
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="21" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25838" level="85" type="Monster" name="Spicula" title="Procella's Nemesis" element="WIND">
@@ -1281,26 +1281,26 @@
 			<height normal="46" />
 		</collision>
 		<skillList>
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="50028" level="25" /> <!-- Raid Boss (Lv. 85) -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="21" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="50028" level="25" /> (Raid Boss (Lv. 85))
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="14765" level="4" /> (Blood Siphon Resistance)
+			<skill id="4408" level="12" /> (HP Increase (4x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="21" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4045" level="1" /> (Full Magic Attack Resistance)
 		</skillList>
 	</npc>
 	<npc id="25839" level="81" type="Monster" name="Shadai's Seer" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="5794" /> <!-- Tomb Savant B - Not Available -->
+		<equipment rhand="5794" /> (Tomb Savant B - Not Available)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="391269.6" hpRegen="10.2" mp="102528" mpRegen="3.6" />
@@ -1318,16 +1318,16 @@
 			<height normal="39.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25840" level="82" type="Monster" name="Turabait's Warrior" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="8678" /> <!-- Sirra's Blade -->
+		<equipment rhand="8678" /> (Sirra's Blade)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="430396.8" hpRegen="10.2" mp="104580" mpRegen="3.6" />
@@ -1345,15 +1345,15 @@
 			<height normal="24" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
 		</skillList>
 	</npc>
 	<npc id="25841" level="83" type="Monster" name="Tier's Believer" title="Raid Minion">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="8680" /> <!-- Barakiel's Axe -->
+		<equipment rhand="8680" /> (Barakiel's Axe)
 		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="473435.4" hpRegen="10.2" mp="106644" mpRegen="3.6" />
@@ -1371,8 +1371,8 @@
 			<height normal="23.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
 		</skillList>
 	</npc>
 	<npc id="25842" level="84" type="Monster" name="Cherkia's Escort" title="Raid Minion">
@@ -1396,9 +1396,9 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25843" level="85" type="Monster" name="Spicula's Adept" title="Raid Minion" element="WIND">
@@ -1422,16 +1422,16 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
 		</skillList>
 	</npc>
 	<npc id="25844" level="86" type="RaidBoss" name="Minotaurus" title="Behemoth" element="EARTH">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38448" /> <!-- Monster Only: Minotaur Two-handed Axe - Not Available -->
+		<equipment rhand="38448" /> (Monster Only: Minotaur Two-handed Axe - Not Available)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="275000000" hpRegen="10.2" mp="3763.6" mpRegen="3.6" />
 			<attack physical="10012" magical="6836" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1448,17 +1448,17 @@
 			<height normal="60" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="26" /> <!-- Raid Boss (Lv. 86) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="50028" level="26" /> (Raid Boss (Lv. 86))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25845" level="87" type="RaidBoss" name="Aigo" title="Champion" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38429" lhand="38435" /> <!-- Monster Only: Tiger Sword - Not Available / Monster Only: Tiger Shield - Not Available -->
+		<equipment rhand="38429" lhand="38435" /> (Monster Only: Tiger Sword - Not Available / Monster Only: Tiger Shield - Not Available)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="330000000" hpRegen="10.2" mp="3834" mpRegen="3.6" />
 			<attack physical="1112" magical="7592" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1475,10 +1475,10 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="27" /> <!-- Raid Boss (Lv. 87) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="50028" level="27" /> (Raid Boss (Lv. 87))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25846" level="88" type="RaidBoss" name="Lidia" title="Strange Doll" element="EARTH">
@@ -1501,17 +1501,17 @@
 			<height normal="52" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="28" /> <!-- Raid Boss (Lv. 88) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="50028" level="28" /> (Raid Boss (Lv. 88))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25847" level="89" type="RaidBoss" name="Burka" title="Guardian" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="2500" /> <!-- Dark Legion's Edge -->
+		<equipment rhand="2500" /> (Dark Legion's Edge)
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="439000000" hpRegen="10.2" mp="3976" mpRegen="3.6" />
 			<attack physical="13336" magical="9104" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1528,10 +1528,10 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="29" /> <!-- Raid Boss (Lv. 89) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="50028" level="29" /> (Raid Boss (Lv. 89))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25848" level="90" type="RaidBoss" name="Abaga" title="Zenta High Priest" element="WATER">
@@ -1554,12 +1554,12 @@
 			<height normal="56" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="30" /> <!-- Raid Boss (Lv. 90) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Rate -->
+			<skill id="50028" level="30" /> (Raid Boss (Lv. 90))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Rate)
 		</skillList>
 	</npc>
 	<npc id="25849" level="91" type="RaidBoss" name="Grimany" title="Pirate" element="WIND">
@@ -1582,12 +1582,12 @@
 			<height normal="65" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="31" /> <!-- Raid Boss (Lv. 91) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Rate -->
+			<skill id="50028" level="31" /> (Raid Boss (Lv. 91))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Rate)
 		</skillList>
 	</npc>
 	<npc id="25850" level="92" type="RaidBoss" name="Grimwald" title="Foreman" element="FIRE">
@@ -1610,12 +1610,12 @@
 			<height normal="68" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="32" /> <!-- Raid Boss (Lv. 92) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Rate -->
+			<skill id="50028" level="32" /> (Raid Boss (Lv. 92))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Rate)
 		</skillList>
 	</npc>
 	<npc id="25851" level="93" type="RaidBoss" name="Duarin" title="Gray Pillar Hammer" element="EARTH">
@@ -1638,12 +1638,12 @@
 			<height normal="36" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="33" /> <!-- Raid Boss (Lv. 93) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="18" /> <!-- Dwarves -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Rate -->
+			<skill id="50028" level="33" /> (Raid Boss (Lv. 93))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="18" /> (Dwarves)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Rate)
 		</skillList>
 	</npc>
 	<npc id="25852" level="94" type="RaidBoss" name="Krume" title="Brutal" element="FIRE">
@@ -1666,12 +1666,12 @@
 			<height normal="50" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="34" /> <!-- Raid Boss (Lv. 94) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Rate -->
+			<skill id="50028" level="34" /> (Raid Boss (Lv. 94))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Rate)
 		</skillList>
 	</npc>
 	<npc id="25853" level="95" type="RaidBoss" name="Gadzan" title="Zenta Ranger" element="WATER">
@@ -1694,12 +1694,12 @@
 			<height normal="56" />
 		</collision>
 		<skillList>
-			<skill id="50028" level="35" /> <!-- Raid Boss (Lv. 95) -->
-			<skill id="4494" level="1" /> <!-- Raid Boss -->
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Rate -->
+			<skill id="50028" level="35" /> (Raid Boss (Lv. 95))
+			<skill id="4494" level="1" /> (Raid Boss)
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Rate)
 		</skillList>
 	</npc>
 	<npc id="25854" level="86" type="Monster" name="Minorta's Guard" title="Raid Minion" element="EARTH">
@@ -1722,15 +1722,15 @@
 			<height normal="31" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25855" level="87" type="Monster" name="Aigo's Sniper" title="Raid Minion" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38430" /> <!-- Monster Only: Tiger Bow - Not Available -->
+		<equipment rhand="38430" /> (Monster Only: Tiger Bow - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12546760" hpRegen="10.2" mp="3834" mpRegen="3.6" />
 			<attack physical="556" magical="3796" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -1747,15 +1747,15 @@
 			<height normal="26.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25856" level="87" type="Monster" name="Aigo's Shaman" title="Raid Minion" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38437" /> <!-- Monster Only: Tiger Staff - Not Available -->
+		<equipment rhand="38437" /> (Monster Only: Tiger Staff - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12672230" hpRegen="10.2" mp="3834" mpRegen="3.6" />
 			<attack physical="556" magical="3796" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1772,8 +1772,8 @@
 			<height normal="28.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25857" level="88" type="Monster" name="Lidia's Watchman" title="Raid Minion" element="EARTH">
@@ -1796,8 +1796,8 @@
 			<height normal="28.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25858" level="88" type="Monster" name="Lidia's Steward" title="Raid Minion" element="EARTH">
@@ -1820,15 +1820,15 @@
 			<height normal="25.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25859" level="89" type="Monster" name="Burka's Sniper" title="Raid Minion" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="6917" /> <!-- Monster Only (Poisonous Dart) - Sealed -->
+		<equipment rhand="6917" /> (Monster Only (Poisonous Dart) - Sealed)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13056210" hpRegen="10.2" mp="3976" mpRegen="3.6" />
 			<attack physical="6668" magical="4552" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1845,15 +1845,15 @@
 			<height normal="37.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25860" level="89" type="Monster" name="Burka's Priest" title="Raid Minion" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="97157" /> <!-- Monster's Weapon: Silenos Mage's Staff - Not Available -->
+		<equipment rhand="97157" /> (Monster's Weapon: Silenos Mage's Staff - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13186770" hpRegen="10.2" mp="3976" mpRegen="3.6" />
 			<attack physical="6668" magical="4552" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1870,15 +1870,15 @@
 			<height normal="46" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25861" level="90" type="Monster" name="Abaga's Guard" title="Raid Minion" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="8683" /> <!-- Tiphon's Spear -->
+		<equipment rhand="8683" /> (Tiphon's Spear)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13318630" hpRegen="10.2" mp="4047.6" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1895,15 +1895,15 @@
 			<height normal="35" grown="42.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25862" level="90" type="Monster" name="Abaga's Sniper" title="Raid Minion" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="13451830" hpRegen="10.2" mp="4047.6" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -1920,8 +1920,8 @@
 			<height normal="40.25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25863" level="91" type="Monster" name="First Officer" title="Raid Minion" element="WIND">
@@ -1944,8 +1944,8 @@
 			<height normal="30" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25864" level="91" type="Monster" name="Nurse" title="Raid Minion" element="WIND">
@@ -1968,8 +1968,8 @@
 			<height normal="28.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25865" level="92" type="Monster" name="Executioner" title="Raid Minion" element="FIRE">
@@ -1992,8 +1992,8 @@
 			<height normal="43.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25866" level="92" type="Monster" name="Watcher" title="Raid Minion" element="FIRE">
@@ -2016,8 +2016,8 @@
 			<height normal="34.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25867" level="93" type="Monster" name="Duarin's Guardsman" title="Raid Minion" element="EARTH">
@@ -2040,8 +2040,8 @@
 			<height normal="19" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="18" /> <!-- Dwarves -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="18" /> (Dwarves)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25868" level="93" type="Monster" name="Duarin's Messenger" title="Raid Minion" element="EARTH">
@@ -2064,15 +2064,15 @@
 			<height normal="19" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="18" /> <!-- Dwarves -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="18" /> (Dwarves)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25869" level="94" type="Monster" name="Krume's Thrower" title="Raid Minion" element="FIRE">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="38426" /> <!-- Monster Only: Amden Bow - Not Available -->
+		<equipment rhand="38426" /> (Monster Only: Amden Bow - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="14422220" hpRegen="10.2" mp="4338" mpRegen="3.6" />
 			<attack physical="9438" magical="6442" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -2089,8 +2089,8 @@
 			<height normal="29.45" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25870" level="94" type="Monster" name="Krume's Shaman" title="Raid Minion" element="FIRE">
@@ -2113,15 +2113,15 @@
 			<height normal="31.65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25871" level="95" type="Monster" name="Gadzan's Guard" title="Raid Minion" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="8682" /> <!-- Naga's Storm -->
+		<equipment rhand="8682" /> (Naga's Storm)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="14712009.49367" hpRegen="10.2" mp="4411.6" mpRegen="3.6" />
 			<attack physical="9992" magical="682" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2138,15 +2138,15 @@
 			<height normal="40" grown="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="25872" level="95" type="Monster" name="Gadzan's Shaman" title="Raid Minion" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="92964" /> <!-- Cabrio's Hand - Sealed -->
+		<equipment rhand="92964" /> (Cabrio's Hand - Sealed)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="14859110" hpRegen="10.2" mp="4411.6" mpRegen="3.6" />
 			<attack physical="9992" magical="682" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2163,8 +2163,8 @@
 			<height normal="35" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 </list>

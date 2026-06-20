@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="18600" level="78" type="Monster" name="Renewed Treasure Chest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -21,7 +21,7 @@
 			<height normal="21.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4416" level="2" /> (Magical Creatures)
 		</skillList>
 	</npc>
 	<npc id="18601" level="75" type="Monster" name="Rebel Leader" title="Slayer">
@@ -45,7 +45,7 @@
 			<height normal="57" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> (Humanoids)
 		</skillList>
 	</npc>
 	<npc id="18602" level="80" type="Monster" name="Bull Slaughterer" title="Slayer">
@@ -69,7 +69,7 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="18603" level="85" type="Folk" name="">
@@ -132,9 +132,9 @@
 			<height normal="33.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> <!-- Fairies -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="13" /> (Fairies)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18606" level="80" type="Monster" name="Fighter of Genesis" element="WATER">
@@ -158,16 +158,16 @@
 			<height normal="41.55" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18607" level="80" type="Monster" name="Archer of Genesis" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="4800" sp="48" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="19613.29" hpRegen="10.2" mp="2770.2" mpRegen="3.6" />
@@ -185,9 +185,9 @@
 			<height normal="36.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="4" /> (Animals)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18608" level="80" type="Monster" name="Bit" title="Garden Hunter" element="WATER">
@@ -211,9 +211,9 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18609" level="80" type="Monster" name="Prophet" title="Garden Foreman" element="WATER">
@@ -237,9 +237,9 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18610" level="85" type="Monster" name="Mystic of Genesis" element="WATER">
@@ -263,8 +263,8 @@
 			<height normal="33.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="18611" level="85" type="Monster" name="Warrior of Genesis" element="WATER">
@@ -288,15 +288,15 @@
 			<height normal="35" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="18612" level="85" type="Monster" name="Sniper of Genesis" element="WATER">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="12138" sp="120" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="26996.2" hpRegen="10.2" mp="11080.8" mpRegen="3.6" />
@@ -314,8 +314,8 @@
 			<height normal="36.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="4" /> (Animals)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="18613" level="85" type="Monster" name="Yard" title="Garden Hunter" element="WATER">
@@ -339,8 +339,8 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="18614" level="85" type="Monster" name="Commander" title="Garden Foreman" element="WATER">
@@ -364,8 +364,8 @@
 			<height normal="67.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="18615" level="85" type="RaidBoss" name="Apherus" title="Garden Ruler" element="WATER">
@@ -409,9 +409,9 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18617" level="85" type="Monster" name="Guardsman" element="WATER">
@@ -435,9 +435,9 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="5" /> (Plants)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18618" level="85" type="Folk" name="">
@@ -480,7 +480,7 @@
 		</stats>
 		<status attackable="false" undying="true" canMove="false" hasSummoner="true" targetable="false" showName="false" />
 		<skillList>
-			<skill id="87070" level="1" /> <!-- Ice Field -->
+			<skill id="87070" level="1" /> (Ice Field)
 		</skillList>
 		<collision>
 			<radius normal="0.1" />
@@ -623,9 +623,9 @@
 			<height normal="16.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18635" level="70" type="Monster" name="Elder of Trials" element="WIND">
@@ -649,9 +649,9 @@
 			<height normal="30.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18636" level="70" type="Monster" name="Warrior of Trials" element="WIND">
@@ -675,9 +675,9 @@
 			<height normal="29" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18637" level="70" type="Monster" name="Archer of Trials" element="WIND">
@@ -701,9 +701,9 @@
 			<height normal="27" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18638" level="70" type="Monster" name="Elite Daring Raider" title="Elmoreden" element="WIND">
@@ -727,9 +727,9 @@
 			<height normal="29" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="3" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="3" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18639" level="77" type="Monster" name="Scout of Despair" element="WIND">
@@ -753,14 +753,14 @@
 			<height normal="30.55" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="374" max="413" chance="100" /> <!-- Adena -->
+					<item id="57" min="374" max="413" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -786,14 +786,14 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="374" max="413" chance="100" /> <!-- Adena -->
+					<item id="57" min="374" max="413" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -819,14 +819,14 @@
 			<height normal="36.05" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="374" max="413" chance="100" /> <!-- Adena -->
+					<item id="57" min="374" max="413" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -852,14 +852,14 @@
 			<height normal="29.45" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="374" max="413" chance="100" /> <!-- Adena -->
+					<item id="57" min="374" max="413" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -885,9 +885,9 @@
 			<height normal="34.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18644" level="85" type="Monster" name="Spirit of Oblivion" element="WIND">
@@ -911,13 +911,13 @@
 			<height normal="28.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1079" max="1199" chance="100" /> <!-- Adena -->
+					<item id="57" min="1079" max="1199" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -943,13 +943,13 @@
 			<height normal="34.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1079" max="1199" chance="100" /> <!-- Adena -->
+					<item id="57" min="1079" max="1199" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -975,13 +975,13 @@
 			<height normal="37.3" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1079" max="1199" chance="100" /> <!-- Adena -->
+					<item id="57" min="1079" max="1199" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -990,7 +990,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="15302" /> <!-- Transparent Bow (NPC) - Not Available -->
+		<equipment rhand="15302" /> (Transparent Bow (NPC) - Not Available)
 		<acquire exp="12897" sp="126" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="84844.94" hpRegen="10.2" mp="11080.8" mpRegen="3.6" />
@@ -1008,13 +1008,13 @@
 			<height normal="36.65" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1079" max="1199" chance="100" /> <!-- Adena -->
+					<item id="57" min="1079" max="1199" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1040,8 +1040,8 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="18649" level="85" type="Monster" name="Tarask Dragon" title="Earth Dragon">
@@ -1128,7 +1128,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="301" /> <!-- scorpion -->
+		<equipment rhand="301" /> (scorpion)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="17088610" hpRegen="10.2" mp="18000" mpRegen="3.6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1204,24 +1204,24 @@
 			<height normal="70.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="94188" min="1" max="1" chance="25" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="1" chance="25" /> <!-- Augmenting Stone: Accessory -->
-					<item id="94186" min="1" max="1" chance="25" /> <!-- Augmenting Stone: Weapon -->
-					<item id="97787" min="1" max="1" chance="25" /> <!-- Augmenting Stone: Special Equipment -->
+					<item id="94188" min="1" max="1" chance="25" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="1" chance="25" /> (Augmenting Stone: Accessory)
+					<item id="94186" min="1" max="1" chance="25" /> (Augmenting Stone: Weapon)
+					<item id="97787" min="1" max="1" chance="25" /> (Augmenting Stone: Special Equipment)
 				</group>
 				<group chance="100">
-					<item id="95783" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Weapon -->
-					<item id="96901" min="1" max="1" chance="45" /> <!-- Aden's Soul Crystal Lv. 1 - Armor -->
-					<item id="95803" min="1" max="1" chance="10" /> <!-- Hardin's Soul Crystal Lv. 1 -->
+					<item id="95783" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Weapon)
+					<item id="96901" min="1" max="1" chance="45" /> (Aden's Soul Crystal Lv. 1 - Armor)
+					<item id="95803" min="1" max="1" chance="10" /> (Hardin's Soul Crystal Lv. 1)
 				</group>
 				<group chance="0.5">
-					<item id="95772" min="1" max="1" chance="100" /> <!-- Common Spellbook Chest -->
+					<item id="95772" min="1" max="1" chance="100" /> (Common Spellbook Chest)
 				</group>
 			</drop>
 		</dropLists>
@@ -1230,7 +1230,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="284" /> <!-- Dark Elven Longbow -->
+		<equipment rhand="284" /> (Dark Elven Longbow)
 		<acquire exp="73872" sp="738" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="92244.94" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
@@ -1248,16 +1248,16 @@
 			<height normal="34.7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18658" level="85" type="Monster" name="Elmoreden's Maid" element="WIND">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5129" lhand="5129" /> <!-- Doll Knife - Not Available / Doll Knife - Not Available -->
+		<equipment rhand="5129" lhand="5129" /> (Doll Knife - Not Available / Doll Knife - Not Available)
 		<acquire exp="73872" sp="738" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="92244.94" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
@@ -1275,9 +1275,9 @@
 			<height normal="22.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18659" level="70" type="Monster" name="Elmoreden Foreman" element="WIND">
@@ -1301,9 +1301,9 @@
 			<height normal="42" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18660" level="77" type="Monster" name="Elmoreden Foreman" element="WIND">
@@ -1327,9 +1327,9 @@
 			<height normal="41" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18661" level="85" type="Monster" name="Elmoreden Foreman" element="WIND">
@@ -1353,9 +1353,9 @@
 			<height normal="51" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18662" level="85" type="Folk" name="">
@@ -1381,7 +1381,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="84" /> <!-- Homunkulus' Sword -->
+		<equipment rhand="84" /> (Homunkulus' Sword)
 		<acquire exp="73872" sp="738" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="92244.94" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
@@ -1399,9 +1399,9 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18664" level="70" type="Monster" name="Elmoreden Watcher" title="Slave of Avarice" element="WIND">
@@ -1425,9 +1425,9 @@
 			<height normal="46.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18665" level="77" type="Monster" name="Elmoreden Watcher" title="Slave of Avarice" element="WIND">
@@ -1451,9 +1451,9 @@
 			<height normal="47.4" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18666" level="85" type="Monster" name="Elmoreden Watcher" title="Slave of Avarice" element="WIND">
@@ -1477,9 +1477,9 @@
 			<height normal="44" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="18667" level="1" type="Monster" name="Dummy" title="Received PvE damage">
@@ -1620,7 +1620,7 @@
 			<height normal="20" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4416" level="19" /> (Others)
 		</skillList>
 	</npc>
 	<npc id="18674" level="83" type="Folk" name="Holy Grail">
@@ -1643,7 +1643,7 @@
 			<height normal="7" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="19" /> <!-- Others -->
+			<skill id="4416" level="19" /> (Others)
 		</skillList>
 	</npc>
 	<npc id="18675" level="83" type="Folk" name="Broken Ballista">
@@ -1686,7 +1686,7 @@
 			<height normal="55" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4416" level="10" /> (Dragons)
 		</skillList>
 	</npc>
 	<npc id="18677" level="83" type="Folk" name="Elven Elder Cat">
@@ -1709,7 +1709,7 @@
 			<height normal="20" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4416" level="4" /> (Animals)
 		</skillList>
 	</npc>
 	<npc id="18678" level="85" type="RaidBoss" name="Gustav" title="Manor Master" element="EARTH">
@@ -1733,14 +1733,14 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103257" min="1" max="2" chance="100" /> <!-- Package: Enchant Kit: Circlet of Hero (2-100 pcs.) - Sealed -->
+					<item id="103257" min="1" max="2" chance="100" /> (Package: Enchant Kit: Circlet of Hero (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1766,14 +1766,14 @@
 			<height normal="31" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103257" min="1" max="1" chance="100" /> <!-- Package: Enchant Kit: Circlet of Hero (2-100 pcs.) - Sealed -->
+					<item id="103257" min="1" max="1" chance="100" /> (Package: Enchant Kit: Circlet of Hero (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1799,14 +1799,14 @@
 			<height normal="76" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103258" min="1" max="2" chance="100" /> <!-- Package: Dragon Belt Pack (2-100 pcs.) - Sealed -->
+					<item id="103258" min="1" max="2" chance="100" /> (Package: Dragon Belt Pack (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1832,14 +1832,14 @@
 			<height normal="33" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103258" min="1" max="1" chance="100" /> <!-- Package: Dragon Belt Pack (2-100 pcs.) - Sealed -->
+					<item id="103258" min="1" max="1" chance="100" /> (Package: Dragon Belt Pack (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1865,14 +1865,14 @@
 			<height normal="81" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103259" min="1" max="2" chance="100" /> <!-- Package: Cloak of Protection (2-100 pcs.) - Sealed -->
+					<item id="103259" min="1" max="2" chance="100" /> (Package: Cloak of Protection (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1898,14 +1898,14 @@
 			<height normal="67" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103259" min="1" max="1" chance="100" /> <!-- Package: Cloak of Protection (2-100 pcs.) - Sealed -->
+					<item id="103259" min="1" max="1" chance="100" /> (Package: Cloak of Protection (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1931,15 +1931,15 @@
 			<height normal="104" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103260" min="1" max="2" chance="100" /> <!-- Package: Enchant Kit: Phantom Mask (2-100 pcs.) - Sealed -->
+					<item id="103260" min="1" max="2" chance="100" /> (Package: Enchant Kit: Phantom Mask (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1965,14 +1965,14 @@
 			<height normal="55" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103260" min="1" max="1" chance="100" /> <!-- Package: Enchant Kit: Phantom Mask (2-100 pcs.) - Sealed -->
+					<item id="103260" min="1" max="1" chance="100" /> (Package: Enchant Kit: Phantom Mask (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -1998,17 +1998,17 @@
 			<height normal="16.0055" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103260" min="1" max="2" chance="25" /> <!-- Package: Enchant Kit: Phantom Mask (2-100 pcs.) - Sealed -->
-					<item id="103257" min="1" max="2" chance="25" /> <!-- Package: Enchant Kit: Circlet of Hero (2-100 pcs.) - Sealed -->
-					<item id="103258" min="1" max="2" chance="25" /> <!-- Package: Dragon Belt Pack (2-100 pcs.) - Sealed -->
-					<item id="103259" min="1" max="2" chance="25" /> <!-- Package: Cloak of Protection (2-100 pcs.) - Sealed -->
+					<item id="103260" min="1" max="2" chance="25" /> (Package: Enchant Kit: Phantom Mask (2-100 pcs.) - Sealed)
+					<item id="103257" min="1" max="2" chance="25" /> (Package: Enchant Kit: Circlet of Hero (2-100 pcs.) - Sealed)
+					<item id="103258" min="1" max="2" chance="25" /> (Package: Dragon Belt Pack (2-100 pcs.) - Sealed)
+					<item id="103259" min="1" max="2" chance="25" /> (Package: Cloak of Protection (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -2034,17 +2034,17 @@
 			<height normal="15" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="103258" min="1" max="1" chance="25" /> <!-- Package: Dragon Belt Pack (2-100 pcs.) - Sealed -->
-					<item id="103259" min="1" max="1" chance="25" /> <!-- Package: Cloak of Protection (2-100 pcs.) - Sealed -->
-					<item id="103260" min="1" max="1" chance="25" /> <!-- Package: Enchant Kit: Phantom Mask (2-100 pcs.) - Sealed -->
-					<item id="103257" min="1" max="1" chance="25" /> <!-- Package: Enchant Kit: Circlet of Hero (2-100 pcs.) - Sealed -->
+					<item id="103258" min="1" max="1" chance="25" /> (Package: Dragon Belt Pack (2-100 pcs.) - Sealed)
+					<item id="103259" min="1" max="1" chance="25" /> (Package: Cloak of Protection (2-100 pcs.) - Sealed)
+					<item id="103260" min="1" max="1" chance="25" /> (Package: Enchant Kit: Phantom Mask (2-100 pcs.) - Sealed)
+					<item id="103257" min="1" max="1" chance="25" /> (Package: Enchant Kit: Circlet of Hero (2-100 pcs.) - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -2070,16 +2070,16 @@
 			<height normal="31.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="96806" min="1" max="1" chance="5.56" /> <!-- Ancient Coin (Time-limited) - Sealed -->
+					<item id="96806" min="1" max="1" chance="5.56" /> (Ancient Coin (Time-limited) - Sealed)
 				</group>
 				<group chance="70">
-					<item id="57" min="190" max="209" chance="100" /> <!-- Adena -->
+					<item id="57" min="190" max="209" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2105,16 +2105,16 @@
 			<height normal="41.1" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="96806" min="1" max="1" chance="5.56" /> <!-- Ancient Coin (Time-limited) - Sealed -->
+					<item id="96806" min="1" max="1" chance="5.56" /> (Ancient Coin (Time-limited) - Sealed)
 				</group>
 				<group chance="70">
-					<item id="57" min="379" max="418" chance="100" /> <!-- Adena -->
+					<item id="57" min="379" max="418" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2140,16 +2140,16 @@
 			<height normal="40.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="96806" min="1" max="1" chance="5.56" /> <!-- Ancient Coin (Time-limited) - Sealed -->
+					<item id="96806" min="1" max="1" chance="5.56" /> (Ancient Coin (Time-limited) - Sealed)
 				</group>
 				<group chance="70">
-					<item id="57" min="379" max="418" chance="100" /> <!-- Adena -->
+					<item id="57" min="379" max="418" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2158,7 +2158,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="96795" /> <!-- Monsters Only_Stone Idol Weapon - One-handed Sword - Not Available -->
+		<equipment rhand="96795" /> (Monsters Only_Stone Idol Weapon - One-handed Sword - Not Available)
 		<acquire exp="2274" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="37522.15" hpRegen="10.2" mp="2584.09268001591" mpRegen="3.6" />
@@ -2176,16 +2176,16 @@
 			<height normal="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="96806" min="1" max="1" chance="5.56" /> <!-- Ancient Coin (Time-limited) - Sealed -->
+					<item id="96806" min="1" max="1" chance="5.56" /> (Ancient Coin (Time-limited) - Sealed)
 				</group>
 				<group chance="70">
-					<item id="57" min="379" max="418" chance="100" /> <!-- Adena -->
+					<item id="57" min="379" max="418" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2194,7 +2194,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="96794" /> <!-- Monsters Only_Stone Idol Weapon - Spear - Not Available -->
+		<equipment rhand="96794" /> (Monsters Only_Stone Idol Weapon - Spear - Not Available)
 		<acquire exp="2274" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="37522.15" hpRegen="10.2" mp="2584.09268001591" mpRegen="3.6" />
@@ -2212,16 +2212,16 @@
 			<height normal="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="96806" min="1" max="1" chance="5.56" /> <!-- Ancient Coin (Time-limited) - Sealed -->
+					<item id="96806" min="1" max="1" chance="5.56" /> (Ancient Coin (Time-limited) - Sealed)
 				</group>
 				<group chance="70">
-					<item id="57" min="379" max="418" chance="100" /> <!-- Adena -->
+					<item id="57" min="379" max="418" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2246,7 +2246,7 @@
 			<height normal="64.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="18694" level="85" type="Folk" name="">
@@ -2289,16 +2289,16 @@
 			<height normal="47.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="96806" min="1" max="1" chance="5.56" /> <!-- Ancient Coin (Time-limited) - Sealed -->
+					<item id="96806" min="1" max="1" chance="5.56" /> (Ancient Coin (Time-limited) - Sealed)
 				</group>
 				<group chance="70">
-					<item id="57" min="379" max="418" chance="100" /> <!-- Adena -->
+					<item id="57" min="379" max="418" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -2324,16 +2324,16 @@
 			<height normal="39.9" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="5620" level="1" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="5620" level="1" /> (Melee Attack Vulnerability)
 		</skillList>
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="96806" min="1" max="1" chance="5.56" /> <!-- Ancient Coin (Time-limited) - Sealed -->
+					<item id="96806" min="1" max="1" chance="5.56" /> (Ancient Coin (Time-limited) - Sealed)
 				</group>
 				<group chance="70">
-					<item id="57" min="443" max="488" chance="100" /> <!-- Adena -->
+					<item id="57" min="443" max="488" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>

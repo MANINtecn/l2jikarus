@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="21602" level="65" type="Monster" name="Ancient Holy Ground's Wing">
 		<!-- Classic Antharas -->
@@ -7,7 +7,7 @@
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
-			<skill name="DeBuff" id="4076" level="3" /> <!-- Decrease Speed -->
+			<skill name="DeBuff" id="4076" level="3" /> (Decrease Speed)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
@@ -25,16 +25,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4076" level="3" /> <!-- Decrease Speed -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4076" level="3" /> (Decrease Speed)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -55,11 +55,11 @@
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
-			<skill name="SelfRangeDDMagic" id="4101" level="8" /> <!-- NPC Spinning Slash -->
+			<skill name="SelfRangeDDMagic" id="4101" level="8" /> (NPC Spinning Slash)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="78" /> <!-- rhand: Great Sword -->
+		<equipment rhand="78" /> (rhand: Great Sword)
 		<acquire exp="117" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2604.58319525608" hpRegen="7.5" mp="1219.8" mpRegen="2.7" />
@@ -74,16 +74,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4101" level="8" /> <!-- NPC Spinning Slash -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4101" level="8" /> (NPC Spinning Slash)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -104,10 +104,10 @@
 			<param name="MoveAroundSocial" value="24" />
 			<param name="MoveAroundSocial1" value="24" />
 			<param name="MoveAroundSocial2" value="24" />
-			<skill name="CheckMagic" id="4098" level="9" /> <!-- Silence -->
-			<skill name="CheckMagic1" id="4046" level="9" /> <!-- Sleep -->
-			<skill name="DDMagic" id="4105" level="9" /> <!-- NPC Straight Beam Cannon -->
-			<skill name="SleepMagic" id="4046" level="9" /> <!-- Sleep -->
+			<skill name="CheckMagic" id="4098" level="9" /> (Silence)
+			<skill name="CheckMagic1" id="4046" level="9" /> (Sleep)
+			<skill name="DDMagic" id="4105" level="9" /> (NPC Straight Beam Cannon)
+			<skill name="SleepMagic" id="4046" level="9" /> (Sleep)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
@@ -125,18 +125,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4046" level="9" /> <!-- Sleep -->
-			<skill id="4098" level="9" /> <!-- Silence -->
-			<skill id="4105" level="9" /> <!-- NPC Straight Beam Cannon -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4046" level="9" /> (Sleep)
+			<skill id="4098" level="9" /> (Silence)
+			<skill id="4105" level="9" /> (NPC Straight Beam Cannon)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -162,13 +162,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SelfRangeDDMagic" id="4072" level="7" /> <!-- Stun -->
+			<skill name="SelfRangeDDMagic" id="4072" level="7" /> (Stun)
 			<!-- <skill name="SelfBuff" id="4092" level="1" /> --> <!-- NPC Puma Spirit Totem -->
-			<skill name="PhysicalSpecial" id="4032" level="7" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="7" /> (NPC Strike)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5800" lhand="5799" /> <!-- rhand: Nephilim Lord lhand: Nephilim Lord -->
+		<equipment rhand="5800" lhand="5799" /> (rhand: Nephilim Lord lhand: Nephilim Lord)
 		<acquire exp="120" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2663.53343531415" hpRegen="7.5" mp="1251" mpRegen="2.7" />
@@ -183,18 +183,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4032" level="7" /> <!-- NPC Strike -->
-			<skill id="4072" level="7" /> <!-- Stun -->
-			<skill id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4032" level="7" /> (NPC Strike)
+			<skill id="4072" level="7" /> (Stun)
+			<skill id="4092" level="1" /> (NPC Puma Spirit Totem)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -215,10 +215,10 @@
 			<param name="MoveAroundSocial" value="110" />
 			<param name="MoveAroundSocial1" value="110" />
 			<param name="MoveAroundSocial2" value="110" />
-			<skill name="CheckMagic" id="4098" level="8" /> <!-- Silence -->
-			<skill name="CheckMagic1" id="4046" level="8" /> <!-- Sleep -->
-			<skill name="DDMagic" id="4002" level="8" /> <!-- NPC HP Drain -->
-			<skill name="SleepMagic" id="4046" level="8" /> <!-- Sleep -->
+			<skill name="CheckMagic" id="4098" level="8" /> (Silence)
+			<skill name="CheckMagic1" id="4046" level="8" /> (Sleep)
+			<skill name="DDMagic" id="4002" level="8" /> (NPC HP Drain)
+			<skill name="SleepMagic" id="4046" level="8" /> (Sleep)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
@@ -236,18 +236,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4002" level="8" /> <!-- NPC HP Drain -->
-			<skill id="4046" level="8" /> <!-- Sleep -->
-			<skill id="4098" level="8" /> <!-- Silence -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4002" level="8" /> (NPC HP Drain)
+			<skill id="4046" level="8" /> (Sleep)
+			<skill id="4098" level="8" /> (Silence)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -268,10 +268,10 @@
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
-			<skill name="CheckMagic" id="4098" level="8" /> <!-- Silence -->
-			<skill name="CheckMagic1" id="4046" level="8" /> <!-- Sleep -->
-			<skill name="MagicHeal" id="4065" level="8" /> <!-- NPC Heal -->
-			<skill name="Buff" id="4030" level="3" /> <!-- NPC Clan Might -->
+			<skill name="CheckMagic" id="4098" level="8" /> (Silence)
+			<skill name="CheckMagic1" id="4046" level="8" /> (Sleep)
+			<skill name="MagicHeal" id="4065" level="8" /> (NPC Heal)
+			<skill name="Buff" id="4030" level="3" /> (NPC Clan Might)
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
@@ -289,19 +289,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4030" level="3" /> <!-- NPC Clan Might -->
-			<skill id="4046" level="8" /> <!-- Sleep -->
-			<skill id="4065" level="8" /> <!-- NPC Heal -->
-			<skill id="4098" level="8" /> <!-- Silence -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4030" level="3" /> (NPC Clan Might)
+			<skill id="4046" level="8" /> (Sleep)
+			<skill id="4065" level="8" /> (NPC Heal)
+			<skill id="4098" level="8" /> (Silence)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -322,9 +322,9 @@
 			<param name="MoveAroundSocial" value="70" />
 			<param name="MoveAroundSocial1" value="70" />
 			<param name="MoveAroundSocial2" value="70" />
-			<skill name="SelfRangeDDMagic" id="4072" level="9" /> <!-- Stun -->
+			<skill name="SelfRangeDDMagic" id="4072" level="9" /> (Stun)
 			<!-- <skill name="SelfBuff" id="4091" level="1" /> --> <!-- NPC Ogre Spirit Totem -->
-			<skill name="PhysicalSpecial" id="4032" level="9" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="9" /> (NPC Strike)
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
@@ -342,18 +342,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4032" level="9" /> <!-- NPC Strike -->
-			<skill id="4072" level="9" /> <!-- Stun -->
-			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4032" level="9" /> (NPC Strike)
+			<skill id="4072" level="9" /> (Stun)
+			<skill id="4091" level="1" /> (NPC Ogre Spirit Totem)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -379,11 +379,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="8" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="8" /> (NPC Strike)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="78" /> <!-- rhand: Great Sword -->
+		<equipment rhand="78" /> (rhand: Great Sword)
 		<acquire exp="129" sp="3" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2779.53678108017" hpRegen="7.5" mp="1314" mpRegen="2.7" />
@@ -398,17 +398,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4032" level="8" /> <!-- NPC Strike -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4032" level="8" /> (NPC Strike)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -429,7 +429,7 @@
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
-			<skill name="DDMagic" id="4002" level="8" /> <!-- NPC HP Drain -->
+			<skill name="DDMagic" id="4002" level="8" /> (NPC HP Drain)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -447,16 +447,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4002" level="8" /> <!-- NPC HP Drain -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4002" level="8" /> (NPC HP Drain)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -482,11 +482,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
+			<skill name="PhysicalSpecial" id="4067" level="6" /> (NPC Mortal Blow)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="234" lhand="234" /> <!-- rhand: Demon's Dagger lhand: Demon's Dagger -->
+		<equipment rhand="234" lhand="234" /> (rhand: Demon's Dagger lhand: Demon's Dagger)
 		<acquire exp="10923" sp="120" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="26996.2" hpRegen="8.5" mp="11080.8" mpRegen="3" />
@@ -501,16 +501,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4067" level="6" /> <!-- NPC Mortal Blow -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4067" level="6" /> (NPC Mortal Blow)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -526,7 +526,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="471" max="520" chance="100" /> <!-- Adena -->
+					<item id="57" min="471" max="520" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -538,15 +538,15 @@
 			<param name="MoveAroundSocial" value="110" />
 			<param name="MoveAroundSocial1" value="110" />
 			<param name="MoveAroundSocial2" value="110" />
-			<skill name="CheckMagic" id="4098" level="6" /> <!-- Silence -->
-			<skill name="CheckMagic1" id="4046" level="6" /> <!-- Sleep -->
+			<skill name="CheckMagic" id="4098" level="6" /> (Silence)
+			<skill name="CheckMagic1" id="4046" level="6" /> (Sleep)
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="6" /> <!-- NPC HP Drain -->
-			<skill name="SleepMagic" id="4046" level="6" /> <!-- Sleep -->
+			<skill name="DDMagic" id="4002" level="6" /> (NPC HP Drain)
+			<skill name="SleepMagic" id="4046" level="6" /> (Sleep)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
@@ -564,18 +564,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
-			<skill id="4046" level="6" /> <!-- Sleep -->
-			<skill id="4098" level="6" /> <!-- Silence -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4002" level="6" /> (NPC HP Drain)
+			<skill id="4046" level="6" /> (Sleep)
+			<skill id="4098" level="6" /> (Silence)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -591,7 +591,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="471" max="520" chance="100" /> <!-- Adena -->
+					<item id="57" min="471" max="520" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -603,15 +603,15 @@
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
 			<param name="MoveAroundSocial2" value="0" />
-			<skill name="CheckMagic" id="4098" level="6" /> <!-- Silence -->
-			<skill name="CheckMagic1" id="4046" level="6" /> <!-- Sleep -->
+			<skill name="CheckMagic" id="4098" level="6" /> (Silence)
+			<skill name="CheckMagic1" id="4046" level="6" /> (Sleep)
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="MagicHeal" id="4065" level="6" /> <!-- NPC Heal -->
-			<skill name="Buff" id="4030" level="3" /> <!-- NPC Clan Might -->
+			<skill name="MagicHeal" id="4065" level="6" /> (NPC Heal)
+			<skill name="Buff" id="4030" level="3" /> (NPC Clan Might)
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
@@ -629,19 +629,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4030" level="3" /> <!-- NPC Clan Might -->
-			<skill id="4046" level="6" /> <!-- Sleep -->
-			<skill id="4065" level="6" /> <!-- NPC Heal -->
-			<skill id="4098" level="6" /> <!-- Silence -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4030" level="3" /> (NPC Clan Might)
+			<skill id="4046" level="6" /> (Sleep)
+			<skill id="4065" level="6" /> (NPC Heal)
+			<skill id="4098" level="6" /> (Silence)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -657,7 +657,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="471" max="520" chance="100" /> <!-- Adena -->
+					<item id="57" min="471" max="520" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -674,9 +674,9 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SelfRangeDDMagic" id="4072" level="7" /> <!-- Stun -->
+			<skill name="SelfRangeDDMagic" id="4072" level="7" /> (Stun)
 			<!-- <skill name="SelfBuff" id="4091" level="1" /> --> <!-- NPC Ogre Spirit Totem -->
-			<skill name="PhysicalSpecial" id="4032" level="7" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="7" /> (NPC Strike)
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
@@ -694,18 +694,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4032" level="7" /> <!-- NPC Strike -->
-			<skill id="4072" level="7" /> <!-- Stun -->
-			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="15" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4032" level="7" /> (NPC Strike)
+			<skill id="4072" level="7" /> (Stun)
+			<skill id="4091" level="1" /> (NPC Ogre Spirit Totem)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -721,7 +721,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="471" max="520" chance="100" /> <!-- Adena -->
+					<item id="57" min="471" max="520" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -739,11 +739,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Fury" id="4317" level="1" /> <!-- Increase Rage Might -->
+			<skill name="Fury" id="4317" level="1" /> (Increase Rage Might)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="233" /> <!-- rhand: Dark Screamer -->
+		<equipment rhand="233" /> (rhand: Dark Screamer)
 		<acquire exp="10923" sp="120" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="26996.2" hpRegen="8.5" mp="11080.8" mpRegen="3" />
@@ -758,16 +758,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4317" level="1" /> <!-- Increase Rage Might -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="15" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4317" level="1" /> (Increase Rage Might)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -783,7 +783,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="471" max="520" chance="100" /> <!-- Adena -->
+					<item id="57" min="471" max="520" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -800,11 +800,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4099" level="2" /> <!-- NPC Berserk -->
+			<skill name="Buff" id="4099" level="2" /> (NPC Berserk)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="311" /> <!-- rhand: Crucifix of Blessing -->
+		<equipment rhand="311" /> (rhand: Crucifix of Blessing)
 		<acquire exp="10923" sp="120" attributeExp="1216" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="26996.2" hpRegen="8.5" mp="11080.8" mpRegen="3" />
@@ -819,16 +819,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4099" level="2" /> <!-- NPC Berserk -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4099" level="2" /> (NPC Berserk)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -844,7 +844,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="471" max="520" chance="100" /> <!-- Adena -->
+					<item id="57" min="471" max="520" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -861,7 +861,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="6" /> (NPC Strike)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -879,16 +879,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4032" level="6" /> <!-- NPC Strike -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4032" level="6" /> (NPC Strike)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -904,7 +904,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="471" max="520" chance="100" /> <!-- Adena -->
+					<item id="57" min="471" max="520" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -921,7 +921,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill name="DDMagic" id="4002" level="6" /> (NPC HP Drain)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -939,18 +939,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4002" level="6" /> (NPC HP Drain)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -966,7 +966,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="471" max="520" chance="100" /> <!-- Adena -->
+					<item id="57" min="471" max="520" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -984,7 +984,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Fury" id="4317" level="1" /> <!-- Increase Rage Might -->
+			<skill name="Fury" id="4317" level="1" /> (Increase Rage Might)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -1002,16 +1002,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4317" level="1" /> <!-- Increase Rage Might -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4317" level="1" /> (Increase Rage Might)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1027,7 +1027,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="471" max="520" chance="100" /> <!-- Adena -->
+					<item id="57" min="471" max="520" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1044,11 +1044,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SelfRangeDDMagic" id="4101" level="5" /> <!-- NPC Spinning Slash -->
+			<skill name="SelfRangeDDMagic" id="4101" level="5" /> (NPC Spinning Slash)
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<equipment rhand="73" /> <!-- rhand: Shamshir -->
+		<equipment rhand="73" /> (rhand: Shamshir)
 		<acquire exp="4800" sp="48" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="19613.29" hpRegen="7.5" mp="2770.2" mpRegen="2.7" />
@@ -1063,17 +1063,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4101" level="5" /> <!-- NPC Spinning Slash -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4101" level="5" /> (NPC Spinning Slash)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1089,7 +1089,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="158" max="174" chance="100" /> <!-- Adena -->
+					<item id="57" min="158" max="174" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1106,7 +1106,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4035" level="5" /> <!-- Poison -->
+			<skill name="DeBuff" id="4035" level="5" /> (Poison)
 		</parameters>
 		<race>BEAST</race>
 		<sex>FEMALE</sex>
@@ -1124,17 +1124,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4035" level="5" /> <!-- Poison -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4035" level="5" /> (Poison)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1150,7 +1150,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="158" max="174" chance="100" /> <!-- Adena -->
+					<item id="57" min="158" max="174" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1167,7 +1167,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
+			<skill name="DDMagic" id="4002" level="5" /> (NPC HP Drain)
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
@@ -1185,17 +1185,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4002" level="5" /> <!-- NPC HP Drain -->
+			<skill id="4416" level="4" /> (Animals)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4002" level="5" /> (NPC HP Drain)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1211,7 +1211,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="158" max="174" chance="100" /> <!-- Adena -->
+					<item id="57" min="158" max="174" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1228,7 +1228,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SelfRangeDDMagic" id="4072" level="6" /> <!-- Stun -->
+			<skill name="SelfRangeDDMagic" id="4072" level="6" /> (Stun)
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -1246,17 +1246,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4072" level="6" /> <!-- Stun -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4072" level="6" /> (Stun)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1272,7 +1272,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="158" max="174" chance="100" /> <!-- Adena -->
+					<item id="57" min="158" max="174" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1289,9 +1289,9 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SelfRangeDDMagic" id="4072" level="5" /> <!-- Stun -->
+			<skill name="SelfRangeDDMagic" id="4072" level="5" /> (Stun)
 			<!-- <skill name="SelfBuff" id="4091" level="1" /> --> <!-- NPC Ogre Spirit Totem -->
-			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="5" /> (NPC Strike)
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
@@ -1309,19 +1309,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
-			<skill id="4072" level="5" /> <!-- Stun -->
-			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4032" level="5" /> (NPC Strike)
+			<skill id="4072" level="5" /> (Stun)
+			<skill id="4091" level="1" /> (NPC Ogre Spirit Totem)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1337,7 +1337,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="158" max="174" chance="100" /> <!-- Adena -->
+					<item id="57" min="158" max="174" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1354,7 +1354,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="5" /> (NPC Strike)
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
@@ -1372,17 +1372,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4032" level="5" /> (NPC Strike)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1398,7 +1398,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="158" max="174" chance="100" /> <!-- Adena -->
+					<item id="57" min="158" max="174" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1415,7 +1415,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4099" level="2" /> <!-- NPC Berserk -->
+			<skill name="Buff" id="4099" level="2" /> (NPC Berserk)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
@@ -1433,17 +1433,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4099" level="2" /> <!-- NPC Berserk -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4099" level="2" /> (NPC Berserk)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1459,7 +1459,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="158" max="174" chance="100" /> <!-- Adena -->
+					<item id="57" min="158" max="174" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1476,11 +1476,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="5" /> (NPC Strike)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="298" /> <!-- rhand: Orcish Glaive -->
+		<equipment rhand="298" /> (rhand: Orcish Glaive)
 		<acquire exp="4800" sp="48" attributeExp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="19613.29" hpRegen="7.5" mp="2770.2" mpRegen="2.7" />
@@ -1495,17 +1495,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4032" level="5" /> (NPC Strike)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1521,7 +1521,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="158" max="174" chance="100" /> <!-- Adena -->
+					<item id="57" min="158" max="174" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1538,7 +1538,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
+			<skill name="DDMagic" id="4002" level="5" /> (NPC HP Drain)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
@@ -1556,17 +1556,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
-			<skill id="4002" level="5" /> <!-- NPC HP Drain -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
+			<skill id="4002" level="5" /> (NPC HP Drain)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1582,7 +1582,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="158" max="174" chance="100" /> <!-- Adena -->
+					<item id="57" min="158" max="174" chance="100" /> (Adena)
 				</group>
 			</drop>
 		</dropLists>
@@ -1599,7 +1599,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4035" level="6" /> <!-- Poison -->
+			<skill name="DeBuff" id="4035" level="6" /> (Poison)
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
@@ -1617,17 +1617,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4035" level="6" /> <!-- Poison -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4035" level="6" /> (Poison)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1652,9 +1652,9 @@
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
-			<skill name="W_LongRangeDDMagic" id="4158" level="6" /> <!-- NPC Prominence - Magic -->
-			<skill name="W_ShortRangeDDMagic" id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
-			<skill name="DeBuff" id="4076" level="3" /> <!-- Decrease Speed -->
+			<skill name="W_LongRangeDDMagic" id="4158" level="6" /> (NPC Prominence - Magic)
+			<skill name="W_ShortRangeDDMagic" id="4160" level="6" /> (NPC Aura Burn - Magic)
+			<skill name="DeBuff" id="4076" level="3" /> (Decrease Speed)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
@@ -1672,19 +1672,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4076" level="3" /> <!-- Decrease Speed -->
-			<skill id="4158" level="6" /> <!-- NPC Prominence - Magic -->
-			<skill id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4076" level="3" /> (Decrease Speed)
+			<skill id="4158" level="6" /> (NPC Prominence - Magic)
+			<skill id="4160" level="6" /> (NPC Aura Burn - Magic)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1710,7 +1710,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4073" level="4" /> <!-- Stun -->
+			<skill name="PhysicalSpecial" id="4073" level="4" /> (Stun)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -1728,17 +1728,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4073" level="4" /> <!-- Stun -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4073" level="4" /> (Stun)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1759,15 +1759,15 @@
 			<param name="MoveAroundSocial" value="110" />
 			<param name="MoveAroundSocial1" value="110" />
 			<param name="MoveAroundSocial2" value="110" />
-			<skill name="CheckMagic" id="4098" level="6" /> <!-- Silence -->
-			<skill name="CheckMagic1" id="4046" level="6" /> <!-- Sleep -->
+			<skill name="CheckMagic" id="4098" level="6" /> (Silence)
+			<skill name="CheckMagic1" id="4046" level="6" /> (Sleep)
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="6" /> <!-- NPC HP Drain -->
-			<skill name="SleepMagic" id="4046" level="6" /> <!-- Sleep -->
+			<skill name="DDMagic" id="4002" level="6" /> (NPC HP Drain)
+			<skill name="SleepMagic" id="4046" level="6" /> (Sleep)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
@@ -1785,19 +1785,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
-			<skill id="4046" level="6" /> <!-- Sleep -->
-			<skill id="4098" level="6" /> <!-- Silence -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="15" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4002" level="6" /> (NPC HP Drain)
+			<skill id="4046" level="6" /> (Sleep)
+			<skill id="4098" level="6" /> (Silence)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1823,13 +1823,13 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SelfRangeDDMagic" id="4072" level="6" /> <!-- Stun -->
+			<skill name="SelfRangeDDMagic" id="4072" level="6" /> (Stun)
 			<!-- <skill name="SelfBuff" id="4092" level="1" /> --> <!-- NPC Puma Spirit Totem -->
-			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="6" /> (NPC Strike)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5800" lhand="5799" /> <!-- rhand: Nephilim Lord lhand: Nephilim Lord -->
+		<equipment rhand="5800" lhand="5799" /> (rhand: Nephilim Lord lhand: Nephilim Lord)
 		<acquire exp="144" sp="3" attributeExp="37" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3001.40915126227" hpRegen="8.5" mp="1442.4" mpRegen="3" />
@@ -1844,19 +1844,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4032" level="6" /> <!-- NPC Strike -->
-			<skill id="4072" level="6" /> <!-- Stun -->
-			<skill id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="15" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4032" level="6" /> (NPC Strike)
+			<skill id="4072" level="6" /> (Stun)
+			<skill id="4092" level="1" /> (NPC Puma Spirit Totem)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1882,7 +1882,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="6" /> (NPC Strike)
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
@@ -1900,17 +1900,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4032" level="6" /> <!-- NPC Strike -->
+			<skill id="4416" level="8" /> (Angels)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4032" level="6" /> (NPC Strike)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -1937,11 +1937,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Fury" id="4317" level="1" /> <!-- Increase Rage Might -->
+			<skill name="Fury" id="4317" level="1" /> (Increase Rage Might)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="233" /> <!-- rhand: Dark Screamer -->
+		<equipment rhand="233" /> (rhand: Dark Screamer)
 		<acquire exp="147" sp="3" attributeExp="39" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3054.23628315875" hpRegen="8.5" mp="1475" mpRegen="3" />
@@ -1967,17 +1967,17 @@
 			<height normal="34.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4317" level="1" /> <!-- Increase Rage Might -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="16" /> (Very Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4317" level="1" /> (Increase Rage Might)
 		</skillList>
 	</npc>
 	<npc id="21636" level="75" type="Monster" name="Mausoleum Sage" element="EARTH">
@@ -1992,11 +1992,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4099" level="2" /> <!-- NPC Berserk -->
+			<skill name="Buff" id="4099" level="2" /> (NPC Berserk)
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="311" /> <!-- rhand: Crucifix of Blessing -->
+		<equipment rhand="311" /> (rhand: Crucifix of Blessing)
 		<acquire exp="150" sp="3" attributeExp="41" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3105.82741665381" hpRegen="8.5" mp="1507.8" mpRegen="3" />
@@ -2011,17 +2011,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4099" level="2" /> <!-- NPC Berserk -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4099" level="2" /> (NPC Berserk)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -2047,7 +2047,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="6" /> (NPC Strike)
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -2065,17 +2065,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="4032" level="6" /> <!-- NPC Strike -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="19" /> (Extremely Strong P. Atk.)
+			<skill id="4411" level="19" /> (Extremely Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="4032" level="6" /> (NPC Strike)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
@@ -2117,18 +2117,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4124" level="3" /> (NPC Spear Attack)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2160,17 +2160,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
 		</skillList>
 		<collision>
 			<radius normal="10" grown="12" />
@@ -2206,19 +2206,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4153" level="3" /> <!-- Decrease Speed -->
-			<skill id="4160" level="3" /> <!-- NPC Aura Burn - Magic -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4153" level="3" /> (Decrease Speed)
+			<skill id="4160" level="3" /> (NPC Aura Burn - Magic)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2261,18 +2261,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4124" level="3" /> (NPC Spear Attack)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2315,18 +2315,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4124" level="3" /> (NPC Spear Attack)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2371,20 +2371,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
-			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
-			<skill id="4244" level="3" /> <!-- NPC Wild Sweep -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4091" level="1" /> (NPC Ogre Spirit Totem)
+			<skill id="4124" level="3" /> (NPC Spear Attack)
+			<skill id="4244" level="3" /> (NPC Wild Sweep)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2427,18 +2427,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4565" level="3" /> <!-- NPC Eruption -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4565" level="3" /> (NPC Eruption)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2483,20 +2483,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4076" level="2" /> <!-- Decrease Speed -->
-			<skill id="4157" level="4" /> <!-- NPC Blaze - Magic -->
-			<skill id="4560" level="4" /> <!-- NPC Fire Burn -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4076" level="2" /> (Decrease Speed)
+			<skill id="4157" level="4" /> (NPC Blaze - Magic)
+			<skill id="4560" level="4" /> (NPC Fire Burn)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2539,18 +2539,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4575" level="2" /> (NPC Clan Buff - Haste)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2590,20 +2590,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4001" level="7" /> <!-- NPC Windstrike -->
-			<skill id="4002" level="7" /> <!-- NPC HP Drain -->
-			<skill id="4035" level="7" /> <!-- Poison -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4001" level="7" /> (NPC Windstrike)
+			<skill id="4002" level="7" /> (NPC HP Drain)
+			<skill id="4035" level="7" /> (Poison)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2641,18 +2641,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4067" level="7" /> <!-- NPC Mortal Blow -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4067" level="7" /> (NPC Mortal Blow)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2692,20 +2692,20 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4067" level="7" /> <!-- NPC Mortal Blow -->
-			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
-			<skill id="4232" level="7" /> <!-- NPC AE Strike -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4067" level="7" /> (NPC Mortal Blow)
+			<skill id="4091" level="1" /> (NPC Ogre Spirit Totem)
+			<skill id="4232" level="7" /> (NPC AE Strike)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2747,22 +2747,22 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4035" level="8" /> <!-- Poison -->
-			<skill id="4160" level="8" /> <!-- NPC Aura Burn - Magic -->
-			<skill id="4571" level="8" /> <!-- NPC Blazing Circle -->
-			<skill id="4630" level="8" /> <!-- NPC MR - Twister -->
-			<skill id="4635" level="3" /> <!-- NPC Buff - Acumen Berserk WildMagic -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4035" level="8" /> (Poison)
+			<skill id="4160" level="8" /> (NPC Aura Burn - Magic)
+			<skill id="4571" level="8" /> (NPC Blazing Circle)
+			<skill id="4630" level="8" /> (NPC MR - Twister)
+			<skill id="4635" level="3" /> (NPC Buff - Acumen Berserk WildMagic)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2800,18 +2800,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4033" level="8" /> <!-- NPC Burn -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
+			<skill id="4033" level="8" /> (NPC Burn)
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2844,17 +2844,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -2884,17 +2884,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4085" level="1" /> (Critical Damage)
+			<skill id="4086" level="1" /> (Critical Chance)
 		</skillList>
 		<collision>
 			<radius normal="28" />
@@ -2918,15 +2918,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="4" /> (Animals)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="13" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -2951,15 +2951,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
 		</skillList>
 		<collision>
 			<radius normal="14" grown="17" />
@@ -2983,19 +2983,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4284" level="5" /> <!-- Infection Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="19" /> (Extremely Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4284" level="5" /> (Infection Resistance)
 		</skillList>
 		<collision>
 			<radius normal="20" />
@@ -3020,18 +3020,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48045" level="1" /> <!-- Water Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48045" level="1" /> (Water Attribute Monster)
+			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4071" level="4" /> (Bow Resistance)
 		</skillList>
 		<collision>
 			<radius normal="29" />
@@ -3040,21 +3040,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="19" max="21" chance="100" /> <!-- Adena -->
+					<item id="57" min="19" max="21" chance="100" /> (Adena)
 				</group>
 				<group chance="0.0046">
-					<item id="198" min="1" max="1" chance="0.885" /> <!-- Inferno Staff -->
-					<item id="885" min="1" max="1" chance="19.409" /> <!-- Ring of Ages -->
-					<item id="193" min="1" max="1" chance="1.661" /> <!-- Stick of Faith -->
-					<item id="2456" min="1" max="1" chance="23.628" /> <!-- Dwarven Chain Gloves -->
-					<item id="62" min="1" max="1" chance="30.192" /> <!-- Reinforced Mithril Boots -->
-					<item id="472" min="1" max="1" chance="8.27" /> <!-- Demon's Stockings -->
-					<item id="74" min="1" max="1" chance="1.326" /> <!-- Katana -->
-					<item id="301" min="1" max="1" chance="0.796" /> <!-- scorpion -->
-					<item id="2460" min="1" max="1" chance="13.833" /> <!-- Theca Leather Gloves -->
+					<item id="198" min="1" max="1" chance="0.885" /> (Inferno Staff)
+					<item id="885" min="1" max="1" chance="19.409" /> (Ring of Ages)
+					<item id="193" min="1" max="1" chance="1.661" /> (Stick of Faith)
+					<item id="2456" min="1" max="1" chance="23.628" /> (Dwarven Chain Gloves)
+					<item id="62" min="1" max="1" chance="30.192" /> (Reinforced Mithril Boots)
+					<item id="472" min="1" max="1" chance="8.27" /> (Demon's Stockings)
+					<item id="74" min="1" max="1" chance="1.326" /> (Katana)
+					<item id="301" min="1" max="1" chance="0.796" /> (scorpion)
+					<item id="2460" min="1" max="1" chance="13.833" /> (Theca Leather Gloves)
 				</group>
 				<group chance="1.3212">
-					<item id="3031" min="1" max="1" chance="100" /> <!-- Spirit Ore - Sealed -->
+					<item id="3031" min="1" max="1" chance="100" /> (Spirit Ore - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -3077,16 +3077,16 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4276" level="3" /> <!-- Bow Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="4276" level="3" /> (Bow Vulnerability)
 		</skillList>
 		<collision>
 			<radius normal="13" grown="15" />
@@ -3112,17 +3112,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="13" /> <!-- Two-handed Sword -->
-			<skill id="4071" level="1" /> <!-- Bow Resistance -->
-			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="13" /> (Two-handed Sword)
+			<skill id="4071" level="1" /> (Bow Resistance)
+			<skill id="5620" level="2" /> (Melee Attack Vulnerability)
 		</skillList>
 		<collision>
 			<radius normal="10" />
@@ -3148,15 +3148,15 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="14" /> (Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
 		</skillList>
 		<collision>
 			<radius normal="25" />
@@ -3170,7 +3170,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="235" /> <!-- Bloody Orchid -->
+		<equipment rhand="235" /> (Bloody Orchid)
 		<acquire exp="153" sp="3" attributeExp="684" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3787.3176" hpRegen="10.2" mp="2311.2" mpRegen="3.6" />
@@ -3185,17 +3185,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4560" level="9" /> <!-- NPC Fire Burn -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4560" level="9" /> (NPC Fire Burn)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3223,7 +3223,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="148" /> <!-- Sword of Valhalla -->
+		<equipment rhand="148" /> (Sword of Valhalla)
 		<acquire exp="153" sp="3" attributeExp="684" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3787.3176" hpRegen="10.2" mp="2311.2" mpRegen="3.6" />
@@ -3238,18 +3238,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4572" level="10" /> <!-- NPC Triple Sonic Slash -->
-			<skill id="5301" level="3" /> <!-- Stun -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4572" level="10" /> (NPC Triple Sonic Slash)
+			<skill id="5301" level="3" /> (Stun)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>6</sNpcPropHpRate>
@@ -3271,7 +3271,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="235" /> <!-- Bloody Orchid -->
+		<equipment rhand="235" /> (Bloody Orchid)
 		<acquire exp="156" sp="3" attributeExp="770" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3845.9432" hpRegen="10.2" mp="2361" mpRegen="3.6" />
@@ -3286,17 +3286,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4244" level="9" /> <!-- NPC Wild Sweep -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4244" level="9" /> (NPC Wild Sweep)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3331,17 +3331,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4560" level="9" /> <!-- NPC Fire Burn -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4560" level="9" /> (NPC Fire Burn)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3376,17 +3376,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4560" level="9" /> <!-- NPC Fire Burn -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4560" level="9" /> (NPC Fire Burn)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3422,17 +3422,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4244" level="9" /> <!-- NPC Wild Sweep -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4244" level="9" /> (NPC Wild Sweep)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3454,7 +3454,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="70" /> <!-- Homunkulus' Sword -->
+		<equipment rhand="70" /> (Homunkulus' Sword)
 		<acquire exp="159" sp="3" attributeExp="858" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3902.7736" hpRegen="10.2" mp="2411.1" mpRegen="3.6" />
@@ -3469,17 +3469,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4244" level="9" /> <!-- NPC Wild Sweep -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4244" level="9" /> (NPC Wild Sweep)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3500,7 +3500,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="946" lhand="945" /> <!-- Skeleton Dagger / Skeleton Buckler -->
+		<equipment rhand="946" lhand="945" /> (Skeleton Dagger / Skeleton Buckler)
 		<acquire exp="159" sp="3" attributeExp="858" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3902.7736" hpRegen="10.2" mp="2411.1" mpRegen="3.6" />
@@ -3515,17 +3515,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4560" level="9" /> <!-- NPC Fire Burn -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4560" level="9" /> (NPC Fire Burn)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3560,16 +3560,16 @@
 			<height normal="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="21670" level="79" type="Monster" name="Lava-spawn Golem" element="FIRE">
@@ -3594,18 +3594,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4047" level="9" /> <!-- Hold -->
-			<skill id="4591" level="9" /> <!-- Decrease Speed -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4047" level="9" /> (Hold)
+			<skill id="4591" level="9" /> (Decrease Speed)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3641,18 +3641,18 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4047" level="9" /> <!-- Hold -->
-			<skill id="4157" level="9" /> <!-- NPC Blaze - Magic -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="15" /> (Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4047" level="9" /> (Hold)
+			<skill id="4157" level="9" /> (NPC Blaze - Magic)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3687,17 +3687,17 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4589" level="9" /> <!-- Decrease Speed -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4589" level="9" /> (Decrease Speed)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3732,19 +3732,19 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Resistance -->
-			<skill id="4599" level="9" /> <!-- Decrease Speed -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4071" level="4" /> (Bow Resistance)
+			<skill id="4599" level="9" /> (Decrease Speed)
 		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>6</sNpcPropHpRate>
@@ -3779,18 +3779,18 @@
 			<height normal="40" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4071" level="4" /> (Bow Resistance)
 		</skillList>
 	</npc>
 	<npc id="21675" level="78" type="Monster" name="Ashuras of Immortality" element="FIRE">
@@ -3814,18 +3814,18 @@
 			<height normal="49" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4071" level="4" /> (Bow Resistance)
 		</skillList>
 	</npc>
 	<npc id="21676" level="78" type="Monster" name="Ashuras of Eternity" element="FIRE">
@@ -3849,18 +3849,18 @@
 			<height normal="25" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4071" level="4" /> (Bow Resistance)
 		</skillList>
 	</npc>
 	<npc id="21677" level="78" type="Monster" name="Blazing Ifrit">
@@ -3885,16 +3885,16 @@
 			<height normal="55" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="7" /> <!-- Spirits -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4789" level="8" /> <!-- High Lv. -->
+			<skill id="4416" level="7" /> (Spirits)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="17" /> (Very Strong P. Def.)
+			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4789" level="8" /> (High Lv.)
 		</skillList>
 	</npc>
 	<npc id="21678" level="80" type="Monster" name="Magma Drake" element="FIRE">
@@ -3918,18 +3918,18 @@
 			<height normal="35" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4071" level="4" /> (Bow Resistance)
 		</skillList>
 	</npc>
 	<npc id="21679" level="78" type="Monster" name="Lavasaurus">
@@ -3954,18 +3954,18 @@
 			<height normal="75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="10" /> <!-- Bow -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4789" level="6" /> <!-- High Lv. -->
-			<skill id="4389" level="4" /> <!-- Fear Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="15" /> (Strong P. Def.)
+			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="10" /> (Bow)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4789" level="6" /> (High Lv.)
+			<skill id="4389" level="4" /> (Fear Resistance)
 		</skillList>
 	</npc>
 	<npc id="21680" level="78" type="Monster" name="Elder Lavasaurus">
@@ -3990,18 +3990,18 @@
 			<height normal="75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="10" /> <!-- Bow -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4789" level="8" /> <!-- High Lv. -->
-			<skill id="4389" level="4" /> <!-- Fear Resistance -->
+			<skill id="4416" level="2" /> (Magical Creatures)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="15" /> (Strong P. Def.)
+			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="10" /> (Bow)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4789" level="8" /> (High Lv.)
+			<skill id="4389" level="4" /> (Fear Resistance)
 		</skillList>
 	</npc>
 	<npc id="21681" level="78" type="Monster" name="Scarlet Stakato Noble">
@@ -4027,16 +4027,16 @@
 			<height normal="39" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
-			<skill id="4789" level="6" /> <!-- High Lv. -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="16" /> (Very Strong P. Def.)
+			<skill id="4413" level="8" /> (Weak M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
+			<skill id="4789" level="6" /> (High Lv.)
 		</skillList>
 	</npc>
 	<npc id="21682" level="78" type="Monster" name="Assassin Beetle">
@@ -4061,18 +4061,18 @@
 			<height normal="54.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4437" level="4" /> <!-- Greater Infection Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4789" level="6" /> <!-- High Lv. -->
+			<skill id="4416" level="12" /> (Bugs)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="8" /> (Weak M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4437" level="4" /> (Greater Infection Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
+			<skill id="4789" level="6" /> (High Lv.)
 		</skillList>
 	</npc>
 	<npc id="21683" level="78" type="Monster" name="Evil Spirit Wizard of Destruction">
@@ -4097,16 +4097,16 @@
 			<height normal="48" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4789" level="7" /> <!-- High Lv. -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="8" /> (Weak M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="4789" level="7" /> (High Lv.)
 		</skillList>
 	</npc>
 	<npc id="21684" level="78" type="Monster" name="Arimanes of Destruction">
@@ -4131,16 +4131,16 @@
 			<height normal="57.75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="4" /> <!-- One-handed Sword -->
-			<skill id="4789" level="7" /> <!-- High Lv. -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="8" /> (Weak M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="4" /> (One-handed Sword)
+			<skill id="4789" level="7" /> (High Lv.)
 		</skillList>
 	</npc>
 	<npc id="21685" level="79" type="Monster" name="Ashuras of Immortality" element="FIRE">
@@ -4164,18 +4164,18 @@
 			<height normal="49" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4071" level="4" /> (Bow Resistance)
 		</skillList>
 	</npc>
 	<npc id="21686" level="80" type="Monster" name="Flaming Drake" element="FIRE">
@@ -4199,18 +4199,18 @@
 			<height normal="31.2" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="48044" level="1" /> <!-- Fire Attribute Monster -->
-			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Resistance -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="15" /> (Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="14" /> (Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
+			<skill id="48044" level="1" /> (Fire Attribute Monster)
+			<skill id="4116" level="6" /> (Magic Damage Resistance)
+			<skill id="4071" level="4" /> (Bow Resistance)
 		</skillList>
 	</npc>
 	<npc id="21687" level="35" type="Monster" name="Dread Wolf">
@@ -4235,15 +4235,15 @@
 			<height normal="11" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="4" /> (Animals)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="12" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="12" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="10" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="10" /> (Slightly Weak M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
 		</skillList>
 	</npc>
 	<npc id="21688" level="36" type="Monster" name="Tasaba Lizardman">
@@ -4269,18 +4269,18 @@
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
-			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
+			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="21689" level="37" type="Monster" name="Tasaba Lizardman Shaman">
@@ -4306,15 +4306,15 @@
 			<height normal="29" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="5" /> (Blunt Weapon)
 		</skillList>
 	</npc>
 	<npc id="21690" level="38" type="Monster" name="Ogre">
@@ -4340,18 +4340,18 @@
 			<height normal="44" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="11" /> <!-- Giants -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
-			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
-			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
-			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4416" level="11" /> (Giants)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="10" /> (Slightly Weak P. Atk.)
+			<skill id="4411" level="10" /> (Slightly Weak M. Atk.)
+			<skill id="4412" level="12" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="12" /> (Slightly Strong M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="6" /> (Blunt Weapon)
+			<skill id="4444" level="2" /> (Greater Bow Resistance)
+			<skill id="4273" level="3" /> (Dagger Resistance)
+			<skill id="4274" level="1" /> (Blunt Weapon Vulnerability)
 		</skillList>
 	</npc>
 	<npc id="21691" level="39" type="Monster" name="Tasaba Lizardman Sniper">
@@ -4377,16 +4377,16 @@
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4071" level="5" /> <!-- Bow Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="8" /> (Weak M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4071" level="5" /> (Bow Resistance)
 		</skillList>
 	</npc>
 	<npc id="21692" level="39" type="Monster" name="Tasaba Lizardman Sniper">
@@ -4412,16 +4412,16 @@
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor -->
-			<skill id="4415" level="9" /> <!-- Bow -->
-			<skill id="4071" level="5" /> <!-- Bow Resistance -->
+			<skill id="4416" level="6" /> (Humanoids)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="13" /> (Slightly Strong M. Atk.)
+			<skill id="4412" level="9" /> (Slightly Weak P. Def.)
+			<skill id="4413" level="9" /> (Slightly Weak M. Def.)
+			<skill id="4414" level="3" /> (Light Armor)
+			<skill id="4415" level="9" /> (Bow)
+			<skill id="4071" level="5" /> (Bow Resistance)
 		</skillList>
 	</npc>
 	<npc id="21693" level="39" type="Monster" name="Lienrik">
@@ -4446,15 +4446,15 @@
 			<height normal="50" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="8" /> (Weak M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
 		</skillList>
 	</npc>
 	<npc id="21694" level="40" type="Monster" name="Lienrik Lad">
@@ -4479,15 +4479,15 @@
 			<height normal="50" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beasts -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="4416" level="3" /> (Beasts)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="14" /> (Strong P. Atk.)
+			<skill id="4411" level="14" /> (Strong M. Atk.)
+			<skill id="4412" level="8" /> (Weak P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="7" /> (Dagger)
 		</skillList>
 	</npc>
 	<npc id="21695" level="81" type="Monster" name="Lesser Watchman">
@@ -4512,15 +4512,15 @@
 			<height normal="43.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
 		</skillList>
 	</npc>
 	<npc id="21696" level="81" type="Monster" name="Lesser Summoner">
@@ -4546,15 +4546,15 @@
 			<height normal="21.5" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
 		</skillList>
 	</npc>
 	<npc id="21697" level="81" type="Monster" name="Conquered Native">
@@ -4579,15 +4579,15 @@
 			<height normal="24" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
 		</skillList>
 	</npc>
 	<npc id="21698" level="81" type="Monster" name="Bewitched Native">
@@ -4612,15 +4612,15 @@
 			<height normal="24" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="14" /> <!-- Humans -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average Damage Dealer -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4416" level="14" /> (Humans)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="11" /> (Average Damage Dealer)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="11" /> (Average P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="5" /> (Blunt Weapon)
 		</skillList>
 	</npc>
 	<npc id="21699" level="81" type="Monster" name="Ailith Hunter">
@@ -4645,15 +4645,15 @@
 			<height normal="35" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="9" /> (Demons)
+			<skill id="4408" level="1" /> (HP Increase (1x))
+			<skill id="4409" level="1" /> (MP Increase (1x))
+			<skill id="4410" level="13" /> (Slightly Strong P. Atk.)
+			<skill id="4411" level="11" /> (Average M. Atk.)
+			<skill id="4412" level="13" /> (Slightly Strong P. Def.)
+			<skill id="4413" level="11" /> (Average M. Def.)
+			<skill id="4414" level="2" /> (Standard Type)
+			<skill id="4415" level="3" /> (One-handed Sword)
 		</skillList>
 	</npc>
 </list>

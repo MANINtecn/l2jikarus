@@ -23,7 +23,7 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104747" min="1" max="1" chance="100" /> <!-- Guardian Vulcan's Box - Sealed -->
+					<item id="104747" min="1" max="1" chance="100" /> (Guardian Vulcan's Box - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -51,7 +51,7 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="104746" min="1" max="1" chance="100" /> <!-- Guardian Glassia's Box - Sealed -->
+					<item id="104746" min="1" max="1" chance="100" /> (Guardian Glassia's Box - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -76,8 +76,8 @@
 			<height normal="53" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Insects -->
-			<skill id="4021" level="1" /> <!-- Queen Ant -->
+			<skill id="4416" level="12" /> (Insects)
+			<skill id="4021" level="1" /> (Queen Ant)
 		</skillList>
 	</npc>
 	<npc id="29303" level="90" type="RaidBoss" name="Core" title="Cruma Control Device">
@@ -100,7 +100,7 @@
 			<height normal="75" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4416" level="2" /> (Magical Creatures)
 		</skillList>
 	</npc>
 	<npc id="29304" level="90" type="RaidBoss" name="Zaken" title="Pirate Captain">
@@ -123,7 +123,7 @@
 			<height normal="67" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 	</npc>
 	<npc id="29305" level="90" type="RaidBoss" name="Orfen" title="Spore Mistress">
@@ -146,8 +146,8 @@
 			<height normal="143" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="13" /> <!-- Fairies -->
-			<skill id="4062" level="1" /> <!-- Orfen -->
+			<skill id="4416" level="13" /> (Fairies)
+			<skill id="4062" level="1" /> (Orfen)
 		</skillList>
 	</npc>
 	<npc id="29306" level="90" type="RaidBoss" name="Vulcan" title="Furnace Destroyer" element="FIRE">
@@ -210,9 +210,9 @@
 			<height normal="300" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
-			<skill id="49986" level="1" /> <!-- Antharas -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
+			<skill id="49986" level="1" /> (Antharas)
 		</skillList>
 		<dropLists>
 			<drop>
@@ -225,38 +225,38 @@
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="25">
 					<item id="103594" min="1" max="1" chance="33.33" /> (+5 ~ +7 Red Flame Gauntlets Pack - Sealed)
-					<item id="103596" min="1" max="1" chance="33.34" /> <!-- +5 ~ +7 Sea Boots Pack - Sealed -->
-					<item id="103595" min="1" max="1" chance="33.33" /> <!-- +5 ~ +7 Wild Wind Helmet Pack - Sealed -->
+					<item id="103596" min="1" max="1" chance="33.34" /> (+5 ~ +7 Sea Boots Pack - Sealed)
+					<item id="103595" min="1" max="1" chance="33.33" /> (+5 ~ +7 Wild Wind Helmet Pack - Sealed)
 				</group>
 				-->
 				<group chance="100">
-					<item id="94385" min="1" max="3" chance="20" /> <!-- Improved Scroll: Enchant Rare Accessories -->
-					<item id="94383" min="1" max="3" chance="80" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94385" min="1" max="3" chance="20" /> (Improved Scroll: Enchant Rare Accessories)
+					<item id="94383" min="1" max="3" chance="80" /> (Scroll: Enchant Rare Accessories)
 				</group>
 				<group chance="100">
-					<item id="101809" min="1" max="3" chance="50" /> <!-- Stable Scroll: Enchant Weapon -->
-					<item id="101810" min="1" max="3" chance="50" /> <!-- Stable Scroll: Enchant Armor -->
+					<item id="101809" min="1" max="3" chance="50" /> (Stable Scroll: Enchant Weapon)
+					<item id="101810" min="1" max="3" chance="50" /> (Stable Scroll: Enchant Armor)
 				</group>
 				<group chance="3">
-					<item id="100053" min="1" max="1" chance="100" /> <!-- Heroic Spellbook Coupon - Sealed -->
+					<item id="100053" min="1" max="1" chance="100" /> (Heroic Spellbook Coupon - Sealed)
 				</group>
 				<group chance="1">
-					<item id="102976" min="1" max="1" chance="100" /> <!-- Legendary Spellbook Coupon - Sealed -->
+					<item id="102976" min="1" max="1" chance="100" /> (Legendary Spellbook Coupon - Sealed)
 				</group>
 				<group chance="10">
-					<item id="90992" min="1" max="1" chance="100" /> <!-- Antharas' Earring -->
+					<item id="90992" min="1" max="1" chance="100" /> (Antharas' Earring)
 				</group>
 				<group chance="10">
-					<item id="105205" min="1" max="1" chance="100" /> <!-- Package: Doll Summon Coupon - Antharas (Heroic - Legendary) (Sealed) -->
+					<item id="105205" min="1" max="1" chance="100" /> (Package: Doll Summon Coupon - Antharas (Heroic - Legendary) (Sealed))
 				</group>
 				<group chance="1">
-					<item id="105204" min="1" max="1" chance="100" /> <!-- Package: Earth Spirit King Petram -->
+					<item id="105204" min="1" max="1" chance="100" /> (Package: Earth Spirit King Petram)
 				</group>
 				<group chance="1">
-					<item id="98139" min="1" max="1" chance="100" /> <!-- Cursed Holy Grail -->
+					<item id="98139" min="1" max="1" chance="100" /> (Cursed Holy Grail)
 				</group>
 				<group chance="0.3">
-					<item id="98827" min="1" max="1" chance="100" /> <!-- Immortal Ring - Sealed -->
+					<item id="98827" min="1" max="1" chance="100" /> (Immortal Ring - Sealed)
 				</group>
 			</drop>
 		</dropLists>
@@ -304,15 +304,15 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="94383" min="1" max="1" chance="0.2" /> <!-- Scroll: Enchant Rare Accessories -->
-					<item id="103403" min="1" max="1" chance="12.5" /> <!-- Scroll of Blessing - Special -->
-					<item id="98137" min="1" max="1" chance="0.01" /> <!-- Evil Energy -->
-					<item id="101530" min="1" max="1" chance="52.085" /> <!-- Greater Upgrade Stone -->
-					<item id="97338" min="1" max="1" chance="15" /> <!-- Scroll of Blessing - Armor -->
-					<item id="103406" min="1" max="1" chance="5" /> <!-- Jewelry Box Lv. 4 -->
-					<item id="98039" min="1" max="1" chance="0.2" /> <!-- Transcendent Upgrade Stone -->
-					<item id="98136" min="1" max="1" chance="0.005" /> <!-- Aden Essence -->
-					<item id="94184" min="1" max="1" chance="15" /> <!-- Scroll of Blessing - Weapon -->
+					<item id="94383" min="1" max="1" chance="0.2" /> (Scroll: Enchant Rare Accessories)
+					<item id="103403" min="1" max="1" chance="12.5" /> (Scroll of Blessing - Special)
+					<item id="98137" min="1" max="1" chance="0.01" /> (Evil Energy)
+					<item id="101530" min="1" max="1" chance="52.085" /> (Greater Upgrade Stone)
+					<item id="97338" min="1" max="1" chance="15" /> (Scroll of Blessing - Armor)
+					<item id="103406" min="1" max="1" chance="5" /> (Jewelry Box Lv. 4)
+					<item id="98039" min="1" max="1" chance="0.2" /> (Transcendent Upgrade Stone)
+					<item id="98136" min="1" max="1" chance="0.005" /> (Aden Essence)
+					<item id="94184" min="1" max="1" chance="15" /> (Scroll of Blessing - Weapon)
 				</group>
 			</drop>
 		</dropLists>
@@ -337,49 +337,49 @@
 			<height normal="174" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4416" level="1" /> (Undead)
 		</skillList>
 		<dropLists>
 			<drop>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="96029" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Gauntlets - Robe - Sealed)
-					<item id="96007" min="1" max="1" chance="4.17" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
-					<item id="96014" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Boots (Heavy) - Sealed -->
-					<item id="96017" min="1" max="1" chance="4.17" /> <!-- Package: +5 Gauntlets of Nightmare (Light) - Sealed -->
-					<item id="96027" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Robe - Sealed -->
-					<item id="96010" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Heavy) - Sealed -->
-					<item id="96012" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Circlet (Heavy) - Sealed -->
-					<item id="96013" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Gauntlets - Heavy Armor - Sealed -->
-					<item id="96024" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Robe) - Sealed -->
-					<item id="96019" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Leather Armor - Sealed -->
-					<item id="96022" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Boots (Light) - Sealed -->
-					<item id="96025" min="1" max="1" chance="4.17" /> <!-- Package: +5 Gauntlets of Nightmare (Robe) - Sealed -->
-					<item id="96018" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Light) - Sealed -->
-					<item id="96008" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
-					<item id="96020" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Circlet (Light) - Sealed -->
-					<item id="96023" min="1" max="1" chance="4.17" /> <!-- Package: +5 Robe of Nightmare - Sealed -->
-					<item id="96021" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Gauntlets - Light Armor - Sealed -->
-					<item id="96015" min="1" max="1" chance="4.17" /> <!-- Package: +5 Leather Armor of Nightmare - Sealed -->
-					<item id="96009" min="1" max="1" chance="4.17" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
-					<item id="96011" min="1" max="1" chance="4.17" /> <!-- Package: +5 Majestic Plate Armor - Sealed -->
-					<item id="96030" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Boots (Robe) - Sealed -->
-					<item id="96028" min="1" max="1" chance="4.16" /> <!-- Package: +5 Majestic Circlet (Robe) - Sealed -->
-					<item id="96026" min="1" max="1" chance="4.17" /> <!-- Package: +5 Boots of Nightmare (Robe) - Sealed -->
-					<item id="96016" min="1" max="1" chance="4.17" /> <!-- Package: +5 Helm of Nightmare (Light) - Sealed -->
+					<item id="96007" min="1" max="1" chance="4.17" /> (Package: +5 Armor of Nightmare - Sealed)
+					<item id="96014" min="1" max="1" chance="4.17" /> (Package: +5 Majestic Boots (Heavy) - Sealed)
+					<item id="96017" min="1" max="1" chance="4.17" /> (Package: +5 Gauntlets of Nightmare (Light) - Sealed)
+					<item id="96027" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Robe - Sealed)
+					<item id="96010" min="1" max="1" chance="4.17" /> (Package: +5 Boots of Nightmare (Heavy) - Sealed)
+					<item id="96012" min="1" max="1" chance="4.17" /> (Package: +5 Majestic Circlet (Heavy) - Sealed)
+					<item id="96013" min="1" max="1" chance="4.17" /> (Package: +5 Majestic Gauntlets - Heavy Armor - Sealed)
+					<item id="96024" min="1" max="1" chance="4.17" /> (Package: +5 Helm of Nightmare (Robe) - Sealed)
+					<item id="96019" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Leather Armor - Sealed)
+					<item id="96022" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Boots (Light) - Sealed)
+					<item id="96025" min="1" max="1" chance="4.17" /> (Package: +5 Gauntlets of Nightmare (Robe) - Sealed)
+					<item id="96018" min="1" max="1" chance="4.17" /> (Package: +5 Boots of Nightmare (Light) - Sealed)
+					<item id="96008" min="1" max="1" chance="4.17" /> (Package: +5 Helm of Nightmare (Heavy) - Sealed)
+					<item id="96020" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Circlet (Light) - Sealed)
+					<item id="96023" min="1" max="1" chance="4.17" /> (Package: +5 Robe of Nightmare - Sealed)
+					<item id="96021" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Gauntlets - Light Armor - Sealed)
+					<item id="96015" min="1" max="1" chance="4.17" /> (Package: +5 Leather Armor of Nightmare - Sealed)
+					<item id="96009" min="1" max="1" chance="4.17" /> (Package: +5 Gauntlets of Nightmare (Heavy) - Sealed)
+					<item id="96011" min="1" max="1" chance="4.17" /> (Package: +5 Majestic Plate Armor - Sealed)
+					<item id="96030" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Boots (Robe) - Sealed)
+					<item id="96028" min="1" max="1" chance="4.16" /> (Package: +5 Majestic Circlet (Robe) - Sealed)
+					<item id="96026" min="1" max="1" chance="4.17" /> (Package: +5 Boots of Nightmare (Robe) - Sealed)
+					<item id="96016" min="1" max="1" chance="4.17" /> (Package: +5 Helm of Nightmare (Light) - Sealed)
 				</group>
 				-->
 				<group chance="100">
-					<item id="91951" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Talisman of Baium -->
+					<item id="91951" min="1" max="1" chance="100" /> (Scroll: Enchant Talisman of Baium)
 				</group>
 				<group chance="2.2">
-					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
+					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
 				</group>
 				<group chance="7.5">
-					<item id="49580" min="1" max="1" chance="100" /> <!-- Baium's Ring -->
+					<item id="49580" min="1" max="1" chance="100" /> (Baium's Ring)
 				</group>
 				<group chance="5.4">
-					<item id="49683" min="1" max="1" chance="100" /> <!-- Talisman of Baium -->
+					<item id="49683" min="1" max="1" chance="100" /> (Talisman of Baium)
 				</group>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="1.8">
@@ -387,43 +387,43 @@
 				</group>
 				-->
 				<group chance="0.675">
-					<item id="101610" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Baium (Sealed) -->
+					<item id="101610" min="1" max="1" chance="100" /> (Package: Superior Doll Summon Coupon - Baium (Sealed))
 				</group>
 				<group chance="0.2">
-					<item id="95346" min="1" max="1" chance="10.21" /> <!-- Spellbook: Meteor -->
-					<item id="94861" min="1" max="1" chance="10" /> <!-- Spellbook: Tranquility -->
-					<item id="94498" min="1" max="1" chance="10.2" /> <!-- Spellbook: Titan Champion -->
-					<item id="94862" min="1" max="1" chance="9.69" /> <!-- Spellbook: Exclusion -->
-					<item id="95347" min="1" max="1" chance="9.99" /> <!-- Spellbook: Rolling Dice -->
-					<item id="94508" min="1" max="1" chance="9.83" /> <!-- Spellbook: Cacophony of War -->
-					<item id="93387" min="1" max="1" chance="10.37" /> <!-- Spellbook: Ultimate Death Knight -->
-					<item id="94673" min="1" max="1" chance="9.79" /> <!-- Spellbook: Team Building -->
-					<item id="94668" min="1" max="1" chance="10.04" /> <!-- Spellbook: Pa'agrio's Touch -->
-					<item id="94863" min="1" max="1" chance="9.88" /> <!-- Spellbook: Dark Disruption -->
+					<item id="95346" min="1" max="1" chance="10.21" /> (Spellbook: Meteor)
+					<item id="94861" min="1" max="1" chance="10" /> (Spellbook: Tranquility)
+					<item id="94498" min="1" max="1" chance="10.2" /> (Spellbook: Titan Champion)
+					<item id="94862" min="1" max="1" chance="9.69" /> (Spellbook: Exclusion)
+					<item id="95347" min="1" max="1" chance="9.99" /> (Spellbook: Rolling Dice)
+					<item id="94508" min="1" max="1" chance="9.83" /> (Spellbook: Cacophony of War)
+					<item id="93387" min="1" max="1" chance="10.37" /> (Spellbook: Ultimate Death Knight)
+					<item id="94673" min="1" max="1" chance="9.79" /> (Spellbook: Team Building)
+					<item id="94668" min="1" max="1" chance="10.04" /> (Spellbook: Pa'agrio's Touch)
+					<item id="94863" min="1" max="1" chance="9.88" /> (Spellbook: Dark Disruption)
 				</group>
 				<group chance="2">
-					<item id="93909" min="1" max="1" chance="100" /> <!-- Baium's Crystal -->
+					<item id="93909" min="1" max="1" chance="100" /> (Baium's Crystal)
 				</group>
 				<group chance="100">
-					<item id="97787" min="1" max="3" chance="25" /> <!-- Augmenting Stone: Special Equipment -->
-					<item id="94188" min="1" max="3" chance="25" /> <!-- Augmenting Stone: Armor -->
-					<item id="94423" min="1" max="3" chance="25" /> <!-- Augmenting Stone: Accessory -->
-					<item id="94186" min="1" max="3" chance="25" /> <!-- Augmenting Stone: Weapon -->
+					<item id="97787" min="1" max="3" chance="25" /> (Augmenting Stone: Special Equipment)
+					<item id="94188" min="1" max="3" chance="25" /> (Augmenting Stone: Armor)
+					<item id="94423" min="1" max="3" chance="25" /> (Augmenting Stone: Accessory)
+					<item id="94186" min="1" max="3" chance="25" /> (Augmenting Stone: Weapon)
 				</group>
 				<group chance="100">
-					<item id="93256" min="1" max="1" chance="80" /> <!-- Blessed Scroll: Enchant Armor -->
-					<item id="93255" min="1" max="1" chance="20" /> <!-- Blessed Scroll: Enchant Weapon -->
+					<item id="93256" min="1" max="1" chance="80" /> (Blessed Scroll: Enchant Armor)
+					<item id="93255" min="1" max="1" chance="20" /> (Blessed Scroll: Enchant Weapon)
 				</group>
 				<group chance="10">
-					<item id="97859" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Rare Accessories -->
+					<item id="97859" min="1" max="1" chance="100" /> (Stable Scroll: Enchant Rare Accessories)
 				</group>
 				<group chance="30">
-					<item id="97442" min="1" max="1" chance="33.4" /> <!-- Blessed Augmenting Stone: Accessory -->
-					<item id="97439" min="1" max="1" chance="33.3" /> <!-- Blessed Augmenting Stone: Weapon -->
-					<item id="97440" min="1" max="1" chance="33.3" /> <!-- Blessed Augmenting Stone: Armor -->
+					<item id="97442" min="1" max="1" chance="33.4" /> (Blessed Augmenting Stone: Accessory)
+					<item id="97439" min="1" max="1" chance="33.3" /> (Blessed Augmenting Stone: Weapon)
+					<item id="97440" min="1" max="1" chance="33.3" /> (Blessed Augmenting Stone: Armor)
 				</group>
 				<group chance="10">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 			</drop>
 		</dropLists>
@@ -448,135 +448,135 @@
 			<height normal="174" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="48046" level="1" /> <!-- Wind Attribute Monster -->
+			<skill id="4416" level="1" /> (Undead)
+			<skill id="48046" level="1" /> (Wind Attribute Monster)
 		</skillList>
 		<dropLists>
 			<drop>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="96026" min="1" max="1" chance="8.34" /> (Package: +5 Boots of Nightmare (Robe) - Sealed)
-					<item id="96007" min="1" max="1" chance="8.33" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
-					<item id="96008" min="1" max="1" chance="8.33" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
-					<item id="96016" min="1" max="1" chance="8.33" /> <!-- Package: +5 Helm of Nightmare (Light) - Sealed -->
-					<item id="96023" min="1" max="1" chance="8.34" /> <!-- Package: +5 Robe of Nightmare - Sealed -->
-					<item id="96024" min="1" max="1" chance="8.34" /> <!-- Package: +5 Helm of Nightmare (Robe) - Sealed -->
-					<item id="96015" min="1" max="1" chance="8.33" /> <!-- Package: +5 Leather Armor of Nightmare - Sealed -->
-					<item id="96009" min="1" max="1" chance="8.33" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
-					<item id="96017" min="1" max="1" chance="8.33" /> <!-- Package: +5 Gauntlets of Nightmare (Light) - Sealed -->
-					<item id="96025" min="1" max="1" chance="8.34" /> <!-- Package: +5 Gauntlets of Nightmare (Robe) - Sealed -->
-					<item id="96010" min="1" max="1" chance="8.33" /> <!-- Package: +5 Boots of Nightmare (Heavy) - Sealed -->
-					<item id="96018" min="1" max="1" chance="8.33" /> <!-- Package: +5 Boots of Nightmare (Light) - Sealed -->
+					<item id="96007" min="1" max="1" chance="8.33" /> (Package: +5 Armor of Nightmare - Sealed)
+					<item id="96008" min="1" max="1" chance="8.33" /> (Package: +5 Helm of Nightmare (Heavy) - Sealed)
+					<item id="96016" min="1" max="1" chance="8.33" /> (Package: +5 Helm of Nightmare (Light) - Sealed)
+					<item id="96023" min="1" max="1" chance="8.34" /> (Package: +5 Robe of Nightmare - Sealed)
+					<item id="96024" min="1" max="1" chance="8.34" /> (Package: +5 Helm of Nightmare (Robe) - Sealed)
+					<item id="96015" min="1" max="1" chance="8.33" /> (Package: +5 Leather Armor of Nightmare - Sealed)
+					<item id="96009" min="1" max="1" chance="8.33" /> (Package: +5 Gauntlets of Nightmare (Heavy) - Sealed)
+					<item id="96017" min="1" max="1" chance="8.33" /> (Package: +5 Gauntlets of Nightmare (Light) - Sealed)
+					<item id="96025" min="1" max="1" chance="8.34" /> (Package: +5 Gauntlets of Nightmare (Robe) - Sealed)
+					<item id="96010" min="1" max="1" chance="8.33" /> (Package: +5 Boots of Nightmare (Heavy) - Sealed)
+					<item id="96018" min="1" max="1" chance="8.33" /> (Package: +5 Boots of Nightmare (Light) - Sealed)
 				</group>
 				-->
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="50">
 					<item id="96015" min="1" max="1" chance="8.33" /> (Package: +5 Leather Armor of Nightmare - Sealed)
-					<item id="96009" min="1" max="1" chance="8.33" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
-					<item id="96017" min="1" max="1" chance="8.33" /> <!-- Package: +5 Gauntlets of Nightmare (Light) - Sealed -->
-					<item id="96025" min="1" max="1" chance="8.34" /> <!-- Package: +5 Gauntlets of Nightmare (Robe) - Sealed -->
-					<item id="96010" min="1" max="1" chance="8.33" /> <!-- Package: +5 Boots of Nightmare (Heavy) - Sealed -->
-					<item id="96018" min="1" max="1" chance="8.33" /> <!-- Package: +5 Boots of Nightmare (Light) - Sealed -->
-					<item id="96026" min="1" max="1" chance="8.34" /> <!-- Package: +5 Boots of Nightmare (Robe) - Sealed -->
-					<item id="96007" min="1" max="1" chance="8.33" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
-					<item id="96008" min="1" max="1" chance="8.33" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
-					<item id="96016" min="1" max="1" chance="8.33" /> <!-- Package: +5 Helm of Nightmare (Light) - Sealed -->
-					<item id="96023" min="1" max="1" chance="8.34" /> <!-- Package: +5 Robe of Nightmare - Sealed -->
-					<item id="96024" min="1" max="1" chance="8.34" /> <!-- Package: +5 Helm of Nightmare (Robe) - Sealed -->
+					<item id="96009" min="1" max="1" chance="8.33" /> (Package: +5 Gauntlets of Nightmare (Heavy) - Sealed)
+					<item id="96017" min="1" max="1" chance="8.33" /> (Package: +5 Gauntlets of Nightmare (Light) - Sealed)
+					<item id="96025" min="1" max="1" chance="8.34" /> (Package: +5 Gauntlets of Nightmare (Robe) - Sealed)
+					<item id="96010" min="1" max="1" chance="8.33" /> (Package: +5 Boots of Nightmare (Heavy) - Sealed)
+					<item id="96018" min="1" max="1" chance="8.33" /> (Package: +5 Boots of Nightmare (Light) - Sealed)
+					<item id="96026" min="1" max="1" chance="8.34" /> (Package: +5 Boots of Nightmare (Robe) - Sealed)
+					<item id="96007" min="1" max="1" chance="8.33" /> (Package: +5 Armor of Nightmare - Sealed)
+					<item id="96008" min="1" max="1" chance="8.33" /> (Package: +5 Helm of Nightmare (Heavy) - Sealed)
+					<item id="96016" min="1" max="1" chance="8.33" /> (Package: +5 Helm of Nightmare (Light) - Sealed)
+					<item id="96023" min="1" max="1" chance="8.34" /> (Package: +5 Robe of Nightmare - Sealed)
+					<item id="96024" min="1" max="1" chance="8.34" /> (Package: +5 Helm of Nightmare (Robe) - Sealed)
 				</group>
 				-->
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="50">
 					<item id="96017" min="1" max="1" chance="8.33" /> (Package: +5 Gauntlets of Nightmare (Light) - Sealed)
-					<item id="96025" min="1" max="1" chance="8.34" /> <!-- Package: +5 Gauntlets of Nightmare (Robe) - Sealed -->
-					<item id="96010" min="1" max="1" chance="8.33" /> <!-- Package: +5 Boots of Nightmare (Heavy) - Sealed -->
-					<item id="96018" min="1" max="1" chance="8.33" /> <!-- Package: +5 Boots of Nightmare (Light) - Sealed -->
-					<item id="96026" min="1" max="1" chance="8.34" /> <!-- Package: +5 Boots of Nightmare (Robe) - Sealed -->
-					<item id="96007" min="1" max="1" chance="8.33" /> <!-- Package: +5 Armor of Nightmare - Sealed -->
-					<item id="96008" min="1" max="1" chance="8.33" /> <!-- Package: +5 Helm of Nightmare (Heavy) - Sealed -->
-					<item id="96016" min="1" max="1" chance="8.33" /> <!-- Package: +5 Helm of Nightmare (Light) - Sealed -->
-					<item id="96023" min="1" max="1" chance="8.34" /> <!-- Package: +5 Robe of Nightmare - Sealed -->
-					<item id="96024" min="1" max="1" chance="8.34" /> <!-- Package: +5 Helm of Nightmare (Robe) - Sealed -->
-					<item id="96015" min="1" max="1" chance="8.33" /> <!-- Package: +5 Leather Armor of Nightmare - Sealed -->
-					<item id="96009" min="1" max="1" chance="8.33" /> <!-- Package: +5 Gauntlets of Nightmare (Heavy) - Sealed -->
+					<item id="96025" min="1" max="1" chance="8.34" /> (Package: +5 Gauntlets of Nightmare (Robe) - Sealed)
+					<item id="96010" min="1" max="1" chance="8.33" /> (Package: +5 Boots of Nightmare (Heavy) - Sealed)
+					<item id="96018" min="1" max="1" chance="8.33" /> (Package: +5 Boots of Nightmare (Light) - Sealed)
+					<item id="96026" min="1" max="1" chance="8.34" /> (Package: +5 Boots of Nightmare (Robe) - Sealed)
+					<item id="96007" min="1" max="1" chance="8.33" /> (Package: +5 Armor of Nightmare - Sealed)
+					<item id="96008" min="1" max="1" chance="8.33" /> (Package: +5 Helm of Nightmare (Heavy) - Sealed)
+					<item id="96016" min="1" max="1" chance="8.33" /> (Package: +5 Helm of Nightmare (Light) - Sealed)
+					<item id="96023" min="1" max="1" chance="8.34" /> (Package: +5 Robe of Nightmare - Sealed)
+					<item id="96024" min="1" max="1" chance="8.34" /> (Package: +5 Helm of Nightmare (Robe) - Sealed)
+					<item id="96015" min="1" max="1" chance="8.33" /> (Package: +5 Leather Armor of Nightmare - Sealed)
+					<item id="96009" min="1" max="1" chance="8.33" /> (Package: +5 Gauntlets of Nightmare (Heavy) - Sealed)
 				</group>
 				-->
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="96011" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Plate Armor - Sealed)
-					<item id="96027" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Robe - Sealed -->
-					<item id="96014" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Boots (Heavy) - Sealed -->
-					<item id="96022" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Boots (Light) - Sealed -->
-					<item id="96030" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Boots (Robe) - Sealed -->
-					<item id="96012" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Circlet (Heavy) - Sealed -->
-					<item id="96020" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Circlet (Light) - Sealed -->
-					<item id="96028" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Circlet (Robe) - Sealed -->
-					<item id="96013" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Gauntlets - Heavy Armor - Sealed -->
-					<item id="96021" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Gauntlets - Light Armor - Sealed -->
-					<item id="96029" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Gauntlets - Robe - Sealed -->
-					<item id="96019" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Leather Armor - Sealed -->
+					<item id="96027" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Robe - Sealed)
+					<item id="96014" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Boots (Heavy) - Sealed)
+					<item id="96022" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Boots (Light) - Sealed)
+					<item id="96030" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Boots (Robe) - Sealed)
+					<item id="96012" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Circlet (Heavy) - Sealed)
+					<item id="96020" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Circlet (Light) - Sealed)
+					<item id="96028" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Circlet (Robe) - Sealed)
+					<item id="96013" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Gauntlets - Heavy Armor - Sealed)
+					<item id="96021" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Gauntlets - Light Armor - Sealed)
+					<item id="96029" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Gauntlets - Robe - Sealed)
+					<item id="96019" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Leather Armor - Sealed)
 				</group>
 				-->
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="50">
 					<item id="96014" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Boots (Heavy) - Sealed)
-					<item id="96022" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Boots (Light) - Sealed -->
-					<item id="96030" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Boots (Robe) - Sealed -->
-					<item id="96012" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Circlet (Heavy) - Sealed -->
-					<item id="96020" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Circlet (Light) - Sealed -->
-					<item id="96028" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Circlet (Robe) - Sealed -->
-					<item id="96013" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Gauntlets - Heavy Armor - Sealed -->
-					<item id="96021" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Gauntlets - Light Armor - Sealed -->
-					<item id="96029" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Gauntlets - Robe - Sealed -->
-					<item id="96019" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Leather Armor - Sealed -->
-					<item id="96011" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Plate Armor - Sealed -->
-					<item id="96027" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Robe - Sealed -->
+					<item id="96022" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Boots (Light) - Sealed)
+					<item id="96030" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Boots (Robe) - Sealed)
+					<item id="96012" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Circlet (Heavy) - Sealed)
+					<item id="96020" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Circlet (Light) - Sealed)
+					<item id="96028" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Circlet (Robe) - Sealed)
+					<item id="96013" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Gauntlets - Heavy Armor - Sealed)
+					<item id="96021" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Gauntlets - Light Armor - Sealed)
+					<item id="96029" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Gauntlets - Robe - Sealed)
+					<item id="96019" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Leather Armor - Sealed)
+					<item id="96011" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Plate Armor - Sealed)
+					<item id="96027" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Robe - Sealed)
 				</group>
 				-->
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="50">
 					<item id="96020" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Circlet (Light) - Sealed)
-					<item id="96028" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Circlet (Robe) - Sealed -->
-					<item id="96013" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Gauntlets - Heavy Armor - Sealed -->
-					<item id="96021" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Gauntlets - Light Armor - Sealed -->
-					<item id="96029" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Gauntlets - Robe - Sealed -->
-					<item id="96019" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Leather Armor - Sealed -->
-					<item id="96011" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Plate Armor - Sealed -->
-					<item id="96027" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Robe - Sealed -->
-					<item id="96014" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Boots (Heavy) - Sealed -->
-					<item id="96022" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Boots (Light) - Sealed -->
-					<item id="96030" min="1" max="1" chance="8.34" /> <!-- Package: +5 Majestic Boots (Robe) - Sealed -->
-					<item id="96012" min="1" max="1" chance="8.33" /> <!-- Package: +5 Majestic Circlet (Heavy) - Sealed -->
+					<item id="96028" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Circlet (Robe) - Sealed)
+					<item id="96013" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Gauntlets - Heavy Armor - Sealed)
+					<item id="96021" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Gauntlets - Light Armor - Sealed)
+					<item id="96029" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Gauntlets - Robe - Sealed)
+					<item id="96019" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Leather Armor - Sealed)
+					<item id="96011" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Plate Armor - Sealed)
+					<item id="96027" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Robe - Sealed)
+					<item id="96014" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Boots (Heavy) - Sealed)
+					<item id="96022" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Boots (Light) - Sealed)
+					<item id="96030" min="1" max="1" chance="8.34" /> (Package: +5 Majestic Boots (Robe) - Sealed)
+					<item id="96012" min="1" max="1" chance="8.33" /> (Package: +5 Majestic Circlet (Heavy) - Sealed)
 				</group>
 				-->
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="100">
 					<item id="102167" min="1" max="1" chance="16.6" /> (Package: +5 ~ +7 Flaming Tunic - Sealed)
-					<item id="102165" min="1" max="1" chance="16.7" /> <!-- Package: +5 ~ +7 Leather Armor of Lightning - Sealed -->
-					<item id="102163" min="1" max="1" chance="16.7" /> <!-- Package: +5 ~ +7 Ice Crystal Breastplate - Sealed -->
-					<item id="102166" min="1" max="1" chance="16.7" /> <!-- Package: +5 ~ +7 Leather Leggings of Lightning - Sealed -->
-					<item id="102168" min="1" max="1" chance="16.6" /> <!-- Package: +5 ~ +7 Flaming Stockings - Sealed -->
-					<item id="102164" min="1" max="1" chance="16.7" /> <!-- Package: +5 ~ +7 Ice Crystal Gaiters - Sealed -->
+					<item id="102165" min="1" max="1" chance="16.7" /> (Package: +5 ~ +7 Leather Armor of Lightning - Sealed)
+					<item id="102163" min="1" max="1" chance="16.7" /> (Package: +5 ~ +7 Ice Crystal Breastplate - Sealed)
+					<item id="102166" min="1" max="1" chance="16.7" /> (Package: +5 ~ +7 Leather Leggings of Lightning - Sealed)
+					<item id="102168" min="1" max="1" chance="16.6" /> (Package: +5 ~ +7 Flaming Stockings - Sealed)
+					<item id="102164" min="1" max="1" chance="16.7" /> (Package: +5 ~ +7 Ice Crystal Gaiters - Sealed)
 				</group>
 				-->
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="10">
 					<item id="102171" min="1" max="1" chance="16.7" /> (Package: +6 ~ +8 Ice Crystal Breastplate - Sealed)
-					<item id="102170" min="1" max="1" chance="16.6" /> <!-- Package: +6 ~ +8 Leather Leggings of Lightning - Sealed -->
-					<item id="102174" min="1" max="1" chance="16.7" /> <!-- Package: +6 ~ +8 Flaming Stockings - Sealed -->
-					<item id="102172" min="1" max="1" chance="16.7" /> <!-- Package: +6 ~ +8 Ice Crystal Gaiters - Sealed -->
-					<item id="102173" min="1" max="1" chance="16.7" /> <!-- Package: +6 ~ +8 Flaming Tunic - Sealed -->
-					<item id="102169" min="1" max="1" chance="16.6" /> <!-- Package: +6 ~ +8 Leather Armor of Lightning - Sealed -->
+					<item id="102170" min="1" max="1" chance="16.6" /> (Package: +6 ~ +8 Leather Leggings of Lightning - Sealed)
+					<item id="102174" min="1" max="1" chance="16.7" /> (Package: +6 ~ +8 Flaming Stockings - Sealed)
+					<item id="102172" min="1" max="1" chance="16.7" /> (Package: +6 ~ +8 Ice Crystal Gaiters - Sealed)
+					<item id="102173" min="1" max="1" chance="16.7" /> (Package: +6 ~ +8 Flaming Tunic - Sealed)
+					<item id="102169" min="1" max="1" chance="16.6" /> (Package: +6 ~ +8 Leather Armor of Lightning - Sealed)
 				</group>
 				-->
 				<group chance="100">
-					<item id="91951" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Talisman of Baium -->
+					<item id="91951" min="1" max="1" chance="100" /> (Scroll: Enchant Talisman of Baium)
 				</group>
 				<group chance="15">
-					<item id="49580" min="1" max="1" chance="100" /> <!-- Baium's Ring -->
+					<item id="49580" min="1" max="1" chance="100" /> (Baium's Ring)
 				</group>
 				<group chance="10.8">
-					<item id="49683" min="1" max="1" chance="100" /> <!-- Talisman of Baium -->
+					<item id="49683" min="1" max="1" chance="100" /> (Talisman of Baium)
 				</group>
 				<!-- BOSS_GEAR_REMOVED
 				<group chance="5.4">
@@ -584,46 +584,46 @@
 				</group>
 				-->
 				<group chance="3">
-					<item id="101610" min="1" max="1" chance="100" /> <!-- Package: Superior Doll Summon Coupon - Baium (Sealed) -->
+					<item id="101610" min="1" max="1" chance="100" /> (Package: Superior Doll Summon Coupon - Baium (Sealed))
 				</group>
 				<group chance="2.2">
-					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
+					<item id="105283" min="1" max="1" chance="100" /> (Rare Spellbook)
 				</group>
 				<group chance="1">
-					<item id="95346" min="1" max="1" chance="10.21" /> <!-- Spellbook: Meteor -->
-					<item id="94861" min="1" max="1" chance="10" /> <!-- Spellbook: Tranquility -->
-					<item id="94498" min="1" max="1" chance="10.2" /> <!-- Spellbook: Titan Champion -->
-					<item id="94862" min="1" max="1" chance="9.69" /> <!-- Spellbook: Exclusion -->
-					<item id="95347" min="1" max="1" chance="9.99" /> <!-- Spellbook: Rolling Dice -->
-					<item id="94508" min="1" max="1" chance="9.83" /> <!-- Spellbook: Cacophony of War -->
-					<item id="93387" min="1" max="1" chance="10.37" /> <!-- Spellbook: Ultimate Death Knight -->
-					<item id="94673" min="1" max="1" chance="9.79" /> <!-- Spellbook: Team Building -->
-					<item id="94668" min="1" max="1" chance="10.04" /> <!-- Spellbook: Pa'agrio's Touch -->
-					<item id="94863" min="1" max="1" chance="9.88" /> <!-- Spellbook: Dark Disruption -->
+					<item id="95346" min="1" max="1" chance="10.21" /> (Spellbook: Meteor)
+					<item id="94861" min="1" max="1" chance="10" /> (Spellbook: Tranquility)
+					<item id="94498" min="1" max="1" chance="10.2" /> (Spellbook: Titan Champion)
+					<item id="94862" min="1" max="1" chance="9.69" /> (Spellbook: Exclusion)
+					<item id="95347" min="1" max="1" chance="9.99" /> (Spellbook: Rolling Dice)
+					<item id="94508" min="1" max="1" chance="9.83" /> (Spellbook: Cacophony of War)
+					<item id="93387" min="1" max="1" chance="10.37" /> (Spellbook: Ultimate Death Knight)
+					<item id="94673" min="1" max="1" chance="9.79" /> (Spellbook: Team Building)
+					<item id="94668" min="1" max="1" chance="10.04" /> (Spellbook: Pa'agrio's Touch)
+					<item id="94863" min="1" max="1" chance="9.88" /> (Spellbook: Dark Disruption)
 				</group>
 				<group chance="2">
-					<item id="93909" min="1" max="1" chance="100" /> <!-- Baium's Crystal -->
+					<item id="93909" min="1" max="1" chance="100" /> (Baium's Crystal)
 				</group>
 				<group chance="0.01">
-					<item id="96613" min="1" max="1" chance="100" /> <!-- Spellbook: Expanded Potential of Dyes -->
+					<item id="96613" min="1" max="1" chance="100" /> (Spellbook: Expanded Potential of Dyes)
 				</group>
 				<group chance="20">
-					<item id="97859" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Rare Accessories -->
+					<item id="97859" min="1" max="1" chance="100" /> (Stable Scroll: Enchant Rare Accessories)
 				</group>
 				<group chance="100">
-					<item id="93256" min="1" max="1" chance="80" /> <!-- Blessed Scroll: Enchant Armor -->
-					<item id="93255" min="1" max="1" chance="20" /> <!-- Blessed Scroll: Enchant Weapon -->
+					<item id="93256" min="1" max="1" chance="80" /> (Blessed Scroll: Enchant Armor)
+					<item id="93255" min="1" max="1" chance="20" /> (Blessed Scroll: Enchant Weapon)
 				</group>
 				<group chance="50">
-					<item id="97439" min="1" max="1" chance="33.3" /> <!-- Blessed Augmenting Stone: Weapon -->
-					<item id="97440" min="1" max="1" chance="33.3" /> <!-- Blessed Augmenting Stone: Armor -->
-					<item id="97442" min="1" max="1" chance="33.4" /> <!-- Blessed Augmenting Stone: Accessory -->
+					<item id="97439" min="1" max="1" chance="33.3" /> (Blessed Augmenting Stone: Weapon)
+					<item id="97440" min="1" max="1" chance="33.3" /> (Blessed Augmenting Stone: Armor)
+					<item id="97442" min="1" max="1" chance="33.4" /> (Blessed Augmenting Stone: Accessory)
 				</group>
 				<group chance="15">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="5">
-					<item id="94383" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94383" min="1" max="1" chance="100" /> (Scroll: Enchant Rare Accessories)
 				</group>
 			</drop>
 		</dropLists>
@@ -649,7 +649,7 @@
 			<height normal="27.88" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4416" level="10" /> (Dragons)
 		</skillList>
 	</npc>
 	<npc id="29314" level="88" type="Monster" name="Dragon Bomber">
@@ -673,7 +673,7 @@
 			<height normal="42.6" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4416" level="10" /> (Dragons)
 		</skillList>
 	</npc>
 	<npc id="29315" level="90" type="Monster" name="Tarask Dragon" title="Antharas' Spawn" element="EARTH">
@@ -696,8 +696,8 @@
 			<height normal="112.8" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="29316" level="90" type="Monster" name="Dragon Beast" title="Antharas' Spawn" element="EARTH">
@@ -720,8 +720,8 @@
 			<height normal="168" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="10" /> <!-- Dragons -->
-			<skill id="48047" level="1" /> <!-- Earth Attribute Monster -->
+			<skill id="4416" level="10" /> (Dragons)
+			<skill id="48047" level="1" /> (Earth Attribute Monster)
 		</skillList>
 	</npc>
 	<npc id="29317" level="85" type="Folk" name="Glittering Treasure Chest" title="Antharas' Creature">
@@ -766,35 +766,35 @@
 		<dropLists>
 			<drop>
 				<group chance="0.001">
-					<item id="97178" min="1" max="1" chance="100" /> <!-- Heroic Spellbook Coupon - Sealed -->
+					<item id="97178" min="1" max="1" chance="100" /> (Heroic Spellbook Coupon - Sealed)
 				</group>
 				<group chance="0.25">
-					<item id="101809" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Weapon -->
+					<item id="101809" min="1" max="1" chance="100" /> (Stable Scroll: Enchant Weapon)
 				</group>
 				<group chance="0.25">
-					<item id="101810" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Armor -->
+					<item id="101810" min="1" max="1" chance="100" /> (Stable Scroll: Enchant Armor)
 				</group>
 				<group chance="0.5">
-					<item id="98039" min="1" max="1" chance="100" /> <!-- Transcendent Upgrade Stone -->
+					<item id="98039" min="1" max="1" chance="100" /> (Transcendent Upgrade Stone)
 				</group>
 				<group chance="0.5">
-					<item id="94383" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Rare Accessories -->
+					<item id="94383" min="1" max="1" chance="100" /> (Scroll: Enchant Rare Accessories)
 				</group>
 				<group chance="0.005">
-					<item id="98136" min="1" max="1" chance="100" /> <!-- Aden Essence -->
+					<item id="98136" min="1" max="1" chance="100" /> (Aden Essence)
 				</group>
 				<group chance="0.01">
-					<item id="98137" min="1" max="1" chance="100" /> <!-- Evil Energy -->
+					<item id="98137" min="1" max="1" chance="100" /> (Evil Energy)
 				</group>
 				<group chance="100">
-					<item id="94184" min="1" max="1" chance="35" /> <!-- Scroll of Blessing - Weapon -->
-					<item id="103403" min="1" max="1" chance="15" /> <!-- Scroll of Blessing - Special -->
-					<item id="103405" min="1" max="1" chance="5" /> <!-- Jewelry Box Lv. 5 -->
-					<item id="97338" min="1" max="1" chance="35" /> <!-- Scroll of Blessing - Armor -->
-					<item id="103406" min="1" max="1" chance="10" /> <!-- Jewelry Box Lv. 4 -->
+					<item id="94184" min="1" max="1" chance="35" /> (Scroll of Blessing - Weapon)
+					<item id="103403" min="1" max="1" chance="15" /> (Scroll of Blessing - Special)
+					<item id="103405" min="1" max="1" chance="5" /> (Jewelry Box Lv. 5)
+					<item id="97338" min="1" max="1" chance="35" /> (Scroll of Blessing - Armor)
+					<item id="103406" min="1" max="1" chance="10" /> (Jewelry Box Lv. 4)
 				</group>
 				<group chance="100">
-					<item id="101530" min="1" max="1" chance="100" /> <!-- Greater Upgrade Stone -->
+					<item id="101530" min="1" max="1" chance="100" /> (Greater Upgrade Stone)
 				</group>
 			</drop>
 		</dropLists>
@@ -843,7 +843,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>MALE</sex>
-		<equipment rhand="97293" /> <!-- For monsters_Antharas' Lair_Devil Spearshooter - Not Available -->
+		<equipment rhand="97293" /> (For monsters_Antharas' Lair_Devil Spearshooter - Not Available)
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="117937.97468" hpRegen="10.2" mp="11928" mpRegen="3.6" />
 			<attack physical="7222" magical="493" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
