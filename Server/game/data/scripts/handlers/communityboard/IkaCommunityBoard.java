@@ -132,6 +132,9 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_comprar",
 		"_bbsika_ikoin_pix_create",
 		"_bbsika_ikoin_pix_check",
+		"_bbsika_changenick",
+		"_bbsika_changesex",
+		"_bbsika_changesex_confirm",
 	};
 
 	@Override
@@ -258,6 +261,26 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			buyOffer(player, offerId);
 			showMainPage(player);
 		}
+		else if (command.startsWith("_bbsika_changenick"))
+		{
+			final String raw = command.replace("_bbsika_changenick", "").replaceAll("^[_\\s]+", "").trim();
+			if (raw.isEmpty() || raw.startsWith("$"))
+			{
+				showChangeNickPage(player, "");
+			}
+			else
+			{
+				applyNickChange(player, raw);
+			}
+		}
+		else if (command.equals("_bbsika_changesex"))
+		{
+			showChangeSexPage(player);
+		}
+		else if (command.equals("_bbsika_changesex_confirm"))
+		{
+			applyChangeSex(player);
+		}
 		else if (command.equals("_bbsika_comprar"))
 		{
 			showComprarPage(player, "");
@@ -370,6 +393,167 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			}
 		}
 		player.sendMessage("[Start " + name + "] Pack comprado! Itens entregues no inventario.");
+	}
+
+	// ======== TROCAR NICK ========
+
+	private static final int NICK_COST = 100;
+	private static final java.util.regex.Pattern NICK_RE = java.util.regex.Pattern.compile("^[a-zA-Z][a-zA-Z0-9]{2,15}$");
+
+	private void showChangeNickPage(Player player, String msg)
+	{
+		final StringBuilder c = new StringBuilder();
+		c.append("<br><br>");
+		c.append("<font name=\"hs12\" color=\"LEVEL\">TROCAR NICK</font><br>");
+		c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br><br>");
+		c.append("<font color=\"aaaaaa\">Nick atual: <font color=\"LEVEL\">").append(player.getName()).append("</font></font><br>");
+		c.append("<font color=\"aaaaaa\">Custo: <font color=\"FFAA00\">").append(NICK_COST).append(" Ikoins</font></font><br><br>");
+		if (!msg.isEmpty()) { c.append(msg).append("<br>"); }
+		c.append("<table><tr><td><font color=\"aaaaaa\">Novo nick:</font></td>");
+		c.append("<td><edit var=\"newNick\" width=160 height=15></td></tr></table><br>");
+		c.append("<font color=\"888888\">3 a 16 caracteres, letras e numeros, comeca com letra.</font><br><br>");
+		c.append("<button value=\"Confirmar Troca\" action=\"bypass _bbsika_changenick_$newNick\" width=180 height=30 ");
+		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
+	}
+
+	private void applyNickChange(Player player, String newName)
+	{
+		if (!NICK_RE.matcher(newName).matches())
+		{
+			showChangeNickPage(player, "<font color=\"FF4444\">Nick invalido. Use 3-16 caracteres, comecando com letra.</font>");
+			return;
+		}
+		if (newName.equalsIgnoreCase(player.getName()))
+		{
+			showChangeNickPage(player, "<font color=\"FF4444\">Esse ja e o seu nick atual.</font>");
+			return;
+		}
+		final long balance = getPlayerCredits(player);
+		if (balance < NICK_COST)
+		{
+			showChangeNickPage(player, "<font color=\"FF4444\">Ikoin insuficiente. Voce tem " + balance + ", precisa de " + NICK_COST + ".</font>");
+			return;
+		}
+		final long now = System.currentTimeMillis();
+		try (Connection con = DatabaseFactory.getConnection())
+		{
+			// verifica se ja existe
+			try (PreparedStatement ps = con.prepareStatement("SELECT 1 FROM characters WHERE char_name=?"))
+			{
+				ps.setString(1, newName);
+				if (ps.executeQuery().next())
+				{
+					showChangeNickPage(player, "<font color=\"FF4444\">Este nick ja esta em uso.</font>");
+					return;
+				}
+			}
+			// debita Ikoin
+			try (PreparedStatement ps = con.prepareStatement("UPDATE ikoin_balance SET balance=balance-?, updated_at=? WHERE account_name=?"))
+			{
+				ps.setInt(1, NICK_COST);
+				ps.setLong(2, now);
+				ps.setString(3, player.getAccountName());
+				ps.executeUpdate();
+			}
+			try (PreparedStatement ps = con.prepareStatement("INSERT INTO ikoin_transactions (account_name, amount, type, description, created_at) VALUES (?,?,?,?,?)"))
+			{
+				ps.setString(1, player.getAccountName());
+				ps.setInt(2, -NICK_COST);
+				ps.setString(3, "spend");
+				ps.setString(4, "Troca de Nick: " + player.getName() + " -> " + newName);
+				ps.setLong(5, now);
+				ps.executeUpdate();
+			}
+			// aplica o novo nome
+			try (PreparedStatement ps = con.prepareStatement("UPDATE characters SET char_name=? WHERE charId=?"))
+			{
+				ps.setString(1, newName);
+				ps.setInt(2, player.getObjectId());
+				ps.executeUpdate();
+			}
+		}
+		catch (Exception e)
+		{
+			showChangeNickPage(player, "<font color=\"FF4444\">Erro ao processar. Tente novamente.</font>");
+			return;
+		}
+		player.setName(newName);
+		player.broadcastUserInfo();
+		player.sendMessage("[Nick] Nick alterado para: " + newName + ". Relogar para aplicar em todos os menus.");
+		showAccountPage(player);
+	}
+
+	// ======== TROCAR SEXO ========
+
+	private static final int SEX_COST = 20;
+
+	private void showChangeSexPage(Player player)
+	{
+		final String atual = player.getAppearance().getSex() ? "Feminino" : "Masculino";
+		final String novo = player.getAppearance().getSex() ? "Masculino" : "Feminino";
+		final long balance = getPlayerCredits(player);
+		final StringBuilder c = new StringBuilder();
+		c.append("<br><br>");
+		c.append("<font name=\"hs12\" color=\"LEVEL\">TROCAR SEXO</font><br>");
+		c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br><br>");
+		c.append("<font color=\"aaaaaa\">Sexo atual: <font color=\"LEVEL\">").append(atual).append("</font></font><br>");
+		c.append("<font color=\"aaaaaa\">Vai mudar para: <font color=\"FFAA00\">").append(novo).append("</font></font><br>");
+		c.append("<font color=\"aaaaaa\">Custo: <font color=\"FFAA00\">").append(SEX_COST).append(" Ikoins</font> | Saldo: <font color=\"LEVEL\">").append(balance).append("</font></font><br><br>");
+		c.append("<font color=\"888888\">A mudanca e aplicada apos relogar.</font><br><br>");
+		c.append("<button value=\"Confirmar\" action=\"bypass _bbsika_changesex_confirm\" width=140 height=30 ");
+		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"> ");
+		c.append("<button value=\"Cancelar\" action=\"bypass _bbsika_account\" width=100 height=30 ");
+		c.append("back=\"L2EssenceCommunity.gmshop_btn\" fore=\"L2EssenceCommunity.gmshop_btn\">");
+		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
+	}
+
+	private void applyChangeSex(Player player)
+	{
+		final long balance = getPlayerCredits(player);
+		if (balance < SEX_COST)
+		{
+			player.sendMessage("[Sexo] Ikoin insuficiente. Voce tem " + balance + ", precisa de " + SEX_COST + ".");
+			showAccountPage(player);
+			return;
+		}
+		final long now = System.currentTimeMillis();
+		final boolean newSex = !player.getAppearance().getSex();
+		try (Connection con = DatabaseFactory.getConnection())
+		{
+			try (PreparedStatement ps = con.prepareStatement("UPDATE ikoin_balance SET balance=balance-?, updated_at=? WHERE account_name=?"))
+			{
+				ps.setInt(1, SEX_COST);
+				ps.setLong(2, now);
+				ps.setString(3, player.getAccountName());
+				ps.executeUpdate();
+			}
+			try (PreparedStatement ps = con.prepareStatement("INSERT INTO ikoin_transactions (account_name, amount, type, description, created_at) VALUES (?,?,?,?,?)"))
+			{
+				ps.setString(1, player.getAccountName());
+				ps.setInt(2, -SEX_COST);
+				ps.setString(3, "spend");
+				ps.setString(4, "Troca de Sexo");
+				ps.setLong(5, now);
+				ps.executeUpdate();
+			}
+			try (PreparedStatement ps = con.prepareStatement("UPDATE characters SET sex=? WHERE charId=?"))
+			{
+				ps.setInt(1, newSex ? 1 : 0);
+				ps.setInt(2, player.getObjectId());
+				ps.executeUpdate();
+			}
+		}
+		catch (Exception e)
+		{
+			player.sendMessage("[Sexo] Erro ao processar. Tente novamente.");
+			showAccountPage(player);
+			return;
+		}
+		player.getAppearance().setSex(newSex);
+		player.broadcastUserInfo();
+		player.sendMessage("[Sexo] Sexo alterado! Relogar para visualizar a mudanca.");
+		showAccountPage(player);
 	}
 
 	// ======== COMPRA DE IKOIN VIA PIX ========
@@ -1003,11 +1187,11 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		// Cards de servicos (2 colunas) - {nome, custo, icone, ativo("1")/embreve("0"), bypass(opcional)}
 		String[][] services = {
 			{"Premium " + PREMIUM_DAYS + "d", String.valueOf(PREMIUM_COST_IKOIN), "L2EssenceCommunity.premium_crown", "1", "_bbsika_premium"},
-			{"Trocar Classe", "150", "L2EssenceCommunity.change_class_base", "1"},
-			{"Trocar Nick", "100", "L2EssenceCommunity.rename", "1"},
-			{"Trocar Sexo", "20", "L2EssenceCommunity.change_sex", "1"},
+			{"Trocar Classe", "150", "L2EssenceCommunity.change_class", "0"},
+			{"Trocar Nick", "100", "L2EssenceCommunity.rankings_btn", "1", "_bbsika_changenick"},
+			{"Trocar Sexo", "20", "L2EssenceCommunity.buffer_btn", "1", "_bbsika_changesex"},
 			{"Doar Ikoin", "-", "L2EssenceCommunity.adena", "0"},
-			{"Vender Personagem", "-", "L2EssenceCommunity.misc_items", "0"},
+			{"Vender Personagem", "-", "L2EssenceCommunity.itembroker_btn", "0"},
 		};
 
 		c.append("<tr><td><table width=540 cellpadding=0 cellspacing=0>");
