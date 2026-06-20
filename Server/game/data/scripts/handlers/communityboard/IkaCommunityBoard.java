@@ -1248,7 +1248,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		// Beneficios
 		c.append("<tr><td align=center><font color=\"FFFFFF\">").append(PREMIUM_DAYS).append(" dias de Premium por <font color=\"FFAA00\">").append(PREMIUM_COST_IKOIN).append(" Ikoin</font>.</font></td></tr>");
 		c.append("<tr><td height=4></td></tr>");
-		c.append("<tr><td align=center><font color=\"99CC66\">+100% XP / SP &nbsp; +100% Drop &nbsp; Pesca exclusiva</font></td></tr>");
+		c.append("<tr><td align=center><font color=\"99CC66\">+50% XP / SP &nbsp; +100% Drop &nbsp; Pesca exclusiva</font></td></tr>");
 		c.append("<tr><td align=center><font color=\"696969\">Vale para todos os personagens da conta.</font></td></tr>");
 		c.append("<tr><td height=14></td></tr>");
 
