@@ -569,25 +569,49 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	{
 		final long saldo = getPlayerCredits(player);
 		final StringBuilder c = new StringBuilder();
-		// banner com imagem nativa
-		c.append("<center><table background=\"L2EssenceCommunity.donate_bg\" width=530 height=110>");
-		c.append("<tr><td align=center valign=top><br><br>");
-		c.append("<font name=\"hs16\" color=\"LEVEL\">COMPRAR IKOINS</font><br><br>");
-		c.append("<font color=\"aaaaaa\">1 Ikoin = R$ 1,00 &nbsp;|&nbsp; Saldo: <font color=\"LEVEL\">").append(saldo).append(" Ikoins</font></font>");
-		c.append("</td></tr></table></center><br>");
-		c.append("<center><img src=\"L2UI.SquareGray\" width=500 height=1></center><br>");
-		if (!msg.isEmpty()) { c.append("<center>").append(msg).append("</center><br>"); }
-		// form centralizado
-		c.append("<center><table cellspacing=4>");
-		c.append("<tr><td align=right><font color=\"aaaaaa\">Quantidade (min 10, max 5000):</font></td>");
-		c.append("<td><edit var=\"ikoins\" width=100 height=15></td></tr>");
-		c.append("</table></center><br>");
-		c.append("<center><button value=\"Gerar QR PIX\" action=\"bypass _bbsika_ikoin_pix_create_$ikoins\" width=200 height=33 ");
-		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"></center><br><br>");
-		c.append("<center><img src=\"L2UI.SquareGray\" width=500 height=1></center><br>");
-		c.append("<center><font color=\"888888\">Prefere cartao de credito? Acesse:</font></center>");
-		c.append("<center><font color=\"LEVEL\">l2ikarus.com/checkout</font></center>");
-		c.append("<center><font color=\"888888\">(entre com sua conta e escolha o pacote)</font></center>");
+		c.append("<table width=540 cellpadding=0 cellspacing=0>");
+		// titulo
+		c.append("<tr><td height=12></td></tr>");
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">COMPRAR IKOINS</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+		// saldo
+		c.append("<tr><td align=center><font color=\"888888\">1 Ikoin = R$ 1,00 &nbsp;|&nbsp; Saldo: <font color=\"CDB67F\">").append(saldo).append(" Ikoins</font></font></td></tr>");
+		c.append("<tr><td height=14></td></tr>");
+		// mensagem de erro/status
+		if (!msg.isEmpty())
+		{
+			c.append("<tr><td align=center>").append(msg).append("</td></tr>");
+			c.append("<tr><td height=8></td></tr>");
+		}
+		// form PIX
+		c.append("<tr><td align=center><font color=\"aaaaaa\">Quantidade de Ikoins (minimo 10, maximo 5000)</font></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td align=center>");
+		c.append("<table cellspacing=0 cellpadding=0><tr>");
+		c.append("<td><edit var=\"ikoins\" width=140 height=18></td>");
+		c.append("<td width=8></td>");
+		c.append("<td><button value=\"Gerar QR PIX\" action=\"bypass _bbsika_ikoin_pix_create $ikoins\" width=180 height=30 align=center ");
+		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"></td>");
+		c.append("</tr></table>");
+		c.append("</td></tr>");
+		c.append("<tr><td height=18></td></tr>");
+		// separador
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		c.append("<tr><td height=14></td></tr>");
+		// cartao de credito
+		c.append("<tr><td align=center><font color=\"888888\">Prefere pagar com cartao de credito?</font></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td align=center>");
+		c.append("<a action=\"link https://l2ikarus.com/checkout\">");
+		c.append("<button value=\"Abrir site para comprar\" width=220 height=30 align=center ");
+		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
+		c.append("</a>");
+		c.append("</td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td align=center><font color=\"555555\">Faca login no site e escolha o pacote</font></td></tr>");
+		c.append("</table>");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("comprar"), c.toString()), player);
 	}
 
