@@ -86,14 +86,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	// ===== START PACKS (formato "itemId:count;itemId:count") =====
 	// FREE (Basic): resgate gratis, 1x por personagem.
 	private static final String BASIC_START_ITEMS =
-		"94268:250;94270:250;104173:100;91912:5000;49854:500;49081:1000;71967:1;90960:1000;3031:3000";
+		"94268:250;94270:250;91912:5000;49854:500;49081:1000;71967:1;3031:3000";
 	// RARO: comprado com Ikoin, ILIMITADO.
 	private static final String RARO_PACK_ITEMS =
-		"94268:700;94270:700;104173:500;91912:7000;49854:1000;49081:2000;71967:1;90834:1;91219:3000;72191:1;72289:1;3031:5000";
+		"94268:700;94270:700;91912:7000;49854:1000;49081:2000;71967:1;90834:1;72191:1;72289:1;3031:5000";
 	private static final int RARO_PACK_COST = 70;
 	// FUNDADOR (ex-Lendario): comprado com Ikoin, ILIMITADO.
 	private static final String FUNDADOR_PACK_ITEMS =
-		"94268:1500;94270:1500;104173:1000;91912:15000;49854:2500;49081:3000;71967:1;90834:1;91827:5000;98236:1;72192:1;72289:1;3031:10000";
+		"94268:1500;94270:1500;91912:15000;49854:2500;49081:3000;71967:1;90834:1;91827:5000;98236:1;72192:1;72289:1;3031:10000";
 	private static final int FUNDADOR_PACK_COST = 200;
 
 	// Premium Account: 50 Ikoin = 30 dias. Por CONTA. Nao pode acumular (so recompra apos expirar).

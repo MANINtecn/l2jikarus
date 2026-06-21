@@ -774,4 +774,57 @@
 			<chanceRoll dollId="93" chance="25" /> <!-- Rare Glakias Doll -->
 		</chanceRollGroups>
 	</coupon>
+	<!-- Doll Summon Coupon (Heroic) - 1 time: sorteia 1 doll heroico -->
+	<coupon itemId="101214" summonCount="1">
+		<chanceGroups>
+			<group grade="HEROIC" chance="100" />
+		</chanceGroups>
+	</coupon>
+	<!-- Doll Summon Coupon (Common - Heroic) - 11-time: sorteia 11 dolls, gradiente Common até Heroic -->
+	<coupon itemId="102943" summonCount="11">
+		<chanceGroups>
+			<group grade="COMMON" chance="60" />
+			<group grade="ENHANCED" chance="20" />
+			<group grade="SUPERIOR" chance="10" />
+			<group grade="RARE" chance="7" />
+			<group grade="HEROIC" chance="3" />
+		</chanceGroups>
+	</coupon>
+	<!-- Doll Summon Coupon (Common - Heroic) - 1 time -->
+	<coupon itemId="102993" summonCount="1">
+		<chanceGroups>
+			<group grade="COMMON" chance="60" />
+			<group grade="ENHANCED" chance="20" />
+			<group grade="SUPERIOR" chance="10" />
+			<group grade="RARE" chance="7" />
+			<group grade="HEROIC" chance="3" />
+		</chanceGroups>
+	</coupon>
+	<coupon itemId="103139" summonCount="11">
+		<chanceGroups>
+			<group grade="COMMON" chance="60" />
+			<group grade="ENHANCED" chance="20" />
+			<group grade="SUPERIOR" chance="10" />
+			<group grade="RARE" chance="7" />
+			<group grade="HEROIC" chance="3" />
+		</chanceGroups>
+	</coupon>
+	<coupon itemId="103232" summonCount="1">
+		<chanceGroups>
+			<group grade="COMMON" chance="60" />
+			<group grade="ENHANCED" chance="20" />
+			<group grade="SUPERIOR" chance="10" />
+			<group grade="RARE" chance="7" />
+			<group grade="HEROIC" chance="3" />
+		</chanceGroups>
+	</coupon>
+	<coupon itemId="103233" summonCount="11">
+		<chanceGroups>
+			<group grade="COMMON" chance="60" />
+			<group grade="ENHANCED" chance="20" />
+			<group grade="SUPERIOR" chance="10" />
+			<group grade="RARE" chance="7" />
+			<group grade="HEROIC" chance="3" />
+		</chanceGroups>
+	</coupon>
 </list>

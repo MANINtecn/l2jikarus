@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="88300" toLevel="1" name="Chaos">
 		<!-- <font color="FED7A0">Base effect</font>. Summons the power of chaos. Deals M. damage to the target and nearby enemies. Power 380. Applies a random Chaos debuff. Enemies with debuffs/ anomalies receive more damage. <font color="FF6666">Chaos</font>. - Rust: P. Atk. -20%/ M. Atk. -20%. - Mana Parasite: Skill MP Consumption +150%. - Abyss Time: Skill cooldown +50%. Duration: 7 sec. The target with a Chaos debuff applied cannot be affected by another Chaos debuff for 12 sec. PvP: Attacks up to 12 targets. PvE: Attacks up to 12 targets. -->
@@ -1720,6 +1720,8 @@
 		<!-- Level 20: Attacks with a huge fireball recovering HP with a certain chance. Deals M. damage. Power 189. With a 30% chance, recovers 200 HP. -->
 		<icon>icon.skill11024</icon>
 		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
 		<castRange>700</castRange>
 		<hitTime>4000</hitTime>
 		<reuseDelay>1000</reuseDelay>
@@ -1767,6 +1769,37 @@
 			<value level="19">77</value>
 			<value level="20">80</value>
 		</mpConsume>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>
+					<value level="1">16</value>
+					<value level="2">32</value>
+					<value level="3">84</value>
+					<value level="4">90</value>
+					<value level="5">97</value>
+					<value level="6">106</value>
+					<value level="7">114</value>
+					<value level="8">126</value>
+					<value level="9">137</value>
+					<value level="10">147</value>
+					<value level="11">151</value>
+					<value level="12">155</value>
+					<value level="13">160</value>
+					<value level="14">166</value>
+					<value level="15">173</value>
+					<value level="16">176</value>
+					<value level="17">179</value>
+					<value level="18">182</value>
+					<value level="19">185</value>
+					<value level="20">189</value>
+				</power>
+			</effect>
+		</effects>
+		<selfEffects>
+			<effect name="Heal" chance="30">
+				<power>200</power>
+			</effect>
+		</selfEffects>
 	</skill>
 	<skill id="88353" toLevel="1" name="Drain Effect">
 		<icon>icon.skill11024</icon>

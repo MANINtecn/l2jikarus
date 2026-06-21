@@ -3644,6 +3644,11 @@
 		</mpConsume>
 		<mpInitialConsume>8</mpInitialConsume>
 		<reuseDelay>15000</reuseDelay>
+		<conditions>
+			<condition name="TargetNotAffectedBySkill">
+				<skillId>792</skillId>
+			</condition>
+		</conditions>
 		<effects>
 			<effect name="MagicCriticalDamage">
 				<amount>

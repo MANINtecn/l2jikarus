@@ -2635,6 +2635,11 @@
 			<value level="15">55</value>
 		</mpConsume>
 		<reuseDelay>3000</reuseDelay>
+		<conditions>
+			<condition name="TargetNotAffectedBySkill">
+				<skillId>1539</skillId>
+			</condition>
+		</conditions>
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>
