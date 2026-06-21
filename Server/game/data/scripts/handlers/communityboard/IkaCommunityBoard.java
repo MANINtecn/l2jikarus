@@ -203,6 +203,13 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			String type = command.replace("_bbsika_rankings", "").replace("_", "");
 			showRankingsPage(player, type.isEmpty() ? "level" : type);
 		}
+		else if (command.startsWith("_bbsika_referal_inspect_"))
+		{
+			String name = command.replace("_bbsika_referal_inspect_", "").trim();
+			if (name.startsWith("$") || name.isEmpty())
+				name = "";
+			showReferralPageWithInspect(player, name);
+		}
 		else if (command.startsWith("_bbsika_inspect_"))
 		{
 			String name = command.replace("_bbsika_inspect_", "").trim();
@@ -711,12 +718,11 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		n.append("<tr><td height=10></td></tr>");
 		n.append(navBtn("Home", "_bbshome", "L2EssenceCommunity.home_btn", active.equals("home")));
 		n.append(navBtn("Auto Potion", "_bbsika_setmp_0_open", "L2EssenceCommunity.gmshop_btn", active.equals("auto")));
-		n.append(navBtn("Referral", "_bbsika_referal_open", "L2EssenceCommunity.buffer_btn", active.equals("referral")));
+		n.append(navBtn("Referral / Inspecionar", "_bbsika_referal_open", "L2EssenceCommunity.buffer_btn", active.equals("referral")));
 		n.append(navBtn("Voice", "_bbshome", "L2EssenceCommunity.teleport_btn", active.equals("voice")));
 		n.append(navBtn("Account", "_bbsika_account", "L2EssenceCommunity.acc_services_btn", active.equals("account")));
 		n.append(navBtn("Comprar Ikoin", "_bbsika_comprar", "L2EssenceCommunity.donate_items_btn", active.equals("comprar")));
 		n.append(navBtn("Rankings", "_bbsika_rankings", "L2EssenceCommunity.rankings_btn", active.equals("rankings")));
-		n.append(navBtn("Inspecionar", "_bbsika_inspect", "L2EssenceCommunity.itembroker_btn", active.equals("inspect")));
 		n.append("</table>");
 		return n.toString();
 	}
@@ -1053,10 +1059,93 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td align=center><font color=\"696969\">Codigos liberados em lives de streamers e eventos oficiais.</font></td></tr>");
 		c.append("<tr><td height=4></td></tr>");
 		c.append("<tr><td align=center><font color=\"696969\">Cada codigo so pode ser resgatado uma vez por conta.</font></td></tr>");
+		c.append("<tr><td height=28></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=18></td></tr>");
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">INSPECIONAR JOGADOR</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=14></td></tr>");
+		c.append("<tr><td align=center><font color=\"888888\">Digite o nome do jogador e clique em BUSCAR:</font></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td align=center>");
+		c.append("<table cellpadding=0 cellspacing=0><tr>");
+		c.append("<td><edit var=\"inspectName\" width=240 height=20 length=\"50\"></td>");
+		c.append("<td width=8></td>");
+		c.append("<td><button value=\"BUSCAR\" action=\"bypass _bbsika_referal_inspect_$inspectName\" width=110 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\"></td>");
+		c.append("</tr></table>");
+		c.append("</td></tr>");
+		c.append("<tr><td height=18></td></tr>");
 		c.append("</table>");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("referral"), c.toString()), player);
 	}
 
+
+	private void showReferralPageWithInspect(Player player, String targetName)
+	{
+		// Renderiza a pagina de referral + inspecionar com resultado da busca abaixo
+		StringBuilder extra = new StringBuilder();
+		if (!targetName.isEmpty())
+		{
+			Player target = World.getInstance().getPlayer(targetName);
+			if (target != null)
+				buildInspectFromPlayer(extra, target);
+			else
+				buildInspectFromDB(extra, targetName);
+		}
+		// Injeta o resultado no final da pagina reutilizando showReferralPage com append
+		// Chama showReferralPage normalmente e adiciona o bloco de resultado
+		showReferralPageInspectResult(player, targetName, extra.toString());
+	}
+
+	private void showReferralPageInspectResult(Player player, String targetName, String inspectResult)
+	{
+		StringBuilder c = new StringBuilder();
+		c.append("<table width=530 cellpadding=0 cellspacing=0>");
+		c.append("<tr><td height=18></td></tr>");
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">CODIGO REFERRAL / PROMO</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=18></td></tr>");
+		c.append("<tr><td align=center><font color=\"888888\">Digite seu codigo abaixo e clique em RESGATAR:</font></td></tr>");
+		c.append("<tr><td height=12></td></tr>");
+		c.append("<tr><td align=center>");
+		c.append("<table cellpadding=0 cellspacing=0><tr>");
+		c.append("<td><edit var=\"refCode\" width=240 height=20 length=\"30\"></td>");
+		c.append("<td width=8></td>");
+		c.append("<td><button value=\"RESGATAR\" action=\"bypass _bbsika_referal $refCode\" width=110 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\"></td>");
+		c.append("</tr></table>");
+		c.append("</td></tr>");
+		c.append("<tr><td height=20></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td align=center><font color=\"888888\">Tambem funciona no chat do jogo: <font color=\"CDB67F\">.code SEUCODIGO</font></font></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td align=center><font color=\"696969\">Codigos liberados em lives de streamers e eventos oficiais.</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td align=center><font color=\"696969\">Cada codigo so pode ser resgatado uma vez por conta.</font></td></tr>");
+		c.append("<tr><td height=28></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=18></td></tr>");
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">INSPECIONAR JOGADOR</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
+		c.append("<tr><td height=14></td></tr>");
+		c.append("<tr><td align=center><font color=\"888888\">Digite o nome do jogador e clique em BUSCAR:</font></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td align=center>");
+		c.append("<table cellpadding=0 cellspacing=0><tr>");
+		c.append("<td><edit var=\"inspectName\" width=240 height=20 length=\"50\"></td>");
+		c.append("<td width=8></td>");
+		c.append("<td><button value=\"BUSCAR\" action=\"bypass _bbsika_referal_inspect_$inspectName\" width=110 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\"></td>");
+		c.append("</tr></table>");
+		c.append("</td></tr>");
+		c.append("<tr><td height=18></td></tr>");
+		c.append("</table>");
+		if (!inspectResult.isEmpty())
+			c.append(inspectResult);
+		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("referral"), c.toString()), player);
+	}
 
 	// ======== RANKINGS ========
 
