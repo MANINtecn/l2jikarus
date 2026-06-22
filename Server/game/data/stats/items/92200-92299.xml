@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="92200" name="Coral Jewelry Box Lv. 6" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
@@ -800,6 +800,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="7700" />
 		<set name="is_tradable" val="false" />
@@ -832,6 +833,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="9580" />
 		<set name="is_tradable" val="false" />
@@ -864,6 +866,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="3320" />
 		<set name="is_tradable" val="false" />
@@ -894,6 +897,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="570" />
 		<set name="is_tradable" val="false" />
@@ -917,6 +921,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="570" />
 		<set name="is_tradable" val="false" />
@@ -940,6 +945,7 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1190" />
 		<set name="is_tradable" val="false" />
@@ -974,6 +980,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="9780" />
 		<set name="is_tradable" val="false" />
@@ -1006,6 +1013,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="9200" />
 		<set name="is_tradable" val="false" />
@@ -1038,6 +1046,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="4300" />
 		<set name="is_tradable" val="false" />
@@ -1070,6 +1079,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1480" />
 		<set name="is_tradable" val="false" />
@@ -1102,6 +1112,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5400" />
 		<set name="is_tradable" val="false" />
@@ -1134,6 +1145,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5300" />
 		<set name="is_tradable" val="false" />
@@ -1166,6 +1178,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5350" />
 		<set name="is_tradable" val="false" />
@@ -1198,6 +1211,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1860" />
 		<set name="is_tradable" val="false" />
@@ -1231,6 +1245,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="920" />
 		<set name="is_tradable" val="false" />
@@ -1264,6 +1279,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="2450" />
 		<set name="is_tradable" val="false" />
@@ -1297,6 +1313,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="2300" />
 		<set name="is_tradable" val="false" />
@@ -1330,6 +1347,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="2330" />
 		<set name="is_tradable" val="false" />
@@ -1361,6 +1379,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="560" />
 		<set name="is_tradable" val="false" />
@@ -1378,6 +1397,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="550" />
 		<set name="is_tradable" val="false" />
@@ -1401,6 +1421,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="580" />
 		<set name="is_tradable" val="false" />
@@ -1418,6 +1439,7 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1180" />
 		<set name="is_tradable" val="false" />
@@ -1451,6 +1473,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="580" />
 		<set name="is_tradable" val="false" />
@@ -1482,6 +1505,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="580" />
 		<set name="is_tradable" val="false" />
@@ -1513,6 +1537,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="580" />
 		<set name="is_tradable" val="false" />
@@ -1544,6 +1569,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="580" />
 		<set name="is_tradable" val="false" />
@@ -1575,6 +1601,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="580" />
 		<set name="is_tradable" val="false" />
@@ -1606,6 +1633,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="580" />
 		<set name="is_tradable" val="false" />
@@ -1637,6 +1665,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="550" />
 		<set name="is_tradable" val="false" />
@@ -1668,6 +1697,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="550" />
 		<set name="is_tradable" val="false" />
@@ -1699,6 +1729,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="550" />
 		<set name="is_tradable" val="false" />
@@ -1730,6 +1761,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="is_tradable" val="false" />
@@ -1761,6 +1793,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="is_tradable" val="false" />
@@ -1792,6 +1825,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="is_tradable" val="false" />
@@ -1823,6 +1857,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1110" />
 		<set name="is_tradable" val="false" />
@@ -1854,6 +1889,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1110" />
 		<set name="is_tradable" val="false" />
@@ -1885,6 +1921,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1110" />
 		<set name="is_tradable" val="false" />
@@ -1916,6 +1953,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1130" />
 		<set name="is_tradable" val="false" />
@@ -1947,6 +1985,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1130" />
 		<set name="is_tradable" val="false" />
@@ -1978,6 +2017,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1130" />
 		<set name="is_tradable" val="false" />
@@ -2009,6 +2049,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1110" />
 		<set name="is_tradable" val="false" />
@@ -2040,6 +2081,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1110" />
 		<set name="is_tradable" val="false" />
@@ -2071,6 +2113,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1110" />
 		<set name="is_tradable" val="false" />
@@ -2102,6 +2145,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1110" />
 		<set name="is_tradable" val="false" />
@@ -2133,6 +2177,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1110" />
 		<set name="is_tradable" val="false" />

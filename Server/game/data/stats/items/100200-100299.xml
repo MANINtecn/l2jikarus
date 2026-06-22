@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="100200" name="Aden's Transcendent Soul Crystal Lv. 2 - Armor" type="EtcItem">
 		<!-- Double-click to imbue <font color=eeaa22>armor</font> with one soul crystal property of your choice. Combat power 4. <font color=bbaa88><Compounding></font>. Materials: Transcendent Upgrade Stone. In case of failure, the <font color=ff6666>soul crystal and materials disappear</font>. <font color=ff6666>Cannot be used for enhancing sigils/ shields/ sealed equipment.</font> -->
@@ -129,6 +129,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="560" />
 		<set name="enchant_enabled" val="true" />
@@ -163,6 +164,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="560" />
 		<set name="enchant_enabled" val="true" />

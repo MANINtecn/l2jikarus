@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="94600" name="Package: +5 Majestic Circlet (Light)" additionalName="Sealed" type="EtcItem">
 		<!-- <font color=eeaa22><Light armor></font>. Double-click to obtain +5 A-grade Majestic Circlet (Light). -->
@@ -1017,6 +1017,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="205" />
 		<set name="soulshots" val="1" />
@@ -1040,6 +1041,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="144" />
 		<set name="soulshots" val="1" />
@@ -1063,6 +1065,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="200" />
 		<set name="is_dropable" val="false" />
@@ -1081,6 +1084,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="250" />
 		<set name="soulshots" val="1" />
@@ -1104,6 +1108,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="144" />
 		<set name="soulshots" val="1" />

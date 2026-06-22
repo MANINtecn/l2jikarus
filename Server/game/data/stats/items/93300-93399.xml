@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="93300" name="Einhasad's Pendant Lv. 5" additionalName="Sealed" type="Armor">
 		<!-- A pendant imbued with Einhasad's power. M. Def. +150. Acquired XP +35%. Acquired SP +35%. Received damage -25%. Atk. Spd. +10%. Casting Spd. +10%. Basic Critical Damage +10%. M. Skill Critical Damage +10%. P. Atk. +15%. M. Atk. +15%. <font color=bbaa88><Active skill></font>. Invocation Lv. 1. Buff: Speed +33. Recovers 333 HP/ 167 MP every 3.3 sec. Duration: 15 sec. (Guardians cannot use Invocation.) -->
@@ -271,6 +271,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="4300" />
 		<set name="enchant_enabled" val="true" />
@@ -305,6 +306,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1480" />
 		<set name="enchant_enabled" val="true" />
@@ -339,6 +341,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="4300" />
 		<set name="enchant_enabled" val="true" />
@@ -375,6 +378,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1480" />
 		<set name="enchant_enabled" val="true" />

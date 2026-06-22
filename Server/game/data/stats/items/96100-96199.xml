@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="96100" name="Shining Mysterious Box (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Mysterious Box that has lost all its power. Double-click to obtain the following items. -->
@@ -411,6 +411,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1300" />
 		<set name="price" val="26968400" />
@@ -436,6 +437,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="820" />
 		<set name="price" val="26968400" />
@@ -462,6 +464,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="930" />
 		<set name="price" val="26968400" />
@@ -479,7 +482,7 @@
 			<stat type="pAtkRange">40</stat>
 		</stats>
 	</item>
-	<item id="96128" name="Éclair Bijou (Time-limited)" additionalName="Sealed" type="Weapon">
+	<item id="96128" name="Ã‰clair Bijou (Time-limited)" additionalName="Sealed" type="Weapon">
 		<!-- Cannot be enchanted or augmented. No soul crystal can be inserted. Cannot be equipped on a guardian. <font color=eeaa22><Permanent item craft></font>. The sealed item can be created in the Weapons tab of the special craft UI. <font color=ff6666><Unavailable to Orcs/ Dwarves/ Sylphs></font> -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="EQUIP" />
@@ -487,6 +490,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
 		<set name="price" val="26968400" />
@@ -512,6 +516,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1820" />
 		<set name="price" val="26968400" />
@@ -537,6 +542,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="26968400" />
@@ -562,6 +568,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1890" />
 		<set name="price" val="26968400" />
@@ -587,6 +594,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1550" />
 		<set name="price" val="26968400" />
@@ -612,6 +620,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
 		<set name="price" val="26968400" />
@@ -638,6 +647,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1890" />
 		<set name="price" val="26968400" />
@@ -663,6 +673,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="880" />
 		<set name="price" val="26968400" />
@@ -689,6 +700,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1640" />
 		<set name="price" val="26968400" />
@@ -717,6 +729,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1330" />
 		<set name="price" val="26968400" />
@@ -742,6 +755,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1820" />
 		<set name="price" val="26968400" />
@@ -770,6 +784,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1640" />
 		<set name="price" val="26968400" />
@@ -859,7 +874,7 @@
 			<item id="96127" min="1" max="1" minEnchant="5" maxEnchant="5" chance="100" /> <!-- Naga's Storm (Time-limited) - Sealed -->
 		</capsuled_items>
 	</item>
-	<item id="96145" name="Support Box: +5 Éclair Bijou (Time-limited)" additionalName="Sealed" type="EtcItem">
+	<item id="96145" name="Support Box: +5 Ã‰clair Bijou (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain the following. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="PEEL" />
@@ -872,7 +887,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="96128" min="1" max="1" minEnchant="5" maxEnchant="5" chance="100" /> <!-- Éclair Bijou (Time-limited) - Sealed -->
+			<item id="96128" min="1" max="1" minEnchant="5" maxEnchant="5" chance="100" /> <!-- Ã‰clair Bijou (Time-limited) - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="96146" name="Support Box: +5 Sword of Ipos (Time-limited)" additionalName="Sealed" type="EtcItem">
@@ -1101,7 +1116,7 @@
 			<item id="92959" min="1" max="1" minEnchant="5" maxEnchant="5" chance="100" /> <!-- Naga's Storm - Sealed -->
 		</capsuled_items>
 	</item>
-	<item id="96160" name="Package: +5 Éclair Bijou (Time-limited)" additionalName="Sealed" type="EtcItem">
+	<item id="96160" name="Package: +5 Ã‰clair Bijou (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. <font color=eeaa22><Recommended class>. Soul Hound</font> -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="PEEL" />
@@ -1114,7 +1129,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="92970" min="1" max="1" minEnchant="5" maxEnchant="5" chance="100" /> <!-- Éclair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" minEnchant="5" maxEnchant="5" chance="100" /> <!-- Ã‰clair Bijou - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="96161" name="Package: +5 Sword of Ipos (Time-limited)" additionalName="Sealed" type="EtcItem">

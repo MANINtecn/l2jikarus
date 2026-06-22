@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="103700" name="+9 Talisman of Authority Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Can be exchanged for +9 Talisman of Authority Pack or for +9 Special Equipment Pack (the latter for 700 Giran Seals). -->
@@ -634,7 +634,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="103759" name="Stable Scroll: Enchant Rare Accessories (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for safe enchantment of rare accessories starting from +4. <font color=eeaa22><Enchant success rate></font>. 4 → 5: 0.1%. 5 → 6: 0.1%. <font color=eeaa22>In case of failure, the item's enchant value remains the same. <Only for rare accessories enchanted to +4 and higher.></font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhancement effects cannot be used.</font> -->
+		<!-- A scroll for safe enchantment of rare accessories starting from +4. <font color=eeaa22><Enchant success rate></font>. 4 â†’ 5: 0.1%. 5 â†’ 6: 0.1%. <font color=eeaa22>In case of failure, the item's enchant value remains the same. <Only for rare accessories enchanted to +4 and higher.></font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhancement effects cannot be used.</font> -->
 		<set name="icon" val="icon.etc_stable_scrl_of_ench_fallen_angel_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -645,7 +645,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="103760" name="Stable Scroll: Enchant Rare Accessories (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for safe enchantment of rare accessories starting from +4. <font color=eeaa22><Enchant success rate></font>. 4 → 5: 0.1%. 5 → 6: 0.1%. <font color=eeaa22>In case of failure, the item's enchant value remains the same. <Only for rare accessories enchanted to +4 and higher.></font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhancement effects cannot be used.</font> -->
+		<!-- A scroll for safe enchantment of rare accessories starting from +4. <font color=eeaa22><Enchant success rate></font>. 4 â†’ 5: 0.1%. 5 â†’ 6: 0.1%. <font color=eeaa22>In case of failure, the item's enchant value remains the same. <Only for rare accessories enchanted to +4 and higher.></font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhancement effects cannot be used.</font> -->
 		<set name="icon" val="icon.etc_stable_scrl_of_ench_fallen_angel_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />

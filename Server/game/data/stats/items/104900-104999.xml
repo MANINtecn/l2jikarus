@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="104900" name="MEN Pattern Dye (Sealed)" additionalName="Lv. 25" type="EtcItem">
 		<!-- Required for applying MEN Pattern. <font color=bbaa88><Effect></font>. MEN +6. <font color=bbaa88><Bonus effect></font>. M. Def. +410. Received M. Skill Damage -2.25%. <font color=bbaa88><Pattern enhancement and compounding></font>. Enhancement materials: Superior Dye Booster. In case of failure, the current level remains the same, but materials disappear. <font color=ff6666>Note!</font>. Applying the pattern requires 1 dye. Requirements: All classes after the 1st class change -->
@@ -832,6 +832,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2090" />
 		<set name="price" val="1800000" />
@@ -860,6 +861,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1380" />
 		<set name="price" val="6130000" />
@@ -888,6 +890,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1930" />
 		<set name="price" val="13100000" />
@@ -917,6 +920,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1820" />
 		<set name="price" val="26968400" />
@@ -946,6 +950,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="1" />
@@ -974,6 +979,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="1" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="93200" name="Random Enhanced Tallum Leather Armor Crafting" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
@@ -1405,7 +1405,7 @@
 			<item id="8688" min="1" max="1" minEnchant="5" maxEnchant="5" chance="7.142857" /> <!-- Daimon Crystal -->
 			<item id="8938" min="1" max="1" minEnchant="5" maxEnchant="5" chance="7.142857" /> <!-- Tallum Blade*Damascus Sword -->
 			<item id="91887" min="1" max="1" minEnchant="5" maxEnchant="5" chance="7.142857" /> <!-- Durendal -->
-			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="7.142857" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="7.142857" /> <!-- Ã‰clair Bijou -->
 		</capsuled_items>
 	</item>
 	<item id="93264" name="Package: Sayha's Blessing (5 pcs.)" additionalName="Sealed" type="EtcItem">
@@ -1463,7 +1463,7 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
-		<capsuled_items>‬
+		<capsuled_items>â€¬
 			<item id="92997" min="1" max="1" chance="11.117" /> <!-- Old Unknown Resources - Sealed -->
 			<item id="91763" min="1" max="1" chance="11.11" /> <!-- PA Coin - Sealed -->
 			<item id="90405" min="1" max="1" chance="11.11" /> <!-- My Teleport Scroll - Sealed -->
@@ -1997,6 +1997,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1300" />
 		<set name="soulshots" val="1" />
@@ -2048,6 +2049,7 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1640" />
 		<set name="soulshots" val="2" />
@@ -2100,6 +2102,7 @@
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="1" />
@@ -2149,6 +2152,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="930" />
 		<set name="soulshots" val="1" />

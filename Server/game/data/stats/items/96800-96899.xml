@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="96800" name="+0 ~ +5 Talisman of Eva Pack" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
@@ -128,6 +128,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="100" />
 		<set name="is_tradable" val="false" />
@@ -143,6 +144,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="100" />
 		<set name="is_tradable" val="false" />
@@ -158,6 +160,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="100" />
 		<set name="is_tradable" val="false" />
@@ -166,13 +169,14 @@
 		<set name="enchant_enabled" val="true" />
 	</item>
 	<item id="96810" name="Ancient Armor - B-grade (Time-limited)" additionalName="Sealed" type="Armor">
-		<!-- Can be used to replace some items in the following collections. <font color=bbaa88><Attack></font>. Ghoul's Embrace: Avadon Robe. <font color=bbaa88><Defense></font>. All Too Easy: Zubei's Tunic, Zubei's Leather Shirt, Zubei's Leather Gaiters. B-grade and Tallum Armor: Zubei's Boots (Robe). Fashion Fanatic Ⅰ: Avadon Boots (Robe). <font color=EEAA22>Can be enchanted with an enchant scroll of the corresponding grade.</font> -->
+		<!-- Can be used to replace some items in the following collections. <font color=bbaa88><Attack></font>. Ghoul's Embrace: Avadon Robe. <font color=bbaa88><Defense></font>. All Too Easy: Zubei's Tunic, Zubei's Leather Shirt, Zubei's Leather Gaiters. B-grade and Tallum Armor: Zubei's Boots (Robe). Fashion Fanatic â… : Avadon Boots (Robe). <font color=EEAA22>Can be enchanted with an enchant scroll of the corresponding grade.</font> -->
 		<set name="icon" val="icon.pirate_crew_change" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="100" />
 		<set name="is_tradable" val="false" />
@@ -188,6 +192,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="100" />
 		<set name="is_tradable" val="false" />
@@ -203,6 +208,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="100" />
 		<set name="is_tradable" val="false" />
@@ -218,6 +224,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="100" />
 		<set name="is_tradable" val="false" />
@@ -233,6 +240,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="100" />
 		<set name="soulshots" val="1" />
@@ -257,6 +265,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="100" />
 		<set name="soulshots" val="1" />
@@ -281,6 +290,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="100" />
 		<set name="soulshots" val="1" />
@@ -305,6 +315,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="100" />
 		<set name="soulshots" val="1" />
@@ -329,6 +340,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="100" />
 		<set name="soulshots" val="1" />
@@ -1105,6 +1117,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1280" />
 		<set name="soulshots" val="1" />
@@ -1125,6 +1138,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2090" />
 		<set name="soulshots" val="1" />

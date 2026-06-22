@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="90100" name="Scroll: Block Wind Walk" type="EtcItem">
 		<!-- A scroll for learning the Block Wind Walk skill. <Class>. Hierophant. <Skill effect>. Prevents the enemy from getting buffs that increase Speed. -->
@@ -485,6 +485,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2340" />
 		<set name="soulshots" val="1" />
@@ -513,6 +514,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1010" />
 		<set name="soulshots" val="1" />
@@ -543,6 +545,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="HORN" />
 		<set name="weight" val="1740" />
 		<set name="soulshots" val="2" />
@@ -573,6 +576,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1010" />
 		<set name="soulshots" val="1" />
@@ -602,6 +606,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2010" />
 		<set name="soulshots" val="1" />

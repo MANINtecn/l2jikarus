@@ -618,6 +618,16 @@
 				<item id="103956" count="1" />
 			</cost>
 		</style>
+		<style styleId="11" name="Kill Effect - Fafurion's Energy" skillId="40630" skillLevel="1">
+			<cost>
+				<item id="105295" count="1" />
+			</cost>
+		</style>
+		<style styleId="12" name="Kill Effect - Antharas' Energy" skillId="40668" skillLevel="1">
+			<cost>
+				<item id="105293" count="1" />
+			</cost>
+		</style>
 	</category>
 	<category id="2" type="CHAT_BACKGROUND" swapCostId="57" swapCostCount="1">
 		<style styleId="1" name="Name Background - Flowers">
@@ -633,6 +643,11 @@
 		<style styleId="3" name="Name Background - Golden">
 			<cost>
 				<item id="100546" count="1" />
+			</cost>
+		</style>
+		<style styleId="4" name="Name Background - Summer Sea">
+			<cost>
+				<item id="104365" count="1" />
 			</cost>
 		</style>
 	</category>

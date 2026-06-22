@@ -26,5 +26,24 @@
 		<visual id="94038" weaponType="DUALDAGGER" handType="TWO_HANDED" />
 		<visual id="94039" weaponType="DUALBLUNT" handType="TWO_HANDED" />
 	</appearance_stone>
-	<appearance_stone id="94044" targetType="ARMOR" type="FIXED" visualId="94040" bodyPart="alldress" /> <!-- Appearance Stone: Dark Assassin Suit -->
+	<!-- Appearance Stone: Dark Assassin Suit (full costume - visual: item 94040) -->
+	<appearance_stone id="94044" targetType="ARMOR" type="FIXED" visualId="94040">
+		<bodyPart>chest</bodyPart>
+		<bodyPart>onepiece</bodyPart>
+		<bodyPart>fullarmor</bodyPart>
+		<bodyPart>alldress</bodyPart>
+	</appearance_stone>
+
+	<!-- Appearance Stone: Assassin's Dagger (weapon skin - visual: item 98622) -->
+	<appearance_stone id="98623" targetType="WEAPON" type="FIXED">
+		<visual id="98622" weaponType="DAGGER" handType="ONE_HANDED" />
+	</appearance_stone>
+
+	<!-- Appearance Stone: Formal Wear (full costume - visual: item 93415, era Essence) -->
+	<appearance_stone id="98627" targetType="ARMOR" type="FIXED" visualId="93415">
+		<bodyPart>chest</bodyPart>
+		<bodyPart>onepiece</bodyPart>
+		<bodyPart>fullarmor</bodyPart>
+		<bodyPart>alldress</bodyPart>
+	</appearance_stone>
 </list>

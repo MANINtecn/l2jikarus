@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="6611" name="Infinity Sword" additionalName="Sealed" type="Weapon">
 		<!-- The Hero's sacred weapon. Grants a special property that enables the Infinity Power skill. Deals additional PvP damage. Infinity Sword's special property: When equipped, Max HP +20%, Max MP +15%, Max CP +30%, P. Atk. +10%, Atk. Spd. +5%. Infinity Power - Reflect: For 5 min., Damage Reflection +8%. -->
@@ -71,7 +71,7 @@
 		</skills>
 	</item>
 	<item id="6613" name="Infinity Axe" additionalName="Sealed" type="Weapon">
-		<!-- The Hero's sacred weapon. Grants a special property that enables the Infinity Power skill. Deals additional PvP damage. Infinity Axe's special property: Max HP +20%, Max MP +15%, Max CP +30%, P. Atk. +10%, Atk. Spd. +5%. Infinity Power - Tenacity: For 2 min., reflects 10% of received damage back to the enemy. Recovers НР. -->
+		<!-- The Hero's sacred weapon. Grants a special property that enables the Infinity Power skill. Deals additional PvP damage. Infinity Axe's special property: Max HP +20%, Max MP +15%, Max CP +30%, P. Atk. +10%, Atk. Spd. +5%. Infinity Power - Tenacity: For 2 min., reflects 10% of received damage back to the enemy. Recovers ÐÐ . -->
 		<set name="icon" val="icon.weapon_the_axe_of_hero_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -326,7 +326,7 @@
 		</skills>
 	</item>
 	<item id="6621" name="Infinity Spear" additionalName="Sealed" type="Weapon">
-		<!-- The Hero's sacred weapon. Grants a special property that enables the Infinity Power skill. Deals additional PvP damage. Infinity Spear's special property: Max HP +20%, Max MP +15%, Max CP +30%, P. Atk. +10%, P. Critical Damage +10%. Infinity Power - Tenacity: For 2 min., reflects 10% of received damage back to the enemy. Recovers НР. -->
+		<!-- The Hero's sacred weapon. Grants a special property that enables the Infinity Power skill. Deals additional PvP damage. Infinity Spear's special property: Max HP +20%, Max MP +15%, Max CP +30%, P. Atk. +10%, P. Critical Damage +10%. Infinity Power - Tenacity: For 2 min., reflects 10% of received damage back to the enemy. Recovers ÐÐ . -->
 		<set name="icon" val="icon.weapon_the_pole_of_hero_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
@@ -497,6 +497,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7620" />
 		<set name="price" val="12781000" />
@@ -513,6 +514,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="3260" />
 		<set name="price" val="7988000" />
@@ -528,6 +530,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="price" val="3195000" />
@@ -543,6 +546,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1110" />
 		<set name="price" val="3195000" />
@@ -557,6 +561,7 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1170" />
 		<set name="price" val="3355000" />
@@ -574,6 +579,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="550" />
 		<set name="price" val="4793000" />
@@ -590,6 +596,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="4950" />
 		<set name="price" val="15577000" />
@@ -605,6 +612,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="price" val="3195000" />
@@ -620,6 +628,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1110" />
 		<set name="price" val="3195000" />
@@ -635,6 +644,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="550" />
 		<set name="price" val="4793000" />
@@ -651,6 +661,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="2300" />
 		<set name="price" val="15577000" />
@@ -667,6 +678,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="price" val="3195000" />
@@ -682,6 +694,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1110" />
 		<set name="price" val="3195000" />
@@ -697,6 +710,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="550" />
 		<set name="price" val="4793000" />

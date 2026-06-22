@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="70100" name="Stockings of Devotion" additionalName="Not Available" type="Armor">
 		<!-- The item is not available. Available for 7 days. -->
@@ -1011,7 +1011,7 @@
 		</skills>
 	</item>
 	<item id="70160" name="1st Anniversary Coin" additionalName="Not Available" type="EtcItem">
-		<!-- The item is not available. A coin commemorating the anniversary. Maybe, if you collect many coins, something good will happen… -->
+		<!-- The item is not available. A coin commemorating the anniversary. Maybe, if you collect many coins, something good will happenâ€¦ -->
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="material" val="LEATHER" />
 		<set name="is_sellable" val="false" />
@@ -1380,6 +1380,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
 		<set name="soulshots" val="1" />
@@ -1403,6 +1404,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
 		<set name="soulshots" val="1" />
@@ -1426,6 +1428,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
 		<set name="soulshots" val="1" />
@@ -1449,6 +1452,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
 		<set name="soulshots" val="1" />

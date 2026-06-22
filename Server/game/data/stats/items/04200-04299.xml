@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="4200" name="Spellbook: Restore Life" additionalName="Not Available" type="EtcItem">
 		<!-- The item is not available. A spellbook for learning the Restore Life skill. Used by Bishops. Required level: 44. -->
@@ -477,13 +477,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1490" />
 		<set name="price" val="2870000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />

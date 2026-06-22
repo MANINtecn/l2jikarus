@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="92400" name="Forgotten Primeval Garden's Time Stone" additionalName="Sealed" type="EtcItem">
 		<!-- Prolongs your session zone's raid for 60 min. <Hunting zones>. Primeval Garden - World Hunting Zone. Garden of Eva - World Hunting Zone. Garden of Authority - World Hunting Zone. Cooldown: 10 sec. -->
@@ -75,6 +75,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="2157" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="material" val="FINE_STEEL" />
@@ -124,6 +125,7 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="2157" />
 		<set name="commissionItemType" val="BOW" />
 		<set name="material" val="ORIHARUKON" />
@@ -173,6 +175,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="2" />
@@ -202,6 +205,7 @@
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="2157" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<set name="material" val="BONE" />
@@ -249,6 +253,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="2157" />
 		<set name="commissionItemType" val="DAGGER" />
 		<set name="material" val="ORIHARUKON" />
@@ -638,6 +643,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="2157" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
 		<set name="bodypart" val="rhand" />

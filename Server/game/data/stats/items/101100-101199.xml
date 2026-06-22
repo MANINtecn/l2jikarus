@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="101100" name="MEN Dye (Sealed)" additionalName="Lv. 22" type="EtcItem">
 		<!-- Required for applying MEN Pattern. <font color=bbaa88><Effect></font>. MEN +5. <font color=bbaa88><Bonus effect></font>. M. Def. +356. Received M. Skill Damage -1.8%. <font color=bbaa88><Pattern enhancement and compounding></font>. Enhancement materials: Superior Dye Booster. In case of failure, the current level remains the same, but materials disappear. <font color=ff6666>Note!</font>. Applying the pattern requires 1 dye. Requirements: All classes after the 1st class change -->
@@ -481,7 +481,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="101142" name="Spellbook: Light Mastery" type="EtcItem">
-		<!-- A spellbook for learning the Light Mastery skill. <Class>. Element Weaver. <Skill effect>. Reduces light magic skills casting time. When using light magic with a chance cancels Absolute skills and other skills of this kind. <font color="FED7A0">Bright Dance</font>. Number of attacks: 2 → 3. <font color="FED7A0">Claidheamh Soluis</font>. Increases attack range and max number of targets. -->
+		<!-- A spellbook for learning the Light Mastery skill. <Class>. Element Weaver. <Skill effect>. Reduces light magic skills casting time. When using light magic with a chance cancels Absolute skills and other skills of this kind. <font color="FED7A0">Bright Dance</font>. Number of attacks: 2 â†’ 3. <font color="FED7A0">Claidheamh Soluis</font>. Increases attack range and max number of targets. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -615,7 +615,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="101156" name="Spellbook: Light Mastery" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Light Mastery skill. <Class>. Element Weaver. <Skill effect>. Reduces light magic skills casting time. When using light magic with a chance cancels Absolute skills and other skills of this kind. <font color="FED7A0">Bright Dance</font>. Number of attacks: 2 → 3. <font color="FED7A0">Claidheamh Soluis</font>. Increases attack range and max number of targets. -->
+		<!-- A spellbook for learning the Light Mastery skill. <Class>. Element Weaver. <Skill effect>. Reduces light magic skills casting time. When using light magic with a chance cancels Absolute skills and other skills of this kind. <font color="FED7A0">Bright Dance</font>. Number of attacks: 2 â†’ 3. <font color="FED7A0">Claidheamh Soluis</font>. Increases attack range and max number of targets. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

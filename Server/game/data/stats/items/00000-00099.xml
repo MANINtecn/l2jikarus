@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="1" name="Short Sword" type="Weapon">
 		<!-- <font color=ff6666><Unavailable to Sylphs/ Vanguard Riders/ Assassins/ Blood Roses/ Element Weavers/ Wargs></font> -->
@@ -765,11 +765,11 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="38" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1300" />
 		<set name="price" val="20900" />
 		<set name="commissionItemType" val="FEET" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
 		<stats>
@@ -835,6 +835,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="56" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="640" />
 		<set name="price" val="31300" />
@@ -852,6 +853,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="90" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="630" />
 		<set name="price" val="50000" />
@@ -869,6 +871,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="138" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="640" />
 		<set name="price" val="76200" />
@@ -951,11 +954,11 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="332" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="8670" />
 		<set name="price" val="183000" />
 		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
 		<stats>
@@ -970,11 +973,11 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="230" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="3830" />
 		<set name="price" val="127000" />
 		<set name="commissionItemType" val="ARMOR_PANTS" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
 		<stats>
@@ -990,11 +993,11 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="576" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="10980" />
 		<set name="price" val="1440000" />
 		<set name="commissionItemType" val="FULL_BODY" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
 		<stats>
@@ -1008,11 +1011,11 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="177" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="630" />
 		<set name="price" val="97800" />
 		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
 		<stats>
@@ -1026,11 +1029,11 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="50" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1230" />
 		<set name="price" val="126000" />
 		<set name="enchant_enabled" val="true" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="FEET" />
 		<set name="ensoulNormalSlots" val="1" />
 		<stats>
@@ -1044,11 +1047,11 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="92" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="640" />
 		<set name="price" val="50800" />
 		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
 		<stats>
@@ -1062,11 +1065,11 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="98" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1220" />
 		<set name="price" val="245000" />
 		<set name="enchant_enabled" val="true" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="FEET" />
 		<set name="ensoulNormalSlots" val="1" />
 		<stats>
@@ -1155,6 +1158,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1170" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
 		<set name="price" val="644000" />
@@ -1162,7 +1166,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1185,6 +1188,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="3272" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2090" />
 		<set name="price" val="1800000" />
@@ -1192,7 +1196,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1215,6 +1218,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="2010" />
 		<set name="price" val="2290000" />
@@ -1222,7 +1226,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1248,6 +1251,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1430" />
 		<set name="price" val="2290000" />
@@ -1255,7 +1259,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1281,6 +1284,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
 		<set name="price" val="2870000" />
@@ -1288,7 +1292,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1314,6 +1317,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
 		<set name="price" val="2870000" />
@@ -1321,7 +1325,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1347,6 +1350,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1400" />
 		<set name="price" val="4300000" />
@@ -1354,7 +1358,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1380,6 +1383,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1400" />
 		<set name="price" val="4300000" />
@@ -1387,7 +1391,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1413,6 +1416,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1400" />
 		<set name="price" val="4300000" />
@@ -1420,7 +1424,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1446,6 +1449,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1930" />
 		<set name="price" val="8680000" />
@@ -1453,7 +1457,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1479,6 +1482,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="1350" />
 		<set name="price" val="13100000" />
@@ -1486,7 +1490,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1512,6 +1515,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1128" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1330" />
 		<set name="price" val="14098000" />
@@ -1519,7 +1523,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1551,6 +1554,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1659" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1840" />
 		<set name="price" val="20741000" />
@@ -1558,7 +1562,6 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1590,6 +1593,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1301" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="970" />
 		<set name="price" val="716000" />
@@ -1597,7 +1601,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1620,6 +1623,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="950" />
 		<set name="price" val="4300000" />
@@ -1629,7 +1633,6 @@
 		<set name="is_magic_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
 		<stats>
 			<stat type="pAtk">111</stat>
@@ -1653,13 +1656,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1170" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="1780" />
 		<set name="price" val="644000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1708,13 +1711,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2545" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1720" />
 		<set name="price" val="1400000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1738,13 +1741,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1710" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1771,6 +1774,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2545" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1000" />
 		<set name="price" val="1400000" />
@@ -1778,7 +1782,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1802,13 +1805,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1620" />
 		<set name="price" val="8680000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1835,6 +1838,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="960" />
 		<set name="price" val="8680000" />
@@ -1842,7 +1846,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1869,6 +1872,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2545" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2060" />
 		<set name="price" val="1400000" />
@@ -1876,7 +1880,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<stats>
@@ -1902,6 +1905,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2020" />
 		<set name="price" val="2870000" />
@@ -1909,7 +1913,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<stats>
@@ -1936,6 +1939,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="2010" />
 		<set name="price" val="4300000" />
@@ -1943,7 +1947,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<stats>
@@ -1970,6 +1973,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2040" />
 		<set name="price" val="2290000" />
@@ -1977,7 +1981,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<stats>
@@ -2004,13 +2007,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1920" />
 		<set name="price" val="13100000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -2038,6 +2041,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1128" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1900" />
 		<set name="price" val="14098000" />
@@ -2045,7 +2049,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<stats>

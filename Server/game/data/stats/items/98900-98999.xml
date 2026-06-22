@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="98900" name="Talisman of Hellbound Lv. 7" additionalName="Sealed" type="Armor">
 		<!-- A talisman imbued with the power of Hellbound. <font color=bbaa88><Base effect></font>. Max HP +1000. P. Atk. +350. M. Atk. +350. P. Def. +700. M. Def. +700. Atk. Spd. +70. Casting Spd. +70. Speed +2. P. Accuracy +6. M. Accuracy +6. Received PvP damage -3%. <font color=bbaa88><Special effect></font>. Hell Lightning. Deals additional 2000 fixed damage to the target ignoring barriers and CP. (Trigger cooldown: 300 sec.). <font color=bbaa88><Compounding></font>. Materials: Talisman of Hellbound Fragment. In case of failure, you will get <font color=eeaa22>Talisman of Hellbound Lv. 6</font>. <font color=ff6666>Note!</font>. Required level: 60+. Effects of two or more talismans with the same name do not stack -->
@@ -667,6 +667,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
 		<set name="soulshots" val="1" />
@@ -715,6 +716,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
 		<set name="soulshots" val="1" />
@@ -1479,6 +1481,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1180" />
 		<set name="enchant_enabled" val="true" />
@@ -1511,6 +1514,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1200" />
 		<set name="enchant_enabled" val="true" />

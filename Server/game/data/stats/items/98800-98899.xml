@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="98800" name="Kit: Jewels Lv. 4 (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
@@ -1043,7 +1043,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="98867" name="Spellbook: Sea Oath" type="EtcItem">
-		<!-- A spellbook for learning the Sea Oath skill. <Class>. Eva's Saint. <Skill effect>. Increases M. Atk. Increases PvE damage. Increases Speed. <Skill change>. Divine Beam → Sea Beam -->
+		<!-- A spellbook for learning the Sea Oath skill. <Class>. Eva's Saint. <Skill effect>. Increases M. Atk. Increases PvE damage. Increases Speed. <Skill change>. Divine Beam â†’ Sea Beam -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1051,7 +1051,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="98868" name="Spellbook: Dark Oath" type="EtcItem">
-		<!-- A spellbook for learning the Dark Oath skill. <Class>. Shillien Saint. <Skill effect>. Increases M. Atk. Increases PvE damage. Increases Max HP. <Skill change>. Divine Beam → Dark Beam -->
+		<!-- A spellbook for learning the Dark Oath skill. <Class>. Shillien Saint. <Skill effect>. Increases M. Atk. Increases PvE damage. Increases Max HP. <Skill change>. Divine Beam â†’ Dark Beam -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1093,7 +1093,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="98873" name="Spellbook: Sea Oath" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Sea Oath skill. <Class>. Eva's Saint. <Skill effect>. Increases M. Atk. Increases PvE damage. Increases Speed. <Skill change>. Divine Beam → Sea Beam -->
+		<!-- A spellbook for learning the Sea Oath skill. <Class>. Eva's Saint. <Skill effect>. Increases M. Atk. Increases PvE damage. Increases Speed. <Skill change>. Divine Beam â†’ Sea Beam -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1103,7 +1103,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="98874" name="Spellbook: Dark Oath" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Dark Oath skill. <Class>. Shillien Saint. <Skill effect>. Increases M. Atk. Increases PvE damage. Increases Max HP. <Skill change>. Divine Beam → Dark Beam -->
+		<!-- A spellbook for learning the Dark Oath skill. <Class>. Shillien Saint. <Skill effect>. Increases M. Atk. Increases PvE damage. Increases Max HP. <Skill change>. Divine Beam â†’ Dark Beam -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1212,6 +1212,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="560" />
 		<set name="price" val="2032000" />
@@ -1235,6 +1236,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="7700" />
 		<set name="price" val="3562000" />
@@ -1259,6 +1261,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="3320" />
 		<set name="price" val="2226000" />
@@ -1282,6 +1285,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="price" val="890000" />
@@ -1304,6 +1308,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1070" />
 		<set name="price" val="1355000" />
@@ -1321,7 +1326,7 @@
 		</skills>
 	</item>
 	<item id="98886" name="Spellbook: Saint's Burst" type="EtcItem">
-		<!-- A spellbook for learning the Saint's Burst: Shining Wave/ Sea Wave/ Dark Wave skills. <font color=FFFF00>Saint's Burst: Shining Wave</font>. <Class>. Cardinal. <Skill effect>. Increases M. Atk. Increases M. Skill Critical Damage. Increases Speed based on combat power. <font color=FF8000>Chain Heal</font> → <font color=FF8000>Shining Chain Heal</font>. Increases the amount of recovered HP. <font color=FF8000>Greater Battle Heal</font> → <font color=FF8000>Shining Battle Heal</font>. Increases Healing Power. Enhances the <font color=FF8000>Restore Life Lv. 5</font> skill. Triggers additional healing based on a certain level of combat power. Increases the healing amount based on combat power. <font color=FFFF00>Saint's Burst: Shining Wave/ Sea Wave/ Dark Wave</font>. <Classes>. Eva's Saint. Shillien Saint. <Skill effect>. Increases M. Atk. Enhances the <font color=FF8000>Divine Beam/ Sea Beam/ Dark Beam skills.</font>. There's a certain chance to deal additional AoE damage. -->
+		<!-- A spellbook for learning the Saint's Burst: Shining Wave/ Sea Wave/ Dark Wave skills. <font color=FFFF00>Saint's Burst: Shining Wave</font>. <Class>. Cardinal. <Skill effect>. Increases M. Atk. Increases M. Skill Critical Damage. Increases Speed based on combat power. <font color=FF8000>Chain Heal</font> â†’ <font color=FF8000>Shining Chain Heal</font>. Increases the amount of recovered HP. <font color=FF8000>Greater Battle Heal</font> â†’ <font color=FF8000>Shining Battle Heal</font>. Increases Healing Power. Enhances the <font color=FF8000>Restore Life Lv. 5</font> skill. Triggers additional healing based on a certain level of combat power. Increases the healing amount based on combat power. <font color=FFFF00>Saint's Burst: Shining Wave/ Sea Wave/ Dark Wave</font>. <Classes>. Eva's Saint. Shillien Saint. <Skill effect>. Increases M. Atk. Enhances the <font color=FF8000>Divine Beam/ Sea Beam/ Dark Beam skills.</font>. There's a certain chance to deal additional AoE damage. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1329,7 +1334,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="98887" name="Spellbook: Saint's Burst" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Saint's Burst: Shining Wave/ Sea Wave/ Dark Wave skills. <font color=FFFF00>Saint's Burst: Shining Wave</font>. <Class>. Cardinal. <Skill effect>. Increases M. Atk. Increases M. Skill Critical Damage. Increases Speed based on combat power. <font color=FF8000>Chain Heal</font> → <font color=FF8000>Shining Chain Heal</font>. Increases the amount of recovered HP. <font color=FF8000>Greater Battle Heal</font> → <font color=FF8000>Shining Battle Heal</font>. Increases Healing Power. Enhances the <font color=FF8000>Restore Life Lv. 5</font> skill. Triggers additional healing based on a certain level of combat power. Increases the healing amount based on combat power. <font color=FFFF00>Saint's Burst: Shining Wave/ Sea Wave/ Dark Wave</font>. <Classes>. Eva's Saint. Shillien Saint. <Skill effect>. Increases M. Atk. Enhances the <font color=FF8000>Divine Beam/ Sea Beam/ Dark Beam skills.</font>. There's a certain chance to deal additional AoE damage. -->
+		<!-- A spellbook for learning the Saint's Burst: Shining Wave/ Sea Wave/ Dark Wave skills. <font color=FFFF00>Saint's Burst: Shining Wave</font>. <Class>. Cardinal. <Skill effect>. Increases M. Atk. Increases M. Skill Critical Damage. Increases Speed based on combat power. <font color=FF8000>Chain Heal</font> â†’ <font color=FF8000>Shining Chain Heal</font>. Increases the amount of recovered HP. <font color=FF8000>Greater Battle Heal</font> â†’ <font color=FF8000>Shining Battle Heal</font>. Increases Healing Power. Enhances the <font color=FF8000>Restore Life Lv. 5</font> skill. Triggers additional healing based on a certain level of combat power. Increases the healing amount based on combat power. <font color=FFFF00>Saint's Burst: Shining Wave/ Sea Wave/ Dark Wave</font>. <Classes>. Eva's Saint. Shillien Saint. <Skill effect>. Increases M. Atk. Enhances the <font color=FF8000>Divine Beam/ Sea Beam/ Dark Beam skills.</font>. There's a certain chance to deal additional AoE damage. -->
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

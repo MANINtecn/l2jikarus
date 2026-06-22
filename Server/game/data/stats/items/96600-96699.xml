@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="96600" name="Beleth' Ring" type="Armor">
 		<!-- A ring imbued with Beleth's power. Can be enchanted with Scroll: Enchant Rare Accessories. Max enchant value: +6. <font color=ff6666>Note!</font>. Effects of two or more items with the same name do not stack -->
@@ -850,7 +850,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96663" name="Spellbook: Shadow Assault" type="EtcItem">
-		<!-- A spellbook for learning the Shadow Assault skill. <Classes>. Adventurer. Wind Rider. Ghost Hunter. <Skill effect>. Enhances the following skill:. Shadow Step → Shadow Step: Assault. Adds the Silence debuff. -->
+		<!-- A spellbook for learning the Shadow Assault skill. <Classes>. Adventurer. Wind Rider. Ghost Hunter. <Skill effect>. Enhances the following skill:. Shadow Step â†’ Shadow Step: Assault. Adds the Silence debuff. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -858,7 +858,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96664" name="Spellbook: Rogue Mastery" type="EtcItem">
-		<!-- A spellbook for learning the Rogue Mastery skill. <Classes>. Adventurer. Wind Rider. Ghost Hunter. <Skill effect>. <font color="FF8000">Bluff</font> → <font color="FF8000">Bluff: Edge</font>. Increases Stupor Atk. Rate./ the success rate of turning the enemy around. <font color="FF8000">Critical Wound</font> → <font color="FF8000">Critical Wound: Focus</font>. Increases received Critical Rate/ damage/ received Vital Point Attack Rate. -->
+		<!-- A spellbook for learning the Rogue Mastery skill. <Classes>. Adventurer. Wind Rider. Ghost Hunter. <Skill effect>. <font color="FF8000">Bluff</font> â†’ <font color="FF8000">Bluff: Edge</font>. Increases Stupor Atk. Rate./ the success rate of turning the enemy around. <font color="FF8000">Critical Wound</font> â†’ <font color="FF8000">Critical Wound: Focus</font>. Increases received Critical Rate/ damage/ received Vital Point Attack Rate. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -950,7 +950,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96675" name="Spellbook: Shadow Assault" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Shadow Assault skill. <Classes>. Adventurer. Wind Rider. Ghost Hunter. <Skill effect>. Enhances the following skill:. Shadow Step → Shadow Step: Assault. Adds the Silence debuff. -->
+		<!-- A spellbook for learning the Shadow Assault skill. <Classes>. Adventurer. Wind Rider. Ghost Hunter. <Skill effect>. Enhances the following skill:. Shadow Step â†’ Shadow Step: Assault. Adds the Silence debuff. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -960,7 +960,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="96676" name="Spellbook: Rogue Mastery" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Rogue Mastery skill. <Classes>. Adventurer. Wind Rider. Ghost Hunter. <Skill effect>. <font color="FF8000">Bluff</font> → <font color="FF8000">Bluff: Edge</font>. Increases Stupor Atk. Rate./ the success rate of turning the enemy around. <font color="FF8000">Critical Wound</font> → <font color="FF8000">Critical Wound: Focus</font>. Increases received Critical Rate/ damage/ received Vital Point Attack Rate. -->
+		<!-- A spellbook for learning the Rogue Mastery skill. <Classes>. Adventurer. Wind Rider. Ghost Hunter. <Skill effect>. <font color="FF8000">Bluff</font> â†’ <font color="FF8000">Bluff: Edge</font>. Increases Stupor Atk. Rate./ the success rate of turning the enemy around. <font color="FF8000">Critical Wound</font> â†’ <font color="FF8000">Critical Wound: Focus</font>. Increases received Critical Rate/ damage/ received Vital Point Attack Rate. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

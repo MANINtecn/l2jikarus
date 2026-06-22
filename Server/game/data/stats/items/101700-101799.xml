@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="101700" name="Aden Laboratory Intention Ticket" additionalName="Sealed" type="EtcItem">
 		<!-- When in inventory, confirms your intention to transfer your Aden Laboratory data. If Aden Laboratory has not been transferred, the ticket can be used again to obtain Cancelling Ticket. <font color=FF6666>Note!</font>. To transfer to another server, you need to have all 4 tickets. Make sure to check other 3 tickets (for server, collections and dolls). Make sure to check with a Lv. 1 character on the selected server that you have Character Name/ Server Transfer Coupon. -->
@@ -436,7 +436,7 @@
 			<item id="8688" min="1" max="1" chance="6.666667" /> <!-- Daimon Crystal -->
 			<item id="8938" min="1" max="1" chance="6.666667" /> <!-- Tallum Blade*Damascus Sword -->
 			<item id="91887" min="1" max="1" chance="6.666667" /> <!-- Durendal -->
-			<item id="91902" min="1" max="1" chance="6.666667" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" chance="6.666667" /> <!-- Ã‰clair Bijou -->
 			<item id="94886" min="1" max="1" chance="6.666667" /> <!-- Zephyrus -->
 		</capsuled_items>
 	</item>
@@ -467,7 +467,7 @@
 			<item id="8688" min="1" max="1" chance="6.666667" /> <!-- Daimon Crystal -->
 			<item id="8938" min="1" max="1" chance="6.666667" /> <!-- Tallum Blade*Damascus Sword -->
 			<item id="91887" min="1" max="1" chance="6.666667" /> <!-- Durendal -->
-			<item id="91902" min="1" max="1" chance="6.666667" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" chance="6.666667" /> <!-- Ã‰clair Bijou -->
 			<item id="94886" min="1" max="1" chance="6.666667" /> <!-- Zephyrus -->
 		</capsuled_items>
 	</item>
@@ -498,7 +498,7 @@
 			<item id="8688" min="1" max="1" chance="6.666667" /> <!-- Daimon Crystal -->
 			<item id="8938" min="1" max="1" chance="6.666667" /> <!-- Tallum Blade*Damascus Sword -->
 			<item id="91887" min="1" max="1" chance="6.666667" /> <!-- Durendal -->
-			<item id="91902" min="1" max="1" chance="6.666667" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" chance="6.666667" /> <!-- Ã‰clair Bijou -->
 			<item id="94886" min="1" max="1" chance="6.666667" /> <!-- Zephyrus -->
 		</capsuled_items>
 	</item>
@@ -529,7 +529,7 @@
 			<item id="8688" min="1" max="1" chance="6.666667" /> <!-- Daimon Crystal -->
 			<item id="8938" min="1" max="1" chance="6.666667" /> <!-- Tallum Blade*Damascus Sword -->
 			<item id="91887" min="1" max="1" chance="6.666667" /> <!-- Durendal -->
-			<item id="91902" min="1" max="1" chance="6.666667" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" chance="6.666667" /> <!-- Ã‰clair Bijou -->
 			<item id="94886" min="1" max="1" chance="6.666667" /> <!-- Zephyrus -->
 		</capsuled_items>
 	</item>
@@ -971,6 +971,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="181" />
 		<set name="soulshots" val="2" />
@@ -1090,7 +1091,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="101756" name="Spellbook: Water Master" type="EtcItem">
-		<!-- A spellbook for learning the Water Master skill. <Class>. Eva's Templar. <Skill effect>. Increases Pull Atk. Rate. <font color=FF8000>Shield Charge</font> → <font color=FF8000>Eva's Tempest</font>. Increases the skill's power, range and area of effect. Applies the <font color=FF6666>Flowing Tears</font> debuff. <font color=FF8000>Mass Chain Strike</font> → <font color=FF8000>Aqua Wave</font>. Increases the skill's range. Enhances the Pull effect. -->
+		<!-- A spellbook for learning the Water Master skill. <Class>. Eva's Templar. <Skill effect>. Increases Pull Atk. Rate. <font color=FF8000>Shield Charge</font> â†’ <font color=FF8000>Eva's Tempest</font>. Increases the skill's power, range and area of effect. Applies the <font color=FF6666>Flowing Tears</font> debuff. <font color=FF8000>Mass Chain Strike</font> â†’ <font color=FF8000>Aqua Wave</font>. Increases the skill's range. Enhances the Pull effect. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1100,7 +1101,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="101757" name="Spellbook: Water Master" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Water Master skill. <Class>. Eva's Templar. <Skill effect>. Increases Pull Atk. Rate. <font color=FF8000>Shield Charge</font> → <font color=FF8000>Eva's Tempest</font>. Increases the skill's power, range and area of effect. Applies the <font color=FF6666>Flowing Tears</font> debuff. <font color=FF8000>Mass Chain Strike</font> → <font color=FF8000>Aqua Wave</font>. Increases the skill's range. Enhances the Pull effect. -->
+		<!-- A spellbook for learning the Water Master skill. <Class>. Eva's Templar. <Skill effect>. Increases Pull Atk. Rate. <font color=FF8000>Shield Charge</font> â†’ <font color=FF8000>Eva's Tempest</font>. Increases the skill's power, range and area of effect. Applies the <font color=FF6666>Flowing Tears</font> debuff. <font color=FF8000>Mass Chain Strike</font> â†’ <font color=FF8000>Aqua Wave</font>. Increases the skill's range. Enhances the Pull effect. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1150,7 +1151,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="101762" name="Spellbook: Thunder Master" type="EtcItem">
-		<!-- A spellbook for learning the Thunder Master skill. <Class>. Shillien Templar. <Skill effect>. Increases P. Atk./ P. Skill Critical Damage/ PvE damage/ Paralysis Atk. Rate. <font color=FF8000>Mass Lightning Strike</font> → <font color=FF8000>Shillien's Tempest</font>. Increases the number of attacks and Paralysis debuffs. Applies a debuff that decreases Paralysis Resistance. Increases skill range. -->
+		<!-- A spellbook for learning the Thunder Master skill. <Class>. Shillien Templar. <Skill effect>. Increases P. Atk./ P. Skill Critical Damage/ PvE damage/ Paralysis Atk. Rate. <font color=FF8000>Mass Lightning Strike</font> â†’ <font color=FF8000>Shillien's Tempest</font>. Increases the number of attacks and Paralysis debuffs. Applies a debuff that decreases Paralysis Resistance. Increases skill range. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1160,7 +1161,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="101763" name="Spellbook: Thunder Master" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Thunder Master skill. <Class>. Shillien Templar. <Skill effect>. Increases P. Atk./ P. Skill Critical Damage/ PvE damage/ Paralysis Atk. Rate. <font color=FF8000>Mass Lightning Strike</font> → <font color=FF8000>Shillien's Tempest</font>. Increases the number of attacks and Paralysis debuffs. Applies a debuff that decreases Paralysis Resistance. Increases skill range. -->
+		<!-- A spellbook for learning the Thunder Master skill. <Class>. Shillien Templar. <Skill effect>. Increases P. Atk./ P. Skill Critical Damage/ PvE damage/ Paralysis Atk. Rate. <font color=FF8000>Mass Lightning Strike</font> â†’ <font color=FF8000>Shillien's Tempest</font>. Increases the number of attacks and Paralysis debuffs. Applies a debuff that decreases Paralysis Resistance. Increases skill range. -->
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

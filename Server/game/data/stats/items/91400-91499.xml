@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="91400" name="Manuscript: Armor Break" type="EtcItem">
 		<!-- The item is not available. For Dwarves only. Recipe for Arrows of Light. Outdated and no longer used. -->
@@ -1342,6 +1342,7 @@
 		<set name="icon" val="icon.etc_ertheia2" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="price" val="300" />

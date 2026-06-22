@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="95500" name="Book of Light" additionalName="Sealed" type="EtcItem">
 		<!-- A spellbook for learning the Light Master Lv. 2 skill. <Classes>. Berserker. Soul Ranger. <Skill effect>. In Light Veil:. P. Atk. +280. Atk. Spd. +80. Casting Spd. +120. Speed +15. P. Def. +10%. M. Def. +10%. Max HP +10%. (Momentarily recovers bonus HP.). Skill Critical Damage +200. Received Skill Critical Rate -3%. Received Skill Critical Damage -3%. When using a rapier, basic attack range +60. Recovers 3% MP. Additionally recovers HP/ MP over time. -->
@@ -293,7 +293,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95529" name="Spellbook: Song of Earth" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Song of Earth skill. <Class>. Swordsinger. <Skill effect>. 1) Increases your P. Atk./ P. Def./ M. Def./ P. Skill Critical Rate/ Speed, and decreases P. Skill/ Song/ Dance Cooldown. 2) On using Rapid Frantic Pace: Sword Muse, makes an additional attack. 3) While the skill is enhanced with Cantabile, increases nearby characters' P. Def./ M. Def./ Skill Critical Rate/ Speed, and temporarily boosts Elves' stats. <Skill upgrade>. Frantic Pace → Frantic Pace: Sword Muse. Song of Wind → Song of Wind: Cantabile. Song of Hunter → Song of Hunter: Cantabile -->
+		<!-- A spellbook for learning the Song of Earth skill. <Class>. Swordsinger. <Skill effect>. 1) Increases your P. Atk./ P. Def./ M. Def./ P. Skill Critical Rate/ Speed, and decreases P. Skill/ Song/ Dance Cooldown. 2) On using Rapid Frantic Pace: Sword Muse, makes an additional attack. 3) While the skill is enhanced with Cantabile, increases nearby characters' P. Def./ M. Def./ Skill Critical Rate/ Speed, and temporarily boosts Elves' stats. <Skill upgrade>. Frantic Pace â†’ Frantic Pace: Sword Muse. Song of Wind â†’ Song of Wind: Cantabile. Song of Hunter â†’ Song of Hunter: Cantabile -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -313,7 +313,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95531" name="Spellbook: Dance of Warrior" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Dance of Warrior skill. <Class>. Bladedancer. <Skill effect>. 1) Increases your P. Atk./ P. Def./ M. Def./ P. Skill Critical Rate/ Speed, and decreases P. Skill/ Song/ Dance Cooldown. 2) On using Rapid Frantic Pace: Dancer, makes an additional attack. 3) While the skill is enhanced with Vivace, increases nearby characters' P. Def./ M. Def./ Skill Critical Damage/ Speed, and temporarily boosts Dark Elves' stats. <Skill upgrade>. Frantic Pace → Rapid Frantic Pace: Dancer. Dance of Fury → Dance of Fury: Legato. Dance of Fire → Dance of Fire: Legato -->
+		<!-- A spellbook for learning the Dance of Warrior skill. <Class>. Bladedancer. <Skill effect>. 1) Increases your P. Atk./ P. Def./ M. Def./ P. Skill Critical Rate/ Speed, and decreases P. Skill/ Song/ Dance Cooldown. 2) On using Rapid Frantic Pace: Dancer, makes an additional attack. 3) While the skill is enhanced with Vivace, increases nearby characters' P. Def./ M. Def./ Skill Critical Damage/ Speed, and temporarily boosts Dark Elves' stats. <Skill upgrade>. Frantic Pace â†’ Rapid Frantic Pace: Dancer. Dance of Fury â†’ Dance of Fury: Legato. Dance of Fire â†’ Dance of Fire: Legato -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

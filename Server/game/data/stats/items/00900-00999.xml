@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="900" name="Ring of Grace" additionalName="Not Available" type="Armor">
 		<!-- The item is not available. -->
@@ -7,6 +7,7 @@
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<set name="price" val="404000" />
@@ -20,6 +21,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="9" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<set name="price" val="404000" />
@@ -37,6 +39,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="54" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<set name="price" val="670000" />
@@ -55,6 +58,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="54" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<set name="price" val="404000" />
@@ -124,6 +128,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="65" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="35900" />
@@ -140,6 +145,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="103" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="56800" />
@@ -156,6 +162,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="155" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="85700" />
@@ -172,6 +179,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="227" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="125000" />
@@ -188,6 +196,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="294" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="162000" />
@@ -204,6 +213,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="82" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="207000" />
@@ -220,6 +230,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="104" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="261000" />
@@ -236,6 +247,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="157" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="393000" />
@@ -252,6 +264,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="107" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="808000" />
@@ -268,6 +281,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="226" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="565000" />
@@ -285,6 +299,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="209" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="4361000" />
@@ -302,6 +317,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="226" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1230000" />
@@ -318,6 +334,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="226" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1998000" />
@@ -335,6 +352,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="164" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1230000" />
@@ -352,6 +370,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="164" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="808000" />
@@ -368,6 +387,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="164" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1340000" />
@@ -386,6 +406,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="164" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="808000" />

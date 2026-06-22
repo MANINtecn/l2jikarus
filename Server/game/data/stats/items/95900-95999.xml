@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="95900" name="Maphr's Fortune Box (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain a random item from the list or one of various items. -->
@@ -277,7 +277,7 @@
 			<item id="8688" min="1" max="1" minEnchant="5" maxEnchant="5" chance="6.666667" /> <!-- Daimon Crystal -->
 			<item id="8938" min="1" max="1" minEnchant="5" maxEnchant="5" chance="6.666667" /> <!-- Tallum Blade*Damascus Sword -->
 			<item id="91887" min="1" max="1" minEnchant="5" maxEnchant="5" chance="6.666667" /> <!-- Durendal -->
-			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="6.666667" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="6.666667" /> <!-- Ã‰clair Bijou -->
 			<item id="94886" min="1" max="1" minEnchant="5" maxEnchant="5" chance="6.666667" /> <!-- Zephyrus -->
 		</capsuled_items>
 	</item>
@@ -660,6 +660,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="560" />
 		<set name="price" val="2032000" />
@@ -695,6 +696,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="price" val="890000" />
@@ -729,6 +731,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1070" />
 		<set name="price" val="1355000" />
@@ -763,6 +766,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="560" />
 		<set name="price" val="2032000" />
@@ -801,6 +805,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="price" val="890000" />
@@ -839,6 +844,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1070" />
 		<set name="price" val="1355000" />

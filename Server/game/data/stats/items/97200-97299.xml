@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="97200" name="Glorious Warrior's Ability Pack" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
@@ -615,6 +615,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1940" />
 		<set name="price" val="5790000" />
@@ -647,6 +648,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1940" />
 		<set name="soulshots" val="1" />
@@ -680,6 +682,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1210" />
 		<set name="price" val="545000" />
@@ -699,6 +702,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1210" />
 		<set name="price" val="545000" />
@@ -791,7 +795,7 @@
 			<item id="8686" min="1" max="1" chance="1" /> <!-- Themis' Tongue -->
 			<item id="8683" min="1" max="1" chance="1" /> <!-- Tiphon's Spear -->
 			<item id="94886" min="1" max="1" chance="1" /> <!-- Zephyrus -->
-			<item id="91902" min="1" max="1" chance="1" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" chance="1" /> <!-- Ã‰clair Bijou -->
 			<item id="8678" min="1" max="1" chance="1" /> <!-- Sirra's Blade -->
 			<item id="8685" min="1" max="1" chance="1" /> <!-- Sobekk's Hurricane -->
 			<item id="8679" min="1" max="1" chance="1" /> <!-- Ipos' Sword -->
@@ -806,7 +810,7 @@
 			<item id="92963" min="1" max="1" chance="4.66666666667 " /> <!-- Themis' Tongue - Sealed -->
 			<item id="92960" min="1" max="1" chance="4.66666666667 " /> <!-- Tiphon's Spear - Sealed -->
 			<item id="95420" min="1" max="1" chance="4.66666666667 " /> <!-- Zephyrus - Sealed -->
-			<item id="92970" min="1" max="1" chance="4.66666666667 " /> <!-- Éclair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" chance="4.66666666667 " /> <!-- Ã‰clair Bijou - Sealed -->
 			<item id="92955" min="1" max="1" chance="4.66666666667 " /> <!-- Sirra's Blade - Sealed -->
 			<item id="92962" min="1" max="1" chance="4.66666666667 " /> <!-- Sobekk's Hurricane - Sealed -->
 			<item id="92956" min="1" max="1" chance="4.66666666667 " /> <!-- Ipos' Sword - Sealed -->
@@ -1951,6 +1955,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1280" />
 		<set name="soulshots" val="1" />

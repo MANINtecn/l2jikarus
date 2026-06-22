@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="91800" name="Queen Ant's Ring Lv. 4" additionalName="15-day" type="Armor">
 		<!-- <Properties>. P. Atk. +10%. M. Atk. +15%. P. Critical Damage +15%. M. Skill Critical Damage +10%. P. Accuracy +5. M. Accuracy +5. Max MP +30. Infection Atk. Rate and Resistance +30%. Available for 15 d. Effects of two identical rings do not stack. Cannot be enchanted. -->
@@ -1322,6 +1322,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="1400000" />
@@ -1348,6 +1349,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="1170" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
@@ -1375,6 +1377,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="1170" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
@@ -1402,6 +1405,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="1170" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
@@ -1430,6 +1434,7 @@
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="6130000" />
@@ -1459,6 +1464,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="4300000" />
@@ -1488,6 +1494,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="2290000" />
@@ -1519,6 +1526,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="13100000" />
@@ -1551,6 +1559,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="8680000" />
@@ -1582,6 +1591,7 @@
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="2157" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
@@ -1620,6 +1630,7 @@
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="1659" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
@@ -1658,6 +1669,7 @@
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="1128" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
@@ -1695,6 +1707,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="42759400" />
@@ -1734,7 +1747,7 @@
 			<stat type="randomDamage">19</stat>
 		</stats>
 	</item>
-	<item id="91892" name="Grand Épée" type="Weapon">
+	<item id="91892" name="Grand Ã‰pÃ©e" type="Weapon">
 		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins/ Blood Roses/ High Elves/ Wargs/ Samurais></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
@@ -1743,6 +1756,7 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="1170" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
@@ -1759,7 +1773,7 @@
 			<stat type="randomDamage">19</stat>
 		</stats>
 	</item>
-	<item id="91893" name="Épée" type="Weapon">
+	<item id="91893" name="Ã‰pÃ©e" type="Weapon">
 		<!-- <font color=ff6666><Unavailable to Orcs/ Sylphs/ Dwarves/ Assassins/ Blood Roses/ High Elves/ Wargs/ Samurais></font> -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
@@ -1769,6 +1783,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="1170" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
@@ -1795,6 +1810,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="1170" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
@@ -1821,6 +1837,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="crystal_count" val="1170" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
@@ -1848,6 +1865,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
 		<set name="price" val="6130000" />
@@ -1877,6 +1895,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
 		<set name="price" val="4300000" />
@@ -1905,6 +1924,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
 		<set name="price" val="2870000" />
@@ -1933,6 +1953,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
 		<set name="price" val="2290000" />

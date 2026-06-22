@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="100400" name="Doll Pack Lv. 2 (Sealed) (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain one of the Lv.2 dolls <font color=ff6666>(unexchangeable)</font>. -->
@@ -589,6 +589,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
@@ -656,7 +657,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="100433" name="Spellbook: Challenger: Master" type="EtcItem">
-		<!-- A spellbook for learning the Challenger: Master skill. <Class>. Duelist. <Skill effect>. You are craving for battle, and your sword is filled with incredible power. Increases P. Atk. Increases P. Skill Power. Increases P. Skill Critical Rate. Increases P. Skill Critical Damage. Increases P. Skill Damage. - Increases Max HP. - Increases Atk. Spd. Increases Speed. Increases Imprisonment Atk. Rate. <Skill upgrade>. Indestructible Blade → Indestructible Blade: Master. <Indestructible Blade: Master>. With a certain chance, inflicts Imprisonment on the target and nearby enemies. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. - Purify. - Acumen -->
+		<!-- A spellbook for learning the Challenger: Master skill. <Class>. Duelist. <Skill effect>. You are craving for battle, and your sword is filled with incredible power. Increases P. Atk. Increases P. Skill Power. Increases P. Skill Critical Rate. Increases P. Skill Critical Damage. Increases P. Skill Damage. - Increases Max HP. - Increases Atk. Spd. Increases Speed. Increases Imprisonment Atk. Rate. <Skill upgrade>. Indestructible Blade â†’ Indestructible Blade: Master. <Indestructible Blade: Master>. With a certain chance, inflicts Imprisonment on the target and nearby enemies. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. - Purify. - Acumen -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -714,7 +715,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="100439" name="Spellbook: Challenger: Master" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Challenger: Master skill. <Class>. Duelist. <Skill effect>. You are craving for battle, and your sword is filled with incredible power. Increases P. Atk. Increases P. Skill Power. Increases P. Skill Critical Rate. Increases P. Skill Critical Damage. Increases P. Skill Damage. - Increases Max HP. - Increases Atk. Spd. Increases Speed. Increases Imprisonment Atk. Rate. <Skill upgrade>. Indestructible Blade → Indestructible Blade: Master. <Indestructible Blade: Master>. With a certain chance, inflicts Imprisonment on the target and nearby enemies. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. - Purify. - Acumen -->
+		<!-- A spellbook for learning the Challenger: Master skill. <Class>. Duelist. <Skill effect>. You are craving for battle, and your sword is filled with incredible power. Increases P. Atk. Increases P. Skill Power. Increases P. Skill Critical Rate. Increases P. Skill Critical Damage. Increases P. Skill Damage. - Increases Max HP. - Increases Atk. Spd. Increases Speed. Increases Imprisonment Atk. Rate. <Skill upgrade>. Indestructible Blade â†’ Indestructible Blade: Master. <Indestructible Blade: Master>. With a certain chance, inflicts Imprisonment on the target and nearby enemies. <font color=ff6666>Note!</font>. The skill will be removed after learning a more powerful skill:. - Purify. - Acumen -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1814,6 +1815,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="144" />
 		<set name="soulshots" val="1" />
@@ -1834,6 +1836,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="106" />
 		<set name="soulshots" val="1" />
@@ -1854,6 +1857,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="209" />
 		<set name="soulshots" val="1" />
@@ -1874,6 +1878,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="152" />
 		<set name="soulshots" val="1" />
@@ -1894,6 +1899,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="205" />
 		<set name="soulshots" val="1" />
@@ -1914,6 +1920,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="181" />
 		<set name="soulshots" val="2" />
@@ -1935,6 +1942,7 @@
 		<set name="bodypart" val="rhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="172" />
 		<set name="soulshots" val="1" />

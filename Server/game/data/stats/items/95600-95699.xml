@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="95600" name="Random Craft: Create +6 Dwarven Chain Gloves" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
@@ -766,7 +766,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="95640" name="Spellbook: Extra Hit" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Extra Hit skill. <Class>. Storm Blaster. <Skill effect>. Increases P. Atk. Increases P. Skill Critical Damage. Increases PvE damage bonus. Increases P. Skill Power. <Skill upgrade>. <font color=FF8000>Dual Blow</font> → <font color=FF8000>Triple Blow</font>. Increases power. Increases the number of attacks to 3. Decreases cooldown. <font color=FF8000>Fire Explosion</font>. Increases the number of attacks to 2. -->
+		<!-- A spellbook for learning the Extra Hit skill. <Class>. Storm Blaster. <Skill effect>. Increases P. Atk. Increases P. Skill Critical Damage. Increases PvE damage bonus. Increases P. Skill Power. <Skill upgrade>. <font color=FF8000>Dual Blow</font> â†’ <font color=FF8000>Triple Blow</font>. Increases power. Increases the number of attacks to 3. Decreases cooldown. <font color=FF8000>Fire Explosion</font>. Increases the number of attacks to 2. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1202,6 +1202,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1200" />
 		<set name="price" val="1422000" />
@@ -1232,6 +1233,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1200" />
 		<set name="price" val="1422000" />
@@ -1266,6 +1268,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1180" />
 		<set name="price" val="1422000" />
@@ -1296,6 +1299,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1180" />
 		<set name="price" val="1422000" />
@@ -1754,7 +1758,7 @@
 			<item id="7894" min="1" max="1" chance="1.052632" /> <!-- Spiritual Eye -->
 			<item id="164" min="1" max="1" chance="1.052632" /> <!-- Elysian -->
 			<item id="150" min="1" max="1" chance="1.052632" /> <!-- Elemental Sword -->
-			<item id="91902" min="1" max="1" chance="1.052632" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" chance="1.052632" /> <!-- Ã‰clair Bijou -->
 			<item id="8678" min="1" max="1" chance="1.052632" /> <!-- Sirra's Blade -->
 			<item id="94885" min="1" max="1" chance="1.052632" /> <!-- Scofield -->
 			<item id="236" min="1" max="1" chance="1.052632" /> <!-- Soul Separator -->
@@ -1799,7 +1803,7 @@
 			<item id="92951" min="1" max="1" chance="1.052632" /> <!-- Spiritual Eye - Sealed -->
 			<item id="92935" min="1" max="1" chance="1.052632" /> <!-- Elysian - Sealed -->
 			<item id="92933" min="1" max="1" chance="1.052632" /> <!-- Elemental Sword - Sealed -->
-			<item id="92970" min="1" max="1" chance="1.052632" /> <!-- Éclair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" chance="1.052632" /> <!-- Ã‰clair Bijou - Sealed -->
 			<item id="92955" min="1" max="1" chance="1.052632" /> <!-- Sirra's Blade - Sealed -->
 			<item id="95419" min="1" max="1" chance="1.052632" /> <!-- Scofield - Sealed -->
 			<item id="92939" min="1" max="1" chance="1.052632" /> <!-- Soul Separator - Sealed -->
@@ -1920,6 +1924,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2510" />
 		<set name="soulshots" val="1" />
@@ -2071,6 +2076,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="2" />

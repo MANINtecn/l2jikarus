@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="94000" name="A-grade Armor of Death" additionalName="Not Available" type="Armor">
 		<!-- The item is not available. -->
@@ -7,6 +7,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="is_sellable" val="false" />
 	</item>
@@ -17,6 +18,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="is_sellable" val="false" />
 	</item>
@@ -27,6 +29,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="is_sellable" val="false" />
 	</item>
@@ -414,6 +417,7 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="144" />
 		<set name="soulshots" val="1" />
@@ -432,6 +436,7 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="106" />
 		<set name="soulshots" val="1" />
@@ -451,6 +456,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="209" />
 		<set name="soulshots" val="1" />
@@ -469,6 +475,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="152" />
 		<set name="soulshots" val="1" />
@@ -488,6 +495,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="205" />
 		<set name="soulshots" val="1" />
@@ -507,6 +515,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="181" />
 		<set name="soulshots" val="2" />
@@ -527,6 +536,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="181" />
 		<set name="soulshots" val="1" />
@@ -550,6 +560,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="bodypart" val="rhand" />
 		<stats>
 			<stat type="randomDamage">20</stat>
@@ -569,6 +580,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="randomDamage">20</stat>
 			<stat type="pAtkRange">40</stat>
@@ -586,6 +598,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="bodypart" val="rhand" />
 		<stats>
 			<stat type="pAtkRange">40</stat>
@@ -605,6 +618,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtkRange">40</stat>
 			<stat type="randomDamage">20</stat>
@@ -617,6 +631,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="247" />
 		<set name="soulshots" val="1" />
@@ -635,6 +650,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="205" />
 		<set name="soulshots" val="1" />
@@ -659,6 +675,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="randomDamage">20</stat>
 			<stat type="pAtkRange">40</stat>
@@ -672,6 +689,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BRONZE" />
 		<set name="enchant_enabled" val="true" />
 		<set name="is_sellable" val="false" />
@@ -1282,6 +1300,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="560" />
 		<set name="enchant_enabled" val="true" />
@@ -1314,6 +1333,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="560" />
 		<set name="enchant_enabled" val="true" />
@@ -1349,6 +1369,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1070" />
 		<set name="enchant_enabled" val="true" />
@@ -1382,6 +1403,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1070" />
 		<set name="enchant_enabled" val="true" />

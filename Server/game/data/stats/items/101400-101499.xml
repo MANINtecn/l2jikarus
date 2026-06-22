@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="101400" name="Hardin's Trophy (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
@@ -1420,7 +1420,7 @@
 		<set name="handler" val="RelicSummonCoupon" />
 	</item>
 	<item id="101492" name="Spellbook: Fortune Seeker's Blessing" type="EtcItem">
-		<!-- A spellbook for learning the Fortune Seeker's Blessing skill. <Class>. Fortune Seeker. <Skill effect>. Enhances <font color="FFBB00">Fortune Time</font>. Adds P. Skill Critical Damage. Adds received P. Skill Critical Rate decrease. Adds received skill damage decrease. Adds PvE damage. Rush → Blessed Rush. Enhances <font color="FFBB00">Fortune Seeker's Mark</font>. The level of Fortune Seeker's Mark increases depending on combat power increasing the chance of obtaining additional reward. -->
+		<!-- A spellbook for learning the Fortune Seeker's Blessing skill. <Class>. Fortune Seeker. <Skill effect>. Enhances <font color="FFBB00">Fortune Time</font>. Adds P. Skill Critical Damage. Adds received P. Skill Critical Rate decrease. Adds received skill damage decrease. Adds PvE damage. Rush â†’ Blessed Rush. Enhances <font color="FFBB00">Fortune Seeker's Mark</font>. The level of Fortune Seeker's Mark increases depending on combat power increasing the chance of obtaining additional reward. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1429,7 +1429,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="101493" name="Spellbook: Fortune Seeker's Blessing" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Fortune Seeker's Blessing skill. <Class>. Fortune Seeker. <Skill effect>. Enhances <font color="FFBB00">Fortune Time</font>. Adds P. Skill Critical Damage. Adds received P. Skill Critical Rate decrease. Adds received skill damage decrease. Adds PvE damage. Rush → Blessed Rush. Enhances <font color="FFBB00">Fortune Seeker's Mark</font>. The level of Fortune Seeker's Mark increases depending on combat power increasing the chance of obtaining additional reward. -->
+		<!-- A spellbook for learning the Fortune Seeker's Blessing skill. <Class>. Fortune Seeker. <Skill effect>. Enhances <font color="FFBB00">Fortune Time</font>. Adds P. Skill Critical Damage. Adds received P. Skill Critical Rate decrease. Adds received skill damage decrease. Adds PvE damage. Rush â†’ Blessed Rush. Enhances <font color="FFBB00">Fortune Seeker's Mark</font>. The level of Fortune Seeker's Mark increases depending on combat power increasing the chance of obtaining additional reward. -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

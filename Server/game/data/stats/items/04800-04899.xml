@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="4800" name="Fist" additionalName="Not Available" type="Weapon">
 		<!-- The item is not available. <Soul crystal property>. P. Atk. +203 on a critical attack. -->
@@ -10,13 +10,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1490" />
 		<set name="price" val="2870000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">148</stat>
 			<stat type="mAtk">68</stat>
@@ -40,13 +40,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1420" />
 		<set name="price" val="8680000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">213</stat>
 			<stat type="mAtk">91</stat>
@@ -70,13 +70,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1420" />
 		<set name="price" val="8680000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">213</stat>
 			<stat type="mAtk">91</stat>
@@ -100,12 +100,12 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1420" />
 		<set name="price" val="8680000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
 		<stats>
 			<stat type="pAtk">213</stat>
@@ -130,13 +130,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1390" />
 		<set name="price" val="13100000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">236</stat>
 			<stat type="mAtk">99</stat>
@@ -160,13 +160,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1390" />
 		<set name="price" val="13100000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">236</stat>
 			<stat type="mAtk">99</stat>
@@ -190,12 +190,12 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1390" />
 		<set name="price" val="13100000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
 		<stats>
 			<stat type="pAtk">236</stat>
@@ -220,6 +220,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1790" />
 		<set name="price" val="2290000" />
@@ -229,7 +230,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="1500" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">220</stat>
 			<stat type="mAtk">61</stat>
@@ -253,6 +253,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1790" />
 		<set name="price" val="2290000" />
@@ -262,7 +263,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="1500" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">220</stat>
 			<stat type="mAtk">61</stat>
@@ -286,6 +286,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1790" />
 		<set name="price" val="2290000" />
@@ -294,7 +295,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="3" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<set name="reuse_delay" val="1248" />
 		<stats>
 			<stat type="pAtk">220</stat>
@@ -319,6 +319,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1770" />
 		<set name="price" val="2870000" />
@@ -328,7 +329,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="820" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">277</stat>
 			<stat type="mAtk">75</stat>
@@ -352,6 +352,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1770" />
 		<set name="price" val="2870000" />
@@ -361,7 +362,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="820" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<set name="reduced_soulshot" val="59,7" />
 		<stats>
 			<stat type="pAtk">277</stat>
@@ -386,6 +386,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1770" />
 		<set name="price" val="2870000" />
@@ -394,7 +395,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="3" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<set name="reuse_delay" val="639" />
 		<stats>
 			<stat type="pAtk">277</stat>
@@ -419,6 +419,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1760" />
 		<set name="price" val="2870000" />
@@ -428,7 +429,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="1500" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">252</stat>
 			<stat type="mAtk">68</stat>
@@ -452,6 +452,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1760" />
 		<set name="price" val="2870000" />
@@ -461,7 +462,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="1500" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<set name="reduced_soulshot" val="59,7" />
 		<stats>
 			<stat type="pAtk">252</stat>
@@ -486,6 +486,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1760" />
 		<set name="price" val="2870000" />
@@ -495,7 +496,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="1500" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<set name="reduced_mp_consume" val="47,1" />
 		<stats>
 			<stat type="pAtk">252</stat>
@@ -520,6 +520,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="HORN" />
 		<set name="weight" val="1740" />
 		<set name="price" val="4300000" />
@@ -529,7 +530,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="820" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">316</stat>
 			<stat type="mAtk">84</stat>
@@ -553,6 +553,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="HORN" />
 		<set name="weight" val="1740" />
 		<set name="price" val="4300000" />
@@ -562,7 +563,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="820" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">316</stat>
 			<stat type="mAtk">84</stat>
@@ -586,6 +586,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="HORN" />
 		<set name="weight" val="1740" />
 		<set name="price" val="4300000" />
@@ -595,7 +596,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="820" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<set name="reduced_soulshot" val="60,8" />
 		<stats>
 			<stat type="pAtk">316</stat>
@@ -620,6 +620,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1720" />
 		<set name="price" val="6130000" />
@@ -628,7 +629,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="1500" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="BOW" />
 		<stats>
 			<stat type="pAtk">323</stat>
@@ -653,6 +653,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1720" />
 		<set name="price" val="6130000" />
@@ -662,7 +663,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="1500" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<set name="reduced_soulshot" val="61,9" />
 		<stats>
 			<stat type="pAtk">323</stat>
@@ -687,6 +687,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1720" />
 		<set name="price" val="6130000" />
@@ -696,7 +697,6 @@
 		<set name="mp_consume" val="3" />
 		<set name="reuse_delay" val="1500" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<set name="reduced_mp_consume" val="42,1" />
 		<stats>
 			<stat type="pAtk">323</stat>
@@ -721,6 +721,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1720" />
 		<set name="price" val="8680000" />
@@ -730,7 +731,6 @@
 		<set name="mp_consume" val="4" />
 		<set name="reuse_delay" val="820" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">397</stat>
 			<stat type="mAtk">91</stat>
@@ -754,6 +754,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1720" />
 		<set name="price" val="8680000" />
@@ -763,7 +764,6 @@
 		<set name="mp_consume" val="4" />
 		<set name="reuse_delay" val="820" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">397</stat>
 			<stat type="mAtk">91</stat>
@@ -787,6 +787,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1720" />
 		<set name="price" val="8680000" />
@@ -796,7 +797,6 @@
 		<set name="mp_consume" val="4" />
 		<set name="reuse_delay" val="820" />
 		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
 		<set name="reduced_soulshot" val="19,2" />
 		<stats>
 			<stat type="pAtk">397</stat>
@@ -821,6 +821,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1700" />
 		<set name="price" val="13100000" />
@@ -829,7 +830,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="4" />
 		<set name="reuse_delay" val="1500" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="BOW" />
 		<stats>
 			<stat type="pAtk">400</stat>
@@ -854,6 +854,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1700" />
 		<set name="price" val="13100000" />
@@ -862,7 +863,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="4" />
 		<set name="reuse_delay" val="1310" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="BOW" />
 		<stats>
 			<stat type="pAtk">400</stat>
@@ -887,6 +887,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1700" />
 		<set name="price" val="13100000" />
@@ -896,7 +897,6 @@
 		<set name="mp_consume" val="4" />
 		<set name="reuse_delay" val="1500" />
 		<set name="reduced_mp_consume" val="42,1" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="BOW" />
 		<stats>
 			<stat type="pAtk">400</stat>
@@ -921,13 +921,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2040" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">107</stat>
 			<stat type="mAtk">61</stat>
@@ -952,13 +952,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2040" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">107</stat>
 			<stat type="mAtk">61</stat>
@@ -983,13 +983,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2040" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">107</stat>
 			<stat type="mAtk">61</stat>
@@ -1014,13 +1014,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2030" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">107</stat>
 			<stat type="mAtk">61</stat>
@@ -1045,13 +1045,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2030" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">107</stat>
 			<stat type="mAtk">61</stat>
@@ -1076,13 +1076,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2030" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">107</stat>
 			<stat type="mAtk">61</stat>
@@ -1107,13 +1107,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2030" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">107</stat>
 			<stat type="mAtk">61</stat>
@@ -1138,13 +1138,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2030" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">107</stat>
 			<stat type="mAtk">61</stat>
@@ -1169,13 +1169,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2030" />
 		<set name="price" val="2290000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">107</stat>
 			<stat type="mAtk">61</stat>
@@ -1200,13 +1200,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2020" />
 		<set name="price" val="2870000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">122</stat>
 			<stat type="mAtk">68</stat>
@@ -1231,13 +1231,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2020" />
 		<set name="price" val="2870000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">122</stat>
 			<stat type="mAtk">68</stat>
@@ -1262,13 +1262,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2020" />
 		<set name="price" val="2870000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">122</stat>
 			<stat type="mAtk">68</stat>
@@ -1293,13 +1293,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1912" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1990" />
 		<set name="price" val="4780000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">144</stat>
 			<stat type="mAtk">78</stat>
@@ -1324,13 +1324,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1912" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1990" />
 		<set name="price" val="4780000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">144</stat>
 			<stat type="mAtk">78</stat>
@@ -1355,13 +1355,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1912" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1990" />
 		<set name="price" val="4780000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">144</stat>
 			<stat type="mAtk">78</stat>
@@ -1386,13 +1386,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1912" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1980" />
 		<set name="price" val="4780000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">144</stat>
 			<stat type="mAtk">78</stat>
@@ -1417,13 +1417,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1912" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1980" />
 		<set name="price" val="4780000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">144</stat>
 			<stat type="mAtk">78</stat>
@@ -1448,13 +1448,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1912" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1980" />
 		<set name="price" val="4780000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">144</stat>
 			<stat type="mAtk">78</stat>
@@ -1479,13 +1479,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1950" />
 		<set name="price" val="6130000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">156</stat>
 			<stat type="mAtk">83</stat>
@@ -1510,13 +1510,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1950" />
 		<set name="price" val="6130000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">156</stat>
 			<stat type="mAtk">83</stat>
@@ -1541,13 +1541,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1950" />
 		<set name="price" val="6130000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">156</stat>
 			<stat type="mAtk">83</stat>
@@ -1572,13 +1572,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="1940" />
 		<set name="price" val="8680000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">175</stat>
 			<stat type="mAtk">91</stat>
@@ -1603,12 +1603,12 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="1940" />
 		<set name="price" val="8680000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
 		<stats>
 			<stat type="pAtk">175</stat>
@@ -1634,13 +1634,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="1940" />
 		<set name="price" val="8680000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">175</stat>
 			<stat type="mAtk">91</stat>
@@ -1665,13 +1665,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1920" />
 		<set name="price" val="13100000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">194</stat>
 			<stat type="mAtk">99</stat>
@@ -1696,12 +1696,12 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1920" />
 		<set name="price" val="13100000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
 		<stats>
 			<stat type="pAtk">194</stat>
@@ -1727,13 +1727,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1920" />
 		<set name="price" val="13100000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">194</stat>
 			<stat type="mAtk">99</stat>
@@ -1758,6 +1758,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1020" />
 		<set name="price" val="2290000" />
@@ -1765,7 +1766,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">103</stat>
 			<stat type="mAtk">89</stat>
@@ -1789,6 +1789,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1020" />
 		<set name="price" val="2290000" />
@@ -1796,7 +1797,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">103</stat>
 			<stat type="mAtk">89</stat>
@@ -1820,6 +1820,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1020" />
 		<set name="price" val="2290000" />
@@ -1827,7 +1828,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">103</stat>
 			<stat type="mAtk">89</stat>
@@ -1851,6 +1851,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1020" />
 		<set name="price" val="2290000" />
@@ -1858,7 +1859,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">103</stat>
 			<stat type="mAtk">89</stat>
@@ -1882,6 +1882,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1020" />
 		<set name="price" val="2290000" />
@@ -1889,7 +1890,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">103</stat>
 			<stat type="mAtk">89</stat>
@@ -1913,6 +1913,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1020" />
 		<set name="price" val="2290000" />
@@ -1920,7 +1921,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">103</stat>
 			<stat type="mAtk">89</stat>
@@ -1944,6 +1944,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1010" />
 		<set name="price" val="2290000" />
@@ -1951,7 +1952,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">103</stat>
 			<stat type="mAtk">89</stat>
@@ -1975,6 +1975,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1010" />
 		<set name="price" val="2290000" />
@@ -1982,7 +1983,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">103</stat>
 			<stat type="mAtk">89</stat>
@@ -2006,6 +2006,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="916" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1010" />
 		<set name="price" val="2290000" />
@@ -2013,7 +2014,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">103</stat>
 			<stat type="mAtk">89</stat>
@@ -2037,6 +2037,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1000" />
 		<set name="price" val="2870000" />
@@ -2044,7 +2045,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">119</stat>
 			<stat type="mAtk">100</stat>
@@ -2068,6 +2068,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1000" />
 		<set name="price" val="2870000" />
@@ -2075,7 +2076,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">119</stat>
 			<stat type="mAtk">100</stat>
@@ -2099,6 +2099,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1000" />
 		<set name="price" val="2870000" />
@@ -2106,7 +2107,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">119</stat>
 			<stat type="mAtk">100</stat>
@@ -2130,6 +2130,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1010" />
 		<set name="price" val="4300000" />
@@ -2137,7 +2138,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">135</stat>
 			<stat type="mAtk">111</stat>
@@ -2161,6 +2161,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1010" />
 		<set name="price" val="4300000" />
@@ -2168,7 +2169,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">135</stat>
 			<stat type="mAtk">111</stat>
@@ -2192,6 +2192,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1010" />
 		<set name="price" val="4300000" />
@@ -2199,7 +2200,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">135</stat>
 			<stat type="mAtk">111</stat>
@@ -2223,6 +2223,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1010" />
 		<set name="price" val="4300000" />
@@ -2230,7 +2231,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">135</stat>
 			<stat type="mAtk">111</stat>
@@ -2254,6 +2254,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1010" />
 		<set name="price" val="4300000" />
@@ -2261,7 +2262,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">135</stat>
 			<stat type="mAtk">111</stat>
@@ -2285,6 +2285,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1010" />
 		<set name="price" val="4300000" />
@@ -2292,7 +2293,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">135</stat>
 			<stat type="mAtk">111</stat>
@@ -2316,6 +2316,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1000" />
 		<set name="price" val="4300000" />
@@ -2323,7 +2324,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">135</stat>
 			<stat type="mAtk">111</stat>
@@ -2347,6 +2347,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1000" />
 		<set name="price" val="4300000" />
@@ -2354,7 +2355,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">135</stat>
 			<stat type="mAtk">111</stat>
@@ -2378,6 +2378,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1720" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1000" />
 		<set name="price" val="4300000" />
@@ -2385,7 +2386,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">135</stat>
 			<stat type="mAtk">111</stat>
@@ -2409,6 +2409,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1912" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="990" />
 		<set name="price" val="4780000" />
@@ -2416,7 +2417,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">141</stat>
 			<stat type="mAtk">114</stat>
@@ -2440,6 +2440,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1912" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="990" />
 		<set name="price" val="4780000" />
@@ -2447,7 +2448,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">141</stat>
 			<stat type="mAtk">114</stat>
@@ -2471,6 +2471,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1912" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="990" />
 		<set name="price" val="4780000" />
@@ -2478,7 +2479,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">141</stat>
 			<stat type="mAtk">114</stat>
@@ -2502,6 +2502,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1010" />
 		<set name="price" val="6130000" />
@@ -2509,7 +2510,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">152</stat>
 			<stat type="mAtk">122</stat>
@@ -2533,6 +2533,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1010" />
 		<set name="price" val="6130000" />
@@ -2540,7 +2541,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">152</stat>
 			<stat type="mAtk">122</stat>
@@ -2564,6 +2564,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1010" />
 		<set name="price" val="6130000" />
@@ -2571,7 +2572,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">152</stat>
 			<stat type="mAtk">122</stat>
@@ -2595,6 +2595,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1000" />
 		<set name="price" val="6130000" />
@@ -2602,7 +2603,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">152</stat>
 			<stat type="mAtk">122</stat>
@@ -2626,6 +2626,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1000" />
 		<set name="price" val="6130000" />
@@ -2633,7 +2634,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">152</stat>
 			<stat type="mAtk">122</stat>
@@ -2657,6 +2657,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1000" />
 		<set name="price" val="6130000" />
@@ -2664,7 +2665,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">152</stat>
 			<stat type="mAtk">122</stat>
@@ -2688,6 +2688,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="990" />
 		<set name="price" val="6130000" />
@@ -2695,7 +2696,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">152</stat>
 			<stat type="mAtk">122</stat>
@@ -2719,6 +2719,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="990" />
 		<set name="price" val="6130000" />
@@ -2726,7 +2727,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">152</stat>
 			<stat type="mAtk">122</stat>
@@ -2750,6 +2750,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="2452" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="990" />
 		<set name="price" val="6130000" />
@@ -2757,7 +2758,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">152</stat>
 			<stat type="mAtk">122</stat>
@@ -2781,6 +2781,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="960" />
 		<set name="price" val="8680000" />
@@ -2788,7 +2789,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">170</stat>
 			<stat type="mAtk">134</stat>
@@ -2812,6 +2812,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="960" />
 		<set name="price" val="8680000" />
@@ -2819,7 +2820,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">170</stat>
 			<stat type="mAtk">134</stat>
@@ -2843,6 +2843,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="960" />
 		<set name="price" val="8680000" />
@@ -2850,7 +2851,6 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<stats>
 			<stat type="pAtk">170</stat>
 			<stat type="mAtk">134</stat>

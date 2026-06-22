@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="94500" name="Spellbook: Titanic Sweep" type="EtcItem">
 		<!-- A spellbook for learning the Titanic Sweep skill. <Class>. Titan. <Skill effect>. Widely swings a sword to attack nearby enemies. -->
@@ -1329,8 +1329,8 @@
 			<item id="92966" min="1" max="1" chance="100" maxEnchant="5" minEnchant="5" /> <!-- Tallum Blade*Damascus Sword - Sealed -->
 		</capsuled_items>
 	</item>
-	<item id="94585" name="Package: +5 Éclair Bijou" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to obtain +5 Enhanced Éclair Bijou. <font color=eeaa22><Recommended class>. Soul Hound</font> -->
+	<item id="94585" name="Package: +5 Ã‰clair Bijou" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +5 Enhanced Ã‰clair Bijou. <font color=eeaa22><Recommended class>. Soul Hound</font> -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1341,7 +1341,7 @@
 		<set name="material" val="FISH" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="92970" min="1" max="1" chance="100" maxEnchant="5" minEnchant="5" /> <!-- Éclair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" chance="100" maxEnchant="5" minEnchant="5" /> <!-- Ã‰clair Bijou - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="94586" name="Package: +5 Durendal" additionalName="Sealed" type="EtcItem">

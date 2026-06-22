@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="96900" name="Spellbook: Perfect Mastery" additionalName="Sealed" type="EtcItem">
 		<!-- A spellbook for learning the Ultimate Evasion Lv. 3/ Ultimate Escape Lv. 3. <Classes>. Sagittarius. Moonlight Sentinel. Ghost Sentinel. Trickster. <Skill effect>. Adds new effects to learnt skills. - Decreases skill cooldown. - Adds the Debuff/ Anomaly Resistance effect. -->
@@ -346,6 +346,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1550" />
 		<set name="soulshots" val="2" />
@@ -394,6 +395,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="soulshots" val="2" />
@@ -443,6 +445,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
 		<set name="soulshots" val="2" />
@@ -493,6 +496,7 @@
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1330" />
 		<set name="soulshots" val="2" />
@@ -542,6 +546,7 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1640" />
 		<set name="soulshots" val="3" />
@@ -591,6 +596,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1300" />
 		<set name="soulshots" val="2" />
@@ -640,6 +646,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="880" />
 		<set name="soulshots" val="2" />
@@ -688,6 +695,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="181" />
 		<set name="soulshots" val="1" />
@@ -707,6 +715,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="930" />
 		<set name="soulshots" val="2" />
@@ -755,6 +764,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1180" />
 		<set name="price" val="1422000" />
@@ -786,6 +796,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1200" />
 		<set name="is_sellable" val="false" />
@@ -816,6 +827,7 @@
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="2" />
@@ -864,6 +876,7 @@
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="2" />
@@ -914,6 +927,7 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1640" />
 		<set name="mp_consume" val="5" />
@@ -1851,7 +1865,7 @@
 			<item id="8683" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Tiphon's Spear -->
 			<item id="94885" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Scofield -->
 			<item id="8678" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Sirra's Blade -->
-			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Ã‰clair Bijou -->
 			<item id="164" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Elysian -->
 			<item id="8679" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Ipos' Sword -->
 			<item id="8682" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Naga's Storm -->
@@ -2021,7 +2035,7 @@
 			<item id="8683" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Tiphon's Spear -->
 			<item id="94885" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Scofield -->
 			<item id="8678" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Sirra's Blade -->
-			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Ã‰clair Bijou -->
 			<item id="164" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Elysian -->
 			<item id="8679" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Ipos' Sword -->
 			<item id="8682" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Naga's Storm -->
@@ -2191,7 +2205,7 @@
 			<item id="8683" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Tiphon's Spear -->
 			<item id="94885" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Scofield -->
 			<item id="8678" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Sirra's Blade -->
-			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Ã‰clair Bijou -->
 			<item id="164" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Elysian -->
 			<item id="8679" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Ipos' Sword -->
 			<item id="8682" min="1" max="1" minEnchant="5" maxEnchant="5" chance="2.702703" /> <!-- Naga's Storm -->

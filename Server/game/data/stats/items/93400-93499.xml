@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="93400" name="Package: Deton's Request Lv. 5" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
@@ -376,6 +376,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="1350" />
 		<set name="soulshots" val="1" />
@@ -409,6 +410,7 @@
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1920" />
 		<set name="soulshots" val="1" />
@@ -452,6 +454,7 @@
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="bodypart" val="rhand" />
 		<set name="enchant_enabled" val="true" />
 		<stats>
@@ -485,6 +488,7 @@
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="bodypart" val="rhand" />
 		<set name="enchant_enabled" val="true" />
 		<stats>
@@ -520,6 +524,7 @@
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<stats>
 			<stat type="pAtk">189</stat>
@@ -542,6 +547,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="970" />
 		<set name="soulshots" val="1" />
@@ -576,6 +582,7 @@
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1390" />
 		<set name="soulshots" val="1" />
@@ -609,6 +616,7 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1700" />
 		<set name="soulshots" val="2" />
@@ -643,6 +651,7 @@
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2080" />
 		<set name="soulshots" val="1" />
@@ -675,6 +684,7 @@
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1930" />
 		<set name="soulshots" val="1" />
@@ -706,6 +716,7 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1350" />
 		<set name="soulshots" val="1" />
@@ -750,6 +761,7 @@
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<stats>
 			<stat type="pAtk">236</stat>
@@ -783,6 +795,7 @@
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<stats>
 			<stat type="pAtk">214</stat>
@@ -815,6 +828,7 @@
 		<set name="ensoulNormalSlots" val="2" />
 		<set name="ensoulSpecialSlots" val="1" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="bodypart" val="rhand" />
 		<set name="enchant_enabled" val="true" />
 		<stats>
@@ -1362,7 +1376,7 @@
 			<item id="8688" min="1" max="1" minEnchant="16" maxEnchant="16" chance="7.142857" /> <!-- Daimon Crystal -->
 			<item id="8938" min="1" max="1" minEnchant="16" maxEnchant="16" chance="7.142857" /> <!-- Tallum Blade*Damascus Sword -->
 			<item id="91887" min="1" max="1" minEnchant="16" maxEnchant="16" chance="7.142857" /> <!-- Durendal -->
-			<item id="91902" min="1" max="1" minEnchant="16" maxEnchant="16" chance="7.142857" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" minEnchant="16" maxEnchant="16" chance="7.142857" /> <!-- Ã‰clair Bijou -->
 		</capsuled_items>
 	</item>
 	<item id="93457" name="+8 Dragon Belt Pack" type="EtcItem">

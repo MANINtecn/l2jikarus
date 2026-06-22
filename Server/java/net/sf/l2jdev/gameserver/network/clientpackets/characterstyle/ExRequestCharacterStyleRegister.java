@@ -1,5 +1,8 @@
 package net.sf.l2jdev.gameserver.network.clientpackets.characterstyle;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import net.sf.l2jdev.gameserver.data.enums.CharacterStyleCategoryType;
 import net.sf.l2jdev.gameserver.data.holders.CharacterStyleDataHolder;
 import net.sf.l2jdev.gameserver.data.xml.CharacterStylesData;
@@ -9,6 +12,7 @@ import net.sf.l2jdev.gameserver.model.item.holders.ItemHolder;
 import net.sf.l2jdev.gameserver.network.SystemMessageId;
 import net.sf.l2jdev.gameserver.network.clientpackets.ClientPacket;
 import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2jdev.gameserver.network.serverpackets.characterstyle.ExCharacterStyleList;
 import net.sf.l2jdev.gameserver.network.serverpackets.characterstyle.ExCharacterStyleRegister;
 
 public class ExRequestCharacterStyleRegister extends ClientPacket
@@ -55,7 +59,21 @@ public class ExRequestCharacterStyleRegister extends ClientPacket
 				}
 
 				player.modifyCharacterStyle(category, this._styleId, false, true);
+				player.getVariables().storeMe();
 				player.sendPacket(ExCharacterStyleRegister.STATIC_PACKET_SUCCESS);
+
+				// Reenvia a lista atualizada pra janela atualizar na hora (abre o cadeado)
+				final Map<Integer, Integer> activeMap = new HashMap<>();
+				if (category == CharacterStyleCategoryType.APPEARANCE_WEAPON)
+				{
+					activeMap.put(0, player.getActiveCharacterStyleId(category, 0));
+					activeMap.put(1, player.getActiveCharacterStyleId(category, 1));
+				}
+				else
+				{
+					activeMap.put(0, player.getActiveCharacterStyleId(category));
+				}
+				player.sendPacket(new ExCharacterStyleList(category, CharacterStylesData.getInstance().getSwapCostItemByCategory(category), player.getVariables().getIntegerList("AVAILABLE_CHARACTER_STYLES_" + category), player.getVariables().getIntegerList("FAVORITE_CHARACTER_STYLES_" + category), activeMap));
 			}
 			else
 			{

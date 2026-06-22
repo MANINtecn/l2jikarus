@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="104400" name="+9 Circlet of Hero Coupon - Summer Festival (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Can be exchanged for Package: +9 Circlet of Hero or for +9 Special Equipment Pack - Summer Festival (requires 450 mln adena). -->
@@ -335,7 +335,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="104427" name="Spellbook: Titan Champion: Master" type="EtcItem">
-		<!-- A spellbook for learning the Titan Champion: Master skill. <Class>. Titan. <Skill effect>. <font color="FFBB00">Base effect</font>. Increases Max HP (momentarily recovers bonus HP). Increases P. Atk. Increases M. Def. Increases P. Def. Increases Critical Rate for basic attacks and P. skills. Increases Critical Damage for basic attacks and P. skills. Increases P. Skill Damage. Increases Knockback/ Knockdown/ Fear Atk. Rate. Increases Knockback/ Knockdown/ Hold Resistance. Increases Speed. When used, deals AoE damage and applies <font color=FFFF00>Titan's Charisma and Defense Break</font> on enemies. <font color=FFFF00>Titan's Charisma</font>. Inflicts Fear on nearby enemies. <font color=FFFF00>Defense Break</font>. Decreases P. Def. of nearby enemies. <Skill upgrade>. Final Secret → <font color=FF6666>Champion's Final Secret: Titan</font>. <font color=FF6666><Champion's Final Secret: Titan></font>. When used, applies <font color=FFFF00><Titan's Weapon></font>. <font color=FFFF00><Titan's Weapon></font>. Your two-handed sword is growing bigger. While the effect is active, knocks the enemy down on attack (including basic attacks and some skills) with a certain chance. -->
+		<!-- A spellbook for learning the Titan Champion: Master skill. <Class>. Titan. <Skill effect>. <font color="FFBB00">Base effect</font>. Increases Max HP (momentarily recovers bonus HP). Increases P. Atk. Increases M. Def. Increases P. Def. Increases Critical Rate for basic attacks and P. skills. Increases Critical Damage for basic attacks and P. skills. Increases P. Skill Damage. Increases Knockback/ Knockdown/ Fear Atk. Rate. Increases Knockback/ Knockdown/ Hold Resistance. Increases Speed. When used, deals AoE damage and applies <font color=FFFF00>Titan's Charisma and Defense Break</font> on enemies. <font color=FFFF00>Titan's Charisma</font>. Inflicts Fear on nearby enemies. <font color=FFFF00>Defense Break</font>. Decreases P. Def. of nearby enemies. <Skill upgrade>. Final Secret â†’ <font color=FF6666>Champion's Final Secret: Titan</font>. <font color=FF6666><Champion's Final Secret: Titan></font>. When used, applies <font color=FFFF00><Titan's Weapon></font>. <font color=FFFF00><Titan's Weapon></font>. Your two-handed sword is growing bigger. While the effect is active, knocks the enemy down on attack (including basic attacks and some skills) with a certain chance. -->
 		<set name="icon" val="icon.etc_spell_books_hfighter_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -355,7 +355,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="104429" name="Spellbook: Titan Champion: Master" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Titan Champion: Master skill. <Class>. Titan. <Skill effect>. <font color="FFBB00">Base effect</font>. Increases Max HP (momentarily recovers bonus HP). Increases P. Atk. Increases M. Def. Increases P. Def. Increases Critical Rate for basic attacks and P. skills. Increases Critical Damage for basic attacks and P. skills. Increases P. Skill Damage. Increases Knockback/ Knockdown/ Fear Atk. Rate. Increases Knockback/ Knockdown/ Hold Resistance. Increases Speed. When used, deals AoE damage and applies <font color=FFFF00>Titan's Charisma and Defense Break</font> on enemies. <font color=FFFF00>Titan's Charisma</font>. Inflicts Fear on nearby enemies. <font color=FFFF00>Defense Break</font>. Decreases P. Def. of nearby enemies. <Skill upgrade>. Final Secret → <font color=FF6666>Champion's Final Secret: Titan</font>. <font color=FF6666><Champion's Final Secret: Titan></font>. When used, applies <font color=FFFF00><Titan's Weapon></font>. <font color=FFFF00><Titan's Weapon></font>. Your two-handed sword is growing bigger. While the effect is active, knocks the enemy down on attack (including basic attacks and some skills) with a certain chance. -->
+		<!-- A spellbook for learning the Titan Champion: Master skill. <Class>. Titan. <Skill effect>. <font color="FFBB00">Base effect</font>. Increases Max HP (momentarily recovers bonus HP). Increases P. Atk. Increases M. Def. Increases P. Def. Increases Critical Rate for basic attacks and P. skills. Increases Critical Damage for basic attacks and P. skills. Increases P. Skill Damage. Increases Knockback/ Knockdown/ Fear Atk. Rate. Increases Knockback/ Knockdown/ Hold Resistance. Increases Speed. When used, deals AoE damage and applies <font color=FFFF00>Titan's Charisma and Defense Break</font> on enemies. <font color=FFFF00>Titan's Charisma</font>. Inflicts Fear on nearby enemies. <font color=FFFF00>Defense Break</font>. Decreases P. Def. of nearby enemies. <Skill upgrade>. Final Secret â†’ <font color=FF6666>Champion's Final Secret: Titan</font>. <font color=FF6666><Champion's Final Secret: Titan></font>. When used, applies <font color=FFFF00><Titan's Weapon></font>. <font color=FFFF00><Titan's Weapon></font>. Your two-handed sword is growing bigger. While the effect is active, knocks the enemy down on attack (including basic attacks and some skills) with a certain chance. -->
 		<set name="icon" val="icon.etc_spell_books_hfighter_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1281,7 +1281,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="104498" name="Spellbook: Crossed Blades" additionalName="Not available" type="EtcItem">
-		<!-- A spellbook for learning the Crossed Blades skill. <Class>. Duelist. <Skill effect>. Increases P. Atk. <Skill upgrade>. Slashing Blade → Slashing Blade: Slash. Blade Punishment → Blade Punishment: Slash. Blade Wave → Blade Wave: Slash -->
+		<!-- A spellbook for learning the Crossed Blades skill. <Class>. Duelist. <Skill effect>. Increases P. Atk. <Skill upgrade>. Slashing Blade â†’ Slashing Blade: Slash. Blade Punishment â†’ Blade Punishment: Slash. Blade Wave â†’ Blade Wave: Slash -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1291,7 +1291,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="104499" name="Spellbook: Crossed Blades" additionalName="Not available - Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Crossed Blades skill. <Class>. Duelist. <Skill effect>. Increases P. Atk. <Skill upgrade>. Slashing Blade → Slashing Blade: Slash. Blade Punishment → Blade Punishment: Slash. Blade Wave → Blade Wave: Slash -->
+		<!-- A spellbook for learning the Crossed Blades skill. <Class>. Duelist. <Skill effect>. Increases P. Atk. <Skill upgrade>. Slashing Blade â†’ Slashing Blade: Slash. Blade Punishment â†’ Blade Punishment: Slash. Blade Wave â†’ Blade Wave: Slash -->
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

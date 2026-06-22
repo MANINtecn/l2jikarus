@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="93600" name="+0~+5 Armor Pack - Avadon Circlet (Light Armor)" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
@@ -645,6 +645,7 @@
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="600" />
 		<set name="is_tradable" val="false" />
@@ -662,6 +663,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1200" />
 		<set name="is_tradable" val="false" />
@@ -679,6 +681,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="600" />
 		<set name="is_tradable" val="false" />
@@ -698,6 +701,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="10480" />
 		<set name="is_tradable" val="false" />
@@ -717,6 +721,7 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5800" />
 		<set name="is_tradable" val="false" />
@@ -734,6 +739,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1210" />
 		<set name="is_tradable" val="false" />
@@ -751,6 +757,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="600" />
 		<set name="is_tradable" val="false" />
@@ -769,6 +776,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1980" />
 		<set name="is_tradable" val="false" />
@@ -788,6 +796,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="970" />
 		<set name="is_tradable" val="false" />
@@ -806,6 +815,7 @@
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1230" />
 		<set name="is_tradable" val="false" />
@@ -823,6 +833,7 @@
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="620" />
 		<set name="is_tradable" val="false" />
@@ -1524,7 +1535,7 @@
 			<item id="8687" min="1" max="1" chance="2.777778" /> <!-- Cabrio's Hand -->
 			<item id="8938" min="1" max="1" chance="2.777778" /> <!-- Tallum Blade*Damascus Sword -->
 			<item id="91887" min="1" max="1" chance="2.777778" /> <!-- Durendal -->
-			<item id="91902" min="1" max="1" chance="2.777778" /> <!-- Éclair Bijou -->
+			<item id="91902" min="1" max="1" chance="2.777778" /> <!-- Ã‰clair Bijou -->
 			<item id="93255" min="1" max="1" chance="2.777778" /> <!-- Blessed Scroll: Enchant Weapon -->
 			<item id="93256" min="1" max="1" chance="2.777778" /> <!-- Blessed Scroll: Enchant Armor -->
 			<item id="93257" min="1" max="1" chance="2.777778" /> <!-- Cursed Scroll: Enchant Weapon -->

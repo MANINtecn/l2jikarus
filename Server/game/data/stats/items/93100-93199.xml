@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="93100" name="Life Stone Lv. 2 - Shield/ Sigil" type="EtcItem">
 		<set name="icon" val="icon.variation_mineral_sigil" />
@@ -90,6 +90,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1350" />
 		<set name="is_tradable" val="false" />
@@ -109,6 +110,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1220" />
 		<set name="is_tradable" val="false" />
@@ -128,6 +130,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1280" />
 		<set name="is_tradable" val="false" />
@@ -147,6 +150,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="1210" />
 		<set name="is_tradable" val="false" />
@@ -166,6 +170,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="1210" />
 		<set name="is_tradable" val="false" />
@@ -185,6 +190,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1200" />
 		<set name="is_tradable" val="false" />
@@ -204,6 +210,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1210" />
 		<set name="is_tradable" val="false" />
@@ -223,6 +230,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1190" />
 		<set name="is_tradable" val="false" />
@@ -242,6 +250,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="1190" />
 		<set name="is_tradable" val="false" />
@@ -261,6 +270,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1180" />
 		<set name="is_tradable" val="false" />
@@ -280,6 +290,7 @@
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1180" />
 		<set name="is_tradable" val="false" />
@@ -372,6 +383,7 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R99" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="is_sellable" val="false" />
 	</item>
@@ -646,6 +658,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="7700" />
 		<set name="enchant_enabled" val="true" />
@@ -681,6 +694,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="3320" />
 		<set name="enchant_enabled" val="true" />
@@ -716,6 +730,7 @@
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="7700" />
 		<set name="enchant_enabled" val="true" />
@@ -753,6 +768,7 @@
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="3320" />
 		<set name="enchant_enabled" val="true" />
@@ -1749,7 +1765,7 @@
 			<item id="92969" min="1" max="1" minEnchant="5" maxEnchant="5" chance="0.5" /> <!-- Divine Pain - Sealed -->
 		</capsuled_items>
 	</item>
-	<item id="93187" name="Random Enhanced Éclair Bijou Crafting" additionalName="Sealed" type="EtcItem">
+	<item id="93187" name="Random Enhanced Ã‰clair Bijou Crafting" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i00" />
 		<set name="default_action" val="PEEL" />
@@ -1763,12 +1779,12 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="92970" min="1" max="1" chance="80" /> <!-- Éclair Bijou - Sealed -->
-			<item id="92970" min="1" max="1" minEnchant="1" maxEnchant="1" chance="10" /> <!-- Éclair Bijou - Sealed -->
-			<item id="92970" min="1" max="1" minEnchant="2" maxEnchant="2" chance="4.5" /> <!-- Éclair Bijou - Sealed -->
-			<item id="92970" min="1" max="1" minEnchant="3" maxEnchant="3" chance="3" /> <!-- Éclair Bijou - Sealed -->
-			<item id="92970" min="1" max="1" minEnchant="4" maxEnchant="4" chance="2" /> <!-- Éclair Bijou - Sealed -->
-			<item id="92970" min="1" max="1" minEnchant="5" maxEnchant="5" chance="0.5" /> <!-- Éclair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" chance="80" /> <!-- Ã‰clair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" minEnchant="1" maxEnchant="1" chance="10" /> <!-- Ã‰clair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" minEnchant="2" maxEnchant="2" chance="4.5" /> <!-- Ã‰clair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" minEnchant="3" maxEnchant="3" chance="3" /> <!-- Ã‰clair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" minEnchant="4" maxEnchant="4" chance="2" /> <!-- Ã‰clair Bijou - Sealed -->
+			<item id="92970" min="1" max="1" minEnchant="5" maxEnchant="5" chance="0.5" /> <!-- Ã‰clair Bijou - Sealed -->
 		</capsuled_items>
 	</item>
 	<item id="93188" name="Random Enhanced Lacerator Crafting" additionalName="Sealed" type="EtcItem">

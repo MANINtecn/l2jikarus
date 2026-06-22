@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="101800" name="Growth Support Scroll (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- When used, applies the following buff. <font color="FF8000"><Lv. 93+></font>. Acquired XP/ SP: 30%. <font color="FF8000"><Lv. 92+></font>. Acquired XP/ SP: 200%. Duration: 20 min. Cooldown: 1 min. The effect remains after death. -->
@@ -104,7 +104,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="101809" name="Stable Scroll: Enchant A-grade Weapon" type="EtcItem">
-		<!-- A scroll for safe enchantment of A-grade weapons. <font color=eeaa22><Enchant success rate></font>. 7 → 8: 1%. 8 → 9: 0.5%. 9 → 10: 0.2%. <font color=eeaa22>In case of failure, the enchant value remains the same. Can be used for enchanting starting from +7.</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
+		<!-- A scroll for safe enchantment of A-grade weapons. <font color=eeaa22><Enchant success rate></font>. 7 â†’ 8: 1%. 8 â†’ 9: 0.5%. 9 â†’ 10: 0.2%. <font color=eeaa22>In case of failure, the enchant value remains the same. Can be used for enchanting starting from +7.</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_wp_a" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_WP" />
@@ -120,7 +120,7 @@
 		</skills>
 	</item>
 	<item id="101810" name="Stable Scroll: Enchant A-grade Armor" type="EtcItem">
-		<!-- A scroll for safe enchantment of A-grade upper armor/ lower armor/ full-body armor/ helmets/ gloves/ boots/ sigils/ shields. <font color=eeaa22><Enchant success rate></font>. 7 → 8: 1%. 8 → 9: 0.5%. 9 → 10: 0.2%. <font color=eeaa22>In case of failure, the enchant value remains the same. Can be used for enchanting starting from +7.</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
+		<!-- A scroll for safe enchantment of A-grade upper armor/ lower armor/ full-body armor/ helmets/ gloves/ boots/ sigils/ shields. <font color=eeaa22><Enchant success rate></font>. 7 â†’ 8: 1%. 8 â†’ 9: 0.5%. 9 â†’ 10: 0.2%. <font color=eeaa22>In case of failure, the enchant value remains the same. Can be used for enchanting starting from +7.</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
 		<set name="icon" val="icon.giant_scrl_of_ench_am_a" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_AM" />
@@ -1358,7 +1358,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101885" name="Swallow's Egg Lv. 5 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color=ff6666><Compounding fee></font>. Swallow's Egg Lv. 5 → Birdling Swallow Lv. 1: 100,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color=ff6666><Compounding fee></font>. Swallow's Egg Lv. 5 â†’ Birdling Swallow Lv. 1: 100,000 adena -->
 		<set name="icon" val="icon.etc_dragon_egg_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1403,7 +1403,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101890" name="Birdling Swallow Lv. 5 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. WIT +1. CON +1. MEN +1. Acquired XP/ SP +5%. With a 2% chance, triggers <font color="FFFF00">Swallow's Wing Strike</font> on attack. <font color="FFFF00"><Swallow's Wing Strike></font>. PvP:. Deals 200 fixed damage to the target. PvE:. Deals damage to the target based on your attack type. - P. Atk.: P. damage. Power 2800. - M. Atk.: M. damage. Power 60. <font color=ff6666><Compounding fee></font>. Birdling Swallow Lv. 5 → Swallow Lv. 1: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. WIT +1. CON +1. MEN +1. Acquired XP/ SP +5%. With a 2% chance, triggers <font color="FFFF00">Swallow's Wing Strike</font> on attack. <font color="FFFF00"><Swallow's Wing Strike></font>. PvP:. Deals 200 fixed damage to the target. PvE:. Deals damage to the target based on your attack type. - P. Atk.: P. damage. Power 2800. - M. Atk.: M. damage. Power 60. <font color=ff6666><Compounding fee></font>. Birdling Swallow Lv. 5 â†’ Swallow Lv. 1: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1412,7 +1412,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101891" name="Swallow Lv. 1 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. DEX +1. WIT +1. CON +1. MEN +1. Acquired XP/ SP +6%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft → Events and offers → Swallow's gratitude. <font color=bbaa88><Craft list></font>. Berserker's Scroll (Time-limited) (20 pcs.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. DEX +1. WIT +1. CON +1. MEN +1. Acquired XP/ SP +6%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft â†’ Events and offers â†’ Swallow's gratitude. <font color=bbaa88><Craft list></font>. Berserker's Scroll (Time-limited) (20 pcs.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1421,7 +1421,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101892" name="Swallow Lv. 2 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. INT +1. DEX +1. WIT +1. CON +1. MEN +1. Acquired XP/ SP +7%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft → Events and offers → Swallow's gratitude. <font color=bbaa88><Craft list></font>. Special Equipment Lucky Pack (Time-limited) (3 pcs.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. INT +1. DEX +1. WIT +1. CON +1. MEN +1. Acquired XP/ SP +7%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft â†’ Events and offers â†’ Swallow's gratitude. <font color=bbaa88><Craft list></font>. Special Equipment Lucky Pack (Time-limited) (3 pcs.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1430,7 +1430,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101893" name="Swallow Lv. 3 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +1. INT +1. DEX +1. WIT +1. CON +1. MEN +1. Acquired XP/ SP +8%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft → Events and offers → Swallow's gratitude. <font color=bbaa88><Craft list></font>. Dye/ Hidden Power Booster Coupon (Time-limited) (7 pcs.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +1. INT +1. DEX +1. WIT +1. CON +1. MEN +1. Acquired XP/ SP +8%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft â†’ Events and offers â†’ Swallow's gratitude. <font color=bbaa88><Craft list></font>. Dye/ Hidden Power Booster Coupon (Time-limited) (7 pcs.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1439,7 +1439,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101894" name="Swallow Lv. 4 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +1. INT +1. DEX +1. WIT +1. CON +2. MEN +2. Acquired XP/ SP +9%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft → Events and offers → Swallow's gratitude. <font color=bbaa88><Craft list></font>. Greater Upgrade Stone (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +1. INT +1. DEX +1. WIT +1. CON +2. MEN +2. Acquired XP/ SP +9%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft â†’ Events and offers â†’ Swallow's gratitude. <font color=bbaa88><Craft list></font>. Greater Upgrade Stone (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1448,7 +1448,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101895" name="Swallow Lv. 5 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +1. INT +1. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +10%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft → Events and offers → Swallow's gratitude. <font color=bbaa88><Craft list></font>. +8 Spirit Agathion Coupon (1 pc.). <font color=bbaa88><Server-limited craft list></font>. Jewel Lucky Pack Lv. 7 (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +1. INT +1. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +10%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft â†’ Events and offers â†’ Swallow's gratitude. <font color=bbaa88><Craft list></font>. +8 Spirit Agathion Coupon (1 pc.). <font color=bbaa88><Server-limited craft list></font>. Jewel Lucky Pack Lv. 7 (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1457,7 +1457,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101896" name="Swallow Lv. 6 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +1. INT +2. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +11%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft → Events and offers → Swallow's gratitude. <font color=bbaa88><Craft list></font>. Jewelry Box Lv. 5 (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +1. INT +2. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +11%. With a 2% chance, triggers <font color="FFFF00">Swallow's Hurricane</font> on attack. <font color="FFFF00"><Swallow's Hurricane></font>. PvP:. Deals 250 fixed damage to the target and nearby enemies (max 3 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 3 targets). - P. Atk.: P. damage. Power 3900. - M. Atk.: M. damage. Power 85. <font color=ff6666><Craft section></font>. Special craft â†’ Events and offers â†’ Swallow's gratitude. <font color=bbaa88><Craft list></font>. Jewelry Box Lv. 5 (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1466,7 +1466,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101897" name="Swallow Lv. 7 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +2. INT +2. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +12%. With a 3% chance, triggers <font color="FFFF00">Swallow's Wind Breath</font> on attack. <font color="FFFF00"><Swallow's Wind Breath></font>. PvP:. Deals 300 fixed damage to the target and nearby enemies (max 4 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 4 targets). - P. Atk.: P. damage. Power 5020. - M. Atk.: M. damage. Power 110. <font color=ff6666><Craft section></font>. Special craft → Events and offers → Swallow's gratitude. <font color=bbaa88><Craft list></font>. +0 ~ +2 Rare Accessory Pack (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +2. INT +2. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +12%. With a 3% chance, triggers <font color="FFFF00">Swallow's Wind Breath</font> on attack. <font color="FFFF00"><Swallow's Wind Breath></font>. PvP:. Deals 300 fixed damage to the target and nearby enemies (max 4 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 4 targets). - P. Atk.: P. damage. Power 5020. - M. Atk.: M. damage. Power 110. <font color=ff6666><Craft section></font>. Special craft â†’ Events and offers â†’ Swallow's gratitude. <font color=bbaa88><Craft list></font>. +0 ~ +2 Rare Accessory Pack (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1475,7 +1475,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101898" name="Swallow Lv. 8 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +2. INT +2. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +13%. With a 3% chance, triggers <font color="FFFF00">Swallow's Wind Breath</font> on attack. <font color="FFFF00"><Swallow's Wind Breath></font>. PvP:. Deals 300 fixed damage to the target and nearby enemies (max 4 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 4 targets). - P. Atk.: P. damage. Power 5020. - M. Atk.: M. damage. Power 110. <font color=ff6666><Craft section></font>. Special craft → Events and offers → Swallow's gratitude. <font color=bbaa88><Server-limited craft list></font>. Lucky Package: +6 ~ +7 Armor of Protection Coupon (Sealed) (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +2. INT +2. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +13%. With a 3% chance, triggers <font color="FFFF00">Swallow's Wind Breath</font> on attack. <font color="FFFF00"><Swallow's Wind Breath></font>. PvP:. Deals 300 fixed damage to the target and nearby enemies (max 4 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 4 targets). - P. Atk.: P. damage. Power 5020. - M. Atk.: M. damage. Power 110. <font color=ff6666><Craft section></font>. Special craft â†’ Events and offers â†’ Swallow's gratitude. <font color=bbaa88><Server-limited craft list></font>. Lucky Package: +6 ~ +7 Armor of Protection Coupon (Sealed) (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1484,7 +1484,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="101899" name="Swallow Lv. 9 (Time-limited)" additionalName="Sealed" type="EtcItem">
-		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +2. INT +2. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +14%. With a 3% chance, triggers <font color="FFFF00">Swallow's Wind Breath</font> on attack. <font color="FFFF00"><Swallow's Wind Breath></font>. PvP:. Deals 300 fixed damage to the target and nearby enemies (max 4 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 4 targets). - P. Atk.: P. damage. Power 5020. - M. Atk.: M. damage. Power 110. <font color=ff6666><Craft section></font>. Special craft → Events and offers → Swallow's gratitude. <font color=bbaa88><Server-limited craft list></font>. Package: Transcendent Upgrade Stone (30 pcs.) (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
+		<!-- Can be upgraded through compounding with <font color=EEAA22>Swallow's Food</font> that can be obtained from Food Pack. <font color="00FF00"><Base effect></font>. STR +2. INT +2. DEX +2. WIT +2. CON +2. MEN +2. Acquired XP/ SP +14%. With a 3% chance, triggers <font color="FFFF00">Swallow's Wind Breath</font> on attack. <font color="FFFF00"><Swallow's Wind Breath></font>. PvP:. Deals 300 fixed damage to the target and nearby enemies (max 4 targets). PvE:. Deals damage to the target and nearby enemies based on your attack type (max 4 targets). - P. Atk.: P. damage. Power 5020. - M. Atk.: M. damage. Power 110. <font color=ff6666><Craft section></font>. Special craft â†’ Events and offers â†’ Swallow's gratitude. <font color=bbaa88><Server-limited craft list></font>. Package: Transcendent Upgrade Stone (30 pcs.) (Time-limited) (1 pc.). <font color=bbaa88><Compounding fee></font>. Swallow Lv. 1-10: 500,000 adena -->
 		<set name="icon" val="icon.swallow_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />

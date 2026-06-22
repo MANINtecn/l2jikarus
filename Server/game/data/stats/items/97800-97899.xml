@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="97800" name="Extra Pass: Raid Boss Battle (Time-limited)" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to get an extra pass to Raid Boss Battle. Note!. Can be used once a day outside of instance zones. Can only be used when Raid Boss Battle is on cooldown. -->
@@ -450,7 +450,7 @@
 		</skills>
 	</item>
 	<item id="97831" name="Spellbook: Amadeus" type="EtcItem">
-		<!-- A spellbook for learning the Amadeus skill. <Class>. Sword Muse. <Skill effect>. 1) When the skill is used, increases character's Max HP/ P. Atk./ P. Def./ M. Def./ P. Skill damage bonus in PvE/ Speed, and decreases character's received P. Skill Critical Damage. 2) Increases character's and allies' P./ M. Def., and decreases character's and allies' received P. Skill Critical Damage. <Skill upgrade>. Ultimate Defense → Ultimate Defense: Bard. Frantic Pace → Rapid Frantic Pace: Sword Muse -->
+		<!-- A spellbook for learning the Amadeus skill. <Class>. Sword Muse. <Skill effect>. 1) When the skill is used, increases character's Max HP/ P. Atk./ P. Def./ M. Def./ P. Skill damage bonus in PvE/ Speed, and decreases character's received P. Skill Critical Damage. 2) Increases character's and allies' P./ M. Def., and decreases character's and allies' received P. Skill Critical Damage. <Skill upgrade>. Ultimate Defense â†’ Ultimate Defense: Bard. Frantic Pace â†’ Rapid Frantic Pace: Sword Muse -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -458,7 +458,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97832" name="Spellbook: Flamenco" type="EtcItem">
-		<!-- A spellbook for learning the Flamenco skill. <Class>. Spectral Dancer. <Skill effect>. 1) When the skill is used, increases character's Max HP/ P. Atk./ P. Def./ M. Def./ P. Skill damage bonus in PvE/ Speed, and decreases character's received P. Skill Critical Rate. 2) Increases character's and allies' P. Def./ M. Def./ Skill Critical Rate/ Skill Power/ AoE Skill Damage. <Skill upgrade>. Ultimate Defense → Ultimate Defense: Bard -->
+		<!-- A spellbook for learning the Flamenco skill. <Class>. Spectral Dancer. <Skill effect>. 1) When the skill is used, increases character's Max HP/ P. Atk./ P. Def./ M. Def./ P. Skill damage bonus in PvE/ Speed, and decreases character's received P. Skill Critical Rate. 2) Increases character's and allies' P. Def./ M. Def./ Skill Critical Rate/ Skill Power/ AoE Skill Damage. <Skill upgrade>. Ultimate Defense â†’ Ultimate Defense: Bard -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -562,7 +562,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97845" name="Spellbook: Amadeus" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Amadeus skill. <Class>. Sword Muse. <Skill effect>. 1) When the skill is used, increases character's Max HP/ P. Atk./ P. Def./ M. Def./ P. Skill damage bonus in PvE/ Speed, and decreases character's received P. Skill Critical Damage. 2) Increases character's and allies' P./ M. Def., and decreases character's and allies' received P. Skill Critical Damage. <Skill upgrade>. Ultimate Defense → Ultimate Defense: Bard. Frantic Pace → Rapid Frantic Pace: Sword Muse -->
+		<!-- A spellbook for learning the Amadeus skill. <Class>. Sword Muse. <Skill effect>. 1) When the skill is used, increases character's Max HP/ P. Atk./ P. Def./ M. Def./ P. Skill damage bonus in PvE/ Speed, and decreases character's received P. Skill Critical Damage. 2) Increases character's and allies' P./ M. Def., and decreases character's and allies' received P. Skill Critical Damage. <Skill upgrade>. Ultimate Defense â†’ Ultimate Defense: Bard. Frantic Pace â†’ Rapid Frantic Pace: Sword Muse -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -572,7 +572,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97846" name="Spellbook: Flamenco" additionalName="Sealed" type="EtcItem">
-		<!-- A spellbook for learning the Flamenco skill. <Class>. Spectral Dancer. <Skill effect>. 1) When the skill is used, increases character's Max HP/ P. Atk./ P. Def./ M. Def./ P. Skill damage bonus in PvE/ Speed, and decreases character's received P. Skill Critical Rate. 2) Increases character's and allies' P. Def./ M. Def./ Skill Critical Rate/ Skill Power/ AoE Skill Damage. <Skill upgrade>. Ultimate Defense → Ultimate Defense: Bard -->
+		<!-- A spellbook for learning the Flamenco skill. <Class>. Spectral Dancer. <Skill effect>. 1) When the skill is used, increases character's Max HP/ P. Atk./ P. Def./ M. Def./ P. Skill damage bonus in PvE/ Speed, and decreases character's received P. Skill Critical Rate. 2) Increases character's and allies' P. Def./ M. Def./ Skill Critical Rate/ Skill Power/ AoE Skill Damage. <Skill upgrade>. Ultimate Defense â†’ Ultimate Defense: Bard -->
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -702,7 +702,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="97859" name="Stable Scroll: Enchant Rare Accessories" type="EtcItem">
-		<!-- A scroll for safe enchantment of rare accessories starting from +4. <font color=eeaa22><Enchant success rate></font>. 4 → 5: 0.1%. 5 → 6: 0.1%. <font color=eeaa22>In case of failure, the item's enchant value remains the same. <Only for rare accessories enchanted to +4 and higher.></font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhancement effects cannot be used.</font> -->
+		<!-- A scroll for safe enchantment of rare accessories starting from +4. <font color=eeaa22><Enchant success rate></font>. 4 â†’ 5: 0.1%. 5 â†’ 6: 0.1%. <font color=eeaa22>In case of failure, the item's enchant value remains the same. <Only for rare accessories enchanted to +4 and higher.></font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhancement effects cannot be used.</font> -->
 		<set name="icon" val="icon.etc_stable_scrl_of_ench_fallen_angel_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -716,7 +716,7 @@
 		</skills>
 	</item>
 	<item id="97860" name="Stable Scroll: Enchant Rare Accessories" additionalName="Sealed" type="EtcItem">
-		<!-- A scroll for safe enchantment of rare accessories starting from +4. <font color=eeaa22><Enchant success rate></font>. 4 → 5: 0.1%. 5 → 6: 0.1%. <font color=eeaa22>In case of failure, the item's enchant value remains the same. <Only for rare accessories enchanted to +4 and higher.></font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhancement effects cannot be used.</font> -->
+		<!-- A scroll for safe enchantment of rare accessories starting from +4. <font color=eeaa22><Enchant success rate></font>. 4 â†’ 5: 0.1%. 5 â†’ 6: 0.1%. <font color=eeaa22>In case of failure, the item's enchant value remains the same. <Only for rare accessories enchanted to +4 and higher.></font>. <font color=ff6666>Cannot be used for mass enchanting. Additional enhancement effects cannot be used.</font> -->
 		<set name="icon" val="icon.etc_stable_scrl_of_ench_fallen_angel_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />

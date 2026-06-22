@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="6569" name="Protecting Scroll: Enchant A-grade Weapon" type="EtcItem">
 		<!-- A scroll for enchanting A-grade weapons. <font color=eeaa22>Enchanting is safe up to +4. In case of failure, the item's enchant value is reset.</font>. <font color=ff6666>Cannot be used for mass enchanting.</font> -->
@@ -176,6 +176,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="1368" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1300" />
 		<set name="price" val="42759400" />
@@ -204,6 +205,7 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
+		<set name="isAppearanceable" val="true" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="2080" />
 		<set name="price" val="42759400" />
