@@ -440,7 +440,23 @@
 		<!-- Level 9: <font color="FFFFFF">Caster:</font>. P. Atk. +900. P./ M. Def. +900. P. Skill Critical Rate +9%. Speed +27. P. Skill Cooldown -5%. <font color="FFFFFF"><Skill upgrade></font>. Frantic Pace → Frantic Pace: Sword Muse. Song of Wind → Song of Wind: Legato. Song of Hunter → Song of Hunter: Legato. When Rapid Frantic Pace: Sword Muse is used, makes <font color="FFBB00">an additional attack</font>. Power 7286. Ignores Shield Defense. Ignores 20% of the target's defense. -->
 		<!-- Level 10: <font color="FFFFFF">Caster:</font>. P. Atk. +1000. P./ M. Def. +1000. P. Skill Critical Rate +10%. Speed +30. P. Skill Cooldown -5%. <font color="FFFFFF"><Skill upgrade></font>. Frantic Pace → Frantic Pace: Sword Muse. Song of Wind → Song of Wind: Legato. Song of Hunter → Song of Hunter: Legato. When Rapid Frantic Pace: Sword Muse is used, makes <font color="FFBB00">an additional attack</font>. Power 7286. Ignores Shield Defense. Ignores 20% of the target's defense. -->
 		<icon>icon.s_song_of_earth</icon>
-		<operateType>A1</operateType>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<abnormalType>SONG_OF_EARTH</abnormalType>
+		<abnormalTime>1200</abnormalTime>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+			<value level="5">5</value>
+			<value level="6">6</value>
+			<value level="7">7</value>
+			<value level="8">8</value>
+			<value level="9">9</value>
+			<value level="10">10</value>
+		</abnormalLevel>
 		<hitTime>3000</hitTime>
 		<reuseDelay>10000</reuseDelay>
 		<mpConsume>
@@ -455,6 +471,81 @@
 			<value level="9">107</value>
 			<value level="10">108</value>
 		</mpConsume>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">100</value>
+					<value level="2">200</value>
+					<value level="3">300</value>
+					<value level="4">400</value>
+					<value level="5">500</value>
+					<value level="6">600</value>
+					<value level="7">700</value>
+					<value level="8">800</value>
+					<value level="9">900</value>
+					<value level="10">1000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">100</value>
+					<value level="2">200</value>
+					<value level="3">300</value>
+					<value level="4">400</value>
+					<value level="5">500</value>
+					<value level="6">600</value>
+					<value level="7">700</value>
+					<value level="8">800</value>
+					<value level="9">900</value>
+					<value level="10">1000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">100</value>
+					<value level="2">200</value>
+					<value level="3">300</value>
+					<value level="4">400</value>
+					<value level="5">500</value>
+					<value level="6">600</value>
+					<value level="7">700</value>
+					<value level="8">800</value>
+					<value level="9">900</value>
+					<value level="10">1000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+				</amount>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
+					<value level="6">18</value>
+					<value level="7">21</value>
+					<value level="8">24</value>
+					<value level="9">27</value>
+					<value level="10">30</value>
+				</amount>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="89024" toLevel="10" name="Dance of Warrior">
 		<!-- Level 1: <font color="FFFFFF">Caster:</font>. P. Atk. +150. P./ M. Def. +50. P. Skill Critical Damage +1%. Atk. Spd. +10. P. Skill Cooldown -1%. <font color="FFFFFF"><Skill upgrade></font>. Frantic Pace → Frantic Pace: Dancer. Dance of Fury → Dance of Fury: Legato. Dance of Fire → Dance of Fire: Legato. When Rapid Frantic Pace: Dance is used, makes <font color="FFBB00">an additional attack</font>. Power 7286. Ignores Shield Defense. Ignores 20% of the target's defense. -->

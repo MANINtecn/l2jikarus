@@ -306,6 +306,33 @@
 			<height normal="75" />
 		</collision>
 		<dropLists>
+			<drop>
+				<group chance="15">
+					<item id="102389" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Aden Pack -->
+					<item id="102390" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Eva Pack -->
+					<item id="102391" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Speed Pack -->
+					<item id="102392" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Talisman of Authority Pack -->
+					<item id="102393" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Circlet of Hero Pack -->
+					<item id="102394" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Phantom Mask Pack -->
+					<item id="102395" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Cloak of Protection Pack -->
+					<item id="102396" min="1" max="1" chance="12.5" /> <!-- +5 ~ +7 Dragon Belt Pack -->
+				</group>
+				<group chance="5">
+					<item id="6662" min="1" max="1" chance="100" /> <!-- Ring of Core -->
+				</group>
+				<group chance="0.3">
+					<item id="100889" min="1" max="1" chance="100" /> <!-- Common Core Doll Summon Coupon -->
+				</group>
+				<group chance="2.2">
+					<item id="105283" min="1" max="1" chance="100" /> <!-- Rare Spellbook -->
+				</group>
+				<group chance="100">
+					<item id="729" min="1" max="3" chance="100" /> <!-- Scroll: Enchant Weapon -->
+				</group>
+				<group chance="100">
+					<item id="730" min="1" max="3" chance="100" /> <!-- Scroll: Enchant Armor -->
+				</group>
+			</drop>
 			<fortune>
 				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
 				<item id="101965" min="1" max="1" chance="1" /> <!-- Fortune Time Box - Boss Raid - Sealed -->
