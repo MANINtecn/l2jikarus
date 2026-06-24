@@ -103,10 +103,32 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	// ===== COMPRA DE IKOIN VIA PIX (MercadoPago) =====
 	private static final String VPS_API     = "http://localhost:8080";       // GS -> VPS (mesma maquina)
 	private static final String VPS_PUB_URL = "http://192.99.110.164:8080";  // cliente do jogo -> VPS
-	private static final String VPS_KEY     = "ikarus2026";
+	private static final String VPS_KEY     = loadVpsKey();
 	private static final HttpClient HTTP    = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(8)).build();
 	// objectId do jogador -> mpgId (pagamento PIX pendente)
 	private static final Map<Integer, String> PENDING_PIX = new ConcurrentHashMap<>();
+
+	// Le a api-key da VPS de um arquivo local NAO commitado (config/vpskey.txt). Fallback p/ compat.
+	private static String loadVpsKey()
+	{
+		try
+		{
+			final java.nio.file.Path p = java.nio.file.Paths.get("config/vpskey.txt");
+			if (java.nio.file.Files.exists(p))
+			{
+				final String k = new String(java.nio.file.Files.readAllBytes(p)).trim();
+				if (!k.isEmpty())
+				{
+					return k;
+				}
+			}
+		}
+		catch (Exception e)
+		{
+			// usa fallback
+		}
+		return "ikarus2026";
+	}
 
 	private static final String[] COMMANDS =
 	{
@@ -132,6 +154,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_comprar",
 		"_bbsika_ikoin_pix_create",
 		"_bbsika_ikoin_pix_check",
+		"_bbsika_buyclass",
 		"_bbsika_changenick",
 		"_bbsika_changesex",
 		"_bbsika_changesex_confirm",
@@ -267,6 +290,45 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			}
 			buyOffer(player, offerId);
 			showMainPage(player);
+		}
+		else if (command.equals("_bbsika_buyclass"))
+		{
+			final int COST = 150;
+			final int ITEM_ID = 103209;
+			final long balance = getPlayerCredits(player);
+			if (balance < COST)
+			{
+				player.sendMessage("[Troca de Classe] Ikoin insuficiente. Voce tem " + balance + ", precisa de " + COST + ".");
+			}
+			else
+			{
+				try (Connection con = DatabaseFactory.getConnection())
+				{
+					try (PreparedStatement ps = con.prepareStatement("UPDATE ikoin_balance SET balance=balance-?, updated_at=? WHERE account_name=?"))
+					{
+						ps.setInt(1, COST);
+						ps.setLong(2, System.currentTimeMillis());
+						ps.setString(3, player.getAccountName());
+						ps.executeUpdate();
+					}
+					try (PreparedStatement ps = con.prepareStatement("INSERT INTO ikoin_transactions (account_name, amount, type, description, created_at) VALUES (?,?,?,?,?)"))
+					{
+						ps.setString(1, player.getAccountName());
+						ps.setInt(2, -COST);
+						ps.setString(3, "spend");
+						ps.setString(4, "Class Change Coupon");
+						ps.setLong(5, System.currentTimeMillis());
+						ps.executeUpdate();
+					}
+					player.addItem(ItemProcessType.REWARD, ITEM_ID, 1, player, true);
+					player.sendMessage("[Troca de Classe] Coupon adicionado ao inventario! Use-o no NPC de troca de classe.");
+				}
+				catch (Exception e)
+				{
+					player.sendMessage("[Troca de Classe] Erro ao processar compra. Tente novamente.");
+				}
+			}
+			showAccountPage(player);
 		}
 		else if (command.startsWith("_bbsika_changenick"))
 		{
@@ -1304,7 +1366,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		// Cards de servicos (2 colunas) - {nome, custo, icone, ativo("1")/embreve("0"), bypass(opcional)}
 		String[][] services = {
 			{"Premium " + PREMIUM_DAYS + "d", String.valueOf(PREMIUM_COST_IKOIN), "L2EssenceCommunity.premium_crown", "1", "_bbsika_premium"},
-			{"Trocar Classe", "150", "L2EssenceCommunity.change_class", "0"},
+			{"Trocar Classe", "150", "L2EssenceCommunity.change_class", "1", "_bbsika_buyclass"},
 			{"Trocar Nick", "100", "L2EssenceCommunity.rankings_btn", "1", "_bbsika_changenick"},
 			{"Trocar Sexo", "20", "L2EssenceCommunity.buffer_btn", "1", "_bbsika_changesex"},
 			{"Doar Ikoin", "-", "L2EssenceCommunity.adena", "0"},
