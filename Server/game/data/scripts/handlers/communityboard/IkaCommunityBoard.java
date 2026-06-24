@@ -725,7 +725,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		catch (Exception e)
 		{
-			showComprarPage(player, "<font color=\"FF4444\">Erro de conexão com o servidor de pagamento.</font>");
+			showComprarPage(player, "<font color=\"FF4444\">Erro de conexao: " + e.getClass().getSimpleName() + " - " + e.getMessage() + "</font>");
 		}
 	}
 
