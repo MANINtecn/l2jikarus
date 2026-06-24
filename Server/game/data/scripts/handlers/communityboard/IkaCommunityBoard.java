@@ -359,9 +359,9 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			final String raw = command.replace("_bbsika_ikoin_pix_create", "").replaceAll("[^0-9]", "").trim();
 			int ikoins = 0;
 			try { ikoins = Integer.parseInt(raw); } catch (NumberFormatException ignored) {}
-			if (ikoins < 10 || ikoins > 5000)
+			if (ikoins < 1 || ikoins > 5000)
 			{
-				showComprarPage(player, "<font color=\"FF4444\">Digite um valor entre 10 e 5000.</font>");
+				showComprarPage(player, "<font color=\"FF4444\">Digite um valor entre 1 e 5000.</font>");
 			}
 			else
 			{
@@ -648,7 +648,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			c.append("<tr><td height=8></td></tr>");
 		}
 		// form PIX
-		c.append("<tr><td align=center><font color=\"aaaaaa\">Quantidade de Ikoins (minimo 10, maximo 5000)</font></td></tr>");
+		c.append("<tr><td align=center><font color=\"aaaaaa\">Quantidade de Ikoins (minimo 1, maximo 5000)</font></td></tr>");
 		c.append("<tr><td height=8></td></tr>");
 		c.append("<tr><td align=center>");
 		c.append("<table cellspacing=0 cellpadding=0><tr>");
@@ -725,7 +725,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		catch (Exception e)
 		{
-			showComprarPage(player, "<font color=\"FF4444\">Erro de conexao: " + e.getClass().getSimpleName() + " - " + e.getMessage() + "</font>");
+			showComprarPage(player, "<font color=\"FF4444\">Erro de conexao com o servidor de pagamento. Tente novamente.</font>");
 		}
 	}
 
