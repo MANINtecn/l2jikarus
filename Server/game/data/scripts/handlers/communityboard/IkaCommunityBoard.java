@@ -107,6 +107,8 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	private static final HttpClient HTTP    = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(8)).build();
 	// objectId do jogador -> mpgId (pagamento PIX pendente)
 	private static final Map<Integer, String> PENDING_PIX = new ConcurrentHashMap<>();
+	// objectId do jogador -> tarefa de auto-verificacao do PIX
+	private static final Map<Integer, ScheduledFuture<?>> PIX_TASKS = new ConcurrentHashMap<>();
 
 	// Le a api-key da VPS de um arquivo local NAO commitado (config/vpskey.txt). Fallback p/ compat.
 	private static String loadVpsKey()
@@ -662,17 +664,12 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		// separador
 		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
 		c.append("<tr><td height=14></td></tr>");
-		// cartao de credito
-		c.append("<tr><td align=center><font color=\"888888\">Prefere pagar com cartao de credito?</font></td></tr>");
-		c.append("<tr><td height=10></td></tr>");
-		c.append("<tr><td align=center>");
-		c.append("<a action=\"link https://l2ikarus.com/checkout\">");
-		c.append("<button value=\"Abrir site para comprar\" width=220 height=30 align=center ");
-		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
-		c.append("</a>");
-		c.append("</td></tr>");
+		// cartao de credito / QR pelo site (cliente nao abre navegador, entao mostramos a URL)
+		c.append("<tr><td align=center><font color=\"888888\">Prefere cartao ou QR Code? Pague pelo site:</font></td></tr>");
 		c.append("<tr><td height=8></td></tr>");
-		c.append("<tr><td align=center><font color=\"555555\">Faca login no site e escolha o pacote</font></td></tr>");
+		c.append("<tr><td align=center><font color=\"LEVEL\">www.l2ikarus.com</font></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td align=center><font color=\"555555\">Acesse o site no navegador, faca login e escolha o pacote</font></td></tr>");
 		c.append("</table>");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("comprar"), c.toString()), player);
 	}
@@ -692,7 +689,6 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			final String resp = HTTP.send(req, HttpResponse.BodyHandlers.ofString()).body();
 			final String mpgId  = jsonStr(resp, "mpgId");
 			final String pixCode = jsonStr(resp, "pixCode");
-			final boolean hasQr = resp.contains("\"hasQr\":true");
 			if (mpgId.isEmpty())
 			{
 				final String err = jsonStr(resp, "error");
@@ -700,23 +696,24 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				return;
 			}
 			PENDING_PIX.put(player.getObjectId(), mpgId);
+			startPixWatcher(player, mpgId); // auto-verificacao do pagamento (a cada 15s)
 			final StringBuilder c = new StringBuilder();
 			c.append("<br><br>");
 			c.append("<font name=\"hs12\" color=\"LEVEL\">PIX GERADO</font><br>");
 			c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br><br>");
 			c.append("<font color=\"CCAA44\">").append(ikoins).append(" Ikoins &nbsp;|&nbsp; R$ ").append(ikoins).append(",00</font><br><br>");
-			if (hasQr)
-			{
-				c.append("<center><img src=\"").append(VPS_PUB_URL).append("/ikoin/qr/").append(mpgId).append("\" width=200 height=200></center><br>");
-			}
 			if (!pixCode.isEmpty())
 			{
-				c.append("<font color=\"aaaaaa\">Copia e Cola:</font><br>");
-				// Mostra os primeiros 60 chars + reticencias (codigo completo é ~120 chars)
-				final String preview = pixCode.length() > 60 ? pixCode.substring(0, 60) + "..." : pixCode;
-				c.append("<font color=\"888888\">").append(preview).append("</font><br><br>");
+				c.append("<font color=\"aaaaaa\">PIX Copia e Cola - cole/digite no app do seu banco:</font><br><br>");
+				// o codigo nao tem espacos, entao quebro em linhas pra exibir completo na janela
+				final StringBuilder wrapped = new StringBuilder();
+				for (int i = 0; i < pixCode.length(); i += 42)
+				{
+					wrapped.append(pixCode, i, Math.min(i + 42, pixCode.length())).append("<br>");
+				}
+				c.append("<font color=\"AAAAAA\">").append(wrapped).append("</font><br>");
 			}
-			c.append("<font color=\"888888\">Expira em 30 minutos. Escaneie o QR com o app do seu banco.</font><br><br>");
+			c.append("<font color=\"888888\">Expira em 30 min. Apos pagar, os Ikoins caem AUTOMATICAMENTE (ou clique em Verificar).</font><br><br>");
 			c.append("<button value=\"Verificar Pagamento\" action=\"bypass _bbsika_ikoin_pix_check\" width=180 height=30 ");
 			c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"> ");
 			c.append("<button value=\"Novo PIX\" action=\"bypass _bbsika_comprar\" width=120 height=30 ");
@@ -726,6 +723,59 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		catch (Exception e)
 		{
 			showComprarPage(player, "<font color=\"FF4444\">Erro de conexao com o servidor de pagamento. Tente novamente.</font>");
+		}
+	}
+
+	// Auto-verificacao: consulta o status do PIX a cada 15s e avisa o jogador quando "paid".
+	private void startPixWatcher(Player player, String mpgId)
+	{
+		final int objId = player.getObjectId();
+		stopPixWatcher(objId); // cancela watcher anterior, se houver
+		final long startTime = System.currentTimeMillis();
+		final ScheduledFuture<?> task = ThreadPool.scheduleAtFixedRate(() ->
+		{
+			try
+			{
+				// para: expirou (30min), o jogador gerou outro PIX, ou saiu
+				if (((System.currentTimeMillis() - startTime) > 1800000L) || !mpgId.equals(PENDING_PIX.get(objId)))
+				{
+					stopPixWatcher(objId);
+					return;
+				}
+				final Player p = World.getInstance().getPlayer(objId);
+				if ((p == null) || !p.isOnline())
+				{
+					stopPixWatcher(objId);
+					return;
+				}
+				final HttpRequest req = HttpRequest.newBuilder()
+					.uri(URI.create(VPS_API + "/ikoin/pix/" + mpgId))
+					.timeout(Duration.ofSeconds(8))
+					.header("x-api-key", VPS_KEY)
+					.GET()
+					.build();
+				final String resp = HTTP.send(req, HttpResponse.BodyHandlers.ofString()).body();
+				if ("paid".equals(jsonStr(resp, "status")))
+				{
+					PENDING_PIX.remove(objId);
+					stopPixWatcher(objId);
+					final String amt = jsonStr(resp, "amount");
+					p.sendMessage("[PIX] Pagamento confirmado! +" + amt + " Ikoins adicionados a sua conta.");
+				}
+			}
+			catch (Exception ignored)
+			{
+			}
+		}, 15000L, 15000L);
+		PIX_TASKS.put(objId, task);
+	}
+
+	private static void stopPixWatcher(int objId)
+	{
+		final ScheduledFuture<?> f = PIX_TASKS.remove(objId);
+		if (f != null)
+		{
+			f.cancel(false);
 		}
 	}
 

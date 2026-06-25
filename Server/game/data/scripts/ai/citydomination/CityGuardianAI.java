@@ -91,6 +91,28 @@ public class CityGuardianAI extends Script
 		return parsed;
 	}
 
+	// Liga/desliga o mod inteiro via <settings enabled="false"/>. Ausente = ligado (compat).
+	private static boolean parseModEnabled()
+	{
+		try
+		{
+			java.io.File f = new java.io.File("./data/mods/city_domination.xml");
+			if (!f.exists()) return false;
+			org.w3c.dom.Document doc = javax.xml.parsers.DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(f);
+			org.w3c.dom.NodeList list = doc.getElementsByTagName("settings");
+			if (list.getLength() == 0) return true;
+			org.w3c.dom.Element el = (org.w3c.dom.Element) list.item(0);
+			String v = el.getAttribute("enabled");
+			if ((v == null) || v.isEmpty()) return true; // sem atributo = ligado
+			return "true".equalsIgnoreCase(v) || "1".equals(v);
+		}
+		catch (Exception ex)
+		{
+			LOGGER.warning("CityGuardianAI.parseModEnabled: " + ex.getMessage());
+			return true;
+		}
+	}
+
 	private static boolean parseLvl4Enabled()
 	{
 		try
@@ -1214,6 +1236,11 @@ public class CityGuardianAI extends Script
 
 	public static void main(String[] args)
 	{
+		if (!parseModEnabled())
+		{
+			LOGGER.info("CityGuardianAI: mod DESATIVADO (enabled=false em city_domination.xml).");
+			return;
+		}
 		new CityGuardianAI();
 	}
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    L2 Ikarus Intercrow - City Domination Config
+    Usando IDs originais (renderizam direto sem editar cliente).
+      Lv1: 18508 Death Knight Lv80
+      Lv2: 20280 Headless Knight Lv80
+      Lv3: 18991 Death Knight RaidBoss Lv87
+      Lv4: 29195 Valakas Recovery (Valakas' Wing) Lv90  - opcional, controlado por features/lvl4-enabled
+    Stats reais dos NPCs vem dos XMLs originais em data/stats/npcs/.
+    hp/pAtk no XML do mod sao referencia/futuro (nao aplicados).
+-->
+<city-domination>
+
+    <settings enabled="false">
+        <war-start hour="21" minute="0"/>
+        <war-end   hour="23" minute="0"/>
+        <!--
+            features:
+              lvl4-enabled = "true" libera o 4o nivel do guardiao (NPC mais epico, custos maiores).
+                             Lido pelo CityGuardianAI.java em runtime (lazy-cached no boot).
+        -->
+        <features lvl4-enabled="true"/>
+    </settings>
+
+    <cities>
+        <city id="dion" name="Dion" x="16216" y="143279" z="-2803" heading="8192">
+            <levels>
+                <level id="1" npcId="18508" hp="0" pAtk="0" costAdena="0"           costLCoins="0"     />
+                <level id="2" npcId="20280" hp="0" pAtk="0" costAdena="5000000"     costLCoins="1000"  />
+                <level id="3" npcId="18991" hp="0" pAtk="0" costAdena="20000000"    costLCoins="5000"  />
+                <level id="4" npcId="29195" hp="0" pAtk="0" costAdena="50000000"    costLCoins="10000" />
+            </levels>
+        </city>
+    </cities>
+
+</city-domination>
