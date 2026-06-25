@@ -123,7 +123,7 @@ public class ExPetEquipItem extends ClientPacket
 														Item transferedItemx = player.transferItem(ItemProcessType.TRANSFER, item.getObjectId(), 1L, pet.getInventory(), null);
 														pet.useEquippableItem(transferedItemx, false);
 														this.sendInfos(pet, player);
-													}, player.getAttackEndTime() - TimeUnit.MILLISECONDS.toNanos(System.currentTimeMillis()));
+													}, Math.max(0L, TimeUnit.NANOSECONDS.toMillis(player.getAttackEndTime() - System.nanoTime())));
 												}
 												else
 												{
