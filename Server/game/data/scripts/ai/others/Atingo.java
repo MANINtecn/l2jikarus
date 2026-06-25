@@ -43,33 +43,61 @@ public class Atingo extends Script
 	// NPCs
 	private static final int ATINGO = 25914;
 	private static final int SIN_EATER = 25924;
+	private static final int FOX = 25992; // raposa - guardiao raro (1%)
+	// 6 guardioes comuns (10% cada). Fox tratado separado (1%). Resto = Sin Eater.
 	public static final int[] PETS =
 	{
-		25923,
-		25922,
-		25921,
-		25918,
-		25920,
-		25919
+		25923, // Hawk
+		25922, // Dragon
+		25921, // Kookaburra
+		25918, // Wolf
+		25920, // Tiger
+		25919  // Buffalo
 	};
 
-	// Locations
-	private static final Location[] SPAWNS =
+	// Zonas de spawn (gatilho): Atingo escolhe uma ZONA aleatoria e depois um ponto REAL dela.
+	// Assim o jogador sabe a zona, mas nao o ponto exato.
+	private static final Location[][] SPAWN_ZONES =
 	{
-		new Location(83928, 94232, -3453, 41157), // Primeval Isle
-		new Location(83928, 94232, -3453, 41157), // Plains of the Lizardmen
-		new Location(113906, 14873, -3612, 49656), // Tower of Insolence
-		new Location(171896, 20824, -3334, 16115), // Orc Barracks
+		{ // Aden Royal Cemetery (gatilho 175385,20318,3276)
+			new Location(190607, 21482, -3704),
+			new Location(177035, 17021, -3384),
+			new Location(177869, 23647, -3384),
+			new Location(169660, 20328, -3356)
+		},
+		{ // Fire Dragon's Swamp (gatilho 146060,-13961,-4469)
+			new Location(140284, -20833, -3159),
+			new Location(142143, -25032, -2045),
+			new Location(149969, -23586, -3159),
+			new Location(140333, -10592, -4574),
+			new Location(152047, -10097, -4515)
+		},
+		{ // Shifting Mirage (gatilho -39062,184098,-4016)
+			new Location(-41452, 173771, -3785),
+			new Location(-38441, 183351, -4001),
+			new Location(-35145, 190888, -3666)
+		},
+		{ // Tayga Camp (gatilho -53885,138618,-2934)
+			new Location(-56062, 140716, -2666),
+			new Location(-52361, 138015, -2947),
+			new Location(-52747, 144325, -2901)
+		}
 	};
 
 	// Misc
-	private static final Duration ATINGO_RESPAWN_DURATION = Duration.ofMinutes(10);
-	private static final double ATINGO_PET_SPAWN_RATE = 10;
+	private static final Duration ATINGO_RESPAWN_DURATION = Duration.ofMinutes(30);
 
 	public Atingo()
 	{
 		addSpawnId(ATINGO);
 		addKillId(ATINGO);
+	}
+
+	// Escolhe uma zona aleatoria e spawna o Atingo num ponto real dela.
+	private void spawnAtingo()
+	{
+		final Location[] zone = getRandomEntry(SPAWN_ZONES);
+		addSpawn(ATINGO, getRandomEntry(zone));
 	}
 
 	@Override
@@ -84,7 +112,7 @@ public class Atingo extends Script
 		ThreadPool.schedule(() -> {
 			if (World.getInstance().getVisibleObjects().stream().noneMatch(it -> it.getId() == ATINGO))
 			{
-				addSpawn(ATINGO, getRandomEntry(SPAWNS));
+				spawnAtingo();
 			}
 		}, ATINGO_RESPAWN_DURATION.toMillis());
 
@@ -96,7 +124,22 @@ public class Atingo extends Script
 		final Npc creature = hpChangeEvent.getCreature().asNpc();
 		if ((creature.getScriptValue() == 0) && !creature.isDead() && creature.isInCombat())
 		{
-			final Npc pet = addSpawn(getRandom(100) <= ATINGO_PET_SPAWN_RATE ? getRandomEntry(PETS) : SIN_EATER, GeoEngine.getInstance().getValidLocation(creature.getX(), creature.getY(), creature.getZ(), creature.getX() + 50, creature.getY() + 50, creature.getZ(), null));
+			// Rate ponderado: 6 guardioes comuns 10% cada (0-599), Raposa 1% (600-609), Sin Eater ~39% (610-999).
+			final int roll = getRandom(1000);
+			final int petId;
+			if (roll < 600)
+			{
+				petId = PETS[roll / 100];
+			}
+			else if (roll < 610)
+			{
+				petId = FOX;
+			}
+			else
+			{
+				petId = SIN_EATER;
+			}
+			final Npc pet = addSpawn(petId, GeoEngine.getInstance().getValidLocation(creature.getX(), creature.getY(), creature.getZ(), creature.getX() + 50, creature.getY() + 50, creature.getZ(), null));
 			creature.setScriptValue(pet.getObjectId());
 			pet.setInvul(true);
 			pet.getEffectList().startAbnormalVisualEffect(AbnormalVisualEffect.H_ULTIMATE_DEFENCE_B_AVE);
@@ -120,7 +163,7 @@ public class Atingo extends Script
 		ThreadPool.schedule(() -> {
 			if (World.getInstance().getVisibleObjects().stream().noneMatch(it -> it.getId() == ATINGO))
 			{
-				addSpawn(ATINGO, getRandomEntry(SPAWNS));
+				spawnAtingo();
 			}
 		}, ATINGO_RESPAWN_DURATION.toMillis());
 	}
