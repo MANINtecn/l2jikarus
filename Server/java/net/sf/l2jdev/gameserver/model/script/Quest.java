@@ -4045,7 +4045,8 @@ public class Quest implements IEventTimerEvent<String>, IEventTimerCancel<String
 		}
 		else if (player.getMovieHolder() == null && !player.isFishing() && !player.isInInstance() && !player.isOnEvent() && !player.isInOlympiadMode() && !player.inObserverMode() && !player.isInTraingCamp() && !player.isInTimedHuntingZone())
 		{
-			if (PlayerConfig.TELEPORT_WHILE_PLAYER_IN_COMBAT || !player.isInCombat() && !player.isCastingNow())
+			// Teleporte de quest: bloqueia SO quando flagado (PvP). Em combate PvE normal libera.
+			if (PlayerConfig.TELEPORT_WHILE_PLAYER_IN_COMBAT || player.getPvpFlag() == 0)
 			{
 				if ((!PlayerConfig.ALT_GAME_KARMA_PLAYER_CAN_TELEPORT || !PlayerConfig.ALT_GAME_KARMA_PLAYER_CAN_USE_GK) && player.getReputation() < 0)
 				{
