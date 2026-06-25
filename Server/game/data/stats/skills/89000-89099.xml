@@ -73,6 +73,8 @@
 		<!-- Level 10: <<font color="FF8000">Rush skill</font>>. Attacks the target. Power 9759. Ignores Shield Defense. Ignores 10% of the target's defense. -->
 		<icon>icon.s_song_of_wind</icon>
 		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
 		<castRange>700</castRange>
 		<hitTime>400</hitTime>
 		<coolTime>300</coolTime>
@@ -101,6 +103,26 @@
 			<value level="9">45</value>
 			<value level="10">50</value>
 		</mpConsume>
+		<effects>
+			<effect name="TeleportToTarget" />
+			<effect name="PhysicalDamage">
+				<power>
+					<value level="1">1308</value>
+					<value level="2">1635</value>
+					<value level="3">2044</value>
+					<value level="4">2556</value>
+					<value level="5">3196</value>
+					<value level="6">3996</value>
+					<value level="7">4996</value>
+					<value level="8">6245</value>
+					<value level="9">7807</value>
+					<value level="10">9759</value>
+				</power>
+				<pDefMod>0.9</pDefMod>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<criticalChance>15</criticalChance>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="89012" toLevel="10" name="Song of Wind">
 		<icon>icon.s_song_of_wind</icon>
@@ -162,6 +184,7 @@
 			<value level="10">50</value>
 		</mpConsume>
 		<effects>
+			<effect name="TeleportToTarget" />
 			<effect name="PhysicalDamage">
 				<power>
 					<value level="1">1308</value>
@@ -220,6 +243,11 @@
 		<!-- Level 20: Attacks the target and nearby enemies twice. Power 9868. Ignores Shield Defense. Ignores 10% of the target's defense. PvP: Attacks up to 4 targets. PvE: Attacks up to 4 targets. -->
 		<icon>icon.s_song_of_hunter</icon>
 		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>150</affectRange>
+		<affectScope>RANGE</affectScope>
+		<affectLimit>4-4</affectLimit>
 		<castRange>300</castRange>
 		<hitTime>1500</hitTime>
 		<reuseDelay>16000</reuseDelay>
@@ -267,6 +295,35 @@
 			<value level="19">89</value>
 			<value level="20">90</value>
 		</mpConsume>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>
+					<value level="1">1149</value>
+					<value level="2">1379</value>
+					<value level="3">1655</value>
+					<value level="4">1986</value>
+					<value level="5">2384</value>
+					<value level="6">2742</value>
+					<value level="7">3154</value>
+					<value level="8">3628</value>
+					<value level="9">4173</value>
+					<value level="10">4799</value>
+					<value level="11">5279</value>
+					<value level="12">5807</value>
+					<value level="13">6388</value>
+					<value level="14">7027</value>
+					<value level="15">7730</value>
+					<value level="16">8117</value>
+					<value level="17">8523</value>
+					<value level="18">8950</value>
+					<value level="19">9398</value>
+					<value level="20">9868</value>
+				</power>
+				<pDefMod>0.9</pDefMod>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<criticalChance>15</criticalChance>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="89016" toLevel="20" name="Dance of Fire">
 		<!-- Level 1: Attacks the target and nearby enemies twice. Power 1149. Ignores Shield Defense. Ignores 10% of the target's defense. PvP: Attacks up to 4 targets. PvE: Attacks up to 4 targets. -->
@@ -411,7 +468,11 @@
 		<!-- Level 5: P. Atk. +10%. P. Skill Critical Rate +5%. P. Skill Critical Damage +5%. P. Skill damage bonus in PvE +5%. Speed +10 -->
 		<!-- Level 6: P. Atk. +10%. P. Skill Critical Rate +5%. P. Skill Critical Damage +5%. P. Skill damage bonus in PvE +10%. P. Skill Cooldown -5%. Speed +10 -->
 		<icon>icon.s_song_of_water</icon>
-		<operateType>A1</operateType>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<abnormalType>SONG_OF_VITALITY</abnormalType>
+		<abnormalTime>1200</abnormalTime>
 		<hitTime>2000</hitTime>
 		<reuseDelay>10000</reuseDelay>
 		<mpConsume>
@@ -422,6 +483,61 @@
 			<value level="5">160</value>
 			<value level="6">320</value>
 		</mpConsume>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">10</value>
+					<value level="3">10</value>
+					<value level="4">10</value>
+					<value level="5">10</value>
+					<value level="6">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">5</value>
+					<value level="3">5</value>
+					<value level="4">5</value>
+					<value level="5">5</value>
+					<value level="6">5</value>
+				</amount>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">5</value>
+					<value level="4">5</value>
+					<value level="5">5</value>
+					<value level="6">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">10</value>
+					<value level="5">10</value>
+					<value level="6">10</value>
+				</amount>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">5</value>
+					<value level="6">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="89022" toLevel="1" name="Song of Earth: Cantabile - Elf">
 		<!-- STR/ INT/ DEX/ WIT +1 -->
