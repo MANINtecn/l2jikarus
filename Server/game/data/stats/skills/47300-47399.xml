@@ -1076,7 +1076,7 @@
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>300</abnormalTime>
+		<abnormalTime>540</abnormalTime>
 		<abnormalVisualEffect>V_FORTUNE_TIME</abnormalVisualEffect>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>NONE</basicProperty>
@@ -1199,9 +1199,9 @@
 		<icon>icon.s_rush_attack</icon>
 		<operateType>DA1</operateType>
 		<targetType>ENEMY</targetType>
-		<affectLimit>2-1</affectLimit>
+		<affectLimit>3-1</affectLimit>
 		<affectObject>NOT_FRIEND</affectObject>
-		<affectRange>100</affectRange>
+		<affectRange>200</affectRange>
 		<affectScope>RANGE</affectScope>
 		<castRange>
 			<value level="1">500</value>
@@ -1214,7 +1214,7 @@
 			<value level="2">-850</value>
 			<value level="3">-920</value>
 		</effectPoint>
-		<effectRange>600</effectRange>
+		<effectRange>800</effectRange>
 		<hitTime>800</hitTime>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
@@ -1223,6 +1223,7 @@
 			<value level="3">76</value>
 		</magicLevel>
 		<mpConsume>35</mpConsume>
+		<nextAction>ATTACK</nextAction>
 		<reuseDelay>3000</reuseDelay>
 		<conditions>
 			<condition name="NotInUnderwater" />
