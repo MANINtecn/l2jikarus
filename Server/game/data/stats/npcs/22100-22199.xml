@@ -1389,7 +1389,7 @@
 	<npc id="22135" level="85" type="Monster" name="Turek Orc" element="FIRE">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="3000" sp="27" attributeExp="765" />
+		<acquire exp="29112" sp="262" attributeExp="765" />
 		<equipment rhand="2" /> <!-- Long Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="12196.48485" hpRegen="17" mp="2770.2" mpRegen="6" />
@@ -1473,7 +1473,7 @@
 	<npc id="22137" level="86" type="Monster" name="Turek Orc Marksman" element="FIRE">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="3072" sp="30" attributeExp="946" />
+		<acquire exp="39698" sp="388" attributeExp="946" />
 		<equipment rhand="14" /> <!-- Bow -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="19480.2256" hpRegen="17" mp="2770.2" mpRegen="6" />
@@ -1515,7 +1515,7 @@
 	<npc id="22138" level="87" type="Monster" name="Turek Orc Warrior" element="FIRE">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="7857" sp="78" attributeExp="1131" />
+		<acquire exp="65501" sp="650" attributeExp="1131" />
 		<equipment rhand="127" /> <!-- Crimson Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="25549.6843239" hpRegen="17" mp="2770.2" mpRegen="6" />
@@ -1557,7 +1557,7 @@
 	<npc id="22139" level="86" type="Monster" name="Turek Orc Shaman" element="FIRE">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="3072" sp="30" attributeExp="1032" />
+		<acquire exp="39698" sp="388" attributeExp="1032" />
 		<equipment rhand="179" /> <!-- Mace of Prayer -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="19480.2256" hpRegen="17" mp="2770.2" mpRegen="6" />
@@ -1648,7 +1648,7 @@
 	<npc id="22141" level="87" type="Monster" name="Turek Orc Elite Soldier" element="FIRE">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="5907" sp="57" attributeExp="1218" />
+		<acquire exp="65501" sp="632" attributeExp="1218" />
 		<equipment rhand="79" /> <!-- Damascus Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="25549.6843239" hpRegen="17" mp="2770.2" mpRegen="6" />
@@ -1732,7 +1732,7 @@
 	<npc id="22143" level="88" type="Monster" name="Turek Orc Sniper" element="FIRE">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="6045" sp="60" attributeExp="1408" />
+		<acquire exp="84216" sp="836" attributeExp="1408" />
 		<equipment rhand="288" /> <!-- Carnage Bow -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="30659.6211911" hpRegen="17" mp="2770.2" mpRegen="6" />
@@ -1774,7 +1774,7 @@
 	<npc id="22144" level="90" type="Monster" name="Turek Orc Overlord" element="FIRE">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="20760" sp="207" attributeExp="1620" />
+		<acquire exp="470038" sp="4687" attributeExp="1620" />
 		<equipment rhand="38425" /> <!-- Monster Only: Amden Blunt Weapon - Not Available -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="44149.8545147" hpRegen="17" mp="2770.2" mpRegen="6" />
@@ -1816,7 +1816,7 @@
 	<npc id="22145" level="88" type="Monster" name="Turek Orc Elder" element="FIRE">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="6198" sp="60" attributeExp="1496" />
+		<acquire exp="84216" sp="815" attributeExp="1496" />
 		<equipment rhand="213" /> <!-- Branch of the Mother Tree -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="30659.6211911" hpRegen="17" mp="2770.2" mpRegen="6" />
@@ -2045,7 +2045,7 @@
 	<npc id="22151" level="77" type="Monster" name="Tanta Lizardman" element="WATER">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="525" sp="3" attributeExp="693" />
+		<acquire exp="1678" sp="10" attributeExp="693" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="17941.77" hpRegen="10.2" mp="2364.81086311211" mpRegen="3.6" />
 			<attack physical="1370.304" magical="701.808" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2087,7 +2087,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="8682" />
-		<acquire exp="525" sp="3" attributeExp="847" />
+		<acquire exp="1678" sp="10" attributeExp="847" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="17941.77" hpRegen="10.2" mp="2364.81086311211" mpRegen="3.6" />
 			<attack physical="1424.8" magical="729.712" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2128,7 +2128,7 @@
 	<npc id="22153" level="78" type="Monster" name="Tanta Lizardman Berserker" title="Valley Watchman" element="WATER">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="1617" sp="15" attributeExp="936" />
+		<acquire exp="2211" sp="21" attributeExp="936" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="36421.52" hpRegen="10.2" mp="2435.75518900548" mpRegen="3.6" />
 			<attack physical="1487.888" magical="762.024" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2175,7 +2175,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="15302" />
-		<acquire exp="534" sp="3" attributeExp="780" />
+		<acquire exp="2211" sp="12" attributeExp="780" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="18210.76" hpRegen="10.2" mp="2435.75518900548" mpRegen="3.6" />
 			<attack physical="1424.8" magical="729.712" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -2216,7 +2216,7 @@
 	<npc id="22155" level="79" type="Monster" name="Tanta Lizardman Summoner" element="WATER">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="543" sp="3" attributeExp="1027" />
+		<acquire exp="3132" sp="17" attributeExp="1027" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="18484.18" hpRegen="10.2" mp="2508.82784467564" mpRegen="3.6" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2312,7 +2312,7 @@
 	<npc id="22157" level="85" type="Monster" name="Gilatu" title="Tame">
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="94845" sp="948" />
+		<acquire exp="29112" sp="291" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="313290.45" hpRegen="1" mp="2365" mpRegen="6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2349,7 +2349,7 @@
 	<npc id="22158" level="85" type="Monster" name="Ogre" title="Tame">
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="94845" sp="948" />
+		<acquire exp="29112" sp="291" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="313290.45" hpRegen="1" mp="2365" mpRegen="6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2386,7 +2386,7 @@
 	<npc id="22159" level="85" type="Monster" name="Jeras" title="Castle Wall Guard">
 		<race>GIANT</race>
 		<sex>MALE</sex>
-		<acquire exp="94845" sp="948" />
+		<acquire exp="29112" sp="291" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="313290.45" hpRegen="1" mp="2365" mpRegen="6" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2423,7 +2423,7 @@
 	<npc id="22160" level="85" type="Monster" name="Tebot" title="Great General">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="124500" sp="1242" />
+		<acquire exp="29112" sp="290" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="626580.9" hpRegen="1" mp="2365" mpRegen="5.4" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2460,7 +2460,7 @@
 	<npc id="22161" level="85" type="Monster" name="Tegaffe" title="Great General">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="124500" sp="1242" />
+		<acquire exp="29112" sp="290" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="626580.9" hpRegen="1" mp="2365" mpRegen="5.4" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2497,7 +2497,7 @@
 	<npc id="22162" level="85" type="Monster" name="Thesakar" title="Great General">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="124500" sp="1242" />
+		<acquire exp="29112" sp="290" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="626580.9" hpRegen="1" mp="2365" mpRegen="5.4" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2534,7 +2534,7 @@
 	<npc id="22163" level="85" type="Monster" name="Theor" title="Great General">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="124500" sp="1242" />
+		<acquire exp="29112" sp="290" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="626580.9" hpRegen="1" mp="2365" mpRegen="5.4" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2571,7 +2571,7 @@
 	<npc id="22164" level="85" type="Monster" name="Laokan" title="General">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="94845" sp="948" />
+		<acquire exp="29112" sp="291" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="313290.45" hpRegen="1" mp="2365" mpRegen="5.4" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2609,7 +2609,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="38425" />
-		<acquire exp="94845" sp="948" />
+		<acquire exp="29112" sp="291" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="313290.45" hpRegen="1" mp="2365" mpRegen="5.4" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2646,7 +2646,7 @@
 	<npc id="22166" level="85" type="Monster" name="Vulcan" title="General">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="94845" sp="948" />
+		<acquire exp="29112" sp="291" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="313290.45" hpRegen="1" mp="2365" mpRegen="5.4" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2684,7 +2684,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="38445" />
-		<acquire exp="94845" sp="948" />
+		<acquire exp="29112" sp="291" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="313290.45" hpRegen="1" mp="2365" mpRegen="5.4" />
 			<attack physical="2226.2521499701" magical="1520.24164482038" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2722,7 +2722,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="80" lhand="6919" />
-		<acquire exp="58101" sp="579" />
+		<acquire exp="10782" sp="107" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="180028.5" hpRegen="8.5" mp="2614.5" mpRegen="3" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2760,7 +2760,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="6719" />
-		<acquire exp="29049" sp="288" />
+		<acquire exp="10782" sp="107" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="180028.5" hpRegen="8.5" mp="2614.5" mpRegen="3" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2798,7 +2798,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="79" lhand="6919" />
-		<acquire exp="29049" sp="288" />
+		<acquire exp="10782" sp="107" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="180028.5" hpRegen="8.5" mp="2614.5" mpRegen="3" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2836,7 +2836,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="127" />
-		<acquire exp="29049" sp="288" />
+		<acquire exp="10782" sp="107" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="180028.5" hpRegen="8.5" mp="2614.5" mpRegen="3" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2874,7 +2874,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="80" />
-		<acquire exp="29049" sp="288" />
+		<acquire exp="10782" sp="107" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="180028.5" hpRegen="8.5" mp="2614.5" mpRegen="3" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2912,7 +2912,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="127" />
-		<acquire exp="29049" sp="288" />
+		<acquire exp="10782" sp="107" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="180028.5" hpRegen="8.5" mp="2614.5" mpRegen="3" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2950,7 +2950,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="79" lhand="6919" />
-		<acquire exp="29049" sp="288" />
+		<acquire exp="10782" sp="107" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="180028.5" hpRegen="8.5" mp="2614.5" mpRegen="3" />
 			<attack physical="1688.456" magical="864.744" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2988,7 +2988,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="123" />
-		<acquire exp="17295" sp="171" />
+		<acquire exp="5750" sp="57" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="240037.3" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3026,7 +3026,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="123" lhand="19" />
-		<acquire exp="17295" sp="171" />
+		<acquire exp="5750" sp="57" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="240037.3" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3064,7 +3064,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="79" />
-		<acquire exp="17295" sp="171" />
+		<acquire exp="5750" sp="57" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="240037.3" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3103,7 +3103,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="7" />
-		<acquire exp="17295" sp="171" />
+		<acquire exp="5750" sp="57" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="240037.3" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3142,7 +3142,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="9" />
-		<acquire exp="17295" sp="171" />
+		<acquire exp="5750" sp="57" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="240037.3" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3180,7 +3180,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="13" />
-		<acquire exp="17295" sp="171" />
+		<acquire exp="5750" sp="57" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="240037.3" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="1100" distance="80" width="120" />
@@ -3218,7 +3218,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="279" />
-		<acquire exp="17295" sp="171" />
+		<acquire exp="5750" sp="57" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="240037.3" hpRegen="8.5" mp="2227.484" mpRegen="3" />
 			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="1100" distance="80" width="120" />
@@ -3568,7 +3568,7 @@
 	<npc id="22189" level="78" type="Monster" name="Alligator" element="WATER">
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="4350" sp="42" attributeExp="43" />
+		<acquire exp="3316" sp="32" attributeExp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="60096.2" hpRegen="7.5" mp="2295.93287680788" mpRegen="2.7" />
 			<attack physical="1424.8" magical="729.712" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3615,7 +3615,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5128" />
-		<acquire exp="4350" sp="42" attributeExp="43" />
+		<acquire exp="3316" sp="32" attributeExp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="60096.2" hpRegen="7.5" mp="2295.93287680788" mpRegen="2.7" />
 			<attack physical="1424.8" magical="729.712" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3662,7 +3662,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5130" />
-		<acquire exp="4350" sp="42" attributeExp="43" />
+		<acquire exp="3316" sp="32" attributeExp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="60096.2" hpRegen="7.5" mp="2295.93287680788" mpRegen="2.7" />
 			<attack physical="1424.8" magical="729.712" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3708,7 +3708,7 @@
 	<npc id="22192" level="78" type="Monster" name="Crokian Warrior" title="Evolved" element="WATER">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="8700" sp="84" attributeExp="43" />
+		<acquire exp="3316" sp="32" attributeExp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="120191.8" hpRegen="7.5" mp="2295.93287680788" mpRegen="2.7" />
 			<attack physical="1424.8" magical="729.712" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3758,7 +3758,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5127" />
-		<acquire exp="4350" sp="42" attributeExp="43" />
+		<acquire exp="3316" sp="32" attributeExp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="60096.2" hpRegen="7.5" mp="2295.93287680788" mpRegen="2.7" />
 			<attack physical="1424.8" magical="729.712" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
@@ -3804,7 +3804,7 @@
 	<npc id="22194" level="88" type="Monster" name="Krotania" element="WATER">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="12312" sp="45" attributeExp="1258" />
+		<acquire exp="126324" sp="462" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32998.1" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3853,7 +3853,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5131" />
-		<acquire exp="12312" sp="45" attributeExp="1258" />
+		<acquire exp="126324" sp="462" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32998.1" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="3057" magical="2087" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -3902,7 +3902,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="128" />
-		<acquire exp="12312" sp="45" attributeExp="1258" />
+		<acquire exp="126324" sp="462" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32998.1" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -3950,7 +3950,7 @@
 	<npc id="22197" level="88" type="Monster" name="Crotian Leader" title="Evolved" element="WATER">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="19452" sp="72" attributeExp="1258" />
+		<acquire exp="126324" sp="468" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="65996.2" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -4001,7 +4001,7 @@
 	<npc id="22198" level="88" type="Monster" name="Kropiora" element="WATER">
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="12312" sp="45" attributeExp="1258" />
+		<acquire exp="126324" sp="462" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32998.1" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="3057" magical="2087" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -4050,7 +4050,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5127" />
-		<acquire exp="12312" sp="45" attributeExp="1258" />
+		<acquire exp="126324" sp="462" attributeExp="1258" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32998.1" hpRegen="8.5" mp="2770.2" mpRegen="3" />
 			<attack physical="3057" magical="2087" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
