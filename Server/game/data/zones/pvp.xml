@@ -64,4 +64,36 @@
 		<node X="133115" Y="107000" />
 		<node X="156000" Y="124000" />
 	</zone>
+	<!-- #83 Grand Boss lairs = combate livre (PvP). Poligonos reaproveitados das no_restart zones. -->
+	<zone name="valakas_lair_pvp" type="ArenaZone" shape="NPoly" minZ="-2572" maxZ="5428"> <!-- 26_14 -->
+		<node X="196866" Y="-130845" />
+		<node X="229289" Y="-130860" />
+		<node X="229176" Y="-98508" />
+		<node X="196880" Y="-98498" />
+	</zone>
+	<zone name="baium_lair_pvp" type="ArenaZone" shape="NPoly" minZ="10061" maxZ="11061"> <!-- 23_18 -->
+		<node X="111074" Y="16177" />
+		<node X="114562" Y="12623" />
+		<node X="118194" Y="15790" />
+		<node X="114825" Y="19589" />
+	</zone>
+	<zone name="zaken_lair_pvp" type="ArenaZone" shape="NPoly" minZ="-4815" maxZ="-315"> <!-- 21_24 -->
+		<node X="50797" Y="213515" />
+		<node X="57617" Y="213510" />
+		<node X="57669" Y="221683" />
+		<node X="50773" Y="221632" />
+	</zone>
+	<!-- #83 Epics menores: box ArenaZone (+-2500) em volta do spawn (Queen Ant/Core/Orfen). -->
+	<zone name="queenant_lair_pvp" type="ArenaZone" shape="Cuboid" minZ="-3700" maxZ="-2600">
+		<node X="16400" Y="142800" />
+		<node X="21400" Y="147800" />
+	</zone>
+	<zone name="core_lair_pvp" type="ArenaZone" shape="Cuboid" minZ="-6700" maxZ="-5900">
+		<node X="15200" Y="106400" />
+		<node X="20200" Y="111400" />
+	</zone>
+	<zone name="orfen_lair_pvp" type="ArenaZone" shape="Cuboid" minZ="-4200" maxZ="-3300">
+		<node X="61900" Y="26967" />
+		<node X="66900" Y="31967" />
+	</zone>
 </list>
