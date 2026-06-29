@@ -37,7 +37,7 @@ public class HellboundMessenger extends Script
 	private static final Location IVORY_TOWER = new Location(86722, 15389, -3515);
 
 	// Misc
-	private static final int MINIMUM_LEVEL = 85;
+	private static final int MINIMUM_LEVEL = 80;
 
 	private HellboundMessenger()
 	{
