@@ -872,7 +872,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="103578" name="Sealed Contract: Glassika" type="EtcItem">
-		<!-- Double-click to obtain various items. -->
+		<!-- Double-click to obtain Guardian Contract: Glassika. -->
 		<set name="icon" val="icon.glassica_contract" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -881,6 +881,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="103576" min="1" max="1" chance="100" /> <!-- Guardian Contract: Glassika -->
+		</capsuled_items>
 	</item>
 	<item id="103579" name="Sealed Contract: Orbit" type="EtcItem">
 		<!-- Double-click to obtain various items. -->

@@ -1587,7 +1587,7 @@
 		</capsuled_items>
 	</item>
 	<item id="102195" name="+5 ~ +7 Frost Lord's Sword" additionalName="Sealed" type="EtcItem">
-		<!-- Double-click to obtain various items. -->
+		<!-- Double-click to obtain +5, +6 or +7 Frost Lord's Sword (Sealed) at equal chance. -->
 		<set name="icon" val="icon.frozen_weapon_sword" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1596,6 +1596,12 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="96751" min="1" max="1" minEnchant="5" maxEnchant="5" chance="33.33" /> <!-- +5 Frost Lord's Sword - Sealed -->
+			<item id="96751" min="1" max="1" minEnchant="6" maxEnchant="6" chance="33.33" /> <!-- +6 Frost Lord's Sword - Sealed -->
+			<item id="96751" min="1" max="1" minEnchant="7" maxEnchant="7" chance="33.34" /> <!-- +7 Frost Lord's Sword - Sealed -->
+		</capsuled_items>
 	</item>
 	<item id="102196" name="Package: +5 ~ +7 Frost Lord's Axe" additionalName="Sealed" type="EtcItem">
 		<!-- Double-click to obtain various items. -->

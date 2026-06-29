@@ -969,6 +969,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="100924" min="1" max="1" chance="100" /> <!-- Rare Glakias Doll Summon Coupon - Sealed -->
+		</capsuled_items>
 	</item>
 	<item id="103479" name="Package: Heroic Glakias Doll Summon Coupon (Sealed)" type="EtcItem">
 		<!-- Double-click to obtain Heroic Doll Summon Coupon - Glakias <font color=ff6666>(unexchangeable)</font>. -->
@@ -980,6 +984,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="100935" min="1" max="1" chance="100" /> <!-- Heroic Glakias Doll Summon Coupon - Sealed -->
+		</capsuled_items>
 	</item>
 	<item id="103480" name="Package: Rare Kelbim Doll Summon Coupon (Sealed)" type="EtcItem">
 		<!-- Double-click to obtain Rare Doll Summon Coupon - Kelbim <font color=ff6666>(unexchangeable)</font>. -->
