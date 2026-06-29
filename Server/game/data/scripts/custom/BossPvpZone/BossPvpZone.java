@@ -73,6 +73,7 @@ public class BossPvpZone extends Script
 				if (p != null)
 				{
 					p.setInsideZone(ZoneId.PVP, false);
+					p.updatePvPFlag(0);
 					p.sendMessage("Voce saiu da area de Raid Boss.");
 				}
 				return true;
