@@ -33,7 +33,6 @@ import net.sf.l2jdev.gameserver.model.events.EventType;
 import net.sf.l2jdev.gameserver.model.events.holders.actor.creature.OnCreatureHpChange;
 import net.sf.l2jdev.gameserver.model.events.listeners.ConsumerEventListener;
 import net.sf.l2jdev.gameserver.model.script.Script;
-import net.sf.l2jdev.gameserver.model.skill.AbnormalVisualEffect;
 
 /**
  * @author Berezkin Nikolay
@@ -122,7 +121,7 @@ public class Atingo extends Script
 	private void onHpChange(OnCreatureHpChange hpChangeEvent)
 	{
 		final Npc creature = hpChangeEvent.getCreature().asNpc();
-		if ((creature.getScriptValue() == 0) && !creature.isDead() && creature.isInCombat())
+		if ((creature.getScriptValue() == 0) && !creature.isDead() && creature.isInCombat() && (getRandom(100) < 40))
 		{
 			// Rate ponderado: 6 guardioes comuns 10% cada (0-599), Raposa 1% (600-609), Sin Eater ~39% (610-999).
 			final int roll = getRandom(1000);
@@ -141,25 +140,14 @@ public class Atingo extends Script
 			}
 			final Npc pet = addSpawn(petId, GeoEngine.getInstance().getValidLocation(creature.getX(), creature.getY(), creature.getZ(), creature.getX() + 50, creature.getY() + 50, creature.getZ(), null));
 			creature.setScriptValue(pet.getObjectId());
-			pet.setInvul(true);
-			pet.getEffectList().startAbnormalVisualEffect(AbnormalVisualEffect.H_ULTIMATE_DEFENCE_B_AVE);
+			pet.setRunning();
+			pet.addDamageHate(hpChangeEvent.getAttacker().asCreature(), 0, 999);
 		}
 	}
 
 	@Override
 	public void onKill(Npc npc, Player killer, boolean isSummon)
 	{
-		final int petObjId = npc.getScriptValue();
-		if (petObjId > 0)
-		{
-			final Npc pet = World.getInstance().findObject(petObjId).asNpc();
-			if (pet != null)
-			{
-				pet.setInvul(false);
-				pet.getEffectList().stopAbnormalVisualEffect(AbnormalVisualEffect.H_ULTIMATE_DEFENCE_B_AVE);
-			}
-		}
-
 		ThreadPool.schedule(() -> {
 			if (World.getInstance().getVisibleObjects().stream().noneMatch(it -> it.getId() == ATINGO))
 			{

@@ -846,8 +846,15 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="1209" max="1335" chance="100" /> <!-- Adena -->
+				<group chance="85">
+					<item id="57" min="3500" max="5000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="3">
+					<item id="91663" min="1" max="2" chance="100" /> <!-- L-Coin -->
+				</group>
+				<group chance="5">
+					<item id="97145" min="1" max="9" chance="70" /> <!-- Ancient Adena 1-9 (comum) -->
+					<item id="97145" min="10" max="20" chance="30" /> <!-- Ancient Adena 10-20 (raro) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -888,8 +895,15 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="1209" max="1335" chance="100" /> <!-- Adena -->
+				<group chance="85">
+					<item id="57" min="3500" max="5000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="3">
+					<item id="91663" min="1" max="2" chance="100" /> <!-- L-Coin -->
+				</group>
+				<group chance="5">
+					<item id="97145" min="1" max="9" chance="70" /> <!-- Ancient Adena 1-9 (comum) -->
+					<item id="97145" min="10" max="20" chance="30" /> <!-- Ancient Adena 10-20 (raro) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -930,12 +944,18 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="2419" max="2670" chance="100" /> <!-- Adena -->
+				<group chance="85">
+					<item id="57" min="6000" max="9000" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="0.5286">
-					<item id="94717" min="1" max="1" chance="99.503" /> <!-- Hellbound Energy - Sealed -->
-					<item id="101587" min="1" max="1" chance="0.498" /> <!-- Aden's Exploration Report Page - Sealed -->
+				<group chance="5">
+					<item id="91663" min="1" max="3" chance="100" /> <!-- L-Coin -->
+				</group>
+				<group chance="0.5">
+					<item id="94717" min="1" max="1" chance="100" /> <!-- Hellbound Energy - Sealed -->
+				</group>
+				<group chance="20">
+					<item id="97145" min="1" max="9" chance="70" /> <!-- Ancient Adena 1-9 (comum) -->
+					<item id="97145" min="10" max="20" chance="30" /> <!-- Ancient Adena 10-20 (raro) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -976,12 +996,17 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="3229" max="3565" chance="100" /> <!-- Adena -->
+				<group chance="85">
+					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="0.7057">
-					<item id="94717" min="1" max="1" chance="99.503" /> <!-- Hellbound Energy - Sealed -->
-					<item id="101587" min="1" max="1" chance="0.498" /> <!-- Aden's Exploration Report Page - Sealed -->
+				<group chance="7">
+					<item id="91663" min="1" max="4" chance="100" /> <!-- L-Coin -->
+				</group>
+				<group chance="0.8">
+					<item id="94717" min="1" max="1" chance="100" /> <!-- Hellbound Energy - Sealed -->
+				</group>
+				<group chance="0.25">
+					<item id="97145" min="1" max="1" chance="100" /> <!-- Ancient Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1482,8 +1507,15 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="1848" max="2043" chance="100" /> <!-- Adena -->
+				<group chance="85">
+					<item id="57" min="3500" max="5000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="3">
+					<item id="91663" min="1" max="2" chance="100" /> <!-- L-Coin -->
+				</group>
+				<group chance="5">
+					<item id="97145" min="1" max="9" chance="70" /> <!-- Ancient Adena 1-9 (comum) -->
+					<item id="97145" min="10" max="20" chance="30" /> <!-- Ancient Adena 10-20 (raro) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1508,11 +1540,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="1848" max="2043" chance="100" /> <!-- Adena -->
+				<group chance="85">
+					<item id="57" min="6000" max="9000" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="1.7379">
+				<group chance="5">
+					<item id="91663" min="1" max="3" chance="100" /> <!-- L-Coin -->
+				</group>
+				<group chance="0.5">
 					<item id="94717" min="1" max="1" chance="100" /> <!-- Hellbound Energy - Sealed -->
+				</group>
+				<group chance="15">
+					<item id="97145" min="1" max="9" chance="70" /> <!-- Ancient Adena 1-9 (comum) -->
+					<item id="97145" min="10" max="20" chance="30" /> <!-- Ancient Adena 10-20 (raro) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1537,11 +1576,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="3695" max="4085" chance="100" /> <!-- Adena -->
+				<group chance="85">
+					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="3.4754">
+				<group chance="7">
+					<item id="91663" min="1" max="4" chance="100" /> <!-- L-Coin -->
+				</group>
+				<group chance="0.8">
 					<item id="94717" min="1" max="1" chance="100" /> <!-- Hellbound Energy - Sealed -->
+				</group>
+				<group chance="25">
+					<item id="97145" min="1" max="9" chance="70" /> <!-- Ancient Adena 1-9 (comum) -->
+					<item id="97145" min="10" max="20" chance="30" /> <!-- Ancient Adena 10-20 (raro) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1573,12 +1619,18 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="4933" max="5454" chance="100" /> <!-- Adena -->
+				<group chance="85">
+					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="2.3316">
-					<item id="94717" min="1" max="1" chance="99.503" /> <!-- Hellbound Energy - Sealed -->
-					<item id="101587" min="1" max="1" chance="0.498" /> <!-- Aden's Exploration Report Page - Sealed -->
+				<group chance="7">
+					<item id="91663" min="1" max="4" chance="100" /> <!-- L-Coin -->
+				</group>
+				<group chance="0.8">
+					<item id="94717" min="1" max="1" chance="100" /> <!-- Hellbound Energy - Sealed -->
+				</group>
+				<group chance="25">
+					<item id="97145" min="1" max="9" chance="70" /> <!-- Ancient Adena 1-9 (comum) -->
+					<item id="97145" min="10" max="20" chance="30" /> <!-- Ancient Adena 10-20 (raro) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1603,8 +1655,11 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="1848" max="2043" chance="100" /> <!-- Adena -->
+				<group chance="85">
+					<item id="57" min="3500" max="5000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="3">
+					<item id="91663" min="1" max="2" chance="100" /> <!-- L-Coin -->
 				</group>
 			</drop>
 		</dropLists>
