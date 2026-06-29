@@ -26,7 +26,8 @@ import java.util.function.Consumer;
 import net.sf.l2jdev.commons.threads.ThreadPool;
 import net.sf.l2jdev.gameserver.geoengine.GeoEngine;
 import net.sf.l2jdev.gameserver.model.Location;
-import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Attackable;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
 import net.sf.l2jdev.gameserver.model.actor.Npc;
 import net.sf.l2jdev.gameserver.model.actor.Player;
 import net.sf.l2jdev.gameserver.model.events.EventType;
@@ -92,8 +93,17 @@ public class Atingo extends Script
 		addKillId(ATINGO);
 	}
 
-	// Escolhe uma zona aleatoria e spawna o Atingo num ponto real dela.
-	private void spawnAtingo()
+	// Spawna 1 Atingo em cada zona (num ponto aleatorio dentro dela).
+	private void spawnAllZones()
+	{
+		for (Location[] zone : SPAWN_ZONES)
+		{
+			addSpawn(ATINGO, getRandomEntry(zone));
+		}
+	}
+
+	// Respawna 1 Atingo numa zona aleatoria (substitui o que morreu).
+	private void respawnOne()
 	{
 		final Location[] zone = getRandomEntry(SPAWN_ZONES);
 		addSpawn(ATINGO, getRandomEntry(zone));
@@ -108,13 +118,7 @@ public class Atingo extends Script
 	@Override
 	protected void onLoad()
 	{
-		ThreadPool.schedule(() -> {
-			if (World.getInstance().getVisibleObjects().stream().noneMatch(it -> it.getId() == ATINGO))
-			{
-				spawnAtingo();
-			}
-		}, ATINGO_RESPAWN_DURATION.toMillis());
-
+		ThreadPool.schedule(() -> spawnAllZones(), ATINGO_RESPAWN_DURATION.toMillis());
 		super.onLoad();
 	}
 
@@ -141,19 +145,18 @@ public class Atingo extends Script
 			final Npc pet = addSpawn(petId, GeoEngine.getInstance().getValidLocation(creature.getX(), creature.getY(), creature.getZ(), creature.getX() + 50, creature.getY() + 50, creature.getZ(), null));
 			creature.setScriptValue(pet.getObjectId());
 			pet.setRunning();
-			pet.addDamageHate(hpChangeEvent.getAttacker().asCreature(), 0, 999);
+			final Creature target = creature.asAttackable().getMostHated();
+			if (target != null)
+			{
+				pet.asAttackable().addDamageHate(target, 0, 999);
+			}
 		}
 	}
 
 	@Override
 	public void onKill(Npc npc, Player killer, boolean isSummon)
 	{
-		ThreadPool.schedule(() -> {
-			if (World.getInstance().getVisibleObjects().stream().noneMatch(it -> it.getId() == ATINGO))
-			{
-				spawnAtingo();
-			}
-		}, ATINGO_RESPAWN_DURATION.toMillis());
+		ThreadPool.schedule(() -> respawnOne(), ATINGO_RESPAWN_DURATION.toMillis());
 	}
 
 	public static void main(String[] args)
