@@ -30,6 +30,10 @@ import net.sf.l2jdev.gameserver.handler.ItemHandler;
 import net.sf.l2jdev.gameserver.model.World;
 import net.sf.l2jdev.gameserver.model.actor.Player;
 import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.itemcontainer.Inventory;
+import net.sf.l2jdev.gameserver.network.enums.InventorySlot;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExUserInfoEquipSlot;
+import net.sf.l2jdev.gameserver.network.serverpackets.InventoryUpdate;
 
 public class IkaCommunityBoard implements IParseBoardHandler
 {
@@ -37,7 +41,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 	// Tarefa GLOBAL unica: varre todos os players online e usa potion conforme o threshold salvo.
 	// Assim funciona automatico apos relogar/RR (a variavel IKA_MP_THRESHOLD persiste no char).
 	private static volatile boolean AUTO_TASK_STARTED = false;
-
+	
 	private static synchronized void ensureAutoTask()
 	{
 		if (AUTO_TASK_STARTED)
@@ -45,8 +49,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			return;
 		}
 		AUTO_TASK_STARTED = true;
-		ThreadPool.scheduleAtFixedRate(() ->
-		{
+		ThreadPool.scheduleAtFixedRate(() -> {
 			try
 			{
 				for (Player player : World.getInstance().getPlayers())
@@ -80,36 +83,42 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			}
 		}, 2000, 2000);
 	}
-
-	private static final String[] RACES = { "Human", "Elf", "Dark Elf", "Orc", "Dwarf", "Kamael", "Sylph" };
-
+	
+	private static final String[] RACES =
+	{
+		"Human",
+		"Elf",
+		"Dark Elf",
+		"Orc",
+		"Dwarf",
+		"Kamael",
+		"Sylph"
+	};
+	
 	// ===== START PACKS (formato "itemId:count;itemId:count") =====
 	// FREE (Basic): resgate gratis, 1x por personagem.
-	private static final String BASIC_START_ITEMS =
-		"94268:250;94270:250;91912:5000;49854:500;49081:1000;71967:1;3031:3000";
+	private static final String BASIC_START_ITEMS = "94268:250;94270:250;91912:5000;49854:500;49081:1000;71967:1;3031:3000";
 	// RARO: comprado com Ikoin, ILIMITADO.
-	private static final String RARO_PACK_ITEMS =
-		"94268:700;94270:700;91912:7000;49854:1000;49081:2000;71967:1;90834:1;72191:1;72289:1;3031:5000";
+	private static final String RARO_PACK_ITEMS = "94268:700;94270:700;91912:7000;49854:1000;49081:2000;71967:1;90834:1;72191:1;72289:1;3031:5000";
 	private static final int RARO_PACK_COST = 70;
 	// FUNDADOR (ex-Lendario): comprado com Ikoin, ILIMITADO.
-	private static final String FUNDADOR_PACK_ITEMS =
-		"94268:1500;94270:1500;91912:15000;49854:2500;49081:3000;71967:1;90834:1;91827:5000;98236:1;72192:1;72289:1;3031:10000";
+	private static final String FUNDADOR_PACK_ITEMS = "94268:1500;94270:1500;91912:15000;49854:2500;49081:3000;71967:1;90834:1;91827:5000;98236:1;72192:1;72289:1;3031:10000";
 	private static final int FUNDADOR_PACK_COST = 200;
-
+	
 	// Premium Account: 50 Ikoin = 30 dias. Por CONTA. Nao pode acumular (so recompra apos expirar).
 	private static final int PREMIUM_COST_IKOIN = 50;
 	private static final int PREMIUM_DAYS = 30;
-
+	
 	// ===== COMPRA DE IKOIN VIA PIX (MercadoPago) =====
-	private static final String VPS_API     = "http://localhost:8080";       // GS -> VPS (mesma maquina)
-	private static final String VPS_PUB_URL = "http://192.99.110.164:8080";  // cliente do jogo -> VPS
-	private static final String VPS_KEY     = loadVpsKey();
-	private static final HttpClient HTTP    = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(8)).build();
+	private static final String VPS_API = "http://localhost:8080"; // GS -> VPS (mesma maquina)
+	private static final String VPS_PUB_URL = "http://192.99.110.164:8080"; // cliente do jogo -> VPS
+	private static final String VPS_KEY = loadVpsKey();
+	private static final HttpClient HTTP = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(8)).build();
 	// objectId do jogador -> mpgId (pagamento PIX pendente)
 	private static final Map<Integer, String> PENDING_PIX = new ConcurrentHashMap<>();
 	// objectId do jogador -> tarefa de auto-verificacao do PIX
 	private static final Map<Integer, ScheduledFuture<?>> PIX_TASKS = new ConcurrentHashMap<>();
-
+	
 	// Le a api-key da VPS de um arquivo local NAO commitado (config/vpskey.txt). Fallback p/ compat.
 	private static String loadVpsKey()
 	{
@@ -131,7 +140,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		return "ikarus2026";
 	}
-
+	
 	private static final String[] COMMANDS =
 	{
 		"_bbshome",
@@ -160,14 +169,20 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		"_bbsika_changenick",
 		"_bbsika_changesex",
 		"_bbsika_changesex_confirm",
+		"_bbsika_skins",
+		"_bbsika_skins_soon",
+		"_bbsika_buyskin_antharas",
+		"_bbsika_buyskin_valakas",
+		"_bbsika_buyskin_fafurion",
+		"_bbsika_skins_remove",
 	};
-
+	
 	@Override
 	public String[] getCommandList()
 	{
 		return COMMANDS;
 	}
-
+	
 	@Override
 	public boolean onCommand(String command, Player player)
 	{
@@ -360,7 +375,13 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		{
 			final String raw = command.replace("_bbsika_ikoin_pix_create", "").replaceAll("[^0-9]", "").trim();
 			int ikoins = 0;
-			try { ikoins = Integer.parseInt(raw); } catch (NumberFormatException ignored) {}
+			try
+			{
+				ikoins = Integer.parseInt(raw);
+			}
+			catch (NumberFormatException ignored)
+			{
+			}
 			if (ikoins < 1 || ikoins > 5000)
 			{
 				showComprarPage(player, "<font color=\"FF4444\">Digite um valor entre 1 e 5000.</font>");
@@ -374,12 +395,36 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		{
 			checkPixAndShow(player);
 		}
-
+		else if (command.equals("_bbsika_skins"))
+		{
+			showSkinsPage(player, "");
+		}
+		else if (command.equals("_bbsika_skins_soon"))
+		{
+			showSkinsPage(player, "<font color=\"FFAA00\">Em breve!</font>");
+		}
+		else if (command.equals("_bbsika_buyskin_antharas"))
+		{
+			buySkinKit(player, "Antharas", KIT_ANTHARAS);
+		}
+		else if (command.equals("_bbsika_buyskin_valakas"))
+		{
+			buySkinKit(player, "Valakas", KIT_VALAKAS);
+		}
+		else if (command.equals("_bbsika_buyskin_fafurion"))
+		{
+			buySkinKit(player, "Fafurion", KIT_FAFURION);
+		}
+		else if (command.equals("_bbsika_skins_remove"))
+		{
+			removeSkins(player);
+		}
+		
 		return false;
 	}
-
+	
 	// ======== START KIT BASICO (1x por personagem) ========
-
+	
 	private void claimBasicStart(Player player)
 	{
 		if (player.getVariables().getBoolean("IKA_START_BASIC", false))
@@ -407,9 +452,9 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		player.getVariables().storeMe();
 		player.sendMessage("[Start] Start Kit Basico resgatado! Bom jogo.");
 	}
-
+	
 	// ======== PACKS PAGOS (Raro / Fundador) - compra com Ikoin, ILIMITADO ========
-
+	
 	private void buyPack(Player player, String name, String itemList, int cost)
 	{
 		final long balance = getPlayerCredits(player);
@@ -418,7 +463,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			player.sendMessage("[Start " + name + "] Ikoin insuficiente. Voce tem " + balance + ", precisa de " + cost + ".");
 			return;
 		}
-
+		
 		final String account = player.getAccountName();
 		final long now = System.currentTimeMillis();
 		try (Connection con = DatabaseFactory.getConnection())
@@ -445,7 +490,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			player.sendMessage("[Start " + name + "] Erro ao processar a compra. Tente novamente.");
 			return;
 		}
-
+		
 		// entrega os itens do pack
 		for (String entry : itemList.split(";"))
 		{
@@ -465,12 +510,12 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		player.sendMessage("[Start " + name + "] Pack comprado! Itens entregues no inventario.");
 	}
-
+	
 	// ======== TROCAR NICK ========
-
+	
 	private static final int NICK_COST = 100;
 	private static final java.util.regex.Pattern NICK_RE = java.util.regex.Pattern.compile("^[a-zA-Z][a-zA-Z0-9]{2,15}$");
-
+	
 	private void showChangeNickPage(Player player, String msg)
 	{
 		final StringBuilder c = new StringBuilder();
@@ -479,7 +524,10 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<img src=\"L2UI.SquareGray\" width=500 height=1><br><br>");
 		c.append("<font color=\"aaaaaa\">Nick atual: <font color=\"LEVEL\">").append(player.getName()).append("</font></font><br>");
 		c.append("<font color=\"aaaaaa\">Custo: <font color=\"FFAA00\">").append(NICK_COST).append(" Ikoins</font></font><br><br>");
-		if (!msg.isEmpty()) { c.append(msg).append("<br>"); }
+		if (!msg.isEmpty())
+		{
+			c.append(msg).append("<br>");
+		}
 		c.append("<table><tr><td><font color=\"aaaaaa\">Novo nick:</font></td>");
 		c.append("<td><edit var=\"newNick\" width=160 height=15></td></tr></table><br>");
 		c.append("<font color=\"888888\">3 a 16 caracteres, letras e numeros, comeca com letra.</font><br><br>");
@@ -487,7 +535,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\">");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
 	}
-
+	
 	private void applyNickChange(Player player, String newName)
 	{
 		if (!NICK_RE.matcher(newName).matches())
@@ -554,11 +602,11 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		player.sendMessage("[Nick] Nick alterado para: " + newName + ". Relogar para aplicar em todos os menus.");
 		showAccountPage(player);
 	}
-
+	
 	// ======== TROCAR SEXO ========
-
+	
 	private static final int SEX_COST = 20;
-
+	
 	private void showChangeSexPage(Player player)
 	{
 		final String atual = player.getAppearance().isFemale() ? "Feminino" : "Masculino";
@@ -578,7 +626,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("back=\"L2EssenceCommunity.gmshop_btn\" fore=\"L2EssenceCommunity.gmshop_btn\">");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
 	}
-
+	
 	private void applyChangeSex(Player player)
 	{
 		final long balance = getPlayerCredits(player);
@@ -621,14 +669,17 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			showAccountPage(player);
 			return;
 		}
-		if (newFemale) player.getAppearance().setFemale(); else player.getAppearance().setMale();
+		if (newFemale)
+			player.getAppearance().setFemale();
+		else
+			player.getAppearance().setMale();
 		player.broadcastUserInfo();
 		player.sendMessage("[Sexo] Sexo alterado! Relogar para visualizar a mudanca.");
 		showAccountPage(player);
 	}
-
+	
 	// ======== COMPRA DE IKOIN VIA PIX ========
-
+	
 	private void showComprarPage(Player player, String msg)
 	{
 		final long saldo = getPlayerCredits(player);
@@ -673,21 +724,15 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</table>");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("comprar"), c.toString()), player);
 	}
-
+	
 	private void createPixAndShow(Player player, int ikoins)
 	{
 		try
 		{
 			final String body = "{\"account\":\"" + player.getAccountName() + "\",\"ikoins\":" + ikoins + "}";
-			final HttpRequest req = HttpRequest.newBuilder()
-				.uri(URI.create(VPS_API + "/ikoin/pix"))
-				.timeout(Duration.ofSeconds(10))
-				.header("Content-Type", "application/json")
-				.header("x-api-key", VPS_KEY)
-				.POST(HttpRequest.BodyPublishers.ofString(body))
-				.build();
+			final HttpRequest req = HttpRequest.newBuilder().uri(URI.create(VPS_API + "/ikoin/pix")).timeout(Duration.ofSeconds(10)).header("Content-Type", "application/json").header("x-api-key", VPS_KEY).POST(HttpRequest.BodyPublishers.ofString(body)).build();
 			final String resp = HTTP.send(req, HttpResponse.BodyHandlers.ofString()).body();
-			final String mpgId  = jsonStr(resp, "mpgId");
+			final String mpgId = jsonStr(resp, "mpgId");
 			final String pixCode = jsonStr(resp, "pixCode");
 			if (mpgId.isEmpty())
 			{
@@ -725,15 +770,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			showComprarPage(player, "<font color=\"FF4444\">Erro de conexao com o servidor de pagamento. Tente novamente.</font>");
 		}
 	}
-
+	
 	// Auto-verificacao: consulta o status do PIX a cada 15s e avisa o jogador quando "paid".
 	private void startPixWatcher(Player player, String mpgId)
 	{
 		final int objId = player.getObjectId();
 		stopPixWatcher(objId); // cancela watcher anterior, se houver
 		final long startTime = System.currentTimeMillis();
-		final ScheduledFuture<?> task = ThreadPool.scheduleAtFixedRate(() ->
-		{
+		final ScheduledFuture<?> task = ThreadPool.scheduleAtFixedRate(() -> {
 			try
 			{
 				// para: expirou (30min), o jogador gerou outro PIX, ou saiu
@@ -748,12 +792,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 					stopPixWatcher(objId);
 					return;
 				}
-				final HttpRequest req = HttpRequest.newBuilder()
-					.uri(URI.create(VPS_API + "/ikoin/pix/" + mpgId))
-					.timeout(Duration.ofSeconds(8))
-					.header("x-api-key", VPS_KEY)
-					.GET()
-					.build();
+				final HttpRequest req = HttpRequest.newBuilder().uri(URI.create(VPS_API + "/ikoin/pix/" + mpgId)).timeout(Duration.ofSeconds(8)).header("x-api-key", VPS_KEY).GET().build();
 				final String resp = HTTP.send(req, HttpResponse.BodyHandlers.ofString()).body();
 				if ("paid".equals(jsonStr(resp, "status")))
 				{
@@ -769,7 +808,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}, 15000L, 15000L);
 		PIX_TASKS.put(objId, task);
 	}
-
+	
 	private static void stopPixWatcher(int objId)
 	{
 		final ScheduledFuture<?> f = PIX_TASKS.remove(objId);
@@ -778,7 +817,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			f.cancel(false);
 		}
 	}
-
+	
 	private void checkPixAndShow(Player player)
 	{
 		final String mpgId = PENDING_PIX.get(player.getObjectId());
@@ -789,12 +828,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		try
 		{
-			final HttpRequest req = HttpRequest.newBuilder()
-				.uri(URI.create(VPS_API + "/ikoin/pix/" + mpgId))
-				.timeout(Duration.ofSeconds(8))
-				.header("x-api-key", VPS_KEY)
-				.GET()
-				.build();
+			final HttpRequest req = HttpRequest.newBuilder().uri(URI.create(VPS_API + "/ikoin/pix/" + mpgId)).timeout(Duration.ofSeconds(8)).header("x-api-key", VPS_KEY).GET().build();
 			final String resp = HTTP.send(req, HttpResponse.BodyHandlers.ofString()).body();
 			final String status = jsonStr(resp, "status");
 			final StringBuilder c = new StringBuilder();
@@ -833,20 +867,293 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			showComprarPage(player, "<font color=\"FF4444\">Erro ao verificar pagamento.</font>");
 		}
 	}
-
+	
 	// Extrai valor de string de um JSON simples (sem biblioteca)
 	private static String jsonStr(String json, String key)
 	{
 		final String search = "\"" + key + "\":\"";
 		final int idx = json.indexOf(search);
-		if (idx < 0) return "";
+		if (idx < 0)
+			return "";
 		final int start = idx + search.length();
 		final int end = json.indexOf("\"", start);
 		return end < 0 ? "" : json.substring(start, end);
 	}
-
+	
+	// ======== SKINS SHOP (#127) - kits de aparencia via Ikoin (DressMe) ========
+	
+	private static final int SKIN_KIT_COST = 100; // Ikoin por kit (ajustar)
+	private static final boolean SKIN_PAY_ADENA = true; // TESTE: pagar com adena (trocar pra false = volta pra Ikoin)
+	private static final long SKIN_KIT_ADENA = 1000L; // adena por kit (TESTE)
+	// {chest, legs, gloves, feet} = ids dos itens de aparencia
+	private static final int[] KIT_ANTHARAS =
+	{
+		48021, // TESTE: alldress Valkyrie pro Antharas (voltar p/ 97050 se nao renderizar)
+		97051,
+		97052,
+		97053
+	};
+	private static final int[] KIT_VALAKAS =
+	{
+		97503, // TESTE: alldress full Valakas no peito (voltar p/ 97054 se nao renderizar)
+		97055,
+		97056,
+		97057
+	};
+	private static final int[] KIT_FAFURION =
+	{
+		48020, // TESTE: alldress Wild Wolf pro Fafurion (voltar p/ 97058 se nao renderizar)
+		97059,
+		97060,
+		97061
+	};
+	private static final int[] SKIN_SLOTS =
+	{
+		Inventory.PAPERDOLL_CHEST,
+		Inventory.PAPERDOLL_LEGS,
+		Inventory.PAPERDOLL_GLOVES,
+		Inventory.PAPERDOLL_FEET
+	};
+	
+	private String skinTab(String label, String bypass, boolean active)
+	{
+		String fore = active ? "L2UI_CT1.Button_DF_Down" : "L2UI_CT1.Button_DF";
+		return "<td><button value=\"" + label + "\" action=\"bypass " + bypass + "\" width=120 height=26 back=\"L2UI_CT1.Button_DF_Down\" fore=\"" + fore + "\"></td>";
+	}
+	
+	private String skinKitCard(String name, String icon, String bypass, String btnLabel)
+	{
+		StringBuilder s = new StringBuilder();
+		s.append("<tr><td>");
+		s.append("<table width=540 bgcolor=\"1A1A1A\" cellpadding=6 cellspacing=0><tr>");
+		s.append("<td width=44><img src=\"").append(icon).append("\" width=32 height=32></td>");
+		s.append("<td width=300><font color=\"CDB67F\" name=\"hs12\">").append(name).append("</font><br1><font color=\"777777\">Set completo - so visual</font></td>");
+		s.append("<td width=90 align=center><font color=\"FFAA00\">").append(SKIN_PAY_ADENA ? SKIN_KIT_ADENA : SKIN_KIT_COST).append("</font> <font color=\"555555\">").append(SKIN_PAY_ADENA ? "Adena" : "Ikoin").append("</font></td>");
+		s.append("<td width=106 align=center><button value=\"").append(btnLabel).append("\" action=\"bypass ").append(bypass).append("\" width=92 height=26 back=\"L2EssenceCommunity.buy_premium_btn_over\" fore=\"L2EssenceCommunity.buy_premium_btn\"></td>");
+		s.append("</tr></table></td></tr><tr><td height=6></td></tr>");
+		return s.toString();
+	}
+	
+	private void showSkinsPage(Player player, String msg)
+	{
+		final long saldo = getPlayerCredits(player);
+		final StringBuilder c = new StringBuilder();
+		c.append("<table width=540 cellpadding=0 cellspacing=0>");
+		c.append("<tr><td height=12></td></tr>");
+		// banner UTX removido pra teste (readicionar quando o .utx carregar)
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">SKINS SHOP</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td align=center><font color=\"888888\">Skins de aparencia (so visual). Saldo: <font color=\"CDB67F\">").append(saldo).append(" Ikoins</font></font></td></tr>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td align=center><table cellspacing=0 cellpadding=0><tr>");
+		c.append(skinTab("Kits", "_bbsika_skins", true)).append("<td width=6></td>");
+		c.append(skinTab("Capa", "_bbsika_skins_soon", false)).append("<td width=6></td>");
+		c.append(skinTab("Acessorios", "_bbsika_skins_soon", false)).append("<td width=6></td>");
+		c.append(skinTab("Armas (em breve)", "_bbsika_skins_soon", false));
+		c.append("</tr></table></td></tr>");
+		c.append("<tr><td height=12></td></tr>");
+		if (!msg.isEmpty())
+		{
+			c.append("<tr><td align=center>").append(msg).append("</td></tr>");
+			c.append("<tr><td height=8></td></tr>");
+		}
+		c.append(skinKitCard("Kit Antharas", "icon.armor_t901_u_i00", "_bbsika_buyskin_antharas", skinBtnLabel(player, "Antharas")));
+		c.append(skinKitCard("Kit Valakas", "icon.armor_t902_u_i00", "_bbsika_buyskin_valakas", skinBtnLabel(player, "Valakas")));
+		c.append(skinKitCard("Kit Fafurion", "icon.armor_t903_u_i00", "_bbsika_buyskin_fafurion", skinBtnLabel(player, "Fafurion")));
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
+		c.append("<tr><td align=center><button value=\"Remover minhas skins\" action=\"bypass _bbsika_skins_remove\" width=200 height=26 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td align=center><font color=\"555555\">Aplica o visual nas pecas EQUIPADAS (chest/pernas/luvas/botas).</font></td></tr>");
+		c.append("</table>");
+		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("skins"), c.toString()), player);
+	}
+	
+	// ===== posse (por personagem, em PlayerVariables) =====
+	private boolean isSkinOwned(Player player, String name)
+	{
+		return player.getVariables().getBoolean("skinOwn_" + name, false);
+	}
+	
+	private void setSkinOwned(Player player, String name)
+	{
+		player.getVariables().set("skinOwn_" + name, true);
+		player.getVariables().storeMe();
+	}
+	
+	private String getActiveSkin(Player player)
+	{
+		return player.getVariables().getString("skinActive", "");
+	}
+	
+	private void setActiveSkin(Player player, String name)
+	{
+		player.getVariables().set("skinActive", name);
+		player.getVariables().storeMe();
+	}
+	
+	// label do botao conforme o estado (Comprar / Equipar / Desequipar)
+	private String skinBtnLabel(Player player, String name)
+	{
+		if (name.equals(getActiveSkin(player)))
+		{
+			return "Desequipar";
+		}
+		return isSkinOwned(player, name) ? "Equipar" : "Comprar";
+	}
+	
+	// cobra a moeda (adena no teste, Ikoin em producao). retorna true se pagou.
+	private boolean chargeSkin(Player player, String name)
+	{
+		if (SKIN_PAY_ADENA)
+		{
+			if (!player.reduceAdena(ItemProcessType.FEE, SKIN_KIT_ADENA, player, true))
+			{
+				showSkinsPage(player, "<font color=\"FF4444\">Adena insuficiente. Precisa de " + SKIN_KIT_ADENA + ".</font>");
+				return false;
+			}
+			return true;
+		}
+		final long balance = getPlayerCredits(player);
+		if (balance < SKIN_KIT_COST)
+		{
+			showSkinsPage(player, "<font color=\"FF4444\">Ikoin insuficiente. Voce tem " + balance + ", precisa de " + SKIN_KIT_COST + ".</font>");
+			return false;
+		}
+		final String account = player.getAccountName();
+		final long now = System.currentTimeMillis();
+		try (Connection con = DatabaseFactory.getConnection())
+		{
+			try (PreparedStatement ps = con.prepareStatement("UPDATE ikoin_balance SET balance=balance-?, updated_at=? WHERE account_name=?"))
+			{
+				ps.setInt(1, SKIN_KIT_COST);
+				ps.setLong(2, now);
+				ps.setString(3, account);
+				ps.executeUpdate();
+			}
+			try (PreparedStatement ps = con.prepareStatement("INSERT INTO ikoin_transactions (account_name, amount, type, description, created_at) VALUES (?,?,?,?,?)"))
+			{
+				ps.setString(1, account);
+				ps.setInt(2, -SKIN_KIT_COST);
+				ps.setString(3, "spend");
+				ps.setString(4, "Skin Kit " + name);
+				ps.setLong(5, now);
+				ps.executeUpdate();
+			}
+		}
+		catch (Exception e)
+		{
+			showSkinsPage(player, "<font color=\"FF4444\">Erro ao processar a compra. Tente novamente.</font>");
+			return false;
+		}
+		return true;
+	}
+	
+	// botao com 3 funcoes: Comprar (1x) -> Equipar <-> Desequipar
+	private void buySkinKit(Player player, String name, int[] kit)
+	{
+		final String active = getActiveSkin(player);
+		// DESEQUIPAR (se este kit ja esta ativo)
+		if (name.equals(active))
+		{
+			clearSkinVisuals(player);
+			setActiveSkin(player, "");
+			showSkinsPage(player, "<font color=\"FFAA00\">Kit " + name + " desequipado.</font>");
+			return;
+		}
+		// precisa de armadura (chest) equipada
+		if (player.getInventory().getPaperdollItem(Inventory.PAPERDOLL_CHEST) == null)
+		{
+			showSkinsPage(player, "<font color=\"FF4444\">Equipe uma armadura antes de aplicar a skin.</font>");
+			return;
+		}
+		// COMPRAR (so 1x; depois fica de graca)
+		if (!isSkinOwned(player, name))
+		{
+			if (!chargeSkin(player, name))
+			{
+				return;
+			}
+			setSkinOwned(player, name);
+		}
+		// EQUIPAR (sobrescreve qualquer kit anterior)
+		applySkinKit(player, kit);
+		setActiveSkin(player, name);
+		showSkinsPage(player, "<font color=\"66FF66\">Kit " + name + " equipado!</font>");
+	}
+	
+	private void applySkinKit(Player player, int[] kit)
+	{
+		final Inventory inv = player.getInventory();
+		final InventoryUpdate iu = new InventoryUpdate();
+		final ExUserInfoEquipSlot equip = new ExUserInfoEquipSlot(player, false);
+		for (int i = 0; i < SKIN_SLOTS.length; i++)
+		{
+			final Item it = inv.getPaperdollItem(SKIN_SLOTS[i]);
+			if (it == null)
+			{
+				// ex: full armor nao tem item de pernas separado -> o chest cobre o set inteiro
+				continue;
+			}
+			it.setVisualId(kit[i]);
+			it.getVariables().storeMe();
+			iu.addModifiedItem(it);
+			for (InventorySlot s : InventorySlot.values())
+			{
+				if (s.getSlot() == it.getLocationSlot())
+				{
+					equip.addComponentType(s);
+				}
+			}
+		}
+		// forca o re-render da aparencia
+		player.sendInventoryUpdate(iu);
+		player.sendItemList();
+		player.broadcastUserInfo();
+		player.sendPacket(equip);
+	}
+	
+	private void clearSkinVisuals(Player player)
+	{
+		final Inventory inv = player.getInventory();
+		final InventoryUpdate iu = new InventoryUpdate();
+		final ExUserInfoEquipSlot equip = new ExUserInfoEquipSlot(player, false);
+		for (int slot : SKIN_SLOTS)
+		{
+			final Item it = inv.getPaperdollItem(slot);
+			if ((it == null) || (it.getVisualId() == 0))
+			{
+				continue;
+			}
+			it.setVisualId(0);
+			it.getVariables().storeMe();
+			iu.addModifiedItem(it);
+			for (InventorySlot s : InventorySlot.values())
+			{
+				if (s.getSlot() == it.getLocationSlot())
+				{
+					equip.addComponentType(s);
+				}
+			}
+		}
+		player.sendInventoryUpdate(iu);
+		player.sendItemList();
+		player.broadcastUserInfo();
+		player.sendPacket(equip);
+	}
+	
+	private void removeSkins(Player player)
+	{
+		clearSkinVisuals(player);
+		setActiveSkin(player, "");
+		showSkinsPage(player, "<font color=\"66FF66\">Skins removidas.</font>");
+	}
+	
 	// ======== NAVEGAÇÃO COMUM ========
-
+	
 	private String buildNav(String active)
 	{
 		StringBuilder n = new StringBuilder();
@@ -855,41 +1162,27 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		n.append(navBtn("Home", "_bbshome", "L2EssenceCommunity.home_btn", active.equals("home")));
 		n.append(navBtn("Auto Potion", "_bbsika_setmp_0_open", "L2EssenceCommunity.gmshop_btn", active.equals("auto")));
 		n.append(navBtn("Referral / Inspecionar", "_bbsika_referal_open", "L2EssenceCommunity.buffer_btn", active.equals("referral")));
-		n.append(navBtn("Voice", "_bbshome", "L2EssenceCommunity.teleport_btn", active.equals("voice")));
+		n.append(navBtn("Skins Shop", "_bbsika_skins", "L2EssenceCommunity.teleport_btn", active.equals("skins")));
 		n.append(navBtn("Account", "_bbsika_account", "L2EssenceCommunity.acc_services_btn", active.equals("account")));
 		n.append(navBtn("Comprar Ikoin", "_bbsika_comprar", "L2EssenceCommunity.donate_items_btn", active.equals("comprar")));
 		n.append(navBtn("Rankings", "_bbsika_rankings", "L2EssenceCommunity.rankings_btn", active.equals("rankings")));
 		n.append("</table>");
 		return n.toString();
 	}
-
+	
 	private String navBtn(String label, String bypass, String fore, boolean active)
 	{
 		String back = active ? fore + "_over" : fore;
 		return "<tr><td><button value=\"" + label + "\" action=\"bypass " + bypass + "\" width=177 height=33 back=\"" + back + "\" fore=\"" + fore + "\"></td></tr>";
 	}
-
+	
 	private String buildFrame(String nav, String content)
 	{
-		return "<html noscrollbar><body><br><center>" +
-			"<table width=\"770\"><tr><td>" +
-			"<table><tr>" +
-			"<td><table width=\"180\" height=\"490\" background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\"><tr><td>" +
-			"<table width=180><tr><td align=center><img src=\"L2EssenceCommunity.logo\" width=143 height=100></td></tr></table>" +
-			"<table width=180><tr><td align=center><img src=\"L2EssenceCommunity.effect_top\" width=167 height=18></td></tr></table>" +
-			nav +
-			"<table width=180><tr><td align=center><img src=\"L2EssenceCommunity.effect_bottom\" width=167 height=18></td></tr></table>" +
-			"</td></tr></table></td>" +
-			"<td><table width=\"570\" height=\"490\" background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\"><tr><td width=10></td><td>" +
-			content +
-			"</td></tr></table></td>" +
-			"</tr></table>" +
-			"</td></tr></table>" +
-			"</center></body></html>";
+		return "<html noscrollbar><body><br><center>" + "<table width=\"770\"><tr><td>" + "<table><tr>" + "<td><table width=\"180\" height=\"490\" background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\"><tr><td>" + "<table width=180><tr><td align=center><img src=\"L2EssenceCommunity.logo\" width=143 height=100></td></tr></table>" + "<table width=180><tr><td align=center><img src=\"L2EssenceCommunity.effect_top\" width=167 height=18></td></tr></table>" + nav + "<table width=180><tr><td align=center><img src=\"L2EssenceCommunity.effect_bottom\" width=167 height=18></td></tr></table>" + "</td></tr></table></td>" + "<td><table width=\"570\" height=\"490\" background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\"><tr><td width=10></td><td>" + content + "</td></tr></table></td>" + "</tr></table>" + "</td></tr></table>" + "</center></body></html>";
 	}
-
+	
 	// ======== HOME ========
-
+	
 	private void showMainPage(Player player)
 	{
 		String htmlFile = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/home.html");
@@ -901,33 +1194,22 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		CommunityBoardHandler.separateAndSend("<html><body>Board em manutencao.</body></html>", player);
 	}
-
+	
 	private String applyCommonVars(String html, Player player)
 	{
 		int mpThreshold = player.getVariables().getInt("IKA_MP_THRESHOLD", 0);
 		boolean basicClaimed = player.getVariables().getBoolean("IKA_START_BASIC", false);
-		String startBtn = basicClaimed
-			? "<font color=\"44FF44\">RESGATADO</font>"
-			: "<button value=\"RESGATAR\" action=\"bypass _bbsika_start_basic\" width=92 height=24 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\">";
-		return html
-			.replace("%online%", String.valueOf(World.getInstance().getPlayers().size()))
-			.replace("%player_name%", player.getName())
-			.replace("%player_level%", String.valueOf(player.getLevel()))
-			.replace("%mp_auto%", mpThreshold > 0 ? mpThreshold + "%" : "OFF")
-			.replace("%ikoin%", String.valueOf(getPlayerCredits(player)))
-			.replace("%start_basic_btn%", startBtn)
-			.replace("%offer_block2%", buildOfferBlock(2))
-			.replace("%offer_block%", buildOfferBlock(1));
+		String startBtn = basicClaimed ? "<font color=\"44FF44\">RESGATADO</font>" : "<button value=\"RESGATAR\" action=\"bypass _bbsika_start_basic\" width=92 height=24 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\">";
+		return html.replace("%online%", String.valueOf(World.getInstance().getPlayers().size())).replace("%player_name%", player.getName()).replace("%player_level%", String.valueOf(player.getLevel())).replace("%mp_auto%", mpThreshold > 0 ? mpThreshold + "%" : "OFF").replace("%ikoin%", String.valueOf(getPlayerCredits(player))).replace("%start_basic_btn%", startBtn).replace("%offer_block2%", buildOfferBlock(2)).replace("%offer_block%", buildOfferBlock(1));
 	}
-
+	
 	// ======== OFERTA LIMITADA (gerenciada pelo site/admin via game_offer) ========
-
+	
 	private String buildOfferBlock(int offerId)
 	{
 		// Espaco reservado constante: com OU sem oferta o layout nao muda
 		final String SPACER = "<tr><td height=52></td></tr>";
-		try (Connection con = DatabaseFactory.getConnection();
-			PreparedStatement ps = con.prepareStatement("SELECT item_id, count, price_ikoin, title, icon FROM game_offer WHERE id=? AND active=1"))
+		try (Connection con = DatabaseFactory.getConnection(); PreparedStatement ps = con.prepareStatement("SELECT item_id, count, price_ikoin, title, icon FROM game_offer WHERE id=? AND active=1"))
 		{
 			ps.setInt(1, offerId);
 			try (ResultSet rs = ps.executeQuery())
@@ -941,12 +1223,11 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				int price = rs.getInt("price_ikoin");
 				String title = rs.getString("title");
 				String iconOverride = rs.getString("icon");
-
+				
 				ItemTemplate tmpl = ItemData.getInstance().getTemplate(itemId);
 				String itemName = tmpl != null ? tmpl.getName() : "Item " + itemId;
-				String icon = (iconOverride != null && !iconOverride.isEmpty()) ? iconOverride
-					: (tmpl != null && tmpl.getIcon() != null ? tmpl.getIcon() : "L2EssenceCommunity.agathions");
-
+				String icon = (iconOverride != null && !iconOverride.isEmpty()) ? iconOverride : (tmpl != null && tmpl.getIcon() != null ? tmpl.getIcon() : "L2EssenceCommunity.agathions");
+				
 				StringBuilder b = new StringBuilder();
 				b.append("<tr><td height=6></td></tr>");
 				b.append("<tr><td><table><tr>");
@@ -973,7 +1254,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			return SPACER;
 		}
 	}
-
+	
 	private void buyOffer(Player player, int offerId)
 	{
 		try (Connection con = DatabaseFactory.getConnection())
@@ -992,14 +1273,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				count = rs.getInt("count");
 				price = rs.getInt("price_ikoin");
 			}
-
+			
 			long balance = getPlayerCredits(player);
 			if (balance < price)
 			{
 				player.sendMessage("[Oferta] Ikoin insuficiente. Voce tem " + balance + ", precisa de " + price + ".");
 				return;
 			}
-
+			
 			// debita Ikoin
 			try (PreparedStatement ps = con.prepareStatement("UPDATE ikoin_balance SET balance=balance-?, updated_at=? WHERE account_name=?"))
 			{
@@ -1017,7 +1298,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				ps.setLong(5, System.currentTimeMillis());
 				ps.executeUpdate();
 			}
-
+			
 			// entrega o item
 			player.addItem(ItemProcessType.REWARD, itemId, count, player, true);
 			player.sendMessage("[Oferta] Compra realizada! Item entregue no inventario.");
@@ -1027,7 +1308,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			player.sendMessage("[Oferta] Erro ao processar a compra.");
 		}
 	}
-
+	
 	private void showPage(Player player, String page)
 	{
 		if (page.isEmpty() || !page.endsWith(".html"))
@@ -1043,22 +1324,30 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		CommunityBoardHandler.separateAndSend(applyCommonVars(html, player), player);
 	}
-
+	
 	// ======== AUTO POTION PAGE ========
-
+	
 	private void showAutoPage(Player player)
 	{
 		int mpThreshold = player.getVariables().getInt("IKA_MP_THRESHOLD", 0);
 		String mpStatus = mpThreshold > 0 ? "<font color=\"44FF44\">Ativo em " + mpThreshold + "%</font>" : "<font color=\"FF4444\">Desativado</font>";
 		int mpPct = (int) ((player.getCurrentMp() / player.getMaxMp()) * 100);
-
+		
 		StringBuilder c = new StringBuilder();
 		c.append("<br><center>");
 		c.append("<table width=500 cellpadding=4>");
 		c.append("<tr><td align=center><font color=\"AAAAAA\">MP Atual: <font color=\"6699FF\">").append(mpPct).append("%</font>  |  Status: ").append(mpStatus).append("</font></td></tr>");
 		c.append("<tr><td height=12></td></tr>");
 		c.append("<tr><td align=center><table cellpadding=0 cellspacing=4><tr>");
-		for (int pct : new int[]{20, 30, 40, 50, 60, 70})
+		for (int pct : new int[]
+		{
+			20,
+			30,
+			40,
+			50,
+			60,
+			70
+		})
 		{
 			String back = (mpThreshold == pct) ? "L2EssenceCommunity.buy_premium_btn_over" : "L2EssenceCommunity.buy_premium_btn";
 			c.append("<td><button value=\"").append(pct).append("%\" action=\"bypass _bbsika_setmp_").append(pct).append("\" width=70 height=27 back=\"").append(back).append("\" fore=\"L2EssenceCommunity.buy_premium_btn\"></td>");
@@ -1067,12 +1356,12 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td height=30></td></tr>");
 		c.append("<tr><td align=center><button value=\"Desativar\" action=\"bypass _bbsika_disablemp\" width=120 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\"></td></tr>");
 		c.append("</table></center>");
-
+		
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("auto"), c.toString()), player);
 	}
-
+	
 	// ======== RESGATE DE CODIGO ========
-
+	
 	private String redeemCode(Player player, String code)
 	{
 		try (Connection con = DatabaseFactory.getConnection())
@@ -1098,7 +1387,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 						return "<font color=\"FF4444\">Este codigo ja atingiu o limite de usos.</font>";
 					}
 					String items = rs.getString("items");
-
+					
 					// 2. Verifica se essa conta ja usou
 					try (PreparedStatement ps2 = con.prepareStatement("SELECT 1 FROM promo_redeemed WHERE code=? AND account_name=?"))
 					{
@@ -1112,7 +1401,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 							}
 						}
 					}
-
+					
 					// 3. Entrega os itens
 					for (String entry : items.split(";"))
 					{
@@ -1130,7 +1419,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 							}
 						}
 					}
-
+					
 					// 4. Registra o resgate
 					try (PreparedStatement ps3 = con.prepareStatement("INSERT INTO promo_redeemed (code, account_name, redeemed_at) VALUES (?,?,?)"))
 					{
@@ -1139,14 +1428,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 						ps3.setLong(3, System.currentTimeMillis());
 						ps3.executeUpdate();
 					}
-
+					
 					// 5. Incrementa o contador
 					try (PreparedStatement ps4 = con.prepareStatement("UPDATE promo_codes SET uses=uses+1 WHERE code=?"))
 					{
 						ps4.setString(1, code);
 						ps4.executeUpdate();
 					}
-
+					
 					return "<font color=\"44FF44\">Codigo '" + code + "' resgatado! Verifique seu inventario.</font>";
 				}
 			}
@@ -1156,14 +1445,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			return "<font color=\"FF4444\">Erro ao processar o codigo. Tente novamente.</font>";
 		}
 	}
-
+	
 	// ======== REFERRAL PAGE ========
-
+	
 	private void showReferralPage(Player player)
 	{
 		showReferralPage(player, "");
 	}
-
+	
 	private void showReferralPage(Player player, String message)
 	{
 		StringBuilder c = new StringBuilder();
@@ -1215,8 +1504,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</table>");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("referral"), c.toString()), player);
 	}
-
-
+	
 	private void showReferralPageWithInspect(Player player, String targetName)
 	{
 		// Renderiza a pagina de referral + inspecionar com resultado da busca abaixo
@@ -1233,7 +1521,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		// Chama showReferralPage normalmente e adiciona o bloco de resultado
 		showReferralPageInspectResult(player, targetName, extra.toString());
 	}
-
+	
 	private void showReferralPageInspectResult(Player player, String targetName, String inspectResult)
 	{
 		StringBuilder c = new StringBuilder();
@@ -1282,36 +1570,60 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			c.append(inspectResult);
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("referral"), c.toString()), player);
 	}
-
+	
 	// ======== RANKINGS ========
-
+	
 	private void showRankingsPage(Player player, String type)
 	{
 		StringBuilder c = new StringBuilder();
-		c.append("<br><center><font color=\"CDB67F\" name=\"hs15\">RANKINGS</font></center><br>");
-		c.append("<center><img src=\"L2UI.SquareGray\" width=540 height=1></center><br>");
+		c.append("<table width=540 cellpadding=0 cellspacing=0>");
+		c.append("<tr><td height=10></td></tr>");
+		c.append("<tr><td align=center><font color=\"CDB67F\" name=\"hs15\">RANKINGS</font></td></tr>");
+		c.append("<tr><td height=4></td></tr>");
+		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
 
 		// Abas
-		c.append("<center><table cellpadding=0 cellspacing=3><tr>");
-		for (String[] tab : new String[][]{{"level","Nivel"},{"pvp","PvP"},{"adena","Adena"},{"lcoin","L-Coin"},{"onlinetime","Online"}})
+		c.append("<tr><td align=center><table cellpadding=0 cellspacing=3><tr>");
+		for (String[] tab : new String[][]
+		{
+			{
+				"level",
+				"Nivel"
+			},
+			{
+				"pvp",
+				"PvP"
+			},
+			{
+				"adena",
+				"Adena"
+			},
+			{
+				"lcoin",
+				"L-Coin"
+			},
+			{
+				"onlinetime",
+				"Online"
+			}
+		})
 		{
 			String back = type.equals(tab[0]) ? "L2EssenceCommunity.buy_premium_btn_over" : "L2EssenceCommunity.buy_premium_btn";
 			c.append("<td><button value=\"").append(tab[1]).append("\" action=\"bypass _bbsika_rankings_").append(tab[0]).append("\" width=90 height=25 back=\"").append(back).append("\" fore=\"L2EssenceCommunity.buy_premium_btn\"></td>");
 		}
-		c.append("</tr></table></center><br>");
+		c.append("</tr></table></td></tr>");
+		c.append("<tr><td height=8></td></tr>");
 
-		// Tabela de resultados
-		c.append("<table width=540 cellpadding=2 cellspacing=0>");
-		c.append("<tr bgcolor=\"333333\">");
-		c.append("<td width=30 align=center><font color=\"CDB67F\">#</font></td>");
-		c.append("<td width=160><font color=\"CDB67F\">Nome</font></td>");
-		c.append("<td width=210><font color=\"CDB67F\">Classe</font></td>");
-		c.append("<td width=110 align=right><font color=\"CDB67F\">").append(getColLabel(type)).append("</font></td>");
-		c.append("</tr>");
-		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
+		// Cabecalho como CARD (estrutura identica aos cards da Account que renderizam certo)
+		c.append("<tr><td><table width=520 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=6><tr>");
+		c.append("<td width=50 align=center><font color=\"CDB67F\">#</font></td>");
+		c.append("<td width=300><font color=\"CDB67F\">Nome</font></td>");
+		c.append("<td width=150 align=right><font color=\"CDB67F\">").append(getColLabel(type)).append("</font></td>");
+		c.append("</tr></table></td></tr>");
+		c.append("<tr><td height=3></td></tr>");
 
-		try (Connection con = DatabaseFactory.getConnection();
-			PreparedStatement ps = con.prepareStatement(buildRankQuery(type)))
+		try (Connection con = DatabaseFactory.getConnection(); PreparedStatement ps = con.prepareStatement(buildRankQuery(type)))
 		{
 			try (ResultSet rs = ps.executeQuery())
 			{
@@ -1319,32 +1631,29 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				while (rs.next() && pos <= 20)
 				{
 					String name = rs.getString("char_name");
-					int classId = rs.getInt("classid");
 					long value = rs.getLong("val");
-					String className = getClassName(classId);
 					String color = pos == 1 ? "FFD700" : pos == 2 ? "C0C0C0" : pos == 3 ? "CD7F32" : "AAAAAA";
-					String medal = pos == 1 ? "&#9733; " : pos == 2 ? "&#9733; " : pos == 3 ? "&#9733; " : "";
-					String bg = pos % 2 == 0 ? " bgcolor=\"222222\"" : "";
 
-					c.append("<tr").append(bg).append(">");
-					c.append("<td width=30 align=center><font color=\"").append(color).append("\">").append(medal).append(pos).append("</font></td>");
-					c.append("<td width=160><font color=\"FFFFFF\">").append(name).append("</font></td>");
-					c.append("<td width=210><font color=\"888888\">").append(className).append("</font></td>");
-					c.append("<td width=110 align=right><font color=\"").append(color).append("\">").append(formatValue(type, value)).append("</font></td>");
-					c.append("</tr>");
+					// cada rank = 1 card (mesmo padrao que funciona na Account)
+					c.append("<tr><td><table width=520 background=\"l2ui_ct1.ComboBox_DF_Dropmenu_Bg\" cellpadding=6><tr>");
+					c.append("<td width=50 align=center><font color=\"").append(color).append("\">").append(pos).append("</font></td>");
+					c.append("<td width=300><font color=\"FFFFFF\">").append(name).append("</font></td>");
+					c.append("<td width=150 align=right><font color=\"").append(color).append("\">").append(formatValue(type, value)).append("</font></td>");
+					c.append("</tr></table></td></tr>");
+					c.append("<tr><td height=3></td></tr>");
 					pos++;
 				}
 			}
 		}
 		catch (Exception e)
 		{
-			c.append("<tr><td colspan=4 align=center><font color=\"FF4444\">Erro ao carregar ranking.</font></td></tr>");
+			c.append("<tr><td align=center><font color=\"FF4444\">Erro ao carregar ranking.</font></td></tr>");
 		}
 
-		c.append("</table></center>");
+		c.append("</table>");
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("rankings"), c.toString()), player);
 	}
-
+	
 	private String buildRankQuery(String type)
 	{
 		switch (type)
@@ -1361,25 +1670,32 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				return "SELECT char_name, classid, level AS val FROM characters WHERE accesslevel=0 ORDER BY level DESC LIMIT 20";
 		}
 	}
-
+	
 	private String getColLabel(String type)
 	{
 		switch (type)
 		{
-			case "pvp": return "PvP Kills";
-			case "adena": return "Adena";
-			case "lcoin": return "L-Coin";
-			case "onlinetime": return "Tempo";
-			default: return "Nivel";
+			case "pvp":
+				return "PvP Kills";
+			case "adena":
+				return "Adena";
+			case "lcoin":
+				return "L-Coin";
+			case "onlinetime":
+				return "Tempo";
+			default:
+				return "Nivel";
 		}
 	}
-
+	
 	private String formatValue(String type, long value)
 	{
 		if (type.equals("adena") || type.equals("lcoin"))
 		{
-			if (value >= 1000000) return (value / 1000000) + "M";
-			if (value >= 1000) return (value / 1000) + "k";
+			if (value >= 1000000)
+				return (value / 1000000) + "M";
+			if (value >= 1000)
+				return (value / 1000) + "k";
 		}
 		if (type.equals("onlinetime"))
 		{
@@ -1388,13 +1704,13 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		return String.valueOf(value);
 	}
-
+	
 	// ======== ACCOUNT PAGE ========
-
+	
 	private void showAccountPage(Player player)
 	{
 		long credits = getPlayerCredits(player);
-
+		
 		StringBuilder c = new StringBuilder();
 		c.append("<table width=540 cellpadding=0 cellspacing=0>");
 		c.append("<tr><td height=12></td></tr>");
@@ -1402,27 +1718,60 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td height=4></td></tr>");
 		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
 		c.append("<tr><td height=10></td></tr>");
-
-		// Saldo de Ikoin destacado
+		
+		// Saldo de Ikoin destacado (sem icone, centralizado)
 		c.append("<tr><td align=center>");
 		c.append("<table width=320 background=\"L2EssenceCommunity.home_server_info_bg\" cellpadding=8><tr>");
-		c.append("<td align=center width=50><img src=\"L2EssenceCommunity.premium_crown\" width=32 height=22></td>");
-		c.append("<td><font color=\"888888\">Seu saldo:</font></td>");
-		c.append("<td align=right><font color=\"CDB67F\" name=\"hs18\">").append(credits).append("</font> <font color=\"CDB67F\">Ikoin</font></td>");
+		c.append("<td align=center><font color=\"888888\">Seu saldo: </font><font color=\"CDB67F\" name=\"hs18\">").append(credits).append("</font> <font color=\"CDB67F\">Ikoin</font></td>");
 		c.append("</tr></table>");
 		c.append("</td></tr>");
 		c.append("<tr><td height=14></td></tr>");
-
+		
 		// Cards de servicos (2 colunas) - {nome, custo, icone, ativo("1")/embreve("0"), bypass(opcional)}
-		String[][] services = {
-			{"Premium " + PREMIUM_DAYS + "d", String.valueOf(PREMIUM_COST_IKOIN), "L2EssenceCommunity.premium_crown", "1", "_bbsika_premium"},
-			{"Trocar Classe", "150", "L2EssenceCommunity.change_class", "1", "_bbsika_buyclass"},
-			{"Trocar Nick", "100", "L2EssenceCommunity.rankings_btn", "1", "_bbsika_changenick"},
-			{"Trocar Sexo", "20", "L2EssenceCommunity.buffer_btn", "1", "_bbsika_changesex"},
-			{"Doar Ikoin", "-", "L2EssenceCommunity.adena", "0"},
-			{"Vender Personagem", "-", "L2EssenceCommunity.itembroker_btn", "0"},
+		String[][] services =
+		{
+			{
+				"Premium " + PREMIUM_DAYS + "d",
+				String.valueOf(PREMIUM_COST_IKOIN),
+				"icon.etc_nobless_teleport_coupon_i00",
+				"1",
+				"_bbsika_premium"
+			},
+			{
+				"Trocar Classe",
+				"150",
+				"icon.bm_payback_ticket_01",
+				"1",
+				"_bbsika_buyclass"
+			},
+			{
+				"Trocar Nick",
+				"100",
+				"L2EssenceCommunity.rankings_btn",
+				"1",
+				"_bbsika_changenick"
+			},
+			{
+				"Trocar Sexo",
+				"20",
+				"L2EssenceCommunity.buffer_btn",
+				"1",
+				"_bbsika_changesex"
+			},
+			{
+				"Doar Ikoin",
+				"-",
+				"L2EssenceCommunity.adena",
+				"0"
+			},
+			{
+				"Vender Personagem",
+				"-",
+				"L2EssenceCommunity.itembroker_btn",
+				"0"
+			},
 		};
-
+		
 		c.append("<tr><td><table width=540 cellpadding=0 cellspacing=0>");
 		for (int i = 0; i < services.length; i += 2)
 		{
@@ -1444,19 +1793,19 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td height=6></td></tr>");
 		c.append("<tr><td align=center><font color=\"696969\">Servicos ativados em breve. Custo debitado do seu saldo Ikoin.</font></td></tr>");
 		c.append("</table>");
-
+		
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
 	}
-
+	
 	// ======== PREMIUM (30 dias / 50 Ikoin, por conta) ========
-
+	
 	private void showPremiumPage(Player player)
 	{
 		final long credits = getPlayerCredits(player);
 		final long now = System.currentTimeMillis();
 		final long expiration = PremiumManager.getInstance().getPremiumExpiration(player.getAccountName());
 		final boolean active = expiration > now;
-
+		
 		StringBuilder c = new StringBuilder();
 		c.append("<table width=540 cellpadding=0 cellspacing=0>");
 		c.append("<tr><td height=12></td></tr>");
@@ -1464,7 +1813,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td height=4></td></tr>");
 		c.append("<tr><td><img src=\"L2UI.SquareGray\" width=540 height=1></td></tr>");
 		c.append("<tr><td height=10></td></tr>");
-
+		
 		// Saldo
 		c.append("<tr><td align=center>");
 		c.append("<table width=320 background=\"L2EssenceCommunity.home_server_info_bg\" cellpadding=8><tr>");
@@ -1474,14 +1823,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("</tr></table>");
 		c.append("</td></tr>");
 		c.append("<tr><td height=12></td></tr>");
-
+		
 		// Beneficios
 		c.append("<tr><td align=center><font color=\"FFFFFF\">").append(PREMIUM_DAYS).append(" dias de Premium por <font color=\"FFAA00\">").append(PREMIUM_COST_IKOIN).append(" Ikoin</font>.</font></td></tr>");
 		c.append("<tr><td height=4></td></tr>");
 		c.append("<tr><td align=center><font color=\"99CC66\">+50% XP / SP &nbsp; +100% Drop &nbsp; Pesca exclusiva</font></td></tr>");
 		c.append("<tr><td align=center><font color=\"696969\">Vale para todos os personagens da conta.</font></td></tr>");
 		c.append("<tr><td height=14></td></tr>");
-
+		
 		if (active)
 		{
 			final String until = new SimpleDateFormat("dd/MM/yyyy HH:mm").format(expiration);
@@ -1496,15 +1845,15 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			c.append("</td></tr>");
 		}
 		c.append("</table>");
-
+		
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("account"), c.toString()), player);
 	}
-
+	
 	private void buyPremium(Player player)
 	{
 		final String account = player.getAccountName();
 		final long now = System.currentTimeMillis();
-
+		
 		// Trava: 1x a cada 30 dias (nao acumula enquanto ativo)
 		if (PremiumManager.getInstance().getPremiumExpiration(account) > now)
 		{
@@ -1512,7 +1861,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			showPremiumPage(player);
 			return;
 		}
-
+		
 		final long balance = getPlayerCredits(player);
 		if (balance < PREMIUM_COST_IKOIN)
 		{
@@ -1520,7 +1869,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			showPremiumPage(player);
 			return;
 		}
-
+		
 		try (Connection con = DatabaseFactory.getConnection())
 		{
 			// debita Ikoin
@@ -1546,14 +1895,14 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			player.sendMessage("[Premium] Erro ao processar a compra. Tente novamente.");
 			return;
 		}
-
+		
 		// ativa o premium na conta (aplica imediatamente se online; relog reaplica via account_premium)
 		PremiumManager.getInstance().addPremiumTime(account, PREMIUM_DAYS, TimeUnit.DAYS);
-
+		
 		player.sendMessage("[Premium] Premium Account ativado por " + PREMIUM_DAYS + " dias! Aproveite o boost de XP e Drop.");
 		showPremiumPage(player);
 	}
-
+	
 	private String buildServiceCard(String[] s)
 	{
 		// s = {nome, custo, icone, ativo("1"/"0"), bypass(opcional) }
@@ -1582,11 +1931,10 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		b.append("</td>");
 		return b.toString();
 	}
-
+	
 	private long getPlayerCredits(Player player)
 	{
-		try (Connection con = DatabaseFactory.getConnection();
-			PreparedStatement ps = con.prepareStatement("SELECT balance FROM ikoin_balance WHERE account_name=?"))
+		try (Connection con = DatabaseFactory.getConnection(); PreparedStatement ps = con.prepareStatement("SELECT balance FROM ikoin_balance WHERE account_name=?"))
 		{
 			ps.setString(1, player.getAccountName());
 			try (ResultSet rs = ps.executeQuery())
@@ -1603,15 +1951,15 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		}
 		return 0;
 	}
-
+	
 	// ======== INSPECIONAR ========
-
+	
 	private void showInspectPage(Player player, String targetName)
 	{
 		StringBuilder c = new StringBuilder();
 		c.append("<br><center><font color=\"CDB67F\" name=\"hs15\">INSPECIONAR JOGADOR</font></center><br>");
 		c.append("<center><img src=\"L2UI.SquareGray\" width=540 height=1></center><br>");
-
+		
 		c.append("<table width=540 cellpadding=0 cellspacing=0>");
 		c.append("<tr><td height=15></td></tr>");
 		c.append("<tr><td align=center><edit var=\"inspectName\" width=280 height=15></edit></td></tr>");
@@ -1619,7 +1967,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<tr><td align=center><button value=\"Buscar Jogador\" action=\"bypass _bbsika_inspect_$inspectName\" width=160 height=27 back=\"L2EssenceCommunity.donate_items_btn_over\" fore=\"L2EssenceCommunity.donate_items_btn\"></td></tr>");
 		c.append("<tr><td height=15></td></tr>");
 		c.append("</table>");
-
+		
 		if (!targetName.isEmpty())
 		{
 			// Busca online primeiro
@@ -1633,26 +1981,60 @@ public class IkaCommunityBoard implements IParseBoardHandler
 				buildInspectFromDB(c, targetName);
 			}
 		}
-
+		
 		CommunityBoardHandler.separateAndSend(buildFrame(buildNav("inspect"), c.toString()), player);
 	}
-
+	
 	// slots PAPERDOLL que queremos mostrar (ordem de exibição)
-	private static final int[] EQUIP_SLOTS = { 7, 4, 8, 10, 9, 11, 12, 13, 14, 5, 6, 0, 1, 2, 3 };
-	private static final String[] EQUIP_LABELS = { "Arma", "Armadura", "Luvas", "Botas", "Calca", "Elmo", "Colar", "Brinco E", "Brinco D", "Anel E", "Anel D", "Talisman 1", "Talisman 2", "Talisman 3", "Talisman 4" };
-
+	private static final int[] EQUIP_SLOTS =
+	{
+		7,
+		4,
+		8,
+		10,
+		9,
+		11,
+		12,
+		13,
+		14,
+		5,
+		6,
+		0,
+		1,
+		2,
+		3
+	};
+	private static final String[] EQUIP_LABELS =
+	{
+		"Arma",
+		"Armadura",
+		"Luvas",
+		"Botas",
+		"Calca",
+		"Elmo",
+		"Colar",
+		"Brinco E",
+		"Brinco D",
+		"Anel E",
+		"Anel D",
+		"Talisman 1",
+		"Talisman 2",
+		"Talisman 3",
+		"Talisman 4"
+	};
+	
 	private void buildInspectFromPlayer(StringBuilder c, Player target)
 	{
-		final int hpPct = (int)((target.getCurrentHp() / target.getMaxHp()) * 100);
-		final int mpPct = (int)((target.getCurrentMp() / target.getMaxMp()) * 100);
-		final int cpPct = (int)((target.getCurrentCp() / target.getMaxCp()) * 100);
-
+		final int hpPct = (int) ((target.getCurrentHp() / target.getMaxHp()) * 100);
+		final int mpPct = (int) ((target.getCurrentMp() / target.getMaxMp()) * 100);
+		final int cpPct = (int) ((target.getCurrentCp() / target.getMaxCp()) * 100);
+		
 		c.append("<table width=530 cellpadding=3 cellspacing=0>");
-
+		
 		// cabeçalho
 		c.append("<tr><td colspan=4 align=center><font color=\"44FF44\">&#9679; Online</font>  <font color=\"CDB67F\" name=\"hs12\">").append(target.getName()).append("</font></td></tr>");
 		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
-
+		
 		// info básica — linha 1
 		c.append("<tr>");
 		c.append("<td width=130><font color=\"888888\">Nivel:</font> <font color=\"FFFFFF\">").append(target.getLevel()).append("</font></td>");
@@ -1660,36 +2042,37 @@ public class IkaCommunityBoard implements IParseBoardHandler
 		c.append("<td width=100><font color=\"888888\">Raca:</font> <font color=\"FFFFFF\">").append(getRaceName(target.getRace().ordinal())).append("</font></td>");
 		c.append("<td width=100><font color=\"888888\">PvP:</font> <font color=\"FF6666\">").append(target.getPvpKills()).append("</font> <font color=\"888888\">PK:</font> <font color=\"AA4444\">").append(target.getPkKills()).append("</font></td>");
 		c.append("</tr>");
-
+		
 		// barras HP/CP/MP
 		c.append("<tr><td colspan=2><font color=\"888888\">HP:</font> ").append(buildBar(hpPct, "CC2222", "220000", 310)).append("</td>");
 		c.append("<td colspan=2><font color=\"888888\">CP:</font> ").append(buildBar(cpPct, "22AA22", "002200", 200)).append("</td></tr>");
 		c.append("<tr><td colspan=4><font color=\"888888\">MP:</font> ").append(buildBar(mpPct, "2255CC", "001133", 510)).append("</td></tr>");
-
+		
 		// stats
 		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
 		c.append("<tr>");
-		c.append("<td><font color=\"888888\">P.Atk:</font> <font color=\"FFFFFF\">").append((int)target.getPAtk()).append("</font></td>");
-		c.append("<td><font color=\"888888\">P.Def:</font> <font color=\"FFFFFF\">").append((int)target.getPDef()).append("</font></td>");
-		c.append("<td><font color=\"888888\">M.Atk:</font> <font color=\"FFFFFF\">").append((int)target.getMAtk()).append("</font></td>");
-		c.append("<td><font color=\"888888\">M.Def:</font> <font color=\"FFFFFF\">").append((int)target.getMDef()).append("</font></td>");
+		c.append("<td><font color=\"888888\">P.Atk:</font> <font color=\"FFFFFF\">").append((int) target.getPAtk()).append("</font></td>");
+		c.append("<td><font color=\"888888\">P.Def:</font> <font color=\"FFFFFF\">").append((int) target.getPDef()).append("</font></td>");
+		c.append("<td><font color=\"888888\">M.Atk:</font> <font color=\"FFFFFF\">").append((int) target.getMAtk()).append("</font></td>");
+		c.append("<td><font color=\"888888\">M.Def:</font> <font color=\"FFFFFF\">").append((int) target.getMDef()).append("</font></td>");
 		c.append("</tr>");
 		c.append("<tr>");
 		c.append("<td><font color=\"888888\">Velocidade:</font> <font color=\"FFFFFF\">").append(target.getRunSpeed()).append("</font></td>");
-		c.append("<td><font color=\"888888\">Crit:</font> <font color=\"FFFFFF\">").append((int)target.getCriticalHit()).append("</font></td>");
+		c.append("<td><font color=\"888888\">Crit:</font> <font color=\"FFFFFF\">").append((int) target.getCriticalHit()).append("</font></td>");
 		c.append("<td><font color=\"888888\">Evasao:</font> <font color=\"FFFFFF\">").append(target.getEvasionRate()).append("</font></td>");
 		c.append("<td><font color=\"888888\">Precisao:</font> <font color=\"FFFFFF\">").append(target.getAccuracy()).append("</font></td>");
 		c.append("</tr>");
-
+		
 		// equipamentos
 		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
 		c.append("<tr><td colspan=4 align=center><font color=\"CDB67F\">EQUIPAMENTOS</font></td></tr>");
 		c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
-
+		
 		for (int i = 0; i < EQUIP_SLOTS.length; i++)
 		{
 			final Item item = target.getInventory().getPaperdollItem(EQUIP_SLOTS[i]);
-			if (item == null) continue;
+			if (item == null)
+				continue;
 			final String enchant = item.getEnchantLevel() > 0 ? " <font color=\"FFAA00\">+" + item.getEnchantLevel() + "</font>" : "";
 			final String icon = item.getTemplate().getIcon() != null ? item.getTemplate().getIcon() : "L2UI_CH3.shortcut_dfbutton";
 			c.append("<tr>");
@@ -1698,10 +2081,10 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			c.append("<td colspan=2><font color=\"CCCCCC\">").append(item.getName()).append("</font>").append(enchant).append("</td>");
 			c.append("</tr>");
 		}
-
+		
 		c.append("</table>");
 	}
-
+	
 	private void buildInspectFromDB(StringBuilder c, String name)
 	{
 		try (Connection con = DatabaseFactory.getConnection())
@@ -1709,7 +2092,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			int charId = -1;
 			String charName = "";
 			int level = 0, classId = 0, race = 0, pvp = 0, pk = 0;
-
+			
 			try (PreparedStatement ps = con.prepareStatement("SELECT charId, char_name, level, classid, race, pvpkills, pkKills FROM characters WHERE char_name=? AND accesslevel=0 LIMIT 1"))
 			{
 				ps.setString(1, name);
@@ -1720,16 +2103,16 @@ public class IkaCommunityBoard implements IParseBoardHandler
 						c.append("<center><font color=\"FF4444\">Jogador '").append(name).append("' nao encontrado.</font></center>");
 						return;
 					}
-					charId   = rs.getInt("charId");
+					charId = rs.getInt("charId");
 					charName = rs.getString("char_name");
-					level    = rs.getInt("level");
-					classId  = rs.getInt("classid");
-					race     = rs.getInt("race");
-					pvp      = rs.getInt("pvpkills");
-					pk       = rs.getInt("pkKills");
+					level = rs.getInt("level");
+					classId = rs.getInt("classid");
+					race = rs.getInt("race");
+					pvp = rs.getInt("pvpkills");
+					pk = rs.getInt("pkKills");
 				}
 			}
-
+			
 			c.append("<table width=530 cellpadding=3 cellspacing=0>");
 			c.append("<tr><td colspan=4 align=center><font color=\"888888\">&#9679; Offline</font>  <font color=\"CDB67F\" name=\"hs12\">").append(charName).append("</font></td></tr>");
 			c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
@@ -1739,14 +2122,13 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			c.append("<td width=100><font color=\"888888\">Raca:</font> <font color=\"FFFFFF\">").append(getRaceName(race)).append("</font></td>");
 			c.append("<td width=100><font color=\"888888\">PvP:</font> <font color=\"FF6666\">").append(pvp).append("</font> <font color=\"888888\">PK:</font> <font color=\"AA4444\">").append(pk).append("</font></td>");
 			c.append("</tr>");
-
+			
 			// equipamentos do banco
 			c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
 			c.append("<tr><td colspan=4 align=center><font color=\"CDB67F\">EQUIPAMENTOS</font></td></tr>");
 			c.append("<tr><td colspan=4><img src=\"L2UI.SquareGray\" width=530 height=1></td></tr>");
-
-			try (PreparedStatement ps2 = con.prepareStatement(
-				"SELECT i.item_id, i.enchant_level, i.loc_data FROM items i WHERE i.owner_id=? AND i.loc='PAPERDOLL' ORDER BY i.loc_data"))
+			
+			try (PreparedStatement ps2 = con.prepareStatement("SELECT i.item_id, i.enchant_level, i.loc_data FROM items i WHERE i.owner_id=? AND i.loc='PAPERDOLL' ORDER BY i.loc_data"))
 			{
 				ps2.setInt(1, charId);
 				try (ResultSet rs2 = ps2.executeQuery())
@@ -1779,15 +2161,13 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			c.append("<center><font color=\"FF4444\">Erro ao buscar jogador.</font></center>");
 		}
 	}
-
+	
 	private String buildBar(int pct, String fillColor, String bgColor, int width)
 	{
-		int fill = (int)(width * pct / 100.0);
-		return "<table width=" + width + " height=10 cellpadding=0 cellspacing=0 bgcolor=\"" + bgColor + "\"><tr>" +
-			"<td><table width=" + fill + " height=10 bgcolor=\"" + fillColor + "\"><tr><td></td></tr></table></td>" +
-			"</tr></table> <font color=\"888888\">" + pct + "%</font>";
+		int fill = (int) (width * pct / 100.0);
+		return "<table width=" + width + " height=10 cellpadding=0 cellspacing=0 bgcolor=\"" + bgColor + "\"><tr>" + "<td><table width=" + fill + " height=10 bgcolor=\"" + fillColor + "\"><tr><td></td></tr></table></td>" + "</tr></table> <font color=\"888888\">" + pct + "%</font>";
 	}
-
+	
 	private String getClassName(int classId)
 	{
 		try
@@ -1799,7 +2179,7 @@ public class IkaCommunityBoard implements IParseBoardHandler
 			return "Classe " + classId;
 		}
 	}
-
+	
 	private String getRaceName(int race)
 	{
 		return (race >= 0 && race < RACES.length) ? RACES[race] : "Race " + race;

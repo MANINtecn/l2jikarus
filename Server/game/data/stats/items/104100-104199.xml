@@ -781,6 +781,7 @@
 		<!-- Applies a buff when used. <Buff effect>. STR/ INT +1. Atk. Spd./ Casting Spd. +100. Speed +5. Skill Power +5%. Max HP/ MP +5%. Acquired XP/ SP +30%. Paralysis/ Silence/ Fear Resistance +15%. Duration: 20 min. Cooldown: 1 min. The effect remains after death. -->
 		<set name="icon" val="icon.bereserker_scroll_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
