@@ -55,6 +55,11 @@ public class Atingo extends Script
 		25919  // Buffalo
 	};
 
+	// TODO: adicionar mais 3 zonas futuras (coletar coordenadas in-game):
+	//   - Primeval Isle
+	//   - Tower of Insolence
+	//   - Orc Barracks
+
 	// Zonas de spawn (gatilho): Atingo escolhe uma ZONA aleatoria e depois um ponto REAL dela.
 	// Assim o jogador sabe a zona, mas nao o ponto exato.
 	private static final Location[][] SPAWN_ZONES =
